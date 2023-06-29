@@ -7247,3 +7247,70 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 12:36:54] INFO root fetch - processPackages [jina]: Remove: archive file [/home/abi/fetcher/tmp/jina-3.9.3.dev9.tar.gz]
 [2023-06-29 12:36:54] INFO root fetch - main [MainThread]: End processing [jina]: success
 [2023-06-29 12:36:54] INFO root fetch - main [MainThread]: Store serial: [18693747]
+[2023-06-29 12:41:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18693747]
+[2023-06-29 12:42:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-29 12:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nics
+[2023-06-29 12:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nics
+[2023-06-29 12:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaaql-middleware-python
+[2023-06-29 12:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fabrique-nodes-core
+[2023-06-29 12:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cicv
+[2023-06-29 12:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neo4j-driver
+[2023-06-29 12:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neo4j
+[2023-06-29 12:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: intel-extension-for-deepspeed
+[2023-06-29 12:42:03] INFO root fetch - processPackages [nics]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2023-06-29 12:42:03] INFO root fetch - processPackages [nics]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2023-06-29 12:42:03] INFO root fetch - processPackages [fabrique-nodes-core]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-29 12:42:03] INFO root fetch - processPackages [neo4j]: New version: [5.9.0] Old Version: [5.8.1]
+[2023-06-29 12:42:03] INFO root fetch - processPackages [intel-extension-for-deepspeed]: New version: [0.9.4] Old Version: [0.1.dev20230613]
+[2023-06-29 12:42:03] WARNING root fetch - processPackages [cicv]: Skipping, unable to determine old version
+[2023-06-29 12:42:03] INFO root fetch - processPackages [neo4j-driver]: New version: [5.9.0] Old Version: [5.8.1]
+[2023-06-29 12:42:03] INFO root fetch - main [MainThread]: End processing [cicv] error
+[2023-06-29 12:42:03] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-06-29 12:42:04] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/5c/29/6cb85a71537e8f30aa90f242c02eea2d3ca361001bc4860bdcac60ef21b3/jaaql-middleware-python-4.9.0.tar.gz
+[2023-06-29 12:42:04] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/a5/82/75d8380b689b6b505de21a8248b6da4bb4e5dff7d589179f32ea55c9dedd/nics-1.0.0rc1.tar.gz
+[2023-06-29 12:42:04] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/a5/82/75d8380b689b6b505de21a8248b6da4bb4e5dff7d589179f32ea55c9dedd/nics-1.0.0rc1.tar.gz
+[2023-06-29 12:42:04] INFO root fetch - processPackages [intel-extension-for-deepspeed]: Downloading https://files.pythonhosted.org/packages/fc/a1/b54e342edb20e7335a5ceb4447deda6cf5f3d539d784af63c341de74d1c2/intel_extension_for_deepspeed-0.1.dev20230613-py3-none-any.whl
+[2023-06-29 12:42:04] INFO root fetch - processPackages [neo4j]: Downloading https://files.pythonhosted.org/packages/97/9f/8f04fe1e04c832d87283ede166290cc29c1c3aa0d274946f88361d42a9d3/neo4j-5.8.1.tar.gz
+[2023-06-29 12:42:04] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/1c/9b/c594efdb4d5a8a8eb6e0876f48857da40e24c3018095e5e6276aad18d78d/jaaql-middleware-python-4.9.1.tar.gz
+[2023-06-29 12:42:04] INFO root fetch - processPackages [fabrique-nodes-core]: Downloading https://files.pythonhosted.org/packages/59/21/5347bdae23e1f4486334f037f76d34b2023effebb750f85fb4e5d087fdc9/fabrique_nodes_core-0.9.7-py3-none-any.whl
+[2023-06-29 12:42:04] INFO root fetch - processPackages [neo4j-driver]: Downloading https://files.pythonhosted.org/packages/ee/b7/871ed94df9f20f81b87dc6ed0be9e4820ce99103bd15080ec1cc7c514009/neo4j-driver-5.8.1.tar.gz
+[2023-06-29 12:42:04] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-06-29 12:42:04] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.9.0.tar.gz tmp/jaaql-middleware-python-4.9.1.tar.gz --markdown 20230629/j/jaaql-middleware-python/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-06-29 12:42:04] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/2f/b9/fbf5087ba812891c3c7886c484c75215bec8d7a8ebf178ec411009996ab9/nics-1.0.0rc2.tar.gz
+[2023-06-29 12:42:04] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/2f/b9/fbf5087ba812891c3c7886c484c75215bec8d7a8ebf178ec411009996ab9/nics-1.0.0rc2.tar.gz
+[2023-06-29 12:42:04] INFO root fetch - processPackages [neo4j]: Downloading https://files.pythonhosted.org/packages/e9/b7/faa4628ea379f9e43772ca4448356a35e58ce44306a91117f2892487e187/neo4j-5.9.0.tar.gz
+[2023-06-29 12:42:04] INFO root fetch - processPackages [intel-extension-for-deepspeed]: Downloading https://files.pythonhosted.org/packages/19/d9/657b51673365943bc6d1ab5aa09e460cd8dfd36f1b648b9eecf1c3b67190/intel_extension_for_deepspeed-0.9.4-py3-none-any.whl
+[2023-06-29 12:42:04] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-06-29 12:42:04] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-1.0.0rc1.tar.gz tmp/nics-1.0.0rc2.tar.gz --markdown 20230629/n/nics/1.0.0rc1-1.0.0rc2/diff.md --exclude *.pyd
+[2023-06-29 12:42:04] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-06-29 12:42:04] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-1.0.0rc1.tar.gz tmp/nics-1.0.0rc2.tar.gz --markdown 20230629/n/nics/1.0.0rc1-1.0.0rc2/diff.md --exclude *.pyd
+[2023-06-29 12:42:04] INFO root fetch - processPackages [neo4j]: executing diffoscope
+[2023-06-29 12:42:04] INFO root fetch - processPackages [neo4j]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo4j-5.8.1.tar.gz tmp/neo4j-5.9.0.tar.gz --markdown 20230629/n/neo4j/5.8.1-5.9.0/diff.md --exclude *.pyd
+[2023-06-29 12:42:04] INFO root fetch - processPackages [neo4j-driver]: Downloading https://files.pythonhosted.org/packages/c9/1e/14751507bec61648b83204fc90b3840d616876294276092a7ebf4dd51a59/neo4j-driver-5.9.0.tar.gz
+[2023-06-29 12:42:04] INFO root fetch - processPackages [intel-extension-for-deepspeed]: executing diffoscope
+[2023-06-29 12:42:04] INFO root fetch - processPackages [intel-extension-for-deepspeed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intel_extension_for_deepspeed-0.1.dev20230613-py3-none-any.whl.zip tmp/intel_extension_for_deepspeed-0.9.4-py3-none-any.whl.zip --markdown 20230629/i/intel-extension-for-deepspeed/0.1.dev20230613-0.9.4/diff.md --exclude *.pyd
+[2023-06-29 12:42:04] INFO root fetch - processPackages [neo4j-driver]: executing diffoscope
+[2023-06-29 12:42:04] INFO root fetch - processPackages [neo4j-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo4j-driver-5.8.1.tar.gz tmp/neo4j-driver-5.9.0.tar.gz --markdown 20230629/n/neo4j-driver/5.8.1-5.9.0/diff.md --exclude *.pyd
+[2023-06-29 12:42:04] INFO root fetch - processPackages [fabrique-nodes-core]: Downloading https://files.pythonhosted.org/packages/82/20/2f588d230e810ce50e4b1f27f47a5ff3114cba10e64659f1208874ac1396/fabrique_nodes_core-0.9.8-py3-none-any.whl
+[2023-06-29 12:42:04] INFO root fetch - processPackages [fabrique-nodes-core]: executing diffoscope
+[2023-06-29 12:42:04] INFO root fetch - processPackages [fabrique-nodes-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrique_nodes_core-0.9.7-py3-none-any.whl.zip tmp/fabrique_nodes_core-0.9.8-py3-none-any.whl.zip --markdown 20230629/f/fabrique-nodes-core/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-29 12:42:05] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-1.0.0rc1.tar.gz]
+[2023-06-29 12:42:05] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-1.0.0rc2.tar.gz]
+[2023-06-29 12:42:05] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-06-29 12:42:05] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.0.tar.gz]
+[2023-06-29 12:42:05] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.1.tar.gz]
+[2023-06-29 12:42:05] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-06-29 12:42:06] INFO root fetch - processPackages [fabrique-nodes-core]: Remove: archive file [/home/abi/fetcher/tmp/fabrique_nodes_core-0.9.7-py3-none-any.whl.zip]
+[2023-06-29 12:42:06] INFO root fetch - processPackages [fabrique-nodes-core]: Remove: archive file [/home/abi/fetcher/tmp/fabrique_nodes_core-0.9.8-py3-none-any.whl.zip]
+[2023-06-29 12:42:06] INFO root fetch - main [MainThread]: End processing [fabrique-nodes-core]: success
+[2023-06-29 12:42:06] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-06-29 12:42:06] INFO root fetch - processPackages [intel-extension-for-deepspeed]: Remove: archive file [/home/abi/fetcher/tmp/intel_extension_for_deepspeed-0.1.dev20230613-py3-none-any.whl.zip]
+[2023-06-29 12:42:06] INFO root fetch - processPackages [intel-extension-for-deepspeed]: Remove: archive file [/home/abi/fetcher/tmp/intel_extension_for_deepspeed-0.9.4-py3-none-any.whl.zip]
+[2023-06-29 12:42:06] INFO root fetch - main [MainThread]: End processing [intel-extension-for-deepspeed]: success
+[2023-06-29 12:42:06] INFO root fetch - processPackages [neo4j-driver]: Remove: archive file [/home/abi/fetcher/tmp/neo4j-driver-5.8.1.tar.gz]
+[2023-06-29 12:42:06] INFO root fetch - processPackages [neo4j-driver]: Remove: archive file [/home/abi/fetcher/tmp/neo4j-driver-5.9.0.tar.gz]
+[2023-06-29 12:42:06] INFO root fetch - main [MainThread]: End processing [neo4j-driver]: success
+[2023-06-29 12:42:08] INFO root fetch - processPackages [neo4j]: Remove: archive file [/home/abi/fetcher/tmp/neo4j-5.8.1.tar.gz]
+[2023-06-29 12:42:08] INFO root fetch - processPackages [neo4j]: Remove: archive file [/home/abi/fetcher/tmp/neo4j-5.9.0.tar.gz]
+[2023-06-29 12:42:08] INFO root fetch - main [MainThread]: End processing [neo4j]: success
+[2023-06-29 12:42:08] INFO root fetch - main [MainThread]: Store serial: [18693771]
