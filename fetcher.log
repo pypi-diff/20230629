@@ -16433,3 +16433,109 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 18:13:38] INFO root fetch - processPackages [canaille]: Remove: archive file [/home/abi/fetcher/tmp/Canaille-0.0.9.tar.gz]
 [2023-06-29 18:13:38] INFO root fetch - main [MainThread]: End processing [canaille]: success
 [2023-06-29 18:13:38] INFO root fetch - main [MainThread]: Store serial: [18697654]
+[2023-06-29 18:18:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18697654]
+[2023-06-29 18:18:57] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-29 18:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: popstar
+[2023-06-29 18:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: roland
+[2023-06-29 18:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amazon-braket-sdk
+[2023-06-29 18:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: garden-ai
+[2023-06-29 18:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amazon-braket-default-simulator
+[2023-06-29 18:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: embiggen
+[2023-06-29 18:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pygments-rzk
+[2023-06-29 18:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: amazon-braket-schemas
+[2023-06-29 18:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ai-aside
+[2023-06-29 18:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: edx-enterprise
+[2023-06-29 18:18:57] INFO root fetch - processPackages [amazon-braket-sdk]: New version: [1.9.5.post0] Old Version: [1.9.5]
+[2023-06-29 18:18:57] INFO root fetch - processPackages [amazon-braket-schemas]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-29 18:18:57] INFO root fetch - processPackages [amazon-braket-sdk]: Downloading https://files.pythonhosted.org/packages/85/cb/f563b80f4c903004b15e6be7245ef49cc3d1e16c8a667aab991f31853061/amazon-braket-sdk-1.9.5.tar.gz
+[2023-06-29 18:18:57] WARNING root fetch - processPackages [popstar]: Skipping, unable to determine old version
+[2023-06-29 18:18:57] INFO root fetch - processPackages [popstar]: Start processing: mock-registry
+[2023-06-29 18:18:57] INFO root fetch - main [MainThread]: End processing [popstar] error
+[2023-06-29 18:18:57] INFO root fetch - processPackages [embiggen]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-29 18:18:57] INFO root fetch - processPackages [ai-aside]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-29 18:18:57] INFO root fetch - processPackages [garden-ai]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-29 18:18:57] WARNING root fetch - processPackages [roland]: Skipping, unable to determine old version
+[2023-06-29 18:18:57] INFO root fetch - processPackages [roland]: Start processing: tcfetch
+[2023-06-29 18:18:57] INFO root fetch - main [MainThread]: End processing [roland] error
+[2023-06-29 18:18:57] INFO root fetch - processPackages [amazon-braket-default-simulator]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-29 18:18:57] INFO root fetch - processPackages [edx-enterprise]: New version: [3.9.9] Old Version: [3.9.7]
+[2023-06-29 18:18:57] INFO root fetch - processPackages [pygments-rzk]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-29 18:18:57] WARNING root fetch - processPackages [mock-registry]: Skipping, unable to determine old version
+[2023-06-29 18:18:57] INFO root fetch - processPackages [mock-registry]: Start processing: neon-phal-plugin-linear-led
+[2023-06-29 18:18:57] INFO root fetch - main [MainThread]: End processing [mock-registry] error
+[2023-06-29 18:18:57] INFO root fetch - processPackages [amazon-braket-schemas]: Downloading https://files.pythonhosted.org/packages/c9/fd/246fed981f078c80529e9f8b671626c47d723a6732afea02cb180a60e28a/amazon-braket-schemas-1.8.0.tar.gz
+[2023-06-29 18:18:57] INFO root fetch - processPackages [amazon-braket-sdk]: Downloading https://files.pythonhosted.org/packages/9e/84/c7a37a19be25e1021345ade602f9852e48f219edaa855aa624e9d54e0d70/amazon-braket-sdk-1.9.5.post0.tar.gz
+[2023-06-29 18:18:57] INFO root fetch - processPackages [edx-enterprise]: executing diffoscope
+[2023-06-29 18:18:57] INFO root fetch - processPackages [edx-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-enterprise-3.9.7.tar.gz tmp/edx-enterprise-3.9.9.tar.gz --markdown 20230629/e/edx-enterprise/3.9.7-3.9.9/diff.md --exclude *.pyd
+[2023-06-29 18:18:57] INFO root fetch - processPackages [embiggen]: Downloading https://files.pythonhosted.org/packages/93/68/e13cdca050b32069a58f9e36d05835a384d261a5d1f299af468629e721e1/embiggen-0.9.2.tar.gz
+[2023-06-29 18:18:57] INFO root fetch - processPackages [garden-ai]: Downloading https://files.pythonhosted.org/packages/73/9f/ff75ae86ccb1ba22974ad964a84e725e46a5d9ef4e298f78c5f8b2dcae86/garden_ai-0.4.2.tar.gz
+[2023-06-29 18:18:57] INFO root fetch - processPackages [ai-aside]: Downloading https://files.pythonhosted.org/packages/9a/16/27315cf3d2704be484145169e4bab838e3c80727ad54f141710c2a14b157/ai-aside-2.0.0.tar.gz
+[2023-06-29 18:18:57] INFO root fetch - processPackages [neon-phal-plugin-linear-led]: New version: [0.2.2a2] Old Version: [0.2.2a1]
+[2023-06-29 18:18:57] INFO root fetch - processPackages [amazon-braket-default-simulator]: Downloading https://files.pythonhosted.org/packages/7a/54/afd1e44249d5686858ad0d2bf2cae1c33a712e04c7a97a79ae6b17ec38c5/amazon-braket-default-simulator-1.9.0.tar.gz
+[2023-06-29 18:18:57] INFO root fetch - processPackages [tcfetch]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-06-29 18:18:57] INFO root fetch - processPackages [pygments-rzk]: Downloading https://files.pythonhosted.org/packages/93/30/f4a9bf9b99fda3e840a944063f977ba0ba744e8496e16bced4071bb8544c/pygments-rzk-0.1.0.tar.gz
+[2023-06-29 18:18:57] INFO root fetch - processPackages [amazon-braket-sdk]: executing diffoscope
+[2023-06-29 18:18:57] INFO root fetch - processPackages [amazon-braket-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-sdk-1.9.5.tar.gz tmp/amazon-braket-sdk-1.9.5.post0.tar.gz --markdown 20230629/a/amazon-braket-sdk/1.9.5-1.9.5.post0/diff.md --exclude *.pyd
+[2023-06-29 18:18:58] INFO root fetch - processPackages [neon-phal-plugin-linear-led]: Downloading https://files.pythonhosted.org/packages/9e/70/f92b74d9cb4dfd22fb694454886e486a3034fdb90a247bfc0f650624fb83/neon-phal-plugin-linear_led-0.2.2a1.tar.gz
+[2023-06-29 18:18:58] INFO root fetch - processPackages [tcfetch]: Downloading https://files.pythonhosted.org/packages/5f/a6/54882c0d9db257494cf96b2b73037cc3466ddeb09da8e8986d0f89b7bcfe/tcfetch-0.3.2.tar.gz
+[2023-06-29 18:18:58] INFO root fetch - processPackages [embiggen]: Downloading https://files.pythonhosted.org/packages/4b/25/4e08b9a62e34917ef75c8ed47526252ca4bcd5d5e15961bc14dc9486ccf8/embiggen-0.9.3.tar.gz
+[2023-06-29 18:18:58] INFO root fetch - processPackages [amazon-braket-schemas]: Downloading https://files.pythonhosted.org/packages/1d/aa/207310180e24b721f4e329a40c3a099844ed68a3706c0b5e6dbf779ef8aa/amazon-braket-schemas-1.9.0.tar.gz
+[2023-06-29 18:18:58] INFO root fetch - processPackages [ai-aside]: Downloading https://files.pythonhosted.org/packages/02/bc/99c5c6575aa4cc357e2e1c4ed214dfa79b4e76d07ac90af36bd967d5057e/ai-aside-2.0.1.tar.gz
+[2023-06-29 18:18:58] INFO root fetch - processPackages [amazon-braket-default-simulator]: Downloading https://files.pythonhosted.org/packages/19/51/99a137715b8e8e9cd12028bbbcfb41c842f5047587e62140eb7463a3014f/amazon-braket-default-simulator-1.9.1.tar.gz
+[2023-06-29 18:18:58] INFO root fetch - processPackages [embiggen]: executing diffoscope
+[2023-06-29 18:18:58] INFO root fetch - processPackages [embiggen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embiggen-0.9.2.tar.gz tmp/embiggen-0.9.3.tar.gz --markdown 20230629/e/embiggen/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-29 18:18:58] INFO root fetch - processPackages [amazon-braket-schemas]: executing diffoscope
+[2023-06-29 18:18:58] INFO root fetch - processPackages [amazon-braket-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-schemas-1.8.0.tar.gz tmp/amazon-braket-schemas-1.9.0.tar.gz --markdown 20230629/a/amazon-braket-schemas/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-29 18:18:58] INFO root fetch - processPackages [garden-ai]: Downloading https://files.pythonhosted.org/packages/01/25/aeba5364a0a139ef247abe5206cce727a2519e3eb66a9dd7b3aab24603d7/garden_ai-0.4.3.tar.gz
+[2023-06-29 18:18:58] INFO root fetch - processPackages [pygments-rzk]: Downloading https://files.pythonhosted.org/packages/30/d4/09363c6d34e203b0e2c590044ee04358be71ecd5ef3e1a1842e86ee52c78/pygments-rzk-0.1.1.tar.gz
+[2023-06-29 18:18:58] INFO root fetch - processPackages [ai-aside]: executing diffoscope
+[2023-06-29 18:18:58] INFO root fetch - processPackages [ai-aside]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai-aside-2.0.0.tar.gz tmp/ai-aside-2.0.1.tar.gz --markdown 20230629/a/ai-aside/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-29 18:18:58] INFO root fetch - processPackages [amazon-braket-default-simulator]: executing diffoscope
+[2023-06-29 18:18:58] INFO root fetch - processPackages [amazon-braket-default-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-default-simulator-1.9.0.tar.gz tmp/amazon-braket-default-simulator-1.9.1.tar.gz --markdown 20230629/a/amazon-braket-default-simulator/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-29 18:18:58] INFO root fetch - processPackages [garden-ai]: executing diffoscope
+[2023-06-29 18:18:58] INFO root fetch - processPackages [garden-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garden_ai-0.4.2.tar.gz tmp/garden_ai-0.4.3.tar.gz --markdown 20230629/g/garden-ai/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-29 18:18:58] INFO root fetch - processPackages [neon-phal-plugin-linear-led]: Downloading https://files.pythonhosted.org/packages/3c/93/146d34f2fb73e4c205b33248dcb584ad910b396a8892ad467a5a35367cc6/neon-phal-plugin-linear_led-0.2.2a2.tar.gz
+[2023-06-29 18:18:58] INFO root fetch - processPackages [tcfetch]: Downloading https://files.pythonhosted.org/packages/6e/a7/c429425227b059789aaef2750a7029f067b2e33215ba74619c8f2fe67820/tcfetch-0.4.0-cp311-cp311-macosx_10_7_x86_64.whl
+[2023-06-29 18:18:58] INFO root fetch - processPackages [neon-phal-plugin-linear-led]: executing diffoscope
+[2023-06-29 18:18:58] INFO root fetch - processPackages [neon-phal-plugin-linear-led]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-phal-plugin-linear_led-0.2.2a1.tar.gz tmp/neon-phal-plugin-linear_led-0.2.2a2.tar.gz --markdown 20230629/n/neon-phal-plugin-linear-led/0.2.2a1-0.2.2a2/diff.md --exclude *.pyd
+[2023-06-29 18:18:58] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-3.9.7.tar.gz]
+[2023-06-29 18:18:58] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-3.9.9.tar.gz]
+[2023-06-29 18:18:58] INFO root fetch - processPackages [edx-enterprise]: Start processing: pygments-rzk
+[2023-06-29 18:18:58] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
+[2023-06-29 18:18:58] INFO root fetch - processPackages [pygments-rzk]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-29 18:18:59] INFO root fetch - processPackages [pygments-rzk]: Downloading https://files.pythonhosted.org/packages/30/d4/09363c6d34e203b0e2c590044ee04358be71ecd5ef3e1a1842e86ee52c78/pygments-rzk-0.1.1.tar.gz
+[2023-06-29 18:18:59] INFO root fetch - processPackages [pygments-rzk]: executing diffoscope
+[2023-06-29 18:18:59] INFO root fetch - processPackages [pygments-rzk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygments-rzk-0.1.0.tar.gz tmp/pygments-rzk-0.1.1.tar.gz --markdown 20230629/p/pygments-rzk/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-29 18:18:59] INFO root fetch - processPackages [pygments-rzk]: executing diffoscope
+[2023-06-29 18:18:59] INFO root fetch - processPackages [pygments-rzk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygments-rzk-0.1.0.tar.gz tmp/pygments-rzk-0.1.1.tar.gz --markdown 20230629/p/pygments-rzk/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-29 18:18:59] INFO root fetch - processPackages [ai-aside]: Remove: archive file [/home/abi/fetcher/tmp/ai-aside-2.0.0.tar.gz]
+[2023-06-29 18:18:59] INFO root fetch - processPackages [ai-aside]: Remove: archive file [/home/abi/fetcher/tmp/ai-aside-2.0.1.tar.gz]
+[2023-06-29 18:18:59] INFO root fetch - main [MainThread]: End processing [ai-aside]: success
+[2023-06-29 18:18:59] INFO root fetch - processPackages [neon-phal-plugin-linear-led]: Remove: archive file [/home/abi/fetcher/tmp/neon-phal-plugin-linear_led-0.2.2a1.tar.gz]
+[2023-06-29 18:18:59] INFO root fetch - processPackages [neon-phal-plugin-linear-led]: Remove: archive file [/home/abi/fetcher/tmp/neon-phal-plugin-linear_led-0.2.2a2.tar.gz]
+[2023-06-29 18:18:59] INFO root fetch - main [MainThread]: End processing [neon-phal-plugin-linear-led]: success
+[2023-06-29 18:18:59] INFO root fetch - processPackages [garden-ai]: Remove: archive file [/home/abi/fetcher/tmp/garden_ai-0.4.2.tar.gz]
+[2023-06-29 18:18:59] INFO root fetch - processPackages [garden-ai]: Remove: archive file [/home/abi/fetcher/tmp/garden_ai-0.4.3.tar.gz]
+[2023-06-29 18:18:59] INFO root fetch - main [MainThread]: End processing [garden-ai]: success
+[2023-06-29 18:18:59] INFO root fetch - processPackages [amazon-braket-default-simulator]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-default-simulator-1.9.0.tar.gz]
+[2023-06-29 18:18:59] INFO root fetch - processPackages [amazon-braket-default-simulator]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-default-simulator-1.9.1.tar.gz]
+[2023-06-29 18:18:59] INFO root fetch - main [MainThread]: End processing [amazon-braket-default-simulator]: success
+[2023-06-29 18:19:00] INFO root fetch - processPackages [pygments-rzk]: Remove: archive file [/home/abi/fetcher/tmp/pygments-rzk-0.1.0.tar.gz]
+[2023-06-29 18:19:00] INFO root fetch - processPackages [pygments-rzk]: Remove: archive file [/home/abi/fetcher/tmp/pygments-rzk-0.1.1.tar.gz]
+[2023-06-29 18:19:00] INFO root fetch - main [MainThread]: End processing [pygments-rzk]: success
+[2023-06-29 18:19:00] INFO root fetch - processPackages [embiggen]: Remove: archive file [/home/abi/fetcher/tmp/embiggen-0.9.2.tar.gz]
+[2023-06-29 18:19:00] INFO root fetch - processPackages [embiggen]: Remove: archive file [/home/abi/fetcher/tmp/embiggen-0.9.3.tar.gz]
+[2023-06-29 18:19:00] INFO root fetch - main [MainThread]: End processing [embiggen]: success
+[2023-06-29 18:19:00] INFO root fetch - processPackages [amazon-braket-schemas]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-schemas-1.8.0.tar.gz]
+[2023-06-29 18:19:00] INFO root fetch - processPackages [amazon-braket-schemas]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-schemas-1.9.0.tar.gz]
+[2023-06-29 18:19:00] INFO root fetch - main [MainThread]: End processing [amazon-braket-schemas]: success
+[2023-06-29 18:19:00] INFO root fetch - processPackages [amazon-braket-sdk]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-sdk-1.9.5.tar.gz]
+[2023-06-29 18:19:00] INFO root fetch - processPackages [amazon-braket-sdk]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-sdk-1.9.5.post0.tar.gz]
+[2023-06-29 18:19:00] INFO root fetch - main [MainThread]: End processing [amazon-braket-sdk]: success
+[2023-06-29 18:19:00] INFO root fetch - processPackages [tcfetch]: executing diffoscope
+[2023-06-29 18:19:00] INFO root fetch - processPackages [tcfetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcfetch-0.3.2.tar.gz tmp/tcfetch-0.4.0-cp311-cp311-macosx_10_7_x86_64.whl.zip --markdown 20230629/t/tcfetch/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-06-29 18:19:01] INFO root fetch - main [MainThread]: End processing [pygments-rzk]: success
+[2023-06-29 18:19:01] INFO root fetch - processPackages [tcfetch]: Remove: archive file [/home/abi/fetcher/tmp/tcfetch-0.3.2.tar.gz]
+[2023-06-29 18:19:01] INFO root fetch - processPackages [tcfetch]: Remove: archive file [/home/abi/fetcher/tmp/tcfetch-0.4.0-cp311-cp311-macosx_10_7_x86_64.whl.zip]
+[2023-06-29 18:19:01] INFO root fetch - main [MainThread]: End processing [tcfetch]: success
+[2023-06-29 18:19:01] INFO root fetch - main [MainThread]: Store serial: [18697707]
