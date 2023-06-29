@@ -22719,3 +22719,286 @@ EOFError: EOF read where object expected
 [2023-06-29 22:39:41] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.345.9.tar.gz]
 [2023-06-29 22:39:41] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-06-29 22:39:41] INFO root fetch - main [MainThread]: Store serial: [18700341]
+[2023-06-29 22:44:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18700341]
+[2023-06-29 22:44:51] INFO root fetch - main [MainThread]: Found 34 changed packages
+[2023-06-29 22:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-shopinvader-fastapi-auth-jwt
+[2023-06-29 22:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiodanbooru
+[2023-06-29 22:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CNUfof-utils
+[2023-06-29 22:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xia-cache
+[2023-06-29 22:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: enigmacrypt
+[2023-06-29 22:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hmd-lib-librarian-client
+[2023-06-29 22:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abm-colony-collection
+[2023-06-29 22:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-oci
+[2023-06-29 22:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xia-agent
+[2023-06-29 22:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tychos
+[2023-06-29 22:44:51] WARNING root fetch - processPackages [odoo-addon-shopinvader-fastapi-auth-jwt]: Skipping, unable to determine old version
+[2023-06-29 22:44:51] INFO root fetch - processPackages [odoo-addon-shopinvader-fastapi-auth-jwt]: Start processing: medidata
+[2023-06-29 22:44:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-shopinvader-fastapi-auth-jwt] error
+[2023-06-29 22:44:51] INFO root fetch - processPackages [xia-cache]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-29 22:44:51] WARNING root fetch - processPackages [CNUfof-utils]: Skipping, unable to determine old version
+[2023-06-29 22:44:51] INFO root fetch - processPackages [CNUfof-utils]: Start processing: xia-cloudmailin
+[2023-06-29 22:44:51] INFO root fetch - main [MainThread]: End processing [CNUfof-utils] error
+[2023-06-29 22:44:51] INFO root fetch - processPackages [abm-colony-collection]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-29 22:44:51] INFO root fetch - processPackages [hmd-lib-librarian-client]: New version: [0.1.53] Old Version: [0.1.50]
+[2023-06-29 22:44:51] INFO root fetch - processPackages [aiodanbooru]: New version: [1.0.3] Old Version: [1.0.1]
+[2023-06-29 22:44:51] INFO root fetch - processPackages [tychos]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-06-29 22:44:51] INFO root fetch - processPackages [enigmacrypt]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-29 22:44:51] INFO root fetch - processPackages [xia-agent]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-29 22:44:51] INFO root fetch - processPackages [medidata]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-29 22:44:51] INFO root fetch - processPackages [pulumi-oci]: New version: [1.2.0a1688057302] Old Version: [1.2.0a1687673610]
+[2023-06-29 22:44:51] INFO root fetch - processPackages [xia-cloudmailin]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-29 22:44:51] INFO root fetch - processPackages [hmd-lib-librarian-client]: Downloading https://files.pythonhosted.org/packages/b8/1f/be1ac98b3d71fa03ef510751d0c95353c94cf55790324fbf31b48ab4d407/hmd_lib_librarian_client-0.1.50-py3-none-any.whl
+[2023-06-29 22:44:51] INFO root fetch - processPackages [xia-agent]: Downloading https://files.pythonhosted.org/packages/cc/45/814f73d57729ebd52da7c7620e6cb703964215cfd93abac942b27f6e5962/xia_agent-0.1.3-cp39-none-win_amd64.whl
+[2023-06-29 22:44:51] INFO root fetch - processPackages [enigmacrypt]: Downloading https://files.pythonhosted.org/packages/ba/75/08bd5d5663a21376e191197bca230660ead49618cb9aa5a2f7cb4264256c/enigmacrypt-0.0.1.tar.gz
+[2023-06-29 22:44:51] INFO root fetch - processPackages [xia-cache]: Downloading https://files.pythonhosted.org/packages/fc/77/d89d8e36cd7ab768f832384257f6ad1e536d50bb8c5fa5a6c724b0f2c8e6/xia_cache-0.1.3-cp39-none-win_amd64.whl
+[2023-06-29 22:44:51] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/5e/04/c86654783510dcb20d3b2da01afe36e39eb82587fb2ede7bd1bc668b64a3/pulumi_oci-1.2.0a1687673610.tar.gz
+[2023-06-29 22:44:51] INFO root fetch - processPackages [abm-colony-collection]: Downloading https://files.pythonhosted.org/packages/c6/50/b6b7c076e048cb90e4ab2e0e2a7ecf826196a6cd3ea57845d9bdee639eed/abm_colony_collection-0.3.2.tar.gz
+[2023-06-29 22:44:51] INFO root fetch - processPackages [tychos]: Downloading https://files.pythonhosted.org/packages/85/b8/e0cfd165843d82a1f7b83d565a6a6d2d0ee9a61aadf2d0f455f85321d658/tychos-0.0.0.tar.gz
+[2023-06-29 22:44:51] INFO root fetch - processPackages [xia-cloudmailin]: Downloading https://files.pythonhosted.org/packages/5a/58/662d4845d8ee3d931d4a395d5f5b8214f975cda194872757e6a6794c978a/xia_cloudmailin-0.0.6-cp39-none-win_amd64.whl
+[2023-06-29 22:44:51] INFO root fetch - processPackages [aiodanbooru]: Downloading https://files.pythonhosted.org/packages/ec/ef/8d005bf29fb132c6d7066c9eaa1f29c9f5141051d3b07e473eccb65872a3/aiodanbooru-1.0.1.tar.gz
+[2023-06-29 22:44:51] INFO root fetch - processPackages [medidata]: Downloading https://files.pythonhosted.org/packages/85/9d/8039f5067c283276f4381de1b65f5c999b339f07ee281e9599ea5d5c853b/medidata-0.5.0.tar.gz
+[2023-06-29 22:44:51] WARNING root fetch - processPackages [medidata]: Skipping package: exceeds size limit 64412271>=10485760
+[2023-06-29 22:44:51] INFO root fetch - processPackages [medidata]: Start processing: xia-coder
+[2023-06-29 22:44:51] INFO root fetch - main [MainThread]: End processing [medidata] error
+[2023-06-29 22:44:51] INFO root fetch - processPackages [xia-coder]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-29 22:44:51] INFO root fetch - processPackages [xia-agent]: Downloading https://files.pythonhosted.org/packages/89/40/1bdc6b2dc3c77044d374c8b87ec59a64986a869c28ae27398551c5e1bb8e/xia_agent-0.1.4-cp39-none-win_amd64.whl
+[2023-06-29 22:44:51] INFO root fetch - processPackages [xia-cache]: Downloading https://files.pythonhosted.org/packages/6b/bc/86dd053e57077a5fa1a94e1abfac96f8aae94bbec9ecb557ebfb3074874a/xia_cache-0.1.4-cp39-none-win_amd64.whl
+[2023-06-29 22:44:51] INFO root fetch - processPackages [abm-colony-collection]: Downloading https://files.pythonhosted.org/packages/48/0e/157520c16571b9da32b9a391e5b703ae835f4ee46a5a2d35b8d5f4c93414/abm_colony_collection-0.3.3.tar.gz
+[2023-06-29 22:44:51] INFO root fetch - processPackages [enigmacrypt]: Downloading https://files.pythonhosted.org/packages/92/5a/452990a48642617acffc98e0421994c2e2e4f18eb6bbbde7a6882411cf8a/enigmacrypt-0.0.2.tar.gz
+[2023-06-29 22:44:51] INFO root fetch - processPackages [tychos]: Downloading https://files.pythonhosted.org/packages/7a/d2/07020f96ba1eb59ed59f202cf5db46547042dbed9f6a436992502f2f6485/tychos-0.0.1.tar.gz
+[2023-06-29 22:44:52] INFO root fetch - processPackages [hmd-lib-librarian-client]: executing diffoscope
+[2023-06-29 22:44:52] INFO root fetch - processPackages [xia-cache]: executing diffoscope
+[2023-06-29 22:44:52] INFO root fetch - processPackages [hmd-lib-librarian-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmd_lib_librarian_client-0.1.50-py3-none-any.whl.zip tmp/hmd_lib_librarian_client-0.1.53-py3-none-any.whl.zip --markdown 20230629/h/hmd-lib-librarian-client/0.1.50-0.1.53/diff.md --exclude *.pyd
+[2023-06-29 22:44:52] INFO root fetch - processPackages [xia-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_cache-0.1.3-cp39-none-win_amd64.whl.zip tmp/xia_cache-0.1.4-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-cache/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-29 22:44:52] INFO root fetch - processPackages [abm-colony-collection]: executing diffoscope
+[2023-06-29 22:44:52] INFO root fetch - processPackages [abm-colony-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abm_colony_collection-0.3.2.tar.gz tmp/abm_colony_collection-0.3.3.tar.gz --markdown 20230629/a/abm-colony-collection/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-29 22:44:52] INFO root fetch - processPackages [xia-cloudmailin]: Downloading https://files.pythonhosted.org/packages/bd/ce/a2be7e914db858e0faede154ec22fc6fb8df5484afc08fc5044893257543/xia_cloudmailin-0.0.7-cp39-none-win_amd64.whl
+[2023-06-29 22:44:52] INFO root fetch - processPackages [xia-coder]: Downloading https://files.pythonhosted.org/packages/c3/42/b5314192666edafe2328ed3a6eb5bde3be0117098078015685260c9f1813/xia_coder-0.0.5-cp39-none-win_amd64.whl
+[2023-06-29 22:44:52] INFO root fetch - processPackages [aiodanbooru]: Downloading https://files.pythonhosted.org/packages/02/61/6c55a7a964f3edcb086c6463077d60b969141fa3efb2cf21be15f3d08752/aiodanbooru-1.0.3.tar.gz
+[2023-06-29 22:44:52] INFO root fetch - processPackages [xia-agent]: executing diffoscope
+[2023-06-29 22:44:52] INFO root fetch - processPackages [xia-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_agent-0.1.3-cp39-none-win_amd64.whl.zip tmp/xia_agent-0.1.4-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-agent/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-29 22:44:52] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/51/3f/e4fd62182b2b19a1431897af4a729b14c703321e5eb72b80863521df61eb/pulumi_oci-1.2.0a1688057302.tar.gz
+[2023-06-29 22:44:52] INFO root fetch - processPackages [enigmacrypt]: executing diffoscope
+[2023-06-29 22:44:52] INFO root fetch - processPackages [enigmacrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enigmacrypt-0.0.1.tar.gz tmp/enigmacrypt-0.0.2.tar.gz --markdown 20230629/e/enigmacrypt/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-29 22:44:52] INFO root fetch - processPackages [tychos]: executing diffoscope
+[2023-06-29 22:44:52] INFO root fetch - processPackages [tychos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tychos-0.0.0.tar.gz tmp/tychos-0.0.1.tar.gz --markdown 20230629/t/tychos/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-06-29 22:44:52] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2023-06-29 22:44:52] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-1.2.0a1687673610.tar.gz tmp/pulumi_oci-1.2.0a1688057302.tar.gz --markdown 20230629/p/pulumi-oci/1.2.0a1687673610-1.2.0a1688057302/diff.md --exclude *.pyd
+[2023-06-29 22:44:52] INFO root fetch - processPackages [aiodanbooru]: executing diffoscope
+[2023-06-29 22:44:52] INFO root fetch - processPackages [aiodanbooru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiodanbooru-1.0.1.tar.gz tmp/aiodanbooru-1.0.3.tar.gz --markdown 20230629/a/aiodanbooru/1.0.1-1.0.3/diff.md --exclude *.pyd
+[2023-06-29 22:44:52] INFO root fetch - processPackages [xia-cloudmailin]: executing diffoscope
+[2023-06-29 22:44:52] INFO root fetch - processPackages [xia-cloudmailin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_cloudmailin-0.0.6-cp39-none-win_amd64.whl.zip tmp/xia_cloudmailin-0.0.7-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-cloudmailin/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-29 22:44:52] INFO root fetch - processPackages [xia-coder]: Downloading https://files.pythonhosted.org/packages/4f/df/22e5138e189b6d6ef3e3214cbdad28af3a0ca3d50324cba27b341f60bb20/xia_coder-0.0.6-cp39-none-win_amd64.whl
+[2023-06-29 22:44:52] INFO root fetch - processPackages [xia-coder]: executing diffoscope
+[2023-06-29 22:44:52] INFO root fetch - processPackages [xia-coder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_coder-0.0.5-cp39-none-win_amd64.whl.zip tmp/xia_coder-0.0.6-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-coder/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-29 22:44:53] INFO root fetch - processPackages [xia-cache]: Remove: archive file [/home/abi/fetcher/tmp/xia_cache-0.1.3-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:44:53] INFO root fetch - processPackages [xia-cache]: Remove: archive file [/home/abi/fetcher/tmp/xia_cache-0.1.4-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:44:53] INFO root fetch - processPackages [xia-cache]: Start processing: pulumi-kubernetes
+[2023-06-29 22:44:53] INFO root fetch - main [MainThread]: End processing [xia-cache]: success
+[2023-06-29 22:44:53] INFO root fetch - processPackages [pulumi-kubernetes]: New version: [4.0.0rc1] Old Version: [3.9.0]
+[2023-06-29 22:44:53] INFO root fetch - processPackages [hmd-lib-librarian-client]: Remove: archive file [/home/abi/fetcher/tmp/hmd_lib_librarian_client-0.1.50-py3-none-any.whl.zip]
+[2023-06-29 22:44:53] INFO root fetch - processPackages [hmd-lib-librarian-client]: Remove: archive file [/home/abi/fetcher/tmp/hmd_lib_librarian_client-0.1.53-py3-none-any.whl.zip]
+[2023-06-29 22:44:53] INFO root fetch - processPackages [hmd-lib-librarian-client]: Start processing: hmd-lib-librarian-client
+[2023-06-29 22:44:53] INFO root fetch - main [MainThread]: End processing [hmd-lib-librarian-client]: success
+[2023-06-29 22:44:53] INFO root fetch - processPackages [hmd-lib-librarian-client]: New version: [0.1.53] Old Version: [0.1.50]
+[2023-06-29 22:44:53] INFO root fetch - processPackages [hmd-lib-librarian-client]: Downloading https://files.pythonhosted.org/packages/b8/1f/be1ac98b3d71fa03ef510751d0c95353c94cf55790324fbf31b48ab4d407/hmd_lib_librarian_client-0.1.50-py3-none-any.whl
+[2023-06-29 22:44:53] INFO root fetch - processPackages [abm-colony-collection]: Remove: archive file [/home/abi/fetcher/tmp/abm_colony_collection-0.3.2.tar.gz]
+[2023-06-29 22:44:53] INFO root fetch - processPackages [abm-colony-collection]: Remove: archive file [/home/abi/fetcher/tmp/abm_colony_collection-0.3.3.tar.gz]
+[2023-06-29 22:44:53] INFO root fetch - processPackages [abm-colony-collection]: Start processing: xia-compiler-openapi
+[2023-06-29 22:44:53] INFO root fetch - main [MainThread]: End processing [abm-colony-collection]: success
+[2023-06-29 22:44:53] INFO root fetch - processPackages [enigmacrypt]: Remove: archive file [/home/abi/fetcher/tmp/enigmacrypt-0.0.1.tar.gz]
+[2023-06-29 22:44:53] INFO root fetch - processPackages [enigmacrypt]: Remove: archive file [/home/abi/fetcher/tmp/enigmacrypt-0.0.2.tar.gz]
+[2023-06-29 22:44:53] INFO root fetch - processPackages [enigmacrypt]: Start processing: xia-compiler-jsoneditor
+[2023-06-29 22:44:53] INFO root fetch - main [MainThread]: End processing [enigmacrypt]: success
+[2023-06-29 22:44:53] INFO root fetch - processPackages [tychos]: Remove: archive file [/home/abi/fetcher/tmp/tychos-0.0.0.tar.gz]
+[2023-06-29 22:44:53] INFO root fetch - processPackages [tychos]: Remove: archive file [/home/abi/fetcher/tmp/tychos-0.0.1.tar.gz]
+[2023-06-29 22:44:53] INFO root fetch - processPackages [tychos]: Start processing: pyess
+[2023-06-29 22:44:53] INFO root fetch - main [MainThread]: End processing [tychos]: success
+[2023-06-29 22:44:53] INFO root fetch - processPackages [xia-compiler-openapi]: New version: [0.1.19] Old Version: [0.1.18]
+[2023-06-29 22:44:53] INFO root fetch - processPackages [xia-compiler-jsoneditor]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-29 22:44:53] INFO root fetch - processPackages [pyess]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 22:44:53] INFO root fetch - processPackages [hmd-lib-librarian-client]: Downloading https://files.pythonhosted.org/packages/c6/90/46a3fffb53f2c119bf86d22fbf86e8697e10cbec6f69490c4265917c174c/hmd_lib_librarian_client-0.1.53-py3-none-any.whl
+[2023-06-29 22:44:53] INFO root fetch - processPackages [xia-agent]: Remove: archive file [/home/abi/fetcher/tmp/xia_agent-0.1.3-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:44:53] INFO root fetch - processPackages [xia-agent]: Remove: archive file [/home/abi/fetcher/tmp/xia_agent-0.1.4-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:44:53] INFO root fetch - processPackages [xia-agent]: Start processing: xia-easy-proto
+[2023-06-29 22:44:53] INFO root fetch - main [MainThread]: End processing [xia-agent]: success
+[2023-06-29 22:44:53] INFO root fetch - processPackages [pyess]: Downloading https://files.pythonhosted.org/packages/54/27/1cac6cbcdff3132de1bb72abeb797075411b68bc9a2caa220db933a89b76/pyess-0.1.8.tar.gz
+[2023-06-29 22:44:53] INFO root fetch - processPackages [xia-easy-proto]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-29 22:44:53] INFO root fetch - processPackages [hmd-lib-librarian-client]: executing diffoscope
+[2023-06-29 22:44:53] INFO root fetch - processPackages [hmd-lib-librarian-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmd_lib_librarian_client-0.1.50-py3-none-any.whl.zip tmp/hmd_lib_librarian_client-0.1.53-py3-none-any.whl.zip --markdown 20230629/h/hmd-lib-librarian-client/0.1.50-0.1.53/diff.md --exclude *.pyd
+[2023-06-29 22:44:53] INFO root fetch - processPackages [pulumi-kubernetes]: executing diffoscope
+[2023-06-29 22:44:53] INFO root fetch - processPackages [pulumi-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes-3.9.0.tar.gz tmp/pulumi_kubernetes-4.0.0rc1.tar.gz --markdown 20230629/p/pulumi-kubernetes/3.9.0-4.0.0rc1/diff.md --exclude *.pyd
+[2023-06-29 22:44:53] INFO root fetch - processPackages [xia-cloudmailin]: Remove: archive file [/home/abi/fetcher/tmp/xia_cloudmailin-0.0.6-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:44:53] INFO root fetch - processPackages [xia-cloudmailin]: Remove: archive file [/home/abi/fetcher/tmp/xia_cloudmailin-0.0.7-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:44:53] INFO root fetch - processPackages [xia-cloudmailin]: Start processing: circlecigen
+[2023-06-29 22:44:53] INFO root fetch - main [MainThread]: End processing [xia-cloudmailin]: success
+[2023-06-29 22:44:53] INFO root fetch - processPackages [xia-compiler-openapi]: Downloading https://files.pythonhosted.org/packages/78/a8/5960498a0be48671d0899cf965fd5000b496ca8a6577e26d2ce2172e2f50/xia_compiler_openapi-0.1.18-cp39-none-win_amd64.whl
+[2023-06-29 22:44:53] INFO root fetch - processPackages [xia-compiler-jsoneditor]: Downloading https://files.pythonhosted.org/packages/4a/a4/d93cfe8a50c34e3b76057836b7ef8c4061bc31133db9d40c00b7c434a4f3/xia_compiler_jsoneditor-0.1.3-cp39-none-win_amd64.whl
+[2023-06-29 22:44:53] INFO root fetch - processPackages [circlecigen]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 22:44:53] INFO root fetch - processPackages [pyess]: Downloading https://files.pythonhosted.org/packages/8f/70/690cb7ccfcd6d6639dc262445b47037442cc2747c77801ca68e2754a37c4/pyess-0.1.9.tar.gz
+[2023-06-29 22:44:54] INFO root fetch - processPackages [aiodanbooru]: Remove: archive file [/home/abi/fetcher/tmp/aiodanbooru-1.0.1.tar.gz]
+[2023-06-29 22:44:54] INFO root fetch - processPackages [aiodanbooru]: Remove: archive file [/home/abi/fetcher/tmp/aiodanbooru-1.0.3.tar.gz]
+[2023-06-29 22:44:54] INFO root fetch - processPackages [aiodanbooru]: Start processing: policyengine-us
+[2023-06-29 22:44:54] INFO root fetch - main [MainThread]: End processing [aiodanbooru]: success
+[2023-06-29 22:44:54] INFO root fetch - processPackages [xia-easy-proto]: Downloading https://files.pythonhosted.org/packages/bd/c7/84781dca6f6930609d77e5fa699f017b3bd690f7875d9176e731ef390b05/xia_easy_proto-1.0.5-cp39-none-win_amd64.whl
+[2023-06-29 22:44:54] INFO root fetch - processPackages [policyengine-us]: New version: [0.345.9] Old Version: [0.345.8]
+[2023-06-29 22:44:54] INFO root fetch - processPackages [pyess]: executing diffoscope
+[2023-06-29 22:44:54] INFO root fetch - processPackages [pyess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyess-0.1.8.tar.gz tmp/pyess-0.1.9.tar.gz --markdown 20230629/p/pyess/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 22:44:54] INFO root fetch - processPackages [circlecigen]: Downloading https://files.pythonhosted.org/packages/03/5e/3e772ae9bb46a3355f9563c71f7091b9d7c7e42738ee09cea03d420a5cf3/circlecigen-0.0.8.tar.gz
+[2023-06-29 22:44:54] INFO root fetch - processPackages [xia-coder]: Remove: archive file [/home/abi/fetcher/tmp/xia_coder-0.0.5-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:44:54] INFO root fetch - processPackages [xia-coder]: Remove: archive file [/home/abi/fetcher/tmp/xia_coder-0.0.6-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:44:54] INFO root fetch - processPackages [xia-coder]: Start processing: tea-web
+[2023-06-29 22:44:54] INFO root fetch - main [MainThread]: End processing [xia-coder]: success
+[2023-06-29 22:44:54] INFO root fetch - processPackages [xia-compiler-jsoneditor]: Downloading https://files.pythonhosted.org/packages/68/9f/6ab6d4e31466fad7ab2ac89ca6791d7ca2bce77b343814e947d972c8777f/xia_compiler_jsoneditor-0.1.4-cp39-none-win_amd64.whl
+[2023-06-29 22:44:54] INFO root fetch - processPackages [xia-compiler-openapi]: Downloading https://files.pythonhosted.org/packages/20/99/a0da1aded706d20914226b5ad3b09c133bc1e437ddf3605c48dd27e5f03b/xia_compiler_openapi-0.1.19-cp39-none-win_amd64.whl
+[2023-06-29 22:44:54] INFO root fetch - processPackages [tea-web]: New version: [0.6.0] Old Version: [0.5.9]
+[2023-06-29 22:44:54] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/bf/19/1d276230e19465ac7feef9633938d90f25d7e5f23fbd1ba2c9e1e87b18b9/policyengine-us-0.345.8.tar.gz
+[2023-06-29 22:44:54] INFO root fetch - processPackages [xia-easy-proto]: Downloading https://files.pythonhosted.org/packages/86/78/06567b3cd11bf0adeeb3625bbf3a2058e4f0d3ad65f01d93d5065cf2578a/xia_easy_proto-1.0.6-cp39-none-win_amd64.whl
+[2023-06-29 22:44:54] INFO root fetch - processPackages [xia-compiler-jsoneditor]: executing diffoscope
+[2023-06-29 22:44:54] INFO root fetch - processPackages [xia-compiler-jsoneditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_compiler_jsoneditor-0.1.3-cp39-none-win_amd64.whl.zip tmp/xia_compiler_jsoneditor-0.1.4-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-compiler-jsoneditor/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-29 22:44:54] INFO root fetch - processPackages [xia-compiler-openapi]: executing diffoscope
+[2023-06-29 22:44:54] INFO root fetch - processPackages [xia-compiler-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_compiler_openapi-0.1.18-cp39-none-win_amd64.whl.zip tmp/xia_compiler_openapi-0.1.19-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-compiler-openapi/0.1.18-0.1.19/diff.md --exclude *.pyd
+[2023-06-29 22:44:54] INFO root fetch - processPackages [tea-web]: Downloading https://files.pythonhosted.org/packages/2c/44/87424b333880c44e0e834e2b80feaccff26cdf52de40430dcb9fe43ec543/tea-web-0.5.9.tar.gz
+[2023-06-29 22:44:54] INFO root fetch - processPackages [circlecigen]: Downloading https://files.pythonhosted.org/packages/e3/3d/3adf1ffc45806d0b49ad34ac048bc66290f149450f6d7e0d4d6675b443c6/circlecigen-0.0.9.tar.gz
+[2023-06-29 22:44:54] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/3b/8d/d173a89b4fd01437264d48e49289d3bed7dd14f70c08f120638e3a97cc64/policyengine-us-0.345.9.tar.gz
+[2023-06-29 22:44:54] INFO root fetch - processPackages [xia-easy-proto]: executing diffoscope
+[2023-06-29 22:44:54] INFO root fetch - processPackages [xia-easy-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_easy_proto-1.0.5-cp39-none-win_amd64.whl.zip tmp/xia_easy_proto-1.0.6-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-easy-proto/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-29 22:44:54] INFO root fetch - processPackages [circlecigen]: executing diffoscope
+[2023-06-29 22:44:54] INFO root fetch - processPackages [circlecigen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circlecigen-0.0.8.tar.gz tmp/circlecigen-0.0.9.tar.gz --markdown 20230629/c/circlecigen/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 22:44:54] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-06-29 22:44:54] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.345.8.tar.gz tmp/policyengine-us-0.345.9.tar.gz --markdown 20230629/p/policyengine-us/0.345.8-0.345.9/diff.md --exclude *.pyd
+[2023-06-29 22:44:54] INFO root fetch - processPackages [tea-web]: Downloading https://files.pythonhosted.org/packages/21/95/ee7186b4e7be2026c57434eb1cbfc4cac51e0687bb0f849e298d2a6ab52a/tea-web-0.6.0.tar.gz
+[2023-06-29 22:44:54] INFO root fetch - processPackages [tea-web]: executing diffoscope
+[2023-06-29 22:44:54] INFO root fetch - processPackages [tea-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tea-web-0.5.9.tar.gz tmp/tea-web-0.6.0.tar.gz --markdown 20230629/t/tea-web/0.5.9-0.6.0/diff.md --exclude *.pyd
+[2023-06-29 22:44:55] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-3.9.0.tar.gz]
+[2023-06-29 22:44:55] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.0.0rc1.tar.gz]
+[2023-06-29 22:44:55] INFO root fetch - processPackages [pulumi-kubernetes]: Start processing: hmd-entity-storage
+[2023-06-29 22:44:55] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
+[2023-06-29 22:44:55] INFO root fetch - processPackages [hmd-entity-storage]: New version: [0.1.223] Old Version: [0.1.216]
+[2023-06-29 22:44:55] INFO root fetch - processPackages [hmd-lib-librarian-client]: Remove: archive file [/home/abi/fetcher/tmp/hmd_lib_librarian_client-0.1.50-py3-none-any.whl.zip]
+[2023-06-29 22:44:55] INFO root fetch - processPackages [hmd-lib-librarian-client]: Remove: archive file [/home/abi/fetcher/tmp/hmd_lib_librarian_client-0.1.53-py3-none-any.whl.zip]
+[2023-06-29 22:44:55] INFO root fetch - processPackages [hmd-lib-librarian-client]: Start processing: xia-compiler-python
+[2023-06-29 22:44:55] INFO root fetch - main [MainThread]: End processing [hmd-lib-librarian-client]: success
+[2023-06-29 22:44:55] INFO root fetch - processPackages [xia-compiler-python]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-29 22:44:55] INFO root fetch - processPackages [hmd-entity-storage]: Downloading https://files.pythonhosted.org/packages/01/b9/09fe839c2c1cc41bdb2b651fba0975835341bdbc49cdbacf1c1d28c0c29e/hmd_entity_storage-0.1.216-py3-none-any.whl
+[2023-06-29 22:44:55] INFO root fetch - processPackages [xia-compiler-python]: Downloading https://files.pythonhosted.org/packages/82/74/4a492d1fbec4b8fe3cdfa2e92dd86adaa003876d1ad2d400b02ff163a06b/xia_compiler_python-0.1.4-cp39-none-win_amd64.whl
+[2023-06-29 22:44:55] INFO root fetch - processPackages [hmd-entity-storage]: Downloading https://files.pythonhosted.org/packages/f5/6b/ddf01236acc94dba819c827b4520f3ec8089f9421d4e78a16be4e8c472e8/hmd_entity_storage-0.1.223-py3-none-any.whl
+[2023-06-29 22:44:55] INFO root fetch - processPackages [xia-compiler-python]: Downloading https://files.pythonhosted.org/packages/53/81/08aaacfe0a868b462ddc3f34e30058666fa1d4944fee2c1182a4bd96f566/xia_compiler_python-0.1.5-cp39-none-win_amd64.whl
+[2023-06-29 22:44:55] INFO root fetch - processPackages [hmd-entity-storage]: executing diffoscope
+[2023-06-29 22:44:55] INFO root fetch - processPackages [hmd-entity-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmd_entity_storage-0.1.216-py3-none-any.whl.zip tmp/hmd_entity_storage-0.1.223-py3-none-any.whl.zip --markdown 20230629/h/hmd-entity-storage/0.1.216-0.1.223/diff.md --exclude *.pyd
+[2023-06-29 22:44:55] INFO root fetch - processPackages [xia-compiler-openapi]: Remove: archive file [/home/abi/fetcher/tmp/xia_compiler_openapi-0.1.18-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:44:55] INFO root fetch - processPackages [xia-compiler-openapi]: Remove: archive file [/home/abi/fetcher/tmp/xia_compiler_openapi-0.1.19-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:44:55] INFO root fetch - processPackages [xia-compiler-openapi]: Start processing: pulumi-kubernetes
+[2023-06-29 22:44:55] INFO root fetch - main [MainThread]: End processing [xia-compiler-openapi]: success
+[2023-06-29 22:44:55] INFO root fetch - processPackages [xia-easy-proto]: Remove: archive file [/home/abi/fetcher/tmp/xia_easy_proto-1.0.5-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:44:55] INFO root fetch - processPackages [xia-easy-proto]: Remove: archive file [/home/abi/fetcher/tmp/xia_easy_proto-1.0.6-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:44:55] INFO root fetch - processPackages [xia-easy-proto]: Start processing: peeling
+[2023-06-29 22:44:55] INFO root fetch - main [MainThread]: End processing [xia-easy-proto]: success
+[2023-06-29 22:44:55] INFO root fetch - processPackages [pulumi-kubernetes]: New version: [4.0.0rc1] Old Version: [3.9.0]
+[2023-06-29 22:44:55] INFO root fetch - processPackages [xia-compiler-jsoneditor]: Remove: archive file [/home/abi/fetcher/tmp/xia_compiler_jsoneditor-0.1.3-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:44:55] INFO root fetch - processPackages [xia-compiler-jsoneditor]: Remove: archive file [/home/abi/fetcher/tmp/xia_compiler_jsoneditor-0.1.4-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:44:55] INFO root fetch - processPackages [peeling]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-29 22:44:55] INFO root fetch - processPackages [xia-compiler-jsoneditor]: Start processing: fastq2folder
+[2023-06-29 22:44:55] INFO root fetch - main [MainThread]: End processing [xia-compiler-jsoneditor]: success
+[2023-06-29 22:44:55] INFO root fetch - processPackages [fastq2folder]: New version: [1.0.2] Old Version: [0.0.1]
+[2023-06-29 22:44:55] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/0f/a9/6759fd282fa569f4592dc30878e4ced26d260895c12602ac69c7737fe07f/pulumi_kubernetes-3.9.0.tar.gz
+[2023-06-29 22:44:55] INFO root fetch - processPackages [xia-compiler-python]: executing diffoscope
+[2023-06-29 22:44:55] INFO root fetch - processPackages [xia-compiler-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_compiler_python-0.1.4-cp39-none-win_amd64.whl.zip tmp/xia_compiler_python-0.1.5-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-compiler-python/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-29 22:44:55] INFO root fetch - processPackages [peeling]: Downloading https://files.pythonhosted.org/packages/ae/68/6f5d34012d7ec13bfe211365ed4560e69b9d2c6a37dfde817abee3dfe384/peeling-0.2.1.tar.gz
+[2023-06-29 22:44:56] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/53/7f/ee88b969dd6c46cb09ea7f0abd1c0511f0ed676e7ac3779e4c4b626730a9/pulumi_kubernetes-4.0.0rc1.tar.gz
+[2023-06-29 22:44:56] INFO root fetch - processPackages [pyess]: Remove: archive file [/home/abi/fetcher/tmp/pyess-0.1.8.tar.gz]
+[2023-06-29 22:44:56] INFO root fetch - processPackages [pyess]: Remove: archive file [/home/abi/fetcher/tmp/pyess-0.1.9.tar.gz]
+[2023-06-29 22:44:56] INFO root fetch - processPackages [pyess]: Start processing: enigmacrypt
+[2023-06-29 22:44:56] INFO root fetch - main [MainThread]: End processing [pyess]: success
+[2023-06-29 22:44:56] INFO root fetch - processPackages [fastq2folder]: Downloading https://files.pythonhosted.org/packages/73/c2/7f5c1dd253af5ab7c44fcbe621c3b197f36fb5314a6e7976bc15be6b613b/fastq2folder-0.0.1.tar.gz
+[2023-06-29 22:44:56] INFO root fetch - processPackages [enigmacrypt]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-29 22:44:56] INFO root fetch - processPackages [enigmacrypt]: Downloading https://files.pythonhosted.org/packages/ba/75/08bd5d5663a21376e191197bca230660ead49618cb9aa5a2f7cb4264256c/enigmacrypt-0.0.1.tar.gz
+[2023-06-29 22:44:56] INFO root fetch - processPackages [tea-web]: Remove: archive file [/home/abi/fetcher/tmp/tea-web-0.5.9.tar.gz]
+[2023-06-29 22:44:56] INFO root fetch - processPackages [tea-web]: Remove: archive file [/home/abi/fetcher/tmp/tea-web-0.6.0.tar.gz]
+[2023-06-29 22:44:56] INFO root fetch - processPackages [tea-web]: Start processing: test-proto
+[2023-06-29 22:44:56] INFO root fetch - main [MainThread]: End processing [tea-web]: success
+[2023-06-29 22:44:56] INFO root fetch - processPackages [circlecigen]: Remove: archive file [/home/abi/fetcher/tmp/circlecigen-0.0.8.tar.gz]
+[2023-06-29 22:44:56] INFO root fetch - processPackages [circlecigen]: Remove: archive file [/home/abi/fetcher/tmp/circlecigen-0.0.9.tar.gz]
+[2023-06-29 22:44:56] INFO root fetch - processPackages [circlecigen]: Start processing: scikit-rt
+[2023-06-29 22:44:56] INFO root fetch - main [MainThread]: End processing [circlecigen]: success
+[2023-06-29 22:44:56] INFO root fetch - processPackages [test-proto]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-29 22:44:56] INFO root fetch - processPackages [pulumi-kubernetes]: executing diffoscope
+[2023-06-29 22:44:56] INFO root fetch - processPackages [pulumi-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes-3.9.0.tar.gz tmp/pulumi_kubernetes-4.0.0rc1.tar.gz --markdown 20230629/p/pulumi-kubernetes/3.9.0-4.0.0rc1/diff.md --exclude *.pyd
+[2023-06-29 22:44:56] INFO root fetch - processPackages [scikit-rt]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-06-29 22:44:56] INFO root fetch - processPackages [peeling]: Downloading https://files.pythonhosted.org/packages/b6/54/f478ecaf5480b21696969e470fdabee2dd03e74bc819a7a60ff0ec5604c7/peeling-0.2.2.tar.gz
+[2023-06-29 22:44:56] INFO root fetch - processPackages [enigmacrypt]: Downloading https://files.pythonhosted.org/packages/92/5a/452990a48642617acffc98e0421994c2e2e4f18eb6bbbde7a6882411cf8a/enigmacrypt-0.0.2.tar.gz
+[2023-06-29 22:44:56] INFO root fetch - processPackages [fastq2folder]: Downloading https://files.pythonhosted.org/packages/0c/13/8245a7494144875c53e0cda0695451fb8e7decd3c4ade94862c5e3112ffe/fastq2folder-1.0.2.tar.gz
+[2023-06-29 22:44:56] INFO root fetch - processPackages [peeling]: executing diffoscope
+[2023-06-29 22:44:56] INFO root fetch - processPackages [peeling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peeling-0.2.1.tar.gz tmp/peeling-0.2.2.tar.gz --markdown 20230629/p/peeling/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-29 22:44:56] INFO root fetch - processPackages [test-proto]: Downloading https://files.pythonhosted.org/packages/24/e4/eeb7b6fa00dd740b39f4a01d8b03fa1e14cc04aaa0cd8e183cdcc3d798ba/test-proto-0.0.1.tar.gz
+[2023-06-29 22:44:56] INFO root fetch - processPackages [enigmacrypt]: executing diffoscope
+[2023-06-29 22:44:56] INFO root fetch - processPackages [enigmacrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enigmacrypt-0.0.1.tar.gz tmp/enigmacrypt-0.0.2.tar.gz --markdown 20230629/e/enigmacrypt/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-29 22:44:56] INFO root fetch - processPackages [fastq2folder]: executing diffoscope
+[2023-06-29 22:44:56] INFO root fetch - processPackages [fastq2folder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastq2folder-0.0.1.tar.gz tmp/fastq2folder-1.0.2.tar.gz --markdown 20230629/f/fastq2folder/0.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-29 22:44:56] INFO root fetch - processPackages [test-proto]: Downloading https://files.pythonhosted.org/packages/11/7c/08b5a5bdca2e3b26aa29d318b9a1b566f0e058635b0172135ee169a4f9ce/test-proto-0.0.2.tar.gz
+[2023-06-29 22:44:56] INFO root fetch - processPackages [scikit-rt]: Downloading https://files.pythonhosted.org/packages/f8/85/224a6c6c530bc017054508c17d4f4afdc79d8e64ab90e265e920052b19aa/scikit-rt-0.5.7.tar.gz
+[2023-06-29 22:44:56] INFO root fetch - processPackages [test-proto]: executing diffoscope
+[2023-06-29 22:44:56] INFO root fetch - processPackages [test-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test-proto-0.0.1.tar.gz tmp/test-proto-0.0.2.tar.gz --markdown 20230629/t/test-proto/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-29 22:44:56] INFO root fetch - processPackages [scikit-rt]: executing diffoscope
+[2023-06-29 22:44:56] INFO root fetch - processPackages [scikit-rt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-rt-0.5.6.tar.gz tmp/scikit-rt-0.5.7.tar.gz --markdown 20230629/s/scikit-rt/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-06-29 22:44:57] INFO root fetch - processPackages [hmd-entity-storage]: Remove: archive file [/home/abi/fetcher/tmp/hmd_entity_storage-0.1.216-py3-none-any.whl.zip]
+[2023-06-29 22:44:57] INFO root fetch - processPackages [hmd-entity-storage]: Remove: archive file [/home/abi/fetcher/tmp/hmd_entity_storage-0.1.223-py3-none-any.whl.zip]
+[2023-06-29 22:44:57] INFO root fetch - processPackages [hmd-entity-storage]: Start processing: semra
+[2023-06-29 22:44:57] INFO root fetch - main [MainThread]: End processing [hmd-entity-storage]: success
+[2023-06-29 22:44:57] WARNING root fetch - processPackages [semra]: Skipping, unable to determine old version
+[2023-06-29 22:44:57] INFO root fetch - processPackages [semra]: Start processing: hmd-graphql-client
+[2023-06-29 22:44:57] INFO root fetch - main [MainThread]: End processing [semra] error
+[2023-06-29 22:44:57] INFO root fetch - processPackages [xia-compiler-python]: Remove: archive file [/home/abi/fetcher/tmp/xia_compiler_python-0.1.4-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:44:57] INFO root fetch - processPackages [xia-compiler-python]: Remove: archive file [/home/abi/fetcher/tmp/xia_compiler_python-0.1.5-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:44:57] INFO root fetch - processPackages [xia-compiler-python]: Start processing: xia-engine
+[2023-06-29 22:44:57] INFO root fetch - main [MainThread]: End processing [xia-compiler-python]: success
+[2023-06-29 22:44:57] INFO root fetch - processPackages [hmd-graphql-client]: New version: [0.1.98] Old Version: [0.1.105]
+[2023-06-29 22:44:57] INFO root fetch - processPackages [xia-engine]: New version: [0.8.26] Old Version: [0.8.25]
+[2023-06-29 22:44:57] INFO root fetch - processPackages [hmd-graphql-client]: Downloading https://files.pythonhosted.org/packages/09/23/6586ecdee187830548cb0d1795a90df8fc8e588b2df61cf99bfe03006e37/hmd_graphql_client-0.1.105-py3-none-any.whl
+[2023-06-29 22:44:57] INFO root fetch - processPackages [xia-engine]: Downloading https://files.pythonhosted.org/packages/de/ad/a17f1513b17528ea32621bd60d2bcf8e058b6ea9f4ce613d37137d945d84/xia_engine-0.8.25-cp39-none-win_amd64.whl
+[2023-06-29 22:44:57] INFO root fetch - processPackages [fastq2folder]: Remove: archive file [/home/abi/fetcher/tmp/fastq2folder-0.0.1.tar.gz]
+[2023-06-29 22:44:57] INFO root fetch - processPackages [fastq2folder]: Remove: archive file [/home/abi/fetcher/tmp/fastq2folder-1.0.2.tar.gz]
+[2023-06-29 22:44:57] INFO root fetch - processPackages [fastq2folder]: Start processing: dkist-processing-visp
+[2023-06-29 22:44:57] INFO root fetch - main [MainThread]: End processing [fastq2folder]: success
+[2023-06-29 22:44:57] INFO root fetch - processPackages [hmd-graphql-client]: Downloading https://files.pythonhosted.org/packages/27/3d/7c9c781d98cffc5489a82b11bcc7b514f3a75072a989eec6d932d1cbc85d/hmd_graphql_client-0.1.98-py3-none-any.whl
+[2023-06-29 22:44:57] INFO root fetch - processPackages [peeling]: Remove: archive file [/home/abi/fetcher/tmp/peeling-0.2.1.tar.gz]
+[2023-06-29 22:44:57] INFO root fetch - processPackages [peeling]: Remove: archive file [/home/abi/fetcher/tmp/peeling-0.2.2.tar.gz]
+[2023-06-29 22:44:57] INFO root fetch - main [MainThread]: End processing [peeling]: success
+[2023-06-29 22:44:57] INFO root fetch - processPackages [enigmacrypt]: Remove: archive file [/home/abi/fetcher/tmp/enigmacrypt-0.0.1.tar.gz]
+[2023-06-29 22:44:57] INFO root fetch - processPackages [enigmacrypt]: Remove: archive file [/home/abi/fetcher/tmp/enigmacrypt-0.0.2.tar.gz]
+[2023-06-29 22:44:57] INFO root fetch - main [MainThread]: End processing [enigmacrypt]: success
+[2023-06-29 22:44:57] INFO root fetch - processPackages [dkist-processing-visp]: New version: [2.5.0] Old Version: [2.4.0rc2]
+[2023-06-29 22:44:57] INFO root fetch - processPackages [test-proto]: Remove: archive file [/home/abi/fetcher/tmp/test-proto-0.0.1.tar.gz]
+[2023-06-29 22:44:57] INFO root fetch - processPackages [test-proto]: Remove: archive file [/home/abi/fetcher/tmp/test-proto-0.0.2.tar.gz]
+[2023-06-29 22:44:57] INFO root fetch - main [MainThread]: End processing [test-proto]: success
+[2023-06-29 22:44:57] INFO root fetch - processPackages [xia-engine]: Downloading https://files.pythonhosted.org/packages/01/99/80d4b1008d48626aabbafdd9ae46f96ee769c5268deef7c1855503665957/xia_engine-0.8.26-cp39-none-macosx_11_0_x86_64.whl
+[2023-06-29 22:44:57] INFO root fetch - processPackages [hmd-graphql-client]: executing diffoscope
+[2023-06-29 22:44:57] INFO root fetch - processPackages [hmd-graphql-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmd_graphql_client-0.1.105-py3-none-any.whl.zip tmp/hmd_graphql_client-0.1.98-py3-none-any.whl.zip --markdown 20230629/h/hmd-graphql-client/0.1.105-0.1.98/diff.md --exclude *.pyd
+[2023-06-29 22:44:58] INFO root fetch - processPackages [dkist-processing-visp]: Downloading https://files.pythonhosted.org/packages/b5/38/5c631c0cae42871bf104824ac461d8f240c8503e46d1559315fd960bc500/dkist_processing_visp-2.4.0rc2.tar.gz
+[2023-06-29 22:44:58] INFO root fetch - processPackages [scikit-rt]: Remove: archive file [/home/abi/fetcher/tmp/scikit-rt-0.5.6.tar.gz]
+[2023-06-29 22:44:58] INFO root fetch - processPackages [scikit-rt]: Remove: archive file [/home/abi/fetcher/tmp/scikit-rt-0.5.7.tar.gz]
+[2023-06-29 22:44:58] INFO root fetch - main [MainThread]: End processing [scikit-rt]: success
+[2023-06-29 22:44:58] INFO root fetch - processPackages [xia-engine]: executing diffoscope
+[2023-06-29 22:44:58] INFO root fetch - processPackages [xia-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine-0.8.25-cp39-none-win_amd64.whl.zip tmp/xia_engine-0.8.26-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230629/x/xia-engine/0.8.25-0.8.26/diff.md --exclude *.pyd
+[2023-06-29 22:44:58] INFO root fetch - processPackages [dkist-processing-visp]: Downloading https://files.pythonhosted.org/packages/f4/e9/3df25f715c4219729f25cf339e5763b8192fefc132a223092ea2eb7e3112/dkist_processing_visp-2.5.0.tar.gz
+[2023-06-29 22:44:58] INFO root fetch - processPackages [dkist-processing-visp]: executing diffoscope
+[2023-06-29 22:44:58] INFO root fetch - processPackages [dkist-processing-visp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist_processing_visp-2.4.0rc2.tar.gz tmp/dkist_processing_visp-2.5.0.tar.gz --markdown 20230629/d/dkist-processing-visp/2.4.0rc2-2.5.0/diff.md --exclude *.pyd
+[2023-06-29 22:44:59] INFO root fetch - processPackages [hmd-graphql-client]: Remove: archive file [/home/abi/fetcher/tmp/hmd_graphql_client-0.1.105-py3-none-any.whl.zip]
+[2023-06-29 22:44:59] INFO root fetch - processPackages [hmd-graphql-client]: Remove: archive file [/home/abi/fetcher/tmp/hmd_graphql_client-0.1.98-py3-none-any.whl.zip]
+[2023-06-29 22:44:59] INFO root fetch - main [MainThread]: End processing [hmd-graphql-client]: success
+[2023-06-29 22:44:59] INFO root fetch - processPackages [xia-engine]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine-0.8.25-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:44:59] INFO root fetch - processPackages [xia-engine]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine-0.8.26-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-06-29 22:44:59] INFO root fetch - main [MainThread]: End processing [xia-engine]: success
+[2023-06-29 22:45:00] INFO root fetch - processPackages [dkist-processing-visp]: Remove: archive file [/home/abi/fetcher/tmp/dkist_processing_visp-2.4.0rc2.tar.gz]
+[2023-06-29 22:45:00] INFO root fetch - processPackages [dkist-processing-visp]: Remove: archive file [/home/abi/fetcher/tmp/dkist_processing_visp-2.5.0.tar.gz]
+[2023-06-29 22:45:00] INFO root fetch - main [MainThread]: End processing [dkist-processing-visp]: success
+[2023-06-29 22:45:09] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-3.9.0.tar.gz]
+[2023-06-29 22:45:09] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.0.0rc1.tar.gz]
+[2023-06-29 22:45:09] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
+[2023-06-29 22:45:52] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.2.0a1687673610.tar.gz]
+[2023-06-29 22:45:52] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.2.0a1688057302.tar.gz]
+[2023-06-29 22:45:52] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2023-06-29 22:46:20] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.345.8.tar.gz]
+[2023-06-29 22:46:20] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.345.9.tar.gz]
+[2023-06-29 22:46:20] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-06-29 22:46:20] INFO root fetch - main [MainThread]: Store serial: [18700491]
