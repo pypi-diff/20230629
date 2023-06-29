@@ -2808,3 +2808,143 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 10:28:07] INFO root fetch - processPackages [deci-platform-client]: Remove: archive file [/home/abi/fetcher/tmp/deci_platform_client-5.5.0-py3-none-any.whl.zip]
 [2023-06-29 10:28:07] INFO root fetch - main [MainThread]: End processing [deci-platform-client]: success
 [2023-06-29 10:28:07] INFO root fetch - main [MainThread]: Store serial: [18692062]
+[2023-06-29 10:33:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18692062]
+[2023-06-29 10:33:15] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-29 10:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: compmec-shape
+[2023-06-29 10:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sfepy
+[2023-06-29 10:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evilHunter
+[2023-06-29 10:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fibertrace
+[2023-06-29 10:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metasnek
+[2023-06-29 10:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qiskit-han
+[2023-06-29 10:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: huza
+[2023-06-29 10:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nextpcg
+[2023-06-29 10:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jcmutils
+[2023-06-29 10:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-partner-tier-validation
+[2023-06-29 10:33:15] WARNING root fetch - processPackages [compmec-shape]: Skipping, unable to determine old version
+[2023-06-29 10:33:15] INFO root fetch - processPackages [compmec-shape]: Start processing: dank-mids
+[2023-06-29 10:33:15] INFO root fetch - main [MainThread]: End processing [compmec-shape] error
+[2023-06-29 10:33:15] INFO root fetch - processPackages [qiskit-han]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-29 10:33:15] INFO root fetch - processPackages [nextpcg]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-29 10:33:16] INFO root fetch - processPackages [jcmutils]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-06-29 10:33:16] INFO root fetch - processPackages [sfepy]: New version: [2023.2] Old Version: [2023.1]
+[2023-06-29 10:33:16] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-29 10:33:16] INFO root fetch - processPackages [qiskit-han]: Downloading https://files.pythonhosted.org/packages/ff/75/a35234a80bc4f466dd6c731002812d496c69d73ae7f3034ba05e05c0f3c0/qiskit_han-0.0.3.tar.gz
+[2023-06-29 10:33:16] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/ed/f2/0d14e82ced3f9c41c7b24846b4eece5f179a7698c0b043c0fe14bf788a16/nextpcg-0.5.0.tar.gz
+[2023-06-29 10:33:16] INFO root fetch - processPackages [jcmutils]: Downloading https://files.pythonhosted.org/packages/69/04/6d3422882dc935bd85b74d98b3a511d5ac0a7851381fac378925ddb01776/jcmutils-1.6.3.tar.gz
+[2023-06-29 10:33:16] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-29 10:33:16] INFO root fetch - processPackages [metasnek]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-29 10:33:16] WARNING root fetch - processPackages [odoo-addon-partner-tier-validation]: Skipping, unable to determine old version
+[2023-06-29 10:33:16] INFO root fetch - processPackages [odoo-addon-partner-tier-validation]: Start processing: cadence-detector
+[2023-06-29 10:33:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-tier-validation] error
+[2023-06-29 10:33:16] WARNING root fetch - processPackages [fibertrace]: Skipping, unable to determine old version
+[2023-06-29 10:33:16] INFO root fetch - processPackages [fibertrace]: Start processing: sentry-ldap
+[2023-06-29 10:33:16] INFO root fetch - main [MainThread]: End processing [fibertrace] error
+[2023-06-29 10:33:16] INFO root fetch - processPackages [evilHunter]: New version: [0.1.9.50] Old Version: [0.1.9.47]
+[2023-06-29 10:33:16] INFO root fetch - processPackages [huza]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-29 10:33:16] INFO root fetch - processPackages [cadence-detector]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-29 10:33:16] INFO root fetch - processPackages [sentry-ldap]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-06-29 10:33:16] INFO root fetch - processPackages [sfepy]: Downloading https://files.pythonhosted.org/packages/e0/ec/17a5c22e8c2087fc2eb3cfe3362a087cbd9cc225c8b12d5a16fc763e1713/sfepy-2023.1.tar.gz
+[2023-06-29 10:33:16] INFO root fetch - processPackages [sentry-ldap]: Downloading https://files.pythonhosted.org/packages/e2/06/7ed9438f7a9b7c04f54451531461a75ec06d4a0574ae99093f062a05d5d7/sentry-ldap-1.2.7.tar.gz
+[2023-06-29 10:33:16] INFO root fetch - processPackages [cadence-detector]: Downloading https://files.pythonhosted.org/packages/f4/f1/9da093407e75276e371afdc63757b0178de1dc0e30bc727c4331303a8b61/cadence_detector-0.1.0.tar.gz
+[2023-06-29 10:33:16] WARNING root fetch - processPackages [sfepy]: Skipping package: exceeds size limit 14893222>=10485760
+[2023-06-29 10:33:16] INFO root fetch - processPackages [sfepy]: Start processing: CMZ-Frameworks
+[2023-06-29 10:33:16] INFO root fetch - main [MainThread]: End processing [sfepy] error
+[2023-06-29 10:33:16] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/46/4b/6e031f7e01fbf90a44bda932ef1c3234d049036e66478d3b7a6aecb091db/nextpcg-0.5.1.tar.gz
+[2023-06-29 10:33:16] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-29 10:33:16] INFO root fetch - processPackages [qiskit-han]: Downloading https://files.pythonhosted.org/packages/7b/bf/294ff13164519bc93c4ea8089f265d128331c17af7461e727db31ff4dfa8/qiskit_han-0.0.4.tar.gz
+[2023-06-29 10:33:16] INFO root fetch - processPackages [metasnek]: Downloading https://files.pythonhosted.org/packages/0e/e8/b78ceddc2b0ddda9c4fbfe34dbdeb332b4b015f7aba4b68445552506233f/metasnek-0.0.3.tar.gz
+[2023-06-29 10:33:16] INFO root fetch - processPackages [evilHunter]: Downloading https://files.pythonhosted.org/packages/ba/2d/7f8d8475dd721a3d40943bfd83b6d6d0e6e391119421df337ac66db741ee/evilHunter-0.1.9.47.tar.gz
+[2023-06-29 10:33:16] INFO root fetch - processPackages [huza]: Downloading https://files.pythonhosted.org/packages/4a/dc/e8dedef054a8b1138d0206a6b7324a30f569a3f30add09539aed7012c9a6/huza-0.2.8.tar.gz
+[2023-06-29 10:33:16] INFO root fetch - processPackages [jcmutils]: Downloading https://files.pythonhosted.org/packages/9a/06/a34e14dd0400db2325d659083638e7b8b25d37c25b091b5dce2a043b0edb/jcmutils-1.6.4.tar.gz
+[2023-06-29 10:33:16] INFO root fetch - processPackages [nextpcg]: executing diffoscope
+[2023-06-29 10:33:16] INFO root fetch - processPackages [nextpcg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextpcg-0.5.0.tar.gz tmp/nextpcg-0.5.1.tar.gz --markdown 20230629/n/nextpcg/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-29 10:33:16] INFO root fetch - processPackages [qiskit-han]: executing diffoscope
+[2023-06-29 10:33:16] INFO root fetch - processPackages [qiskit-han]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_han-0.0.3.tar.gz tmp/qiskit_han-0.0.4.tar.gz --markdown 20230629/q/qiskit-han/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-29 10:33:16] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-29 10:33:16] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230629/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-29 10:33:16] INFO root fetch - processPackages [cadence-detector]: Downloading https://files.pythonhosted.org/packages/13/69/7e2e496b4a8e4bbeea42333a2bc57233b3d66611ea350e388efa101008ca/cadence_detector-0.2.0.tar.gz
+[2023-06-29 10:33:16] WARNING root fetch - processPackages [CMZ-Frameworks]: Skipping, unable to determine old version
+[2023-06-29 10:33:16] INFO root fetch - processPackages [CMZ-Frameworks]: Start processing: qontract-reconcile
+[2023-06-29 10:33:16] INFO root fetch - main [MainThread]: End processing [CMZ-Frameworks] error
+[2023-06-29 10:33:16] INFO root fetch - processPackages [sentry-ldap]: Downloading https://files.pythonhosted.org/packages/cb/1e/83cabdfdabeba1802261f3a524815733cc480cb976268328ebff97072c34/sentry-ldap-1.2.8.tar.gz
+[2023-06-29 10:33:16] INFO root fetch - processPackages [jcmutils]: executing diffoscope
+[2023-06-29 10:33:16] INFO root fetch - processPackages [jcmutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcmutils-1.6.3.tar.gz tmp/jcmutils-1.6.4.tar.gz --markdown 20230629/j/jcmutils/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-06-29 10:33:16] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-29 10:33:16] INFO root fetch - processPackages [cadence-detector]: executing diffoscope
+[2023-06-29 10:33:16] INFO root fetch - processPackages [cadence-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadence_detector-0.1.0.tar.gz tmp/cadence_detector-0.2.0.tar.gz --markdown 20230629/c/cadence-detector/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-29 10:33:16] INFO root fetch - processPackages [sentry-ldap]: executing diffoscope
+[2023-06-29 10:33:16] INFO root fetch - processPackages [sentry-ldap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-ldap-1.2.7.tar.gz tmp/sentry-ldap-1.2.8.tar.gz --markdown 20230629/s/sentry-ldap/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-06-29 10:33:16] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-29 10:33:16] INFO root fetch - processPackages [metasnek]: Downloading https://files.pythonhosted.org/packages/d0/8a/564cb6cc67870ff2e3883b41bfff98f1adff551e772b233ed3fa0db51cb5/metasnek-0.0.4.tar.gz
+[2023-06-29 10:33:16] INFO root fetch - processPackages [evilHunter]: Downloading https://files.pythonhosted.org/packages/a9/24/fa4dc9d5c0966b63de03faccec5f49d38deb34dae44be7eae5b080b6110c/evilHunter-0.1.9.50.tar.gz
+[2023-06-29 10:33:16] INFO root fetch - processPackages [huza]: Downloading https://files.pythonhosted.org/packages/97/6f/1f32bc0b4d50df2fe53edb286c1e75702196fe17a4417eb12400da611c09/huza-0.2.9.tar.gz
+[2023-06-29 10:33:16] INFO root fetch - processPackages [evilHunter]: executing diffoscope
+[2023-06-29 10:33:16] INFO root fetch - processPackages [evilHunter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evilHunter-0.1.9.47.tar.gz tmp/evilHunter-0.1.9.50.tar.gz --markdown 20230629/e/evilHunter/0.1.9.47-0.1.9.50/diff.md --exclude *.pyd
+[2023-06-29 10:33:16] INFO root fetch - processPackages [metasnek]: executing diffoscope
+[2023-06-29 10:33:16] INFO root fetch - processPackages [metasnek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metasnek-0.0.3.tar.gz tmp/metasnek-0.0.4.tar.gz --markdown 20230629/m/metasnek/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-29 10:33:16] INFO root fetch - processPackages [huza]: executing diffoscope
+[2023-06-29 10:33:16] INFO root fetch - processPackages [huza]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huza-0.2.8.tar.gz tmp/huza-0.2.9.tar.gz --markdown 20230629/h/huza/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-29 10:33:16] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-29 10:33:16] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-29 10:33:16] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230629/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-29 10:33:17] INFO root fetch - processPackages [qiskit-han]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_han-0.0.3.tar.gz]
+[2023-06-29 10:33:17] INFO root fetch - processPackages [qiskit-han]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_han-0.0.4.tar.gz]
+[2023-06-29 10:33:17] INFO root fetch - processPackages [qiskit-han]: Start processing: kiara-plugin.onboarding
+[2023-06-29 10:33:17] INFO root fetch - main [MainThread]: End processing [qiskit-han]: success
+[2023-06-29 10:33:17] INFO root fetch - processPackages [kiara-plugin.onboarding]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-06-29 10:33:18] INFO root fetch - processPackages [sentry-ldap]: Remove: archive file [/home/abi/fetcher/tmp/sentry-ldap-1.2.7.tar.gz]
+[2023-06-29 10:33:18] INFO root fetch - processPackages [sentry-ldap]: Remove: archive file [/home/abi/fetcher/tmp/sentry-ldap-1.2.8.tar.gz]
+[2023-06-29 10:33:18] INFO root fetch - processPackages [sentry-ldap]: Start processing: CMZ-Automation-Frameworks
+[2023-06-29 10:33:18] INFO root fetch - main [MainThread]: End processing [sentry-ldap]: success
+[2023-06-29 10:33:18] WARNING root fetch - processPackages [CMZ-Automation-Frameworks]: Skipping, unable to determine old version
+[2023-06-29 10:33:18] INFO root fetch - processPackages [CMZ-Automation-Frameworks]: Start processing: configzen
+[2023-06-29 10:33:18] INFO root fetch - main [MainThread]: End processing [CMZ-Automation-Frameworks] error
+[2023-06-29 10:33:18] INFO root fetch - processPackages [jcmutils]: Remove: archive file [/home/abi/fetcher/tmp/jcmutils-1.6.3.tar.gz]
+[2023-06-29 10:33:18] INFO root fetch - processPackages [jcmutils]: Remove: archive file [/home/abi/fetcher/tmp/jcmutils-1.6.4.tar.gz]
+[2023-06-29 10:33:18] INFO root fetch - processPackages [jcmutils]: Start processing: utf8-locale
+[2023-06-29 10:33:18] INFO root fetch - main [MainThread]: End processing [jcmutils]: success
+[2023-06-29 10:33:18] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.5.0.tar.gz]
+[2023-06-29 10:33:18] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.5.1.tar.gz]
+[2023-06-29 10:33:18] INFO root fetch - main [MainThread]: End processing [nextpcg]: success
+[2023-06-29 10:33:18] INFO root fetch - processPackages [configzen]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-29 10:33:18] INFO root fetch - processPackages [utf8-locale]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-29 10:33:18] INFO root fetch - processPackages [kiara-plugin.onboarding]: Downloading https://files.pythonhosted.org/packages/cb/7a/1cd45b7bf9d6e8aa9751799d15ccb54d5243b7ae0e3e757b909bc07f3d97/kiara_plugin.onboarding-0.4.5.tar.gz
+[2023-06-29 10:33:18] INFO root fetch - processPackages [evilHunter]: Remove: archive file [/home/abi/fetcher/tmp/evilHunter-0.1.9.47.tar.gz]
+[2023-06-29 10:33:18] INFO root fetch - processPackages [evilHunter]: Remove: archive file [/home/abi/fetcher/tmp/evilHunter-0.1.9.50.tar.gz]
+[2023-06-29 10:33:18] INFO root fetch - main [MainThread]: End processing [evilHunter]: success
+[2023-06-29 10:33:18] INFO root fetch - processPackages [metasnek]: Remove: archive file [/home/abi/fetcher/tmp/metasnek-0.0.3.tar.gz]
+[2023-06-29 10:33:18] INFO root fetch - processPackages [metasnek]: Remove: archive file [/home/abi/fetcher/tmp/metasnek-0.0.4.tar.gz]
+[2023-06-29 10:33:18] INFO root fetch - main [MainThread]: End processing [metasnek]: success
+[2023-06-29 10:33:18] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/e9/e7/48633558450f9cff317d34d8df4391c40a737513dc77e42c386f4a34cb87/configzen-0.4.2.tar.gz
+[2023-06-29 10:33:18] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-29 10:33:18] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-29 10:33:18] INFO root fetch - processPackages [utf8-locale]: Downloading https://files.pythonhosted.org/packages/a6/f7/df63543da8ec05c487aa2b1a1b57d6b326aeef4ad8d93425e85ee94e495f/utf8-locale-1.0.0.tar.gz
+[2023-06-29 10:33:18] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-29 10:33:18] INFO root fetch - processPackages [kiara-plugin.onboarding]: Downloading https://files.pythonhosted.org/packages/90/47/d3f67531366088a9381c1af743f56d14731493a3fd81614df5cf77fc833c/kiara_plugin.onboarding-0.4.6.tar.gz
+[2023-06-29 10:33:18] INFO root fetch - processPackages [huza]: Remove: archive file [/home/abi/fetcher/tmp/huza-0.2.8.tar.gz]
+[2023-06-29 10:33:18] INFO root fetch - processPackages [huza]: Remove: archive file [/home/abi/fetcher/tmp/huza-0.2.9.tar.gz]
+[2023-06-29 10:33:18] INFO root fetch - main [MainThread]: End processing [huza]: success
+[2023-06-29 10:33:18] INFO root fetch - processPackages [kiara-plugin.onboarding]: executing diffoscope
+[2023-06-29 10:33:18] INFO root fetch - processPackages [kiara-plugin.onboarding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara_plugin.onboarding-0.4.5.tar.gz tmp/kiara_plugin.onboarding-0.4.6.tar.gz --markdown 20230629/k/kiara-plugin.onboarding/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-06-29 10:33:18] INFO root fetch - processPackages [cadence-detector]: Remove: archive file [/home/abi/fetcher/tmp/cadence_detector-0.1.0.tar.gz]
+[2023-06-29 10:33:18] INFO root fetch - processPackages [cadence-detector]: Remove: archive file [/home/abi/fetcher/tmp/cadence_detector-0.2.0.tar.gz]
+[2023-06-29 10:33:18] INFO root fetch - main [MainThread]: End processing [cadence-detector]: success
+[2023-06-29 10:33:18] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/77/8d/62ed85d056ec10b5fd94a218606b2b6761c40e5cc8357e6697f326e6619e/configzen-0.4.3.tar.gz
+[2023-06-29 10:33:18] INFO root fetch - processPackages [configzen]: executing diffoscope
+[2023-06-29 10:33:18] INFO root fetch - processPackages [configzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configzen-0.4.2.tar.gz tmp/configzen-0.4.3.tar.gz --markdown 20230629/c/configzen/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-29 10:33:18] INFO root fetch - processPackages [utf8-locale]: Downloading https://files.pythonhosted.org/packages/5e/39/465a5a6ea7ae6018ceebda7f82fefefc856dc54bc8050ac5840a36576819/utf8_locale-1.0.1.tar.gz
+[2023-06-29 10:33:18] INFO root fetch - processPackages [utf8-locale]: executing diffoscope
+[2023-06-29 10:33:18] INFO root fetch - processPackages [utf8-locale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utf8-locale-1.0.0.tar.gz tmp/utf8_locale-1.0.1.tar.gz --markdown 20230629/u/utf8-locale/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-29 10:33:19] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.4.2.tar.gz]
+[2023-06-29 10:33:19] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.4.3.tar.gz]
+[2023-06-29 10:33:19] INFO root fetch - main [MainThread]: End processing [configzen]: success
+[2023-06-29 10:33:19] INFO root fetch - processPackages [utf8-locale]: Remove: archive file [/home/abi/fetcher/tmp/utf8-locale-1.0.0.tar.gz]
+[2023-06-29 10:33:19] INFO root fetch - processPackages [utf8-locale]: Remove: archive file [/home/abi/fetcher/tmp/utf8_locale-1.0.1.tar.gz]
+[2023-06-29 10:33:19] INFO root fetch - main [MainThread]: End processing [utf8-locale]: success
+[2023-06-29 10:33:21] INFO root fetch - processPackages [kiara-plugin.onboarding]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.onboarding-0.4.5.tar.gz]
+[2023-06-29 10:33:21] INFO root fetch - processPackages [kiara-plugin.onboarding]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.onboarding-0.4.6.tar.gz]
+[2023-06-29 10:33:21] INFO root fetch - main [MainThread]: End processing [kiara-plugin.onboarding]: success
+[2023-06-29 10:33:23] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-29 10:33:23] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-29 10:33:23] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-29 10:33:23] INFO root fetch - main [MainThread]: Store serial: [18692131]
