@@ -8536,3 +8536,135 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 13:36:34] INFO root fetch - processPackages [blivet]: Remove: archive file [/home/abi/fetcher/tmp/blivet-3.8.0.tar.gz]
 [2023-06-29 13:36:34] INFO root fetch - main [MainThread]: End processing [blivet]: success
 [2023-06-29 13:36:34] INFO root fetch - main [MainThread]: Store serial: [18694292]
+[2023-06-29 13:41:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18694292]
+[2023-06-29 13:41:45] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-29 13:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moto
+[2023-06-29 13:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opendorslib
+[2023-06-29 13:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-nano
+[2023-06-29 13:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: resize-icon
+[2023-06-29 13:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: t2iapi
+[2023-06-29 13:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: elongation-simulators
+[2023-06-29 13:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-purchase-deposit
+[2023-06-29 13:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py3toolbox
+[2023-06-29 13:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cleanlab-studio
+[2023-06-29 13:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sdc11073
+[2023-06-29 13:41:45] INFO root fetch - processPackages [py3toolbox]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 13:41:45] WARNING root fetch - processPackages [opendorslib]: Skipping, unable to determine old version
+[2023-06-29 13:41:45] INFO root fetch - processPackages [opendorslib]: Start processing: pyre-check-nightly
+[2023-06-29 13:41:45] INFO root fetch - main [MainThread]: End processing [opendorslib] error
+[2023-06-29 13:41:45] INFO root fetch - processPackages [odoo-addon-purchase-deposit]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.4]
+[2023-06-29 13:41:45] INFO root fetch - processPackages [resize-icon]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-29 13:41:45] INFO root fetch - processPackages [cleanlab-studio]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-29 13:41:45] INFO root fetch - processPackages [t2iapi]: New version: [3.0.0.dev207] Old Version: [3.0.0.dev204]
+[2023-06-29 13:41:45] INFO root fetch - processPackages [elongation-simulators]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-29 13:41:45] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230629] Old Version: [2.4.0b20230628]
+[2023-06-29 13:41:45] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-06-29 13:41:45] INFO root fetch - processPackages [sdc11073]: New version: [2.0.0a5] Old Version: [2.0.0a4]
+[2023-06-29 13:41:45] INFO root fetch - processPackages [elongation-simulators]: Downloading https://files.pythonhosted.org/packages/72/2d/50b218880fcdd65dc4df1a691d4eac8021f4f54a589ed3d96d93243e9ca2/elongation_simulators-1.0.2.tar.gz
+[2023-06-29 13:41:45] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101688037054] Old Version: [0.0.101687950665]
+[2023-06-29 13:41:45] INFO root fetch - processPackages [py3toolbox]: Downloading https://files.pythonhosted.org/packages/e4/e6/6f1e77832ec5b71f6d0f65cfbec5c2f186703fac1a664626aea040325c7c/py3toolbox-0.1.8.tar.gz
+[2023-06-29 13:41:45] INFO root fetch - processPackages [resize-icon]: Downloading https://files.pythonhosted.org/packages/40/5d/b3243b8e69adb5c2e747c91cc20753282fb1147e18e59e4dcf6b8585e5a6/resize_icon-0.1.2.tar.gz
+[2023-06-29 13:41:45] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/df/c8/f98032c21a2d0209b8cb6675b4465c54ca1bfda76d6539e9a4df9c9d4de6/t2iapi-3.0.0.dev204.tar.gz
+[2023-06-29 13:41:45] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/c3/94/5b2dc865914f5a953868fc31746d4b3e8b33bf07be43555e7d49045489df/bigdl_nano-2.4.0b20230628-py3-none-win_amd64.whl
+[2023-06-29 13:41:45] INFO root fetch - processPackages [odoo-addon-purchase-deposit]: Downloading https://files.pythonhosted.org/packages/a0/01/eb9e62ba2dfa04dd8edb0faa79c6769f6e310a3d4bead2450e057df1e502/odoo_addon_purchase_deposit-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-29 13:41:45] INFO root fetch - processPackages [cleanlab-studio]: Downloading https://files.pythonhosted.org/packages/eb/0e/c12a2ce4f9876b07ff77b367a018025495674a258d19f2188e65f655d352/cleanlab-studio-1.0.8.tar.gz
+[2023-06-29 13:41:45] INFO root fetch - processPackages [sdc11073]: Downloading https://files.pythonhosted.org/packages/59/5f/8ce07f7cba2b508fe21be08e96eb4f39511400b30e57169bf4211a8ba2f8/sdc11073-2.0.0a4.tar.gz
+[2023-06-29 13:41:45] INFO root fetch - processPackages [py3toolbox]: Downloading https://files.pythonhosted.org/packages/25/6b/7f9865a1bedf9c30b0ba7956a568b97cc5dd18c9825e37d26c54ae28ed7d/py3toolbox-0.1.9.tar.gz
+[2023-06-29 13:41:45] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/68/dd/05d7fbc0fbfab78244bf239e46f12295b72013001c5599fddff71c787e23/pyre-check-nightly-0.0.101687950665.tar.gz
+[2023-06-29 13:41:45] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23753759>=10485760
+[2023-06-29 13:41:45] INFO root fetch - processPackages [pyre-check-nightly]: Start processing: imessage-reader
+[2023-06-29 13:41:45] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-06-29 13:41:45] INFO root fetch - processPackages [elongation-simulators]: Downloading https://files.pythonhosted.org/packages/12/d8/4287ed34d168a27975e3cd9c627e90b34ddb1aa5efece06fc7e1ba004111/elongation_simulators-1.0.3.tar.gz
+[2023-06-29 13:41:45] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-06-29 13:41:45] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230629/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-06-29 13:41:45] INFO root fetch - processPackages [py3toolbox]: executing diffoscope
+[2023-06-29 13:41:45] INFO root fetch - processPackages [py3toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3toolbox-0.1.8.tar.gz tmp/py3toolbox-0.1.9.tar.gz --markdown 20230629/p/py3toolbox/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 13:41:45] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/45/c7/739b1b705b93272dd3d81a33bad91bef3822e093802ef381558a35fb1f52/t2iapi-3.0.0.dev207.tar.gz
+[2023-06-29 13:41:45] INFO root fetch - processPackages [resize-icon]: Downloading https://files.pythonhosted.org/packages/ea/0f/6427cdb495e039d976b5f55d3aad5f805c4f2c6d12aeab996527bf4da441/resize_icon-0.1.3.tar.gz
+[2023-06-29 13:41:45] INFO root fetch - processPackages [imessage-reader]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-29 13:41:45] INFO root fetch - processPackages [elongation-simulators]: executing diffoscope
+[2023-06-29 13:41:45] INFO root fetch - processPackages [elongation-simulators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elongation_simulators-1.0.2.tar.gz tmp/elongation_simulators-1.0.3.tar.gz --markdown 20230629/e/elongation-simulators/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-29 13:41:45] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/6a/e1/418353971aa9206e06e7b24b748886428f64315568f08caf6aa264b322f1/bigdl_nano-2.4.0b20230629-py3-none-win_amd64.whl
+[2023-06-29 13:41:45] INFO root fetch - processPackages [cleanlab-studio]: Downloading https://files.pythonhosted.org/packages/ae/39/22640d9d32e28918b21d4c882a1fa692bc08fb6fa199085a1432593f580e/cleanlab-studio-1.0.9.tar.gz
+[2023-06-29 13:41:45] INFO root fetch - processPackages [t2iapi]: executing diffoscope
+[2023-06-29 13:41:45] INFO root fetch - processPackages [t2iapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t2iapi-3.0.0.dev204.tar.gz tmp/t2iapi-3.0.0.dev207.tar.gz --markdown 20230629/t/t2iapi/3.0.0.dev204-3.0.0.dev207/diff.md --exclude *.pyd
+[2023-06-29 13:41:45] INFO root fetch - processPackages [odoo-addon-purchase-deposit]: Downloading https://files.pythonhosted.org/packages/5c/d0/8d28f677c26942d9ad85fb3bb89e70236155118300e04d140dc8a9e7ba4e/odoo_addon_purchase_deposit-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-29 13:41:45] INFO root fetch - processPackages [sdc11073]: Downloading https://files.pythonhosted.org/packages/b9/08/3ed2268cc888c308a73a4111ee0a725bbab25b0e130326098f0b3a06f08c/sdc11073-2.0.0a5.tar.gz
+[2023-06-29 13:41:45] INFO root fetch - processPackages [resize-icon]: executing diffoscope
+[2023-06-29 13:41:45] INFO root fetch - processPackages [resize-icon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resize_icon-0.1.2.tar.gz tmp/resize_icon-0.1.3.tar.gz --markdown 20230629/r/resize-icon/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-29 13:41:45] INFO root fetch - processPackages [cleanlab-studio]: executing diffoscope
+[2023-06-29 13:41:45] INFO root fetch - processPackages [cleanlab-studio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleanlab-studio-1.0.8.tar.gz tmp/cleanlab-studio-1.0.9.tar.gz --markdown 20230629/c/cleanlab-studio/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-29 13:41:45] INFO root fetch - processPackages [imessage-reader]: Downloading https://files.pythonhosted.org/packages/d8/0c/b2c771e0c82787b729a4ce3e8038044bb4d0d14c98af4c26242fa3cd77c9/imessage_reader-0.5.0.tar.gz
+[2023-06-29 13:41:45] INFO root fetch - processPackages [odoo-addon-purchase-deposit]: executing diffoscope
+[2023-06-29 13:41:45] INFO root fetch - processPackages [odoo-addon-purchase-deposit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_deposit-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_purchase_deposit-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230629/o/odoo-addon-purchase-deposit/16.0.1.0.0.4-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-06-29 13:41:45] INFO root fetch - processPackages [sdc11073]: executing diffoscope
+[2023-06-29 13:41:45] INFO root fetch - processPackages [sdc11073]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdc11073-2.0.0a4.tar.gz tmp/sdc11073-2.0.0a5.tar.gz --markdown 20230629/s/sdc11073/2.0.0a4-2.0.0a5/diff.md --exclude *.pyd
+[2023-06-29 13:41:46] INFO root fetch - processPackages [imessage-reader]: Downloading https://files.pythonhosted.org/packages/f0/87/4248b589968ebd4967c5b937deba27d41d5fffb84469f0e7048d57e5b0c4/imessage_reader-0.6.0.tar.gz
+[2023-06-29 13:41:46] INFO root fetch - processPackages [imessage-reader]: executing diffoscope
+[2023-06-29 13:41:46] INFO root fetch - processPackages [imessage-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imessage_reader-0.5.0.tar.gz tmp/imessage_reader-0.6.0.tar.gz --markdown 20230629/i/imessage-reader/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-29 13:41:46] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-06-29 13:41:46] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230628-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230629-py3-none-win_amd64.whl.zip --markdown 20230629/b/bigdl-nano/2.4.0b20230628-2.4.0b20230629/diff.md --exclude *.pyd
+[2023-06-29 13:41:47] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-06-29 13:41:47] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-06-29 13:41:47] INFO root fetch - processPackages [moto]: Start processing: pymaster
+[2023-06-29 13:41:47] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-06-29 13:41:47] INFO root fetch - processPackages [pymaster]: New version: [1.5.1] Old Version: [1.5]
+[2023-06-29 13:41:47] INFO root fetch - processPackages [pymaster]: Downloading https://files.pythonhosted.org/packages/1a/98/1ece73444da905f362ecb3bb524075391bb2f8bf82a00fa349363faa481d/pymaster-1.5.tar.gz
+[2023-06-29 13:41:47] INFO root fetch - processPackages [resize-icon]: Remove: archive file [/home/abi/fetcher/tmp/resize_icon-0.1.2.tar.gz]
+[2023-06-29 13:41:47] INFO root fetch - processPackages [resize-icon]: Remove: archive file [/home/abi/fetcher/tmp/resize_icon-0.1.3.tar.gz]
+[2023-06-29 13:41:47] INFO root fetch - processPackages [resize-icon]: Start processing: dauth
+[2023-06-29 13:41:47] INFO root fetch - main [MainThread]: End processing [resize-icon]: success
+[2023-06-29 13:41:47] INFO root fetch - processPackages [dauth]: New version: [0.3] Old Version: [0.2]
+[2023-06-29 13:41:47] INFO root fetch - processPackages [py3toolbox]: Remove: archive file [/home/abi/fetcher/tmp/py3toolbox-0.1.8.tar.gz]
+[2023-06-29 13:41:47] INFO root fetch - processPackages [py3toolbox]: Remove: archive file [/home/abi/fetcher/tmp/py3toolbox-0.1.9.tar.gz]
+[2023-06-29 13:41:47] INFO root fetch - processPackages [py3toolbox]: Start processing: savant-rs
+[2023-06-29 13:41:47] INFO root fetch - main [MainThread]: End processing [py3toolbox]: success
+[2023-06-29 13:41:47] INFO root fetch - processPackages [savant-rs]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-06-29 13:41:48] INFO root fetch - processPackages [dauth]: Downloading https://files.pythonhosted.org/packages/78/b3/020c527798460c664900d419d799aaa585b9ccd7b004549642c6be685222/dauth-0.2.tar.gz
+[2023-06-29 13:41:48] INFO root fetch - processPackages [pymaster]: Downloading https://files.pythonhosted.org/packages/8e/ec/f25e80281a9c1880f9b196f3c0c630fac5d544119199bf00aa89b4133786/pymaster-1.5.1.tar.gz
+[2023-06-29 13:41:48] INFO root fetch - processPackages [odoo-addon-purchase-deposit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_deposit-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-29 13:41:48] INFO root fetch - processPackages [odoo-addon-purchase-deposit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_deposit-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-29 13:41:48] INFO root fetch - processPackages [odoo-addon-purchase-deposit]: Start processing: dm-cli
+[2023-06-29 13:41:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-deposit]: success
+[2023-06-29 13:41:48] WARNING root fetch - processPackages [pymaster]: Skipping package: exceeds size limit 24835903>=10485760
+[2023-06-29 13:41:48] INFO root fetch - main [MainThread]: End processing [pymaster] error
+[2023-06-29 13:41:48] INFO root fetch - processPackages [dm-cli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-29 13:41:48] INFO root fetch - processPackages [t2iapi]: Remove: archive file [/home/abi/fetcher/tmp/t2iapi-3.0.0.dev204.tar.gz]
+[2023-06-29 13:41:48] INFO root fetch - processPackages [t2iapi]: Remove: archive file [/home/abi/fetcher/tmp/t2iapi-3.0.0.dev207.tar.gz]
+[2023-06-29 13:41:48] INFO root fetch - main [MainThread]: End processing [t2iapi]: success
+[2023-06-29 13:41:48] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/c4/00/2644997dc31784c2debfbda253c475ca3463024586165f400ebc3871aaba/savant_rs-0.1.7.tar.gz
+[2023-06-29 13:41:48] INFO root fetch - processPackages [dauth]: Downloading https://files.pythonhosted.org/packages/08/39/7c94f936fa84fec3d37b3f5335dd4832998331f9e85fbdc8760e0dd0e906/dauth-0.3.tar.gz
+[2023-06-29 13:41:48] INFO root fetch - processPackages [imessage-reader]: Remove: archive file [/home/abi/fetcher/tmp/imessage_reader-0.5.0.tar.gz]
+[2023-06-29 13:41:48] INFO root fetch - processPackages [imessage-reader]: Remove: archive file [/home/abi/fetcher/tmp/imessage_reader-0.6.0.tar.gz]
+[2023-06-29 13:41:48] INFO root fetch - main [MainThread]: End processing [imessage-reader]: success
+[2023-06-29 13:41:48] INFO root fetch - processPackages [dm-cli]: Downloading https://files.pythonhosted.org/packages/59/df/ca24977afe69b3ac5282172f3b9dd56ad46a72021accec09a7153b4d774c/dm-cli-1.0.8.tar.gz
+[2023-06-29 13:41:48] INFO root fetch - processPackages [dauth]: executing diffoscope
+[2023-06-29 13:41:48] INFO root fetch - processPackages [dauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dauth-0.2.tar.gz tmp/dauth-0.3.tar.gz --markdown 20230629/d/dauth/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-29 13:41:48] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/14/6f/20424ad55aaad55bea7d3a27e5a0cc5fe726f0b4507b2b6f406d79e8015a/savant_rs-0.1.9.tar.gz
+[2023-06-29 13:41:48] INFO root fetch - processPackages [cleanlab-studio]: Remove: archive file [/home/abi/fetcher/tmp/cleanlab-studio-1.0.8.tar.gz]
+[2023-06-29 13:41:48] INFO root fetch - processPackages [cleanlab-studio]: Remove: archive file [/home/abi/fetcher/tmp/cleanlab-studio-1.0.9.tar.gz]
+[2023-06-29 13:41:48] INFO root fetch - main [MainThread]: End processing [cleanlab-studio]: success
+[2023-06-29 13:41:48] INFO root fetch - processPackages [savant-rs]: executing diffoscope
+[2023-06-29 13:41:48] INFO root fetch - processPackages [savant-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs-0.1.7.tar.gz tmp/savant_rs-0.1.9.tar.gz --markdown 20230629/s/savant-rs/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 13:41:48] INFO root fetch - processPackages [dm-cli]: Downloading https://files.pythonhosted.org/packages/ba/1a/e361c46097f8d3626943bb47fe4508776017a4d7677d1f3812b82cd64f1a/dm-cli-1.0.9.tar.gz
+[2023-06-29 13:41:48] INFO root fetch - processPackages [dm-cli]: executing diffoscope
+[2023-06-29 13:41:48] INFO root fetch - processPackages [dm-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm-cli-1.0.8.tar.gz tmp/dm-cli-1.0.9.tar.gz --markdown 20230629/d/dm-cli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-29 13:41:49] INFO root fetch - processPackages [sdc11073]: Remove: archive file [/home/abi/fetcher/tmp/sdc11073-2.0.0a4.tar.gz]
+[2023-06-29 13:41:49] INFO root fetch - processPackages [sdc11073]: Remove: archive file [/home/abi/fetcher/tmp/sdc11073-2.0.0a5.tar.gz]
+[2023-06-29 13:41:49] INFO root fetch - main [MainThread]: End processing [sdc11073]: success
+[2023-06-29 13:41:49] INFO root fetch - processPackages [dauth]: Remove: archive file [/home/abi/fetcher/tmp/dauth-0.2.tar.gz]
+[2023-06-29 13:41:49] INFO root fetch - processPackages [dauth]: Remove: archive file [/home/abi/fetcher/tmp/dauth-0.3.tar.gz]
+[2023-06-29 13:41:49] INFO root fetch - main [MainThread]: End processing [dauth]: success
+[2023-06-29 13:41:50] INFO root fetch - processPackages [savant-rs]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs-0.1.7.tar.gz]
+[2023-06-29 13:41:50] INFO root fetch - processPackages [savant-rs]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs-0.1.9.tar.gz]
+[2023-06-29 13:41:50] INFO root fetch - main [MainThread]: End processing [savant-rs]: success
+[2023-06-29 13:41:52] INFO root fetch - processPackages [dm-cli]: Remove: archive file [/home/abi/fetcher/tmp/dm-cli-1.0.8.tar.gz]
+[2023-06-29 13:41:52] INFO root fetch - processPackages [dm-cli]: Remove: archive file [/home/abi/fetcher/tmp/dm-cli-1.0.9.tar.gz]
+[2023-06-29 13:41:52] INFO root fetch - main [MainThread]: End processing [dm-cli]: success
+[2023-06-29 13:41:53] INFO root fetch - processPackages [elongation-simulators]: Remove: archive file [/home/abi/fetcher/tmp/elongation_simulators-1.0.2.tar.gz]
+[2023-06-29 13:41:53] INFO root fetch - processPackages [elongation-simulators]: Remove: archive file [/home/abi/fetcher/tmp/elongation_simulators-1.0.3.tar.gz]
+[2023-06-29 13:41:53] INFO root fetch - main [MainThread]: End processing [elongation-simulators]: success
+[2023-06-29 13:41:57] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230628-py3-none-win_amd64.whl.zip]
+[2023-06-29 13:41:57] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230629-py3-none-win_amd64.whl.zip]
+[2023-06-29 13:41:57] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-06-29 13:41:57] INFO root fetch - main [MainThread]: Store serial: [18694398]
