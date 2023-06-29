@@ -2170,3 +2170,114 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 09:56:03] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2023.6.3rc9.tar.gz]
 [2023-06-29 09:56:03] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
 [2023-06-29 09:56:03] INFO root fetch - main [MainThread]: Store serial: [18691690]
+[2023-06-29 10:01:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18691690]
+[2023-06-29 10:01:11] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-29 10:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: castor-extractor
+[2023-06-29 10:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SELDOMpy
+[2023-06-29 10:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qibo
+[2023-06-29 10:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aof
+[2023-06-29 10:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: strmprivacy-api-definitions
+[2023-06-29 10:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kilvin
+[2023-06-29 10:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: email-to-soup
+[2023-06-29 10:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openexpressions
+[2023-06-29 10:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lsst-daf-butler
+[2023-06-29 10:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chatllm
+[2023-06-29 10:01:11] INFO root fetch - processPackages [aof]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 10:01:11] INFO root fetch - processPackages [castor-extractor]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-29 10:01:11] INFO root fetch - processPackages [openexpressions]: New version: [1.2] Old Version: [1.1]
+[2023-06-29 10:01:11] INFO root fetch - processPackages [SELDOMpy]: New version: [0.4.2] Old Version: [0.4.0]
+[2023-06-29 10:01:11] INFO root fetch - processPackages [email-to-soup]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 10:01:11] INFO root fetch - processPackages [lsst-daf-butler]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-29 10:01:11] INFO root fetch - processPackages [chatllm]: New version: [2023.6.29.9.57.33] Old Version: [2023.6.29.9.39.13]
+[2023-06-29 10:01:11] INFO root fetch - processPackages [qibo]: New version: [0.1.9] Old Version: [0.1.8rc0]
+[2023-06-29 10:01:11] INFO root fetch - processPackages [kilvin]: New version: [0.4] Old Version: [0.3]
+[2023-06-29 10:01:11] INFO root fetch - processPackages [strmprivacy-api-definitions]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-06-29 10:01:11] INFO root fetch - processPackages [aof]: Downloading https://files.pythonhosted.org/packages/d3/d2/5102e8b58f64a8fd4a6fb1f24670608877b2a4835d8cffb45ed912e369f2/aof-0.0.8.tar.gz
+[2023-06-29 10:01:11] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/82/c1/568973ea7bb92ed323f1704dc37faa288e5809889eecb42cbefc0edc4c47/chatllm-2023.6.29.9.39.13.tar.gz
+[2023-06-29 10:01:11] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/a1/41/4cb913d8c38f38137841d0ab72957a7b56f0ef4c2e85ef4e06fef79063b9/SELDOMpy-0.4.0.tar.gz
+[2023-06-29 10:01:11] INFO root fetch - processPackages [strmprivacy-api-definitions]: Downloading https://files.pythonhosted.org/packages/5c/6f/1b809301be8c0e1f82e1a6097effbbae1c58733e5257eeccdd9eb9428ca5/strmprivacy-api-definitions-3.2.0.tar.gz
+[2023-06-29 10:01:11] INFO root fetch - processPackages [openexpressions]: Downloading https://files.pythonhosted.org/packages/ab/ab/5aa08fbcbda9f110402d8e9e2e51fffb09d64c9577afb9c73d93c89e87e1/openexpressions-1.1.tar.gz
+[2023-06-29 10:01:12] INFO root fetch - processPackages [castor-extractor]: Downloading https://files.pythonhosted.org/packages/b3/d3/7af472c2d2faa33c3392da215a86d08c3d4d83fc792d9ebb3d1da42dbac5/castor_extractor-0.4.0.tar.gz
+[2023-06-29 10:01:12] INFO root fetch - processPackages [aof]: Downloading https://files.pythonhosted.org/packages/e3/2b/dbe2d55fa01a8a44ec7266ddc2e3ab508ccb052a7e10a8a667fcebfa5f89/aof-0.0.9.tar.gz
+[2023-06-29 10:01:12] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/dc/b1/9f18559a0567653c67511c02f80d8778d9d0fd3e9873efffb923379924eb/lsst-daf-butler-26.0.0a20230400.tar.gz
+[2023-06-29 10:01:12] INFO root fetch - processPackages [kilvin]: Downloading https://files.pythonhosted.org/packages/23/49/186c9f1b36d7486af2f08f607af97580dca7686607c59111c3386fd639c9/kilvin-0.3.tar.gz
+[2023-06-29 10:01:12] INFO root fetch - processPackages [email-to-soup]: Downloading https://files.pythonhosted.org/packages/22/5d/d34185b30ab28acab47983c78014a932eaa53a557452faa5e34b5fa7a725/email_to_soup-0.0.8.tar.gz
+[2023-06-29 10:01:12] INFO root fetch - processPackages [qibo]: Downloading https://files.pythonhosted.org/packages/01/94/0a45bb4545851bf077a42860016f8153c9271c38f02ecdb43d7007974b32/qibo-0.1.8rc0.tar.gz
+[2023-06-29 10:01:12] INFO root fetch - processPackages [aof]: executing diffoscope
+[2023-06-29 10:01:12] INFO root fetch - processPackages [aof]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aof-0.0.8.tar.gz tmp/aof-0.0.9.tar.gz --markdown 20230629/a/aof/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 10:01:12] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/59/f1/c594d993702ec1a421356f67bb655e9c1045f12e4134b81874a13bbc71e6/SELDOMpy-0.4.2.tar.gz
+[2023-06-29 10:01:12] INFO root fetch - processPackages [openexpressions]: Downloading https://files.pythonhosted.org/packages/6b/ad/679198688523c769f01de6bb237c0ea7e44c8fd8ad76e4191a26cf315f8c/openexpressions-1.2.tar.gz
+[2023-06-29 10:01:12] INFO root fetch - processPackages [strmprivacy-api-definitions]: Downloading https://files.pythonhosted.org/packages/4a/e4/b2301e5500a1990b772f52e43f750de61b5488b59c311520e4f7dabe7c4a/strmprivacy-api-definitions-3.3.0.tar.gz
+[2023-06-29 10:01:12] INFO root fetch - processPackages [castor-extractor]: Downloading https://files.pythonhosted.org/packages/7a/e4/5108fdb40c7658cce3d84ca25961f597914ead8bde14f889b954beef6877/castor_extractor-0.4.1.tar.gz
+[2023-06-29 10:01:12] INFO root fetch - processPackages [openexpressions]: executing diffoscope
+[2023-06-29 10:01:12] INFO root fetch - processPackages [openexpressions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openexpressions-1.1.tar.gz tmp/openexpressions-1.2.tar.gz --markdown 20230629/o/openexpressions/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-29 10:01:12] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-06-29 10:01:12] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.4.0.tar.gz tmp/SELDOMpy-0.4.2.tar.gz --markdown 20230629/S/SELDOMpy/0.4.0-0.4.2/diff.md --exclude *.pyd
+[2023-06-29 10:01:12] INFO root fetch - processPackages [strmprivacy-api-definitions]: executing diffoscope
+[2023-06-29 10:01:12] INFO root fetch - processPackages [strmprivacy-api-definitions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strmprivacy-api-definitions-3.2.0.tar.gz tmp/strmprivacy-api-definitions-3.3.0.tar.gz --markdown 20230629/s/strmprivacy-api-definitions/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-06-29 10:01:12] INFO root fetch - processPackages [kilvin]: Downloading https://files.pythonhosted.org/packages/f0/f8/17541f0f78cc7e81610c1d39bf43c29eb41931a405f6a4cb6cefc6603e75/kilvin-0.4.tar.gz
+[2023-06-29 10:01:12] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3f/89/8f22e3941fbb7062e9e48e73a2e7b94c00a39fd5769d9d4f575272bc9985/chatllm-2023.6.29.9.57.33.tar.gz
+[2023-06-29 10:01:12] INFO root fetch - processPackages [castor-extractor]: executing diffoscope
+[2023-06-29 10:01:12] INFO root fetch - processPackages [castor-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/castor_extractor-0.4.0.tar.gz tmp/castor_extractor-0.4.1.tar.gz --markdown 20230629/c/castor-extractor/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-29 10:01:12] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/63/f1/05460b4cbb11577f16194d576ae8d564636b13a457f218b01be5e8977fcc/lsst-daf-butler-26.0.0a20230500.tar.gz
+[2023-06-29 10:01:12] INFO root fetch - processPackages [kilvin]: executing diffoscope
+[2023-06-29 10:01:12] INFO root fetch - processPackages [kilvin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kilvin-0.3.tar.gz tmp/kilvin-0.4.tar.gz --markdown 20230629/k/kilvin/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-29 10:01:12] INFO root fetch - processPackages [email-to-soup]: Downloading https://files.pythonhosted.org/packages/e8/41/67db31af742dce1204d693f5101d112266b2c0d5434b7b0fe32dfb80e192/email_to_soup-0.0.9.tar.gz
+[2023-06-29 10:01:12] INFO root fetch - processPackages [qibo]: Downloading https://files.pythonhosted.org/packages/57/56/3f48535dad44a519686fc64727f3bd6ca20b64d74a7870ad392055da16ed/qibo-0.1.9.tar.gz
+[2023-06-29 10:01:12] INFO root fetch - processPackages [email-to-soup]: executing diffoscope
+[2023-06-29 10:01:12] INFO root fetch - processPackages [email-to-soup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/email_to_soup-0.0.8.tar.gz tmp/email_to_soup-0.0.9.tar.gz --markdown 20230629/e/email-to-soup/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 10:01:12] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2023-06-29 10:01:12] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2023.6.29.9.39.13.tar.gz tmp/chatllm-2023.6.29.9.57.33.tar.gz --markdown 20230629/c/chatllm/2023.6.29.9.39.13-2023.6.29.9.57.33/diff.md --exclude *.pyd
+[2023-06-29 10:01:12] INFO root fetch - processPackages [lsst-daf-butler]: executing diffoscope
+[2023-06-29 10:01:12] INFO root fetch - processPackages [lsst-daf-butler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-daf-butler-26.0.0a20230400.tar.gz tmp/lsst-daf-butler-26.0.0a20230500.tar.gz --markdown 20230629/l/lsst-daf-butler/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-29 10:01:12] INFO root fetch - processPackages [qibo]: executing diffoscope
+[2023-06-29 10:01:12] INFO root fetch - processPackages [qibo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qibo-0.1.8rc0.tar.gz tmp/qibo-0.1.9.tar.gz --markdown 20230629/q/qibo/0.1.8rc0-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 10:01:13] INFO root fetch - processPackages [aof]: Remove: archive file [/home/abi/fetcher/tmp/aof-0.0.8.tar.gz]
+[2023-06-29 10:01:13] INFO root fetch - processPackages [aof]: Remove: archive file [/home/abi/fetcher/tmp/aof-0.0.9.tar.gz]
+[2023-06-29 10:01:13] INFO root fetch - processPackages [aof]: Start processing: xia-puller
+[2023-06-29 10:01:13] INFO root fetch - main [MainThread]: End processing [aof]: success
+[2023-06-29 10:01:13] INFO root fetch - processPackages [xia-puller]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-06-29 10:01:13] INFO root fetch - processPackages [xia-puller]: Downloading https://files.pythonhosted.org/packages/a1/5c/83aa3f806da14542f638c395a463f4e6d9c0c26a794c5ef881cebebd1ead/xia_puller-0.0.11-cp39-none-win_amd64.whl
+[2023-06-29 10:01:14] INFO root fetch - processPackages [openexpressions]: Remove: archive file [/home/abi/fetcher/tmp/openexpressions-1.1.tar.gz]
+[2023-06-29 10:01:14] INFO root fetch - processPackages [openexpressions]: Remove: archive file [/home/abi/fetcher/tmp/openexpressions-1.2.tar.gz]
+[2023-06-29 10:01:14] INFO root fetch - processPackages [openexpressions]: Start processing: aof
+[2023-06-29 10:01:14] INFO root fetch - main [MainThread]: End processing [openexpressions]: success
+[2023-06-29 10:01:14] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.4.0.tar.gz]
+[2023-06-29 10:01:14] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.4.2.tar.gz]
+[2023-06-29 10:01:14] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-06-29 10:01:14] INFO root fetch - processPackages [aof]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 10:01:14] INFO root fetch - processPackages [aof]: Downloading https://files.pythonhosted.org/packages/d3/d2/5102e8b58f64a8fd4a6fb1f24670608877b2a4835d8cffb45ed912e369f2/aof-0.0.8.tar.gz
+[2023-06-29 10:01:14] INFO root fetch - processPackages [xia-puller]: Downloading https://files.pythonhosted.org/packages/01/64/ef1550df3ae195ccf1c99570a1f4870c39cbae03e19c8469d9e01ce3ff08/xia_puller-0.0.12-cp39-none-macosx_11_0_x86_64.whl
+[2023-06-29 10:01:14] INFO root fetch - processPackages [email-to-soup]: Remove: archive file [/home/abi/fetcher/tmp/email_to_soup-0.0.8.tar.gz]
+[2023-06-29 10:01:14] INFO root fetch - processPackages [email-to-soup]: Remove: archive file [/home/abi/fetcher/tmp/email_to_soup-0.0.9.tar.gz]
+[2023-06-29 10:01:14] INFO root fetch - main [MainThread]: End processing [email-to-soup]: success
+[2023-06-29 10:01:14] INFO root fetch - processPackages [aof]: Downloading https://files.pythonhosted.org/packages/e3/2b/dbe2d55fa01a8a44ec7266ddc2e3ab508ccb052a7e10a8a667fcebfa5f89/aof-0.0.9.tar.gz
+[2023-06-29 10:01:14] INFO root fetch - processPackages [kilvin]: Remove: archive file [/home/abi/fetcher/tmp/kilvin-0.3.tar.gz]
+[2023-06-29 10:01:14] INFO root fetch - processPackages [kilvin]: Remove: archive file [/home/abi/fetcher/tmp/kilvin-0.4.tar.gz]
+[2023-06-29 10:01:14] INFO root fetch - main [MainThread]: End processing [kilvin]: success
+[2023-06-29 10:01:14] INFO root fetch - processPackages [aof]: executing diffoscope
+[2023-06-29 10:01:14] INFO root fetch - processPackages [aof]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aof-0.0.8.tar.gz tmp/aof-0.0.9.tar.gz --markdown 20230629/a/aof/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 10:01:14] INFO root fetch - processPackages [xia-puller]: executing diffoscope
+[2023-06-29 10:01:14] INFO root fetch - processPackages [xia-puller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_puller-0.0.11-cp39-none-win_amd64.whl.zip tmp/xia_puller-0.0.12-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230629/x/xia-puller/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-06-29 10:01:15] INFO root fetch - processPackages [xia-puller]: Remove: archive file [/home/abi/fetcher/tmp/xia_puller-0.0.11-cp39-none-win_amd64.whl.zip]
+[2023-06-29 10:01:15] INFO root fetch - processPackages [xia-puller]: Remove: archive file [/home/abi/fetcher/tmp/xia_puller-0.0.12-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-06-29 10:01:15] INFO root fetch - main [MainThread]: End processing [xia-puller]: success
+[2023-06-29 10:01:15] INFO root fetch - processPackages [aof]: Remove: archive file [/home/abi/fetcher/tmp/aof-0.0.8.tar.gz]
+[2023-06-29 10:01:15] INFO root fetch - processPackages [aof]: Remove: archive file [/home/abi/fetcher/tmp/aof-0.0.9.tar.gz]
+[2023-06-29 10:01:15] INFO root fetch - main [MainThread]: End processing [aof]: success
+[2023-06-29 10:01:16] INFO root fetch - processPackages [castor-extractor]: Remove: archive file [/home/abi/fetcher/tmp/castor_extractor-0.4.0.tar.gz]
+[2023-06-29 10:01:16] INFO root fetch - processPackages [castor-extractor]: Remove: archive file [/home/abi/fetcher/tmp/castor_extractor-0.4.1.tar.gz]
+[2023-06-29 10:01:16] INFO root fetch - main [MainThread]: End processing [castor-extractor]: success
+[2023-06-29 10:01:16] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-butler-26.0.0a20230400.tar.gz]
+[2023-06-29 10:01:16] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-butler-26.0.0a20230500.tar.gz]
+[2023-06-29 10:01:16] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
+[2023-06-29 10:01:16] INFO root fetch - processPackages [strmprivacy-api-definitions]: Remove: archive file [/home/abi/fetcher/tmp/strmprivacy-api-definitions-3.2.0.tar.gz]
+[2023-06-29 10:01:16] INFO root fetch - processPackages [strmprivacy-api-definitions]: Remove: archive file [/home/abi/fetcher/tmp/strmprivacy-api-definitions-3.3.0.tar.gz]
+[2023-06-29 10:01:16] INFO root fetch - main [MainThread]: End processing [strmprivacy-api-definitions]: success
+[2023-06-29 10:01:17] INFO root fetch - processPackages [qibo]: Remove: archive file [/home/abi/fetcher/tmp/qibo-0.1.8rc0.tar.gz]
+[2023-06-29 10:01:17] INFO root fetch - processPackages [qibo]: Remove: archive file [/home/abi/fetcher/tmp/qibo-0.1.9.tar.gz]
+[2023-06-29 10:01:17] INFO root fetch - main [MainThread]: End processing [qibo]: success
+[2023-06-29 10:01:18] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2023.6.29.9.39.13.tar.gz]
+[2023-06-29 10:01:18] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2023.6.29.9.57.33.tar.gz]
+[2023-06-29 10:01:18] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2023-06-29 10:01:18] INFO root fetch - main [MainThread]: Store serial: [18691727]
