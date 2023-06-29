@@ -16539,3 +16539,122 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 18:19:01] INFO root fetch - processPackages [tcfetch]: Remove: archive file [/home/abi/fetcher/tmp/tcfetch-0.4.0-cp311-cp311-macosx_10_7_x86_64.whl.zip]
 [2023-06-29 18:19:01] INFO root fetch - main [MainThread]: End processing [tcfetch]: success
 [2023-06-29 18:19:01] INFO root fetch - main [MainThread]: Store serial: [18697707]
+[2023-06-29 18:24:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18697707]
+[2023-06-29 18:24:11] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-29 18:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kuut
+[2023-06-29 18:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: strawberry-django-pubsub
+[2023-06-29 18:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: heinlein
+[2023-06-29 18:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cztile
+[2023-06-29 18:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: transaction-service-quality-checker
+[2023-06-29 18:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: capcruncher-tools
+[2023-06-29 18:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hotsos
+[2023-06-29 18:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Final2x-core
+[2023-06-29 18:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-entity-event
+[2023-06-29 18:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: typos
+[2023-06-29 18:24:11] INFO root fetch - processPackages [strawberry-django-pubsub]: New version: [0.0.7a0] Old Version: [0.0.6a0]
+[2023-06-29 18:24:11] INFO root fetch - processPackages [transaction-service-quality-checker]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 18:24:11] WARNING root fetch - processPackages [Final2x-core]: Skipping, unable to determine old version
+[2023-06-29 18:24:11] INFO root fetch - processPackages [Final2x-core]: Start processing: bullmq
+[2023-06-29 18:24:11] INFO root fetch - main [MainThread]: End processing [Final2x-core] error
+[2023-06-29 18:24:11] INFO root fetch - processPackages [hotsos]: New version: [1.15.post3] Old Version: [1.15.post2]
+[2023-06-29 18:24:11] INFO root fetch - processPackages [bullmq]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-29 18:24:11] INFO root fetch - processPackages [strawberry-django-pubsub]: Downloading https://files.pythonhosted.org/packages/9c/b8/233297dc4eadb0857de895f6343a7772b2930f28db9c1a610a1a19aa20a4/strawberry_django_pubsub-0.0.6a0.tar.gz
+[2023-06-29 18:24:11] INFO root fetch - processPackages [transaction-service-quality-checker]: Downloading https://files.pythonhosted.org/packages/96/06/1a3659516363dca0beeefc9b6acf5f05d39f2eeb85a01309573a64c1ca43/transaction_service_quality_checker-0.0.8.tar.gz
+[2023-06-29 18:24:11] INFO root fetch - processPackages [kuut]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-29 18:24:11] INFO root fetch - processPackages [cztile]: New version: [0.1.2] Old Version: [0.0.2]
+[2023-06-29 18:24:11] INFO root fetch - processPackages [capcruncher-tools]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-29 18:24:11] INFO root fetch - processPackages [bullmq]: Downloading https://files.pythonhosted.org/packages/28/10/f16eb9577b22cef3c905489424426ff62c2119f2318e17f6ddbb711b8851/bullmq-1.2.0.tar.gz
+[2023-06-29 18:24:11] INFO root fetch - processPackages [heinlein]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-29 18:24:11] INFO root fetch - processPackages [django-entity-event]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-06-29 18:24:11] INFO root fetch - processPackages [typos]: New version: [1.15.8] Old Version: [1.15.7]
+[2023-06-29 18:24:11] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/5c/6d/2aa661e18679d6d85988d4d3d35b18e361565899f2114a154eddecbcc2c3/hotsos-1.15.post2.tar.gz
+[2023-06-29 18:24:11] INFO root fetch - processPackages [strawberry-django-pubsub]: Downloading https://files.pythonhosted.org/packages/00/90/5bec30bde15fa4141d708bed3a5acdb3fdcd27acdc6ed579281d23d42415/strawberry_django_pubsub-0.0.7a0.tar.gz
+[2023-06-29 18:24:11] INFO root fetch - processPackages [kuut]: Downloading https://files.pythonhosted.org/packages/a9/bc/65f0b3fb6293a71936df04d22a2b856dc3c224c8ef7dcf72d5a703dbb903/kuut-0.0.2.tar.gz
+[2023-06-29 18:24:11] INFO root fetch - processPackages [transaction-service-quality-checker]: Downloading https://files.pythonhosted.org/packages/46/c3/3a0953dd4600187a6de7e59b0ef829b69b46efe618973080c910845d2c6f/transaction_service_quality_checker-0.0.9.tar.gz
+[2023-06-29 18:24:11] INFO root fetch - processPackages [bullmq]: Downloading https://files.pythonhosted.org/packages/fe/7b/5f9a1a9bb8ae4d00575832938fc110dbafe5b43988264a84f7127e2ab4fc/bullmq-1.3.0.tar.gz
+[2023-06-29 18:24:11] INFO root fetch - processPackages [heinlein]: Downloading https://files.pythonhosted.org/packages/e0/70/5f49a39a95e449c38922eb67dbdc67cb4b01a44951be82ff8e959f412348/heinlein-0.4.8.tar.gz
+[2023-06-29 18:24:11] INFO root fetch - processPackages [strawberry-django-pubsub]: executing diffoscope
+[2023-06-29 18:24:11] INFO root fetch - processPackages [strawberry-django-pubsub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry_django_pubsub-0.0.6a0.tar.gz tmp/strawberry_django_pubsub-0.0.7a0.tar.gz --markdown 20230629/s/strawberry-django-pubsub/0.0.6a0-0.0.7a0/diff.md --exclude *.pyd
+[2023-06-29 18:24:11] INFO root fetch - processPackages [cztile]: Downloading https://files.pythonhosted.org/packages/8f/5e/03678366920af03b322289fb0509906e7cda8513be90d9b7d208cc8d9e47/cztile-0.0.2.tar.gz
+[2023-06-29 18:24:11] INFO root fetch - processPackages [typos]: Downloading https://files.pythonhosted.org/packages/f3/5a/907fd3f948fd2d82016264262a7c089fcb30eda3893bee5f6f18f8e68228/typos-1.15.7.tar.gz
+[2023-06-29 18:24:11] INFO root fetch - processPackages [capcruncher-tools]: Downloading https://files.pythonhosted.org/packages/8c/8a/9dfbeadeee349fafb7c75c47dbb1e1ae5387d0c5519a4f5e221bc840754d/capcruncher_tools-0.1.1.tar.gz
+[2023-06-29 18:24:11] WARNING root fetch - processPackages [heinlein]: Skipping package: exceeds size limit 20992504>=10485760
+[2023-06-29 18:24:11] INFO root fetch - processPackages [heinlein]: Start processing: querysource
+[2023-06-29 18:24:11] INFO root fetch - main [MainThread]: End processing [heinlein] error
+[2023-06-29 18:24:11] INFO root fetch - processPackages [django-entity-event]: Downloading https://files.pythonhosted.org/packages/58/4e/e5fd2447a994376502d7e0d168cbaead59f84a0090ced8b8fa45c0628c63/django-entity-event-3.0.0.tar.gz
+[2023-06-29 18:24:11] INFO root fetch - processPackages [bullmq]: executing diffoscope
+[2023-06-29 18:24:11] INFO root fetch - processPackages [bullmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bullmq-1.2.0.tar.gz tmp/bullmq-1.3.0.tar.gz --markdown 20230629/b/bullmq/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-29 18:24:11] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/5a/d1/de5f08584234119e0d78d32e561269900fca4a1cfc28d0aad5946b169aec/hotsos-1.15.post3.tar.gz
+[2023-06-29 18:24:11] INFO root fetch - processPackages [querysource]: New version: [3.6.9] Old Version: [3.6.8]
+[2023-06-29 18:24:11] INFO root fetch - processPackages [transaction-service-quality-checker]: executing diffoscope
+[2023-06-29 18:24:11] INFO root fetch - processPackages [transaction-service-quality-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transaction_service_quality_checker-0.0.8.tar.gz tmp/transaction_service_quality_checker-0.0.9.tar.gz --markdown 20230629/t/transaction-service-quality-checker/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 18:24:11] INFO root fetch - processPackages [kuut]: Downloading https://files.pythonhosted.org/packages/dc/c8/483dbe5f7ccc1e6389dd5612fa85d44bdbb7a00b5db527f529d99d563731/kuut-0.0.3.tar.gz
+[2023-06-29 18:24:11] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-06-29 18:24:11] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.15.post2.tar.gz tmp/hotsos-1.15.post3.tar.gz --markdown 20230629/h/hotsos/1.15.post2-1.15.post3/diff.md --exclude *.pyd
+[2023-06-29 18:24:11] INFO root fetch - processPackages [kuut]: executing diffoscope
+[2023-06-29 18:24:11] INFO root fetch - processPackages [kuut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuut-0.0.2.tar.gz tmp/kuut-0.0.3.tar.gz --markdown 20230629/k/kuut/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-29 18:24:11] INFO root fetch - processPackages [capcruncher-tools]: Downloading https://files.pythonhosted.org/packages/36/d3/6e4f02709a722be27a8b12b8aff8f43be595130d4ae36b4b408e6aecf720/capcruncher_tools-0.1.2.tar.gz
+[2023-06-29 18:24:11] INFO root fetch - processPackages [typos]: Downloading https://files.pythonhosted.org/packages/5a/42/8fcba9b7ccfd4fe7528909a7aa21324f6f61e93fcdd4e45bb4da8f6f50e7/typos-1.15.8.tar.gz
+[2023-06-29 18:24:12] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/70/4b/8c539f343afcdd37564e5a6c74c47423c9bf31268e67037958cf41e0fefb/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-29 18:24:12] INFO root fetch - processPackages [django-entity-event]: Downloading https://files.pythonhosted.org/packages/4f/9c/edf4f21c0d2c3fce0a1e6c19e8d488296dbc36569824c882b605efef03bf/django-entity-event-3.1.0.tar.gz
+[2023-06-29 18:24:12] INFO root fetch - processPackages [cztile]: Downloading https://files.pythonhosted.org/packages/47/7a/068e2f755f116ac109f2943fc707bf13aded9ce3bccd6191c65019af1ea0/cztile-0.1.2.tar.gz
+[2023-06-29 18:24:12] INFO root fetch - processPackages [capcruncher-tools]: executing diffoscope
+[2023-06-29 18:24:12] INFO root fetch - processPackages [capcruncher-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capcruncher_tools-0.1.1.tar.gz tmp/capcruncher_tools-0.1.2.tar.gz --markdown 20230629/c/capcruncher-tools/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-29 18:24:12] INFO root fetch - processPackages [cztile]: executing diffoscope
+[2023-06-29 18:24:12] INFO root fetch - processPackages [cztile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cztile-0.0.2.tar.gz tmp/cztile-0.1.2.tar.gz --markdown 20230629/c/cztile/0.0.2-0.1.2/diff.md --exclude *.pyd
+[2023-06-29 18:24:12] INFO root fetch - processPackages [django-entity-event]: executing diffoscope
+[2023-06-29 18:24:12] INFO root fetch - processPackages [django-entity-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-entity-event-3.0.0.tar.gz tmp/django-entity-event-3.1.0.tar.gz --markdown 20230629/d/django-entity-event/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-06-29 18:24:12] INFO root fetch - processPackages [typos]: executing diffoscope
+[2023-06-29 18:24:12] INFO root fetch - processPackages [typos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typos-1.15.7.tar.gz tmp/typos-1.15.8.tar.gz --markdown 20230629/t/typos/1.15.7-1.15.8/diff.md --exclude *.pyd
+[2023-06-29 18:24:12] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/ab/50/018cb101f002f53a882706970a666f7fabfdaef68902e2363149b998910b/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-29 18:24:13] INFO root fetch - processPackages [strawberry-django-pubsub]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_pubsub-0.0.6a0.tar.gz]
+[2023-06-29 18:24:13] INFO root fetch - processPackages [strawberry-django-pubsub]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_pubsub-0.0.7a0.tar.gz]
+[2023-06-29 18:24:13] INFO root fetch - processPackages [strawberry-django-pubsub]: Start processing: SELDOMpy
+[2023-06-29 18:24:13] INFO root fetch - main [MainThread]: End processing [strawberry-django-pubsub]: success
+[2023-06-29 18:24:13] INFO root fetch - processPackages [SELDOMpy]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-29 18:24:13] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/8a/67/116e9ae64dbe5c22ddc2092acae0132668b0caf121a1eeaec356631f458d/SELDOMpy-0.6.0.tar.gz
+[2023-06-29 18:24:13] INFO root fetch - processPackages [kuut]: Remove: archive file [/home/abi/fetcher/tmp/kuut-0.0.2.tar.gz]
+[2023-06-29 18:24:13] INFO root fetch - processPackages [kuut]: Remove: archive file [/home/abi/fetcher/tmp/kuut-0.0.3.tar.gz]
+[2023-06-29 18:24:13] INFO root fetch - processPackages [kuut]: Start processing: policyengine-us
+[2023-06-29 18:24:13] INFO root fetch - main [MainThread]: End processing [kuut]: success
+[2023-06-29 18:24:13] INFO root fetch - processPackages [policyengine-us]: New version: [0.345.0] Old Version: [0.344.0]
+[2023-06-29 18:24:13] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/56/5e/f9dd80a2f2851f0a48cf4590af857588587314ef5b4d05ffe2eb979dc72c/policyengine-us-0.344.0.tar.gz
+[2023-06-29 18:24:13] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/6b/b8/22fe2d09a1b249da2c1d558734ab079ca4061a4c8a8de682fc3bd7bfb5ff/SELDOMpy-0.6.1.tar.gz
+[2023-06-29 18:24:13] INFO root fetch - processPackages [querysource]: executing diffoscope
+[2023-06-29 18:24:13] INFO root fetch - processPackages [querysource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230629/q/querysource/3.6.8-3.6.9/diff.md --exclude *.pyd
+[2023-06-29 18:24:13] INFO root fetch - processPackages [cztile]: Remove: archive file [/home/abi/fetcher/tmp/cztile-0.0.2.tar.gz]
+[2023-06-29 18:24:13] INFO root fetch - processPackages [cztile]: Remove: archive file [/home/abi/fetcher/tmp/cztile-0.1.2.tar.gz]
+[2023-06-29 18:24:13] INFO root fetch - main [MainThread]: End processing [cztile]: success
+[2023-06-29 18:24:13] INFO root fetch - processPackages [transaction-service-quality-checker]: Remove: archive file [/home/abi/fetcher/tmp/transaction_service_quality_checker-0.0.8.tar.gz]
+[2023-06-29 18:24:13] INFO root fetch - processPackages [transaction-service-quality-checker]: Remove: archive file [/home/abi/fetcher/tmp/transaction_service_quality_checker-0.0.9.tar.gz]
+[2023-06-29 18:24:13] INFO root fetch - main [MainThread]: End processing [transaction-service-quality-checker]: success
+[2023-06-29 18:24:13] INFO root fetch - processPackages [bullmq]: Remove: archive file [/home/abi/fetcher/tmp/bullmq-1.2.0.tar.gz]
+[2023-06-29 18:24:13] INFO root fetch - processPackages [bullmq]: Remove: archive file [/home/abi/fetcher/tmp/bullmq-1.3.0.tar.gz]
+[2023-06-29 18:24:13] INFO root fetch - main [MainThread]: End processing [bullmq]: success
+[2023-06-29 18:24:13] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/5c/bb/b7b1351db3ccb8f97704c4211028cfeb65441c034cc9ec8a7340ca1bb55e/policyengine-us-0.345.0.tar.gz
+[2023-06-29 18:24:13] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-06-29 18:24:13] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.6.0.tar.gz tmp/SELDOMpy-0.6.1.tar.gz --markdown 20230629/S/SELDOMpy/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-29 18:24:13] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-06-29 18:24:13] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.344.0.tar.gz tmp/policyengine-us-0.345.0.tar.gz --markdown 20230629/p/policyengine-us/0.344.0-0.345.0/diff.md --exclude *.pyd
+[2023-06-29 18:24:13] INFO root fetch - processPackages [django-entity-event]: Remove: archive file [/home/abi/fetcher/tmp/django-entity-event-3.0.0.tar.gz]
+[2023-06-29 18:24:13] INFO root fetch - processPackages [django-entity-event]: Remove: archive file [/home/abi/fetcher/tmp/django-entity-event-3.1.0.tar.gz]
+[2023-06-29 18:24:13] INFO root fetch - main [MainThread]: End processing [django-entity-event]: success
+[2023-06-29 18:24:14] INFO root fetch - processPackages [capcruncher-tools]: Remove: archive file [/home/abi/fetcher/tmp/capcruncher_tools-0.1.1.tar.gz]
+[2023-06-29 18:24:14] INFO root fetch - processPackages [capcruncher-tools]: Remove: archive file [/home/abi/fetcher/tmp/capcruncher_tools-0.1.2.tar.gz]
+[2023-06-29 18:24:14] INFO root fetch - main [MainThread]: End processing [capcruncher-tools]: success
+[2023-06-29 18:24:14] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.6.0.tar.gz]
+[2023-06-29 18:24:14] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.6.1.tar.gz]
+[2023-06-29 18:24:14] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-06-29 18:24:15] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-29 18:24:15] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-29 18:24:15] INFO root fetch - main [MainThread]: End processing [querysource]: success
+[2023-06-29 18:24:17] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.15.post2.tar.gz]
+[2023-06-29 18:24:17] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.15.post3.tar.gz]
+[2023-06-29 18:24:17] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-06-29 18:24:21] INFO root fetch - processPackages [typos]: Remove: archive file [/home/abi/fetcher/tmp/typos-1.15.7.tar.gz]
+[2023-06-29 18:24:21] INFO root fetch - processPackages [typos]: Remove: archive file [/home/abi/fetcher/tmp/typos-1.15.8.tar.gz]
+[2023-06-29 18:24:21] INFO root fetch - main [MainThread]: End processing [typos]: success
+[2023-06-29 18:25:33] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.344.0.tar.gz]
+[2023-06-29 18:25:33] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.345.0.tar.gz]
+[2023-06-29 18:25:33] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-06-29 18:25:33] INFO root fetch - main [MainThread]: Store serial: [18697803]
