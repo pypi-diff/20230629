@@ -20783,3 +20783,156 @@ EOFError: EOF read where object expected
 [2023-06-29 21:26:37] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-06-29 21:26:42] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-06-29 21:26:42] INFO root fetch - main [MainThread]: Store serial: [18699477]
+[2023-06-29 21:31:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18699477]
+[2023-06-29 21:31:52] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-29 21:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apidevtools
+[2023-06-29 21:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipestat
+[2023-06-29 21:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: backupdir
+[2023-06-29 21:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sniimapp
+[2023-06-29 21:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: czmodel
+[2023-06-29 21:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-orm-manager
+[2023-06-29 21:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wad2023-program
+[2023-06-29 21:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastq2folder
+[2023-06-29 21:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: policyengine-us
+[2023-06-29 21:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: simple-pygame-gui
+[2023-06-29 21:31:52] WARNING root fetch - processPackages [backupdir]: Skipping, unable to determine old version
+[2023-06-29 21:31:52] INFO root fetch - processPackages [backupdir]: Start processing: agixtsdk
+[2023-06-29 21:31:52] INFO root fetch - main [MainThread]: End processing [backupdir] error
+[2023-06-29 21:31:52] INFO root fetch - processPackages [apidevtools]: New version: [3.3.8] Old Version: [3.3.7]
+[2023-06-29 21:31:52] WARNING root fetch - processPackages [fastq2folder]: Skipping, unable to determine old version
+[2023-06-29 21:31:52] INFO root fetch - processPackages [fastq2folder]: Start processing: fhir-analyzer
+[2023-06-29 21:31:52] INFO root fetch - main [MainThread]: End processing [fastq2folder] error
+[2023-06-29 21:31:52] INFO root fetch - processPackages [pipestat]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-06-29 21:31:52] WARNING root fetch - processPackages [simple-pygame-gui]: Skipping, unable to determine old version
+[2023-06-29 21:31:52] INFO root fetch - processPackages [simple-pygame-gui]: Start processing: django-orderable
+[2023-06-29 21:31:52] INFO root fetch - main [MainThread]: End processing [simple-pygame-gui] error
+[2023-06-29 21:31:52] INFO root fetch - processPackages [czmodel]: New version: [5.1.0] Old Version: [5.0.0]
+[2023-06-29 21:31:52] WARNING root fetch - processPackages [sniimapp]: Skipping, unable to determine old version
+[2023-06-29 21:31:52] INFO root fetch - processPackages [fastapi-orm-manager]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 21:31:52] INFO root fetch - processPackages [sniimapp]: Start processing: matplotlib-tufte
+[2023-06-29 21:31:52] INFO root fetch - main [MainThread]: End processing [sniimapp] error
+[2023-06-29 21:31:52] INFO root fetch - processPackages [agixtsdk]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-29 21:31:52] INFO root fetch - processPackages [wad2023-program]: New version: [1.2.1.dev0] Old Version: [1.2.0]
+[2023-06-29 21:31:52] INFO root fetch - processPackages [policyengine-us]: New version: [0.345.4] Old Version: [0.345.3]
+[2023-06-29 21:31:52] INFO root fetch - processPackages [fhir-analyzer]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-29 21:31:52] INFO root fetch - processPackages [matplotlib-tufte]: New version: [1.1.dev0] Old Version: [1.0]
+[2023-06-29 21:31:52] INFO root fetch - processPackages [django-orderable]: New version: [6.1.2] Old Version: [6.1.1]
+[2023-06-29 21:31:52] INFO root fetch - processPackages [agixtsdk]: Downloading https://files.pythonhosted.org/packages/4d/44/2d77e5a5b756bd56bd67ef9521d5feb8b652feae38707cf5070e9dd74d5a/agixtsdk-0.0.4.tar.gz
+[2023-06-29 21:31:52] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/08/3e/6a7f7fb7b3dc0d0e9b9ae3eb98c5d2a3f84b258028dffc38f78be5b70313/policyengine-us-0.345.3.tar.gz
+[2023-06-29 21:31:52] INFO root fetch - processPackages [fhir-analyzer]: Downloading https://files.pythonhosted.org/packages/ad/ed/4e4976f41434825cce0bda74aba1ed4645a5f44a277c29d9b1020fdeb4b9/fhir_analyzer-0.0.3.tar.gz
+[2023-06-29 21:31:52] INFO root fetch - processPackages [wad2023-program]: Downloading https://files.pythonhosted.org/packages/34/9c/6a5821defc0bc39bc5b94e6dbb69c47332cf134bc501863dde8c6c80fcc0/wad2023-program-1.2.0.tar.gz
+[2023-06-29 21:31:52] INFO root fetch - processPackages [apidevtools]: Downloading https://files.pythonhosted.org/packages/08/fd/c38419780661615018d5d9863f02d8d1f76831387f18e07d6e35cc20d90d/apidevtools-3.3.7.tar.gz
+[2023-06-29 21:31:52] INFO root fetch - processPackages [fastapi-orm-manager]: Downloading https://files.pythonhosted.org/packages/dd/2c/0d7f05beacca4842cc4f5b14352f3c3d18b993d2ac2b8ace7988cfadc311/fastapi_orm_manager-0.0.8.tar.gz
+[2023-06-29 21:31:52] INFO root fetch - processPackages [czmodel]: Downloading https://files.pythonhosted.org/packages/f8/c1/254db1f6b4276d0872638ab525e126598af5068cf7455400a4d04cf0e51d/czmodel-5.0.0.tar.gz
+[2023-06-29 21:31:52] INFO root fetch - processPackages [matplotlib-tufte]: Downloading https://files.pythonhosted.org/packages/bd/7a/69fbff0666471500540a9599836b854743e9df541c5c36d4483996f7c938/matplotlib-tufte-1.0.tar.gz
+[2023-06-29 21:31:52] INFO root fetch - processPackages [django-orderable]: Downloading https://files.pythonhosted.org/packages/8f/66/96e5a95b7465d56c44b9ddf05355a18885e4b2e70652a4765e1672b72621/django-orderable-6.1.1.tar.gz
+[2023-06-29 21:31:52] INFO root fetch - processPackages [pipestat]: Downloading https://files.pythonhosted.org/packages/fd/55/d072a5edb1de3af942d190774a5276ca25804b25a405ba2db8fce565da38/pipestat-0.3.1.tar.gz
+[2023-06-29 21:31:52] INFO root fetch - processPackages [agixtsdk]: Downloading https://files.pythonhosted.org/packages/5d/d0/f97c50b863a2d79ed8e9cb6b1fa77def5b60d2ec15c5abacb3c3b064ede9/agixtsdk-0.0.5.tar.gz
+[2023-06-29 21:31:52] INFO root fetch - processPackages [fhir-analyzer]: Downloading https://files.pythonhosted.org/packages/7e/26/8335111f9bd9ce25f3416a7286b2a9c7806934b23884f5b52fff7674ee4d/fhir_analyzer-0.0.4.tar.gz
+[2023-06-29 21:31:52] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/4a/fb/de25154430019aa8032d0b5b4953400e329255bb42635ba205cd321b80c7/policyengine-us-0.345.4.tar.gz
+[2023-06-29 21:31:52] INFO root fetch - processPackages [wad2023-program]: Downloading https://files.pythonhosted.org/packages/07/c0/8acaaf45d8e0110896d2dc6c93fc41176f9422a307d482c78566246170aa/wad2023-program-1.2.1.dev0.tar.gz
+[2023-06-29 21:31:52] INFO root fetch - processPackages [agixtsdk]: executing diffoscope
+[2023-06-29 21:31:52] INFO root fetch - processPackages [agixtsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixtsdk-0.0.4.tar.gz tmp/agixtsdk-0.0.5.tar.gz --markdown 20230629/a/agixtsdk/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-29 21:31:52] INFO root fetch - processPackages [apidevtools]: Downloading https://files.pythonhosted.org/packages/95/55/c6802617a4a7f14b97284e81347d7870e0aa60973a9eb8b2ad41d4d2938b/apidevtools-3.3.8.tar.gz
+[2023-06-29 21:31:52] INFO root fetch - processPackages [fhir-analyzer]: executing diffoscope
+[2023-06-29 21:31:52] INFO root fetch - processPackages [fhir-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fhir_analyzer-0.0.3.tar.gz tmp/fhir_analyzer-0.0.4.tar.gz --markdown 20230629/f/fhir-analyzer/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-29 21:31:52] INFO root fetch - processPackages [django-orderable]: Downloading https://files.pythonhosted.org/packages/08/96/6b12528fc96938a27504c4b1d4907be0aa1fbefbd7034c7436f765f0350c/django-orderable-6.1.2.tar.gz
+[2023-06-29 21:31:52] INFO root fetch - processPackages [apidevtools]: executing diffoscope
+[2023-06-29 21:31:52] INFO root fetch - processPackages [apidevtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apidevtools-3.3.7.tar.gz tmp/apidevtools-3.3.8.tar.gz --markdown 20230629/a/apidevtools/3.3.7-3.3.8/diff.md --exclude *.pyd
+[2023-06-29 21:31:53] INFO root fetch - processPackages [matplotlib-tufte]: Downloading https://files.pythonhosted.org/packages/06/5e/3193908225c21b01e0fb01395399cc7143a95c1032703f93f17872b7f643/matplotlib_tufte-1.1.dev0.tar.gz
+[2023-06-29 21:31:53] INFO root fetch - processPackages [czmodel]: Downloading https://files.pythonhosted.org/packages/54/46/2c7dfb946fd863a079c710cb8218bc6c29c0c0d830456dacefde27f237e6/czmodel-5.1.0.tar.gz
+[2023-06-29 21:31:53] INFO root fetch - processPackages [pipestat]: Downloading https://files.pythonhosted.org/packages/83/ba/41c8af0758ad0cfc4079c3190de9895082b0bf72d06db5b7512afa31721f/pipestat-0.4.0.tar.gz
+[2023-06-29 21:31:53] INFO root fetch - processPackages [wad2023-program]: executing diffoscope
+[2023-06-29 21:31:53] INFO root fetch - processPackages [wad2023-program]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wad2023-program-1.2.0.tar.gz tmp/wad2023-program-1.2.1.dev0.tar.gz --markdown 20230629/w/wad2023-program/1.2.0-1.2.1.dev0/diff.md --exclude *.pyd
+[2023-06-29 21:31:53] INFO root fetch - processPackages [fastapi-orm-manager]: Downloading https://files.pythonhosted.org/packages/e1/0a/09527011b2951442ea3af5f11398d1b29c77865c74c5b44e24d3b76d46b9/fastapi_orm_manager-0.0.9.tar.gz
+[2023-06-29 21:31:53] INFO root fetch - processPackages [django-orderable]: executing diffoscope
+[2023-06-29 21:31:53] INFO root fetch - processPackages [django-orderable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-orderable-6.1.1.tar.gz tmp/django-orderable-6.1.2.tar.gz --markdown 20230629/d/django-orderable/6.1.1-6.1.2/diff.md --exclude *.pyd
+[2023-06-29 21:31:53] INFO root fetch - processPackages [czmodel]: executing diffoscope
+[2023-06-29 21:31:53] INFO root fetch - processPackages [czmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/czmodel-5.0.0.tar.gz tmp/czmodel-5.1.0.tar.gz --markdown 20230629/c/czmodel/5.0.0-5.1.0/diff.md --exclude *.pyd
+[2023-06-29 21:31:53] INFO root fetch - processPackages [matplotlib-tufte]: executing diffoscope
+[2023-06-29 21:31:53] INFO root fetch - processPackages [matplotlib-tufte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matplotlib-tufte-1.0.tar.gz tmp/matplotlib_tufte-1.1.dev0.tar.gz --markdown 20230629/m/matplotlib-tufte/1.0-1.1.dev0/diff.md --exclude *.pyd
+[2023-06-29 21:31:53] INFO root fetch - processPackages [pipestat]: executing diffoscope
+[2023-06-29 21:31:53] INFO root fetch - processPackages [pipestat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipestat-0.3.1.tar.gz tmp/pipestat-0.4.0.tar.gz --markdown 20230629/p/pipestat/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-29 21:31:53] INFO root fetch - processPackages [fastapi-orm-manager]: executing diffoscope
+[2023-06-29 21:31:53] INFO root fetch - processPackages [fastapi-orm-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_orm_manager-0.0.8.tar.gz tmp/fastapi_orm_manager-0.0.9.tar.gz --markdown 20230629/f/fastapi-orm-manager/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 21:31:53] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-06-29 21:31:53] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.345.3.tar.gz tmp/policyengine-us-0.345.4.tar.gz --markdown 20230629/p/policyengine-us/0.345.3-0.345.4/diff.md --exclude *.pyd
+[2023-06-29 21:31:54] INFO root fetch - processPackages [agixtsdk]: Remove: archive file [/home/abi/fetcher/tmp/agixtsdk-0.0.4.tar.gz]
+[2023-06-29 21:31:54] INFO root fetch - processPackages [agixtsdk]: Remove: archive file [/home/abi/fetcher/tmp/agixtsdk-0.0.5.tar.gz]
+[2023-06-29 21:31:54] INFO root fetch - processPackages [agixtsdk]: Start processing: rsoup
+[2023-06-29 21:31:54] INFO root fetch - main [MainThread]: End processing [agixtsdk]: success
+[2023-06-29 21:31:54] INFO root fetch - processPackages [rsoup]: New version: [3.1.0] Old Version: [3.0.2]
+[2023-06-29 21:31:54] INFO root fetch - processPackages [rsoup]: Downloading https://files.pythonhosted.org/packages/0f/74/b7993fee096328113dc2b9009bb25b8cbae78c9e8b44a0e9b227ba654602/rsoup-3.0.2.tar.gz
+[2023-06-29 21:31:54] INFO root fetch - processPackages [matplotlib-tufte]: Remove: archive file [/home/abi/fetcher/tmp/matplotlib-tufte-1.0.tar.gz]
+[2023-06-29 21:31:54] INFO root fetch - processPackages [matplotlib-tufte]: Remove: archive file [/home/abi/fetcher/tmp/matplotlib_tufte-1.1.dev0.tar.gz]
+[2023-06-29 21:31:54] INFO root fetch - processPackages [matplotlib-tufte]: Start processing: ecghelper
+[2023-06-29 21:31:54] INFO root fetch - main [MainThread]: End processing [matplotlib-tufte]: success
+[2023-06-29 21:31:54] INFO root fetch - processPackages [wad2023-program]: Remove: archive file [/home/abi/fetcher/tmp/wad2023-program-1.2.0.tar.gz]
+[2023-06-29 21:31:54] INFO root fetch - processPackages [wad2023-program]: Remove: archive file [/home/abi/fetcher/tmp/wad2023-program-1.2.1.dev0.tar.gz]
+[2023-06-29 21:31:54] INFO root fetch - processPackages [wad2023-program]: Start processing: wad2023-program
+[2023-06-29 21:31:54] INFO root fetch - main [MainThread]: End processing [wad2023-program]: success
+[2023-06-29 21:31:54] INFO root fetch - processPackages [ecghelper]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-29 21:31:54] INFO root fetch - processPackages [wad2023-program]: New version: [1.2.1.dev0] Old Version: [1.2.0]
+[2023-06-29 21:31:54] INFO root fetch - processPackages [wad2023-program]: Downloading https://files.pythonhosted.org/packages/34/9c/6a5821defc0bc39bc5b94e6dbb69c47332cf134bc501863dde8c6c80fcc0/wad2023-program-1.2.0.tar.gz
+[2023-06-29 21:31:54] INFO root fetch - processPackages [fhir-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/fhir_analyzer-0.0.3.tar.gz]
+[2023-06-29 21:31:54] INFO root fetch - processPackages [ecghelper]: Downloading https://files.pythonhosted.org/packages/98/c7/be6dea3c9f41fffb5738acc8d5863e9cd5bc17279b3976eaec72b43b8627/ecghelper-0.4.0.tar.gz
+[2023-06-29 21:31:54] INFO root fetch - processPackages [fhir-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/fhir_analyzer-0.0.4.tar.gz]
+[2023-06-29 21:31:54] INFO root fetch - processPackages [fhir-analyzer]: Start processing: cognite-sdk
+[2023-06-29 21:31:54] INFO root fetch - main [MainThread]: End processing [fhir-analyzer]: success
+[2023-06-29 21:31:54] INFO root fetch - processPackages [rsoup]: Downloading https://files.pythonhosted.org/packages/44/95/e7f7fefb434ab654e1c2278002403b5b5df7ee421eb874a193608dc19f5f/rsoup-3.1.0.tar.gz
+[2023-06-29 21:31:54] INFO root fetch - processPackages [fastapi-orm-manager]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_orm_manager-0.0.8.tar.gz]
+[2023-06-29 21:31:54] INFO root fetch - processPackages [cognite-sdk]: New version: [6.5.7] Old Version: [6.5.6]
+[2023-06-29 21:31:54] INFO root fetch - processPackages [fastapi-orm-manager]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_orm_manager-0.0.9.tar.gz]
+[2023-06-29 21:31:54] INFO root fetch - processPackages [fastapi-orm-manager]: Start processing: ivy
+[2023-06-29 21:31:54] INFO root fetch - main [MainThread]: End processing [fastapi-orm-manager]: success
+[2023-06-29 21:31:54] WARNING root fetch - processPackages [ivy]: Skipping, unable to determine old version
+[2023-06-29 21:31:54] INFO root fetch - processPackages [ivy]: Start processing: eox-tenant
+[2023-06-29 21:31:54] INFO root fetch - main [MainThread]: End processing [ivy] error
+[2023-06-29 21:31:54] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/cf/3d/45cce2a587ad2caf386abbf8aa60a4603316826c6ad98b7be8d9d39f32e0/cognite_sdk-6.5.6.tar.gz
+[2023-06-29 21:31:54] INFO root fetch - processPackages [eox-tenant]: New version: [9.2.0] Old Version: [9.1.1]
+[2023-06-29 21:31:54] INFO root fetch - processPackages [wad2023-program]: Downloading https://files.pythonhosted.org/packages/07/c0/8acaaf45d8e0110896d2dc6c93fc41176f9422a307d482c78566246170aa/wad2023-program-1.2.1.dev0.tar.gz
+[2023-06-29 21:31:54] INFO root fetch - processPackages [rsoup]: executing diffoscope
+[2023-06-29 21:31:54] INFO root fetch - processPackages [rsoup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rsoup-3.0.2.tar.gz tmp/rsoup-3.1.0.tar.gz --markdown 20230629/r/rsoup/3.0.2-3.1.0/diff.md --exclude *.pyd
+[2023-06-29 21:31:54] INFO root fetch - processPackages [wad2023-program]: executing diffoscope
+[2023-06-29 21:31:54] INFO root fetch - processPackages [wad2023-program]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wad2023-program-1.2.0.tar.gz tmp/wad2023-program-1.2.1.dev0.tar.gz --markdown 20230629/w/wad2023-program/1.2.0-1.2.1.dev0/diff.md --exclude *.pyd
+[2023-06-29 21:31:54] INFO root fetch - processPackages [czmodel]: Remove: archive file [/home/abi/fetcher/tmp/czmodel-5.0.0.tar.gz]
+[2023-06-29 21:31:54] INFO root fetch - processPackages [czmodel]: Remove: archive file [/home/abi/fetcher/tmp/czmodel-5.1.0.tar.gz]
+[2023-06-29 21:31:54] INFO root fetch - main [MainThread]: End processing [czmodel]: success
+[2023-06-29 21:31:54] INFO root fetch - processPackages [ecghelper]: Downloading https://files.pythonhosted.org/packages/f0/ea/c118738f75629e5a0eaa1b7e42c00df1fc54201b0f5ec0f115ff517b5b5c/ecghelper-0.5.0.tar.gz
+[2023-06-29 21:31:54] INFO root fetch - processPackages [eox-tenant]: Downloading https://files.pythonhosted.org/packages/17/df/9f7b3c2ddcc93ea69a5acb66f1f86b6ae060062c9f04dceb5d0c0f6f4db5/eox-tenant-9.1.1.tar.gz
+[2023-06-29 21:31:54] INFO root fetch - processPackages [pipestat]: Remove: archive file [/home/abi/fetcher/tmp/pipestat-0.3.1.tar.gz]
+[2023-06-29 21:31:54] INFO root fetch - processPackages [pipestat]: Remove: archive file [/home/abi/fetcher/tmp/pipestat-0.4.0.tar.gz]
+[2023-06-29 21:31:54] INFO root fetch - main [MainThread]: End processing [pipestat]: success
+[2023-06-29 21:31:54] INFO root fetch - processPackages [django-orderable]: Remove: archive file [/home/abi/fetcher/tmp/django-orderable-6.1.1.tar.gz]
+[2023-06-29 21:31:54] INFO root fetch - processPackages [django-orderable]: Remove: archive file [/home/abi/fetcher/tmp/django-orderable-6.1.2.tar.gz]
+[2023-06-29 21:31:54] INFO root fetch - main [MainThread]: End processing [django-orderable]: success
+[2023-06-29 21:31:55] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/7b/e1/a89861aececc92c48683bbb172c8d1a6324194c9caa2b3d1e869416304e7/cognite_sdk-6.5.7.tar.gz
+[2023-06-29 21:31:55] INFO root fetch - processPackages [ecghelper]: executing diffoscope
+[2023-06-29 21:31:55] INFO root fetch - processPackages [ecghelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecghelper-0.4.0.tar.gz tmp/ecghelper-0.5.0.tar.gz --markdown 20230629/e/ecghelper/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-29 21:31:55] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2023-06-29 21:31:55] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-6.5.6.tar.gz tmp/cognite_sdk-6.5.7.tar.gz --markdown 20230629/c/cognite-sdk/6.5.6-6.5.7/diff.md --exclude *.pyd
+[2023-06-29 21:31:55] INFO root fetch - processPackages [eox-tenant]: Downloading https://files.pythonhosted.org/packages/d5/fe/4e7f16d42481c11423ee9851b6302b5bcd190d06aa865c4481a2e75bfe15/eox-tenant-9.2.0.tar.gz
+[2023-06-29 21:31:55] INFO root fetch - processPackages [apidevtools]: Remove: archive file [/home/abi/fetcher/tmp/apidevtools-3.3.7.tar.gz]
+[2023-06-29 21:31:55] INFO root fetch - processPackages [apidevtools]: Remove: archive file [/home/abi/fetcher/tmp/apidevtools-3.3.8.tar.gz]
+[2023-06-29 21:31:55] INFO root fetch - main [MainThread]: End processing [apidevtools]: success
+[2023-06-29 21:31:55] INFO root fetch - processPackages [eox-tenant]: executing diffoscope
+[2023-06-29 21:31:55] INFO root fetch - processPackages [eox-tenant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eox-tenant-9.1.1.tar.gz tmp/eox-tenant-9.2.0.tar.gz --markdown 20230629/e/eox-tenant/9.1.1-9.2.0/diff.md --exclude *.pyd
+[2023-06-29 21:31:56] INFO root fetch - processPackages [wad2023-program]: Remove: archive file [/home/abi/fetcher/tmp/wad2023-program-1.2.0.tar.gz]
+[2023-06-29 21:31:56] INFO root fetch - processPackages [wad2023-program]: Remove: archive file [/home/abi/fetcher/tmp/wad2023-program-1.2.1.dev0.tar.gz]
+[2023-06-29 21:31:56] INFO root fetch - main [MainThread]: End processing [wad2023-program]: success
+[2023-06-29 21:31:56] INFO root fetch - processPackages [rsoup]: Remove: archive file [/home/abi/fetcher/tmp/rsoup-3.0.2.tar.gz]
+[2023-06-29 21:31:56] INFO root fetch - processPackages [rsoup]: Remove: archive file [/home/abi/fetcher/tmp/rsoup-3.1.0.tar.gz]
+[2023-06-29 21:31:56] INFO root fetch - main [MainThread]: End processing [rsoup]: success
+[2023-06-29 21:31:56] INFO root fetch - processPackages [ecghelper]: Remove: archive file [/home/abi/fetcher/tmp/ecghelper-0.4.0.tar.gz]
+[2023-06-29 21:31:56] INFO root fetch - processPackages [ecghelper]: Remove: archive file [/home/abi/fetcher/tmp/ecghelper-0.5.0.tar.gz]
+[2023-06-29 21:31:56] INFO root fetch - main [MainThread]: End processing [ecghelper]: success
+[2023-06-29 21:31:58] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.5.6.tar.gz]
+[2023-06-29 21:31:58] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.5.7.tar.gz]
+[2023-06-29 21:31:58] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2023-06-29 21:31:58] INFO root fetch - processPackages [eox-tenant]: Remove: archive file [/home/abi/fetcher/tmp/eox-tenant-9.1.1.tar.gz]
+[2023-06-29 21:31:58] INFO root fetch - processPackages [eox-tenant]: Remove: archive file [/home/abi/fetcher/tmp/eox-tenant-9.2.0.tar.gz]
+[2023-06-29 21:31:58] INFO root fetch - main [MainThread]: End processing [eox-tenant]: success
+[2023-06-29 21:33:20] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.345.3.tar.gz]
+[2023-06-29 21:33:20] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.345.4.tar.gz]
+[2023-06-29 21:33:20] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-06-29 21:33:20] INFO root fetch - main [MainThread]: Store serial: [18699559]
