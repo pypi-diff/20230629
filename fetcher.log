@@ -18771,3 +18771,115 @@ AssertionError: tmp/live_parquet-0.2.0.tar.gz does not exist
 [2023-06-29 19:35:06] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.5.tar.gz]
 [2023-06-29 19:35:06] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
 [2023-06-29 19:35:06] INFO root fetch - main [MainThread]: Store serial: [18698715]
+[2023-06-29 19:40:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18698715]
+[2023-06-29 19:40:18] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-29 19:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wagtail-transcription
+[2023-06-29 19:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unstructured-inference
+[2023-06-29 19:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autodice
+[2023-06-29 19:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: assemblyline-service-client
+[2023-06-29 19:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assemblyline-service-server
+[2023-06-29 19:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: assemblyline-ui
+[2023-06-29 19:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assemblyline-v4-service
+[2023-06-29 19:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assemblyline
+[2023-06-29 19:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assemblyline-core
+[2023-06-29 19:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-fastly
+[2023-06-29 19:40:18] INFO root fetch - processPackages [autodice]: New version: [1.0.2.dev2] Old Version: [1.0.1.dev2]
+[2023-06-29 19:40:18] INFO root fetch - processPackages [wagtail-transcription]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 19:40:18] INFO root fetch - processPackages [unstructured-inference]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-29 19:40:18] INFO root fetch - processPackages [pulumi-fastly]: New version: [8.2.0a1688059197] Old Version: [8.2.0a1687671288]
+[2023-06-29 19:40:18] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-29 19:40:18] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-29 19:40:18] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-29 19:40:18] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-29 19:40:18] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-29 19:40:18] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-06-29 19:40:18] INFO root fetch - processPackages [autodice]: Downloading https://files.pythonhosted.org/packages/b4/c4/f5eefb9872b01b0ee0e7dd5f283726c0e7ca5f02de80eea6027ee3c1496e/autodice-1.0.1.dev2.tar.gz
+[2023-06-29 19:40:18] INFO root fetch - processPackages [wagtail-transcription]: Downloading https://files.pythonhosted.org/packages/cf/a1/64b798ff1d1248fd1a96c7f3b685224644217a70103c518b0102db63d779/wagtail-transcription-0.0.8.tar.gz
+[2023-06-29 19:40:18] INFO root fetch - processPackages [unstructured-inference]: Downloading https://files.pythonhosted.org/packages/34/b6/407b210a6526251dc20ea68692f64eec79c4b4482d905b840cb10f5c108e/unstructured_inference-0.5.2.tar.gz
+[2023-06-29 19:40:18] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/c6/b0/1bb0cc8f270604c12a6c573e663a56b4479a805585b2f0dec5745c366b75/assemblyline-core-4.4.1.dev98.tar.gz
+[2023-06-29 19:40:18] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/a4/73/2640c3bfcb2613b0f095aa242df946dd9c81ed47f2dd21c43c0eca553226/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl
+[2023-06-29 19:40:18] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/d0/9d/73a653591c81e927ff88321d05e4273374e7a6b83130aa29fe2ca8a8f3c8/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl
+[2023-06-29 19:40:18] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/82/47/49bf29b652708272f6f1fadd36ffdc22775944be91eb75bd1e4c73d9d2c8/pulumi_fastly-8.2.0a1687671288.tar.gz
+[2023-06-29 19:40:18] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/0d/18/25fd38ec83bbb1da504d3063623af0139b964cc4957ee52dab43c8a48eec/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl
+[2023-06-29 19:40:18] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/88/f0/1e1ea5a38c6644090daf7b8e756373614f960038fc4187021d034bab3f59/assemblyline_ui-4.4.1.dev98-py3-none-any.whl
+[2023-06-29 19:40:18] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/fb/ca/10ec337efc2ea70b32ead6e4b7d46e1e23f2d1a7638e8bfd6b51a182d2af/assemblyline-4.4.1.dev98.tar.gz
+[2023-06-29 19:40:19] INFO root fetch - processPackages [unstructured-inference]: Downloading https://files.pythonhosted.org/packages/1d/39/61510c07d59a6dfacaacf4701f2f724d0c67fe30d0ff98939617bb8b0f2e/unstructured_inference-0.5.3.tar.gz
+[2023-06-29 19:40:19] INFO root fetch - processPackages [autodice]: Downloading https://files.pythonhosted.org/packages/8e/85/e8c32d0458be96983eacf6f708a5ba4fb9c50ee02abc090c209877cd1c9f/autodice-1.0.2.dev2.tar.gz
+[2023-06-29 19:40:19] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/63/40/1e762930effd688f4bca07aca72276ca6ebee782934f06a6006ea66b2f16/assemblyline-core-4.4.1.dev99.tar.gz
+[2023-06-29 19:40:19] INFO root fetch - processPackages [unstructured-inference]: executing diffoscope
+[2023-06-29 19:40:19] INFO root fetch - processPackages [unstructured-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstructured_inference-0.5.2.tar.gz tmp/unstructured_inference-0.5.3.tar.gz --markdown 20230629/u/unstructured-inference/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-29 19:40:19] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/bd/c6/6e355350483536185a855a768a59edd86f3a9b152d83c0e328adfb3c5158/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl
+[2023-06-29 19:40:19] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/2c/65/290b479a07ea2714c26e302d7ee822da3dcfd3a50ecbfcf4091efd378829/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl
+[2023-06-29 19:40:19] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-06-29 19:40:19] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev98.tar.gz tmp/assemblyline-core-4.4.1.dev99.tar.gz --markdown 20230629/a/assemblyline-core/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-29 19:40:19] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/e3/c6/dfade12e5e90540956305d36f873c5aed23370282783a34e66dc3b21a383/assemblyline_ui-4.4.1.dev99-py3-none-any.whl
+[2023-06-29 19:40:19] INFO root fetch - processPackages [wagtail-transcription]: Downloading https://files.pythonhosted.org/packages/a0/c6/405f338ef64cc9364a1169b689f065dcfff2fc618c3926b22aec9ea05293/wagtail-transcription-0.0.9.tar.gz
+[2023-06-29 19:40:19] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/ab/e1/10d6b8b3b9051aeb48cf642591282df4ffc66b362d463b7c395ce676b5a3/pulumi_fastly-8.2.0a1688059197.tar.gz
+[2023-06-29 19:40:19] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/47/8f/28c4f84deeaf6ecece9518c5613a84646d9a0b9e24b8c8791e4612f1738c/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl
+[2023-06-29 19:40:19] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-06-29 19:40:19] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230629/a/assemblyline-service-client/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-29 19:40:19] INFO root fetch - processPackages [autodice]: executing diffoscope
+[2023-06-29 19:40:19] INFO root fetch - processPackages [autodice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodice-1.0.1.dev2.tar.gz tmp/autodice-1.0.2.dev2.tar.gz --markdown 20230629/a/autodice/1.0.1.dev2-1.0.2.dev2/diff.md --exclude *.pyd
+[2023-06-29 19:40:19] INFO root fetch - processPackages [wagtail-transcription]: executing diffoscope
+[2023-06-29 19:40:19] INFO root fetch - processPackages [wagtail-transcription]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-transcription-0.0.8.tar.gz tmp/wagtail-transcription-0.0.9.tar.gz --markdown 20230629/w/wagtail-transcription/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 19:40:19] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-06-29 19:40:19] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230629/a/assemblyline-service-server/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-29 19:40:19] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/bd/bc/8573bd972e279862ab5c57e5a99e53f5087cd49a2741a054d2753ef654a7/assemblyline-4.4.1.dev99.tar.gz
+[2023-06-29 19:40:19] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-06-29 19:40:19] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230629/a/assemblyline-ui/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-29 19:40:19] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-06-29 19:40:19] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230629/a/assemblyline-v4-service/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-29 19:40:19] INFO root fetch - processPackages [pulumi-fastly]: executing diffoscope
+[2023-06-29 19:40:19] INFO root fetch - processPackages [pulumi-fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fastly-8.2.0a1687671288.tar.gz tmp/pulumi_fastly-8.2.0a1688059197.tar.gz --markdown 20230629/p/pulumi-fastly/8.2.0a1687671288-8.2.0a1688059197/diff.md --exclude *.pyd
+[2023-06-29 19:40:19] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-06-29 19:40:19] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev98.tar.gz tmp/assemblyline-4.4.1.dev99.tar.gz --markdown 20230629/a/assemblyline/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-06-29 19:40:20] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-06-29 19:40:20] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-06-29 19:40:20] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: google-api-python-client
+[2023-06-29 19:40:20] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-06-29 19:40:20] INFO root fetch - processPackages [unstructured-inference]: Remove: archive file [/home/abi/fetcher/tmp/unstructured_inference-0.5.2.tar.gz]
+[2023-06-29 19:40:20] INFO root fetch - processPackages [unstructured-inference]: Remove: archive file [/home/abi/fetcher/tmp/unstructured_inference-0.5.3.tar.gz]
+[2023-06-29 19:40:20] INFO root fetch - processPackages [unstructured-inference]: Start processing: fedrq
+[2023-06-29 19:40:20] INFO root fetch - main [MainThread]: End processing [unstructured-inference]: success
+[2023-06-29 19:40:20] INFO root fetch - processPackages [google-api-python-client]: New version: [2.90.0] Old Version: [2.9.0]
+[2023-06-29 19:40:20] INFO root fetch - processPackages [fedrq]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-29 19:40:21] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-06-29 19:40:21] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-06-29 19:40:21] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: radiant-framework
+[2023-06-29 19:40:21] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-06-29 19:40:21] INFO root fetch - processPackages [radiant-framework]: New version: [0.1a5] Old Version: [0.1a4]
+[2023-06-29 19:40:21] INFO root fetch - processPackages [radiant-framework]: Downloading https://files.pythonhosted.org/packages/25/11/d22270d53d4fbe8c0b9a0a8ede047b3b6f4a896394e47be2814c8970e71f/radiant-framework-0.1a4.tar.gz
+[2023-06-29 19:40:21] INFO root fetch - processPackages [autodice]: Remove: archive file [/home/abi/fetcher/tmp/autodice-1.0.1.dev2.tar.gz]
+[2023-06-29 19:40:21] INFO root fetch - processPackages [autodice]: Remove: archive file [/home/abi/fetcher/tmp/autodice-1.0.2.dev2.tar.gz]
+[2023-06-29 19:40:21] INFO root fetch - main [MainThread]: End processing [autodice]: success
+[2023-06-29 19:40:21] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev98.tar.gz]
+[2023-06-29 19:40:21] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev99.tar.gz]
+[2023-06-29 19:40:21] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-06-29 19:40:21] INFO root fetch - processPackages [fedrq]: Downloading https://files.pythonhosted.org/packages/d7/73/6b4fc1fea4b06561b4f5c02cba94431fc18f787110e40e424383f0af332b/fedrq-0.8.0.tar.gz
+[2023-06-29 19:40:21] WARNING root fetch - processPackages [radiant-framework]: Skipping package: exceeds size limit 28113059>=10485760
+[2023-06-29 19:40:21] INFO root fetch - main [MainThread]: End processing [radiant-framework] error
+[2023-06-29 19:40:21] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-06-29 19:40:21] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-06-29 19:40:21] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-06-29 19:40:21] INFO root fetch - processPackages [google-api-python-client]: Downloading https://files.pythonhosted.org/packages/35/8b/d990f947c261304a5c1599d45717d02c27d46af5f23e1fee5dc19c8fa79d/google-api-python-client-2.90.0.tar.gz
+[2023-06-29 19:40:21] INFO root fetch - processPackages [wagtail-transcription]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-transcription-0.0.8.tar.gz]
+[2023-06-29 19:40:21] INFO root fetch - processPackages [wagtail-transcription]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-transcription-0.0.9.tar.gz]
+[2023-06-29 19:40:21] INFO root fetch - main [MainThread]: End processing [wagtail-transcription]: success
+[2023-06-29 19:40:21] INFO root fetch - processPackages [fedrq]: Downloading https://files.pythonhosted.org/packages/1e/5c/144d26656fcb79d689c6ddd5f687208fc2255fd53fe921b977353f053094/fedrq-0.9.0.tar.gz
+[2023-06-29 19:40:21] WARNING root fetch - processPackages [google-api-python-client]: Skipping package: exceeds size limit 10891311>=10485760
+[2023-06-29 19:40:21] INFO root fetch - main [MainThread]: End processing [google-api-python-client] error
+[2023-06-29 19:40:21] INFO root fetch - processPackages [fedrq]: executing diffoscope
+[2023-06-29 19:40:21] INFO root fetch - processPackages [fedrq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedrq-0.8.0.tar.gz tmp/fedrq-0.9.0.tar.gz --markdown 20230629/f/fedrq/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-29 19:40:22] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-06-29 19:40:22] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-06-29 19:40:22] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-06-29 19:40:23] INFO root fetch - processPackages [fedrq]: Remove: archive file [/home/abi/fetcher/tmp/fedrq-0.8.0.tar.gz]
+[2023-06-29 19:40:23] INFO root fetch - processPackages [fedrq]: Remove: archive file [/home/abi/fetcher/tmp/fedrq-0.9.0.tar.gz]
+[2023-06-29 19:40:23] INFO root fetch - main [MainThread]: End processing [fedrq]: success
+[2023-06-29 19:40:23] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.2.0a1687671288.tar.gz]
+[2023-06-29 19:40:23] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.2.0a1688059197.tar.gz]
+[2023-06-29 19:40:23] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
+[2023-06-29 19:40:24] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev98.tar.gz]
+[2023-06-29 19:40:24] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev99.tar.gz]
+[2023-06-29 19:40:24] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-06-29 19:40:24] INFO root fetch - main [MainThread]: Store serial: [18698749]
