@@ -15258,3 +15258,162 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 17:34:25] INFO root fetch - processPackages [xpart]: Remove: archive file [/home/abi/fetcher/tmp/xpart-0.9.3.tar.gz]
 [2023-06-29 17:34:25] INFO root fetch - main [MainThread]: End processing [xpart]: success
 [2023-06-29 17:34:25] INFO root fetch - main [MainThread]: Store serial: [18697237]
+[2023-06-29 17:39:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18697237]
+[2023-06-29 17:39:34] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-29 17:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CodeToCAD
+[2023-06-29 17:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hicpnewman
+[2023-06-29 17:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: msg2fastdds
+[2023-06-29 17:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xtrack
+[2023-06-29 17:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: codeforlife-portal
+[2023-06-29 17:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cfl-common
+[2023-06-29 17:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-base-future-response
+[2023-06-29 17:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-vpc
+[2023-06-29 17:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xfields
+[2023-06-29 17:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prog-server
+[2023-06-29 17:39:35] INFO root fetch - processPackages [CodeToCAD]: New version: [0.2.6] Old Version: [0.2.1688052828]
+[2023-06-29 17:39:35] INFO root fetch - processPackages [hicpnewman]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-29 17:39:35] INFO root fetch - processPackages [xfields]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-29 17:39:35] INFO root fetch - processPackages [cfl-common]: New version: [6.9.0] Old Version: [6.8.9]
+[2023-06-29 17:39:35] INFO root fetch - processPackages [xtrack]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-29 17:39:35] INFO root fetch - processPackages [prog-server]: New version: [1.5.0rc0] Old Version: [1.5.0]
+[2023-06-29 17:39:35] WARNING root fetch - processPackages [msg2fastdds]: Skipping, unable to determine old version
+[2023-06-29 17:39:35] INFO root fetch - processPackages [msg2fastdds]: Start processing: nics
+[2023-06-29 17:39:35] INFO root fetch - main [MainThread]: End processing [msg2fastdds] error
+[2023-06-29 17:39:35] INFO root fetch - processPackages [odoo14-addon-base-future-response]: New version: [14.0.1.0.2] Old Version: [14.0.1.0.1]
+[2023-06-29 17:39:35] INFO root fetch - processPackages [pepperize.cdk-vpc]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-29 17:39:35] INFO root fetch - processPackages [nics]: New version: [1.0.0rc7] Old Version: [1.0.0rc6]
+[2023-06-29 17:39:35] INFO root fetch - processPackages [codeforlife-portal]: New version: [6.9.0] Old Version: [6.8.9]
+[2023-06-29 17:39:35] INFO root fetch - processPackages [hicpnewman]: Downloading https://files.pythonhosted.org/packages/e3/da/55af07a5b42dd9e02aec9656e1a6b6cc1c3ba3ca4f62926136a985c4cc34/hicpnewman-1.0.3.tar.gz
+[2023-06-29 17:39:35] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/08/79/e5fc4157d6cde7ae946f4c3c388c03b8602c87c693030fa325a011467a87/nics-1.0.0rc6.tar.gz
+[2023-06-29 17:39:35] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/11/eb/7ee81c8c61ba7032039f0ddd84f9b59f43daafd150f58561a70c8d099924/CodeToCAD-0.2.1688052828.tar.gz
+[2023-06-29 17:39:35] INFO root fetch - processPackages [prog-server]: Downloading https://files.pythonhosted.org/packages/ff/68/a3fea63422f6ef3351ed36a272246a47452a446ee06b76b1a0acaa98ccb7/prog_server-1.5.0.tar.gz
+[2023-06-29 17:39:35] INFO root fetch - processPackages [xfields]: Downloading https://files.pythonhosted.org/packages/7a/77/3a6abbee5bec0b9a1a9208d8bfbb48c1d3847a3623b736877d07f2a19f3c/xfields-0.9.3.tar.gz
+[2023-06-29 17:39:35] INFO root fetch - processPackages [odoo14-addon-base-future-response]: Downloading https://files.pythonhosted.org/packages/c2/30/8ebd23283330f4d65cfd5f1159b2b3e3dd2c0c70724f682f4f303b2874fb/odoo14_addon_base_future_response-14.0.1.0.1-py3-none-any.whl
+[2023-06-29 17:39:35] INFO root fetch - processPackages [xtrack]: Downloading https://files.pythonhosted.org/packages/8a/c3/e19b3d04ca1e27256466963f0323b5925c96b787f5066e5229a7c6b8db3a/xtrack-0.9.4.tar.gz
+[2023-06-29 17:39:35] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/97/88/713e1635de92466694eecb2ee4b779a7f2819fdb270f5979c857272b4a92/CodeToCAD-0.2.6.tar.gz
+[2023-06-29 17:39:35] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/f2/3d/d076be2df98e91e0582f7670e0c14a35b57a909d2ef20da6af88845c78ac/codeforlife-portal-6.8.9.tar.gz
+[2023-06-29 17:39:35] INFO root fetch - processPackages [pepperize.cdk-vpc]: Downloading https://files.pythonhosted.org/packages/25/98/839bb964d107b60f6cc3bb06dbdb864b04f9c38cafbf4725617501c0ad49/pepperize.cdk-vpc-0.0.98.tar.gz
+[2023-06-29 17:39:35] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/39/0c/ab055a3d77f3c24c39b7455ba3358c91d1217de2dde396545a2eebda525e/cfl-common-6.8.9.tar.gz
+[2023-06-29 17:39:35] INFO root fetch - processPackages [prog-server]: Downloading https://files.pythonhosted.org/packages/fa/7d/e24a3e1442d96a2d77ff5f261f92c1b5b684426ae898871dc8bdc3f0edce/prog_server-1.5.0rc0.tar.gz
+[2023-06-29 17:39:35] INFO root fetch - processPackages [CodeToCAD]: executing diffoscope
+[2023-06-29 17:39:35] INFO root fetch - processPackages [CodeToCAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodeToCAD-0.2.1688052828.tar.gz tmp/CodeToCAD-0.2.6.tar.gz --markdown 20230629/C/CodeToCAD/0.2.1688052828-0.2.6/diff.md --exclude *.pyd
+[2023-06-29 17:39:35] INFO root fetch - processPackages [hicpnewman]: Downloading https://files.pythonhosted.org/packages/a5/96/9503551331b40a24d03d8f32b4fad8b0aeef13da5af145a992544775f1eb/hicpnewman-1.0.4.tar.gz
+[2023-06-29 17:39:35] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/36/6c/860201ed1a95358fe74444b31fbf7136036b749611bea2c4cba20d01fd28/nics-1.0.0rc7.tar.gz
+[2023-06-29 17:39:35] INFO root fetch - processPackages [prog-server]: executing diffoscope
+[2023-06-29 17:39:35] INFO root fetch - processPackages [prog-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prog_server-1.5.0.tar.gz tmp/prog_server-1.5.0rc0.tar.gz --markdown 20230629/p/prog-server/1.5.0-1.5.0rc0/diff.md --exclude *.pyd
+[2023-06-29 17:39:35] INFO root fetch - processPackages [odoo14-addon-base-future-response]: Downloading https://files.pythonhosted.org/packages/a5/ba/d057fcf2a753102c3fc638f527def384c8f4990d853c4e5e2414ecc90a12/odoo14_addon_base_future_response-14.0.1.0.2-py3-none-any.whl
+[2023-06-29 17:39:35] INFO root fetch - processPackages [xfields]: Downloading https://files.pythonhosted.org/packages/8b/54/cac5d52db408c1d03b97e7d6c7f37530ed94cdc6cec242e76f900759b3a3/xfields-0.9.4.tar.gz
+[2023-06-29 17:39:35] INFO root fetch - processPackages [hicpnewman]: executing diffoscope
+[2023-06-29 17:39:35] INFO root fetch - processPackages [hicpnewman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hicpnewman-1.0.3.tar.gz tmp/hicpnewman-1.0.4.tar.gz --markdown 20230629/h/hicpnewman/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-29 17:39:35] INFO root fetch - processPackages [pepperize.cdk-vpc]: Downloading https://files.pythonhosted.org/packages/e8/f1/d3bacab49ff19cf30ba787ffcbc7ad05fd05f663b5194429568885059996/pepperize.cdk-vpc-0.0.99.tar.gz
+[2023-06-29 17:39:35] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-06-29 17:39:35] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-1.0.0rc6.tar.gz tmp/nics-1.0.0rc7.tar.gz --markdown 20230629/n/nics/1.0.0rc6-1.0.0rc7/diff.md --exclude *.pyd
+[2023-06-29 17:39:35] INFO root fetch - processPackages [odoo14-addon-base-future-response]: executing diffoscope
+[2023-06-29 17:39:35] INFO root fetch - processPackages [odoo14-addon-base-future-response]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_future_response-14.0.1.0.1-py3-none-any.whl.zip tmp/odoo14_addon_base_future_response-14.0.1.0.2-py3-none-any.whl.zip --markdown 20230629/o/odoo14-addon-base-future-response/14.0.1.0.1-14.0.1.0.2/diff.md --exclude *.pyd
+[2023-06-29 17:39:35] INFO root fetch - processPackages [pepperize.cdk-vpc]: executing diffoscope
+[2023-06-29 17:39:35] INFO root fetch - processPackages [pepperize.cdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-vpc-0.0.98.tar.gz tmp/pepperize.cdk-vpc-0.0.99.tar.gz --markdown 20230629/p/pepperize.cdk-vpc/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-29 17:39:35] INFO root fetch - processPackages [xtrack]: Downloading https://files.pythonhosted.org/packages/46/38/dad135658362d6eec72747f7f0ae41cf43b0d0fb26e948ac142a49dfcec8/xtrack-0.9.5.tar.gz
+[2023-06-29 17:39:35] INFO root fetch - processPackages [xfields]: executing diffoscope
+[2023-06-29 17:39:35] INFO root fetch - processPackages [xfields]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfields-0.9.3.tar.gz tmp/xfields-0.9.4.tar.gz --markdown 20230629/x/xfields/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-29 17:39:35] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/05/c2/911736fd9caff48e395c4b7643549153b78727af673a7f2ac84e0b673c45/cfl-common-6.9.0.tar.gz
+[2023-06-29 17:39:36] INFO root fetch - processPackages [xtrack]: executing diffoscope
+[2023-06-29 17:39:36] INFO root fetch - processPackages [xtrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtrack-0.9.4.tar.gz tmp/xtrack-0.9.5.tar.gz --markdown 20230629/x/xtrack/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-29 17:39:36] INFO root fetch - processPackages [cfl-common]: executing diffoscope
+[2023-06-29 17:39:36] INFO root fetch - processPackages [cfl-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfl-common-6.8.9.tar.gz tmp/cfl-common-6.9.0.tar.gz --markdown 20230629/c/cfl-common/6.8.9-6.9.0/diff.md --exclude *.pyd
+[2023-06-29 17:39:37] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-1.0.0rc6.tar.gz]
+[2023-06-29 17:39:37] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-1.0.0rc7.tar.gz]
+[2023-06-29 17:39:37] INFO root fetch - processPackages [nics]: Start processing: up-enhsp
+[2023-06-29 17:39:37] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-06-29 17:39:37] INFO root fetch - processPackages [odoo14-addon-base-future-response]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_future_response-14.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-29 17:39:37] INFO root fetch - processPackages [odoo14-addon-base-future-response]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_future_response-14.0.1.0.2-py3-none-any.whl.zip]
+[2023-06-29 17:39:37] INFO root fetch - processPackages [odoo14-addon-base-future-response]: Start processing: kimariDraw
+[2023-06-29 17:39:37] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-future-response]: success
+[2023-06-29 17:39:37] INFO root fetch - processPackages [pepperize.cdk-vpc]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-vpc-0.0.98.tar.gz]
+[2023-06-29 17:39:37] INFO root fetch - processPackages [pepperize.cdk-vpc]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-vpc-0.0.99.tar.gz]
+[2023-06-29 17:39:37] INFO root fetch - processPackages [pepperize.cdk-vpc]: Start processing: pybdsim
+[2023-06-29 17:39:37] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-vpc]: success
+[2023-06-29 17:39:37] INFO root fetch - processPackages [up-enhsp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 17:39:37] INFO root fetch - processPackages [kimariDraw]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-29 17:39:37] INFO root fetch - processPackages [hicpnewman]: Remove: archive file [/home/abi/fetcher/tmp/hicpnewman-1.0.3.tar.gz]
+[2023-06-29 17:39:37] INFO root fetch - processPackages [hicpnewman]: Remove: archive file [/home/abi/fetcher/tmp/hicpnewman-1.0.4.tar.gz]
+[2023-06-29 17:39:37] INFO root fetch - processPackages [hicpnewman]: Start processing: ms2rescore
+[2023-06-29 17:39:37] INFO root fetch - main [MainThread]: End processing [hicpnewman]: success
+[2023-06-29 17:39:37] INFO root fetch - processPackages [kimariDraw]: Downloading https://files.pythonhosted.org/packages/2d/b2/76f326f8ba2d5eb8d352a8a9367d67ff0450cfa11ee46ff34a62eb16a9c3/kimariDraw-1.1.3.tar.gz
+[2023-06-29 17:39:37] INFO root fetch - processPackages [CodeToCAD]: Remove: archive file [/home/abi/fetcher/tmp/CodeToCAD-0.2.1688052828.tar.gz]
+[2023-06-29 17:39:37] INFO root fetch - processPackages [CodeToCAD]: Remove: archive file [/home/abi/fetcher/tmp/CodeToCAD-0.2.6.tar.gz]
+[2023-06-29 17:39:37] INFO root fetch - processPackages [CodeToCAD]: Start processing: ask-sdk-model
+[2023-06-29 17:39:37] INFO root fetch - main [MainThread]: End processing [CodeToCAD]: success
+[2023-06-29 17:39:37] INFO root fetch - processPackages [pybdsim]: New version: [3.3.2] Old Version: [3.3.1]
+[2023-06-29 17:39:37] INFO root fetch - processPackages [ask-sdk-model]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-29 17:39:37] INFO root fetch - processPackages [prog-server]: Remove: archive file [/home/abi/fetcher/tmp/prog_server-1.5.0.tar.gz]
+[2023-06-29 17:39:37] INFO root fetch - processPackages [prog-server]: Remove: archive file [/home/abi/fetcher/tmp/prog_server-1.5.0rc0.tar.gz]
+[2023-06-29 17:39:37] INFO root fetch - processPackages [prog-server]: Start processing: unified-planning
+[2023-06-29 17:39:37] INFO root fetch - main [MainThread]: End processing [prog-server]: success
+[2023-06-29 17:39:37] INFO root fetch - processPackages [ms2rescore]: New version: [3.0.0.dev1] Old Version: [2.1.3]
+[2023-06-29 17:39:37] INFO root fetch - processPackages [ask-sdk-model]: Downloading https://files.pythonhosted.org/packages/0e/2d/3d567d4f148eb87e204409c700b9d3c5339bbbd1c2370fdb46979cfe0ce7/ask-sdk-model-1.8.0.tar.gz
+[2023-06-29 17:39:37] INFO root fetch - processPackages [unified-planning]: New version: [0.6.0.94.dev1] Old Version: [0.6.0.9.dev1]
+[2023-06-29 17:39:37] INFO root fetch - processPackages [up-enhsp]: Downloading https://files.pythonhosted.org/packages/ee/da/d75e6cb221567e40a63dce5636ed9a1da002bd6081730c5b4ca5c6c32981/up_enhsp-0.0.8.tar.gz
+[2023-06-29 17:39:37] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.8.9.tar.gz]
+[2023-06-29 17:39:37] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.9.0.tar.gz]
+[2023-06-29 17:39:37] INFO root fetch - processPackages [cfl-common]: Start processing: hicpnewman
+[2023-06-29 17:39:37] INFO root fetch - main [MainThread]: End processing [cfl-common]: success
+[2023-06-29 17:39:37] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/7b/cd/ac15f362b634f8dfca374107a12b11d18cda8da3341e1e1de92d45e36fc9/unified_planning-0.6.0.9.dev1.tar.gz
+[2023-06-29 17:39:37] INFO root fetch - processPackages [pybdsim]: Downloading https://files.pythonhosted.org/packages/de/3a/f57c763460c8f8c6c03a647cc11b0433a9eabd10a6af0c5b531eb249136b/pybdsim-3.3.1.tar.gz
+[2023-06-29 17:39:37] INFO root fetch - processPackages [hicpnewman]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-29 17:39:37] INFO root fetch - processPackages [kimariDraw]: Downloading https://files.pythonhosted.org/packages/59/a0/cefe8ff662ce21b2759443024d5877fb39ef3a6e524ead40a0da897dd0a2/kimariDraw-1.1.4.tar.gz
+[2023-06-29 17:39:37] INFO root fetch - processPackages [xfields]: Remove: archive file [/home/abi/fetcher/tmp/xfields-0.9.3.tar.gz]
+[2023-06-29 17:39:37] INFO root fetch - processPackages [xfields]: Remove: archive file [/home/abi/fetcher/tmp/xfields-0.9.4.tar.gz]
+[2023-06-29 17:39:37] INFO root fetch - main [MainThread]: End processing [xfields]: success
+[2023-06-29 17:39:37] INFO root fetch - processPackages [hicpnewman]: Downloading https://files.pythonhosted.org/packages/a5/96/9503551331b40a24d03d8f32b4fad8b0aeef13da5af145a992544775f1eb/hicpnewman-1.0.4.tar.gz
+[2023-06-29 17:39:37] INFO root fetch - processPackages [ask-sdk-model]: Downloading https://files.pythonhosted.org/packages/2f/20/15196c61c99fd59fa6f5f903bea9e113a2af80777c1f7f38f90a5102afde/ask-sdk-model-1.9.0.tar.gz
+[2023-06-29 17:39:37] INFO root fetch - processPackages [ms2rescore]: Downloading https://files.pythonhosted.org/packages/33/a0/01291de9c08ba029e48d87e1eee67df1862356baaf44fd5be9f2aaa1d293/ms2rescore-2.1.3.tar.gz
+[2023-06-29 17:39:37] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/47/44/b13fcddb5405f914c9898095cd7fd61a47cc4647a4065d3a61f28919f91a/unified_planning-0.6.0.94.dev1.tar.gz
+[2023-06-29 17:39:37] INFO root fetch - processPackages [ask-sdk-model]: executing diffoscope
+[2023-06-29 17:39:37] INFO root fetch - processPackages [ask-sdk-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ask-sdk-model-1.8.0.tar.gz tmp/ask-sdk-model-1.9.0.tar.gz --markdown 20230629/a/ask-sdk-model/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-29 17:39:37] INFO root fetch - processPackages [kimariDraw]: executing diffoscope
+[2023-06-29 17:39:37] INFO root fetch - processPackages [kimariDraw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kimariDraw-1.1.3.tar.gz tmp/kimariDraw-1.1.4.tar.gz --markdown 20230629/k/kimariDraw/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-29 17:39:37] INFO root fetch - processPackages [up-enhsp]: Downloading https://files.pythonhosted.org/packages/f5/aa/1993e760de457168893925e9742993e9ac1648d509b9206348e5fe17e85e/up_enhsp-0.0.9.tar.gz
+[2023-06-29 17:39:37] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-06-29 17:39:37] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-0.6.0.9.dev1.tar.gz tmp/unified_planning-0.6.0.94.dev1.tar.gz --markdown 20230629/u/unified-planning/0.6.0.9.dev1-0.6.0.94.dev1/diff.md --exclude *.pyd
+[2023-06-29 17:39:37] INFO root fetch - processPackages [hicpnewman]: Downloading https://files.pythonhosted.org/packages/94/12/7dd730cb0b1a5a997d124c95c044a131df94cb472e0e6946b4ce4c48b1e8/hicpnewman-1.0.5.tar.gz
+[2023-06-29 17:39:38] INFO root fetch - processPackages [up-enhsp]: executing diffoscope
+[2023-06-29 17:39:38] INFO root fetch - processPackages [up-enhsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_enhsp-0.0.8.tar.gz tmp/up_enhsp-0.0.9.tar.gz --markdown 20230629/u/up-enhsp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 17:39:38] INFO root fetch - processPackages [ms2rescore]: Downloading https://files.pythonhosted.org/packages/e1/1b/367d4cedeec9154cb444b333ed4ad14eb965f1000d86f4abf80b3d7a989f/ms2rescore-3.0.0.dev1.tar.gz
+[2023-06-29 17:39:38] INFO root fetch - processPackages [hicpnewman]: executing diffoscope
+[2023-06-29 17:39:38] INFO root fetch - processPackages [hicpnewman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hicpnewman-1.0.4.tar.gz tmp/hicpnewman-1.0.5.tar.gz --markdown 20230629/h/hicpnewman/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-29 17:39:38] INFO root fetch - processPackages [ms2rescore]: executing diffoscope
+[2023-06-29 17:39:38] INFO root fetch - processPackages [ms2rescore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms2rescore-2.1.3.tar.gz tmp/ms2rescore-3.0.0.dev1.tar.gz --markdown 20230629/m/ms2rescore/2.1.3-3.0.0.dev1/diff.md --exclude *.pyd
+[2023-06-29 17:39:38] INFO root fetch - processPackages [pybdsim]: Downloading https://files.pythonhosted.org/packages/7e/4c/4652dab200ea0129fabe0d1fe585ba5f7a0e45ff928b234ccf28d82aa63d/pybdsim-3.3.2.tar.gz
+[2023-06-29 17:39:38] INFO root fetch - processPackages [pybdsim]: executing diffoscope
+[2023-06-29 17:39:38] INFO root fetch - processPackages [pybdsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybdsim-3.3.1.tar.gz tmp/pybdsim-3.3.2.tar.gz --markdown 20230629/p/pybdsim/3.3.1-3.3.2/diff.md --exclude *.pyd
+[2023-06-29 17:39:38] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/4b/33/908cc56053eac27f161dd60178364693054a2d8a33fc18e1bc5001a50954/codeforlife-portal-6.9.0.tar.gz
+[2023-06-29 17:39:39] INFO root fetch - processPackages [kimariDraw]: Remove: archive file [/home/abi/fetcher/tmp/kimariDraw-1.1.3.tar.gz]
+[2023-06-29 17:39:39] INFO root fetch - processPackages [kimariDraw]: Remove: archive file [/home/abi/fetcher/tmp/kimariDraw-1.1.4.tar.gz]
+[2023-06-29 17:39:39] INFO root fetch - main [MainThread]: End processing [kimariDraw]: success
+[2023-06-29 17:39:39] INFO root fetch - processPackages [up-enhsp]: Remove: archive file [/home/abi/fetcher/tmp/up_enhsp-0.0.8.tar.gz]
+[2023-06-29 17:39:39] INFO root fetch - processPackages [up-enhsp]: Remove: archive file [/home/abi/fetcher/tmp/up_enhsp-0.0.9.tar.gz]
+[2023-06-29 17:39:39] INFO root fetch - main [MainThread]: End processing [up-enhsp]: success
+[2023-06-29 17:39:40] INFO root fetch - processPackages [codeforlife-portal]: executing diffoscope
+[2023-06-29 17:39:40] INFO root fetch - processPackages [codeforlife-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeforlife-portal-6.8.9.tar.gz tmp/codeforlife-portal-6.9.0.tar.gz --markdown 20230629/c/codeforlife-portal/6.8.9-6.9.0/diff.md --exclude *.pyd
+[2023-06-29 17:39:41] INFO root fetch - processPackages [ask-sdk-model]: Remove: archive file [/home/abi/fetcher/tmp/ask-sdk-model-1.8.0.tar.gz]
+[2023-06-29 17:39:41] INFO root fetch - processPackages [ask-sdk-model]: Remove: archive file [/home/abi/fetcher/tmp/ask-sdk-model-1.9.0.tar.gz]
+[2023-06-29 17:39:41] INFO root fetch - main [MainThread]: End processing [ask-sdk-model]: success
+[2023-06-29 17:39:41] INFO root fetch - processPackages [pybdsim]: Remove: archive file [/home/abi/fetcher/tmp/pybdsim-3.3.1.tar.gz]
+[2023-06-29 17:39:41] INFO root fetch - processPackages [pybdsim]: Remove: archive file [/home/abi/fetcher/tmp/pybdsim-3.3.2.tar.gz]
+[2023-06-29 17:39:41] INFO root fetch - main [MainThread]: End processing [pybdsim]: success
+[2023-06-29 17:39:42] INFO root fetch - processPackages [hicpnewman]: Remove: archive file [/home/abi/fetcher/tmp/hicpnewman-1.0.4.tar.gz]
+[2023-06-29 17:39:42] INFO root fetch - processPackages [hicpnewman]: Remove: archive file [/home/abi/fetcher/tmp/hicpnewman-1.0.5.tar.gz]
+[2023-06-29 17:39:42] INFO root fetch - main [MainThread]: End processing [hicpnewman]: success
+[2023-06-29 17:39:44] INFO root fetch - processPackages [ms2rescore]: Remove: archive file [/home/abi/fetcher/tmp/ms2rescore-2.1.3.tar.gz]
+[2023-06-29 17:39:44] INFO root fetch - processPackages [ms2rescore]: Remove: archive file [/home/abi/fetcher/tmp/ms2rescore-3.0.0.dev1.tar.gz]
+[2023-06-29 17:39:44] INFO root fetch - main [MainThread]: End processing [ms2rescore]: success
+[2023-06-29 17:39:45] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-0.6.0.9.dev1.tar.gz]
+[2023-06-29 17:39:45] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-0.6.0.94.dev1.tar.gz]
+[2023-06-29 17:39:45] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-06-29 17:39:46] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.8.9.tar.gz]
+[2023-06-29 17:39:46] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.9.0.tar.gz]
+[2023-06-29 17:39:46] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
+[2023-06-29 17:40:24] INFO root fetch - processPackages [xtrack]: Remove: archive file [/home/abi/fetcher/tmp/xtrack-0.9.4.tar.gz]
+[2023-06-29 17:40:24] INFO root fetch - processPackages [xtrack]: Remove: archive file [/home/abi/fetcher/tmp/xtrack-0.9.5.tar.gz]
+[2023-06-29 17:40:24] INFO root fetch - main [MainThread]: End processing [xtrack]: success
+[2023-06-29 17:40:24] INFO root fetch - main [MainThread]: Store serial: [18697295]
