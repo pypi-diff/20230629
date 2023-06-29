@@ -8974,3 +8974,150 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 13:55:14] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230629-py3-none-win_amd64.whl.zip]
 [2023-06-29 13:55:14] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
 [2023-06-29 13:55:14] INFO root fetch - main [MainThread]: Store serial: [18694524]
+[2023-06-29 14:00:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18694524]
+[2023-06-29 14:00:34] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-29 14:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snakemake-staging
+[2023-06-29 14:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ubiops-cli
+[2023-06-29 14:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dcicutils
+[2023-06-29 14:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-pfx
+[2023-06-29 14:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dusseldorf
+[2023-06-29 14:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robocorp-storage
+[2023-06-29 14:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hubble-exchange
+[2023-06-29 14:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eodc
+[2023-06-29 14:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fair-async-rlock
+[2023-06-29 14:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: easy-yapi
+[2023-06-29 14:00:34] INFO root fetch - processPackages [snakemake-staging]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-29 14:00:34] INFO root fetch - processPackages [django-pfx]: New version: [1.2.dev8] Old Version: [1.2.dev74]
+[2023-06-29 14:00:34] INFO root fetch - processPackages [robocorp-storage]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-06-29 14:00:34] INFO root fetch - processPackages [dusseldorf]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-06-29 14:00:34] INFO root fetch - processPackages [ubiops-cli]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-06-29 14:00:34] WARNING root fetch - processPackages [hubble-exchange]: Skipping, unable to determine old version
+[2023-06-29 14:00:34] INFO root fetch - processPackages [fair-async-rlock]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-29 14:00:34] INFO root fetch - processPackages [hubble-exchange]: Start processing: wwpdb.utils.emdb
+[2023-06-29 14:00:34] INFO root fetch - main [MainThread]: End processing [hubble-exchange] error
+[2023-06-29 14:00:34] INFO root fetch - processPackages [eodc]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-29 14:00:34] WARNING root fetch - processPackages [easy-yapi]: Skipping, unable to determine old version
+[2023-06-29 14:00:34] INFO root fetch - processPackages [easy-yapi]: Start processing: autodistill
+[2023-06-29 14:00:34] INFO root fetch - main [MainThread]: End processing [easy-yapi] error
+[2023-06-29 14:00:34] INFO root fetch - processPackages [dcicutils]: New version: [7.6.0.1b1] Old Version: [7.5.2]
+[2023-06-29 14:00:34] INFO root fetch - processPackages [wwpdb.utils.emdb]: New version: [1.4.1] Old Version: [1.4]
+[2023-06-29 14:00:34] INFO root fetch - processPackages [autodistill]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-29 14:00:35] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/b5/a2/4f5085dfa3f4a02109e826e8aca6ba88e145b0b2595dbd6275b28aab582c/django-pfx-1.2.dev74.tar.gz
+[2023-06-29 14:00:35] INFO root fetch - processPackages [dusseldorf]: Downloading https://files.pythonhosted.org/packages/7b/cd/7698955fd3b14994a681cdbe186c6baad578707de2d2345850ae59216cb3/dusseldorf-0.2.0.tar.gz
+[2023-06-29 14:00:35] INFO root fetch - processPackages [eodc]: Downloading https://files.pythonhosted.org/packages/1a/cf/3fa14673d75edbb5da8478de4201544339e26296398df2d0be95113f0989/eodc-2023.6.8.tar.gz
+[2023-06-29 14:00:35] INFO root fetch - processPackages [robocorp-storage]: Downloading https://files.pythonhosted.org/packages/ec/d2/a070181cd0a5bb7a1bbbd45c78d491b54ed6e956488a898262ac111a0c4c/robocorp_storage-0.1.2.tar.gz
+[2023-06-29 14:00:35] INFO root fetch - processPackages [fair-async-rlock]: Downloading https://files.pythonhosted.org/packages/05/40/fa2ab3cccf2b710aaa9d44326646f22deebca953e22f1e143aaf86117664/fair_async_rlock-1.0.3.tar.gz
+[2023-06-29 14:00:35] INFO root fetch - processPackages [autodistill]: Downloading https://files.pythonhosted.org/packages/a9/35/58f35a305741ea690789147a129d4d7add24f86c44ca58ec037ea43ac493/autodistill-0.1.4.tar.gz
+[2023-06-29 14:00:35] INFO root fetch - processPackages [snakemake-staging]: Downloading https://files.pythonhosted.org/packages/47/6e/140ac7d0710ffcd6fc6d6ffd4c2adeae424ff632ffefafb2dd36ab26f91d/snakemake_staging-0.0.1.tar.gz
+[2023-06-29 14:00:35] INFO root fetch - processPackages [wwpdb.utils.emdb]: Downloading https://files.pythonhosted.org/packages/d8/66/ba9f56f9849b940ce1eb33697afde055a67773cf8ae288baf0f6285e2ca7/wwpdb.utils.emdb-1.4.tar.gz
+[2023-06-29 14:00:35] INFO root fetch - processPackages [ubiops-cli]: Downloading https://files.pythonhosted.org/packages/64/72/16e4ccf487f0a7208f959930705b2a0782b903f07d5fff8b12ee0f61848a/ubiops-cli-2.8.0.tar.gz
+[2023-06-29 14:00:35] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/1b/25/f5359100f03c05b6b2670c5fd8d32c6c5c399a3617fe36a8cd40539e2d4b/dcicutils-7.5.2.tar.gz
+[2023-06-29 14:00:35] INFO root fetch - processPackages [dusseldorf]: Downloading https://files.pythonhosted.org/packages/33/03/69147e70549027fb050e3501fed0ece968e2731960b4696d5f0c034f9808/dusseldorf-1.0.0.tar.gz
+[2023-06-29 14:00:35] INFO root fetch - processPackages [fair-async-rlock]: Downloading https://files.pythonhosted.org/packages/b1/07/86dce29cc539feb3df0db955fc3ec9975ddcccb1e3b214879f4940de47d0/fair_async_rlock-1.0.4.tar.gz
+[2023-06-29 14:00:35] INFO root fetch - processPackages [eodc]: Downloading https://files.pythonhosted.org/packages/c5/83/63873bbcccf7bb07f0a25f386840631889a5c10e88af7af1eb0baeb16508/eodc-2023.6.9.tar.gz
+[2023-06-29 14:00:35] INFO root fetch - processPackages [dusseldorf]: executing diffoscope
+[2023-06-29 14:00:35] INFO root fetch - processPackages [dusseldorf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dusseldorf-0.2.0.tar.gz tmp/dusseldorf-1.0.0.tar.gz --markdown 20230629/d/dusseldorf/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-29 14:00:35] INFO root fetch - processPackages [autodistill]: Downloading https://files.pythonhosted.org/packages/62/58/4991abb650760ffbe9afc318e0508d9d7e669e22a8422836c26480b4e586/autodistill-0.1.5.tar.gz
+[2023-06-29 14:00:35] INFO root fetch - processPackages [robocorp-storage]: Downloading https://files.pythonhosted.org/packages/db/d0/4f4b72b131f099d397ec2f455bf450e9e00589ab846a242ce397f4810bee/robocorp_storage-0.2.0.tar.gz
+[2023-06-29 14:00:35] INFO root fetch - processPackages [eodc]: executing diffoscope
+[2023-06-29 14:00:35] INFO root fetch - processPackages [fair-async-rlock]: executing diffoscope
+[2023-06-29 14:00:35] INFO root fetch - processPackages [eodc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc-2023.6.8.tar.gz tmp/eodc-2023.6.9.tar.gz --markdown 20230629/e/eodc/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-29 14:00:35] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/a8/a1/beee13dd42732e6b09a9fa98a5127296a4eb74cba08e3bdc0c5376e914db/django-pfx-1.2.dev8.tar.gz
+[2023-06-29 14:00:35] INFO root fetch - processPackages [fair-async-rlock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fair_async_rlock-1.0.3.tar.gz tmp/fair_async_rlock-1.0.4.tar.gz --markdown 20230629/f/fair-async-rlock/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-29 14:00:35] INFO root fetch - processPackages [snakemake-staging]: Downloading https://files.pythonhosted.org/packages/61/ee/aacf9faab85333a05dd29bac95a1c8d7c1003e15faba8fbb1139f6f39d0b/snakemake_staging-0.0.2.tar.gz
+[2023-06-29 14:00:35] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/3b/e3/b97bf810830836ff2cdbcf22ae08cdaaa9024ccad223b53d06f08d869990/dcicutils-7.6.0.1b1.tar.gz
+[2023-06-29 14:00:35] INFO root fetch - processPackages [autodistill]: executing diffoscope
+[2023-06-29 14:00:35] INFO root fetch - processPackages [autodistill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodistill-0.1.4.tar.gz tmp/autodistill-0.1.5.tar.gz --markdown 20230629/a/autodistill/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-29 14:00:35] INFO root fetch - processPackages [snakemake-staging]: executing diffoscope
+[2023-06-29 14:00:35] INFO root fetch - processPackages [snakemake-staging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake_staging-0.0.1.tar.gz tmp/snakemake_staging-0.0.2.tar.gz --markdown 20230629/s/snakemake-staging/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-29 14:00:35] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2023-06-29 14:00:35] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.2.dev74.tar.gz tmp/django-pfx-1.2.dev8.tar.gz --markdown 20230629/d/django-pfx/1.2.dev74-1.2.dev8/diff.md --exclude *.pyd
+[2023-06-29 14:00:35] INFO root fetch - processPackages [wwpdb.utils.emdb]: Downloading https://files.pythonhosted.org/packages/ab/37/d0aed09af6a0257a9a40ff21b5c864c5cc26babb6786fdfc864c31c8c9e1/wwpdb.utils.emdb-1.4.1.tar.gz
+[2023-06-29 14:00:35] INFO root fetch - processPackages [ubiops-cli]: Downloading https://files.pythonhosted.org/packages/c8/03/81e588785a9b0180e5464ebcf5b010b4dff3d636c707b67bfe5634fbf451/ubiops-cli-2.9.0.tar.gz
+[2023-06-29 14:00:35] INFO root fetch - processPackages [robocorp-storage]: executing diffoscope
+[2023-06-29 14:00:35] INFO root fetch - processPackages [robocorp-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_storage-0.1.2.tar.gz tmp/robocorp_storage-0.2.0.tar.gz --markdown 20230629/r/robocorp-storage/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-06-29 14:00:35] INFO root fetch - processPackages [wwpdb.utils.emdb]: executing diffoscope
+[2023-06-29 14:00:35] INFO root fetch - processPackages [wwpdb.utils.emdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwpdb.utils.emdb-1.4.tar.gz tmp/wwpdb.utils.emdb-1.4.1.tar.gz --markdown 20230629/w/wwpdb.utils.emdb/1.4-1.4.1/diff.md --exclude *.pyd
+[2023-06-29 14:00:35] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2023-06-29 14:00:35] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-7.5.2.tar.gz tmp/dcicutils-7.6.0.1b1.tar.gz --markdown 20230629/d/dcicutils/7.5.2-7.6.0.1b1/diff.md --exclude *.pyd
+[2023-06-29 14:00:35] INFO root fetch - processPackages [ubiops-cli]: executing diffoscope
+[2023-06-29 14:00:35] INFO root fetch - processPackages [ubiops-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ubiops-cli-2.8.0.tar.gz tmp/ubiops-cli-2.9.0.tar.gz --markdown 20230629/u/ubiops-cli/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-06-29 14:00:36] INFO root fetch - processPackages [eodc]: Remove: archive file [/home/abi/fetcher/tmp/eodc-2023.6.8.tar.gz]
+[2023-06-29 14:00:36] INFO root fetch - processPackages [eodc]: Remove: archive file [/home/abi/fetcher/tmp/eodc-2023.6.9.tar.gz]
+[2023-06-29 14:00:36] INFO root fetch - processPackages [eodc]: Start processing: pycareer
+[2023-06-29 14:00:36] INFO root fetch - main [MainThread]: End processing [eodc]: success
+[2023-06-29 14:00:36] INFO root fetch - processPackages [pycareer]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-29 14:00:37] INFO root fetch - processPackages [snakemake-staging]: Remove: archive file [/home/abi/fetcher/tmp/snakemake_staging-0.0.1.tar.gz]
+[2023-06-29 14:00:37] INFO root fetch - processPackages [snakemake-staging]: Remove: archive file [/home/abi/fetcher/tmp/snakemake_staging-0.0.2.tar.gz]
+[2023-06-29 14:00:37] INFO root fetch - processPackages [snakemake-staging]: Start processing: dataclasses-avroschema
+[2023-06-29 14:00:37] INFO root fetch - main [MainThread]: End processing [snakemake-staging]: success
+[2023-06-29 14:00:37] INFO root fetch - processPackages [pycareer]: Downloading https://files.pythonhosted.org/packages/68/a1/3fe3d9cf4cfb2022bcba514fa3af82cfe25e85d244317ac85f168da33afb/pycareer-0.1.4.tar.gz
+[2023-06-29 14:00:37] INFO root fetch - processPackages [dataclasses-avroschema]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-29 14:00:37] INFO root fetch - processPackages [dusseldorf]: Remove: archive file [/home/abi/fetcher/tmp/dusseldorf-0.2.0.tar.gz]
+[2023-06-29 14:00:37] INFO root fetch - processPackages [dusseldorf]: Remove: archive file [/home/abi/fetcher/tmp/dusseldorf-1.0.0.tar.gz]
+[2023-06-29 14:00:37] INFO root fetch - processPackages [dusseldorf]: Start processing: nics
+[2023-06-29 14:00:37] INFO root fetch - main [MainThread]: End processing [dusseldorf]: success
+[2023-06-29 14:00:37] INFO root fetch - processPackages [nics]: New version: [1.0.0rc6] Old Version: [1.0.0rc5]
+[2023-06-29 14:00:37] INFO root fetch - processPackages [fair-async-rlock]: Remove: archive file [/home/abi/fetcher/tmp/fair_async_rlock-1.0.3.tar.gz]
+[2023-06-29 14:00:37] INFO root fetch - processPackages [fair-async-rlock]: Remove: archive file [/home/abi/fetcher/tmp/fair_async_rlock-1.0.4.tar.gz]
+[2023-06-29 14:00:37] INFO root fetch - processPackages [fair-async-rlock]: Start processing: nomad-camels
+[2023-06-29 14:00:37] INFO root fetch - main [MainThread]: End processing [fair-async-rlock]: success
+[2023-06-29 14:00:37] INFO root fetch - processPackages [nomad-camels]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-29 14:00:37] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/c1/3d/0d272d6290e008d1e0d614523e07953ffc74ae80c07eab36a951dd1c8537/nics-1.0.0rc5.tar.gz
+[2023-06-29 14:00:37] INFO root fetch - processPackages [robocorp-storage]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_storage-0.1.2.tar.gz]
+[2023-06-29 14:00:37] INFO root fetch - processPackages [robocorp-storage]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_storage-0.2.0.tar.gz]
+[2023-06-29 14:00:37] INFO root fetch - processPackages [robocorp-storage]: Start processing: drift-cli
+[2023-06-29 14:00:37] INFO root fetch - main [MainThread]: End processing [robocorp-storage]: success
+[2023-06-29 14:00:37] INFO root fetch - processPackages [dataclasses-avroschema]: Downloading https://files.pythonhosted.org/packages/a5/fb/8ce4dad6fb68b86160ad36f9005f6f7f73f9fb007b588515fbe5a9d73588/dataclasses-avroschema-0.8.0.tar.gz
+[2023-06-29 14:00:37] INFO root fetch - processPackages [pycareer]: Downloading https://files.pythonhosted.org/packages/ae/9c/7b3b26d629953e9bc07c6b2a5de962e3252533b0cea672e318db7fa30706/pycareer-0.1.5.tar.gz
+[2023-06-29 14:00:37] INFO root fetch - processPackages [drift-cli]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-29 14:00:37] INFO root fetch - processPackages [nomad-camels]: Downloading https://files.pythonhosted.org/packages/99/2b/7b1fa392ed1b3bb77aea13045b66a4f754a0de11b6004b0484c3c131744b/nomad_camels-0.1.1.tar.gz
+[2023-06-29 14:00:37] INFO root fetch - processPackages [pycareer]: executing diffoscope
+[2023-06-29 14:00:37] INFO root fetch - processPackages [pycareer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycareer-0.1.4.tar.gz tmp/pycareer-0.1.5.tar.gz --markdown 20230629/p/pycareer/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-29 14:00:37] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/08/79/e5fc4157d6cde7ae946f4c3c388c03b8602c87c693030fa325a011467a87/nics-1.0.0rc6.tar.gz
+[2023-06-29 14:00:37] INFO root fetch - processPackages [drift-cli]: Downloading https://files.pythonhosted.org/packages/58/a5/43d4f499058c2b6e97116e94c17da44aae78db8f38f95b19d7937a885996/drift_cli-0.7.0-py3-none-any.whl
+[2023-06-29 14:00:37] INFO root fetch - processPackages [autodistill]: Remove: archive file [/home/abi/fetcher/tmp/autodistill-0.1.4.tar.gz]
+[2023-06-29 14:00:37] INFO root fetch - processPackages [autodistill]: Remove: archive file [/home/abi/fetcher/tmp/autodistill-0.1.5.tar.gz]
+[2023-06-29 14:00:37] INFO root fetch - processPackages [autodistill]: Start processing: FOFA-py
+[2023-06-29 14:00:37] INFO root fetch - main [MainThread]: End processing [autodistill]: success
+[2023-06-29 14:00:37] WARNING root fetch - processPackages [FOFA-py]: Skipping, unable to determine old version
+[2023-06-29 14:00:37] INFO root fetch - main [MainThread]: End processing [FOFA-py] error
+[2023-06-29 14:00:37] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-06-29 14:00:37] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-1.0.0rc5.tar.gz tmp/nics-1.0.0rc6.tar.gz --markdown 20230629/n/nics/1.0.0rc5-1.0.0rc6/diff.md --exclude *.pyd
+[2023-06-29 14:00:37] INFO root fetch - processPackages [dataclasses-avroschema]: Downloading https://files.pythonhosted.org/packages/d7/da/865deccd18dc91b8b341a76779391cca2ea3b77382020e10d3c3f44e53d3/dataclasses-avroschema-0.9.0.tar.gz
+[2023-06-29 14:00:37] INFO root fetch - processPackages [drift-cli]: Downloading https://files.pythonhosted.org/packages/60/8c/b00edc2aa994cae19c78b0cb7cb8a0fba158e51e5844af001250b796962b/drift_cli-0.7.1-py3-none-any.whl
+[2023-06-29 14:00:37] INFO root fetch - processPackages [nomad-camels]: Downloading https://files.pythonhosted.org/packages/a1/5b/15cda9277d3db77cdd3ab68933c21a80324aac76633fb2d761cf7a4dfb2c/nomad_camels-0.1.2.tar.gz
+[2023-06-29 14:00:37] INFO root fetch - processPackages [dataclasses-avroschema]: executing diffoscope
+[2023-06-29 14:00:37] INFO root fetch - processPackages [dataclasses-avroschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclasses-avroschema-0.8.0.tar.gz tmp/dataclasses-avroschema-0.9.0.tar.gz --markdown 20230629/d/dataclasses-avroschema/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-29 14:00:37] INFO root fetch - processPackages [drift-cli]: executing diffoscope
+[2023-06-29 14:00:37] INFO root fetch - processPackages [drift-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drift_cli-0.7.0-py3-none-any.whl.zip tmp/drift_cli-0.7.1-py3-none-any.whl.zip --markdown 20230629/d/drift-cli/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-29 14:00:38] INFO root fetch - processPackages [ubiops-cli]: Remove: archive file [/home/abi/fetcher/tmp/ubiops-cli-2.8.0.tar.gz]
+[2023-06-29 14:00:38] INFO root fetch - processPackages [ubiops-cli]: Remove: archive file [/home/abi/fetcher/tmp/ubiops-cli-2.9.0.tar.gz]
+[2023-06-29 14:00:38] INFO root fetch - main [MainThread]: End processing [ubiops-cli]: success
+[2023-06-29 14:00:38] INFO root fetch - processPackages [nomad-camels]: executing diffoscope
+[2023-06-29 14:00:38] INFO root fetch - processPackages [nomad-camels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomad_camels-0.1.1.tar.gz tmp/nomad_camels-0.1.2.tar.gz --markdown 20230629/n/nomad-camels/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-29 14:00:38] INFO root fetch - processPackages [pycareer]: Remove: archive file [/home/abi/fetcher/tmp/pycareer-0.1.4.tar.gz]
+[2023-06-29 14:00:38] INFO root fetch - processPackages [pycareer]: Remove: archive file [/home/abi/fetcher/tmp/pycareer-0.1.5.tar.gz]
+[2023-06-29 14:00:38] INFO root fetch - main [MainThread]: End processing [pycareer]: success
+[2023-06-29 14:00:38] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev74.tar.gz]
+[2023-06-29 14:00:38] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev8.tar.gz]
+[2023-06-29 14:00:38] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2023-06-29 14:00:39] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-1.0.0rc5.tar.gz]
+[2023-06-29 14:00:39] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-1.0.0rc6.tar.gz]
+[2023-06-29 14:00:39] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-06-29 14:00:39] INFO root fetch - processPackages [drift-cli]: Remove: archive file [/home/abi/fetcher/tmp/drift_cli-0.7.0-py3-none-any.whl.zip]
+[2023-06-29 14:00:39] INFO root fetch - processPackages [drift-cli]: Remove: archive file [/home/abi/fetcher/tmp/drift_cli-0.7.1-py3-none-any.whl.zip]
+[2023-06-29 14:00:39] INFO root fetch - main [MainThread]: End processing [drift-cli]: success
+[2023-06-29 14:00:39] INFO root fetch - processPackages [dataclasses-avroschema]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses-avroschema-0.8.0.tar.gz]
+[2023-06-29 14:00:39] INFO root fetch - processPackages [dataclasses-avroschema]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses-avroschema-0.9.0.tar.gz]
+[2023-06-29 14:00:39] INFO root fetch - main [MainThread]: End processing [dataclasses-avroschema]: success
+[2023-06-29 14:00:39] INFO root fetch - processPackages [wwpdb.utils.emdb]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.utils.emdb-1.4.tar.gz]
+[2023-06-29 14:00:39] INFO root fetch - processPackages [wwpdb.utils.emdb]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.utils.emdb-1.4.1.tar.gz]
+[2023-06-29 14:00:39] INFO root fetch - main [MainThread]: End processing [wwpdb.utils.emdb]: success
+[2023-06-29 14:00:40] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-7.5.2.tar.gz]
+[2023-06-29 14:00:40] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-7.6.0.1b1.tar.gz]
+[2023-06-29 14:00:40] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2023-06-29 14:00:40] INFO root fetch - processPackages [nomad-camels]: Remove: archive file [/home/abi/fetcher/tmp/nomad_camels-0.1.1.tar.gz]
+[2023-06-29 14:00:40] INFO root fetch - processPackages [nomad-camels]: Remove: archive file [/home/abi/fetcher/tmp/nomad_camels-0.1.2.tar.gz]
+[2023-06-29 14:00:40] INFO root fetch - main [MainThread]: End processing [nomad-camels]: success
+[2023-06-29 14:00:40] INFO root fetch - main [MainThread]: Store serial: [18694578]
