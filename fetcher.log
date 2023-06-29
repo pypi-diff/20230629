@@ -4295,3 +4295,158 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 11:28:06] INFO root fetch - processPackages [pontos]: Remove: archive file [/home/abi/fetcher/tmp/pontos-23.6.2.tar.gz]
 [2023-06-29 11:28:06] INFO root fetch - main [MainThread]: End processing [pontos]: success
 [2023-06-29 11:28:06] INFO root fetch - main [MainThread]: Store serial: [18692684]
+[2023-06-29 11:33:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18692684]
+[2023-06-29 11:33:15] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-29 11:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SELDOMpy
+[2023-06-29 11:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cg
+[2023-06-29 11:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-hr-employee-calendar-planning
+[2023-06-29 11:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gispandas
+[2023-06-29 11:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mongeasy
+[2023-06-29 11:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edustudio
+[2023-06-29 11:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: raga-testing-platform
+[2023-06-29 11:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tinyda
+[2023-06-29 11:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aos-prov
+[2023-06-29 11:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: timely-beliefs
+[2023-06-29 11:33:15] INFO root fetch - processPackages [odoo13-addon-hr-employee-calendar-planning]: New version: [13.0.1.5.2.dev2] Old Version: [13.0.1.5.2.dev1]
+[2023-06-29 11:33:15] INFO root fetch - processPackages [SELDOMpy]: New version: [0.5.2] Old Version: [0.4.2]
+[2023-06-29 11:33:15] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-29 11:33:15] INFO root fetch - processPackages [tinyda]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-29 11:33:15] INFO root fetch - processPackages [mongeasy]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-29 11:33:15] INFO root fetch - processPackages [gispandas]: New version: [0.1.4] Old Version: [0.1.1]
+[2023-06-29 11:33:15] INFO root fetch - processPackages [edustudio]: New version: [1.0.0a4] Old Version: [1.0.0a3]
+[2023-06-29 11:33:16] INFO root fetch - processPackages [timely-beliefs]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-29 11:33:16] INFO root fetch - processPackages [aos-prov]: New version: [4.2.0b3] Old Version: [4.2.0b2]
+[2023-06-29 11:33:16] INFO root fetch - processPackages [cg]: New version: [37.0.9] Old Version: [37.0.8]
+[2023-06-29 11:33:16] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/cb/2b/5872c9c0e75b4ef4393e95963e7fa22ccf8c70b12d66a64c83dfec600b32/raga-testing-platform-1.0.8.tar.gz
+[2023-06-29 11:33:16] INFO root fetch - processPackages [mongeasy]: Downloading https://files.pythonhosted.org/packages/30/7c/715553967869795bca7a04a127f28ddddb464b0578afb1577fbe00b85b3f/mongeasy-0.2.2.tar.gz
+[2023-06-29 11:33:16] INFO root fetch - processPackages [edustudio]: Downloading https://files.pythonhosted.org/packages/fe/b8/00a8aac6d8bad1d0389a630c95634e16ea683b6d8aa37cf9f8bc93ccd34e/edustudio-1.0.0a3-py3-none-any.whl
+[2023-06-29 11:33:16] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/ec/1d/c584ab5bd145f7bc64a980cb9243f2ce4190d6259515da4ad36aa6cd5b8d/cg-37.0.8.tar.gz
+[2023-06-29 11:33:16] INFO root fetch - processPackages [gispandas]: Downloading https://files.pythonhosted.org/packages/00/c6/e1216041204bbad80a736c194339327d001bb133b5122b0bdd7ee4489275/gispandas-0.1.1.tar.gz
+[2023-06-29 11:33:16] INFO root fetch - processPackages [odoo13-addon-hr-employee-calendar-planning]: Downloading https://files.pythonhosted.org/packages/8f/33/8ffa0497859cea7243b9db98824efe3bcb98c23b9d39751a2852a7810aa5/odoo13_addon_hr_employee_calendar_planning-13.0.1.5.2.dev1-py3-none-any.whl
+[2023-06-29 11:33:16] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/59/f1/c594d993702ec1a421356f67bb655e9c1045f12e4134b81874a13bbc71e6/SELDOMpy-0.4.2.tar.gz
+[2023-06-29 11:33:16] INFO root fetch - processPackages [tinyda]: Downloading https://files.pythonhosted.org/packages/90/9f/45e2d54adb098bc766f8afdb1ca6e0f24abe7d85e5545d565d1886701c1b/tinyda-0.9.8.tar.gz
+[2023-06-29 11:33:16] INFO root fetch - processPackages [aos-prov]: Downloading https://files.pythonhosted.org/packages/2e/b4/ae47f12aa204c5212ffd3ddb19491b49594e284fc411e1d9cb2a8851a56e/aos_prov-4.2.0b2-py3-none-any.whl
+[2023-06-29 11:33:16] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/23/a1/3de642a69a0d1253446d4f7bd1dd9d074e3fe635e84f3d430d001424a072/raga-testing-platform-1.0.9.tar.gz
+[2023-06-29 11:33:16] INFO root fetch - processPackages [timely-beliefs]: Downloading https://files.pythonhosted.org/packages/ec/80/82a910567c270a725bdf2fc6ed85659cb818e4590ad2becd1a95c3978244/timely-beliefs-1.9.1.tar.gz
+[2023-06-29 11:33:16] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/d6/7e/80bbf10d5634a932760fbb85138245f7f53ad73bcdd6d223800c8b51e56f/cg-37.0.9.tar.gz
+[2023-06-29 11:33:16] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2023-06-29 11:33:16] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.0.8.tar.gz tmp/raga-testing-platform-1.0.9.tar.gz --markdown 20230629/r/raga-testing-platform/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-29 11:33:16] INFO root fetch - processPackages [mongeasy]: Downloading https://files.pythonhosted.org/packages/4e/e1/764d9bf514b8f38bc2bff856c6db03f073414d7e55ac169b561bcf9b99fc/mongeasy-0.2.3.tar.gz
+[2023-06-29 11:33:16] INFO root fetch - processPackages [edustudio]: Downloading https://files.pythonhosted.org/packages/61/f3/fde560c3381e91b242922ebc8c9cf1980ee2b4f30aa9975c7a4c0eca7a89/edustudio-1.0.0a4-py3-none-any.whl
+[2023-06-29 11:33:16] INFO root fetch - processPackages [gispandas]: Downloading https://files.pythonhosted.org/packages/11/27/17a1fa2d6a4c6c6a418a24f2537780269afac2e52247146c024491b991bb/gispandas-0.1.4.tar.gz
+[2023-06-29 11:33:16] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/af/28/41123cdc64bb9e8e39274742e4e4e3745714f10d92ee8b08874fd2589301/SELDOMpy-0.5.2.tar.gz
+[2023-06-29 11:33:16] INFO root fetch - processPackages [mongeasy]: executing diffoscope
+[2023-06-29 11:33:16] INFO root fetch - processPackages [mongeasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongeasy-0.2.2.tar.gz tmp/mongeasy-0.2.3.tar.gz --markdown 20230629/m/mongeasy/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-29 11:33:16] INFO root fetch - processPackages [aos-prov]: Downloading https://files.pythonhosted.org/packages/45/0e/17e1acd0ce0a9ebce23bce27246bff5e51c3b8457b4ffd279d67c7967b85/aos_prov-4.2.0b3-py3-none-any.whl
+[2023-06-29 11:33:16] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-29 11:33:16] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-37.0.8.tar.gz tmp/cg-37.0.9.tar.gz --markdown 20230629/c/cg/37.0.8-37.0.9/diff.md --exclude *.pyd
+[2023-06-29 11:33:16] INFO root fetch - processPackages [edustudio]: executing diffoscope
+[2023-06-29 11:33:16] INFO root fetch - processPackages [edustudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edustudio-1.0.0a3-py3-none-any.whl.zip tmp/edustudio-1.0.0a4-py3-none-any.whl.zip --markdown 20230629/e/edustudio/1.0.0a3-1.0.0a4/diff.md --exclude *.pyd
+[2023-06-29 11:33:16] INFO root fetch - processPackages [gispandas]: executing diffoscope
+[2023-06-29 11:33:16] INFO root fetch - processPackages [gispandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gispandas-0.1.1.tar.gz tmp/gispandas-0.1.4.tar.gz --markdown 20230629/g/gispandas/0.1.1-0.1.4/diff.md --exclude *.pyd
+[2023-06-29 11:33:16] INFO root fetch - processPackages [odoo13-addon-hr-employee-calendar-planning]: Downloading https://files.pythonhosted.org/packages/61/fb/e5c9903cfed2a75131b093a563d54661b9da14cb4f1f93d25efd75027bf7/odoo13_addon_hr_employee_calendar_planning-13.0.1.5.2.dev2-py3-none-any.whl
+[2023-06-29 11:33:16] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-06-29 11:33:16] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.4.2.tar.gz tmp/SELDOMpy-0.5.2.tar.gz --markdown 20230629/S/SELDOMpy/0.4.2-0.5.2/diff.md --exclude *.pyd
+[2023-06-29 11:33:16] INFO root fetch - processPackages [aos-prov]: executing diffoscope
+[2023-06-29 11:33:16] INFO root fetch - processPackages [aos-prov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aos_prov-4.2.0b2-py3-none-any.whl.zip tmp/aos_prov-4.2.0b3-py3-none-any.whl.zip --markdown 20230629/a/aos-prov/4.2.0b2-4.2.0b3/diff.md --exclude *.pyd
+[2023-06-29 11:33:16] INFO root fetch - processPackages [timely-beliefs]: Downloading https://files.pythonhosted.org/packages/22/65/6388260b95ec8e3be5ef3d28b2cda74986cafc94e6367f2c4638a740e993/timely-beliefs-1.9.2.tar.gz
+[2023-06-29 11:33:16] INFO root fetch - processPackages [tinyda]: Downloading https://files.pythonhosted.org/packages/30/85/66199e74ad31297463e8b3e343fed6cfb0a8b19efabc190dd09fc1f27852/tinyda-0.9.9.tar.gz
+[2023-06-29 11:33:16] INFO root fetch - processPackages [odoo13-addon-hr-employee-calendar-planning]: executing diffoscope
+[2023-06-29 11:33:16] INFO root fetch - processPackages [odoo13-addon-hr-employee-calendar-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_hr_employee_calendar_planning-13.0.1.5.2.dev1-py3-none-any.whl.zip tmp/odoo13_addon_hr_employee_calendar_planning-13.0.1.5.2.dev2-py3-none-any.whl.zip --markdown 20230629/o/odoo13-addon-hr-employee-calendar-planning/13.0.1.5.2.dev1-13.0.1.5.2.dev2/diff.md --exclude *.pyd
+[2023-06-29 11:33:16] INFO root fetch - processPackages [tinyda]: executing diffoscope
+[2023-06-29 11:33:16] INFO root fetch - processPackages [tinyda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyda-0.9.8.tar.gz tmp/tinyda-0.9.9.tar.gz --markdown 20230629/t/tinyda/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-29 11:33:16] INFO root fetch - processPackages [timely-beliefs]: executing diffoscope
+[2023-06-29 11:33:16] INFO root fetch - processPackages [timely-beliefs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timely-beliefs-1.9.1.tar.gz tmp/timely-beliefs-1.9.2.tar.gz --markdown 20230629/t/timely-beliefs/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-29 11:33:18] INFO root fetch - processPackages [gispandas]: Remove: archive file [/home/abi/fetcher/tmp/gispandas-0.1.1.tar.gz]
+[2023-06-29 11:33:18] INFO root fetch - processPackages [gispandas]: Remove: archive file [/home/abi/fetcher/tmp/gispandas-0.1.4.tar.gz]
+[2023-06-29 11:33:18] INFO root fetch - processPackages [gispandas]: Start processing: pymudclient
+[2023-06-29 11:33:18] INFO root fetch - main [MainThread]: End processing [gispandas]: success
+[2023-06-29 11:33:18] INFO root fetch - processPackages [pymudclient]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-29 11:33:18] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.4.2.tar.gz]
+[2023-06-29 11:33:18] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.5.2.tar.gz]
+[2023-06-29 11:33:18] INFO root fetch - processPackages [SELDOMpy]: Start processing: mizdb-tomselect
+[2023-06-29 11:33:18] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-06-29 11:33:18] INFO root fetch - processPackages [pymudclient]: Downloading https://files.pythonhosted.org/packages/3d/c1/8a5687da04709b13333f6f4fec589b7d31e9b919d0392d89616f8af60910/pymudclient-0.1.1.tar.gz
+[2023-06-29 11:33:18] INFO root fetch - processPackages [mizdb-tomselect]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-29 11:33:18] INFO root fetch - processPackages [mizdb-tomselect]: Downloading https://files.pythonhosted.org/packages/16/2a/c8a2d97e6548ab7c93ccd9b3af892cd9d395daadff85260c626a65cec3d1/mizdb-tomselect-0.3.2.tar.gz
+[2023-06-29 11:33:18] INFO root fetch - processPackages [odoo13-addon-hr-employee-calendar-planning]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_hr_employee_calendar_planning-13.0.1.5.2.dev1-py3-none-any.whl.zip]
+[2023-06-29 11:33:18] INFO root fetch - processPackages [odoo13-addon-hr-employee-calendar-planning]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_hr_employee_calendar_planning-13.0.1.5.2.dev2-py3-none-any.whl.zip]
+[2023-06-29 11:33:18] INFO root fetch - processPackages [odoo13-addon-hr-employee-calendar-planning]: Start processing: leadguru-data
+[2023-06-29 11:33:18] INFO root fetch - main [MainThread]: End processing [odoo13-addon-hr-employee-calendar-planning]: success
+[2023-06-29 11:33:18] INFO root fetch - processPackages [pymudclient]: Downloading https://files.pythonhosted.org/packages/fe/5f/26cd361e3a7ec2c8ad87dd2ea3bbbb725e5dc5da36aa7ebe01d54e67f37d/pymudclient-0.1.2.tar.gz
+[2023-06-29 11:33:18] INFO root fetch - processPackages [tinyda]: Remove: archive file [/home/abi/fetcher/tmp/tinyda-0.9.8.tar.gz]
+[2023-06-29 11:33:18] INFO root fetch - processPackages [tinyda]: Remove: archive file [/home/abi/fetcher/tmp/tinyda-0.9.9.tar.gz]
+[2023-06-29 11:33:18] INFO root fetch - processPackages [tinyda]: Start processing: leadguru-common
+[2023-06-29 11:33:18] INFO root fetch - main [MainThread]: End processing [tinyda]: success
+[2023-06-29 11:33:18] INFO root fetch - processPackages [leadguru-data]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-29 11:33:18] INFO root fetch - processPackages [leadguru-common]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-29 11:33:18] INFO root fetch - processPackages [pymudclient]: executing diffoscope
+[2023-06-29 11:33:18] INFO root fetch - processPackages [mongeasy]: Remove: archive file [/home/abi/fetcher/tmp/mongeasy-0.2.2.tar.gz]
+[2023-06-29 11:33:18] INFO root fetch - processPackages [pymudclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymudclient-0.1.1.tar.gz tmp/pymudclient-0.1.2.tar.gz --markdown 20230629/p/pymudclient/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-29 11:33:18] INFO root fetch - processPackages [mongeasy]: Remove: archive file [/home/abi/fetcher/tmp/mongeasy-0.2.3.tar.gz]
+[2023-06-29 11:33:18] INFO root fetch - processPackages [mongeasy]: Start processing: macrometa-target-mssql
+[2023-06-29 11:33:18] INFO root fetch - main [MainThread]: End processing [mongeasy]: success
+[2023-06-29 11:33:18] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/81/bf/f4c758210f3132ad36cea5286e4857350dc02f38ded759934614da96bd78/leadguru_data-0.98.0.tar.gz
+[2023-06-29 11:33:18] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/fc/35/ca8dc82028975cbcb02faead26153071461e5c78a03fb67e0f27256aee8d/leadguru_common-0.98.0.tar.gz
+[2023-06-29 11:33:18] WARNING root fetch - processPackages [macrometa-target-mssql]: Skipping, unable to determine old version
+[2023-06-29 11:33:18] INFO root fetch - processPackages [macrometa-target-mssql]: Start processing: configzen
+[2023-06-29 11:33:18] INFO root fetch - main [MainThread]: End processing [macrometa-target-mssql] error
+[2023-06-29 11:33:19] INFO root fetch - processPackages [configzen]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-06-29 11:33:19] INFO root fetch - processPackages [mizdb-tomselect]: Downloading https://files.pythonhosted.org/packages/96/a0/0900d437e47dee43d07e597d013c5add81a36a4fc24b0bb691be9c471acc/mizdb-tomselect-0.3.3.tar.gz
+[2023-06-29 11:33:19] INFO root fetch - processPackages [aos-prov]: Remove: archive file [/home/abi/fetcher/tmp/aos_prov-4.2.0b2-py3-none-any.whl.zip]
+[2023-06-29 11:33:19] INFO root fetch - processPackages [aos-prov]: Remove: archive file [/home/abi/fetcher/tmp/aos_prov-4.2.0b3-py3-none-any.whl.zip]
+[2023-06-29 11:33:19] INFO root fetch - processPackages [aos-prov]: Start processing: lollms
+[2023-06-29 11:33:19] INFO root fetch - main [MainThread]: End processing [aos-prov]: success
+[2023-06-29 11:33:19] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/da/cb/d7933bda17a1078ee53d600710110fdf6ed338b6c0e173159e5aac783de7/configzen-0.4.6.tar.gz
+[2023-06-29 11:33:19] INFO root fetch - processPackages [lollms]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-29 11:33:19] INFO root fetch - processPackages [mizdb-tomselect]: executing diffoscope
+[2023-06-29 11:33:19] INFO root fetch - processPackages [mizdb-tomselect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mizdb-tomselect-0.3.2.tar.gz tmp/mizdb-tomselect-0.3.3.tar.gz --markdown 20230629/m/mizdb-tomselect/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-29 11:33:19] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/4e/4f/236c71729e1b70c3c5c202003cf9aa48c1c9b9d202620f8c5e94a7aacdc9/leadguru_common-0.99.0.tar.gz
+[2023-06-29 11:33:19] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/16/1c/017bcd8f49a9ceed0d36796e84f43cefd77b1a273b4b9807a222b85cb578/leadguru_data-0.99.0.tar.gz
+[2023-06-29 11:33:19] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/fe/3d/85cbf5d99367a136ba4a9f76c11b9b36b75a37c1f317ca08c18bb879251d/lollms-2.0.8.tar.gz
+[2023-06-29 11:33:19] INFO root fetch - processPackages [leadguru-common]: executing diffoscope
+[2023-06-29 11:33:19] INFO root fetch - processPackages [leadguru-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_common-0.98.0.tar.gz tmp/leadguru_common-0.99.0.tar.gz --markdown 20230629/l/leadguru-common/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-29 11:33:19] INFO root fetch - processPackages [leadguru-data]: executing diffoscope
+[2023-06-29 11:33:19] INFO root fetch - processPackages [leadguru-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_data-0.98.0.tar.gz tmp/leadguru_data-0.99.0.tar.gz --markdown 20230629/l/leadguru-data/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-29 11:33:19] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 31791875>=10485760
+[2023-06-29 11:33:19] INFO root fetch - processPackages [lollms]: Start processing: catkin-tools
+[2023-06-29 11:33:19] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-29 11:33:19] INFO root fetch - processPackages [timely-beliefs]: Remove: archive file [/home/abi/fetcher/tmp/timely-beliefs-1.9.1.tar.gz]
+[2023-06-29 11:33:19] INFO root fetch - processPackages [timely-beliefs]: Remove: archive file [/home/abi/fetcher/tmp/timely-beliefs-1.9.2.tar.gz]
+[2023-06-29 11:33:19] INFO root fetch - main [MainThread]: End processing [timely-beliefs]: success
+[2023-06-29 11:33:19] INFO root fetch - processPackages [catkin-tools]: New version: [0.9.3] Old Version: [0.9.0]
+[2023-06-29 11:33:19] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/48/dd/2db2cf7aff7f62d1a548dfed5411f33114b55c568d4918f9c65b95cea20d/configzen-0.4.7.tar.gz
+[2023-06-29 11:33:19] INFO root fetch - processPackages [configzen]: executing diffoscope
+[2023-06-29 11:33:19] INFO root fetch - processPackages [configzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configzen-0.4.6.tar.gz tmp/configzen-0.4.7.tar.gz --markdown 20230629/c/configzen/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-06-29 11:33:19] INFO root fetch - processPackages [catkin-tools]: Downloading https://files.pythonhosted.org/packages/00/f2/6e689082a28ee8323b92292da54a8c869a99ca27354f1e54f1c9a9c58043/catkin_tools-0.9.0.tar.gz
+[2023-06-29 11:33:19] INFO root fetch - processPackages [catkin-tools]: Downloading https://files.pythonhosted.org/packages/47/b1/4946aeec3ffab7c116800351290f660ccd3a8712263b6731b7ebdbcc7428/catkin_tools-0.9.3.tar.gz
+[2023-06-29 11:33:20] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.8.tar.gz]
+[2023-06-29 11:33:20] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.9.tar.gz]
+[2023-06-29 11:33:20] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2023-06-29 11:33:20] INFO root fetch - processPackages [catkin-tools]: executing diffoscope
+[2023-06-29 11:33:20] INFO root fetch - processPackages [catkin-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catkin_tools-0.9.0.tar.gz tmp/catkin_tools-0.9.3.tar.gz --markdown 20230629/c/catkin-tools/0.9.0-0.9.3/diff.md --exclude *.pyd
+[2023-06-29 11:33:20] INFO root fetch - processPackages [edustudio]: Remove: archive file [/home/abi/fetcher/tmp/edustudio-1.0.0a3-py3-none-any.whl.zip]
+[2023-06-29 11:33:20] INFO root fetch - processPackages [edustudio]: Remove: archive file [/home/abi/fetcher/tmp/edustudio-1.0.0a4-py3-none-any.whl.zip]
+[2023-06-29 11:33:20] INFO root fetch - main [MainThread]: End processing [edustudio]: success
+[2023-06-29 11:33:20] INFO root fetch - processPackages [pymudclient]: Remove: archive file [/home/abi/fetcher/tmp/pymudclient-0.1.1.tar.gz]
+[2023-06-29 11:33:20] INFO root fetch - processPackages [pymudclient]: Remove: archive file [/home/abi/fetcher/tmp/pymudclient-0.1.2.tar.gz]
+[2023-06-29 11:33:20] INFO root fetch - main [MainThread]: End processing [pymudclient]: success
+[2023-06-29 11:33:20] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.98.0.tar.gz]
+[2023-06-29 11:33:20] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.99.0.tar.gz]
+[2023-06-29 11:33:20] INFO root fetch - main [MainThread]: End processing [leadguru-common]: success
+[2023-06-29 11:33:20] INFO root fetch - processPackages [leadguru-data]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_data-0.98.0.tar.gz]
+[2023-06-29 11:33:20] INFO root fetch - processPackages [leadguru-data]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_data-0.99.0.tar.gz]
+[2023-06-29 11:33:20] INFO root fetch - main [MainThread]: End processing [leadguru-data]: success
+[2023-06-29 11:33:21] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.4.6.tar.gz]
+[2023-06-29 11:33:21] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.4.7.tar.gz]
+[2023-06-29 11:33:21] INFO root fetch - main [MainThread]: End processing [configzen]: success
+[2023-06-29 11:33:22] INFO root fetch - processPackages [mizdb-tomselect]: Remove: archive file [/home/abi/fetcher/tmp/mizdb-tomselect-0.3.2.tar.gz]
+[2023-06-29 11:33:22] INFO root fetch - processPackages [mizdb-tomselect]: Remove: archive file [/home/abi/fetcher/tmp/mizdb-tomselect-0.3.3.tar.gz]
+[2023-06-29 11:33:22] INFO root fetch - main [MainThread]: End processing [mizdb-tomselect]: success
+[2023-06-29 11:33:24] INFO root fetch - processPackages [catkin-tools]: Remove: archive file [/home/abi/fetcher/tmp/catkin_tools-0.9.0.tar.gz]
+[2023-06-29 11:33:24] INFO root fetch - processPackages [catkin-tools]: Remove: archive file [/home/abi/fetcher/tmp/catkin_tools-0.9.3.tar.gz]
+[2023-06-29 11:33:24] INFO root fetch - main [MainThread]: End processing [catkin-tools]: success
+[2023-06-29 11:33:35] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.8.tar.gz]
+[2023-06-29 11:33:35] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.9.tar.gz]
+[2023-06-29 11:33:35] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-29 11:33:35] INFO root fetch - main [MainThread]: Store serial: [18692773]
