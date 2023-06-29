@@ -12231,3 +12231,160 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 15:51:32] INFO root fetch - processPackages [gyver]: Remove: archive file [/home/abi/fetcher/tmp/gyver-2.3.2.tar.gz]
 [2023-06-29 15:51:32] INFO root fetch - main [MainThread]: End processing [gyver]: success
 [2023-06-29 15:51:32] INFO root fetch - main [MainThread]: Store serial: [18695893]
+[2023-06-29 15:56:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18695893]
+[2023-06-29 15:56:41] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-29 15:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zrb
+[2023-06-29 15:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pure-ocean-breeze
+[2023-06-29 15:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plottah
+[2023-06-29 15:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-issue
+[2023-06-29 15:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unified-planning
+[2023-06-29 15:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pylsat
+[2023-06-29 15:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rosetta-ce
+[2023-06-29 15:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jwave
+[2023-06-29 15:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: policyengine-us
+[2023-06-29 15:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: documentdataextraction
+[2023-06-29 15:56:41] WARNING root fetch - processPackages [pylsat]: Skipping, unable to determine old version
+[2023-06-29 15:56:41] INFO root fetch - processPackages [pylsat]: Start processing: tensordict-nightly
+[2023-06-29 15:56:41] INFO root fetch - processPackages [jwave]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-29 15:56:41] INFO root fetch - main [MainThread]: End processing [pylsat] error
+[2023-06-29 15:56:41] INFO root fetch - processPackages [pure-ocean-breeze]: New version: [4.0.0] Old Version: [3.9.9]
+[2023-06-29 15:56:41] INFO root fetch - processPackages [django-issue]: New version: [3.5.1] Old Version: [3.5.0]
+[2023-06-29 15:56:41] INFO root fetch - processPackages [plottah]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 15:56:41] INFO root fetch - processPackages [documentdataextraction]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 15:56:41] INFO root fetch - processPackages [rosetta-ce]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-06-29 15:56:41] INFO root fetch - processPackages [zrb]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 15:56:41] INFO root fetch - processPackages [unified-planning]: New version: [0.6.0.94.dev1] Old Version: [0.6.0.9.dev1]
+[2023-06-29 15:56:41] INFO root fetch - processPackages [policyengine-us]: New version: [0.344.0] Old Version: [0.343.0]
+[2023-06-29 15:56:41] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.6.8] Old Version: [2023.6.7]
+[2023-06-29 15:56:41] INFO root fetch - processPackages [plottah]: Downloading https://files.pythonhosted.org/packages/1f/bd/8004e10cd96d279cff357b27c7c2919bfd278da1ebc414d2d82c898deaa5/plottah-0.1.8.tar.gz
+[2023-06-29 15:56:41] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/7b/cd/ac15f362b634f8dfca374107a12b11d18cda8da3341e1e1de92d45e36fc9/unified_planning-0.6.0.9.dev1.tar.gz
+[2023-06-29 15:56:41] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/ca/ef/93c040501e2541851b35b9c526c1d948687d22d7e52af67e4bc69150d8b7/policyengine-us-0.343.0.tar.gz
+[2023-06-29 15:56:41] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/12/07/da09f754a59419c1a410c6705c55f87a84c04ffda91e991bd431376fe98e/rosetta-ce-1.2.7.tar.gz
+[2023-06-29 15:56:41] INFO root fetch - processPackages [pure-ocean-breeze]: Downloading https://files.pythonhosted.org/packages/7a/04/735035c1d2ef7a89f44083cd5c6708b82678902ae54a764991f0451942b0/pure_ocean_breeze-3.9.9.tar.gz
+[2023-06-29 15:56:41] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/ff/30/b32844a10951d90914392dfbcca8636b98e17cce1cde26587f3389a428a0/tensordict_nightly-2023.6.7-py39-none-any.whl
+[2023-06-29 15:56:41] INFO root fetch - processPackages [jwave]: Downloading https://files.pythonhosted.org/packages/9e/67/2f01342c70b7fe657f0994e2976e9bef6639703e5d8eecec132d86da1e93/jwave-0.1.3.tar.gz
+[2023-06-29 15:56:41] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/30/24/7a33b243824d090473327938a5d9cd4148889b927653bd1df45802c27649/zrb-0.0.8.tar.gz
+[2023-06-29 15:56:41] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/1a/e4/1e85519ce247c6ed7c20e6c47ef38f5c09cf919ff231bf453cc23a1f0ba0/documentdataextraction-0.0.8-py3-none-any.whl
+[2023-06-29 15:56:41] INFO root fetch - processPackages [django-issue]: Downloading https://files.pythonhosted.org/packages/4e/92/44c6911fc0fa4daa5d22f9e56f151d9894d0d6c99ca97b18b32e4a864e5f/django-issue-3.5.0.tar.gz
+[2023-06-29 15:56:41] INFO root fetch - processPackages [plottah]: Downloading https://files.pythonhosted.org/packages/f0/0c/2b96606283fa54d0dde8653cbc8688dcd7136b8891488fa91b0b62a6ea23/plottah-0.1.9.tar.gz
+[2023-06-29 15:56:41] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/47/44/b13fcddb5405f914c9898095cd7fd61a47cc4647a4065d3a61f28919f91a/unified_planning-0.6.0.94.dev1.tar.gz
+[2023-06-29 15:56:41] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/39/f4/a81f434361c103e23a2a4dee883bb30ca7b9f26526ad7913607e5a271158/tensordict_nightly-2023.6.8-py39-none-any.whl
+[2023-06-29 15:56:41] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/98/97/b7ab550a476bbb84b02f7faad57630d36db44a5bf8aa5eacb3fb8f89cf16/rosetta-ce-1.2.8.tar.gz
+[2023-06-29 15:56:41] INFO root fetch - processPackages [plottah]: executing diffoscope
+[2023-06-29 15:56:41] INFO root fetch - processPackages [plottah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plottah-0.1.8.tar.gz tmp/plottah-0.1.9.tar.gz --markdown 20230629/p/plottah/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 15:56:41] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/56/5e/f9dd80a2f2851f0a48cf4590af857588587314ef5b4d05ffe2eb979dc72c/policyengine-us-0.344.0.tar.gz
+[2023-06-29 15:56:41] INFO root fetch - processPackages [jwave]: Downloading https://files.pythonhosted.org/packages/62/e8/a1e1e271a55a6c93312488f280d580ae03f8c1497517d42f160a4fa2afd9/jwave-0.1.4.tar.gz
+[2023-06-29 15:56:41] INFO root fetch - processPackages [pure-ocean-breeze]: Downloading https://files.pythonhosted.org/packages/cf/d3/8be1af1f9dfa6b1726fbd695d966716e94e5e5a8fa3ed17f65699f3edcd2/pure_ocean_breeze-4.0.0.tar.gz
+[2023-06-29 15:56:41] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-06-29 15:56:41] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-0.6.0.9.dev1.tar.gz tmp/unified_planning-0.6.0.94.dev1.tar.gz --markdown 20230629/u/unified-planning/0.6.0.9.dev1-0.6.0.94.dev1/diff.md --exclude *.pyd
+[2023-06-29 15:56:41] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/8d/80/885cb50dd492ad011338deeabb6f07312d2c3da55917c9e243dd40e7a274/zrb-0.0.9.tar.gz
+[2023-06-29 15:56:41] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-06-29 15:56:41] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.6.7-py39-none-any.whl.zip tmp/tensordict_nightly-2023.6.8-py39-none-any.whl.zip --markdown 20230629/t/tensordict-nightly/2023.6.7-2023.6.8/diff.md --exclude *.pyd
+[2023-06-29 15:56:41] INFO root fetch - processPackages [django-issue]: Downloading https://files.pythonhosted.org/packages/67/ed/8da416564dd4f12c8927c757dbccd1c5ad2ca526490a0162aad07cbff51e/django-issue-3.5.1.tar.gz
+[2023-06-29 15:56:42] INFO root fetch - processPackages [jwave]: executing diffoscope
+[2023-06-29 15:56:42] INFO root fetch - processPackages [jwave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwave-0.1.3.tar.gz tmp/jwave-0.1.4.tar.gz --markdown 20230629/j/jwave/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-29 15:56:42] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/b3/ec/eb9901e48d02bee04847cd1afe0c6b8ca7231d1a8b133261a63ae052f777/documentdataextraction-0.0.9-py3-none-any.whl
+[2023-06-29 15:56:42] INFO root fetch - processPackages [zrb]: executing diffoscope
+[2023-06-29 15:56:42] INFO root fetch - processPackages [zrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb-0.0.8.tar.gz tmp/zrb-0.0.9.tar.gz --markdown 20230629/z/zrb/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 15:56:42] INFO root fetch - processPackages [rosetta-ce]: executing diffoscope
+[2023-06-29 15:56:42] INFO root fetch - processPackages [rosetta-ce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosetta-ce-1.2.7.tar.gz tmp/rosetta-ce-1.2.8.tar.gz --markdown 20230629/r/rosetta-ce/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-06-29 15:56:42] INFO root fetch - processPackages [pure-ocean-breeze]: executing diffoscope
+[2023-06-29 15:56:42] INFO root fetch - processPackages [pure-ocean-breeze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pure_ocean_breeze-3.9.9.tar.gz tmp/pure_ocean_breeze-4.0.0.tar.gz --markdown 20230629/p/pure-ocean-breeze/3.9.9-4.0.0/diff.md --exclude *.pyd
+[2023-06-29 15:56:42] INFO root fetch - processPackages [django-issue]: executing diffoscope
+[2023-06-29 15:56:42] INFO root fetch - processPackages [django-issue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-issue-3.5.0.tar.gz tmp/django-issue-3.5.1.tar.gz --markdown 20230629/d/django-issue/3.5.0-3.5.1/diff.md --exclude *.pyd
+[2023-06-29 15:56:42] INFO root fetch - processPackages [documentdataextraction]: executing diffoscope
+[2023-06-29 15:56:42] INFO root fetch - processPackages [documentdataextraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip --markdown 20230629/d/documentdataextraction/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 15:56:42] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-06-29 15:56:42] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.343.0.tar.gz tmp/policyengine-us-0.344.0.tar.gz --markdown 20230629/p/policyengine-us/0.343.0-0.344.0/diff.md --exclude *.pyd
+[2023-06-29 15:56:43] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.6.7-py39-none-any.whl.zip]
+[2023-06-29 15:56:43] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.6.8-py39-none-any.whl.zip]
+[2023-06-29 15:56:43] INFO root fetch - processPackages [tensordict-nightly]: Start processing: fastkafka
+[2023-06-29 15:56:43] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-06-29 15:56:43] INFO root fetch - processPackages [fastkafka]: New version: [0.8.0rc0] Old Version: [0.7.0rc2]
+[2023-06-29 15:56:43] INFO root fetch - processPackages [plottah]: Remove: archive file [/home/abi/fetcher/tmp/plottah-0.1.8.tar.gz]
+[2023-06-29 15:56:43] INFO root fetch - processPackages [plottah]: Remove: archive file [/home/abi/fetcher/tmp/plottah-0.1.9.tar.gz]
+[2023-06-29 15:56:43] INFO root fetch - processPackages [plottah]: Start processing: ag-llama-api
+[2023-06-29 15:56:43] INFO root fetch - main [MainThread]: End processing [plottah]: success
+[2023-06-29 15:56:43] INFO root fetch - processPackages [ag-llama-api]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-29 15:56:43] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.2.7.tar.gz]
+[2023-06-29 15:56:43] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.2.8.tar.gz]
+[2023-06-29 15:56:43] INFO root fetch - processPackages [rosetta-ce]: Start processing: ag-llama-api
+[2023-06-29 15:56:43] INFO root fetch - main [MainThread]: End processing [rosetta-ce]: success
+[2023-06-29 15:56:43] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip]
+[2023-06-29 15:56:43] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip]
+[2023-06-29 15:56:43] INFO root fetch - processPackages [documentdataextraction]: Start processing: aio-overpass
+[2023-06-29 15:56:43] INFO root fetch - main [MainThread]: End processing [documentdataextraction]: success
+[2023-06-29 15:56:43] INFO root fetch - processPackages [ag-llama-api]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-29 15:56:43] INFO root fetch - processPackages [aio-overpass]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-29 15:56:43] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/f3/6c/f92ab8b02328ebcbaaf1fce77acacd1b984405bc3296ce2280cfd4016234/ag_llama_api-0.0.5.tar.gz
+[2023-06-29 15:56:43] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/f3/6c/f92ab8b02328ebcbaaf1fce77acacd1b984405bc3296ce2280cfd4016234/ag_llama_api-0.0.5.tar.gz
+[2023-06-29 15:56:43] INFO root fetch - processPackages [fastkafka]: Downloading https://files.pythonhosted.org/packages/5a/16/46daaa6ac0ba798b791eee3695c10832e49d69383b5ac88a98fe9efb1471/fastkafka-0.7.0rc2.tar.gz
+[2023-06-29 15:56:43] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.0.8.tar.gz]
+[2023-06-29 15:56:43] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.0.9.tar.gz]
+[2023-06-29 15:56:43] INFO root fetch - processPackages [zrb]: Start processing: chrisbase
+[2023-06-29 15:56:43] INFO root fetch - main [MainThread]: End processing [zrb]: success
+[2023-06-29 15:56:43] INFO root fetch - processPackages [chrisbase]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-29 15:56:43] INFO root fetch - processPackages [aio-overpass]: Downloading https://files.pythonhosted.org/packages/5f/ba/0d5004b7473b2bdfa6295d74e3310701d7e222f91c1a33ca25e60c8f582a/aio_overpass-0.2.0.tar.gz
+[2023-06-29 15:56:44] INFO root fetch - processPackages [fastkafka]: Downloading https://files.pythonhosted.org/packages/d9/93/5d4ef695c60bd1dd27fdb56d0f5e81db1ebd55ab67399ed76acc2bd7ff23/fastkafka-0.8.0rc0.tar.gz
+[2023-06-29 15:56:44] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/d0/f7/10f19c26f23f6e259afdf48216e0a6345c3b4cb2b4d8e6d2ae1ece4471ea/ag_llama_api-0.0.6.tar.gz
+[2023-06-29 15:56:44] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/d0/f7/10f19c26f23f6e259afdf48216e0a6345c3b4cb2b4d8e6d2ae1ece4471ea/ag_llama_api-0.0.6.tar.gz
+[2023-06-29 15:56:44] INFO root fetch - processPackages [chrisbase]: Downloading https://files.pythonhosted.org/packages/e7/88/cffa31033542cf0e3db240d5eb3ae15472c4314a9138076434d2a8dd3b1c/chrisbase-0.3.8.tar.gz
+[2023-06-29 15:56:44] INFO root fetch - processPackages [jwave]: Remove: archive file [/home/abi/fetcher/tmp/jwave-0.1.3.tar.gz]
+[2023-06-29 15:56:44] INFO root fetch - processPackages [jwave]: Remove: archive file [/home/abi/fetcher/tmp/jwave-0.1.4.tar.gz]
+[2023-06-29 15:56:44] INFO root fetch - processPackages [jwave]: Start processing: spinneroo
+[2023-06-29 15:56:44] INFO root fetch - main [MainThread]: End processing [jwave]: success
+[2023-06-29 15:56:44] INFO root fetch - processPackages [spinneroo]: New version: [1.0.0] Old Version: [0.0.0]
+[2023-06-29 15:56:44] INFO root fetch - processPackages [django-issue]: Remove: archive file [/home/abi/fetcher/tmp/django-issue-3.5.0.tar.gz]
+[2023-06-29 15:56:44] INFO root fetch - processPackages [django-issue]: Remove: archive file [/home/abi/fetcher/tmp/django-issue-3.5.1.tar.gz]
+[2023-06-29 15:56:44] INFO root fetch - processPackages [django-issue]: Start processing: finops
+[2023-06-29 15:56:44] INFO root fetch - main [MainThread]: End processing [django-issue]: success
+[2023-06-29 15:56:44] INFO root fetch - processPackages [ag-llama-api]: executing diffoscope
+[2023-06-29 15:56:44] INFO root fetch - processPackages [ag-llama-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_api-0.0.5.tar.gz tmp/ag_llama_api-0.0.6.tar.gz --markdown 20230629/a/ag-llama-api/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-29 15:56:44] INFO root fetch - processPackages [ag-llama-api]: executing diffoscope
+[2023-06-29 15:56:44] INFO root fetch - processPackages [ag-llama-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_api-0.0.5.tar.gz tmp/ag_llama_api-0.0.6.tar.gz --markdown 20230629/a/ag-llama-api/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-29 15:56:44] INFO root fetch - processPackages [aio-overpass]: Downloading https://files.pythonhosted.org/packages/bd/cb/ee9b1956e399c06762c1c001988e4ea19c3d6bbfd120fe466b210e4a0f95/aio_overpass-0.3.0.tar.gz
+[2023-06-29 15:56:44] INFO root fetch - processPackages [finops]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-29 15:56:44] INFO root fetch - processPackages [fastkafka]: executing diffoscope
+[2023-06-29 15:56:44] INFO root fetch - processPackages [fastkafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastkafka-0.7.0rc2.tar.gz tmp/fastkafka-0.8.0rc0.tar.gz --markdown 20230629/f/fastkafka/0.7.0rc2-0.8.0rc0/diff.md --exclude *.pyd
+[2023-06-29 15:56:44] INFO root fetch - processPackages [spinneroo]: Downloading https://files.pythonhosted.org/packages/ef/45/f0281166dd187e976716c6449668bace0b26ac9b28ce45cbfd1fcad0f62a/spinneroo-0.0.0.tar.gz
+[2023-06-29 15:56:44] INFO root fetch - processPackages [chrisbase]: Downloading https://files.pythonhosted.org/packages/ee/43/521fdf6eb655171366460c993b6f3978cfaa8a6f853bb9358a1720704100/chrisbase-0.3.9.tar.gz
+[2023-06-29 15:56:44] INFO root fetch - processPackages [aio-overpass]: executing diffoscope
+[2023-06-29 15:56:44] INFO root fetch - processPackages [aio-overpass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio_overpass-0.2.0.tar.gz tmp/aio_overpass-0.3.0.tar.gz --markdown 20230629/a/aio-overpass/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-29 15:56:44] INFO root fetch - processPackages [chrisbase]: executing diffoscope
+[2023-06-29 15:56:44] INFO root fetch - processPackages [chrisbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chrisbase-0.3.8.tar.gz tmp/chrisbase-0.3.9.tar.gz --markdown 20230629/c/chrisbase/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-29 15:56:44] INFO root fetch - processPackages [finops]: Downloading https://files.pythonhosted.org/packages/7a/2d/66c0f809b6e2f25aa4103e41c08c8b5885dc705f71a86b08b29a438a107e/finops-0.1.3.tar.gz
+[2023-06-29 15:56:44] INFO root fetch - processPackages [finops]: Downloading https://files.pythonhosted.org/packages/79/b4/597a4bd9095f7f979b496fa924e923294e02b18b3e70adfab0b8eb310ef1/finops-0.1.4.tar.gz
+[2023-06-29 15:56:44] INFO root fetch - processPackages [spinneroo]: Downloading https://files.pythonhosted.org/packages/61/dc/44b65fe156c5fd6a6d0e798be1174e4c58c293155c8b520514a6affa7704/spinneroo-1.0.0.tar.gz
+[2023-06-29 15:56:44] INFO root fetch - processPackages [spinneroo]: executing diffoscope
+[2023-06-29 15:56:44] INFO root fetch - processPackages [spinneroo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spinneroo-0.0.0.tar.gz tmp/spinneroo-1.0.0.tar.gz --markdown 20230629/s/spinneroo/0.0.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-29 15:56:44] INFO root fetch - processPackages [finops]: executing diffoscope
+[2023-06-29 15:56:44] INFO root fetch - processPackages [finops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finops-0.1.3.tar.gz tmp/finops-0.1.4.tar.gz --markdown 20230629/f/finops/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-29 15:56:45] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.5.tar.gz]
+[2023-06-29 15:56:45] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.6.tar.gz]
+[2023-06-29 15:56:45] INFO root fetch - main [MainThread]: End processing [ag-llama-api]: success
+[2023-06-29 15:56:45] INFO root fetch - main [MainThread]: End processing [ag-llama-api]: success
+[2023-06-29 15:56:45] INFO root fetch - processPackages [aio-overpass]: Remove: archive file [/home/abi/fetcher/tmp/aio_overpass-0.2.0.tar.gz]
+[2023-06-29 15:56:45] INFO root fetch - processPackages [aio-overpass]: Remove: archive file [/home/abi/fetcher/tmp/aio_overpass-0.3.0.tar.gz]
+[2023-06-29 15:56:45] INFO root fetch - main [MainThread]: End processing [aio-overpass]: success
+[2023-06-29 15:56:46] INFO root fetch - processPackages [chrisbase]: Remove: archive file [/home/abi/fetcher/tmp/chrisbase-0.3.8.tar.gz]
+[2023-06-29 15:56:46] INFO root fetch - processPackages [chrisbase]: Remove: archive file [/home/abi/fetcher/tmp/chrisbase-0.3.9.tar.gz]
+[2023-06-29 15:56:46] INFO root fetch - main [MainThread]: End processing [chrisbase]: success
+[2023-06-29 15:56:46] INFO root fetch - processPackages [fastkafka]: Remove: archive file [/home/abi/fetcher/tmp/fastkafka-0.7.0rc2.tar.gz]
+[2023-06-29 15:56:46] INFO root fetch - processPackages [fastkafka]: Remove: archive file [/home/abi/fetcher/tmp/fastkafka-0.8.0rc0.tar.gz]
+[2023-06-29 15:56:46] INFO root fetch - main [MainThread]: End processing [fastkafka]: success
+[2023-06-29 15:56:46] INFO root fetch - processPackages [finops]: Remove: archive file [/home/abi/fetcher/tmp/finops-0.1.3.tar.gz]
+[2023-06-29 15:56:46] INFO root fetch - processPackages [finops]: Remove: archive file [/home/abi/fetcher/tmp/finops-0.1.4.tar.gz]
+[2023-06-29 15:56:46] INFO root fetch - main [MainThread]: End processing [finops]: success
+[2023-06-29 15:56:46] INFO root fetch - processPackages [spinneroo]: Remove: archive file [/home/abi/fetcher/tmp/spinneroo-0.0.0.tar.gz]
+[2023-06-29 15:56:46] INFO root fetch - processPackages [spinneroo]: Remove: archive file [/home/abi/fetcher/tmp/spinneroo-1.0.0.tar.gz]
+[2023-06-29 15:56:46] INFO root fetch - main [MainThread]: End processing [spinneroo]: success
+[2023-06-29 15:56:46] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-0.6.0.9.dev1.tar.gz]
+[2023-06-29 15:56:46] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-0.6.0.94.dev1.tar.gz]
+[2023-06-29 15:56:46] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-06-29 15:56:46] INFO root fetch - processPackages [pure-ocean-breeze]: Remove: archive file [/home/abi/fetcher/tmp/pure_ocean_breeze-3.9.9.tar.gz]
+[2023-06-29 15:56:46] INFO root fetch - processPackages [pure-ocean-breeze]: Remove: archive file [/home/abi/fetcher/tmp/pure_ocean_breeze-4.0.0.tar.gz]
+[2023-06-29 15:56:46] INFO root fetch - main [MainThread]: End processing [pure-ocean-breeze]: success
+[2023-06-29 15:58:04] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.343.0.tar.gz]
+[2023-06-29 15:58:04] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.344.0.tar.gz]
+[2023-06-29 15:58:04] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-06-29 15:58:04] INFO root fetch - main [MainThread]: Store serial: [18695954]
