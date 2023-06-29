@@ -13820,3 +13820,162 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 16:54:18] INFO root fetch - processPackages [tomwer]: Remove: archive file [/home/abi/fetcher/tmp/tomwer-1.2.0a1.tar.gz]
 [2023-06-29 16:54:18] INFO root fetch - main [MainThread]: End processing [tomwer]: success
 [2023-06-29 16:54:18] INFO root fetch - main [MainThread]: Store serial: [18696651]
+[2023-06-29 16:59:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18696651]
+[2023-06-29 16:59:28] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-29 16:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: splight-cli
+[2023-06-29 16:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coiled
+[2023-06-29 16:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amadeusgpt
+[2023-06-29 16:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flopy
+[2023-06-29 16:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dashpool-pylibs
+[2023-06-29 16:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mxcubeweb
+[2023-06-29 16:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: LogTranslate
+[2023-06-29 16:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: elefantolib-fastapi
+[2023-06-29 16:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kimariDraw
+[2023-06-29 16:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gannswing
+[2023-06-29 16:59:28] WARNING root fetch - processPackages [amadeusgpt]: Skipping, unable to determine old version
+[2023-06-29 16:59:28] INFO root fetch - processPackages [amadeusgpt]: Start processing: acids-msprior
+[2023-06-29 16:59:28] INFO root fetch - main [MainThread]: End processing [amadeusgpt] error
+[2023-06-29 16:59:28] WARNING root fetch - processPackages [gannswing]: Skipping, unable to determine old version
+[2023-06-29 16:59:28] INFO root fetch - processPackages [gannswing]: Start processing: atomlite
+[2023-06-29 16:59:28] INFO root fetch - main [MainThread]: End processing [gannswing] error
+[2023-06-29 16:59:28] INFO root fetch - processPackages [mxcubeweb]: New version: [1.54.0] Old Version: [1.53.0]
+[2023-06-29 16:59:28] INFO root fetch - processPackages [LogTranslate]: New version: [1.2] Old Version: [1.1]
+[2023-06-29 16:59:28] INFO root fetch - processPackages [flopy]: New version: [3.4.1] Old Version: [3.4.0]
+[2023-06-29 16:59:28] INFO root fetch - processPackages [elefantolib-fastapi]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-29 16:59:28] INFO root fetch - processPackages [acids-msprior]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-29 16:59:28] INFO root fetch - processPackages [dashpool-pylibs]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-29 16:59:28] INFO root fetch - processPackages [kimariDraw]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-29 16:59:28] INFO root fetch - processPackages [splight-cli]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-06-29 16:59:28] INFO root fetch - processPackages [coiled]: New version: [0.7.9.dev9] Old Version: [0.7.9.dev8]
+[2023-06-29 16:59:28] INFO root fetch - processPackages [atomlite]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-29 16:59:28] INFO root fetch - processPackages [LogTranslate]: Downloading https://files.pythonhosted.org/packages/be/fe/539b1fb76f67ba10e937dc916a4de6269272eed54f6863ec13bc96684f95/LogTranslate-1.1.tar.gz
+[2023-06-29 16:59:28] INFO root fetch - processPackages [kimariDraw]: Downloading https://files.pythonhosted.org/packages/c5/5c/e9b239332b976ad63ad2fef66b991a40c7b230df2dd1bc7de098a63f3cfd/kimariDraw-1.1.2.tar.gz
+[2023-06-29 16:59:28] INFO root fetch - processPackages [elefantolib-fastapi]: Downloading https://files.pythonhosted.org/packages/59/32/9f3bb99b888d0e24e6da983f06bbeb95d82406cd7dcbaad2f6a3b6fa7109/elefantolib_fastapi-0.4.0.tar.gz
+[2023-06-29 16:59:28] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/8d/6a/988605bb8474f3d70e95fba18bec2401f636a2e8c5ff73442fe8409a126a/mxcubeweb-1.53.0.tar.gz
+[2023-06-29 16:59:28] INFO root fetch - processPackages [dashpool-pylibs]: Downloading https://files.pythonhosted.org/packages/cd/df/cc22d0e2e62d6a9fc920338df1be8c1ce3eec743ea9a3f65f1f8c3390fe5/dashpool_pylibs-2.1.8-py3-none-any.whl
+[2023-06-29 16:59:28] INFO root fetch - processPackages [atomlite]: Downloading https://files.pythonhosted.org/packages/85/5b/82b1e812a06da1bc824b7e39854bbbb02da461b333666cf850a61768dd72/atomlite-1.2.0.tar.gz
+[2023-06-29 16:59:28] INFO root fetch - processPackages [flopy]: Downloading https://files.pythonhosted.org/packages/f5/aa/410e95ff5713c460509f54809c153e4c2876e1b0b76cb3a144b28d39b7c4/flopy-3.4.0.tar.gz
+[2023-06-29 16:59:28] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/a7/01/b5a4cbd06e8fe6cb1d49512abbe6434f64ea4b91b21a64f30069aa693547/coiled-0.7.9.dev8.tar.gz
+[2023-06-29 16:59:28] INFO root fetch - processPackages [splight-cli]: Downloading https://files.pythonhosted.org/packages/cf/c1/7736d334de4e37179445420edbea741cee35a4f6d3a697b4266521e3b9bc/splight-cli-3.0.3.tar.gz
+[2023-06-29 16:59:28] INFO root fetch - processPackages [acids-msprior]: Downloading https://files.pythonhosted.org/packages/a9/81/1d01aaf16c9dad18d388e7fef8af89798cbb5589c0be0388e9adcae436fa/acids-msprior-1.1.1.tar.gz
+[2023-06-29 16:59:28] INFO root fetch - processPackages [LogTranslate]: Downloading https://files.pythonhosted.org/packages/cc/0c/69b3299bcdae6f64b31cafc119451eaff0697179edcfa965846df7748a22/LogTranslate-1.2.tar.gz
+[2023-06-29 16:59:28] INFO root fetch - processPackages [LogTranslate]: executing diffoscope
+[2023-06-29 16:59:28] INFO root fetch - processPackages [LogTranslate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LogTranslate-1.1.tar.gz tmp/LogTranslate-1.2.tar.gz --markdown 20230629/L/LogTranslate/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-29 16:59:28] INFO root fetch - processPackages [kimariDraw]: Downloading https://files.pythonhosted.org/packages/2d/b2/76f326f8ba2d5eb8d352a8a9367d67ff0450cfa11ee46ff34a62eb16a9c3/kimariDraw-1.1.3.tar.gz
+[2023-06-29 16:59:28] INFO root fetch - processPackages [elefantolib-fastapi]: Downloading https://files.pythonhosted.org/packages/af/ef/aef925ea93e4d20a8d91f0b0eb83b2aee6b6dfd2399cb5d78a9bc169a094/elefantolib_fastapi-0.5.0.tar.gz
+[2023-06-29 16:59:29] INFO root fetch - processPackages [splight-cli]: Downloading https://files.pythonhosted.org/packages/ff/b9/8e11719187b3c1478c1be88644f62cf9b69e0cb3f029dfae87d1e7dde401/splight-cli-3.0.4.tar.gz
+[2023-06-29 16:59:29] INFO root fetch - processPackages [kimariDraw]: executing diffoscope
+[2023-06-29 16:59:29] INFO root fetch - processPackages [kimariDraw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kimariDraw-1.1.2.tar.gz tmp/kimariDraw-1.1.3.tar.gz --markdown 20230629/k/kimariDraw/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-29 16:59:29] INFO root fetch - processPackages [atomlite]: Downloading https://files.pythonhosted.org/packages/15/8e/7ed9515a19526ac40d13c55cd448b281ca0ee19896019f6a67f78b2eeb8e/atomlite-1.3.0.tar.gz
+[2023-06-29 16:59:29] INFO root fetch - processPackages [elefantolib-fastapi]: executing diffoscope
+[2023-06-29 16:59:29] INFO root fetch - processPackages [elefantolib-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elefantolib_fastapi-0.4.0.tar.gz tmp/elefantolib_fastapi-0.5.0.tar.gz --markdown 20230629/e/elefantolib-fastapi/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-29 16:59:29] INFO root fetch - processPackages [flopy]: Downloading https://files.pythonhosted.org/packages/b8/a6/cd8f0f2c0af2bfa34b6ba6dfe2bab14bd54dc443c9da29b66649ea5ed992/flopy-3.4.1.tar.gz
+[2023-06-29 16:59:29] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/68/a0/03deba097f154d5d35f5aaf9cc9e6203f2e386628cf93962bded599cc14d/coiled-0.7.9.dev9.tar.gz
+[2023-06-29 16:59:29] INFO root fetch - processPackages [splight-cli]: executing diffoscope
+[2023-06-29 16:59:29] INFO root fetch - processPackages [splight-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-cli-3.0.3.tar.gz tmp/splight-cli-3.0.4.tar.gz --markdown 20230629/s/splight-cli/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-06-29 16:59:29] INFO root fetch - processPackages [acids-msprior]: Downloading https://files.pythonhosted.org/packages/91/26/d32162269c64c88c52365d0585458f138af024b81ca825e83fbc070cda84/acids-msprior-1.1.2.tar.gz
+[2023-06-29 16:59:29] INFO root fetch - processPackages [atomlite]: executing diffoscope
+[2023-06-29 16:59:29] INFO root fetch - processPackages [atomlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomlite-1.2.0.tar.gz tmp/atomlite-1.3.0.tar.gz --markdown 20230629/a/atomlite/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-29 16:59:29] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/2f/6f/f86330b9572ac57d2575b4118abf12a481dca0df6e5596acca0b11d9b173/mxcubeweb-1.54.0.tar.gz
+[2023-06-29 16:59:29] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-29 16:59:29] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.9.dev8.tar.gz tmp/coiled-0.7.9.dev9.tar.gz --markdown 20230629/c/coiled/0.7.9.dev8-0.7.9.dev9/diff.md --exclude *.pyd
+[2023-06-29 16:59:29] INFO root fetch - processPackages [flopy]: executing diffoscope
+[2023-06-29 16:59:29] INFO root fetch - processPackages [flopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flopy-3.4.0.tar.gz tmp/flopy-3.4.1.tar.gz --markdown 20230629/f/flopy/3.4.0-3.4.1/diff.md --exclude *.pyd
+[2023-06-29 16:59:29] INFO root fetch - processPackages [acids-msprior]: executing diffoscope
+[2023-06-29 16:59:29] INFO root fetch - processPackages [acids-msprior]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acids-msprior-1.1.1.tar.gz tmp/acids-msprior-1.1.2.tar.gz --markdown 20230629/a/acids-msprior/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-29 16:59:29] INFO root fetch - processPackages [mxcubeweb]: executing diffoscope
+[2023-06-29 16:59:29] INFO root fetch - processPackages [mxcubeweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxcubeweb-1.53.0.tar.gz tmp/mxcubeweb-1.54.0.tar.gz --markdown 20230629/m/mxcubeweb/1.53.0-1.54.0/diff.md --exclude *.pyd
+[2023-06-29 16:59:30] INFO root fetch - processPackages [LogTranslate]: Remove: archive file [/home/abi/fetcher/tmp/LogTranslate-1.1.tar.gz]
+[2023-06-29 16:59:30] INFO root fetch - processPackages [LogTranslate]: Remove: archive file [/home/abi/fetcher/tmp/LogTranslate-1.2.tar.gz]
+[2023-06-29 16:59:30] INFO root fetch - processPackages [LogTranslate]: Start processing: pyyaml-include
+[2023-06-29 16:59:30] INFO root fetch - main [MainThread]: End processing [LogTranslate]: success
+[2023-06-29 16:59:30] INFO root fetch - processPackages [pyyaml-include]: New version: [1.3b4] Old Version: [1.3.1b1]
+[2023-06-29 16:59:30] INFO root fetch - processPackages [elefantolib-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/elefantolib_fastapi-0.4.0.tar.gz]
+[2023-06-29 16:59:30] INFO root fetch - processPackages [elefantolib-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/elefantolib_fastapi-0.5.0.tar.gz]
+[2023-06-29 16:59:30] INFO root fetch - processPackages [elefantolib-fastapi]: Start processing: decimer
+[2023-06-29 16:59:30] INFO root fetch - main [MainThread]: End processing [elefantolib-fastapi]: success
+[2023-06-29 16:59:30] INFO root fetch - processPackages [decimer]: New version: [2.3.0] Old Version: [2.2.2]
+[2023-06-29 16:59:30] INFO root fetch - processPackages [pyyaml-include]: Downloading https://files.pythonhosted.org/packages/1d/90/427ef88f5c0a53e341bcae7072c795a60c6501b7fbdbcda400dc49b0936e/pyyaml-include-1.3.1b1.tar.gz
+[2023-06-29 16:59:30] INFO root fetch - processPackages [atomlite]: Remove: archive file [/home/abi/fetcher/tmp/atomlite-1.2.0.tar.gz]
+[2023-06-29 16:59:30] INFO root fetch - processPackages [atomlite]: Remove: archive file [/home/abi/fetcher/tmp/atomlite-1.3.0.tar.gz]
+[2023-06-29 16:59:30] INFO root fetch - processPackages [atomlite]: Start processing: odoo13-addon-base-archive-date
+[2023-06-29 16:59:30] INFO root fetch - main [MainThread]: End processing [atomlite]: success
+[2023-06-29 16:59:30] INFO root fetch - processPackages [kimariDraw]: Remove: archive file [/home/abi/fetcher/tmp/kimariDraw-1.1.2.tar.gz]
+[2023-06-29 16:59:30] INFO root fetch - processPackages [kimariDraw]: Remove: archive file [/home/abi/fetcher/tmp/kimariDraw-1.1.3.tar.gz]
+[2023-06-29 16:59:30] INFO root fetch - processPackages [kimariDraw]: Start processing: odoo13-addon-web-archive-date
+[2023-06-29 16:59:30] INFO root fetch - main [MainThread]: End processing [kimariDraw]: success
+[2023-06-29 16:59:30] WARNING root fetch - processPackages [odoo13-addon-base-archive-date]: Skipping, unable to determine old version
+[2023-06-29 16:59:30] INFO root fetch - processPackages [odoo13-addon-base-archive-date]: Start processing: baseten
+[2023-06-29 16:59:30] INFO root fetch - main [MainThread]: End processing [odoo13-addon-base-archive-date] error
+[2023-06-29 16:59:30] INFO root fetch - processPackages [decimer]: Downloading https://files.pythonhosted.org/packages/07/84/200671ee084b3ba0a073000b2334674b0da0578dca86ae5953797d59e2e3/decimer-2.2.2.tar.gz
+[2023-06-29 16:59:30] INFO root fetch - processPackages [baseten]: New version: [0.6.5] Old Version: [0.6.4rc0]
+[2023-06-29 16:59:30] WARNING root fetch - processPackages [odoo13-addon-web-archive-date]: Skipping, unable to determine old version
+[2023-06-29 16:59:30] INFO root fetch - processPackages [odoo13-addon-web-archive-date]: Start processing: thipster
+[2023-06-29 16:59:30] INFO root fetch - main [MainThread]: End processing [odoo13-addon-web-archive-date] error
+[2023-06-29 16:59:30] INFO root fetch - processPackages [thipster]: New version: [0.22.1] Old Version: [0.22.0]
+[2023-06-29 16:59:30] INFO root fetch - processPackages [baseten]: Downloading https://files.pythonhosted.org/packages/36/f5/b8d81fecfefb89375476bd45a89e8cbbc56fc6a01c621d9dfbd882678d22/baseten-0.6.4rc0.tar.gz
+[2023-06-29 16:59:30] INFO root fetch - processPackages [splight-cli]: Remove: archive file [/home/abi/fetcher/tmp/splight-cli-3.0.3.tar.gz]
+[2023-06-29 16:59:30] INFO root fetch - processPackages [splight-cli]: Remove: archive file [/home/abi/fetcher/tmp/splight-cli-3.0.4.tar.gz]
+[2023-06-29 16:59:30] INFO root fetch - processPackages [splight-cli]: Start processing: pathurl
+[2023-06-29 16:59:30] INFO root fetch - main [MainThread]: End processing [splight-cli]: success
+[2023-06-29 16:59:30] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/b3/0c/9478b45a86ad24b4c1c9e1b77d64d8276904a8a6f44fbc53c1bc3e31ff72/thipster-0.22.0.tar.gz
+[2023-06-29 16:59:30] INFO root fetch - processPackages [pyyaml-include]: Downloading https://files.pythonhosted.org/packages/0c/80/6a9955f089f5f94e0192d2c7da11f987efeaf74443abb3ca321f23061e55/pyyaml-include-1.3b4.tar.gz
+[2023-06-29 16:59:30] INFO root fetch - processPackages [pathurl]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-29 16:59:30] INFO root fetch - processPackages [acids-msprior]: Remove: archive file [/home/abi/fetcher/tmp/acids-msprior-1.1.1.tar.gz]
+[2023-06-29 16:59:30] INFO root fetch - processPackages [acids-msprior]: Remove: archive file [/home/abi/fetcher/tmp/acids-msprior-1.1.2.tar.gz]
+[2023-06-29 16:59:30] INFO root fetch - processPackages [acids-msprior]: Start processing: service-configuration-lib
+[2023-06-29 16:59:30] INFO root fetch - main [MainThread]: End processing [acids-msprior]: success
+[2023-06-29 16:59:30] INFO root fetch - processPackages [decimer]: Downloading https://files.pythonhosted.org/packages/1a/7c/b07d3700cd979548026e5f77533f6db1b1fcebfd814eaf93e19b1effaea4/decimer-2.3.0.tar.gz
+[2023-06-29 16:59:30] INFO root fetch - processPackages [baseten]: Downloading https://files.pythonhosted.org/packages/a8/b7/6edfaea5a404bfc3564cc55aaa45f66336c5e51b6617c51c484e8f482ecf/baseten-0.6.5.tar.gz
+[2023-06-29 16:59:30] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.53.0.tar.gz]
+[2023-06-29 16:59:30] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.54.0.tar.gz]
+[2023-06-29 16:59:30] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
+[2023-06-29 16:59:31] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/44/5c/864be3a9fa1c9927bf8fa9f0838664a2dda34306e1f031ebabbab78fd364/thipster-0.22.1.tar.gz
+[2023-06-29 16:59:31] INFO root fetch - processPackages [pyyaml-include]: executing diffoscope
+[2023-06-29 16:59:31] INFO root fetch - processPackages [pyyaml-include]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyyaml-include-1.3.1b1.tar.gz tmp/pyyaml-include-1.3b4.tar.gz --markdown 20230629/p/pyyaml-include/1.3.1b1-1.3b4/diff.md --exclude *.pyd
+[2023-06-29 16:59:31] INFO root fetch - processPackages [service-configuration-lib]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-06-29 16:59:31] INFO root fetch - processPackages [baseten]: executing diffoscope
+[2023-06-29 16:59:31] INFO root fetch - processPackages [baseten]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseten-0.6.4rc0.tar.gz tmp/baseten-0.6.5.tar.gz --markdown 20230629/b/baseten/0.6.4rc0-0.6.5/diff.md --exclude *.pyd
+[2023-06-29 16:59:31] INFO root fetch - processPackages [thipster]: executing diffoscope
+[2023-06-29 16:59:31] INFO root fetch - processPackages [decimer]: executing diffoscope
+[2023-06-29 16:59:31] INFO root fetch - processPackages [thipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipster-0.22.0.tar.gz tmp/thipster-0.22.1.tar.gz --markdown 20230629/t/thipster/0.22.0-0.22.1/diff.md --exclude *.pyd
+[2023-06-29 16:59:31] INFO root fetch - processPackages [decimer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decimer-2.2.2.tar.gz tmp/decimer-2.3.0.tar.gz --markdown 20230629/d/decimer/2.2.2-2.3.0/diff.md --exclude *.pyd
+[2023-06-29 16:59:31] INFO root fetch - processPackages [dashpool-pylibs]: Downloading https://files.pythonhosted.org/packages/fe/2e/6f232d673718a06d78103cec8a9ac89461a877e7fa2de4bddd88fee64cec/dashpool_pylibs-2.1.9-py3-none-any.whl
+[2023-06-29 16:59:31] INFO root fetch - processPackages [pathurl]: Downloading https://files.pythonhosted.org/packages/20/f9/18a84abbe2257ca4485bc71af8a6b4c603cb4ba06e63f7f54320200b6688/pathurl-0.5.0.tar.gz
+[2023-06-29 16:59:31] INFO root fetch - processPackages [service-configuration-lib]: Downloading https://files.pythonhosted.org/packages/32/bc/50c0c486ef8868d70e1ede030d9152799090473991e4384059539a9b1e98/service-configuration-lib-2.8.0.tar.gz
+[2023-06-29 16:59:31] INFO root fetch - processPackages [pathurl]: Downloading https://files.pythonhosted.org/packages/ed/20/8712de7350e053e561e2a5dca3e4cff58b0fa57d244dc81916671541d425/pathurl-0.6.0.tar.gz
+[2023-06-29 16:59:31] INFO root fetch - processPackages [pathurl]: executing diffoscope
+[2023-06-29 16:59:31] INFO root fetch - processPackages [pathurl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathurl-0.5.0.tar.gz tmp/pathurl-0.6.0.tar.gz --markdown 20230629/p/pathurl/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-29 16:59:31] INFO root fetch - processPackages [service-configuration-lib]: Downloading https://files.pythonhosted.org/packages/08/ad/99858a3ee1fce3071381a61c7a2502b9fd908605783332e4af449df36153/service-configuration-lib-2.9.0.tar.gz
+[2023-06-29 16:59:31] INFO root fetch - processPackages [service-configuration-lib]: executing diffoscope
+[2023-06-29 16:59:31] INFO root fetch - processPackages [service-configuration-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/service-configuration-lib-2.8.0.tar.gz tmp/service-configuration-lib-2.9.0.tar.gz --markdown 20230629/s/service-configuration-lib/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-06-29 16:59:32] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev8.tar.gz]
+[2023-06-29 16:59:32] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev9.tar.gz]
+[2023-06-29 16:59:32] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-29 16:59:32] INFO root fetch - processPackages [pyyaml-include]: Remove: archive file [/home/abi/fetcher/tmp/pyyaml-include-1.3.1b1.tar.gz]
+[2023-06-29 16:59:32] INFO root fetch - processPackages [pyyaml-include]: Remove: archive file [/home/abi/fetcher/tmp/pyyaml-include-1.3b4.tar.gz]
+[2023-06-29 16:59:32] INFO root fetch - main [MainThread]: End processing [pyyaml-include]: success
+[2023-06-29 16:59:32] INFO root fetch - processPackages [baseten]: Remove: archive file [/home/abi/fetcher/tmp/baseten-0.6.4rc0.tar.gz]
+[2023-06-29 16:59:32] INFO root fetch - processPackages [baseten]: Remove: archive file [/home/abi/fetcher/tmp/baseten-0.6.5.tar.gz]
+[2023-06-29 16:59:32] INFO root fetch - main [MainThread]: End processing [baseten]: success
+[2023-06-29 16:59:32] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.22.0.tar.gz]
+[2023-06-29 16:59:32] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.22.1.tar.gz]
+[2023-06-29 16:59:32] INFO root fetch - main [MainThread]: End processing [thipster]: success
+[2023-06-29 16:59:32] INFO root fetch - processPackages [pathurl]: Remove: archive file [/home/abi/fetcher/tmp/pathurl-0.5.0.tar.gz]
+[2023-06-29 16:59:32] INFO root fetch - processPackages [pathurl]: Remove: archive file [/home/abi/fetcher/tmp/pathurl-0.6.0.tar.gz]
+[2023-06-29 16:59:32] INFO root fetch - main [MainThread]: End processing [pathurl]: success
+[2023-06-29 16:59:33] INFO root fetch - processPackages [service-configuration-lib]: Remove: archive file [/home/abi/fetcher/tmp/service-configuration-lib-2.8.0.tar.gz]
+[2023-06-29 16:59:33] INFO root fetch - processPackages [service-configuration-lib]: Remove: archive file [/home/abi/fetcher/tmp/service-configuration-lib-2.9.0.tar.gz]
+[2023-06-29 16:59:33] INFO root fetch - main [MainThread]: End processing [service-configuration-lib]: success
+[2023-06-29 16:59:33] INFO root fetch - processPackages [dashpool-pylibs]: executing diffoscope
+[2023-06-29 16:59:33] INFO root fetch - processPackages [dashpool-pylibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dashpool_pylibs-2.1.8-py3-none-any.whl.zip tmp/dashpool_pylibs-2.1.9-py3-none-any.whl.zip --markdown 20230629/d/dashpool-pylibs/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-29 16:59:33] INFO root fetch - processPackages [decimer]: Remove: archive file [/home/abi/fetcher/tmp/decimer-2.2.2.tar.gz]
+[2023-06-29 16:59:33] INFO root fetch - processPackages [decimer]: Remove: archive file [/home/abi/fetcher/tmp/decimer-2.3.0.tar.gz]
+[2023-06-29 16:59:33] INFO root fetch - main [MainThread]: End processing [decimer]: success
+[2023-06-29 16:59:34] INFO root fetch - processPackages [flopy]: Remove: archive file [/home/abi/fetcher/tmp/flopy-3.4.0.tar.gz]
+[2023-06-29 16:59:34] INFO root fetch - processPackages [flopy]: Remove: archive file [/home/abi/fetcher/tmp/flopy-3.4.1.tar.gz]
+[2023-06-29 16:59:34] INFO root fetch - main [MainThread]: End processing [flopy]: success
+[2023-06-29 16:59:34] INFO root fetch - processPackages [dashpool-pylibs]: Remove: archive file [/home/abi/fetcher/tmp/dashpool_pylibs-2.1.8-py3-none-any.whl.zip]
+[2023-06-29 16:59:34] INFO root fetch - processPackages [dashpool-pylibs]: Remove: archive file [/home/abi/fetcher/tmp/dashpool_pylibs-2.1.9-py3-none-any.whl.zip]
+[2023-06-29 16:59:34] INFO root fetch - main [MainThread]: End processing [dashpool-pylibs]: success
+[2023-06-29 16:59:34] INFO root fetch - main [MainThread]: Store serial: [18696722]
