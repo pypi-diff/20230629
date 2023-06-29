@@ -4450,3 +4450,170 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 11:33:35] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.9.tar.gz]
 [2023-06-29 11:33:35] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-06-29 11:33:35] INFO root fetch - main [MainThread]: Store serial: [18692773]
+[2023-06-29 11:38:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18692773]
+[2023-06-29 11:38:44] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-29 11:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: utils-bs
+[2023-06-29 11:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyodps
+[2023-06-29 11:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lollms
+[2023-06-29 11:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llmdeploy
+[2023-06-29 11:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gdal2numpy
+[2023-06-29 11:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: structured-pruning-adapters
+[2023-06-29 11:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-pos-order-return
+[2023-06-29 11:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dbt-glue
+[2023-06-29 11:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fiftyone-devicedetection-cloud
+[2023-06-29 11:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fiftyone-devicedetection-onpremise
+[2023-06-29 11:38:44] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-29 11:38:44] WARNING root fetch - processPackages [utils-bs]: Skipping, unable to determine old version
+[2023-06-29 11:38:44] INFO root fetch - processPackages [utils-bs]: Start processing: fiftyone-devicedetection-shared
+[2023-06-29 11:38:44] INFO root fetch - main [MainThread]: End processing [utils-bs] error
+[2023-06-29 11:38:44] WARNING root fetch - processPackages [llmdeploy]: Skipping, unable to determine old version
+[2023-06-29 11:38:44] INFO root fetch - processPackages [llmdeploy]: Start processing: fiftyone-devicedetection
+[2023-06-29 11:38:44] INFO root fetch - main [MainThread]: End processing [llmdeploy] error
+[2023-06-29 11:38:44] INFO root fetch - processPackages [structured-pruning-adapters]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-29 11:38:44] INFO root fetch - processPackages [pyodps]: New version: [0.9.5] Old Version: [0.9.3.2]
+[2023-06-29 11:38:44] INFO root fetch - processPackages [fiftyone-devicedetection-onpremise]: New version: [4.4.9] Old Version: [4.4.8]
+[2023-06-29 11:38:44] INFO root fetch - processPackages [fiftyone-devicedetection-cloud]: New version: [4.4.9] Old Version: [4.4.8]
+[2023-06-29 11:38:44] INFO root fetch - processPackages [odoo14-addon-pos-order-return]: New version: [14.0.1.0.3] Old Version: [14.0.1.0.2.dev4]
+[2023-06-29 11:38:44] INFO root fetch - processPackages [fiftyone-devicedetection-shared]: New version: [4.4.9] Old Version: [4.4.8]
+[2023-06-29 11:38:44] INFO root fetch - processPackages [lollms]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-29 11:38:44] INFO root fetch - processPackages [dbt-glue]: New version: [1.5.0] Old Version: [1.4.23]
+[2023-06-29 11:38:44] INFO root fetch - processPackages [fiftyone-devicedetection]: New version: [4.4.9] Old Version: [4.4.8]
+[2023-06-29 11:38:44] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/fe/3d/85cbf5d99367a136ba4a9f76c11b9b36b75a37c1f317ca08c18bb879251d/lollms-2.0.8.tar.gz
+[2023-06-29 11:38:44] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 31791875>=10485760
+[2023-06-29 11:38:44] INFO root fetch - processPackages [lollms]: Start processing: OpenGeode-IO
+[2023-06-29 11:38:44] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-29 11:38:44] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/8b/c7/c38f143f5db75454a9df08f7ff287cb3de46fb5f10139def0fcb92a15404/gdal2numpy-0.0.98.tar.gz
+[2023-06-29 11:38:44] INFO root fetch - processPackages [OpenGeode-IO]: New version: [6.0.9rc1] Old Version: [6.0.8rc1]
+[2023-06-29 11:38:44] INFO root fetch - processPackages [pyodps]: Downloading https://files.pythonhosted.org/packages/96/f8/51d5d1bfca5572462b6c5fcfa59e3e25c338f7822e5fbc5ab8b5b137cf8a/pyodps-0.9.3.2.tar.gz
+[2023-06-29 11:38:44] INFO root fetch - processPackages [fiftyone-devicedetection-onpremise]: Downloading https://files.pythonhosted.org/packages/b1/df/28d4ba95bd392c536fe961d8dce1e994f87aa3d48a01e55e9515d0842db3/fiftyone_devicedetection_onpremise-4.4.8.tar.gz
+[2023-06-29 11:38:44] INFO root fetch - processPackages [fiftyone-devicedetection-cloud]: Downloading https://files.pythonhosted.org/packages/c2/05/001e319d2cfe159004ac1852e1838a815389b3339b57bf9be3291ee4e472/fiftyone_devicedetection_cloud-4.4.8.tar.gz
+[2023-06-29 11:38:44] INFO root fetch - processPackages [odoo14-addon-pos-order-return]: Downloading https://files.pythonhosted.org/packages/4b/95/4aa686bf39c3f0b56e0085b75ae016d7b84117b9cd986ff30faffc5c4558/odoo14_addon_pos_order_return-14.0.1.0.2.dev4-py3-none-any.whl
+[2023-06-29 11:38:44] INFO root fetch - processPackages [dbt-glue]: Downloading https://files.pythonhosted.org/packages/ab/9d/123030557783a81de303348600d280fdd04a09da1d16637268bebc497ade/dbt-glue-1.4.23.tar.gz
+[2023-06-29 11:38:44] INFO root fetch - processPackages [fiftyone-devicedetection]: Downloading https://files.pythonhosted.org/packages/78/9e/d445e0c4a0f6957a3f64eef83882b50ecf7254cd1dcfb1dd6194ac1a245c/fiftyone_devicedetection-4.4.8.tar.gz
+[2023-06-29 11:38:44] INFO root fetch - processPackages [fiftyone-devicedetection-shared]: Downloading https://files.pythonhosted.org/packages/3c/da/2412fa4de307b569d190795bb28dec9ae811596b99043386eca33940be28/fiftyone_devicedetection_shared-4.4.8.tar.gz
+[2023-06-29 11:38:44] INFO root fetch - processPackages [structured-pruning-adapters]: Downloading https://files.pythonhosted.org/packages/2e/8f/9e7a738baeca54356bb035f664a229ad2ff058876885acd141b703bd2caf/structured-pruning-adapters-0.7.0.tar.gz
+[2023-06-29 11:38:44] INFO root fetch - processPackages [OpenGeode-IO]: Downloading https://files.pythonhosted.org/packages/7e/7d/4a0d4c6cea7aa8aacb6c47d47c02c3bac7d3d4ad048e91a3b04ed2275e38/OpenGeode_IO-6.0.8rc1-cp39-cp39-win_amd64.whl
+[2023-06-29 11:38:44] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/67/ee/9c755bd5249fc9dc6a1dd773cb241c19b8df83a94fc0674017b57bd19e20/gdal2numpy-0.0.99.tar.gz
+[2023-06-29 11:38:44] INFO root fetch - processPackages [odoo14-addon-pos-order-return]: Downloading https://files.pythonhosted.org/packages/db/81/7cc701e571dc44d71b27cdb177f735b19cbe883469d0eb4812e629f989b5/odoo14_addon_pos_order_return-14.0.1.0.3-py3-none-any.whl
+[2023-06-29 11:38:44] INFO root fetch - processPackages [dbt-glue]: Downloading https://files.pythonhosted.org/packages/1c/74/61bf59ca537c7ebea5db24af33a5bb284fb2d6ce6dc16a7af9c55258cbef/dbt-glue-1.5.0.tar.gz
+[2023-06-29 11:38:44] INFO root fetch - processPackages [fiftyone-devicedetection]: Downloading https://files.pythonhosted.org/packages/83/fc/34fd863cd6fbd72392513d7f5dac042f4229299394794a87719f20e1c2f7/fiftyone_devicedetection-4.4.9.tar.gz
+[2023-06-29 11:38:44] INFO root fetch - processPackages [fiftyone-devicedetection-onpremise]: Downloading https://files.pythonhosted.org/packages/30/d5/2b4fa4cec92069e5925b2a0b23f3fd4dca0a3a23d10ee35da5d371f9980a/fiftyone_devicedetection_onpremise-4.4.9.tar.gz
+[2023-06-29 11:38:44] INFO root fetch - processPackages [odoo14-addon-pos-order-return]: executing diffoscope
+[2023-06-29 11:38:44] INFO root fetch - processPackages [odoo14-addon-pos-order-return]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pos_order_return-14.0.1.0.2.dev4-py3-none-any.whl.zip tmp/odoo14_addon_pos_order_return-14.0.1.0.3-py3-none-any.whl.zip --markdown 20230629/o/odoo14-addon-pos-order-return/14.0.1.0.2.dev4-14.0.1.0.3/diff.md --exclude *.pyd
+[2023-06-29 11:38:44] INFO root fetch - processPackages [pyodps]: Downloading https://files.pythonhosted.org/packages/23/0b/9df9955a5f80cae59a3727e2047c18f5d22f015f258c30564eb666bdcc9f/pyodps-0.9.5.tar.gz
+[2023-06-29 11:38:44] INFO root fetch - processPackages [structured-pruning-adapters]: Downloading https://files.pythonhosted.org/packages/18/cf/96303f38417aef71a7d137e447f083ff6649c630f9908265db700073050d/structured-pruning-adapters-0.7.1.tar.gz
+[2023-06-29 11:38:44] INFO root fetch - processPackages [fiftyone-devicedetection-shared]: Downloading https://files.pythonhosted.org/packages/99/d4/d653c3be1089c3f8160a18a795f0c4962b77d69706332ebefdcb0e829cd5/fiftyone_devicedetection_shared-4.4.9.tar.gz
+[2023-06-29 11:38:44] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-06-29 11:38:44] INFO root fetch - processPackages [fiftyone-devicedetection-cloud]: Downloading https://files.pythonhosted.org/packages/4d/c9/c5ac416a606f9b136ac2929cef7206ef6e3af77c68ec3a349cacfdc42494/fiftyone_devicedetection_cloud-4.4.9.tar.gz
+[2023-06-29 11:38:44] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230629/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-29 11:38:45] INFO root fetch - processPackages [dbt-glue]: executing diffoscope
+[2023-06-29 11:38:45] INFO root fetch - processPackages [dbt-glue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-glue-1.4.23.tar.gz tmp/dbt-glue-1.5.0.tar.gz --markdown 20230629/d/dbt-glue/1.4.23-1.5.0/diff.md --exclude *.pyd
+[2023-06-29 11:38:45] INFO root fetch - processPackages [structured-pruning-adapters]: executing diffoscope
+[2023-06-29 11:38:45] INFO root fetch - processPackages [structured-pruning-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structured-pruning-adapters-0.7.0.tar.gz tmp/structured-pruning-adapters-0.7.1.tar.gz --markdown 20230629/s/structured-pruning-adapters/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-29 11:38:45] INFO root fetch - processPackages [fiftyone-devicedetection]: executing diffoscope
+[2023-06-29 11:38:45] INFO root fetch - processPackages [fiftyone-devicedetection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_devicedetection-4.4.8.tar.gz tmp/fiftyone_devicedetection-4.4.9.tar.gz --markdown 20230629/f/fiftyone-devicedetection/4.4.8-4.4.9/diff.md --exclude *.pyd
+[2023-06-29 11:38:45] INFO root fetch - processPackages [pyodps]: executing diffoscope
+[2023-06-29 11:38:45] INFO root fetch - processPackages [pyodps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodps-0.9.3.2.tar.gz tmp/pyodps-0.9.5.tar.gz --markdown 20230629/p/pyodps/0.9.3.2-0.9.5/diff.md --exclude *.pyd
+[2023-06-29 11:38:45] INFO root fetch - processPackages [fiftyone-devicedetection-onpremise]: executing diffoscope
+[2023-06-29 11:38:45] INFO root fetch - processPackages [fiftyone-devicedetection-onpremise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_devicedetection_onpremise-4.4.8.tar.gz tmp/fiftyone_devicedetection_onpremise-4.4.9.tar.gz --markdown 20230629/f/fiftyone-devicedetection-onpremise/4.4.8-4.4.9/diff.md --exclude *.pyd
+[2023-06-29 11:38:45] INFO root fetch - processPackages [fiftyone-devicedetection-shared]: executing diffoscope
+[2023-06-29 11:38:45] INFO root fetch - processPackages [fiftyone-devicedetection-shared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_devicedetection_shared-4.4.8.tar.gz tmp/fiftyone_devicedetection_shared-4.4.9.tar.gz --markdown 20230629/f/fiftyone-devicedetection-shared/4.4.8-4.4.9/diff.md --exclude *.pyd
+[2023-06-29 11:38:45] INFO root fetch - processPackages [OpenGeode-IO]: Downloading https://files.pythonhosted.org/packages/22/0f/c8ed076cbb35014010d3d1f43f82c0ba246bcc8138f58af03424cb8f9bc5/OpenGeode_IO-6.0.9rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-29 11:38:45] INFO root fetch - processPackages [fiftyone-devicedetection-cloud]: executing diffoscope
+[2023-06-29 11:38:45] INFO root fetch - processPackages [fiftyone-devicedetection-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_devicedetection_cloud-4.4.8.tar.gz tmp/fiftyone_devicedetection_cloud-4.4.9.tar.gz --markdown 20230629/f/fiftyone-devicedetection-cloud/4.4.8-4.4.9/diff.md --exclude *.pyd
+[2023-06-29 11:38:45] INFO root fetch - processPackages [OpenGeode-IO]: executing diffoscope
+[2023-06-29 11:38:45] INFO root fetch - processPackages [OpenGeode-IO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_IO-6.0.8rc1-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_IO-6.0.9rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230629/O/OpenGeode-IO/6.0.8rc1-6.0.9rc1/diff.md --exclude *.pyd
+[2023-06-29 11:38:46] INFO root fetch - processPackages [fiftyone-devicedetection]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_devicedetection-4.4.8.tar.gz]
+[2023-06-29 11:38:46] INFO root fetch - processPackages [fiftyone-devicedetection]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_devicedetection-4.4.9.tar.gz]
+[2023-06-29 11:38:46] INFO root fetch - processPackages [fiftyone-devicedetection]: Start processing: spotON_sdk
+[2023-06-29 11:38:46] INFO root fetch - main [MainThread]: End processing [fiftyone-devicedetection]: success
+[2023-06-29 11:38:47] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.5.26] Old Version: [0.0.5.25]
+[2023-06-29 11:38:47] INFO root fetch - processPackages [fiftyone-devicedetection-shared]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_devicedetection_shared-4.4.8.tar.gz]
+[2023-06-29 11:38:47] INFO root fetch - processPackages [fiftyone-devicedetection-shared]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_devicedetection_shared-4.4.9.tar.gz]
+[2023-06-29 11:38:47] INFO root fetch - processPackages [fiftyone-devicedetection-shared]: Start processing: mke-star-tracker-client
+[2023-06-29 11:38:47] INFO root fetch - main [MainThread]: End processing [fiftyone-devicedetection-shared]: success
+[2023-06-29 11:38:47] INFO root fetch - processPackages [mke-star-tracker-client]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-29 11:38:47] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/e0/12/08baf0272e6c64ec8b390410ea34acf804a822260d1cf6fd96cd8cc3da72/spotON_sdk-0.0.5.25.tar.gz
+[2023-06-29 11:38:47] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.98.tar.gz]
+[2023-06-29 11:38:47] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.99.tar.gz]
+[2023-06-29 11:38:47] INFO root fetch - processPackages [gdal2numpy]: Start processing: nbdev-mkdocs
+[2023-06-29 11:38:47] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-06-29 11:38:47] INFO root fetch - processPackages [mke-star-tracker-client]: Downloading https://files.pythonhosted.org/packages/93/d3/a76183137e217c376577c1f2d283b6de2b44b54f9d1e747488859c2061bf/mke_star_tracker_client-1.0.0.tar.gz
+[2023-06-29 11:38:47] INFO root fetch - processPackages [nbdev-mkdocs]: New version: [1.0.0] Old Version: [0.6.0rc0]
+[2023-06-29 11:38:47] INFO root fetch - processPackages [nbdev-mkdocs]: Downloading https://files.pythonhosted.org/packages/ec/b8/00e406e7c4ce764f1378fe7e3e45a05de13a151b632ed33ad84f2e8871cf/nbdev-mkdocs-0.6.0rc0.tar.gz
+[2023-06-29 11:38:47] INFO root fetch - processPackages [odoo14-addon-pos-order-return]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pos_order_return-14.0.1.0.2.dev4-py3-none-any.whl.zip]
+[2023-06-29 11:38:47] INFO root fetch - processPackages [odoo14-addon-pos-order-return]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pos_order_return-14.0.1.0.3-py3-none-any.whl.zip]
+[2023-06-29 11:38:47] INFO root fetch - processPackages [odoo14-addon-pos-order-return]: Start processing: SELDOMpy
+[2023-06-29 11:38:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pos-order-return]: success
+[2023-06-29 11:38:47] INFO root fetch - processPackages [fiftyone-devicedetection-cloud]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_devicedetection_cloud-4.4.8.tar.gz]
+[2023-06-29 11:38:47] INFO root fetch - processPackages [fiftyone-devicedetection-cloud]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_devicedetection_cloud-4.4.9.tar.gz]
+[2023-06-29 11:38:47] INFO root fetch - processPackages [fiftyone-devicedetection-cloud]: Start processing: leadguru-jobs
+[2023-06-29 11:38:47] INFO root fetch - main [MainThread]: End processing [fiftyone-devicedetection-cloud]: success
+[2023-06-29 11:38:47] INFO root fetch - processPackages [SELDOMpy]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-29 11:38:47] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/2c/58/800cb10832d1a726a28cc4d66c9cb662af5202003ebc3120ae36827d6790/spotON_sdk-0.0.5.26.tar.gz
+[2023-06-29 11:38:47] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-29 11:38:47] INFO root fetch - processPackages [structured-pruning-adapters]: Remove: archive file [/home/abi/fetcher/tmp/structured-pruning-adapters-0.7.0.tar.gz]
+[2023-06-29 11:38:47] INFO root fetch - processPackages [structured-pruning-adapters]: Remove: archive file [/home/abi/fetcher/tmp/structured-pruning-adapters-0.7.1.tar.gz]
+[2023-06-29 11:38:47] INFO root fetch - processPackages [structured-pruning-adapters]: Start processing: ms-general-utils
+[2023-06-29 11:38:47] INFO root fetch - main [MainThread]: End processing [structured-pruning-adapters]: success
+[2023-06-29 11:38:47] INFO root fetch - processPackages [ms-general-utils]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-06-29 11:38:47] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-06-29 11:38:47] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-06-29 11:38:47] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.5.25.tar.gz tmp/spotON_sdk-0.0.5.26.tar.gz --markdown 20230629/s/spotON_sdk/0.0.5.25-0.0.5.26/diff.md --exclude *.pyd
+[2023-06-29 11:38:47] INFO root fetch - processPackages [mke-star-tracker-client]: Downloading https://files.pythonhosted.org/packages/0e/24/410f5cabfed77e3b66aa3b5180f243d77276ee58445ccc60b24c878fe154/mke_star_tracker_client-1.0.1.tar.gz
+[2023-06-29 11:38:47] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/af/28/41123cdc64bb9e8e39274742e4e4e3745714f10d92ee8b08874fd2589301/SELDOMpy-0.5.2.tar.gz
+[2023-06-29 11:38:47] INFO root fetch - processPackages [nbdev-mkdocs]: Downloading https://files.pythonhosted.org/packages/b9/cb/f3c6487fec68b82e23c1d2293dc6c0b356e190bbc0effce27648916c2ef5/nbdev-mkdocs-1.0.0.tar.gz
+[2023-06-29 11:38:47] INFO root fetch - processPackages [mke-star-tracker-client]: executing diffoscope
+[2023-06-29 11:38:47] INFO root fetch - processPackages [mke-star-tracker-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mke_star_tracker_client-1.0.0.tar.gz tmp/mke_star_tracker_client-1.0.1.tar.gz --markdown 20230629/m/mke-star-tracker-client/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-29 11:38:47] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-06-29 11:38:47] INFO root fetch - processPackages [nbdev-mkdocs]: executing diffoscope
+[2023-06-29 11:38:47] INFO root fetch - processPackages [nbdev-mkdocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-mkdocs-0.6.0rc0.tar.gz tmp/nbdev-mkdocs-1.0.0.tar.gz --markdown 20230629/n/nbdev-mkdocs/0.6.0rc0-1.0.0/diff.md --exclude *.pyd
+[2023-06-29 11:38:47] INFO root fetch - processPackages [ms-general-utils]: Downloading https://files.pythonhosted.org/packages/0e/dc/1595ca692428fe200a51442c5590a45f88220b0e4e4a7d1f6b46839835f9/ms_general_utils-1.4.3.tar.gz
+[2023-06-29 11:38:47] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/52/60/f7fa2ad00b0d7e70fddf10a9084b094acee0a2f4c9fbaceb6a955f17f5ad/SELDOMpy-0.5.3.tar.gz
+[2023-06-29 11:38:47] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-06-29 11:38:47] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230629/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-29 11:38:48] INFO root fetch - processPackages [dbt-glue]: Remove: archive file [/home/abi/fetcher/tmp/dbt-glue-1.4.23.tar.gz]
+[2023-06-29 11:38:48] INFO root fetch - processPackages [dbt-glue]: Remove: archive file [/home/abi/fetcher/tmp/dbt-glue-1.5.0.tar.gz]
+[2023-06-29 11:38:48] INFO root fetch - processPackages [dbt-glue]: Start processing: alibabacloud-sddp20190103
+[2023-06-29 11:38:48] INFO root fetch - main [MainThread]: End processing [dbt-glue]: success
+[2023-06-29 11:38:48] INFO root fetch - processPackages [OpenGeode-IO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_IO-6.0.8rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-29 11:38:48] INFO root fetch - processPackages [OpenGeode-IO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_IO-6.0.9rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-29 11:38:48] INFO root fetch - main [MainThread]: End processing [OpenGeode-IO]: success
+[2023-06-29 11:38:48] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-06-29 11:38:48] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.5.2.tar.gz tmp/SELDOMpy-0.5.3.tar.gz --markdown 20230629/S/SELDOMpy/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-29 11:38:48] INFO root fetch - processPackages [ms-general-utils]: Downloading https://files.pythonhosted.org/packages/9b/6b/8ed0c184782be35caf4050f8f130e9f75eb470336de59be260a6afd1914c/ms_general_utils-1.4.4.tar.gz
+[2023-06-29 11:38:48] INFO root fetch - processPackages [alibabacloud-sddp20190103]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-29 11:38:48] INFO root fetch - processPackages [ms-general-utils]: executing diffoscope
+[2023-06-29 11:38:48] INFO root fetch - processPackages [ms-general-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_general_utils-1.4.3.tar.gz tmp/ms_general_utils-1.4.4.tar.gz --markdown 20230629/m/ms-general-utils/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-06-29 11:38:48] INFO root fetch - processPackages [alibabacloud-sddp20190103]: Downloading https://files.pythonhosted.org/packages/b0/51/84375bf8559ee80432e32840af39229469c8e605d7b09618569a21dc29ae/alibabacloud_sddp20190103-1.0.8.tar.gz
+[2023-06-29 11:38:48] INFO root fetch - processPackages [alibabacloud-sddp20190103]: Downloading https://files.pythonhosted.org/packages/68/d3/1d06b6808ff2c2254967946d19183d05c527527eba95daacc295e228abdb/alibabacloud_sddp20190103-1.0.9.tar.gz
+[2023-06-29 11:38:48] INFO root fetch - processPackages [alibabacloud-sddp20190103]: executing diffoscope
+[2023-06-29 11:38:48] INFO root fetch - processPackages [alibabacloud-sddp20190103]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_sddp20190103-1.0.8.tar.gz tmp/alibabacloud_sddp20190103-1.0.9.tar.gz --markdown 20230629/a/alibabacloud-sddp20190103/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-29 11:38:49] INFO root fetch - processPackages [spotON_sdk]: Remove: archive file [/home/abi/fetcher/tmp/spotON_sdk-0.0.5.25.tar.gz]
+[2023-06-29 11:38:49] INFO root fetch - processPackages [spotON_sdk]: Remove: archive file [/home/abi/fetcher/tmp/spotON_sdk-0.0.5.26.tar.gz]
+[2023-06-29 11:38:49] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-06-29 11:38:49] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-06-29 11:38:49] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-06-29 11:38:49] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-06-29 11:38:49] INFO root fetch - processPackages [mke-star-tracker-client]: Remove: archive file [/home/abi/fetcher/tmp/mke_star_tracker_client-1.0.0.tar.gz]
+[2023-06-29 11:38:49] INFO root fetch - processPackages [mke-star-tracker-client]: Remove: archive file [/home/abi/fetcher/tmp/mke_star_tracker_client-1.0.1.tar.gz]
+[2023-06-29 11:38:49] INFO root fetch - main [MainThread]: End processing [mke-star-tracker-client]: success
+[2023-06-29 11:38:49] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.5.2.tar.gz]
+[2023-06-29 11:38:49] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.5.3.tar.gz]
+[2023-06-29 11:38:49] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-06-29 11:38:49] INFO root fetch - processPackages [ms-general-utils]: Remove: archive file [/home/abi/fetcher/tmp/ms_general_utils-1.4.3.tar.gz]
+[2023-06-29 11:38:49] INFO root fetch - processPackages [ms-general-utils]: Remove: archive file [/home/abi/fetcher/tmp/ms_general_utils-1.4.4.tar.gz]
+[2023-06-29 11:38:49] INFO root fetch - main [MainThread]: End processing [ms-general-utils]: success
+[2023-06-29 11:38:50] INFO root fetch - processPackages [fiftyone-devicedetection-onpremise]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_devicedetection_onpremise-4.4.8.tar.gz]
+[2023-06-29 11:38:50] INFO root fetch - processPackages [fiftyone-devicedetection-onpremise]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_devicedetection_onpremise-4.4.9.tar.gz]
+[2023-06-29 11:38:50] INFO root fetch - main [MainThread]: End processing [fiftyone-devicedetection-onpremise]: success
+[2023-06-29 11:38:51] INFO root fetch - processPackages [alibabacloud-sddp20190103]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sddp20190103-1.0.8.tar.gz]
+[2023-06-29 11:38:51] INFO root fetch - processPackages [alibabacloud-sddp20190103]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sddp20190103-1.0.9.tar.gz]
+[2023-06-29 11:38:51] INFO root fetch - main [MainThread]: End processing [alibabacloud-sddp20190103]: success
+[2023-06-29 11:38:51] INFO root fetch - processPackages [nbdev-mkdocs]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-mkdocs-0.6.0rc0.tar.gz]
+[2023-06-29 11:38:51] INFO root fetch - processPackages [nbdev-mkdocs]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-mkdocs-1.0.0.tar.gz]
+[2023-06-29 11:38:51] INFO root fetch - main [MainThread]: End processing [nbdev-mkdocs]: success
+[2023-06-29 11:38:55] INFO root fetch - processPackages [pyodps]: Remove: archive file [/home/abi/fetcher/tmp/pyodps-0.9.3.2.tar.gz]
+[2023-06-29 11:38:55] INFO root fetch - processPackages [pyodps]: Remove: archive file [/home/abi/fetcher/tmp/pyodps-0.9.5.tar.gz]
+[2023-06-29 11:38:55] INFO root fetch - main [MainThread]: End processing [pyodps]: success
+[2023-06-29 11:38:55] INFO root fetch - main [MainThread]: Store serial: [18692846]
