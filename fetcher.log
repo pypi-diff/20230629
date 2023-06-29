@@ -1158,3 +1158,136 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 09:12:08] INFO root fetch - processPackages [gitease]: Remove: archive file [/home/abi/fetcher/tmp/gitease-0.0.7.tar.gz]
 [2023-06-29 09:12:08] INFO root fetch - main [MainThread]: End processing [gitease]: success
 [2023-06-29 09:12:08] INFO root fetch - main [MainThread]: Store serial: [18691247]
+[2023-06-29 09:17:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18691247]
+[2023-06-29 09:17:17] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-29 09:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: conf-ini-g
+[2023-06-29 09:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Mensajes-Josape
+[2023-06-29 09:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ndtorch
+[2023-06-29 09:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cg
+[2023-06-29 09:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: benimang
+[2023-06-29 09:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langchain-serve
+[2023-06-29 09:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pycti
+[2023-06-29 09:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MeUtils
+[2023-06-29 09:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-mypy-plugins
+[2023-06-29 09:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: monalysa
+[2023-06-29 09:17:17] WARNING root fetch - processPackages [Mensajes-Josape]: Skipping, unable to determine old version
+[2023-06-29 09:17:17] INFO root fetch - processPackages [Mensajes-Josape]: Start processing: langchain-serve
+[2023-06-29 09:17:17] INFO root fetch - main [MainThread]: End processing [Mensajes-Josape] error
+[2023-06-29 09:17:17] INFO root fetch - processPackages [conf-ini-g]: New version: [2023.8] Old Version: [2023.7]
+[2023-06-29 09:17:17] INFO root fetch - processPackages [pycti]: New version: [5.8.7] Old Version: [5.8.6]
+[2023-06-29 09:17:17] INFO root fetch - processPackages [pytest-mypy-plugins]: New version: [2.0.0] Old Version: [1.9.3]
+[2023-06-29 09:17:17] INFO root fetch - processPackages [ndtorch]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-29 09:17:17] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-06-29 09:17:17] INFO root fetch - processPackages [monalysa]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 09:17:17] INFO root fetch - processPackages [benimang]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-06-29 09:17:17] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-06-29 09:17:17] INFO root fetch - processPackages [MeUtils]: New version: [2023.6.8.9.46.19] Old Version: [2023.6.6.18.16.46]
+[2023-06-29 09:17:17] INFO root fetch - processPackages [cg]: New version: [37.0.9] Old Version: [37.0.8]
+[2023-06-29 09:17:17] INFO root fetch - processPackages [conf-ini-g]: Downloading https://files.pythonhosted.org/packages/78/34/fedfd90a749397710c07af34e667b5eaf03a193d089d2ea1c9e08b53cf3d/conf-ini-g-2023.7.tar.gz
+[2023-06-29 09:17:17] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/f1/33/c1b5195e669389c841ecc55107e3e3a4b5a6f75ab3b7acc8ee995422423c/pycti-5.8.6.tar.gz
+[2023-06-29 09:17:17] INFO root fetch - processPackages [monalysa]: Downloading https://files.pythonhosted.org/packages/d7/d1/e2eb5cd92f494b0b719769cb08194a6c063fd07bdea68fb227e0ee3bd9dd/monalysa-0.0.8.tar.gz
+[2023-06-29 09:17:17] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/ec/1d/c584ab5bd145f7bc64a980cb9243f2ce4190d6259515da4ad36aa6cd5b8d/cg-37.0.8.tar.gz
+[2023-06-29 09:17:18] INFO root fetch - processPackages [ndtorch]: Downloading https://files.pythonhosted.org/packages/82/31/a43f6d8c4e788c2a102c2170807fb8a196e0f9c64696b53aa98e0fc9e244/ndtorch-0.1.4.tar.gz
+[2023-06-29 09:17:18] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-06-29 09:17:18] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-06-29 09:17:18] INFO root fetch - processPackages [pytest-mypy-plugins]: Downloading https://files.pythonhosted.org/packages/0b/b9/6a785e94081dc994bb5a9024cb375d0e9023c422ea4f54684766c0b2bfbc/pytest-mypy-plugins-1.9.3.tar.gz
+[2023-06-29 09:17:18] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/09/b0/ce4f08fd51d391ac9757c64a9f1fc38ba8f002e5d0fd1872c77e97ddbb65/benimang-3.0.3.tar.gz
+[2023-06-29 09:17:18] INFO root fetch - processPackages [conf-ini-g]: Downloading https://files.pythonhosted.org/packages/6a/70/e89030854e99f13df52e977dfca60d19166c7cc9773d5845e3c5fda5f5f8/conf-ini-g-2023.8.tar.gz
+[2023-06-29 09:17:18] INFO root fetch - processPackages [monalysa]: Downloading https://files.pythonhosted.org/packages/d1/13/65abe2bca84d2821801bdc73c3bbd3b627ec03c54b9fac03ac4f95b372f9/monalysa-0.0.9.tar.gz
+[2023-06-29 09:17:18] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/d6/7e/80bbf10d5634a932760fbb85138245f7f53ad73bcdd6d223800c8b51e56f/cg-37.0.9.tar.gz
+[2023-06-29 09:17:18] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/d1/11/8d77c72aa3d20af25d58b4ab456dc705e2879b3bdb168bfd1fb0fc2734af/MeUtils-2023.6.6.18.16.46.tar.gz
+[2023-06-29 09:17:18] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/01/16/098088aa45cf95e030f58fbeee9b6915501fe9e7a63b7ad97fce4bf2f19d/pycti-5.8.7.tar.gz
+[2023-06-29 09:17:18] INFO root fetch - processPackages [monalysa]: executing diffoscope
+[2023-06-29 09:17:18] INFO root fetch - processPackages [monalysa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monalysa-0.0.8.tar.gz tmp/monalysa-0.0.9.tar.gz --markdown 20230629/m/monalysa/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 09:17:18] INFO root fetch - processPackages [conf-ini-g]: executing diffoscope
+[2023-06-29 09:17:18] INFO root fetch - processPackages [conf-ini-g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conf-ini-g-2023.7.tar.gz tmp/conf-ini-g-2023.8.tar.gz --markdown 20230629/c/conf-ini-g/2023.7-2023.8/diff.md --exclude *.pyd
+[2023-06-29 09:17:18] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/bc/3d/f7510771148ffdec4e491eb401e9b553839cad442b17c1e7a6893ef864c7/benimang-3.0.4.tar.gz
+[2023-06-29 09:17:18] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-29 09:17:18] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-37.0.8.tar.gz tmp/cg-37.0.9.tar.gz --markdown 20230629/c/cg/37.0.8-37.0.9/diff.md --exclude *.pyd
+[2023-06-29 09:17:18] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-06-29 09:17:18] INFO root fetch - processPackages [pycti]: executing diffoscope
+[2023-06-29 09:17:18] INFO root fetch - processPackages [pycti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycti-5.8.6.tar.gz tmp/pycti-5.8.7.tar.gz --markdown 20230629/p/pycti/5.8.6-5.8.7/diff.md --exclude *.pyd
+[2023-06-29 09:17:18] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-06-29 09:17:18] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-06-29 09:17:18] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230629/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-06-29 09:17:18] INFO root fetch - processPackages [benimang]: executing diffoscope
+[2023-06-29 09:17:18] INFO root fetch - processPackages [benimang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benimang-3.0.3.tar.gz tmp/benimang-3.0.4.tar.gz --markdown 20230629/b/benimang/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-06-29 09:17:18] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-06-29 09:17:18] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230629/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-06-29 09:17:18] INFO root fetch - processPackages [pytest-mypy-plugins]: Downloading https://files.pythonhosted.org/packages/c3/dd/a0bb311ae8a72b9bd877be7d24a85b9333ba051a147b2a9cd8c3cd8421cb/pytest-mypy-plugins-2.0.0.tar.gz
+[2023-06-29 09:17:18] INFO root fetch - processPackages [pytest-mypy-plugins]: executing diffoscope
+[2023-06-29 09:17:18] INFO root fetch - processPackages [pytest-mypy-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-mypy-plugins-1.9.3.tar.gz tmp/pytest-mypy-plugins-2.0.0.tar.gz --markdown 20230629/p/pytest-mypy-plugins/1.9.3-2.0.0/diff.md --exclude *.pyd
+[2023-06-29 09:17:19] INFO root fetch - processPackages [ndtorch]: Downloading https://files.pythonhosted.org/packages/ca/8e/2213e440350080bb6e13e002c07f861cc62ee2ec7117969992c1d2758324/ndtorch-0.1.5.tar.gz
+[2023-06-29 09:17:19] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/0e/2e/ec2cc34871c3af09dac9ee93f99e7d89d8a20aca1a7c655697f42d240e9b/MeUtils-2023.6.8.9.46.19.tar.gz
+[2023-06-29 09:17:19] INFO root fetch - processPackages [ndtorch]: executing diffoscope
+[2023-06-29 09:17:19] INFO root fetch - processPackages [ndtorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndtorch-0.1.4.tar.gz tmp/ndtorch-0.1.5.tar.gz --markdown 20230629/n/ndtorch/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-29 09:17:19] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-06-29 09:17:19] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.6.6.18.16.46.tar.gz tmp/MeUtils-2023.6.8.9.46.19.tar.gz --markdown 20230629/M/MeUtils/2023.6.6.18.16.46-2023.6.8.9.46.19/diff.md --exclude *.pyd
+[2023-06-29 09:17:20] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-3.0.3.tar.gz]
+[2023-06-29 09:17:20] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-3.0.4.tar.gz]
+[2023-06-29 09:17:20] INFO root fetch - processPackages [benimang]: Start processing: stopable-thread-job
+[2023-06-29 09:17:20] INFO root fetch - main [MainThread]: End processing [benimang]: success
+[2023-06-29 09:17:20] WARNING root fetch - processPackages [stopable-thread-job]: Skipping, unable to determine old version
+[2023-06-29 09:17:20] INFO root fetch - processPackages [stopable-thread-job]: Start processing: odhpy
+[2023-06-29 09:17:20] INFO root fetch - main [MainThread]: End processing [stopable-thread-job] error
+[2023-06-29 09:17:20] INFO root fetch - processPackages [odhpy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 09:17:20] INFO root fetch - processPackages [pytest-mypy-plugins]: Remove: archive file [/home/abi/fetcher/tmp/pytest-mypy-plugins-1.9.3.tar.gz]
+[2023-06-29 09:17:20] INFO root fetch - processPackages [pytest-mypy-plugins]: Remove: archive file [/home/abi/fetcher/tmp/pytest-mypy-plugins-2.0.0.tar.gz]
+[2023-06-29 09:17:20] INFO root fetch - processPackages [pytest-mypy-plugins]: Start processing: troubadix
+[2023-06-29 09:17:20] INFO root fetch - main [MainThread]: End processing [pytest-mypy-plugins]: success
+[2023-06-29 09:17:20] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev22.tar.gz]
+[2023-06-29 09:17:20] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev9.tar.gz]
+[2023-06-29 09:17:20] INFO root fetch - processPackages [langchain-serve]: Start processing: pyrdp
+[2023-06-29 09:17:20] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-06-29 09:17:20] INFO root fetch - processPackages [troubadix]: New version: [23.6.3] Old Version: [23.6.2]
+[2023-06-29 09:17:20] INFO root fetch - processPackages [pyrdp]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-29 09:17:20] INFO root fetch - processPackages [conf-ini-g]: Remove: archive file [/home/abi/fetcher/tmp/conf-ini-g-2023.7.tar.gz]
+[2023-06-29 09:17:20] INFO root fetch - processPackages [conf-ini-g]: Remove: archive file [/home/abi/fetcher/tmp/conf-ini-g-2023.8.tar.gz]
+[2023-06-29 09:17:20] INFO root fetch - processPackages [conf-ini-g]: Start processing: configzen
+[2023-06-29 09:17:20] INFO root fetch - main [MainThread]: End processing [conf-ini-g]: success
+[2023-06-29 09:17:20] INFO root fetch - processPackages [configzen]: New version: [0.4] Old Version: [0.3.9]
+[2023-06-29 09:17:20] INFO root fetch - processPackages [odhpy]: Downloading https://files.pythonhosted.org/packages/eb/15/27b82a6bdc88bd363bad389d093cc391cc39de7bdba8e1baf5968329faf2/odhpy-0.0.8.tar.gz
+[2023-06-29 09:17:20] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-06-29 09:17:20] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/aa/b1/fdd658b2e1fb641f81a4b2a551b5679d5e1e88194016a3622dc0bdc08d5a/configzen-0.3.9.tar.gz
+[2023-06-29 09:17:20] INFO root fetch - processPackages [troubadix]: Downloading https://files.pythonhosted.org/packages/7b/98/4041055aab9819b333c673cb3f01cdba531344d1b07f73011ecea879ccc0/troubadix-23.6.2.tar.gz
+[2023-06-29 09:17:20] INFO root fetch - processPackages [monalysa]: Remove: archive file [/home/abi/fetcher/tmp/monalysa-0.0.8.tar.gz]
+[2023-06-29 09:17:20] INFO root fetch - processPackages [monalysa]: Remove: archive file [/home/abi/fetcher/tmp/monalysa-0.0.9.tar.gz]
+[2023-06-29 09:17:20] INFO root fetch - main [MainThread]: End processing [monalysa]: success
+[2023-06-29 09:17:20] INFO root fetch - processPackages [pyrdp]: Downloading https://files.pythonhosted.org/packages/5d/a3/4673306b8dc810a96535754c2d0ec482388fe9fb8aaa26fe2b921d8e2d02/pyrdp-0.1.4.tar.gz
+[2023-06-29 09:17:20] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/b0/d2/a26c96d801ef0d3345ab82bbe6bd8b07de6d7cb55dd8ab593715a83c0362/configzen-0.4.tar.gz
+[2023-06-29 09:17:20] INFO root fetch - processPackages [configzen]: executing diffoscope
+[2023-06-29 09:17:20] INFO root fetch - processPackages [configzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configzen-0.3.9.tar.gz tmp/configzen-0.4.tar.gz --markdown 20230629/c/configzen/0.3.9-0.4/diff.md --exclude *.pyd
+[2023-06-29 09:17:20] INFO root fetch - processPackages [troubadix]: Downloading https://files.pythonhosted.org/packages/2c/d9/6d9449bb3e1ced89327898d222ad2e2c146d9c8c8103cb4d7ca06bf498a9/troubadix-23.6.3.tar.gz
+[2023-06-29 09:17:20] INFO root fetch - processPackages [pyrdp]: Downloading https://files.pythonhosted.org/packages/69/7b/c27b36b18b11ffd99122c5496296fdc6b142e5eb940c8c5ad200f630d6fb/pyrdp-0.1.5.tar.gz
+[2023-06-29 09:17:20] INFO root fetch - processPackages [odhpy]: Downloading https://files.pythonhosted.org/packages/1f/b6/86e1abc2e31b1dce791d9bdbbf5bb9b15ca8380e201ac02f6ef9a2f49b92/odhpy-0.0.9.tar.gz
+[2023-06-29 09:17:20] INFO root fetch - processPackages [troubadix]: executing diffoscope
+[2023-06-29 09:17:20] INFO root fetch - processPackages [troubadix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troubadix-23.6.2.tar.gz tmp/troubadix-23.6.3.tar.gz --markdown 20230629/t/troubadix/23.6.2-23.6.3/diff.md --exclude *.pyd
+[2023-06-29 09:17:20] INFO root fetch - processPackages [pyrdp]: executing diffoscope
+[2023-06-29 09:17:20] INFO root fetch - processPackages [pyrdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrdp-0.1.4.tar.gz tmp/pyrdp-0.1.5.tar.gz --markdown 20230629/p/pyrdp/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-29 09:17:20] INFO root fetch - processPackages [odhpy]: executing diffoscope
+[2023-06-29 09:17:20] INFO root fetch - processPackages [odhpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odhpy-0.0.8.tar.gz tmp/odhpy-0.0.9.tar.gz --markdown 20230629/o/odhpy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 09:17:22] INFO root fetch - processPackages [pycti]: Remove: archive file [/home/abi/fetcher/tmp/pycti-5.8.6.tar.gz]
+[2023-06-29 09:17:22] INFO root fetch - processPackages [pycti]: Remove: archive file [/home/abi/fetcher/tmp/pycti-5.8.7.tar.gz]
+[2023-06-29 09:17:22] INFO root fetch - main [MainThread]: End processing [pycti]: success
+[2023-06-29 09:17:22] INFO root fetch - processPackages [pyrdp]: Remove: archive file [/home/abi/fetcher/tmp/pyrdp-0.1.4.tar.gz]
+[2023-06-29 09:17:22] INFO root fetch - processPackages [pyrdp]: Remove: archive file [/home/abi/fetcher/tmp/pyrdp-0.1.5.tar.gz]
+[2023-06-29 09:17:22] INFO root fetch - main [MainThread]: End processing [pyrdp]: success
+[2023-06-29 09:17:22] INFO root fetch - processPackages [odhpy]: Remove: archive file [/home/abi/fetcher/tmp/odhpy-0.0.8.tar.gz]
+[2023-06-29 09:17:22] INFO root fetch - processPackages [odhpy]: Remove: archive file [/home/abi/fetcher/tmp/odhpy-0.0.9.tar.gz]
+[2023-06-29 09:17:22] INFO root fetch - main [MainThread]: End processing [odhpy]: success
+[2023-06-29 09:17:22] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.3.9.tar.gz]
+[2023-06-29 09:17:22] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.4.tar.gz]
+[2023-06-29 09:17:22] INFO root fetch - main [MainThread]: End processing [configzen]: success
+[2023-06-29 09:17:23] INFO root fetch - processPackages [troubadix]: Remove: archive file [/home/abi/fetcher/tmp/troubadix-23.6.2.tar.gz]
+[2023-06-29 09:17:23] INFO root fetch - processPackages [troubadix]: Remove: archive file [/home/abi/fetcher/tmp/troubadix-23.6.3.tar.gz]
+[2023-06-29 09:17:23] INFO root fetch - main [MainThread]: End processing [troubadix]: success
+[2023-06-29 09:17:25] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.6.6.18.16.46.tar.gz]
+[2023-06-29 09:17:25] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.6.8.9.46.19.tar.gz]
+[2023-06-29 09:17:25] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-06-29 09:17:33] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.8.tar.gz]
+[2023-06-29 09:17:33] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.9.tar.gz]
+[2023-06-29 09:17:33] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-29 09:18:13] INFO root fetch - processPackages [ndtorch]: Remove: archive file [/home/abi/fetcher/tmp/ndtorch-0.1.4.tar.gz]
+[2023-06-29 09:18:13] INFO root fetch - processPackages [ndtorch]: Remove: archive file [/home/abi/fetcher/tmp/ndtorch-0.1.5.tar.gz]
+[2023-06-29 09:18:13] INFO root fetch - main [MainThread]: End processing [ndtorch]: success
+[2023-06-29 09:18:13] INFO root fetch - main [MainThread]: Store serial: [18691292]
