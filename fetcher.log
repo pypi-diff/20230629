@@ -3203,3 +3203,82 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 10:45:05] INFO root fetch - processPackages [mmcv-lite]: Remove: archive file [/home/abi/fetcher/tmp/mmcv-lite-2.0.1.tar.gz]
 [2023-06-29 10:45:05] INFO root fetch - main [MainThread]: End processing [mmcv-lite]: success
 [2023-06-29 10:45:05] INFO root fetch - main [MainThread]: Store serial: [18692226]
+[2023-06-29 10:50:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18692226]
+[2023-06-29 10:50:13] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-29 10:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cognite-sdk
+[2023-06-29 10:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfp-nightly
+[2023-06-29 10:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CMZ-Frameworks
+[2023-06-29 10:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openmldb-tool
+[2023-06-29 10:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CartiMorph-vxm
+[2023-06-29 10:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: b21scripts
+[2023-06-29 10:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: 3DFin
+[2023-06-29 10:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyhirte
+[2023-06-29 10:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-cookie-consent-gutsh
+[2023-06-29 10:50:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: CMZ-Frameworks
+[2023-06-29 10:50:13] INFO root fetch - processPackages [cognite-sdk]: New version: [6.5.6] Old Version: [6.5.5]
+[2023-06-29 10:50:13] WARNING root fetch - processPackages [pyhirte]: Skipping, unable to determine old version
+[2023-06-29 10:50:13] INFO root fetch - main [MainThread]: End processing [pyhirte] error
+[2023-06-29 10:50:13] INFO root fetch - processPackages [openmldb-tool]: New version: [0.8.1] Old Version: [0.7.3]
+[2023-06-29 10:50:13] WARNING root fetch - processPackages [CartiMorph-vxm]: Skipping, unable to determine old version
+[2023-06-29 10:50:13] INFO root fetch - processPackages [b21scripts]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-29 10:50:13] INFO root fetch - processPackages [django-cookie-consent-gutsh]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-29 10:50:13] INFO root fetch - processPackages [CMZ-Frameworks]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-29 10:50:13] INFO root fetch - main [MainThread]: End processing [CartiMorph-vxm] error
+[2023-06-29 10:50:13] INFO root fetch - processPackages [CMZ-Frameworks]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-29 10:50:14] INFO root fetch - processPackages [3DFin]: New version: [0.2.0rc3] Old Version: [0.2.0rc2]
+[2023-06-29 10:50:14] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-06-29 10:50:14] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/04/0f/d1b763176740c4743d29b9d5bcf27cd619d41da6b9d1a88b0326202abfdf/cognite_sdk-6.5.5.tar.gz
+[2023-06-29 10:50:14] INFO root fetch - processPackages [CMZ-Frameworks]: Downloading https://files.pythonhosted.org/packages/33/c7/f685f5f2d4f714422ee9f0dde866a4b6c179dea69aeea712f88406ad3d90/CMZ_Frameworks-1.2.0.tar.gz
+[2023-06-29 10:50:14] INFO root fetch - processPackages [CMZ-Frameworks]: Downloading https://files.pythonhosted.org/packages/33/c7/f685f5f2d4f714422ee9f0dde866a4b6c179dea69aeea712f88406ad3d90/CMZ_Frameworks-1.2.0.tar.gz
+[2023-06-29 10:50:14] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-06-29 10:50:14] INFO root fetch - processPackages [openmldb-tool]: Downloading https://files.pythonhosted.org/packages/e0/6f/85b6c79032aabfe57c7186202c5373eba36f001588a136350eeac3d6d504/openmldb_tool-0.7.3-py3-none-any.whl
+[2023-06-29 10:50:14] INFO root fetch - processPackages [b21scripts]: Downloading https://files.pythonhosted.org/packages/c7/88/8dec53948179570c1fd1d6274f4118b6c4d2e8a40a1eaa731418b520db4c/b21scripts-1.1.0.tar.gz
+[2023-06-29 10:50:14] INFO root fetch - processPackages [django-cookie-consent-gutsh]: Downloading https://files.pythonhosted.org/packages/42/de/71d4c9ab6bbb0633ca0fa8f8965771a4db154168b876b5349f8fbd41875b/django_cookie_consent_gutsh-1.0.1-py3-none-any.whl
+[2023-06-29 10:50:14] INFO root fetch - processPackages [3DFin]: Downloading https://files.pythonhosted.org/packages/04/35/6243d986b15797a1cfbc2c43df3eb60de64773ec5bac2b26b36914d0b79e/3dfin-0.2.0rc2.tar.gz
+[2023-06-29 10:50:14] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/cf/3d/45cce2a587ad2caf386abbf8aa60a4603316826c6ad98b7be8d9d39f32e0/cognite_sdk-6.5.6.tar.gz
+[2023-06-29 10:50:14] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-06-29 10:50:14] INFO root fetch - processPackages [CMZ-Frameworks]: Downloading https://files.pythonhosted.org/packages/94/cf/74d5037e3766a2e25ba33705ddeb82614e0b5449c36db0cadbac16fabced/CMZ_Frameworks-1.2.1.tar.gz
+[2023-06-29 10:50:14] INFO root fetch - processPackages [CMZ-Frameworks]: Downloading https://files.pythonhosted.org/packages/94/cf/74d5037e3766a2e25ba33705ddeb82614e0b5449c36db0cadbac16fabced/CMZ_Frameworks-1.2.1.tar.gz
+[2023-06-29 10:50:14] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2023-06-29 10:50:14] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-6.5.5.tar.gz tmp/cognite_sdk-6.5.6.tar.gz --markdown 20230629/c/cognite-sdk/6.5.5-6.5.6/diff.md --exclude *.pyd
+[2023-06-29 10:50:14] INFO root fetch - processPackages [CMZ-Frameworks]: executing diffoscope
+[2023-06-29 10:50:14] INFO root fetch - processPackages [CMZ-Frameworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CMZ_Frameworks-1.2.0.tar.gz tmp/CMZ_Frameworks-1.2.1.tar.gz --markdown 20230629/C/CMZ-Frameworks/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-29 10:50:14] INFO root fetch - processPackages [CMZ-Frameworks]: executing diffoscope
+[2023-06-29 10:50:14] INFO root fetch - processPackages [CMZ-Frameworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CMZ_Frameworks-1.2.0.tar.gz tmp/CMZ_Frameworks-1.2.1.tar.gz --markdown 20230629/C/CMZ-Frameworks/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-29 10:50:14] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-06-29 10:50:14] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230629/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-06-29 10:50:14] INFO root fetch - processPackages [openmldb-tool]: Downloading https://files.pythonhosted.org/packages/b3/6e/6fd84fb46ca4b263c0ee68c53a0783e0d60e03ee7eac9c9b946d36003b6e/openmldb_tool-0.8.1-py3-none-any.whl
+[2023-06-29 10:50:14] INFO root fetch - processPackages [b21scripts]: Downloading https://files.pythonhosted.org/packages/a3/04/b0905ae84ddc0146bac31290bc3edc4dc5eb88b027d3195afd854df89c31/b21scripts-1.1.1.tar.gz
+[2023-06-29 10:50:14] INFO root fetch - processPackages [django-cookie-consent-gutsh]: Downloading https://files.pythonhosted.org/packages/f1/7a/dfb24f09ad89dbfc9b967be71ae245195b92adb1d44a61ffdd0f66806a5c/django_cookie_consent_gutsh-1.0.2-py3-none-any.whl
+[2023-06-29 10:50:14] INFO root fetch - processPackages [openmldb-tool]: executing diffoscope
+[2023-06-29 10:50:14] INFO root fetch - processPackages [openmldb-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmldb_tool-0.7.3-py3-none-any.whl.zip tmp/openmldb_tool-0.8.1-py3-none-any.whl.zip --markdown 20230629/o/openmldb-tool/0.7.3-0.8.1/diff.md --exclude *.pyd
+[2023-06-29 10:50:14] INFO root fetch - processPackages [b21scripts]: executing diffoscope
+[2023-06-29 10:50:14] INFO root fetch - processPackages [b21scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b21scripts-1.1.0.tar.gz tmp/b21scripts-1.1.1.tar.gz --markdown 20230629/b/b21scripts/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-29 10:50:14] INFO root fetch - processPackages [django-cookie-consent-gutsh]: executing diffoscope
+[2023-06-29 10:50:14] INFO root fetch - processPackages [django-cookie-consent-gutsh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cookie_consent_gutsh-1.0.1-py3-none-any.whl.zip tmp/django_cookie_consent_gutsh-1.0.2-py3-none-any.whl.zip --markdown 20230629/d/django-cookie-consent-gutsh/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-29 10:50:14] INFO root fetch - processPackages [3DFin]: Downloading https://files.pythonhosted.org/packages/31/db/bf47c3ea9a66421cdd40e0e5ec10ba1ab06d2d236e6179a936fea923862b/3dfin-0.2.0rc3.tar.gz
+[2023-06-29 10:50:15] INFO root fetch - processPackages [3DFin]: executing diffoscope
+[2023-06-29 10:50:15] INFO root fetch - processPackages [3DFin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/3dfin-0.2.0rc2.tar.gz tmp/3dfin-0.2.0rc3.tar.gz --markdown 20230629/3/3DFin/0.2.0rc2-0.2.0rc3/diff.md --exclude *.pyd
+[2023-06-29 10:50:15] INFO root fetch - processPackages [CMZ-Frameworks]: Remove: archive file [/home/abi/fetcher/tmp/CMZ_Frameworks-1.2.0.tar.gz]
+[2023-06-29 10:50:15] INFO root fetch - processPackages [CMZ-Frameworks]: Remove: archive file [/home/abi/fetcher/tmp/CMZ_Frameworks-1.2.1.tar.gz]
+[2023-06-29 10:50:15] INFO root fetch - main [MainThread]: End processing [CMZ-Frameworks]: success
+[2023-06-29 10:50:15] INFO root fetch - main [MainThread]: End processing [CMZ-Frameworks]: success
+[2023-06-29 10:50:16] INFO root fetch - processPackages [django-cookie-consent-gutsh]: Remove: archive file [/home/abi/fetcher/tmp/django_cookie_consent_gutsh-1.0.1-py3-none-any.whl.zip]
+[2023-06-29 10:50:16] INFO root fetch - processPackages [openmldb-tool]: Remove: archive file [/home/abi/fetcher/tmp/openmldb_tool-0.7.3-py3-none-any.whl.zip]
+[2023-06-29 10:50:16] INFO root fetch - processPackages [openmldb-tool]: Remove: archive file [/home/abi/fetcher/tmp/openmldb_tool-0.8.1-py3-none-any.whl.zip]
+[2023-06-29 10:50:16] INFO root fetch - processPackages [django-cookie-consent-gutsh]: Remove: archive file [/home/abi/fetcher/tmp/django_cookie_consent_gutsh-1.0.2-py3-none-any.whl.zip]
+[2023-06-29 10:50:16] INFO root fetch - main [MainThread]: End processing [openmldb-tool]: success
+[2023-06-29 10:50:16] INFO root fetch - main [MainThread]: End processing [django-cookie-consent-gutsh]: success
+[2023-06-29 10:50:16] INFO root fetch - processPackages [b21scripts]: Remove: archive file [/home/abi/fetcher/tmp/b21scripts-1.1.0.tar.gz]
+[2023-06-29 10:50:16] INFO root fetch - processPackages [b21scripts]: Remove: archive file [/home/abi/fetcher/tmp/b21scripts-1.1.1.tar.gz]
+[2023-06-29 10:50:16] INFO root fetch - main [MainThread]: End processing [b21scripts]: success
+[2023-06-29 10:50:18] INFO root fetch - processPackages [3DFin]: Remove: archive file [/home/abi/fetcher/tmp/3dfin-0.2.0rc2.tar.gz]
+[2023-06-29 10:50:18] INFO root fetch - processPackages [3DFin]: Remove: archive file [/home/abi/fetcher/tmp/3dfin-0.2.0rc3.tar.gz]
+[2023-06-29 10:50:18] INFO root fetch - main [MainThread]: End processing [3DFin]: success
+[2023-06-29 10:50:18] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.5.5.tar.gz]
+[2023-06-29 10:50:18] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.5.6.tar.gz]
+[2023-06-29 10:50:18] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2023-06-29 10:50:28] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-06-29 10:50:28] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-06-29 10:50:28] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-06-29 10:50:28] INFO root fetch - main [MainThread]: Store serial: [18692259]
