@@ -18328,3 +18328,141 @@ AssertionError: tmp/live_parquet-0.2.0.tar.gz does not exist
 [2023-06-29 19:19:15] INFO root fetch - processPackages [admobilizeapis]: Remove: archive file [/home/abi/fetcher/tmp/admobilizeapis-2023.6.29.post1.tar.gz]
 [2023-06-29 19:19:15] INFO root fetch - main [MainThread]: End processing [admobilizeapis]: success
 [2023-06-29 19:19:15] INFO root fetch - main [MainThread]: Store serial: [18698507]
+[2023-06-29 19:24:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18698507]
+[2023-06-29 19:24:23] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-29 19:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azure-keyvault-cli
+[2023-06-29 19:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mapservice-clientlib
+[2023-06-29 19:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omnisoot
+[2023-06-29 19:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atlas-finance-noad
+[2023-06-29 19:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agixtsdk
+[2023-06-29 19:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: m-data-science-helpers
+[2023-06-29 19:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pycades
+[2023-06-29 19:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: backwork-backup-mysql
+[2023-06-29 19:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: webpie
+[2023-06-29 19:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wavefront-sdk-python
+[2023-06-29 19:24:24] WARNING root fetch - processPackages [azure-keyvault-cli]: Skipping, unable to determine old version
+[2023-06-29 19:24:24] INFO root fetch - processPackages [azure-keyvault-cli]: Start processing: esp-coredump
+[2023-06-29 19:24:24] INFO root fetch - processPackages [agixtsdk]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-29 19:24:24] INFO root fetch - main [MainThread]: End processing [azure-keyvault-cli] error
+[2023-06-29 19:24:24] INFO root fetch - processPackages [mapservice-clientlib]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-06-29 19:24:24] WARNING root fetch - processPackages [atlas-finance-noad]: Skipping, unable to determine old version
+[2023-06-29 19:24:24] INFO root fetch - processPackages [atlas-finance-noad]: Start processing: aplr
+[2023-06-29 19:24:24] INFO root fetch - main [MainThread]: End processing [atlas-finance-noad] error
+[2023-06-29 19:24:24] WARNING root fetch - processPackages [m-data-science-helpers]: Skipping, unable to determine old version
+[2023-06-29 19:24:24] INFO root fetch - processPackages [pycades]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-29 19:24:24] INFO root fetch - processPackages [m-data-science-helpers]: Start processing: atc-easy-desktop
+[2023-06-29 19:24:24] INFO root fetch - main [MainThread]: End processing [m-data-science-helpers] error
+[2023-06-29 19:24:24] INFO root fetch - processPackages [omnisoot]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-29 19:24:24] INFO root fetch - processPackages [backwork-backup-mysql]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-29 19:24:24] INFO root fetch - processPackages [wavefront-sdk-python]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-06-29 19:24:24] INFO root fetch - processPackages [webpie]: New version: [5.9.1] Old Version: [5.9.0]
+[2023-06-29 19:24:24] INFO root fetch - processPackages [esp-coredump]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-06-29 19:24:24] INFO root fetch - processPackages [atc-easy-desktop]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-29 19:24:24] INFO root fetch - processPackages [aplr]: New version: [6.0.0] Old Version: [5.0.0]
+[2023-06-29 19:24:24] INFO root fetch - processPackages [mapservice-clientlib]: Downloading https://files.pythonhosted.org/packages/29/7e/77188679e6a009b9bf30d06be656641d8fc6e08e29d62ff486569b2ee7f6/mapservice-clientlib-2.2.0.tar.gz
+[2023-06-29 19:24:24] INFO root fetch - processPackages [wavefront-sdk-python]: Downloading https://files.pythonhosted.org/packages/27/27/bd3a4082edef6dfb83c53249413ca3f7c560f4ef77b516f112fcec3d81c3/wavefront-sdk-python-1.8.2.tar.gz
+[2023-06-29 19:24:24] INFO root fetch - processPackages [atc-easy-desktop]: Downloading https://files.pythonhosted.org/packages/0c/37/100cc969a77f991177dc2db0912bdc02969aa4ca81b81e41140aace0cfe7/atc_easy_desktop-1.0.1.tar.gz
+[2023-06-29 19:24:24] INFO root fetch - processPackages [pycades]: Downloading https://files.pythonhosted.org/packages/91/dc/ed46456b88e0b5bd3ffda322c66572c7eec6e2b078be51c64f785cd9215d/pycades-1.1.1-py3-none-manylinux_2_35_x86_64.whl
+[2023-06-29 19:24:24] INFO root fetch - processPackages [backwork-backup-mysql]: Downloading https://files.pythonhosted.org/packages/99/7f/e3ecdb47a2117e70ecf82954a0d4aa823be5443ffef8c868eeb13bd56642/backwork-backup-mysql-0.3.0.tar.gz
+[2023-06-29 19:24:24] INFO root fetch - processPackages [aplr]: Downloading https://files.pythonhosted.org/packages/95/d2/5e71c83ef7837bf609034553d2edfbf4308ee130a7e9bcc30cf048187ca8/aplr-6.0.0-pp39-pypy39_pp73-win_amd64.whl
+[2023-06-29 19:24:24] INFO root fetch - processPackages [webpie]: Downloading https://files.pythonhosted.org/packages/18/83/14bdbd07c6b71f1f89088c53754a2833f3e8687325e83a422e24642008ca/webpie-5.9.0.tar.gz
+[2023-06-29 19:24:24] INFO root fetch - processPackages [esp-coredump]: Downloading https://files.pythonhosted.org/packages/3b/fe/6ee228af2cfe2b33bb8895ed377164828ee9f522df693a4012c03ec81e43/esp-coredump-1.5.1.tar.gz
+[2023-06-29 19:24:24] INFO root fetch - processPackages [omnisoot]: Downloading https://files.pythonhosted.org/packages/ff/99/0fe61fa94962bc4190069b8cc01e24fd79d9ba882d8c6ad5a8fe4941c978/omnisoot-0.1.5-cp39-cp39-win_amd64.whl
+[2023-06-29 19:24:24] WARNING root fetch - processPackages [pycades]: Skipping package: exceeds size limit 13699825>=10485760
+[2023-06-29 19:24:24] INFO root fetch - processPackages [pycades]: Start processing: garak
+[2023-06-29 19:24:24] INFO root fetch - main [MainThread]: End processing [pycades] error
+[2023-06-29 19:24:24] INFO root fetch - processPackages [agixtsdk]: Downloading https://files.pythonhosted.org/packages/4d/44/2d77e5a5b756bd56bd67ef9521d5feb8b652feae38707cf5070e9dd74d5a/agixtsdk-0.0.4.tar.gz
+[2023-06-29 19:24:24] INFO root fetch - processPackages [garak]: New version: [0.9.post3] Old Version: [0.9.post2]
+[2023-06-29 19:24:24] INFO root fetch - processPackages [aplr]: executing diffoscope
+[2023-06-29 19:24:24] INFO root fetch - processPackages [aplr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aplr-5.0.0-pp39-pypy39_pp73-win_amd64.whl.zip tmp/aplr-6.0.0-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230629/a/aplr/5.0.0-6.0.0/diff.md --exclude *.pyd
+[2023-06-29 19:24:24] INFO root fetch - processPackages [agixtsdk]: executing diffoscope
+[2023-06-29 19:24:24] INFO root fetch - processPackages [agixtsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixtsdk-0.0.3.tar.gz tmp/agixtsdk-0.0.4.tar.gz --markdown 20230629/a/agixtsdk/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-29 19:24:24] INFO root fetch - processPackages [backwork-backup-mysql]: Downloading https://files.pythonhosted.org/packages/9c/86/e97e8ae2de030d7f6a7ca5c8902d72f4e57e55f178a34ecc529e55c1a715/backwork-backup-mysql-0.3.1.tar.gz
+[2023-06-29 19:24:24] INFO root fetch - processPackages [mapservice-clientlib]: Downloading https://files.pythonhosted.org/packages/ad/de/bc69ba4823696fec41d212e3a29226bf4b24f47e00ccaeeb28d147764cbd/mapservice_clientlib-2.2.1.tar.gz
+[2023-06-29 19:24:24] INFO root fetch - processPackages [atc-easy-desktop]: Downloading https://files.pythonhosted.org/packages/9c/97/f0f0add5af61c38cfcf5530cc88ad1107370283b9e56bab4f80d314c1881/atc_easy_desktop-1.0.2.tar.gz
+[2023-06-29 19:24:24] INFO root fetch - processPackages [esp-coredump]: Downloading https://files.pythonhosted.org/packages/65/22/fb24a09f9ebfc9d6136128ef78af41553fb35c0b03a74e642f382951f583/esp-coredump-1.5.2.tar.gz
+[2023-06-29 19:24:24] INFO root fetch - processPackages [mapservice-clientlib]: executing diffoscope
+[2023-06-29 19:24:24] INFO root fetch - processPackages [mapservice-clientlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapservice-clientlib-2.2.0.tar.gz tmp/mapservice_clientlib-2.2.1.tar.gz --markdown 20230629/m/mapservice-clientlib/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-06-29 19:24:24] INFO root fetch - processPackages [backwork-backup-mysql]: executing diffoscope
+[2023-06-29 19:24:24] INFO root fetch - processPackages [backwork-backup-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backwork-backup-mysql-0.3.0.tar.gz tmp/backwork-backup-mysql-0.3.1.tar.gz --markdown 20230629/b/backwork-backup-mysql/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-29 19:24:24] INFO root fetch - processPackages [atc-easy-desktop]: executing diffoscope
+[2023-06-29 19:24:24] INFO root fetch - processPackages [atc-easy-desktop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atc_easy_desktop-1.0.1.tar.gz tmp/atc_easy_desktop-1.0.2.tar.gz --markdown 20230629/a/atc-easy-desktop/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-29 19:24:24] INFO root fetch - processPackages [esp-coredump]: executing diffoscope
+[2023-06-29 19:24:24] INFO root fetch - processPackages [esp-coredump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esp-coredump-1.5.1.tar.gz tmp/esp-coredump-1.5.2.tar.gz --markdown 20230629/e/esp-coredump/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-06-29 19:24:24] INFO root fetch - processPackages [wavefront-sdk-python]: Downloading https://files.pythonhosted.org/packages/b6/2b/ea81cff4e917bd243694262f3aa9a1d2aa1a485556a96a026e8be6f23c52/wavefront-sdk-python-1.9.0.tar.gz
+[2023-06-29 19:24:24] INFO root fetch - processPackages [wavefront-sdk-python]: executing diffoscope
+[2023-06-29 19:24:24] INFO root fetch - processPackages [wavefront-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wavefront-sdk-python-1.8.2.tar.gz tmp/wavefront-sdk-python-1.9.0.tar.gz --markdown 20230629/w/wavefront-sdk-python/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-06-29 19:24:24] INFO root fetch - processPackages [garak]: Downloading https://files.pythonhosted.org/packages/03/df/1f7c0c0498f0b20f9f47da2a3f0d97091567e575df6c574929ec2d2ed74f/garak-0.9.post2.tar.gz
+[2023-06-29 19:24:24] INFO root fetch - processPackages [webpie]: Downloading https://files.pythonhosted.org/packages/0c/6c/f8ecc255835c4b11be400c1f57f70ffbb4cb6f62eb238deb926994c37134/webpie-5.9.1.tar.gz
+[2023-06-29 19:24:24] INFO root fetch - processPackages [omnisoot]: Downloading https://files.pythonhosted.org/packages/87/41/47caed0cc8b3bd15838fc32ea144e808b913ca3918e012da13caade7f3c6/omnisoot-0.1.6-cp39-cp39-win_amd64.whl
+[2023-06-29 19:24:24] INFO root fetch - processPackages [omnisoot]: executing diffoscope
+[2023-06-29 19:24:24] INFO root fetch - processPackages [omnisoot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnisoot-0.1.5-cp39-cp39-win_amd64.whl.zip tmp/omnisoot-0.1.6-cp39-cp39-win_amd64.whl.zip --markdown 20230629/o/omnisoot/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-29 19:24:24] INFO root fetch - processPackages [webpie]: executing diffoscope
+[2023-06-29 19:24:25] INFO root fetch - processPackages [webpie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webpie-5.9.0.tar.gz tmp/webpie-5.9.1.tar.gz --markdown 20230629/w/webpie/5.9.0-5.9.1/diff.md --exclude *.pyd
+[2023-06-29 19:24:25] INFO root fetch - processPackages [garak]: Downloading https://files.pythonhosted.org/packages/db/33/48b9aff5805cd85069c8cef6c1f79de816a42850ef54e9db130e2bd7b4aa/garak-0.9.post3.tar.gz
+[2023-06-29 19:24:25] INFO root fetch - processPackages [garak]: executing diffoscope
+[2023-06-29 19:24:25] INFO root fetch - processPackages [garak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garak-0.9.post2.tar.gz tmp/garak-0.9.post3.tar.gz --markdown 20230629/g/garak/0.9.post2-0.9.post3/diff.md --exclude *.pyd
+[2023-06-29 19:24:25] INFO root fetch - processPackages [agixtsdk]: Remove: archive file [/home/abi/fetcher/tmp/agixtsdk-0.0.3.tar.gz]
+[2023-06-29 19:24:25] INFO root fetch - processPackages [agixtsdk]: Remove: archive file [/home/abi/fetcher/tmp/agixtsdk-0.0.4.tar.gz]
+[2023-06-29 19:24:25] INFO root fetch - processPackages [agixtsdk]: Start processing: pipen-board
+[2023-06-29 19:24:25] INFO root fetch - main [MainThread]: End processing [agixtsdk]: success
+[2023-06-29 19:24:25] INFO root fetch - processPackages [pipen-board]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-06-29 19:24:25] INFO root fetch - processPackages [aplr]: Remove: archive file [/home/abi/fetcher/tmp/aplr-5.0.0-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-06-29 19:24:25] INFO root fetch - processPackages [aplr]: Remove: archive file [/home/abi/fetcher/tmp/aplr-6.0.0-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-06-29 19:24:25] INFO root fetch - processPackages [aplr]: Start processing: exchanges-wrapper
+[2023-06-29 19:24:25] INFO root fetch - main [MainThread]: End processing [aplr]: success
+[2023-06-29 19:24:26] INFO root fetch - processPackages [exchanges-wrapper]: New version: [1.3.2] Old Version: [1.3.1b0]
+[2023-06-29 19:24:26] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/d0/18/fc1ebd1aea8c33ce9a1cf321981e3746bcac794b496259a1b3369b81a139/pipen_board-0.7.7.tar.gz
+[2023-06-29 19:24:26] INFO root fetch - processPackages [atc-easy-desktop]: Remove: archive file [/home/abi/fetcher/tmp/atc_easy_desktop-1.0.1.tar.gz]
+[2023-06-29 19:24:26] INFO root fetch - processPackages [atc-easy-desktop]: Remove: archive file [/home/abi/fetcher/tmp/atc_easy_desktop-1.0.2.tar.gz]
+[2023-06-29 19:24:26] INFO root fetch - processPackages [atc-easy-desktop]: Start processing: spanishconjugator
+[2023-06-29 19:24:26] INFO root fetch - main [MainThread]: End processing [atc-easy-desktop]: success
+[2023-06-29 19:24:26] INFO root fetch - processPackages [backwork-backup-mysql]: Remove: archive file [/home/abi/fetcher/tmp/backwork-backup-mysql-0.3.0.tar.gz]
+[2023-06-29 19:24:26] INFO root fetch - processPackages [backwork-backup-mysql]: Remove: archive file [/home/abi/fetcher/tmp/backwork-backup-mysql-0.3.1.tar.gz]
+[2023-06-29 19:24:26] INFO root fetch - processPackages [backwork-backup-mysql]: Start processing: spanishconjugator
+[2023-06-29 19:24:26] INFO root fetch - main [MainThread]: End processing [backwork-backup-mysql]: success
+[2023-06-29 19:24:26] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-29 19:24:26] INFO root fetch - processPackages [exchanges-wrapper]: Downloading https://files.pythonhosted.org/packages/af/de/c2897234967ec3ce402a78610f7a3ad2afcb7a97a7271fcde5cbf9806810/exchanges_wrapper-1.3.1b0.tar.gz
+[2023-06-29 19:24:26] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/0c/76/c53725c659aa03a767b8ff713b95cf255ccea55ebd15f66de0aa7866224c/pipen_board-0.7.8.tar.gz
+[2023-06-29 19:24:26] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-29 19:24:26] INFO root fetch - processPackages [omnisoot]: Remove: archive file [/home/abi/fetcher/tmp/omnisoot-0.1.5-cp39-cp39-win_amd64.whl.zip]
+[2023-06-29 19:24:26] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-29 19:24:26] INFO root fetch - processPackages [omnisoot]: Remove: archive file [/home/abi/fetcher/tmp/omnisoot-0.1.6-cp39-cp39-win_amd64.whl.zip]
+[2023-06-29 19:24:26] INFO root fetch - main [MainThread]: End processing [omnisoot]: success
+[2023-06-29 19:24:26] INFO root fetch - processPackages [pipen-board]: executing diffoscope
+[2023-06-29 19:24:26] INFO root fetch - processPackages [pipen-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_board-0.7.7.tar.gz tmp/pipen_board-0.7.8.tar.gz --markdown 20230629/p/pipen-board/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-06-29 19:24:26] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-29 19:24:26] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-29 19:24:26] INFO root fetch - processPackages [esp-coredump]: Remove: archive file [/home/abi/fetcher/tmp/esp-coredump-1.5.1.tar.gz]
+[2023-06-29 19:24:26] INFO root fetch - processPackages [esp-coredump]: Remove: archive file [/home/abi/fetcher/tmp/esp-coredump-1.5.2.tar.gz]
+[2023-06-29 19:24:26] INFO root fetch - main [MainThread]: End processing [esp-coredump]: success
+[2023-06-29 19:24:26] INFO root fetch - processPackages [exchanges-wrapper]: Downloading https://files.pythonhosted.org/packages/2b/4e/70cb2043f6c528ae8665c148c5143308f2f3c23c1f5eaee2d031c782e4e8/exchanges_wrapper-1.3.2.tar.gz
+[2023-06-29 19:24:26] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-29 19:24:26] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230629/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-29 19:24:26] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-29 19:24:26] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230629/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-29 19:24:26] INFO root fetch - processPackages [exchanges-wrapper]: executing diffoscope
+[2023-06-29 19:24:26] INFO root fetch - processPackages [exchanges-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exchanges_wrapper-1.3.1b0.tar.gz tmp/exchanges_wrapper-1.3.2.tar.gz --markdown 20230629/e/exchanges-wrapper/1.3.1b0-1.3.2/diff.md --exclude *.pyd
+[2023-06-29 19:24:27] INFO root fetch - processPackages [garak]: Remove: archive file [/home/abi/fetcher/tmp/garak-0.9.post2.tar.gz]
+[2023-06-29 19:24:27] INFO root fetch - processPackages [garak]: Remove: archive file [/home/abi/fetcher/tmp/garak-0.9.post3.tar.gz]
+[2023-06-29 19:24:27] INFO root fetch - main [MainThread]: End processing [garak]: success
+[2023-06-29 19:24:27] INFO root fetch - processPackages [wavefront-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/wavefront-sdk-python-1.8.2.tar.gz]
+[2023-06-29 19:24:27] INFO root fetch - processPackages [wavefront-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/wavefront-sdk-python-1.9.0.tar.gz]
+[2023-06-29 19:24:27] INFO root fetch - main [MainThread]: End processing [wavefront-sdk-python]: success
+[2023-06-29 19:24:27] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-29 19:24:27] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-29 19:24:27] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-29 19:24:27] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-29 19:24:27] INFO root fetch - processPackages [exchanges-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/exchanges_wrapper-1.3.1b0.tar.gz]
+[2023-06-29 19:24:27] INFO root fetch - processPackages [exchanges-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/exchanges_wrapper-1.3.2.tar.gz]
+[2023-06-29 19:24:27] INFO root fetch - main [MainThread]: End processing [exchanges-wrapper]: success
+[2023-06-29 19:24:28] INFO root fetch - processPackages [webpie]: Remove: archive file [/home/abi/fetcher/tmp/webpie-5.9.0.tar.gz]
+[2023-06-29 19:24:28] INFO root fetch - processPackages [webpie]: Remove: archive file [/home/abi/fetcher/tmp/webpie-5.9.1.tar.gz]
+[2023-06-29 19:24:28] INFO root fetch - main [MainThread]: End processing [webpie]: success
+[2023-06-29 19:24:28] INFO root fetch - processPackages [mapservice-clientlib]: Remove: archive file [/home/abi/fetcher/tmp/mapservice-clientlib-2.2.0.tar.gz]
+[2023-06-29 19:24:28] INFO root fetch - processPackages [mapservice-clientlib]: Remove: archive file [/home/abi/fetcher/tmp/mapservice_clientlib-2.2.1.tar.gz]
+[2023-06-29 19:24:28] INFO root fetch - main [MainThread]: End processing [mapservice-clientlib]: success
+[2023-06-29 19:24:37] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.7.7.tar.gz]
+[2023-06-29 19:24:37] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.7.8.tar.gz]
+[2023-06-29 19:24:37] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
+[2023-06-29 19:24:37] INFO root fetch - main [MainThread]: Store serial: [18698591]
