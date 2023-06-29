@@ -822,3 +822,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 08:50:50] INFO root fetch - processPackages [jupyter-collaboration]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_collaboration-1.0.1.tar.gz]
 [2023-06-29 08:50:50] INFO root fetch - main [MainThread]: End processing [jupyter-collaboration]: success
 [2023-06-29 08:50:50] INFO root fetch - main [MainThread]: Store serial: [18691124]
+[2023-06-29 08:55:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18691124]
+[2023-06-29 08:55:59] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-29 08:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: commercetools
+[2023-06-29 08:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xia-git-gitlab
+[2023-06-29 08:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dank-mids
+[2023-06-29 08:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pathling
+[2023-06-29 08:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gitopenlib
+[2023-06-29 08:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kdslibs
+[2023-06-29 08:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: monalysa
+[2023-06-29 08:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: antchain-mytc
+[2023-06-29 08:55:59] INFO root fetch - processPackages [kdslibs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 08:55:59] INFO root fetch - processPackages [antchain-mytc]: New version: [1.6.0] Old Version: [1.5.1]
+[2023-06-29 08:55:59] INFO root fetch - processPackages [monalysa]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 08:55:59] INFO root fetch - processPackages [pathling]: New version: [6.2.3.dev0] Old Version: [6.2.2.dev0]
+[2023-06-29 08:55:59] INFO root fetch - processPackages [xia-git-gitlab]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 08:55:59] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-29 08:55:59] INFO root fetch - processPackages [commercetools]: New version: [9.0.0] Old Version: [8.3.0]
+[2023-06-29 08:55:59] INFO root fetch - processPackages [gitopenlib]: New version: [0.2.8.28] Old Version: [0.2.7.28]
+[2023-06-29 08:55:59] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-29 08:56:00] INFO root fetch - processPackages [kdslibs]: Downloading https://files.pythonhosted.org/packages/d1/75/31dbf40a1710caa843016d509bed4139740781b5ab155d4223917f122df5/kdslibs-0.0.8.tar.gz
+[2023-06-29 08:56:00] INFO root fetch - processPackages [commercetools]: Downloading https://files.pythonhosted.org/packages/3a/75/b85032c0753681bbb155e3dbacf058213aece854487dbc34bab7b081e25f/commercetools-8.3.0.tar.gz
+[2023-06-29 08:56:00] INFO root fetch - processPackages [antchain-mytc]: Downloading https://files.pythonhosted.org/packages/1f/29/48f8284a66b8c024139e8a9027e076b200787638cda1576407fe2db860c7/antchain_mytc-1.5.1.tar.gz
+[2023-06-29 08:56:00] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/92/b1/f665930988976d735c90a8c003aeba5c20bea03bd96a8d030f2ed2c2f9fc/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl
+[2023-06-29 08:56:00] INFO root fetch - processPackages [monalysa]: Downloading https://files.pythonhosted.org/packages/d7/d1/e2eb5cd92f494b0b719769cb08194a6c063fd07bdea68fb227e0ee3bd9dd/monalysa-0.0.8.tar.gz
+[2023-06-29 08:56:00] INFO root fetch - processPackages [pathling]: Downloading https://files.pythonhosted.org/packages/5c/7c/aa63318e21746b8520e48e6be14b9b91366d58d16219eeb4f349f89a8824/pathling-6.2.2.dev0.tar.gz
+[2023-06-29 08:56:00] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-29 08:56:00] WARNING root fetch - processPackages [pathling]: Skipping package: exceeds size limit 57095971>=10485760
+[2023-06-29 08:56:00] INFO root fetch - main [MainThread]: End processing [pathling] error
+[2023-06-29 08:56:00] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-29 08:56:00] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230629/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-29 08:56:00] INFO root fetch - processPackages [gitopenlib]: executing diffoscope
+[2023-06-29 08:56:00] INFO root fetch - processPackages [gitopenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitopenlib-0.2.7.28.tar.gz tmp/gitopenlib-0.2.8.28.tar.gz --markdown 20230629/g/gitopenlib/0.2.7.28-0.2.8.28/diff.md --exclude *.pyd
+[2023-06-29 08:56:00] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/75/bf/b4b1fd4ce01d8bdefccc982d9d85c0794307e529b68823871084d0ef833e/xia_git_gitlab-0.1.9-cp39-none-win_amd64.whl
+[2023-06-29 08:56:00] INFO root fetch - processPackages [antchain-mytc]: Downloading https://files.pythonhosted.org/packages/4f/63/1f273101b3266fc96c647caeb9a86275b499e2fc490dc1ab59e594cd665b/antchain_mytc-1.6.0.tar.gz
+[2023-06-29 08:56:00] INFO root fetch - processPackages [kdslibs]: Downloading https://files.pythonhosted.org/packages/a7/f7/51c720c9cb636a40208740673b1da5adb53e747e77e7976eae2f73d5b616/kdslibs-0.0.9.tar.gz
+[2023-06-29 08:56:00] INFO root fetch - processPackages [xia-git-gitlab]: executing diffoscope
+[2023-06-29 08:56:00] INFO root fetch - processPackages [xia-git-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl.zip tmp/xia_git_gitlab-0.1.9-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-git-gitlab/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 08:56:00] INFO root fetch - processPackages [commercetools]: Downloading https://files.pythonhosted.org/packages/10/54/ec4a0a4866770d7011525a6a610068275950fb86917742ef352dd3449507/commercetools-9.0.0.tar.gz
+[2023-06-29 08:56:00] INFO root fetch - processPackages [monalysa]: Downloading https://files.pythonhosted.org/packages/d1/13/65abe2bca84d2821801bdc73c3bbd3b627ec03c54b9fac03ac4f95b372f9/monalysa-0.0.9.tar.gz
+[2023-06-29 08:56:00] INFO root fetch - processPackages [antchain-mytc]: executing diffoscope
+[2023-06-29 08:56:00] INFO root fetch - processPackages [antchain-mytc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_mytc-1.5.1.tar.gz tmp/antchain_mytc-1.6.0.tar.gz --markdown 20230629/a/antchain-mytc/1.5.1-1.6.0/diff.md --exclude *.pyd
+[2023-06-29 08:56:00] INFO root fetch - processPackages [kdslibs]: executing diffoscope
+[2023-06-29 08:56:00] INFO root fetch - processPackages [kdslibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kdslibs-0.0.8.tar.gz tmp/kdslibs-0.0.9.tar.gz --markdown 20230629/k/kdslibs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 08:56:00] INFO root fetch - processPackages [monalysa]: executing diffoscope
+[2023-06-29 08:56:00] INFO root fetch - processPackages [monalysa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monalysa-0.0.8.tar.gz tmp/monalysa-0.0.9.tar.gz --markdown 20230629/m/monalysa/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 08:56:00] INFO root fetch - processPackages [commercetools]: executing diffoscope
+[2023-06-29 08:56:00] INFO root fetch - processPackages [commercetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commercetools-8.3.0.tar.gz tmp/commercetools-9.0.0.tar.gz --markdown 20230629/c/commercetools/8.3.0-9.0.0/diff.md --exclude *.pyd
+[2023-06-29 08:56:01] INFO root fetch - processPackages [gitopenlib]: Remove: archive file [/home/abi/fetcher/tmp/gitopenlib-0.2.7.28.tar.gz]
+[2023-06-29 08:56:01] INFO root fetch - processPackages [gitopenlib]: Remove: archive file [/home/abi/fetcher/tmp/gitopenlib-0.2.8.28.tar.gz]
+[2023-06-29 08:56:01] INFO root fetch - main [MainThread]: End processing [gitopenlib]: success
+[2023-06-29 08:56:01] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-29 08:56:01] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-29 08:56:01] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-29 08:56:01] INFO root fetch - processPackages [kdslibs]: Remove: archive file [/home/abi/fetcher/tmp/kdslibs-0.0.8.tar.gz]
+[2023-06-29 08:56:01] INFO root fetch - processPackages [kdslibs]: Remove: archive file [/home/abi/fetcher/tmp/kdslibs-0.0.9.tar.gz]
+[2023-06-29 08:56:01] INFO root fetch - main [MainThread]: End processing [kdslibs]: success
+[2023-06-29 08:56:01] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl.zip]
+[2023-06-29 08:56:01] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.9-cp39-none-win_amd64.whl.zip]
+[2023-06-29 08:56:01] INFO root fetch - main [MainThread]: End processing [xia-git-gitlab]: success
+[2023-06-29 08:56:02] INFO root fetch - processPackages [monalysa]: Remove: archive file [/home/abi/fetcher/tmp/monalysa-0.0.8.tar.gz]
+[2023-06-29 08:56:02] INFO root fetch - processPackages [monalysa]: Remove: archive file [/home/abi/fetcher/tmp/monalysa-0.0.9.tar.gz]
+[2023-06-29 08:56:02] INFO root fetch - main [MainThread]: End processing [monalysa]: success
+[2023-06-29 08:56:02] INFO root fetch - processPackages [antchain-mytc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_mytc-1.5.1.tar.gz]
+[2023-06-29 08:56:02] INFO root fetch - processPackages [antchain-mytc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_mytc-1.6.0.tar.gz]
+[2023-06-29 08:56:02] INFO root fetch - main [MainThread]: End processing [antchain-mytc]: success
+[2023-06-29 08:56:07] INFO root fetch - processPackages [commercetools]: Remove: archive file [/home/abi/fetcher/tmp/commercetools-8.3.0.tar.gz]
+[2023-06-29 08:56:07] INFO root fetch - processPackages [commercetools]: Remove: archive file [/home/abi/fetcher/tmp/commercetools-9.0.0.tar.gz]
+[2023-06-29 08:56:07] INFO root fetch - main [MainThread]: End processing [commercetools]: success
+[2023-06-29 08:56:07] INFO root fetch - main [MainThread]: Store serial: [18691153]
