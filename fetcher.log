@@ -7567,3 +7567,118 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 12:57:47] INFO root fetch - main [MainThread]: End processing [krillscan]: success
 [2023-06-29 12:57:48] INFO root fetch - main [MainThread]: End processing [krillscan]: success
 [2023-06-29 12:57:48] INFO root fetch - main [MainThread]: Store serial: [18693868]
+[2023-06-29 13:02:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18693868]
+[2023-06-29 13:02:57] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-29 13:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pixelsparser
+[2023-06-29 13:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gitopenlib
+[2023-06-29 13:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chex
+[2023-06-29 13:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pg-tuna
+[2023-06-29 13:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: experimaestro
+[2023-06-29 13:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: va
+[2023-06-29 13:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: configration
+[2023-06-29 13:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vanoma-api-utils
+[2023-06-29 13:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: e2e-cli
+[2023-06-29 13:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: carmen-cloud-client
+[2023-06-29 13:02:57] INFO root fetch - processPackages [configration]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-06-29 13:02:57] WARNING root fetch - processPackages [carmen-cloud-client]: Skipping, unable to determine old version
+[2023-06-29 13:02:57] INFO root fetch - processPackages [pg-tuna]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-29 13:02:57] INFO root fetch - processPackages [carmen-cloud-client]: Start processing: imjoy-rpc
+[2023-06-29 13:02:57] INFO root fetch - processPackages [experimaestro]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-29 13:02:57] INFO root fetch - main [MainThread]: End processing [carmen-cloud-client] error
+[2023-06-29 13:02:57] INFO root fetch - processPackages [pixelsparser]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-06-29 13:02:57] INFO root fetch - processPackages [chex]: New version: [0.1.81] Old Version: [0.1.8]
+[2023-06-29 13:02:57] INFO root fetch - processPackages [e2e-cli]: New version: [0.9.9.9] Old Version: [0.9.9.8]
+[2023-06-29 13:02:57] INFO root fetch - processPackages [gitopenlib]: New version: [0.2.8.28] Old Version: [0.2.7.28]
+[2023-06-29 13:02:57] INFO root fetch - processPackages [vanoma-api-utils]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-29 13:02:57] INFO root fetch - processPackages [va]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2023-06-29 13:02:57] INFO root fetch - processPackages [imjoy-rpc]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-29 13:02:57] INFO root fetch - processPackages [e2e-cli]: Downloading https://files.pythonhosted.org/packages/ec/1b/ad4f51ec93196297c0b54e02688fb85b060154257686a6d769a190c1695d/e2e_cli-0.9.9.8.tar.gz
+[2023-06-29 13:02:57] INFO root fetch - processPackages [gitopenlib]: Downloading https://files.pythonhosted.org/packages/48/74/590f5be409b770795c16d674e400c8995a8061e00d4e779cd4a7be76b06d/gitopenlib-0.2.7.28.tar.gz
+[2023-06-29 13:02:57] INFO root fetch - processPackages [pixelsparser]: Downloading https://files.pythonhosted.org/packages/8b/09/09c43a2bf72c312ff471810f989c5a75d08554c2e397bf4143af9bd845ef/pixelsparser-1.0.0.tar.gz
+[2023-06-29 13:02:57] INFO root fetch - processPackages [pg-tuna]: Downloading https://files.pythonhosted.org/packages/82/b6/f01edc7de6c37690446b4ac88fe5bc16f45f0d035dd9a48d6adccd2bd730/pg_tuna-0.1.0.tar.gz
+[2023-06-29 13:02:57] INFO root fetch - processPackages [experimaestro]: Downloading https://files.pythonhosted.org/packages/a3/39/e8bf0f2c57679fd9746b8f077f5ada6fdfaffb0d246930aefadb8b96d604/experimaestro-0.9.8-py2.py3-none-any.whl
+[2023-06-29 13:02:57] INFO root fetch - processPackages [configration]: Downloading https://files.pythonhosted.org/packages/75/89/7021077573c924bad799ea5cf2fbcc868e0f3513569a24583980ae77361c/configration-2.0.4.tar.gz
+[2023-06-29 13:02:57] INFO root fetch - processPackages [va]: executing diffoscope
+[2023-06-29 13:02:57] INFO root fetch - processPackages [va]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/va-0.0.1.dev8.tar.gz tmp/va-0.0.1.dev9.tar.gz --markdown 20230629/v/va/0.0.1.dev8-0.0.1.dev9/diff.md --exclude *.pyd
+[2023-06-29 13:02:57] INFO root fetch - processPackages [chex]: Downloading https://files.pythonhosted.org/packages/6a/56/d0a88960bba9afc0d41c974a685ebf85346cd92c0794d0b77f75ef97524f/chex-0.1.8.tar.gz
+[2023-06-29 13:02:57] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/62/bf/e0cd8c6c4bfbc73547dd7a58b65fe8314743f962e1771888a1e6a088b01d/imjoy-rpc-0.5.8.tar.gz
+[2023-06-29 13:02:57] INFO root fetch - processPackages [vanoma-api-utils]: Downloading https://files.pythonhosted.org/packages/7c/9e/f73ed404ce9e60981ee448d39e3b055e19b228be2cfd51966458fc8cdfa4/vanoma_api_utils-0.98.0.tar.gz
+[2023-06-29 13:02:57] INFO root fetch - processPackages [gitopenlib]: Downloading https://files.pythonhosted.org/packages/95/54/4a4292733061b582887b760f5ab036ac4b7f126b55956419de3015c0a1fa/gitopenlib-0.2.8.28.tar.gz
+[2023-06-29 13:02:57] INFO root fetch - processPackages [e2e-cli]: Downloading https://files.pythonhosted.org/packages/cc/fe/f6dc0978925707ba4bed62a3b1e1ac6d18857331343c1ca7f8a18e071351/e2e_cli-0.9.9.9.tar.gz
+[2023-06-29 13:02:57] INFO root fetch - processPackages [gitopenlib]: executing diffoscope
+[2023-06-29 13:02:57] INFO root fetch - processPackages [gitopenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitopenlib-0.2.7.28.tar.gz tmp/gitopenlib-0.2.8.28.tar.gz --markdown 20230629/g/gitopenlib/0.2.7.28-0.2.8.28/diff.md --exclude *.pyd
+[2023-06-29 13:02:57] INFO root fetch - processPackages [configration]: Downloading https://files.pythonhosted.org/packages/a2/63/521ebe2c0c89be8354ab67d4d7315ce57a93154d01255467b3c3fef946f7/configration-2.0.5.tar.gz
+[2023-06-29 13:02:57] INFO root fetch - processPackages [pg-tuna]: Downloading https://files.pythonhosted.org/packages/c1/34/1018b648c5a72e83c1b39ebbab1471e7da461708fa1357d79806165aa925/pg_tuna-0.1.1.tar.gz
+[2023-06-29 13:02:57] INFO root fetch - processPackages [e2e-cli]: executing diffoscope
+[2023-06-29 13:02:57] INFO root fetch - processPackages [e2e-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2e_cli-0.9.9.8.tar.gz tmp/e2e_cli-0.9.9.9.tar.gz --markdown 20230629/e/e2e-cli/0.9.9.8-0.9.9.9/diff.md --exclude *.pyd
+[2023-06-29 13:02:57] INFO root fetch - processPackages [pixelsparser]: Downloading https://files.pythonhosted.org/packages/92/4e/6c71233ae99120622f07e63e7de90c2f4cdc7fec5bf9f9022ef541f7d1c0/pixelsparser-2.0.0.tar.gz
+[2023-06-29 13:02:57] INFO root fetch - processPackages [pg-tuna]: executing diffoscope
+[2023-06-29 13:02:57] INFO root fetch - processPackages [pg-tuna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_tuna-0.1.0.tar.gz tmp/pg_tuna-0.1.1.tar.gz --markdown 20230629/p/pg-tuna/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-29 13:02:57] INFO root fetch - processPackages [chex]: Downloading https://files.pythonhosted.org/packages/90/64/cdfccc63a40b53b4896c0aaca04b31d0d6c0d6821e5ead90c8bdacc39b38/chex-0.1.81.tar.gz
+[2023-06-29 13:02:57] INFO root fetch - processPackages [pixelsparser]: executing diffoscope
+[2023-06-29 13:02:57] INFO root fetch - processPackages [pixelsparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixelsparser-1.0.0.tar.gz tmp/pixelsparser-2.0.0.tar.gz --markdown 20230629/p/pixelsparser/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-29 13:02:57] INFO root fetch - processPackages [chex]: executing diffoscope
+[2023-06-29 13:02:57] INFO root fetch - processPackages [chex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chex-0.1.8.tar.gz tmp/chex-0.1.81.tar.gz --markdown 20230629/c/chex/0.1.8-0.1.81/diff.md --exclude *.pyd
+[2023-06-29 13:02:57] INFO root fetch - processPackages [imjoy-rpc]: Downloading https://files.pythonhosted.org/packages/32/2c/24a2fd77d69514d794a4e4c8db3307e0ef3e19e0338c3edb6bf7bdd4d021/imjoy-rpc-0.5.9.tar.gz
+[2023-06-29 13:02:57] INFO root fetch - processPackages [configration]: executing diffoscope
+[2023-06-29 13:02:57] INFO root fetch - processPackages [configration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configration-2.0.4.tar.gz tmp/configration-2.0.5.tar.gz --markdown 20230629/c/configration/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-06-29 13:02:58] INFO root fetch - processPackages [vanoma-api-utils]: Downloading https://files.pythonhosted.org/packages/08/33/b2d796eb02aac48a38a8cbb3ef3703b06b26cd09727f065036201b3e7aef/vanoma_api_utils-0.99.0.tar.gz
+[2023-06-29 13:02:58] INFO root fetch - processPackages [vanoma-api-utils]: executing diffoscope
+[2023-06-29 13:02:58] INFO root fetch - processPackages [vanoma-api-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vanoma_api_utils-0.98.0.tar.gz tmp/vanoma_api_utils-0.99.0.tar.gz --markdown 20230629/v/vanoma-api-utils/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-29 13:02:58] INFO root fetch - processPackages [imjoy-rpc]: executing diffoscope
+[2023-06-29 13:02:58] INFO root fetch - processPackages [imjoy-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imjoy-rpc-0.5.8.tar.gz tmp/imjoy-rpc-0.5.9.tar.gz --markdown 20230629/i/imjoy-rpc/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-29 13:02:58] INFO root fetch - processPackages [experimaestro]: Downloading https://files.pythonhosted.org/packages/01/8f/03545ff21231a99d4620e2c8cea78638225e661012da7e67c5f46c291a0d/experimaestro-0.9.9-py2.py3-none-any.whl
+[2023-06-29 13:02:58] INFO root fetch - processPackages [va]: Remove: archive file [/home/abi/fetcher/tmp/va-0.0.1.dev8.tar.gz]
+[2023-06-29 13:02:58] INFO root fetch - processPackages [va]: Remove: archive file [/home/abi/fetcher/tmp/va-0.0.1.dev9.tar.gz]
+[2023-06-29 13:02:58] INFO root fetch - processPackages [va]: Start processing: parse-pilot
+[2023-06-29 13:02:58] INFO root fetch - main [MainThread]: End processing [va]: success
+[2023-06-29 13:02:58] ERROR root fetch - processPackages [parse-pilot]: Unable to get metadata: No such project 'parse-pilot'
+[2023-06-29 13:02:58] INFO root fetch - processPackages [parse-pilot]: Start processing: scsd
+[2023-06-29 13:02:58] INFO root fetch - main [MainThread]: End processing [parse-pilot] error
+[2023-06-29 13:02:59] INFO root fetch - processPackages [scsd]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-29 13:02:59] INFO root fetch - processPackages [scsd]: Downloading https://files.pythonhosted.org/packages/ac/17/337cb25f0f71ec432dbb4bf39eed6d2a4dafd21d01d2144a5cb8372c5985/scsd-0.0.7.tar.gz
+[2023-06-29 13:02:59] INFO root fetch - processPackages [scsd]: Downloading https://files.pythonhosted.org/packages/73/23/a235ab52743256110c9399a7cd5232cd00d2be18aa57ea724b20fde057b3/scsd-0.0.8.tar.gz
+[2023-06-29 13:02:59] INFO root fetch - processPackages [pg-tuna]: Remove: archive file [/home/abi/fetcher/tmp/pg_tuna-0.1.0.tar.gz]
+[2023-06-29 13:02:59] INFO root fetch - processPackages [pg-tuna]: Remove: archive file [/home/abi/fetcher/tmp/pg_tuna-0.1.1.tar.gz]
+[2023-06-29 13:02:59] INFO root fetch - processPackages [pg-tuna]: Start processing: imsy-htc
+[2023-06-29 13:02:59] INFO root fetch - main [MainThread]: End processing [pg-tuna]: success
+[2023-06-29 13:02:59] INFO root fetch - processPackages [imsy-htc]: New version: [0.0.9] Old Version: [0.0.11]
+[2023-06-29 13:02:59] INFO root fetch - processPackages [scsd]: executing diffoscope
+[2023-06-29 13:02:59] INFO root fetch - processPackages [scsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scsd-0.0.7.tar.gz tmp/scsd-0.0.8.tar.gz --markdown 20230629/s/scsd/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-29 13:02:59] INFO root fetch - processPackages [gitopenlib]: Remove: archive file [/home/abi/fetcher/tmp/gitopenlib-0.2.7.28.tar.gz]
+[2023-06-29 13:02:59] INFO root fetch - processPackages [gitopenlib]: Remove: archive file [/home/abi/fetcher/tmp/gitopenlib-0.2.8.28.tar.gz]
+[2023-06-29 13:02:59] INFO root fetch - main [MainThread]: End processing [gitopenlib]: success
+[2023-06-29 13:02:59] INFO root fetch - processPackages [imsy-htc]: Downloading https://files.pythonhosted.org/packages/e0/50/52a60ca036a5d40e1e4875c055e924680b30b88aa60530f467792be33eb6/imsy_htc-0.0.11-cp39-cp39-win_amd64.whl
+[2023-06-29 13:02:59] INFO root fetch - processPackages [chex]: Remove: archive file [/home/abi/fetcher/tmp/chex-0.1.8.tar.gz]
+[2023-06-29 13:02:59] INFO root fetch - processPackages [chex]: Remove: archive file [/home/abi/fetcher/tmp/chex-0.1.81.tar.gz]
+[2023-06-29 13:02:59] INFO root fetch - main [MainThread]: End processing [chex]: success
+[2023-06-29 13:02:59] INFO root fetch - processPackages [pixelsparser]: Remove: archive file [/home/abi/fetcher/tmp/pixelsparser-1.0.0.tar.gz]
+[2023-06-29 13:02:59] INFO root fetch - processPackages [pixelsparser]: Remove: archive file [/home/abi/fetcher/tmp/pixelsparser-2.0.0.tar.gz]
+[2023-06-29 13:02:59] INFO root fetch - main [MainThread]: End processing [pixelsparser]: success
+[2023-06-29 13:02:59] INFO root fetch - processPackages [experimaestro]: executing diffoscope
+[2023-06-29 13:02:59] INFO root fetch - processPackages [experimaestro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experimaestro-0.9.8-py2.py3-none-any.whl.zip tmp/experimaestro-0.9.9-py2.py3-none-any.whl.zip --markdown 20230629/e/experimaestro/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-29 13:02:59] INFO root fetch - processPackages [configration]: Remove: archive file [/home/abi/fetcher/tmp/configration-2.0.4.tar.gz]
+[2023-06-29 13:02:59] INFO root fetch - processPackages [configration]: Remove: archive file [/home/abi/fetcher/tmp/configration-2.0.5.tar.gz]
+[2023-06-29 13:02:59] INFO root fetch - main [MainThread]: End processing [configration]: success
+[2023-06-29 13:02:59] INFO root fetch - processPackages [vanoma-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/vanoma_api_utils-0.98.0.tar.gz]
+[2023-06-29 13:02:59] INFO root fetch - processPackages [vanoma-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/vanoma_api_utils-0.99.0.tar.gz]
+[2023-06-29 13:02:59] INFO root fetch - main [MainThread]: End processing [vanoma-api-utils]: success
+[2023-06-29 13:03:00] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.8.tar.gz]
+[2023-06-29 13:03:00] INFO root fetch - processPackages [imjoy-rpc]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-rpc-0.5.9.tar.gz]
+[2023-06-29 13:03:00] INFO root fetch - main [MainThread]: End processing [imjoy-rpc]: success
+[2023-06-29 13:03:00] INFO root fetch - processPackages [imsy-htc]: Downloading https://files.pythonhosted.org/packages/7b/f3/a6cc1aa70b9708dde933f7b1b57b68ebbf707144d6a4590b38dbb78e63b5/imsy_htc-0.0.9-cp39-cp39-win_amd64.whl
+[2023-06-29 13:03:00] INFO root fetch - processPackages [e2e-cli]: Remove: archive file [/home/abi/fetcher/tmp/e2e_cli-0.9.9.8.tar.gz]
+[2023-06-29 13:03:00] INFO root fetch - processPackages [e2e-cli]: Remove: archive file [/home/abi/fetcher/tmp/e2e_cli-0.9.9.9.tar.gz]
+[2023-06-29 13:03:00] INFO root fetch - main [MainThread]: End processing [e2e-cli]: success
+[2023-06-29 13:03:00] INFO root fetch - processPackages [scsd]: Remove: archive file [/home/abi/fetcher/tmp/scsd-0.0.7.tar.gz]
+[2023-06-29 13:03:00] INFO root fetch - processPackages [scsd]: Remove: archive file [/home/abi/fetcher/tmp/scsd-0.0.8.tar.gz]
+[2023-06-29 13:03:00] INFO root fetch - main [MainThread]: End processing [scsd]: success
+[2023-06-29 13:03:00] INFO root fetch - processPackages [imsy-htc]: executing diffoscope
+[2023-06-29 13:03:00] INFO root fetch - processPackages [imsy-htc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsy_htc-0.0.11-cp39-cp39-win_amd64.whl.zip tmp/imsy_htc-0.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230629/i/imsy-htc/0.0.11-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 13:03:01] INFO root fetch - processPackages [experimaestro]: Remove: archive file [/home/abi/fetcher/tmp/experimaestro-0.9.8-py2.py3-none-any.whl.zip]
+[2023-06-29 13:03:01] INFO root fetch - processPackages [experimaestro]: Remove: archive file [/home/abi/fetcher/tmp/experimaestro-0.9.9-py2.py3-none-any.whl.zip]
+[2023-06-29 13:03:01] INFO root fetch - main [MainThread]: End processing [experimaestro]: success
+[2023-06-29 13:03:04] INFO root fetch - processPackages [imsy-htc]: Remove: archive file [/home/abi/fetcher/tmp/imsy_htc-0.0.11-cp39-cp39-win_amd64.whl.zip]
+[2023-06-29 13:03:04] INFO root fetch - processPackages [imsy-htc]: Remove: archive file [/home/abi/fetcher/tmp/imsy_htc-0.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-29 13:03:04] INFO root fetch - main [MainThread]: End processing [imsy-htc]: success
+[2023-06-29 13:03:04] INFO root fetch - main [MainThread]: Store serial: [18693934]
