@@ -1718,3 +1718,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 09:34:12] INFO root fetch - processPackages [mmcv]: Remove: archive file [/home/abi/fetcher/tmp/mmcv-2.0.1.tar.gz]
 [2023-06-29 09:34:12] INFO root fetch - main [MainThread]: End processing [mmcv]: success
 [2023-06-29 09:34:12] INFO root fetch - main [MainThread]: Store serial: [18691531]
+[2023-06-29 09:39:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18691531]
+[2023-06-29 09:39:21] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-29 09:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nomenklatura
+[2023-06-29 09:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: copyfiles
+[2023-06-29 09:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SELDOMpy
+[2023-06-29 09:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-snippets
+[2023-06-29 09:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-genshin-cos
+[2023-06-29 09:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openmldb
+[2023-06-29 09:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SELDOMpy
+[2023-06-29 09:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: thonny-quecpython
+[2023-06-29 09:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: iOpt
+[2023-06-29 09:39:21] WARNING root fetch - processPackages [copyfiles]: Skipping, unable to determine old version
+[2023-06-29 09:39:21] INFO root fetch - main [MainThread]: End processing [copyfiles] error
+[2023-06-29 09:39:21] INFO root fetch - processPackages [nomenklatura]: New version: [3.0.3] Old Version: [3.0.1]
+[2023-06-29 09:39:21] INFO root fetch - processPackages [SELDOMpy]: New version: [0.4.0] Old Version: [0.2.9]
+[2023-06-29 09:39:21] INFO root fetch - processPackages [SELDOMpy]: New version: [0.4.0] Old Version: [0.2.9]
+[2023-06-29 09:39:21] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-29 09:39:21] WARNING root fetch - processPackages [thonny-quecpython]: Skipping, unable to determine old version
+[2023-06-29 09:39:21] INFO root fetch - main [MainThread]: End processing [thonny-quecpython] error
+[2023-06-29 09:39:21] INFO root fetch - processPackages [openmldb]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-06-29 09:39:21] INFO root fetch - processPackages [torch-snippets]: New version: [0.499.9] Old Version: [0.499.8]
+[2023-06-29 09:39:21] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: Downloading https://files.pythonhosted.org/packages/3e/00/efff2b2f8a1c616234ba7a86718f8bfd24eaa6d54c3827acdefcbbeeecad/nonebot_plugin_genshin_cos-0.2.0.tar.gz
+[2023-06-29 09:39:21] INFO root fetch - processPackages [iOpt]: New version: [0.2.1] Old Version: [0.1.6]
+[2023-06-29 09:39:21] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/8c/87/77ad8cc0bd6fd46171113f7e8c566611cc3700db560f32617fc4e46a2c72/SELDOMpy-0.2.9.tar.gz
+[2023-06-29 09:39:21] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/8c/87/77ad8cc0bd6fd46171113f7e8c566611cc3700db560f32617fc4e46a2c72/SELDOMpy-0.2.9.tar.gz
+[2023-06-29 09:39:21] INFO root fetch - processPackages [nomenklatura]: Downloading https://files.pythonhosted.org/packages/75/a3/24bf8d8ecba386577f970c613165328c4881e66851f796c92f8eef8bd959/nomenklatura-3.0.1.tar.gz
+[2023-06-29 09:39:21] INFO root fetch - processPackages [torch-snippets]: Downloading https://files.pythonhosted.org/packages/a5/fa/ee158557aa83479dc9a248a64683b80d733081a215506ed081276be54ffb/torch_snippets-0.499.8.tar.gz
+[2023-06-29 09:39:21] INFO root fetch - processPackages [openmldb]: Downloading https://files.pythonhosted.org/packages/4b/d2/f9bb7c88609f69f433789be7938cf7e0655e186914d2cbdec666b3960072/openmldb-0.8.0-py3-none-manylinux1_x86_64.whl
+[2023-06-29 09:39:21] INFO root fetch - processPackages [iOpt]: Downloading https://files.pythonhosted.org/packages/01/24/6239aa41454d9c9f929fca98cd5ec5b5ca4692107c851b23cc7510a81176/iOpt-0.1.6.tar.gz
+[2023-06-29 09:39:21] WARNING root fetch - processPackages [openmldb]: Skipping package: exceeds size limit 25351314>=10485760
+[2023-06-29 09:39:21] INFO root fetch - main [MainThread]: End processing [openmldb] error
+[2023-06-29 09:39:21] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: Downloading https://files.pythonhosted.org/packages/b8/03/71cc3c53e2004992e626d2f6a04ebb9f35277fb629aca9ca2f9d2fb0cc80/nonebot_plugin_genshin_cos-0.2.1.tar.gz
+[2023-06-29 09:39:21] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/a1/41/4cb913d8c38f38137841d0ab72957a7b56f0ef4c2e85ef4e06fef79063b9/SELDOMpy-0.4.0.tar.gz
+[2023-06-29 09:39:21] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/a1/41/4cb913d8c38f38137841d0ab72957a7b56f0ef4c2e85ef4e06fef79063b9/SELDOMpy-0.4.0.tar.gz
+[2023-06-29 09:39:21] INFO root fetch - processPackages [nomenklatura]: Downloading https://files.pythonhosted.org/packages/54/94/ecad1fc8ebd565c6b72ce20eb5091a9d83db1ab5ada7424fe595848064e6/nomenklatura-3.0.3.tar.gz
+[2023-06-29 09:39:21] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-06-29 09:39:21] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.2.9.tar.gz tmp/SELDOMpy-0.4.0.tar.gz --markdown 20230629/S/SELDOMpy/0.2.9-0.4.0/diff.md --exclude *.pyd
+[2023-06-29 09:39:21] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-06-29 09:39:21] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.2.9.tar.gz tmp/SELDOMpy-0.4.0.tar.gz --markdown 20230629/S/SELDOMpy/0.2.9-0.4.0/diff.md --exclude *.pyd
+[2023-06-29 09:39:22] INFO root fetch - processPackages [torch-snippets]: Downloading https://files.pythonhosted.org/packages/53/8e/c6a2edb0216a6a491a72807653642ab418c51adaceba7c808afd9be35aa9/torch_snippets-0.499.9.tar.gz
+[2023-06-29 09:39:22] INFO root fetch - processPackages [nomenklatura]: executing diffoscope
+[2023-06-29 09:39:22] INFO root fetch - processPackages [nomenklatura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomenklatura-3.0.1.tar.gz tmp/nomenklatura-3.0.3.tar.gz --markdown 20230629/n/nomenklatura/3.0.1-3.0.3/diff.md --exclude *.pyd
+[2023-06-29 09:39:22] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: executing diffoscope
+[2023-06-29 09:39:22] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_genshin_cos-0.2.0.tar.gz tmp/nonebot_plugin_genshin_cos-0.2.1.tar.gz --markdown 20230629/n/nonebot-plugin-genshin-cos/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-29 09:39:22] INFO root fetch - processPackages [torch-snippets]: executing diffoscope
+[2023-06-29 09:39:22] INFO root fetch - processPackages [torch-snippets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_snippets-0.499.8.tar.gz tmp/torch_snippets-0.499.9.tar.gz --markdown 20230629/t/torch-snippets/0.499.8-0.499.9/diff.md --exclude *.pyd
+[2023-06-29 09:39:22] INFO root fetch - processPackages [iOpt]: Downloading https://files.pythonhosted.org/packages/9d/b4/d6b0788b8e5366708e2fff298e69f0bce3f2ddd77a9495edaafdffe2c5e9/iOpt-0.2.1.tar.gz
+[2023-06-29 09:39:22] INFO root fetch - processPackages [iOpt]: executing diffoscope
+[2023-06-29 09:39:22] INFO root fetch - processPackages [iOpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iOpt-0.1.6.tar.gz tmp/iOpt-0.2.1.tar.gz --markdown 20230629/i/iOpt/0.1.6-0.2.1/diff.md --exclude *.pyd
+[2023-06-29 09:39:23] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.2.9.tar.gz]
+[2023-06-29 09:39:23] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.4.0.tar.gz]
+[2023-06-29 09:39:23] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-06-29 09:39:23] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-06-29 09:39:23] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_genshin_cos-0.2.0.tar.gz]
+[2023-06-29 09:39:23] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_genshin_cos-0.2.1.tar.gz]
+[2023-06-29 09:39:23] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-genshin-cos]: success
+[2023-06-29 09:39:23] INFO root fetch - processPackages [torch-snippets]: Remove: archive file [/home/abi/fetcher/tmp/torch_snippets-0.499.8.tar.gz]
+[2023-06-29 09:39:23] INFO root fetch - processPackages [torch-snippets]: Remove: archive file [/home/abi/fetcher/tmp/torch_snippets-0.499.9.tar.gz]
+[2023-06-29 09:39:23] INFO root fetch - main [MainThread]: End processing [torch-snippets]: success
+[2023-06-29 09:39:23] INFO root fetch - processPackages [nomenklatura]: Remove: archive file [/home/abi/fetcher/tmp/nomenklatura-3.0.1.tar.gz]
+[2023-06-29 09:39:23] INFO root fetch - processPackages [nomenklatura]: Remove: archive file [/home/abi/fetcher/tmp/nomenklatura-3.0.3.tar.gz]
+[2023-06-29 09:39:23] INFO root fetch - main [MainThread]: End processing [nomenklatura]: success
+[2023-06-29 09:39:24] INFO root fetch - processPackages [iOpt]: Remove: archive file [/home/abi/fetcher/tmp/iOpt-0.1.6.tar.gz]
+[2023-06-29 09:39:24] INFO root fetch - processPackages [iOpt]: Remove: archive file [/home/abi/fetcher/tmp/iOpt-0.2.1.tar.gz]
+[2023-06-29 09:39:24] INFO root fetch - main [MainThread]: End processing [iOpt]: success
+[2023-06-29 09:39:24] INFO root fetch - main [MainThread]: Store serial: [18691555]
