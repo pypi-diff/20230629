@@ -1,0 +1,89 @@
+[2023-06-29 08:07:50] INFO root fetch - main [MainThread]: No serial file found, fetching last serial via API
+[2023-06-29 08:07:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18690818]
+[2023-06-29 08:07:55] INFO root fetch - main [MainThread]: No changed packages found
+[2023-06-29 08:12:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18690819]
+[2023-06-29 08:13:00] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-29 08:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zhousf-lib
+[2023-06-29 08:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wad2023-program
+[2023-06-29 08:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zope.exceptions
+[2023-06-29 08:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlcvzoo-base
+[2023-06-29 08:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llm-chain
+[2023-06-29 08:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-sale-order-line-date
+[2023-06-29 08:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-sale-workflow
+[2023-06-29 08:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hestia-earth-validation
+[2023-06-29 08:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: poe-api
+[2023-06-29 08:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xklb
+[2023-06-29 08:13:01] WARNING root fetch - processPackages [wad2023-program]: Skipping, unable to determine old version
+[2023-06-29 08:13:01] INFO root fetch - processPackages [poe-api]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-06-29 08:13:01] INFO root fetch - processPackages [zhousf-lib]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-29 08:13:01] INFO root fetch - main [MainThread]: End processing [wad2023-program] error
+[2023-06-29 08:13:01] INFO root fetch - processPackages [mlcvzoo-base]: New version: [5.3.5] Old Version: [5.3.4]
+[2023-06-29 08:13:01] INFO root fetch - processPackages [zope.exceptions]: New version: [5.0] Old Version: [4.6]
+[2023-06-29 08:13:01] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: New version: [16.0.20230628.1] Old Version: [16.0.20230626.0]
+[2023-06-29 08:13:01] INFO root fetch - processPackages [llm-chain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 08:13:01] INFO root fetch - processPackages [odoo-addon-sale-order-line-date]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-06-29 08:13:01] INFO root fetch - processPackages [hestia-earth-validation]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-29 08:13:01] INFO root fetch - processPackages [xklb]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-29 08:13:01] INFO root fetch - processPackages [odoo-addon-sale-order-line-date]: Downloading https://files.pythonhosted.org/packages/cb/65/fa770ab0d0cee5ab78d6a80338bc7b1e5883be1c5f6b9f853823bbe576e6/odoo_addon_sale_order_line_date-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-29 08:13:01] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/25/80/6f46bfb239dc0cdf295281c25f1f521102c2fa68724b77d08ceeaa03f755/zhousf-lib-0.7.8.tar.gz
+[2023-06-29 08:13:01] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/19/a2/b3f9c3a493fb7dbeee868ca4a75259a20b1d8770fa1a9d441acab4f35c3f/odoo_addons_oca_sale_workflow-16.0.20230626.0-py3-none-any.whl
+[2023-06-29 08:13:01] INFO root fetch - processPackages [poe-api]: Downloading https://files.pythonhosted.org/packages/c4/df/52c87f5e81cda4531907f361808098c8162e5b04a34908eb09fc7869529c/poe_api-0.4.6-py3-none-any.whl
+[2023-06-29 08:13:01] INFO root fetch - processPackages [mlcvzoo-base]: Downloading https://files.pythonhosted.org/packages/6c/b8/3a8a2e99d0c0d5d4d4b97eb4ea0171920b7692348f48a07c9706994b0fe7/mlcvzoo_base-5.3.4.tar.gz
+[2023-06-29 08:13:01] INFO root fetch - processPackages [zope.exceptions]: Downloading https://files.pythonhosted.org/packages/07/d7/01ae11fb9b4422f8c05fca69e9cc4be57282f6a93becabf8002e82ec0c24/zope.exceptions-4.6.tar.gz
+[2023-06-29 08:13:01] INFO root fetch - processPackages [llm-chain]: Downloading https://files.pythonhosted.org/packages/ad/0a/0c7f7c227359c09f5e88c872ee082cdd6d578afd846a72d7bd6e23351c19/llm-chain-0.0.8.tar.gz
+[2023-06-29 08:13:01] INFO root fetch - processPackages [hestia-earth-validation]: Downloading https://files.pythonhosted.org/packages/33/b1/1105a4e61f23c309958db8eb0a5c59b945e3291d912a253970b1cdb90f73/hestia-earth-validation-0.9.2.tar.gz
+[2023-06-29 08:13:01] INFO root fetch - processPackages [odoo-addon-sale-order-line-date]: Downloading https://files.pythonhosted.org/packages/05/10/60b4f3e359b19f0f2f9d43b60518ccffbf3bd9ef4a936d79ec5da4435743/odoo_addon_sale_order_line_date-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-29 08:13:01] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/76/2e/14010eebb38dc61046591d706fec340bdec7607febecc6526073174f78d0/odoo_addons_oca_sale_workflow-16.0.20230628.1-py3-none-any.whl
+[2023-06-29 08:13:01] INFO root fetch - processPackages [odoo-addon-sale-order-line-date]: executing diffoscope
+[2023-06-29 08:13:01] INFO root fetch - processPackages [odoo-addon-sale-order-line-date]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_line_date-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_sale_order_line_date-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230629/o/odoo-addon-sale-order-line-date/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-29 08:13:01] INFO root fetch - processPackages [poe-api]: Downloading https://files.pythonhosted.org/packages/f0/50/d2e8bff10d0b45241b3f7fd12829c6eb0e46cf0302b3b7d4d920933b66b6/poe_api-0.4.7-py3-none-any.whl
+[2023-06-29 08:13:01] INFO root fetch - processPackages [zope.exceptions]: Downloading https://files.pythonhosted.org/packages/21/4e/2ab1b98874c5457fd500127675634dacb1586ab8c78fa14fac6f6c9c2dc4/zope.exceptions-5.0.tar.gz
+[2023-06-29 08:13:01] INFO root fetch - processPackages [mlcvzoo-base]: Downloading https://files.pythonhosted.org/packages/59/dd/89f04be8cb2bd4e6910a7f38d0e74f060b69c37e3f29542299a14ef106a5/mlcvzoo_base-5.3.5.tar.gz
+[2023-06-29 08:13:01] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: executing diffoscope
+[2023-06-29 08:13:01] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_workflow-16.0.20230626.0-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_workflow-16.0.20230628.1-py3-none-any.whl.zip --markdown 20230629/o/odoo-addons-oca-sale-workflow/16.0.20230626.0-16.0.20230628.1/diff.md --exclude *.pyd
+[2023-06-29 08:13:01] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/80/c1/4c6b9225e24616b51ffab9ab33f5927ddd0c389561fb25f04bf2aa25865c/zhousf-lib-0.7.9.tar.gz
+[2023-06-29 08:13:01] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/21/af/fbdd09ebcfd5aa404fbf007cfe827b2b56fcfd19c73cc4b3f7f672fe0b3c/xklb-2.2.9.tar.gz
+[2023-06-29 08:13:01] INFO root fetch - processPackages [poe-api]: executing diffoscope
+[2023-06-29 08:13:01] INFO root fetch - processPackages [poe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poe_api-0.4.6-py3-none-any.whl.zip tmp/poe_api-0.4.7-py3-none-any.whl.zip --markdown 20230629/p/poe-api/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-06-29 08:13:01] INFO root fetch - processPackages [zope.exceptions]: executing diffoscope
+[2023-06-29 08:13:01] INFO root fetch - processPackages [zope.exceptions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zope.exceptions-4.6.tar.gz tmp/zope.exceptions-5.0.tar.gz --markdown 20230629/z/zope.exceptions/4.6-5.0/diff.md --exclude *.pyd
+[2023-06-29 08:13:01] INFO root fetch - processPackages [mlcvzoo-base]: executing diffoscope
+[2023-06-29 08:13:01] INFO root fetch - processPackages [mlcvzoo-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlcvzoo_base-5.3.4.tar.gz tmp/mlcvzoo_base-5.3.5.tar.gz --markdown 20230629/m/mlcvzoo-base/5.3.4-5.3.5/diff.md --exclude *.pyd
+[2023-06-29 08:13:01] INFO root fetch - processPackages [llm-chain]: Downloading https://files.pythonhosted.org/packages/86/bb/a6773e0c83b405b184e19aa3f5e6e685a38e64842b41a0f551b6844a6510/llm-chain-0.0.9.tar.gz
+[2023-06-29 08:13:01] INFO root fetch - processPackages [hestia-earth-validation]: Downloading https://files.pythonhosted.org/packages/b0/45/d5ba27a9ee459bf387b017277d998197192c37d8374146ae34a294f8a0af/hestia-earth-validation-0.9.3.tar.gz
+[2023-06-29 08:13:02] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-06-29 08:13:02] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.2.8.tar.gz tmp/xklb-2.2.9.tar.gz --markdown 20230629/x/xklb/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-29 08:13:02] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2023-06-29 08:13:02] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf-lib-0.7.8.tar.gz tmp/zhousf-lib-0.7.9.tar.gz --markdown 20230629/z/zhousf-lib/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-29 08:13:02] INFO root fetch - processPackages [llm-chain]: executing diffoscope
+[2023-06-29 08:13:02] INFO root fetch - processPackages [llm-chain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-chain-0.0.8.tar.gz tmp/llm-chain-0.0.9.tar.gz --markdown 20230629/l/llm-chain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 08:13:02] INFO root fetch - processPackages [hestia-earth-validation]: executing diffoscope
+[2023-06-29 08:13:02] INFO root fetch - processPackages [hestia-earth-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-validation-0.9.2.tar.gz tmp/hestia-earth-validation-0.9.3.tar.gz --markdown 20230629/h/hestia-earth-validation/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-29 08:13:04] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20230626.0-py3-none-any.whl.zip]
+[2023-06-29 08:13:04] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20230628.1-py3-none-any.whl.zip]
+[2023-06-29 08:13:04] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-workflow]: success
+[2023-06-29 08:13:04] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.8.tar.gz]
+[2023-06-29 08:13:04] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.9.tar.gz]
+[2023-06-29 08:13:04] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-06-29 08:13:04] INFO root fetch - processPackages [odoo-addon-sale-order-line-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_line_date-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-29 08:13:04] INFO root fetch - processPackages [odoo-addon-sale-order-line-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_line_date-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-29 08:13:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-line-date]: success
+[2023-06-29 08:13:04] INFO root fetch - processPackages [llm-chain]: Remove: archive file [/home/abi/fetcher/tmp/llm-chain-0.0.8.tar.gz]
+[2023-06-29 08:13:04] INFO root fetch - processPackages [llm-chain]: Remove: archive file [/home/abi/fetcher/tmp/llm-chain-0.0.9.tar.gz]
+[2023-06-29 08:13:04] INFO root fetch - main [MainThread]: End processing [llm-chain]: success
+[2023-06-29 08:13:04] INFO root fetch - processPackages [hestia-earth-validation]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-validation-0.9.2.tar.gz]
+[2023-06-29 08:13:04] INFO root fetch - processPackages [hestia-earth-validation]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-validation-0.9.3.tar.gz]
+[2023-06-29 08:13:04] INFO root fetch - main [MainThread]: End processing [hestia-earth-validation]: success
+[2023-06-29 08:13:04] INFO root fetch - processPackages [poe-api]: Remove: archive file [/home/abi/fetcher/tmp/poe_api-0.4.6-py3-none-any.whl.zip]
+[2023-06-29 08:13:04] INFO root fetch - processPackages [poe-api]: Remove: archive file [/home/abi/fetcher/tmp/poe_api-0.4.7-py3-none-any.whl.zip]
+[2023-06-29 08:13:04] INFO root fetch - main [MainThread]: End processing [poe-api]: success
+[2023-06-29 08:13:04] INFO root fetch - processPackages [zope.exceptions]: Remove: archive file [/home/abi/fetcher/tmp/zope.exceptions-4.6.tar.gz]
+[2023-06-29 08:13:04] INFO root fetch - processPackages [zope.exceptions]: Remove: archive file [/home/abi/fetcher/tmp/zope.exceptions-5.0.tar.gz]
+[2023-06-29 08:13:04] INFO root fetch - main [MainThread]: End processing [zope.exceptions]: success
+[2023-06-29 08:13:06] INFO root fetch - processPackages [mlcvzoo-base]: Remove: archive file [/home/abi/fetcher/tmp/mlcvzoo_base-5.3.4.tar.gz]
+[2023-06-29 08:13:06] INFO root fetch - processPackages [mlcvzoo-base]: Remove: archive file [/home/abi/fetcher/tmp/mlcvzoo_base-5.3.5.tar.gz]
+[2023-06-29 08:13:06] INFO root fetch - main [MainThread]: End processing [mlcvzoo-base]: success
+[2023-06-29 08:13:08] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.7.8.tar.gz]
+[2023-06-29 08:13:08] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.7.9.tar.gz]
+[2023-06-29 08:13:08] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2023-06-29 08:13:08] INFO root fetch - main [MainThread]: Store serial: [18690869]
