@@ -20209,3 +20209,95 @@ AssertionError: tmp/live_parquet-0.2.0.tar.gz does not exist
 [2023-06-29 20:57:41] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
 [2023-06-29 20:57:41] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-06-29 20:57:41] INFO root fetch - main [MainThread]: Store serial: [18699274]
+[2023-06-29 21:02:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18699274]
+[2023-06-29 21:02:50] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-29 21:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GastonImage
+[2023-06-29 21:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: botsy
+[2023-06-29 21:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sniimapp2
+[2023-06-29 21:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prefect
+[2023-06-29 21:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wtfl
+[2023-06-29 21:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycatsearch
+[2023-06-29 21:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: macrometa-target-mssql
+[2023-06-29 21:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: remotior-sensus
+[2023-06-29 21:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wad2023-program
+[2023-06-29 21:02:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: paramdb
+[2023-06-29 21:02:50] WARNING root fetch - processPackages [GastonImage]: Skipping, unable to determine old version
+[2023-06-29 21:02:50] INFO root fetch - processPackages [GastonImage]: Start processing: fastapi-orm-manager
+[2023-06-29 21:02:50] INFO root fetch - main [MainThread]: End processing [GastonImage] error
+[2023-06-29 21:02:50] INFO root fetch - processPackages [sniimapp2]: New version: [2.2] Old Version: [2.1]
+[2023-06-29 21:02:50] INFO root fetch - processPackages [botsy]: New version: [0.1.5] Old Version: [0.1.26]
+[2023-06-29 21:02:50] INFO root fetch - processPackages [wad2023-program]: New version: [1.2.0.dev0] Old Version: [1.1.1.dev0]
+[2023-06-29 21:02:50] INFO root fetch - processPackages [wtfl]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-29 21:02:50] INFO root fetch - processPackages [macrometa-target-mssql]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 21:02:50] INFO root fetch - processPackages [pycatsearch]: New version: [5.1.8] Old Version: [5.1.7]
+[2023-06-29 21:02:50] INFO root fetch - processPackages [prefect]: New version: [2.9.0] Old Version: [2.82]
+[2023-06-29 21:02:50] INFO root fetch - processPackages [remotior-sensus]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 21:02:50] INFO root fetch - processPackages [fastapi-orm-manager]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 21:02:50] INFO root fetch - processPackages [wad2023-program]: Downloading https://files.pythonhosted.org/packages/39/56/69105f3c2c52fad9bd35f13e603b8e6e742d36cc3e8e7ed7449b55e09053/wad2023-program-1.1.1.dev0.tar.gz
+[2023-06-29 21:02:51] INFO root fetch - processPackages [paramdb]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-29 21:02:51] INFO root fetch - processPackages [fastapi-orm-manager]: Downloading https://files.pythonhosted.org/packages/dd/2c/0d7f05beacca4842cc4f5b14352f3c3d18b993d2ac2b8ace7988cfadc311/fastapi_orm_manager-0.0.8.tar.gz
+[2023-06-29 21:02:51] INFO root fetch - processPackages [botsy]: Downloading https://files.pythonhosted.org/packages/df/1b/8b2c29fa3aa8eae438d5c39ae9bd5c9feb4d7936f86d8df0e6600ebb137b/botsy-0.1.26.tar.gz
+[2023-06-29 21:02:51] INFO root fetch - processPackages [sniimapp2]: Downloading https://files.pythonhosted.org/packages/4f/d9/3ab334745cc616bf53dae01503856ba6f7591c11f54774e12c398b9c06ec/sniimapp2-2.1.tar.gz
+[2023-06-29 21:02:51] INFO root fetch - processPackages [pycatsearch]: Downloading https://files.pythonhosted.org/packages/67/4e/464917fe4096bbbd28cde9d5252eac3c42c5d661b2893c46ea9a9fa40c96/pycatsearch-5.1.7.tar.gz
+[2023-06-29 21:02:51] WARNING root fetch - processPackages [botsy]: Skipping package: exceeds size limit 57266014>=10485760
+[2023-06-29 21:02:51] INFO root fetch - main [MainThread]: End processing [botsy] error
+[2023-06-29 21:02:51] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/47/28/bece1abc54ffab5f0cddaff5d6f1e02fac1343bfb72976d5794f50dad748/macrometa-target-mssql-0.0.8.tar.gz
+[2023-06-29 21:02:51] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/2d/82/4f0f8be3b8f3c4f00b90027ff3c32958918221be17a5ad7c3cf298d4af04/remotior_sensus-0.0.8.tar.gz
+[2023-06-29 21:02:51] INFO root fetch - processPackages [wtfl]: Downloading https://files.pythonhosted.org/packages/5b/1b/a6eedbb4583e3b3603faa3ba2c376e863f8fbf77f4c10f3e90b0d0e69797/wtfl-1.2.0.tar.gz
+[2023-06-29 21:02:51] INFO root fetch - processPackages [prefect]: Downloading https://files.pythonhosted.org/packages/20/bd/9580e89a911969805904dd984258f2250f96726fbb91373970a41c36aab3/prefect-2.82.tar.gz
+[2023-06-29 21:02:51] INFO root fetch - processPackages [paramdb]: Downloading https://files.pythonhosted.org/packages/a9/05/0d41bd1283427c17bdaae3d5baee30bfc913bf1ed79246e2bf7c60b9300d/paramdb-0.8.0.tar.gz
+[2023-06-29 21:02:51] INFO root fetch - processPackages [fastapi-orm-manager]: Downloading https://files.pythonhosted.org/packages/e1/0a/09527011b2951442ea3af5f11398d1b29c77865c74c5b44e24d3b76d46b9/fastapi_orm_manager-0.0.9.tar.gz
+[2023-06-29 21:02:51] INFO root fetch - processPackages [wad2023-program]: Downloading https://files.pythonhosted.org/packages/18/b6/2997a5e9f24fce814183b98021ee74f74ebb16ca0304a106723d114dbe9c/wad2023-program-1.2.0.dev0.tar.gz
+[2023-06-29 21:02:51] INFO root fetch - processPackages [sniimapp2]: Downloading https://files.pythonhosted.org/packages/fb/ba/91ff8212f9c35e9ae06318a623f1600b8eb1cf3e8851ffa7ac5c1cf700f5/sniimapp2-2.2.tar.gz
+[2023-06-29 21:02:51] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/3d/97/96f149d7c5c167814edbae8e9693e5915bdec86dfd31a669e08d21162ee9/macrometa-target-mssql-0.0.9.tar.gz
+[2023-06-29 21:02:51] INFO root fetch - processPackages [wad2023-program]: executing diffoscope
+[2023-06-29 21:02:51] INFO root fetch - processPackages [wad2023-program]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wad2023-program-1.1.1.dev0.tar.gz tmp/wad2023-program-1.2.0.dev0.tar.gz --markdown 20230629/w/wad2023-program/1.1.1.dev0-1.2.0.dev0/diff.md --exclude *.pyd
+[2023-06-29 21:02:51] INFO root fetch - processPackages [fastapi-orm-manager]: executing diffoscope
+[2023-06-29 21:02:51] INFO root fetch - processPackages [fastapi-orm-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_orm_manager-0.0.8.tar.gz tmp/fastapi_orm_manager-0.0.9.tar.gz --markdown 20230629/f/fastapi-orm-manager/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 21:02:51] INFO root fetch - processPackages [pycatsearch]: Downloading https://files.pythonhosted.org/packages/b2/94/80d10b88b271acc0eaf5ef789d9d2880a8eb3c5d5de7222016dbe8a58738/pycatsearch-5.1.8.tar.gz
+[2023-06-29 21:02:51] INFO root fetch - processPackages [sniimapp2]: executing diffoscope
+[2023-06-29 21:02:51] INFO root fetch - processPackages [sniimapp2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sniimapp2-2.1.tar.gz tmp/sniimapp2-2.2.tar.gz --markdown 20230629/s/sniimapp2/2.1-2.2/diff.md --exclude *.pyd
+[2023-06-29 21:02:51] INFO root fetch - processPackages [macrometa-target-mssql]: executing diffoscope
+[2023-06-29 21:02:51] INFO root fetch - processPackages [wtfl]: Downloading https://files.pythonhosted.org/packages/93/65/87267cae416ec922548a08045d5b7ee6ed4c8197e2f1045bd47c0ea4f270/wtfl-1.2.1.tar.gz
+[2023-06-29 21:02:51] INFO root fetch - processPackages [macrometa-target-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mssql-0.0.8.tar.gz tmp/macrometa-target-mssql-0.0.9.tar.gz --markdown 20230629/m/macrometa-target-mssql/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 21:02:51] INFO root fetch - processPackages [paramdb]: Downloading https://files.pythonhosted.org/packages/1c/0a/806aa240656a4021d78a1431af1e547e168ba905657b7d63ea0d3dbe5ed3/paramdb-0.9.0.tar.gz
+[2023-06-29 21:02:51] INFO root fetch - processPackages [pycatsearch]: executing diffoscope
+[2023-06-29 21:02:51] INFO root fetch - processPackages [pycatsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycatsearch-5.1.7.tar.gz tmp/pycatsearch-5.1.8.tar.gz --markdown 20230629/p/pycatsearch/5.1.7-5.1.8/diff.md --exclude *.pyd
+[2023-06-29 21:02:51] INFO root fetch - processPackages [wtfl]: executing diffoscope
+[2023-06-29 21:02:51] INFO root fetch - processPackages [wtfl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtfl-1.2.0.tar.gz tmp/wtfl-1.2.1.tar.gz --markdown 20230629/w/wtfl/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-29 21:02:51] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/e4/c8/0c6054910848b2651da24ecb17a3d9ab9a62b4c844a98797ec686eaac17b/remotior_sensus-0.0.9.tar.gz
+[2023-06-29 21:02:51] INFO root fetch - processPackages [paramdb]: executing diffoscope
+[2023-06-29 21:02:51] INFO root fetch - processPackages [paramdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paramdb-0.8.0.tar.gz tmp/paramdb-0.9.0.tar.gz --markdown 20230629/p/paramdb/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-29 21:02:51] INFO root fetch - processPackages [remotior-sensus]: executing diffoscope
+[2023-06-29 21:02:51] INFO root fetch - processPackages [remotior-sensus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotior_sensus-0.0.8.tar.gz tmp/remotior_sensus-0.0.9.tar.gz --markdown 20230629/r/remotior-sensus/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 21:02:52] INFO root fetch - processPackages [prefect]: Downloading https://files.pythonhosted.org/packages/52/49/e4a42ea984b987b634f492725a5484b96da5a97fda925a3d37ff0821ecae/prefect-2.9.0.tar.gz
+[2023-06-29 21:02:52] INFO root fetch - processPackages [prefect]: executing diffoscope
+[2023-06-29 21:02:52] INFO root fetch - processPackages [prefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefect-2.82.tar.gz tmp/prefect-2.9.0.tar.gz --markdown 20230629/p/prefect/2.82-2.9.0/diff.md --exclude *.pyd
+[2023-06-29 21:02:52] INFO root fetch - processPackages [fastapi-orm-manager]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_orm_manager-0.0.8.tar.gz]
+[2023-06-29 21:02:52] INFO root fetch - processPackages [fastapi-orm-manager]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_orm_manager-0.0.9.tar.gz]
+[2023-06-29 21:02:52] INFO root fetch - main [MainThread]: End processing [fastapi-orm-manager]: success
+[2023-06-29 21:02:52] INFO root fetch - processPackages [wad2023-program]: Remove: archive file [/home/abi/fetcher/tmp/wad2023-program-1.1.1.dev0.tar.gz]
+[2023-06-29 21:02:52] INFO root fetch - processPackages [wad2023-program]: Remove: archive file [/home/abi/fetcher/tmp/wad2023-program-1.2.0.dev0.tar.gz]
+[2023-06-29 21:02:52] INFO root fetch - main [MainThread]: End processing [wad2023-program]: success
+[2023-06-29 21:02:52] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.8.tar.gz]
+[2023-06-29 21:02:52] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.9.tar.gz]
+[2023-06-29 21:02:52] INFO root fetch - main [MainThread]: End processing [macrometa-target-mssql]: success
+[2023-06-29 21:02:52] INFO root fetch - processPackages [sniimapp2]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp2-2.1.tar.gz]
+[2023-06-29 21:02:52] INFO root fetch - processPackages [sniimapp2]: Remove: archive file [/home/abi/fetcher/tmp/sniimapp2-2.2.tar.gz]
+[2023-06-29 21:02:52] INFO root fetch - main [MainThread]: End processing [sniimapp2]: success
+[2023-06-29 21:02:52] INFO root fetch - processPackages [wtfl]: Remove: archive file [/home/abi/fetcher/tmp/wtfl-1.2.0.tar.gz]
+[2023-06-29 21:02:52] INFO root fetch - processPackages [wtfl]: Remove: archive file [/home/abi/fetcher/tmp/wtfl-1.2.1.tar.gz]
+[2023-06-29 21:02:52] INFO root fetch - main [MainThread]: End processing [wtfl]: success
+[2023-06-29 21:02:53] INFO root fetch - processPackages [paramdb]: Remove: archive file [/home/abi/fetcher/tmp/paramdb-0.8.0.tar.gz]
+[2023-06-29 21:02:53] INFO root fetch - processPackages [paramdb]: Remove: archive file [/home/abi/fetcher/tmp/paramdb-0.9.0.tar.gz]
+[2023-06-29 21:02:53] INFO root fetch - main [MainThread]: End processing [paramdb]: success
+[2023-06-29 21:02:53] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.8.tar.gz]
+[2023-06-29 21:02:53] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.9.tar.gz]
+[2023-06-29 21:02:53] INFO root fetch - main [MainThread]: End processing [remotior-sensus]: success
+[2023-06-29 21:02:53] INFO root fetch - processPackages [pycatsearch]: Remove: archive file [/home/abi/fetcher/tmp/pycatsearch-5.1.7.tar.gz]
+[2023-06-29 21:02:53] INFO root fetch - processPackages [pycatsearch]: Remove: archive file [/home/abi/fetcher/tmp/pycatsearch-5.1.8.tar.gz]
+[2023-06-29 21:02:53] INFO root fetch - main [MainThread]: End processing [pycatsearch]: success
+[2023-06-29 21:03:14] INFO root fetch - processPackages [prefect]: Remove: archive file [/home/abi/fetcher/tmp/prefect-2.82.tar.gz]
+[2023-06-29 21:03:14] INFO root fetch - processPackages [prefect]: Remove: archive file [/home/abi/fetcher/tmp/prefect-2.9.0.tar.gz]
+[2023-06-29 21:03:14] INFO root fetch - main [MainThread]: End processing [prefect]: success
+[2023-06-29 21:03:14] INFO root fetch - main [MainThread]: Store serial: [18699307]
