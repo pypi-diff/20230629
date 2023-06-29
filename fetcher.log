@@ -742,3 +742,83 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 08:45:36] INFO root fetch - processPackages [rdfdf]: Remove: archive file [/home/abi/fetcher/tmp/rdfdf-0.1.4.tar.gz]
 [2023-06-29 08:45:36] INFO root fetch - main [MainThread]: End processing [rdfdf]: success
 [2023-06-29 08:45:36] INFO root fetch - main [MainThread]: Store serial: [18691092]
+[2023-06-29 08:50:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18691092]
+[2023-06-29 08:50:45] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-29 08:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dank-mids
+[2023-06-29 08:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: superagent-py
+[2023-06-29 08:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: whatap-python
+[2023-06-29 08:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-29 08:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jupyter-collaboration
+[2023-06-29 08:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyquokka
+[2023-06-29 08:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zrb
+[2023-06-29 08:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langchain
+[2023-06-29 08:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kimariDraw
+[2023-06-29 08:50:45] INFO root fetch - processPackages [pyquokka]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-29 08:50:45] INFO root fetch - processPackages [superagent-py]: New version: [0.0.26] Old Version: [0.0.25]
+[2023-06-29 08:50:45] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-29 08:50:45] INFO root fetch - processPackages [whatap-python]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-29 08:50:45] INFO root fetch - processPackages [jupyter-collaboration]: New version: [1.0.1] Old Version: [1.0.0a9]
+[2023-06-29 08:50:45] INFO root fetch - processPackages [zrb]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 08:50:45] INFO root fetch - processPackages [kimariDraw]: New version: [1.1.1] Old Version: [1.1]
+[2023-06-29 08:50:45] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-06-29 08:50:45] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-29 08:50:45] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-29 08:50:45] INFO root fetch - processPackages [kimariDraw]: Downloading https://files.pythonhosted.org/packages/99/d1/035cd3c6cc3addd16cd19f8e5da6188703863372cf41bd25a21d306f1c45/kimariDraw-1.1.tar.gz
+[2023-06-29 08:50:45] INFO root fetch - processPackages [pyquokka]: Downloading https://files.pythonhosted.org/packages/c2/74/c0c71e095ecd97eb84a52168edc9e3a178f77f6ed1d6612755f14b0f3b9e/pyquokka-0.3.0-py3-none-any.whl
+[2023-06-29 08:50:45] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-29 08:50:45] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/cc/68/1f3a16b13cea7efe4cdfbe61fb88835ac5ae7abe9c761326a1b9850dfb52/superagent_py-0.0.25.tar.gz
+[2023-06-29 08:50:45] INFO root fetch - processPackages [whatap-python]: Downloading https://files.pythonhosted.org/packages/76/98/8a3d88702e0ba520d48128906a579a5fd0126ae96ca6e6a304cd963fcf10/whatap-python-1.3.8.tar.gz
+[2023-06-29 08:50:45] INFO root fetch - processPackages [jupyter-collaboration]: Downloading https://files.pythonhosted.org/packages/d9/b8/a6333e53590d05d79b0cd851507f707d2b2c16c38a702668cd26403a166d/jupyter_collaboration-1.0.0a9.tar.gz
+[2023-06-29 08:50:45] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-06-29 08:50:45] WARNING root fetch - processPackages [whatap-python]: Skipping package: exceeds size limit 11497806>=10485760
+[2023-06-29 08:50:45] INFO root fetch - main [MainThread]: End processing [whatap-python] error
+[2023-06-29 08:50:45] INFO root fetch - processPackages [kimariDraw]: Downloading https://files.pythonhosted.org/packages/b5/9d/880632f71c461530695c38af7ae0d34a4fd118de8004ee95b761f51b977a/kimariDraw-1.1.1.tar.gz
+[2023-06-29 08:50:45] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/30/24/7a33b243824d090473327938a5d9cd4148889b927653bd1df45802c27649/zrb-0.0.8.tar.gz
+[2023-06-29 08:50:45] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-29 08:50:45] INFO root fetch - processPackages [kimariDraw]: executing diffoscope
+[2023-06-29 08:50:45] INFO root fetch - processPackages [kimariDraw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kimariDraw-1.1.tar.gz tmp/kimariDraw-1.1.1.tar.gz --markdown 20230629/k/kimariDraw/1.1-1.1.1/diff.md --exclude *.pyd
+[2023-06-29 08:50:45] INFO root fetch - processPackages [pyquokka]: Downloading https://files.pythonhosted.org/packages/2c/3e/55badf3a55472df25c4eeb944c8f452add1c4b2087576c29ccd64b96102f/pyquokka-0.3.1-py3-none-any.whl
+[2023-06-29 08:50:45] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-29 08:50:45] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/7f/79/c7825600843fc20133e0e27f77355f5a5d6acfd2e137643be3343bcbce90/superagent_py-0.0.26.tar.gz
+[2023-06-29 08:50:45] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-29 08:50:45] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230629/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-29 08:50:45] INFO root fetch - processPackages [jupyter-collaboration]: Downloading https://files.pythonhosted.org/packages/47/64/5e5cc5e57ad628913c1eba1fdaeb156b1043bf6d00d30823bbcfd0e2e7b9/jupyter_collaboration-1.0.1.tar.gz
+[2023-06-29 08:50:45] INFO root fetch - processPackages [pyquokka]: executing diffoscope
+[2023-06-29 08:50:45] INFO root fetch - processPackages [pyquokka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquokka-0.3.0-py3-none-any.whl.zip tmp/pyquokka-0.3.1-py3-none-any.whl.zip --markdown 20230629/p/pyquokka/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-29 08:50:46] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-29 08:50:46] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230629/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-29 08:50:46] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-06-29 08:50:46] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/8d/80/885cb50dd492ad011338deeabb6f07312d2c3da55917c9e243dd40e7a274/zrb-0.0.9.tar.gz
+[2023-06-29 08:50:46] INFO root fetch - processPackages [jupyter-collaboration]: executing diffoscope
+[2023-06-29 08:50:46] INFO root fetch - processPackages [jupyter-collaboration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_collaboration-1.0.0a9.tar.gz tmp/jupyter_collaboration-1.0.1.tar.gz --markdown 20230629/j/jupyter-collaboration/1.0.0a9-1.0.1/diff.md --exclude *.pyd
+[2023-06-29 08:50:46] INFO root fetch - processPackages [superagent-py]: executing diffoscope
+[2023-06-29 08:50:46] INFO root fetch - processPackages [superagent-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superagent_py-0.0.25.tar.gz tmp/superagent_py-0.0.26.tar.gz --markdown 20230629/s/superagent-py/0.0.25-0.0.26/diff.md --exclude *.pyd
+[2023-06-29 08:50:46] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-06-29 08:50:46] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230629/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-06-29 08:50:46] INFO root fetch - processPackages [zrb]: executing diffoscope
+[2023-06-29 08:50:46] INFO root fetch - processPackages [zrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb-0.0.8.tar.gz tmp/zrb-0.0.9.tar.gz --markdown 20230629/z/zrb/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 08:50:47] INFO root fetch - processPackages [kimariDraw]: Remove: archive file [/home/abi/fetcher/tmp/kimariDraw-1.1.tar.gz]
+[2023-06-29 08:50:47] INFO root fetch - processPackages [kimariDraw]: Remove: archive file [/home/abi/fetcher/tmp/kimariDraw-1.1.1.tar.gz]
+[2023-06-29 08:50:47] INFO root fetch - main [MainThread]: End processing [kimariDraw]: success
+[2023-06-29 08:50:47] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.0.25.tar.gz]
+[2023-06-29 08:50:47] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.0.26.tar.gz]
+[2023-06-29 08:50:47] INFO root fetch - main [MainThread]: End processing [superagent-py]: success
+[2023-06-29 08:50:47] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-29 08:50:47] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-29 08:50:47] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-29 08:50:47] INFO root fetch - processPackages [pyquokka]: Remove: archive file [/home/abi/fetcher/tmp/pyquokka-0.3.0-py3-none-any.whl.zip]
+[2023-06-29 08:50:47] INFO root fetch - processPackages [pyquokka]: Remove: archive file [/home/abi/fetcher/tmp/pyquokka-0.3.1-py3-none-any.whl.zip]
+[2023-06-29 08:50:47] INFO root fetch - main [MainThread]: End processing [pyquokka]: success
+[2023-06-29 08:50:48] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.0.8.tar.gz]
+[2023-06-29 08:50:48] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.0.9.tar.gz]
+[2023-06-29 08:50:48] INFO root fetch - main [MainThread]: End processing [zrb]: success
+[2023-06-29 08:50:49] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99.tar.gz]
+[2023-06-29 08:50:49] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
+[2023-06-29 08:50:49] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-06-29 08:50:49] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-29 08:50:49] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-29 08:50:49] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-29 08:50:50] INFO root fetch - processPackages [jupyter-collaboration]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_collaboration-1.0.0a9.tar.gz]
+[2023-06-29 08:50:50] INFO root fetch - processPackages [jupyter-collaboration]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_collaboration-1.0.1.tar.gz]
+[2023-06-29 08:50:50] INFO root fetch - main [MainThread]: End processing [jupyter-collaboration]: success
+[2023-06-29 08:50:50] INFO root fetch - main [MainThread]: Store serial: [18691124]
