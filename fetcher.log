@@ -21875,3 +21875,123 @@ EOFError: EOF read where object expected
 [2023-06-29 22:14:19] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.345.6.tar.gz]
 [2023-06-29 22:14:19] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-06-29 22:14:19] INFO root fetch - main [MainThread]: Store serial: [18699935]
+[2023-06-29 22:19:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18699935]
+[2023-06-29 22:19:29] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-29 22:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arabica
+[2023-06-29 22:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fhir-analyzer
+[2023-06-29 22:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pmxbot
+[2023-06-29 22:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: example-package-zaw
+[2023-06-29 22:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ministats
+[2023-06-29 22:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rai-benchmark-test
+[2023-06-29 22:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: niworkflows
+[2023-06-29 22:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-master
+[2023-06-29 22:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: q2rad
+[2023-06-29 22:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SAC-Tello
+[2023-06-29 22:19:29] INFO root fetch - processPackages [arabica]: New version: [1.6.6] Old Version: [1.6.5]
+[2023-06-29 22:19:29] INFO root fetch - processPackages [niworkflows]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-06-29 22:19:29] INFO root fetch - processPackages [pmxbot]: New version: [1122.9.3] Old Version: [1122.9.2]
+[2023-06-29 22:19:29] INFO root fetch - processPackages [rai-benchmark-test]: New version: [0.7] Old Version: [0.6]
+[2023-06-29 22:19:29] INFO root fetch - processPackages [fhir-analyzer]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-29 22:19:29] WARNING root fetch - processPackages [ministats]: Skipping, unable to determine old version
+[2023-06-29 22:19:29] INFO root fetch - processPackages [ministats]: Start processing: s60z
+[2023-06-29 22:19:29] INFO root fetch - main [MainThread]: End processing [ministats] error
+[2023-06-29 22:19:29] WARNING root fetch - processPackages [example-package-zaw]: Skipping, unable to determine old version
+[2023-06-29 22:19:29] INFO root fetch - processPackages [example-package-zaw]: Start processing: spear-tts-pytorch
+[2023-06-29 22:19:29] INFO root fetch - main [MainThread]: End processing [example-package-zaw] error
+[2023-06-29 22:19:29] INFO root fetch - processPackages [SAC-Tello]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-29 22:19:29] INFO root fetch - processPackages [s60z]: New version: [0.2.5] Old Version: [0.2.3]
+[2023-06-29 22:19:29] INFO root fetch - processPackages [q2rad]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-29 22:19:29] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230629.9.26.822535] Old Version: [20230629.20.15.600461]
+[2023-06-29 22:19:29] INFO root fetch - processPackages [spear-tts-pytorch]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-29 22:19:29] INFO root fetch - processPackages [arabica]: Downloading https://files.pythonhosted.org/packages/19/1d/872a7aa8fc1502b0d35d7eeec6f628f14a2e81392b0c9d17fa595ac68163/arabica-1.6.5.tar.gz
+[2023-06-29 22:19:29] INFO root fetch - processPackages [SAC-Tello]: Downloading https://files.pythonhosted.org/packages/9b/9f/a62a4710130d02848df2fc4bdf5887d9afbb27ae2538ded982b0e4f68812/sac_tello-0.0.6.tar.gz
+[2023-06-29 22:19:29] INFO root fetch - processPackages [spear-tts-pytorch]: Downloading https://files.pythonhosted.org/packages/4b/73/749cd866bda86672bf347ce04617d9143a566a40bb11f5cddfe49477f28b/spear-tts-pytorch-0.0.4.tar.gz
+[2023-06-29 22:19:29] INFO root fetch - processPackages [rai-benchmark-test]: Downloading https://files.pythonhosted.org/packages/87/33/13ecb0efb1b143f29853f2e6657bcd6b67e1a517eb2e7b02abf4d7353d00/rai_benchmark_test-0.6.tar.gz
+[2023-06-29 22:19:29] INFO root fetch - processPackages [fhir-analyzer]: Downloading https://files.pythonhosted.org/packages/7e/26/8335111f9bd9ce25f3416a7286b2a9c7806934b23884f5b52fff7674ee4d/fhir_analyzer-0.0.4.tar.gz
+[2023-06-29 22:19:29] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/ab/be/0df36db8f44b5ace64ee32b2f819d13b4b383e9a0e7d81a8ddb5b8475f82/certora-cli-alpha-master-20230629.20.15.600461.tar.gz
+[2023-06-29 22:19:29] INFO root fetch - processPackages [pmxbot]: Downloading https://files.pythonhosted.org/packages/ab/fc/2d9c3f76f69fcb8bc55d3cf04174c39ff90711b9e023528b9d11f0247b20/pmxbot-1122.9.2.tar.gz
+[2023-06-29 22:19:29] INFO root fetch - processPackages [niworkflows]: Downloading https://files.pythonhosted.org/packages/e6/4a/09d5339ec9e13314e6389cc0c4d412833bf6adac69a2b0967516eeacee96/niworkflows-1.8.0.tar.gz
+[2023-06-29 22:19:29] INFO root fetch - processPackages [s60z]: Downloading https://files.pythonhosted.org/packages/ae/3a/a65e8f6e16ae3688df819509fdc45679d1c9d5dc7483530db63ca653d3d7/s60z-0.2.5.tar.gz
+[2023-06-29 22:19:29] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37420565>=10485760
+[2023-06-29 22:19:29] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: oking
+[2023-06-29 22:19:29] INFO root fetch - processPackages [arabica]: Downloading https://files.pythonhosted.org/packages/fb/ab/1cbb95340004067c485bd14877c75460f688bd04c994064a627de240fd01/arabica-1.6.6.tar.gz
+[2023-06-29 22:19:29] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-29 22:19:29] INFO root fetch - processPackages [SAC-Tello]: Downloading https://files.pythonhosted.org/packages/e0/4c/fdeb3748dc3e2e0d8729c0fe96a7d478206d3d277f943f40e26f8d19ee9e/sac_tello-0.0.7.tar.gz
+[2023-06-29 22:19:29] INFO root fetch - processPackages [s60z]: executing diffoscope
+[2023-06-29 22:19:29] INFO root fetch - processPackages [spear-tts-pytorch]: Downloading https://files.pythonhosted.org/packages/e5/c3/9f166b374b5bc6754c1ec671fd701540b14fed3e0a33404013a0294f9bc0/spear-tts-pytorch-0.0.5.tar.gz
+[2023-06-29 22:19:29] INFO root fetch - processPackages [s60z]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s60z-0.2.3.tar.gz tmp/s60z-0.2.5.tar.gz --markdown 20230629/s/s60z/0.2.3-0.2.5/diff.md --exclude *.pyd
+[2023-06-29 22:19:29] INFO root fetch - processPackages [oking]: New version: [4.1.178] Old Version: [4.1.177]
+[2023-06-29 22:19:29] WARNING root fetch - processPackages [niworkflows]: Skipping package: exceeds size limit 73988599>=10485760
+[2023-06-29 22:19:29] INFO root fetch - processPackages [niworkflows]: Start processing: python-mlb-statsapi
+[2023-06-29 22:19:29] INFO root fetch - main [MainThread]: End processing [niworkflows] error
+[2023-06-29 22:19:29] INFO root fetch - processPackages [fhir-analyzer]: Downloading https://files.pythonhosted.org/packages/6b/9d/ccc94b1e0c6a7b809d1a9e900933159d9a47df6ea8c004e6cc3b3040bed9/fhir_analyzer-0.0.5.tar.gz
+[2023-06-29 22:19:29] INFO root fetch - processPackages [q2rad]: executing diffoscope
+[2023-06-29 22:19:29] INFO root fetch - processPackages [q2rad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2rad-0.1.98.tar.gz tmp/q2rad-0.1.99.tar.gz --markdown 20230629/q/q2rad/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-29 22:19:29] INFO root fetch - processPackages [rai-benchmark-test]: Downloading https://files.pythonhosted.org/packages/e9/d7/310d816caa238acadfd8eb493d034d525ee83c86b4ec8cc02c51fecd1405/rai_benchmark_test-0.7.tar.gz
+[2023-06-29 22:19:29] INFO root fetch - processPackages [arabica]: executing diffoscope
+[2023-06-29 22:19:29] INFO root fetch - processPackages [arabica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arabica-1.6.5.tar.gz tmp/arabica-1.6.6.tar.gz --markdown 20230629/a/arabica/1.6.5-1.6.6/diff.md --exclude *.pyd
+[2023-06-29 22:19:29] INFO root fetch - processPackages [python-mlb-statsapi]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-29 22:19:29] INFO root fetch - processPackages [SAC-Tello]: executing diffoscope
+[2023-06-29 22:19:29] INFO root fetch - processPackages [SAC-Tello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sac_tello-0.0.6.tar.gz tmp/sac_tello-0.0.7.tar.gz --markdown 20230629/S/SAC-Tello/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-29 22:19:29] INFO root fetch - processPackages [pmxbot]: Downloading https://files.pythonhosted.org/packages/1b/e7/14e272769ecd82df63b0c9cf7a3bcf1fc3fd72cde627bded97e636fdde7c/pmxbot-1122.9.3.tar.gz
+[2023-06-29 22:19:29] INFO root fetch - processPackages [fhir-analyzer]: executing diffoscope
+[2023-06-29 22:19:29] INFO root fetch - processPackages [fhir-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fhir_analyzer-0.0.4.tar.gz tmp/fhir_analyzer-0.0.5.tar.gz --markdown 20230629/f/fhir-analyzer/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-29 22:19:29] INFO root fetch - processPackages [spear-tts-pytorch]: executing diffoscope
+[2023-06-29 22:19:29] INFO root fetch - processPackages [spear-tts-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spear-tts-pytorch-0.0.4.tar.gz tmp/spear-tts-pytorch-0.0.5.tar.gz --markdown 20230629/s/spear-tts-pytorch/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-29 22:19:29] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/f9/b0/575f37a3ffa607c2634d5993fda2d16b7c09039c236c81eb1ef0ec1fe83d/oking-4.1.177.tar.gz
+[2023-06-29 22:19:29] INFO root fetch - processPackages [rai-benchmark-test]: executing diffoscope
+[2023-06-29 22:19:29] INFO root fetch - processPackages [rai-benchmark-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rai_benchmark_test-0.6.tar.gz tmp/rai_benchmark_test-0.7.tar.gz --markdown 20230629/r/rai-benchmark-test/0.6-0.7/diff.md --exclude *.pyd
+[2023-06-29 22:19:29] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82501261>=10485760
+[2023-06-29 22:19:29] INFO root fetch - processPackages [oking]: Start processing: delve-fs
+[2023-06-29 22:19:29] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-06-29 22:19:29] INFO root fetch - processPackages [python-mlb-statsapi]: Downloading https://files.pythonhosted.org/packages/a5/20/febdcd1ad3483cfc7e6699b160d03f25ce5ed6bf055d60105153317982f7/python-mlb-statsapi-0.5.8.tar.gz
+[2023-06-29 22:19:30] INFO root fetch - processPackages [pmxbot]: executing diffoscope
+[2023-06-29 22:19:30] INFO root fetch - processPackages [pmxbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmxbot-1122.9.2.tar.gz tmp/pmxbot-1122.9.3.tar.gz --markdown 20230629/p/pmxbot/1122.9.2-1122.9.3/diff.md --exclude *.pyd
+[2023-06-29 22:19:30] INFO root fetch - processPackages [delve-fs]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-29 22:19:30] INFO root fetch - processPackages [python-mlb-statsapi]: Downloading https://files.pythonhosted.org/packages/44/6f/8ba2db292dec9a8b271bef9240cbe48d8283e48bc816d1202d28fbfcf3b7/python-mlb-statsapi-0.5.9.tar.gz
+[2023-06-29 22:19:30] INFO root fetch - processPackages [delve-fs]: Downloading https://files.pythonhosted.org/packages/f0/e2/5e0dbad6da33380f2cbeb55c850be000268f57915196921e82bf69b1c0c5/delve-fs-0.1.0.tar.gz
+[2023-06-29 22:19:30] INFO root fetch - processPackages [python-mlb-statsapi]: executing diffoscope
+[2023-06-29 22:19:30] INFO root fetch - processPackages [python-mlb-statsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-mlb-statsapi-0.5.8.tar.gz tmp/python-mlb-statsapi-0.5.9.tar.gz --markdown 20230629/p/python-mlb-statsapi/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-29 22:19:30] INFO root fetch - processPackages [delve-fs]: Downloading https://files.pythonhosted.org/packages/31/6a/b584e00ddc480daa58828629c4749f7eb80087a62cf5066e72435634ae14/delve-fs-0.1.1.tar.gz
+[2023-06-29 22:19:30] INFO root fetch - processPackages [delve-fs]: executing diffoscope
+[2023-06-29 22:19:30] INFO root fetch - processPackages [delve-fs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delve-fs-0.1.0.tar.gz tmp/delve-fs-0.1.1.tar.gz --markdown 20230629/d/delve-fs/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-29 22:19:30] INFO root fetch - processPackages [s60z]: Remove: archive file [/home/abi/fetcher/tmp/s60z-0.2.3.tar.gz]
+[2023-06-29 22:19:30] INFO root fetch - processPackages [s60z]: Remove: archive file [/home/abi/fetcher/tmp/s60z-0.2.5.tar.gz]
+[2023-06-29 22:19:30] INFO root fetch - processPackages [s60z]: Start processing: abm-shape-collection
+[2023-06-29 22:19:30] INFO root fetch - main [MainThread]: End processing [s60z]: success
+[2023-06-29 22:19:30] INFO root fetch - processPackages [abm-shape-collection]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-29 22:19:30] INFO root fetch - processPackages [q2rad]: Remove: archive file [/home/abi/fetcher/tmp/q2rad-0.1.98.tar.gz]
+[2023-06-29 22:19:30] INFO root fetch - processPackages [q2rad]: Remove: archive file [/home/abi/fetcher/tmp/q2rad-0.1.99.tar.gz]
+[2023-06-29 22:19:30] INFO root fetch - main [MainThread]: End processing [q2rad]: success
+[2023-06-29 22:19:31] INFO root fetch - processPackages [arabica]: Remove: archive file [/home/abi/fetcher/tmp/arabica-1.6.5.tar.gz]
+[2023-06-29 22:19:31] INFO root fetch - processPackages [arabica]: Remove: archive file [/home/abi/fetcher/tmp/arabica-1.6.6.tar.gz]
+[2023-06-29 22:19:31] INFO root fetch - main [MainThread]: End processing [arabica]: success
+[2023-06-29 22:19:31] INFO root fetch - processPackages [abm-shape-collection]: Downloading https://files.pythonhosted.org/packages/ac/0a/801143db3ac7c909e931f63dee6722314a24d75c8e4b47db6df8ee18772d/abm_shape_collection-0.5.0.tar.gz
+[2023-06-29 22:19:31] INFO root fetch - processPackages [fhir-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/fhir_analyzer-0.0.4.tar.gz]
+[2023-06-29 22:19:31] INFO root fetch - processPackages [fhir-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/fhir_analyzer-0.0.5.tar.gz]
+[2023-06-29 22:19:31] INFO root fetch - main [MainThread]: End processing [fhir-analyzer]: success
+[2023-06-29 22:19:31] INFO root fetch - processPackages [spear-tts-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/spear-tts-pytorch-0.0.4.tar.gz]
+[2023-06-29 22:19:31] INFO root fetch - processPackages [spear-tts-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/spear-tts-pytorch-0.0.5.tar.gz]
+[2023-06-29 22:19:31] INFO root fetch - main [MainThread]: End processing [spear-tts-pytorch]: success
+[2023-06-29 22:19:31] INFO root fetch - processPackages [abm-shape-collection]: Downloading https://files.pythonhosted.org/packages/a0/8a/ffb51c440aaab03ce6aabba8a89942839bc07f572523f5b02ece9dbdaa8e/abm_shape_collection-0.6.0.tar.gz
+[2023-06-29 22:19:31] INFO root fetch - processPackages [abm-shape-collection]: executing diffoscope
+[2023-06-29 22:19:31] INFO root fetch - processPackages [abm-shape-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abm_shape_collection-0.5.0.tar.gz tmp/abm_shape_collection-0.6.0.tar.gz --markdown 20230629/a/abm-shape-collection/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-29 22:19:31] INFO root fetch - processPackages [rai-benchmark-test]: Remove: archive file [/home/abi/fetcher/tmp/rai_benchmark_test-0.6.tar.gz]
+[2023-06-29 22:19:31] INFO root fetch - processPackages [rai-benchmark-test]: Remove: archive file [/home/abi/fetcher/tmp/rai_benchmark_test-0.7.tar.gz]
+[2023-06-29 22:19:31] INFO root fetch - main [MainThread]: End processing [rai-benchmark-test]: success
+[2023-06-29 22:19:32] INFO root fetch - processPackages [python-mlb-statsapi]: Remove: archive file [/home/abi/fetcher/tmp/python-mlb-statsapi-0.5.8.tar.gz]
+[2023-06-29 22:19:32] INFO root fetch - processPackages [python-mlb-statsapi]: Remove: archive file [/home/abi/fetcher/tmp/python-mlb-statsapi-0.5.9.tar.gz]
+[2023-06-29 22:19:32] INFO root fetch - main [MainThread]: End processing [python-mlb-statsapi]: success
+[2023-06-29 22:19:32] INFO root fetch - processPackages [SAC-Tello]: Remove: archive file [/home/abi/fetcher/tmp/sac_tello-0.0.6.tar.gz]
+[2023-06-29 22:19:32] INFO root fetch - processPackages [SAC-Tello]: Remove: archive file [/home/abi/fetcher/tmp/sac_tello-0.0.7.tar.gz]
+[2023-06-29 22:19:32] INFO root fetch - main [MainThread]: End processing [SAC-Tello]: success
+[2023-06-29 22:19:32] INFO root fetch - processPackages [delve-fs]: Remove: archive file [/home/abi/fetcher/tmp/delve-fs-0.1.0.tar.gz]
+[2023-06-29 22:19:32] INFO root fetch - processPackages [delve-fs]: Remove: archive file [/home/abi/fetcher/tmp/delve-fs-0.1.1.tar.gz]
+[2023-06-29 22:19:32] INFO root fetch - main [MainThread]: End processing [delve-fs]: success
+[2023-06-29 22:19:32] INFO root fetch - processPackages [abm-shape-collection]: Remove: archive file [/home/abi/fetcher/tmp/abm_shape_collection-0.5.0.tar.gz]
+[2023-06-29 22:19:32] INFO root fetch - processPackages [abm-shape-collection]: Remove: archive file [/home/abi/fetcher/tmp/abm_shape_collection-0.6.0.tar.gz]
+[2023-06-29 22:19:32] INFO root fetch - main [MainThread]: End processing [abm-shape-collection]: success
+[2023-06-29 22:19:33] INFO root fetch - processPackages [pmxbot]: Remove: archive file [/home/abi/fetcher/tmp/pmxbot-1122.9.2.tar.gz]
+[2023-06-29 22:19:33] INFO root fetch - processPackages [pmxbot]: Remove: archive file [/home/abi/fetcher/tmp/pmxbot-1122.9.3.tar.gz]
+[2023-06-29 22:19:33] INFO root fetch - main [MainThread]: End processing [pmxbot]: success
+[2023-06-29 22:19:33] INFO root fetch - main [MainThread]: Store serial: [18699998]
