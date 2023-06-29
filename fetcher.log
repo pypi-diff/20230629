@@ -10360,3 +10360,59 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 14:45:21] INFO root fetch - processPackages [Geode-Numerics]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Numerics-3.0.6rc1-cp39-cp39-win_amd64.whl.zip]
 [2023-06-29 14:45:21] INFO root fetch - main [MainThread]: End processing [Geode-Numerics]: success
 [2023-06-29 14:45:21] INFO root fetch - main [MainThread]: Store serial: [18695049]
+[2023-06-29 14:50:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18695049]
+[2023-06-29 14:50:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-29 14:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unified-planning
+[2023-06-29 14:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drf-passage-identity
+[2023-06-29 14:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dipex
+[2023-06-29 14:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lollms
+[2023-06-29 14:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: st-microservice
+[2023-06-29 14:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-pagination-utilities
+[2023-06-29 14:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ikfast-pybind-tmp
+[2023-06-29 14:50:34] INFO root fetch - processPackages [unified-planning]: New version: [0.6.0.94.dev1] Old Version: [0.6.0.9.dev1]
+[2023-06-29 14:50:34] INFO root fetch - processPackages [lollms]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-29 14:50:34] INFO root fetch - processPackages [drf-passage-identity]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-29 14:50:34] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-06-29 14:50:34] WARNING root fetch - processPackages [ikfast-pybind-tmp]: Skipping, unable to determine old version
+[2023-06-29 14:50:34] INFO root fetch - main [MainThread]: End processing [ikfast-pybind-tmp] error
+[2023-06-29 14:50:34] INFO root fetch - processPackages [fastapi-pagination-utilities]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-29 14:50:34] INFO root fetch - processPackages [st-microservice]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-29 14:50:34] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/fe/3d/85cbf5d99367a136ba4a9f76c11b9b36b75a37c1f317ca08c18bb879251d/lollms-2.0.8.tar.gz
+[2023-06-29 14:50:34] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 31791875>=10485760
+[2023-06-29 14:50:34] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-29 14:50:34] INFO root fetch - processPackages [drf-passage-identity]: Downloading https://files.pythonhosted.org/packages/a8/6e/8a7a0ff0bec48af11d4346a9c078b4a476504fee537f911210b1c1ffbf24/drf-passage-identity-0.0.1.tar.gz
+[2023-06-29 14:50:34] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/7b/cd/ac15f362b634f8dfca374107a12b11d18cda8da3341e1e1de92d45e36fc9/unified_planning-0.6.0.9.dev1.tar.gz
+[2023-06-29 14:50:34] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/ca/fb/bcdbc34d4ffff4b37acd3e2fb76f42bcea1844762d4b998c319652fc6b38/dipex-4.9.1.tar.gz
+[2023-06-29 14:50:34] INFO root fetch - processPackages [st-microservice]: Downloading https://files.pythonhosted.org/packages/14/3f/326843a9564a94328b59d0f2ae0411d9ebb51df4af14613d0c4a6a1e81b2/st_microservice-0.9.8.tar.gz
+[2023-06-29 14:50:34] INFO root fetch - processPackages [fastapi-pagination-utilities]: Downloading https://files.pythonhosted.org/packages/c0/88/9ce0c3b41e486999347f07c6626aa085a04fcb425b4ffdab577c111cdb00/fastapi-pagination-utilities-0.9.0.tar.gz
+[2023-06-29 14:50:35] INFO root fetch - processPackages [drf-passage-identity]: Downloading https://files.pythonhosted.org/packages/2f/56/d20a819fb1abbab7dcd277b9bbbc7062def222b6b9e50751711c1ede1f64/drf-passage-identity-0.0.2.tar.gz
+[2023-06-29 14:50:35] INFO root fetch - processPackages [drf-passage-identity]: executing diffoscope
+[2023-06-29 14:50:35] INFO root fetch - processPackages [drf-passage-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-passage-identity-0.0.1.tar.gz tmp/drf-passage-identity-0.0.2.tar.gz --markdown 20230629/d/drf-passage-identity/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-29 14:50:35] INFO root fetch - processPackages [fastapi-pagination-utilities]: Downloading https://files.pythonhosted.org/packages/c5/3f/baefc355fafd85f5ea074e62881faca10146d81dd80fcf7fed718eb17b11/fastapi-pagination-utilities-0.9.1.tar.gz
+[2023-06-29 14:50:35] INFO root fetch - processPackages [st-microservice]: Downloading https://files.pythonhosted.org/packages/2c/f5/8b62561ffc9a8e02841c7dcb7be6ff9dc742da988b64e7f553ef182db1a0/st_microservice-0.9.9.tar.gz
+[2023-06-29 14:50:35] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/d3/fa/fbf692999f299bb256217f34df9cc1e4ee2f9e1ae9e87e051b2b8b92aaa1/dipex-4.9.2.tar.gz
+[2023-06-29 14:50:35] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/47/44/b13fcddb5405f914c9898095cd7fd61a47cc4647a4065d3a61f28919f91a/unified_planning-0.6.0.94.dev1.tar.gz
+[2023-06-29 14:50:35] INFO root fetch - processPackages [fastapi-pagination-utilities]: executing diffoscope
+[2023-06-29 14:50:35] INFO root fetch - processPackages [fastapi-pagination-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-pagination-utilities-0.9.0.tar.gz tmp/fastapi-pagination-utilities-0.9.1.tar.gz --markdown 20230629/f/fastapi-pagination-utilities/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-29 14:50:35] INFO root fetch - processPackages [st-microservice]: executing diffoscope
+[2023-06-29 14:50:35] INFO root fetch - processPackages [st-microservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_microservice-0.9.8.tar.gz tmp/st_microservice-0.9.9.tar.gz --markdown 20230629/s/st-microservice/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-29 14:50:35] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-06-29 14:50:35] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230629/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-06-29 14:50:35] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-06-29 14:50:35] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-0.6.0.9.dev1.tar.gz tmp/unified_planning-0.6.0.94.dev1.tar.gz --markdown 20230629/u/unified-planning/0.6.0.9.dev1-0.6.0.94.dev1/diff.md --exclude *.pyd
+[2023-06-29 14:50:36] INFO root fetch - processPackages [drf-passage-identity]: Remove: archive file [/home/abi/fetcher/tmp/drf-passage-identity-0.0.1.tar.gz]
+[2023-06-29 14:50:36] INFO root fetch - processPackages [drf-passage-identity]: Remove: archive file [/home/abi/fetcher/tmp/drf-passage-identity-0.0.2.tar.gz]
+[2023-06-29 14:50:36] INFO root fetch - main [MainThread]: End processing [drf-passage-identity]: success
+[2023-06-29 14:50:36] INFO root fetch - processPackages [st-microservice]: Remove: archive file [/home/abi/fetcher/tmp/st_microservice-0.9.8.tar.gz]
+[2023-06-29 14:50:36] INFO root fetch - processPackages [st-microservice]: Remove: archive file [/home/abi/fetcher/tmp/st_microservice-0.9.9.tar.gz]
+[2023-06-29 14:50:36] INFO root fetch - main [MainThread]: End processing [st-microservice]: success
+[2023-06-29 14:50:36] INFO root fetch - processPackages [fastapi-pagination-utilities]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-pagination-utilities-0.9.0.tar.gz]
+[2023-06-29 14:50:36] INFO root fetch - processPackages [fastapi-pagination-utilities]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-pagination-utilities-0.9.1.tar.gz]
+[2023-06-29 14:50:36] INFO root fetch - main [MainThread]: End processing [fastapi-pagination-utilities]: success
+[2023-06-29 14:50:37] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.1.tar.gz]
+[2023-06-29 14:50:37] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.2.tar.gz]
+[2023-06-29 14:50:37] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-06-29 14:50:39] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-0.6.0.9.dev1.tar.gz]
+[2023-06-29 14:50:39] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-0.6.0.94.dev1.tar.gz]
+[2023-06-29 14:50:39] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-06-29 14:50:39] INFO root fetch - main [MainThread]: Store serial: [18695073]
