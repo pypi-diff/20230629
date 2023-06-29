@@ -3407,3 +3407,115 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 10:55:42] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev5410321437.tar.gz]
 [2023-06-29 10:55:42] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
 [2023-06-29 10:55:42] INFO root fetch - main [MainThread]: Store serial: [18692306]
+[2023-06-29 11:00:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18692306]
+[2023-06-29 11:00:50] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-29 11:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lib-preprocessing-REMLA23-team2
+[2023-06-29 11:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fwdviewpy
+[2023-06-29 11:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hotsos
+[2023-06-29 11:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-matter-server
+[2023-06-29 11:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deeplcretrainer
+[2023-06-29 11:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bubble-aide
+[2023-06-29 11:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xt-st-common
+[2023-06-29 11:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kiara-plugin.streamlit
+[2023-06-29 11:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lib-preprocessing-REMLA23-team2
+[2023-06-29 11:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kiara-plugin.develop
+[2023-06-29 11:00:51] INFO root fetch - processPackages [kiara-plugin.streamlit]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-29 11:00:51] INFO root fetch - processPackages [fwdviewpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 11:00:51] INFO root fetch - processPackages [lib-preprocessing-REMLA23-team2]: New version: [0.1.3] Old Version: [0.1.21]
+[2023-06-29 11:00:51] INFO root fetch - processPackages [hotsos]: New version: [1.15.post1] Old Version: [1.1.14.post9]
+[2023-06-29 11:00:51] INFO root fetch - processPackages [xt-st-common]: New version: [0.9.1] Old Version: [0.8.4]
+[2023-06-29 11:00:51] INFO root fetch - processPackages [lib-preprocessing-REMLA23-team2]: New version: [0.1.3] Old Version: [0.1.21]
+[2023-06-29 11:00:51] INFO root fetch - processPackages [bubble-aide]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-29 11:00:51] INFO root fetch - processPackages [deeplcretrainer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 11:00:51] INFO root fetch - processPackages [python-matter-server]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-06-29 11:00:51] INFO root fetch - processPackages [kiara-plugin.develop]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-29 11:00:51] INFO root fetch - processPackages [deeplcretrainer]: Downloading https://files.pythonhosted.org/packages/7c/9e/112506fcca1e563005283e957b25fa4467d58d085ccac4ad8c92f7358f89/deeplcretrainer-0.1.8.tar.gz
+[2023-06-29 11:00:51] INFO root fetch - processPackages [python-matter-server]: Downloading https://files.pythonhosted.org/packages/af/b7/f045482899dbac9afc95c6c86180bc222ecc2a2184d9bea349376f58e4fa/python-matter-server-3.6.2.tar.gz
+[2023-06-29 11:00:51] INFO root fetch - processPackages [lib-preprocessing-REMLA23-team2]: Downloading https://files.pythonhosted.org/packages/3b/53/33fee9a9f38f3ba076127950443ac0c900aab3df6dc2a1b7c7fc52e909b0/lib_preprocessing_REMLA23_team2-0.1.21.tar.gz
+[2023-06-29 11:00:51] INFO root fetch - processPackages [lib-preprocessing-REMLA23-team2]: Downloading https://files.pythonhosted.org/packages/3b/53/33fee9a9f38f3ba076127950443ac0c900aab3df6dc2a1b7c7fc52e909b0/lib_preprocessing_REMLA23_team2-0.1.21.tar.gz
+[2023-06-29 11:00:51] INFO root fetch - processPackages [kiara-plugin.streamlit]: Downloading https://files.pythonhosted.org/packages/74/17/e0b489005fedd3bc851f7bb4ca0bfe6bbd029b644ddef2976e0d0c612580/kiara_plugin.streamlit-0.4.3.tar.gz
+[2023-06-29 11:00:51] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/3e/73/2afa6fcbbdcbdb8f06826b7788d93771111bc330d73133654c81a5d742de/fwdviewpy-0.1.8.tar.gz
+[2023-06-29 11:00:51] INFO root fetch - processPackages [xt-st-common]: Downloading https://files.pythonhosted.org/packages/e7/ef/5ac2e57c98df5426a980cbfc9db93d6554fd46f96a4ddf5f7a9161da2ca3/xt_st_common-0.8.4.tar.gz
+[2023-06-29 11:00:51] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/da/c9/7eacdd09b8fe987d35c33395e293035c63b16ded1000aadb2bc49c6f7882/hotsos-1.1.14.post9.tar.gz
+[2023-06-29 11:00:51] INFO root fetch - processPackages [bubble-aide]: Downloading https://files.pythonhosted.org/packages/b7/e8/8e06be1c62acffb7d73c0aa9d7014673bd84862d77edbdb760e89ded1891/bubble-aide-0.1.4.tar.gz
+[2023-06-29 11:00:51] INFO root fetch - processPackages [kiara-plugin.develop]: Downloading https://files.pythonhosted.org/packages/da/9a/b8bae447894d1f86561c0a405ca7875aaf09482f5da649bb34bb348559e5/kiara_plugin.develop-0.4.0.tar.gz
+[2023-06-29 11:00:51] INFO root fetch - processPackages [python-matter-server]: Downloading https://files.pythonhosted.org/packages/be/db/404aa7c5c992ddc4e62b8bbb327b0064577f0f050047afecb3b000503cad/python-matter-server-3.6.3.tar.gz
+[2023-06-29 11:00:51] INFO root fetch - processPackages [kiara-plugin.streamlit]: Downloading https://files.pythonhosted.org/packages/88/23/af987b6b0506714a61c71b9a46df276f58b5697347e85eb08aa046e42a40/kiara_plugin.streamlit-0.4.4.tar.gz
+[2023-06-29 11:00:51] INFO root fetch - processPackages [deeplcretrainer]: Downloading https://files.pythonhosted.org/packages/8c/00/6729254d765d1b8153875d842c1bd60e689917b9d50b2c69338af6c31e94/deeplcretrainer-0.1.9.tar.gz
+[2023-06-29 11:00:51] INFO root fetch - processPackages [python-matter-server]: executing diffoscope
+[2023-06-29 11:00:51] INFO root fetch - processPackages [python-matter-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-matter-server-3.6.2.tar.gz tmp/python-matter-server-3.6.3.tar.gz --markdown 20230629/p/python-matter-server/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-06-29 11:00:51] INFO root fetch - processPackages [bubble-aide]: Downloading https://files.pythonhosted.org/packages/48/3f/ad7eaffc378358e501730313b0da05fab0936d2d39fca37133b546fc1fba/bubble-aide-0.1.5.tar.gz
+[2023-06-29 11:00:51] INFO root fetch - processPackages [kiara-plugin.develop]: Downloading https://files.pythonhosted.org/packages/c5/84/9f52bdafe05f1637f0c177f07ee7a5b6c7dce22c832decc5799d227e5e27/kiara_plugin.develop-0.4.1.tar.gz
+[2023-06-29 11:00:51] INFO root fetch - processPackages [lib-preprocessing-REMLA23-team2]: Downloading https://files.pythonhosted.org/packages/9a/fb/d5235045cb6b53e387e0a89c29741fe64fab66531f6520261ddefcd87404/lib_preprocessing_REMLA23_team2-0.1.3.tar.gz
+[2023-06-29 11:00:51] INFO root fetch - processPackages [lib-preprocessing-REMLA23-team2]: Downloading https://files.pythonhosted.org/packages/9a/fb/d5235045cb6b53e387e0a89c29741fe64fab66531f6520261ddefcd87404/lib_preprocessing_REMLA23_team2-0.1.3.tar.gz
+[2023-06-29 11:00:51] INFO root fetch - processPackages [kiara-plugin.streamlit]: executing diffoscope
+[2023-06-29 11:00:51] INFO root fetch - processPackages [kiara-plugin.streamlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara_plugin.streamlit-0.4.3.tar.gz tmp/kiara_plugin.streamlit-0.4.4.tar.gz --markdown 20230629/k/kiara-plugin.streamlit/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-29 11:00:51] INFO root fetch - processPackages [deeplcretrainer]: executing diffoscope
+[2023-06-29 11:00:51] INFO root fetch - processPackages [deeplcretrainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deeplcretrainer-0.1.8.tar.gz tmp/deeplcretrainer-0.1.9.tar.gz --markdown 20230629/d/deeplcretrainer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 11:00:51] INFO root fetch - processPackages [kiara-plugin.develop]: executing diffoscope
+[2023-06-29 11:00:51] INFO root fetch - processPackages [kiara-plugin.develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara_plugin.develop-0.4.0.tar.gz tmp/kiara_plugin.develop-0.4.1.tar.gz --markdown 20230629/k/kiara-plugin.develop/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-29 11:00:51] INFO root fetch - processPackages [lib-preprocessing-REMLA23-team2]: executing diffoscope
+[2023-06-29 11:00:51] INFO root fetch - processPackages [lib-preprocessing-REMLA23-team2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_preprocessing_REMLA23_team2-0.1.21.tar.gz tmp/lib_preprocessing_REMLA23_team2-0.1.3.tar.gz --markdown 20230629/l/lib-preprocessing-REMLA23-team2/0.1.21-0.1.3/diff.md --exclude *.pyd
+[2023-06-29 11:00:51] INFO root fetch - processPackages [lib-preprocessing-REMLA23-team2]: executing diffoscope
+[2023-06-29 11:00:51] INFO root fetch - processPackages [lib-preprocessing-REMLA23-team2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_preprocessing_REMLA23_team2-0.1.21.tar.gz tmp/lib_preprocessing_REMLA23_team2-0.1.3.tar.gz --markdown 20230629/l/lib-preprocessing-REMLA23-team2/0.1.21-0.1.3/diff.md --exclude *.pyd
+[2023-06-29 11:00:51] INFO root fetch - processPackages [bubble-aide]: executing diffoscope
+[2023-06-29 11:00:51] INFO root fetch - processPackages [bubble-aide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bubble-aide-0.1.4.tar.gz tmp/bubble-aide-0.1.5.tar.gz --markdown 20230629/b/bubble-aide/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-29 11:00:51] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/66/05/0dddfbf2d83cd517d88f0437bbc9192a6b22b1086c467bccb4754adb0fd7/hotsos-1.15.post1.tar.gz
+[2023-06-29 11:00:51] INFO root fetch - processPackages [xt-st-common]: Downloading https://files.pythonhosted.org/packages/6d/9f/d7b6e076e0332094ff9e8fe2cea0214fcf82c92bbdaf98d2091fcdd42bbb/xt_st_common-0.9.1.tar.gz
+[2023-06-29 11:00:52] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-06-29 11:00:52] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.1.14.post9.tar.gz tmp/hotsos-1.15.post1.tar.gz --markdown 20230629/h/hotsos/1.1.14.post9-1.15.post1/diff.md --exclude *.pyd
+[2023-06-29 11:00:52] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/8a/ad/935ce0b4a6ffdf166ff13e80c7efb896639069807f34b5d234fca7adbeaa/fwdviewpy-0.1.9.tar.gz
+[2023-06-29 11:00:52] INFO root fetch - processPackages [xt-st-common]: executing diffoscope
+[2023-06-29 11:00:52] INFO root fetch - processPackages [xt-st-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xt_st_common-0.8.4.tar.gz tmp/xt_st_common-0.9.1.tar.gz --markdown 20230629/x/xt-st-common/0.8.4-0.9.1/diff.md --exclude *.pyd
+[2023-06-29 11:00:52] INFO root fetch - processPackages [fwdviewpy]: executing diffoscope
+[2023-06-29 11:00:52] INFO root fetch - processPackages [fwdviewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fwdviewpy-0.1.8.tar.gz tmp/fwdviewpy-0.1.9.tar.gz --markdown 20230629/f/fwdviewpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 11:00:53] INFO root fetch - processPackages [lib-preprocessing-REMLA23-team2]: Remove: archive file [/home/abi/fetcher/tmp/lib_preprocessing_REMLA23_team2-0.1.21.tar.gz]
+[2023-06-29 11:00:53] INFO root fetch - processPackages [lib-preprocessing-REMLA23-team2]: Remove: archive file [/home/abi/fetcher/tmp/lib_preprocessing_REMLA23_team2-0.1.3.tar.gz]
+[2023-06-29 11:00:53] INFO root fetch - processPackages [lib-preprocessing-REMLA23-team2]: Start processing: fenics-smart
+[2023-06-29 11:00:53] INFO root fetch - main [MainThread]: End processing [lib-preprocessing-REMLA23-team2]: success
+[2023-06-29 11:00:53] INFO root fetch - processPackages [fenics-smart]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-06-29 11:00:53] INFO root fetch - processPackages [lib-preprocessing-REMLA23-team2]: Start processing: rmas
+[2023-06-29 11:00:53] INFO root fetch - main [MainThread]: End processing [lib-preprocessing-REMLA23-team2]: success
+[2023-06-29 11:00:53] WARNING root fetch - processPackages [rmas]: Skipping, unable to determine old version
+[2023-06-29 11:00:53] INFO root fetch - processPackages [rmas]: Start processing: jupyter-ydoc
+[2023-06-29 11:00:53] INFO root fetch - main [MainThread]: End processing [rmas] error
+[2023-06-29 11:00:53] INFO root fetch - processPackages [python-matter-server]: Remove: archive file [/home/abi/fetcher/tmp/python-matter-server-3.6.2.tar.gz]
+[2023-06-29 11:00:53] INFO root fetch - processPackages [python-matter-server]: Remove: archive file [/home/abi/fetcher/tmp/python-matter-server-3.6.3.tar.gz]
+[2023-06-29 11:00:53] INFO root fetch - main [MainThread]: End processing [python-matter-server]: success
+[2023-06-29 11:00:53] INFO root fetch - processPackages [deeplcretrainer]: Remove: archive file [/home/abi/fetcher/tmp/deeplcretrainer-0.1.8.tar.gz]
+[2023-06-29 11:00:53] INFO root fetch - processPackages [deeplcretrainer]: Remove: archive file [/home/abi/fetcher/tmp/deeplcretrainer-0.1.9.tar.gz]
+[2023-06-29 11:00:53] INFO root fetch - main [MainThread]: End processing [deeplcretrainer]: success
+[2023-06-29 11:00:53] INFO root fetch - processPackages [jupyter-ydoc]: New version: [1.1.0a0] Old Version: [1.0.2]
+[2023-06-29 11:00:53] INFO root fetch - processPackages [fenics-smart]: Downloading https://files.pythonhosted.org/packages/66/9c/acb38465ef780d85cf4a3038de73dc29050417fc290f8dc21c36c5e79a29/fenics-smart-2.1.1.tar.gz
+[2023-06-29 11:00:53] INFO root fetch - processPackages [bubble-aide]: Remove: archive file [/home/abi/fetcher/tmp/bubble-aide-0.1.4.tar.gz]
+[2023-06-29 11:00:53] INFO root fetch - processPackages [bubble-aide]: Remove: archive file [/home/abi/fetcher/tmp/bubble-aide-0.1.5.tar.gz]
+[2023-06-29 11:00:53] INFO root fetch - main [MainThread]: End processing [bubble-aide]: success
+[2023-06-29 11:00:53] INFO root fetch - processPackages [jupyter-ydoc]: Downloading https://files.pythonhosted.org/packages/f5/32/7be05fc28fc1fdad7f616b6b3f9ad02dc099cad39084f9f66f45b3b26d69/jupyter_ydoc-1.0.2.tar.gz
+[2023-06-29 11:00:53] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.1.8.tar.gz]
+[2023-06-29 11:00:53] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.1.9.tar.gz]
+[2023-06-29 11:00:53] INFO root fetch - main [MainThread]: End processing [fwdviewpy]: success
+[2023-06-29 11:00:53] INFO root fetch - processPackages [fenics-smart]: Downloading https://files.pythonhosted.org/packages/ad/f1/f86de77eb2242935ae7016d36564b76d66fb80aa3e64525331d0b5ca23cf/fenics-smart-2.1.2.tar.gz
+[2023-06-29 11:00:53] INFO root fetch - processPackages [fenics-smart]: executing diffoscope
+[2023-06-29 11:00:53] INFO root fetch - processPackages [fenics-smart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenics-smart-2.1.1.tar.gz tmp/fenics-smart-2.1.2.tar.gz --markdown 20230629/f/fenics-smart/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-06-29 11:00:53] INFO root fetch - processPackages [jupyter-ydoc]: Downloading https://files.pythonhosted.org/packages/0a/7f/2e2ca7b20ee3af97aafe9bb3631ba6f7145d7aef2ba43f9635fa4f26b0f7/jupyter_ydoc-1.1.0a0.tar.gz
+[2023-06-29 11:00:54] INFO root fetch - processPackages [jupyter-ydoc]: executing diffoscope
+[2023-06-29 11:00:54] INFO root fetch - processPackages [jupyter-ydoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_ydoc-1.0.2.tar.gz tmp/jupyter_ydoc-1.1.0a0.tar.gz --markdown 20230629/j/jupyter-ydoc/1.0.2-1.1.0a0/diff.md --exclude *.pyd
+[2023-06-29 11:00:55] INFO root fetch - processPackages [fenics-smart]: Remove: archive file [/home/abi/fetcher/tmp/fenics-smart-2.1.1.tar.gz]
+[2023-06-29 11:00:55] INFO root fetch - processPackages [fenics-smart]: Remove: archive file [/home/abi/fetcher/tmp/fenics-smart-2.1.2.tar.gz]
+[2023-06-29 11:00:55] INFO root fetch - main [MainThread]: End processing [fenics-smart]: success
+[2023-06-29 11:00:55] INFO root fetch - processPackages [kiara-plugin.streamlit]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.streamlit-0.4.3.tar.gz]
+[2023-06-29 11:00:55] INFO root fetch - processPackages [kiara-plugin.streamlit]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.streamlit-0.4.4.tar.gz]
+[2023-06-29 11:00:55] INFO root fetch - main [MainThread]: End processing [kiara-plugin.streamlit]: success
+[2023-06-29 11:00:55] INFO root fetch - processPackages [xt-st-common]: Remove: archive file [/home/abi/fetcher/tmp/xt_st_common-0.8.4.tar.gz]
+[2023-06-29 11:00:55] INFO root fetch - processPackages [xt-st-common]: Remove: archive file [/home/abi/fetcher/tmp/xt_st_common-0.9.1.tar.gz]
+[2023-06-29 11:00:55] INFO root fetch - main [MainThread]: End processing [xt-st-common]: success
+[2023-06-29 11:00:55] INFO root fetch - processPackages [kiara-plugin.develop]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.develop-0.4.0.tar.gz]
+[2023-06-29 11:00:55] INFO root fetch - processPackages [kiara-plugin.develop]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.develop-0.4.1.tar.gz]
+[2023-06-29 11:00:55] INFO root fetch - main [MainThread]: End processing [kiara-plugin.develop]: success
+[2023-06-29 11:00:55] INFO root fetch - processPackages [jupyter-ydoc]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ydoc-1.0.2.tar.gz]
+[2023-06-29 11:00:55] INFO root fetch - processPackages [jupyter-ydoc]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_ydoc-1.1.0a0.tar.gz]
+[2023-06-29 11:00:55] INFO root fetch - main [MainThread]: End processing [jupyter-ydoc]: success
+[2023-06-29 11:00:56] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.1.14.post9.tar.gz]
+[2023-06-29 11:00:56] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.15.post1.tar.gz]
+[2023-06-29 11:00:56] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-06-29 11:00:56] INFO root fetch - main [MainThread]: Store serial: [18692354]
