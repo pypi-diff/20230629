@@ -11382,3 +11382,195 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 15:24:00] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-06-29 15:24:00] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-06-29 15:24:00] INFO root fetch - main [MainThread]: Store serial: [18695492]
+[2023-06-29 15:29:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18695492]
+[2023-06-29 15:29:09] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-29 15:29:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: st-ant-menu
+[2023-06-29 15:29:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: malware-test-pack
+[2023-06-29 15:29:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mik-py
+[2023-06-29 15:29:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-orca-spark2
+[2023-06-29 15:29:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-friesian-spark2
+[2023-06-29 15:29:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-chronos-spark2
+[2023-06-29 15:29:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mlmonitor
+[2023-06-29 15:29:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AlgoMaster
+[2023-06-29 15:29:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-spark2
+[2023-06-29 15:29:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dh-potluck
+[2023-06-29 15:29:10] WARNING root fetch - processPackages [mlmonitor]: Skipping, unable to determine old version
+[2023-06-29 15:29:10] INFO root fetch - processPackages [mlmonitor]: Start processing: ocpa
+[2023-06-29 15:29:10] INFO root fetch - main [MainThread]: End processing [mlmonitor] error
+[2023-06-29 15:29:10] INFO root fetch - processPackages [mik-py]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-29 15:29:10] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230629] Old Version: [2.4.0b20230626]
+[2023-06-29 15:29:10] INFO root fetch - processPackages [st-ant-menu]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 15:29:10] INFO root fetch - processPackages [AlgoMaster]: New version: [0.1.0] Old Version: [0.0.18]
+[2023-06-29 15:29:10] WARNING root fetch - processPackages [malware-test-pack]: Skipping, unable to determine old version
+[2023-06-29 15:29:10] INFO root fetch - processPackages [malware-test-pack]: Start processing: honkaistarrail
+[2023-06-29 15:29:10] INFO root fetch - main [MainThread]: End processing [malware-test-pack] error
+[2023-06-29 15:29:10] INFO root fetch - processPackages [ocpa]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-29 15:29:10] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230629] Old Version: [2.4.0b20230626]
+[2023-06-29 15:29:10] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230629] Old Version: [2.4.0b20230626]
+[2023-06-29 15:29:10] INFO root fetch - processPackages [dh-potluck]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-29 15:29:10] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230629] Old Version: [2.4.0b20230626]
+[2023-06-29 15:29:10] INFO root fetch - processPackages [honkaistarrail]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-29 15:29:10] INFO root fetch - processPackages [honkaistarrail]: Downloading https://files.pythonhosted.org/packages/67/e3/28e98d1744972327720fbd054b26dc357736b1b15f6300b9b9103a1c4fb3/honkaistarrail-0.0.6.tar.gz
+[2023-06-29 15:29:10] INFO root fetch - processPackages [mik-py]: Downloading https://files.pythonhosted.org/packages/e4/15/fd94b6381470dfbdf12d4138f7f38602b3d86d8bfb7f08793d3c52c248d0/mik_py-0.0.1.tar.gz
+[2023-06-29 15:29:10] INFO root fetch - processPackages [AlgoMaster]: Downloading https://files.pythonhosted.org/packages/6a/7d/e5cea3a7552ad7f41924e14bdbda346e51ca0c60297aa4cb8c3db5068601/AlgoMaster-0.0.18.tar.gz
+[2023-06-29 15:29:10] INFO root fetch - processPackages [dh-potluck]: executing diffoscope
+[2023-06-29 15:29:10] INFO root fetch - processPackages [dh-potluck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dh-potluck-1.9.0.tar.gz tmp/dh-potluck-1.9.1.tar.gz --markdown 20230629/d/dh-potluck/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-29 15:29:10] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/56/d1/b8028ffafd590e66f3627348b86d60a30245663523d6d0b305cdb9e166dc/bigdl_friesian_spark2-2.4.0b20230626-py3-none-manylinux1_x86_64.whl
+[2023-06-29 15:29:10] INFO root fetch - processPackages [ocpa]: Downloading https://files.pythonhosted.org/packages/93/27/cbf258e504938ea78cab64f32d58f1df1d1d3bd787da042dd753737370e9/ocpa-1.3.1-py3-none-any.whl
+[2023-06-29 15:29:10] INFO root fetch - processPackages [st-ant-menu]: Downloading https://files.pythonhosted.org/packages/00/5e/3df1dc090c5df6e89406368e969852a9521de210ab6049a9cd41d3d29d91/st_ant_menu-0.0.8-py3-none-any.whl
+[2023-06-29 15:29:10] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/26/2e/1941990d8f3d658fdc52832331d295e698a6ec0aa1098d7069dfedddfb82/bigdl_chronos_spark2-2.4.0b20230626-py3-none-manylinux1_x86_64.whl
+[2023-06-29 15:29:10] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/f5/1e/afb1732c029c41a310ab5de79f90fb37ebd9340351aa2492cb5eb110dd2c/bigdl_orca_spark2-2.4.0b20230626-py3-none-manylinux1_x86_64.whl
+[2023-06-29 15:29:10] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/a3/c2/e6873ec9af44faba098f129e064a1842d0b7af56514cc612e45d3928e758/bigdl_spark2-2.4.0b20230626-py3-none-manylinux1_x86_64.whl
+[2023-06-29 15:29:10] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20369687>=10485760
+[2023-06-29 15:29:10] INFO root fetch - processPackages [bigdl-orca-spark2]: Start processing: unified-planning
+[2023-06-29 15:29:10] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-06-29 15:29:10] INFO root fetch - processPackages [honkaistarrail]: Downloading https://files.pythonhosted.org/packages/7e/ea/176b962b1a724fa0c4d0f2018b9041e3b36e8a3a4bcde077db2ab3d4fac3/honkaistarrail-0.0.7.tar.gz
+[2023-06-29 15:29:10] INFO root fetch - processPackages [unified-planning]: New version: [0.6.0.94.dev1] Old Version: [0.6.0.9.dev1]
+[2023-06-29 15:29:10] INFO root fetch - processPackages [honkaistarrail]: executing diffoscope
+[2023-06-29 15:29:10] INFO root fetch - processPackages [honkaistarrail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honkaistarrail-0.0.6.tar.gz tmp/honkaistarrail-0.0.7.tar.gz --markdown 20230629/h/honkaistarrail/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-29 15:29:10] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/7b/cd/ac15f362b634f8dfca374107a12b11d18cda8da3341e1e1de92d45e36fc9/unified_planning-0.6.0.9.dev1.tar.gz
+[2023-06-29 15:29:10] INFO root fetch - processPackages [AlgoMaster]: Downloading https://files.pythonhosted.org/packages/d1/07/ee689a725e276dc4515aff4ce16dee58a0fdfd996b5fcc196b060051c0fc/AlgoMaster-0.1.0.tar.gz
+[2023-06-29 15:29:10] INFO root fetch - processPackages [ocpa]: Downloading https://files.pythonhosted.org/packages/53/19/7c23d75f3fd06996555ca3510bf6caa2f37f35f9bda502a112bf7fa9c836/ocpa-1.3.2-py3-none-any.whl
+[2023-06-29 15:29:10] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/ff/34/45635b768539f346d3225abed8177b6659a76b92ef9ce111d3bf48529174/bigdl_friesian_spark2-2.4.0b20230629-py3-none-manylinux1_x86_64.whl
+[2023-06-29 15:29:10] INFO root fetch - processPackages [mik-py]: Downloading https://files.pythonhosted.org/packages/23/04/5073061f7291325a83fea24f76fdf900282f901bb89906dd363d3ae995fa/mik_py-0.0.2.tar.gz
+[2023-06-29 15:29:10] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/16/72/439616681cf247caf5f82efb157f7c39c6f0400ed04965fcfb24573d9ec0/bigdl_chronos_spark2-2.4.0b20230629-py3-none-manylinux1_x86_64.whl
+[2023-06-29 15:29:10] INFO root fetch - processPackages [AlgoMaster]: executing diffoscope
+[2023-06-29 15:29:10] INFO root fetch - processPackages [AlgoMaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AlgoMaster-0.0.18.tar.gz tmp/AlgoMaster-0.1.0.tar.gz --markdown 20230629/A/AlgoMaster/0.0.18-0.1.0/diff.md --exclude *.pyd
+[2023-06-29 15:29:10] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/8f/34/56dfe7ab9021bdc4ae7a631d20869d404707a83f17d4f3778da0425e2a5c/bigdl_spark2-2.4.0b20230629-py3-none-manylinux1_x86_64.whl
+[2023-06-29 15:29:10] INFO root fetch - processPackages [ocpa]: executing diffoscope
+[2023-06-29 15:29:10] INFO root fetch - processPackages [ocpa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocpa-1.3.1-py3-none-any.whl.zip tmp/ocpa-1.3.2-py3-none-any.whl.zip --markdown 20230629/o/ocpa/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-29 15:29:10] INFO root fetch - processPackages [st-ant-menu]: Downloading https://files.pythonhosted.org/packages/8d/b8/05b9140865f38d5b42db920bf8ece71bdc9acfc0d6b4b3a6367b72e3c541/st_ant_menu-0.0.9-py3-none-any.whl
+[2023-06-29 15:29:10] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-06-29 15:29:10] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230626-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip --markdown 20230629/b/bigdl-friesian-spark2/2.4.0b20230626-2.4.0b20230629/diff.md --exclude *.pyd
+[2023-06-29 15:29:10] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/47/44/b13fcddb5405f914c9898095cd7fd61a47cc4647a4065d3a61f28919f91a/unified_planning-0.6.0.94.dev1.tar.gz
+[2023-06-29 15:29:10] INFO root fetch - processPackages [mik-py]: executing diffoscope
+[2023-06-29 15:29:10] INFO root fetch - processPackages [mik-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mik_py-0.0.1.tar.gz tmp/mik_py-0.0.2.tar.gz --markdown 20230629/m/mik-py/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-29 15:29:10] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-06-29 15:29:10] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230626-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip --markdown 20230629/b/bigdl-spark2/2.4.0b20230626-2.4.0b20230629/diff.md --exclude *.pyd
+[2023-06-29 15:29:10] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-06-29 15:29:10] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230626-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip --markdown 20230629/b/bigdl-chronos-spark2/2.4.0b20230626-2.4.0b20230629/diff.md --exclude *.pyd
+[2023-06-29 15:29:10] INFO root fetch - processPackages [st-ant-menu]: executing diffoscope
+[2023-06-29 15:29:10] INFO root fetch - processPackages [st-ant-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_ant_menu-0.0.8-py3-none-any.whl.zip tmp/st_ant_menu-0.0.9-py3-none-any.whl.zip --markdown 20230629/s/st-ant-menu/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 15:29:10] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-06-29 15:29:10] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-0.6.0.9.dev1.tar.gz tmp/unified_planning-0.6.0.94.dev1.tar.gz --markdown 20230629/u/unified-planning/0.6.0.9.dev1-0.6.0.94.dev1/diff.md --exclude *.pyd
+[2023-06-29 15:29:11] INFO root fetch - processPackages [dh-potluck]: Remove: archive file [/home/abi/fetcher/tmp/dh-potluck-1.9.0.tar.gz]
+[2023-06-29 15:29:11] INFO root fetch - processPackages [dh-potluck]: Remove: archive file [/home/abi/fetcher/tmp/dh-potluck-1.9.1.tar.gz]
+[2023-06-29 15:29:11] INFO root fetch - processPackages [dh-potluck]: Start processing: SELDOMpy
+[2023-06-29 15:29:11] INFO root fetch - main [MainThread]: End processing [dh-potluck]: success
+[2023-06-29 15:29:11] INFO root fetch - processPackages [SELDOMpy]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-29 15:29:11] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/af/28/41123cdc64bb9e8e39274742e4e4e3745714f10d92ee8b08874fd2589301/SELDOMpy-0.5.2.tar.gz
+[2023-06-29 15:29:11] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/52/60/f7fa2ad00b0d7e70fddf10a9084b094acee0a2f4c9fbaceb6a955f17f5ad/SELDOMpy-0.5.3.tar.gz
+[2023-06-29 15:29:11] INFO root fetch - processPackages [honkaistarrail]: Remove: archive file [/home/abi/fetcher/tmp/honkaistarrail-0.0.6.tar.gz]
+[2023-06-29 15:29:11] INFO root fetch - processPackages [honkaistarrail]: Remove: archive file [/home/abi/fetcher/tmp/honkaistarrail-0.0.7.tar.gz]
+[2023-06-29 15:29:11] INFO root fetch - processPackages [honkaistarrail]: Start processing: gpforecaster
+[2023-06-29 15:29:11] INFO root fetch - main [MainThread]: End processing [honkaistarrail]: success
+[2023-06-29 15:29:11] INFO root fetch - processPackages [gpforecaster]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-29 15:29:11] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-06-29 15:29:11] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.5.2.tar.gz tmp/SELDOMpy-0.5.3.tar.gz --markdown 20230629/S/SELDOMpy/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-29 15:29:12] INFO root fetch - processPackages [gpforecaster]: Downloading https://files.pythonhosted.org/packages/a3/48/07c7faf219f06659c85021907eba859f7478fad0e790c1731e124295d8b7/gpforecaster-0.3.8.tar.gz
+[2023-06-29 15:29:12] INFO root fetch - processPackages [AlgoMaster]: Remove: archive file [/home/abi/fetcher/tmp/AlgoMaster-0.0.18.tar.gz]
+[2023-06-29 15:29:12] INFO root fetch - processPackages [AlgoMaster]: Remove: archive file [/home/abi/fetcher/tmp/AlgoMaster-0.1.0.tar.gz]
+[2023-06-29 15:29:12] INFO root fetch - processPackages [AlgoMaster]: Start processing: geosyspy
+[2023-06-29 15:29:12] INFO root fetch - main [MainThread]: End processing [AlgoMaster]: success
+[2023-06-29 15:29:12] INFO root fetch - processPackages [geosyspy]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-06-29 15:29:12] INFO root fetch - processPackages [mik-py]: Remove: archive file [/home/abi/fetcher/tmp/mik_py-0.0.1.tar.gz]
+[2023-06-29 15:29:12] INFO root fetch - processPackages [mik-py]: Remove: archive file [/home/abi/fetcher/tmp/mik_py-0.0.2.tar.gz]
+[2023-06-29 15:29:12] INFO root fetch - processPackages [mik-py]: Start processing: Lopster
+[2023-06-29 15:29:12] INFO root fetch - main [MainThread]: End processing [mik-py]: success
+[2023-06-29 15:29:12] INFO root fetch - processPackages [gpforecaster]: Downloading https://files.pythonhosted.org/packages/92/5f/ac0cce7d644b9cf855fde3021fe913db55e05b3641325229c5df912c2f36/gpforecaster-0.3.9.tar.gz
+[2023-06-29 15:29:12] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230626-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-29 15:29:12] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-29 15:29:12] INFO root fetch - processPackages [bigdl-spark2]: Start processing: tellosync
+[2023-06-29 15:29:12] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-06-29 15:29:12] INFO root fetch - processPackages [Lopster]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-29 15:29:12] INFO root fetch - processPackages [tellosync]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-29 15:29:12] INFO root fetch - processPackages [gpforecaster]: executing diffoscope
+[2023-06-29 15:29:12] INFO root fetch - processPackages [gpforecaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpforecaster-0.3.8.tar.gz tmp/gpforecaster-0.3.9.tar.gz --markdown 20230629/g/gpforecaster/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-29 15:29:12] INFO root fetch - processPackages [Lopster]: Downloading https://files.pythonhosted.org/packages/e1/b9/4e0c4af46050001202dabdc6df777d9676c942c4198bdd82c95ae76b1af4/Lopster-0.1.2.tar.gz
+[2023-06-29 15:29:12] INFO root fetch - processPackages [geosyspy]: Downloading https://files.pythonhosted.org/packages/39/33/668950623d704ef2a2450647381a0d4e534e0e986fc7be5a5852bafde811/geosyspy-0.1.5.tar.gz
+[2023-06-29 15:29:12] INFO root fetch - processPackages [Lopster]: Downloading https://files.pythonhosted.org/packages/49/cc/e0500adc8ce7959652e70b2bf62d69acb812fd88f5d4186da62e576fc0e2/Lopster-0.1.3.tar.gz
+[2023-06-29 15:29:12] INFO root fetch - processPackages [tellosync]: Downloading https://files.pythonhosted.org/packages/64/b4/67ebc626e9e042cbb161043ce1ed26928026875c5b60e7cbd95d819f146e/tellosync-0.0.5.tar.gz
+[2023-06-29 15:29:12] INFO root fetch - processPackages [Lopster]: executing diffoscope
+[2023-06-29 15:29:12] INFO root fetch - processPackages [Lopster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Lopster-0.1.2.tar.gz tmp/Lopster-0.1.3.tar.gz --markdown 20230629/L/Lopster/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-29 15:29:12] INFO root fetch - processPackages [geosyspy]: Downloading https://files.pythonhosted.org/packages/4d/b1/39e8af99bd2a2fdd1ebf127cf9d3caa6e6e8fa896ec2fbc329495d71389b/geosyspy-0.2.0.tar.gz
+[2023-06-29 15:29:12] INFO root fetch - processPackages [geosyspy]: executing diffoscope
+[2023-06-29 15:29:12] INFO root fetch - processPackages [geosyspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geosyspy-0.1.5.tar.gz tmp/geosyspy-0.2.0.tar.gz --markdown 20230629/g/geosyspy/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-06-29 15:29:12] INFO root fetch - processPackages [tellosync]: Downloading https://files.pythonhosted.org/packages/0d/7c/f528b8b3bb8e3dd454fd8328f27aefd0c4ddea8664b7ffc68a7cb0f2ec93/tellosync-0.0.6.tar.gz
+[2023-06-29 15:29:12] INFO root fetch - processPackages [tellosync]: executing diffoscope
+[2023-06-29 15:29:12] INFO root fetch - processPackages [tellosync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tellosync-0.0.5.tar.gz tmp/tellosync-0.0.6.tar.gz --markdown 20230629/t/tellosync/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-29 15:29:13] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.5.2.tar.gz]
+[2023-06-29 15:29:13] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.5.3.tar.gz]
+[2023-06-29 15:29:13] INFO root fetch - processPackages [SELDOMpy]: Start processing: xia-puller
+[2023-06-29 15:29:13] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-06-29 15:29:13] INFO root fetch - processPackages [xia-puller]: New version: [0.0.13] Old Version: [0.0.12]
+[2023-06-29 15:29:14] INFO root fetch - processPackages [gpforecaster]: Remove: archive file [/home/abi/fetcher/tmp/gpforecaster-0.3.8.tar.gz]
+[2023-06-29 15:29:14] INFO root fetch - processPackages [gpforecaster]: Remove: archive file [/home/abi/fetcher/tmp/gpforecaster-0.3.9.tar.gz]
+[2023-06-29 15:29:14] INFO root fetch - processPackages [gpforecaster]: Start processing: ag-llama-api
+[2023-06-29 15:29:14] INFO root fetch - main [MainThread]: End processing [gpforecaster]: success
+[2023-06-29 15:29:14] INFO root fetch - processPackages [ag-llama-api]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-29 15:29:14] INFO root fetch - processPackages [xia-puller]: Downloading https://files.pythonhosted.org/packages/bb/f9/80ea203082a81a98099e9e5d1d8744a3770e0aaecdd1ebaaf50867536c9a/xia_puller-0.0.12-cp39-none-win_amd64.whl
+[2023-06-29 15:29:14] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/8f/73/c0c8d3e09c68c488fd65e7e30804e49209ca2f432440e766bb9869cd0f87/ag_llama_api-0.0.2.tar.gz
+[2023-06-29 15:29:14] INFO root fetch - processPackages [Lopster]: Remove: archive file [/home/abi/fetcher/tmp/Lopster-0.1.2.tar.gz]
+[2023-06-29 15:29:14] INFO root fetch - processPackages [Lopster]: Remove: archive file [/home/abi/fetcher/tmp/Lopster-0.1.3.tar.gz]
+[2023-06-29 15:29:14] INFO root fetch - processPackages [Lopster]: Start processing: SELDOMpy
+[2023-06-29 15:29:14] INFO root fetch - main [MainThread]: End processing [Lopster]: success
+[2023-06-29 15:29:14] INFO root fetch - processPackages [SELDOMpy]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-29 15:29:14] INFO root fetch - processPackages [ocpa]: Remove: archive file [/home/abi/fetcher/tmp/ocpa-1.3.1-py3-none-any.whl.zip]
+[2023-06-29 15:29:14] INFO root fetch - processPackages [ocpa]: Remove: archive file [/home/abi/fetcher/tmp/ocpa-1.3.2-py3-none-any.whl.zip]
+[2023-06-29 15:29:14] INFO root fetch - processPackages [ocpa]: Start processing: autodistill
+[2023-06-29 15:29:14] INFO root fetch - main [MainThread]: End processing [ocpa]: success
+[2023-06-29 15:29:14] INFO root fetch - processPackages [autodistill]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-29 15:29:14] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/52/60/f7fa2ad00b0d7e70fddf10a9084b094acee0a2f4c9fbaceb6a955f17f5ad/SELDOMpy-0.5.3.tar.gz
+[2023-06-29 15:29:14] INFO root fetch - processPackages [autodistill]: Downloading https://files.pythonhosted.org/packages/a9/35/58f35a305741ea690789147a129d4d7add24f86c44ca58ec037ea43ac493/autodistill-0.1.4.tar.gz
+[2023-06-29 15:29:14] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230626-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-29 15:29:14] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-29 15:29:14] INFO root fetch - processPackages [bigdl-chronos-spark2]: Start processing: makolator
+[2023-06-29 15:29:14] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-06-29 15:29:14] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/74/3a/0b6e2b482ac01b46ade56275575a12afaa14c7bf2eed19f6f73afc6489fc/ag_llama_api-0.0.3.tar.gz
+[2023-06-29 15:29:14] INFO root fetch - processPackages [xia-puller]: Downloading https://files.pythonhosted.org/packages/e3/70/a76750d5165760a5e97501f07e1f97434229387b97a83355e0f0d975dd93/xia_puller-0.0.13-cp39-none-win_amd64.whl
+[2023-06-29 15:29:14] INFO root fetch - processPackages [ag-llama-api]: executing diffoscope
+[2023-06-29 15:29:14] INFO root fetch - processPackages [ag-llama-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_api-0.0.2.tar.gz tmp/ag_llama_api-0.0.3.tar.gz --markdown 20230629/a/ag-llama-api/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-29 15:29:14] INFO root fetch - processPackages [tellosync]: Remove: archive file [/home/abi/fetcher/tmp/tellosync-0.0.5.tar.gz]
+[2023-06-29 15:29:14] INFO root fetch - processPackages [tellosync]: Remove: archive file [/home/abi/fetcher/tmp/tellosync-0.0.6.tar.gz]
+[2023-06-29 15:29:14] INFO root fetch - main [MainThread]: End processing [tellosync]: success
+[2023-06-29 15:29:14] INFO root fetch - processPackages [xia-puller]: executing diffoscope
+[2023-06-29 15:29:14] INFO root fetch - processPackages [xia-puller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_puller-0.0.12-cp39-none-win_amd64.whl.zip tmp/xia_puller-0.0.13-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-puller/0.0.12-0.0.13/diff.md --exclude *.pyd
+[2023-06-29 15:29:14] INFO root fetch - processPackages [autodistill]: Downloading https://files.pythonhosted.org/packages/62/58/4991abb650760ffbe9afc318e0508d9d7e669e22a8422836c26480b4e586/autodistill-0.1.5.tar.gz
+[2023-06-29 15:29:14] INFO root fetch - processPackages [makolator]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-29 15:29:14] INFO root fetch - processPackages [autodistill]: executing diffoscope
+[2023-06-29 15:29:14] INFO root fetch - processPackages [autodistill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodistill-0.1.4.tar.gz tmp/autodistill-0.1.5.tar.gz --markdown 20230629/a/autodistill/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-29 15:29:14] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/e9/24/18bf59e575af91401eeb3bc47f44598ce04ed1d977d6636619dbe7e538d3/SELDOMpy-0.5.4.tar.gz
+[2023-06-29 15:29:14] INFO root fetch - processPackages [makolator]: Downloading https://files.pythonhosted.org/packages/67/ab/682969cb7fc0475d1cb42ec9acf6fe3b17391ef8e78494337a950af87f11/makolator-2.0.0.tar.gz
+[2023-06-29 15:29:14] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-06-29 15:29:14] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.5.3.tar.gz tmp/SELDOMpy-0.5.4.tar.gz --markdown 20230629/S/SELDOMpy/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-29 15:29:15] INFO root fetch - processPackages [makolator]: Downloading https://files.pythonhosted.org/packages/18/b8/28c9a707acc21367381f0875273f7d0d1e0ce063bce343980f020e9a6afb/makolator-2.0.1.tar.gz
+[2023-06-29 15:29:15] INFO root fetch - processPackages [makolator]: executing diffoscope
+[2023-06-29 15:29:15] INFO root fetch - processPackages [makolator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makolator-2.0.0.tar.gz tmp/makolator-2.0.1.tar.gz --markdown 20230629/m/makolator/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-29 15:29:15] INFO root fetch - processPackages [geosyspy]: Remove: archive file [/home/abi/fetcher/tmp/geosyspy-0.1.5.tar.gz]
+[2023-06-29 15:29:15] INFO root fetch - processPackages [geosyspy]: Remove: archive file [/home/abi/fetcher/tmp/geosyspy-0.2.0.tar.gz]
+[2023-06-29 15:29:15] INFO root fetch - main [MainThread]: End processing [geosyspy]: success
+[2023-06-29 15:29:16] INFO root fetch - processPackages [xia-puller]: Remove: archive file [/home/abi/fetcher/tmp/xia_puller-0.0.12-cp39-none-win_amd64.whl.zip]
+[2023-06-29 15:29:16] INFO root fetch - processPackages [xia-puller]: Remove: archive file [/home/abi/fetcher/tmp/xia_puller-0.0.13-cp39-none-win_amd64.whl.zip]
+[2023-06-29 15:29:16] INFO root fetch - main [MainThread]: End processing [xia-puller]: success
+[2023-06-29 15:29:16] INFO root fetch - processPackages [autodistill]: Remove: archive file [/home/abi/fetcher/tmp/autodistill-0.1.4.tar.gz]
+[2023-06-29 15:29:16] INFO root fetch - processPackages [autodistill]: Remove: archive file [/home/abi/fetcher/tmp/autodistill-0.1.5.tar.gz]
+[2023-06-29 15:29:16] INFO root fetch - main [MainThread]: End processing [autodistill]: success
+[2023-06-29 15:29:16] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.5.3.tar.gz]
+[2023-06-29 15:29:16] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.5.4.tar.gz]
+[2023-06-29 15:29:16] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-06-29 15:29:16] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.2.tar.gz]
+[2023-06-29 15:29:16] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.3.tar.gz]
+[2023-06-29 15:29:16] INFO root fetch - main [MainThread]: End processing [ag-llama-api]: success
+[2023-06-29 15:29:17] INFO root fetch - processPackages [makolator]: Remove: archive file [/home/abi/fetcher/tmp/makolator-2.0.0.tar.gz]
+[2023-06-29 15:29:17] INFO root fetch - processPackages [makolator]: Remove: archive file [/home/abi/fetcher/tmp/makolator-2.0.1.tar.gz]
+[2023-06-29 15:29:17] INFO root fetch - main [MainThread]: End processing [makolator]: success
+[2023-06-29 15:29:17] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-0.6.0.9.dev1.tar.gz]
+[2023-06-29 15:29:17] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-0.6.0.94.dev1.tar.gz]
+[2023-06-29 15:29:17] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-06-29 15:29:29] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230626-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-29 15:29:29] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-29 15:29:29] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-06-29 15:30:23] INFO root fetch - processPackages [st-ant-menu]: Remove: archive file [/home/abi/fetcher/tmp/st_ant_menu-0.0.8-py3-none-any.whl.zip]
+[2023-06-29 15:30:23] INFO root fetch - processPackages [st-ant-menu]: Remove: archive file [/home/abi/fetcher/tmp/st_ant_menu-0.0.9-py3-none-any.whl.zip]
+[2023-06-29 15:30:23] INFO root fetch - main [MainThread]: End processing [st-ant-menu]: success
+[2023-06-29 15:30:23] INFO root fetch - main [MainThread]: Store serial: [18695560]
