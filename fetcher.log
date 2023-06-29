@@ -19537,3 +19537,66 @@ AssertionError: tmp/live_parquet-0.2.0.tar.gz does not exist
 [2023-06-29 20:23:50] INFO root fetch - processPackages [x-transformers]: Remove: archive file [/home/abi/fetcher/tmp/x-transformers-1.9.2.tar.gz]
 [2023-06-29 20:23:50] INFO root fetch - main [MainThread]: End processing [x-transformers]: success
 [2023-06-29 20:23:50] INFO root fetch - main [MainThread]: Store serial: [18699012]
+[2023-06-29 20:28:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18699012]
+[2023-06-29 20:28:59] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-29 20:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: im-openai
+[2023-06-29 20:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gspot-django-auth
+[2023-06-29 20:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pywiretap
+[2023-06-29 20:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: carrier-api
+[2023-06-29 20:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amlopsvueelements
+[2023-06-29 20:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-confluentcloud
+[2023-06-29 20:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: teamanchorhello
+[2023-06-29 20:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-oci
+[2023-06-29 20:28:59] INFO root fetch - processPackages [carrier-api]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-06-29 20:28:59] INFO root fetch - processPackages [amlopsvueelements]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-29 20:28:59] INFO root fetch - processPackages [gspot-django-auth]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 20:28:59] WARNING root fetch - processPackages [pywiretap]: Skipping, unable to determine old version
+[2023-06-29 20:28:59] INFO root fetch - main [MainThread]: End processing [pywiretap] error
+[2023-06-29 20:28:59] INFO root fetch - processPackages [im-openai]: New version: [0.4.0] Old Version: [0.2.0]
+[2023-06-29 20:28:59] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2023-06-29 20:28:59] INFO root fetch - processPackages [gspot-django-auth]: Downloading https://files.pythonhosted.org/packages/aa/68/9b92043a587a4fca3d10356ee05fbc64e14bfe4ad01be1cc9d0a4a47dc9c/gspot_django_auth-0.0.8.tar.gz
+[2023-06-29 20:28:59] INFO root fetch - processPackages [amlopsvueelements]: Downloading https://files.pythonhosted.org/packages/66/c5/7cc4562a9948fa70330c8597948fda7c968a965313e177f21cd9f6e69c15/amlopsvueelements-1.2.8.tar.gz
+[2023-06-29 20:28:59] WARNING root fetch - processPackages [teamanchorhello]: Skipping, unable to determine old version
+[2023-06-29 20:28:59] INFO root fetch - main [MainThread]: End processing [teamanchorhello] error
+[2023-06-29 20:28:59] INFO root fetch - processPackages [pulumi-oci]: New version: [1.2.0a1688057302] Old Version: [1.2.0a1687673610]
+[2023-06-29 20:28:59] INFO root fetch - processPackages [im-openai]: Downloading https://files.pythonhosted.org/packages/52/f6/0630b9980a59b1e0d9e6707ba80ba4219234a3c0f90b92c9c3f7abfb91f5/im_openai-0.2.0.tar.gz
+[2023-06-29 20:28:59] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2023-06-29 20:28:59] INFO root fetch - processPackages [carrier-api]: Downloading https://files.pythonhosted.org/packages/a5/ab/d2ced7c9968193589fb53a245a9864ab611e6f6d20afa5ad22de577350e0/carrier_api-1.9.2.tar.gz
+[2023-06-29 20:28:59] INFO root fetch - processPackages [amlopsvueelements]: Downloading https://files.pythonhosted.org/packages/66/13/78a0a71cbe22ea1ba27617b67cbd09d3dd5db33dcfc03407cadf975cb283/amlopsvueelements-1.2.9.tar.gz
+[2023-06-29 20:28:59] INFO root fetch - processPackages [gspot-django-auth]: Downloading https://files.pythonhosted.org/packages/65/ea/91c2a38e18147795bef20101500490b8324878e96a0808af6bac177422f1/gspot_django_auth-0.0.9.tar.gz
+[2023-06-29 20:28:59] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/5e/04/c86654783510dcb20d3b2da01afe36e39eb82587fb2ede7bd1bc668b64a3/pulumi_oci-1.2.0a1687673610.tar.gz
+[2023-06-29 20:28:59] INFO root fetch - processPackages [amlopsvueelements]: executing diffoscope
+[2023-06-29 20:28:59] INFO root fetch - processPackages [amlopsvueelements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amlopsvueelements-1.2.8.tar.gz tmp/amlopsvueelements-1.2.9.tar.gz --markdown 20230629/a/amlopsvueelements/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-29 20:28:59] INFO root fetch - processPackages [im-openai]: Downloading https://files.pythonhosted.org/packages/07/ec/4302afffc9768e6fe2da09f9ea30e70d0aec94b8417dc1042c78bc335fb3/im_openai-0.4.0.tar.gz
+[2023-06-29 20:28:59] INFO root fetch - processPackages [gspot-django-auth]: executing diffoscope
+[2023-06-29 20:28:59] INFO root fetch - processPackages [gspot-django-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gspot_django_auth-0.0.8.tar.gz tmp/gspot_django_auth-0.0.9.tar.gz --markdown 20230629/g/gspot-django-auth/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 20:28:59] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2023-06-29 20:28:59] INFO root fetch - processPackages [im-openai]: executing diffoscope
+[2023-06-29 20:28:59] INFO root fetch - processPackages [im-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/im_openai-0.2.0.tar.gz tmp/im_openai-0.4.0.tar.gz --markdown 20230629/i/im-openai/0.2.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-29 20:29:00] INFO root fetch - processPackages [carrier-api]: Downloading https://files.pythonhosted.org/packages/3b/1c/e16f262204212e96012f7e4d034ca6db288d5ec65cc2672c6e19f16af5c6/carrier_api-1.9.3.tar.gz
+[2023-06-29 20:29:00] INFO root fetch - processPackages [carrier-api]: executing diffoscope
+[2023-06-29 20:29:00] INFO root fetch - processPackages [carrier-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carrier_api-1.9.2.tar.gz tmp/carrier_api-1.9.3.tar.gz --markdown 20230629/c/carrier-api/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-06-29 20:29:00] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2023-06-29 20:29:00] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20230629/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/diff.md --exclude *.pyd
+[2023-06-29 20:29:01] INFO root fetch - processPackages [im-openai]: Remove: archive file [/home/abi/fetcher/tmp/im_openai-0.2.0.tar.gz]
+[2023-06-29 20:29:01] INFO root fetch - processPackages [im-openai]: Remove: archive file [/home/abi/fetcher/tmp/im_openai-0.4.0.tar.gz]
+[2023-06-29 20:29:01] INFO root fetch - main [MainThread]: End processing [im-openai]: success
+[2023-06-29 20:29:01] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/51/3f/e4fd62182b2b19a1431897af4a729b14c703321e5eb72b80863521df61eb/pulumi_oci-1.2.0a1688057302.tar.gz
+[2023-06-29 20:29:01] INFO root fetch - processPackages [carrier-api]: Remove: archive file [/home/abi/fetcher/tmp/carrier_api-1.9.2.tar.gz]
+[2023-06-29 20:29:01] INFO root fetch - processPackages [carrier-api]: Remove: archive file [/home/abi/fetcher/tmp/carrier_api-1.9.3.tar.gz]
+[2023-06-29 20:29:01] INFO root fetch - main [MainThread]: End processing [carrier-api]: success
+[2023-06-29 20:29:01] INFO root fetch - processPackages [gspot-django-auth]: Remove: archive file [/home/abi/fetcher/tmp/gspot_django_auth-0.0.8.tar.gz]
+[2023-06-29 20:29:01] INFO root fetch - processPackages [gspot-django-auth]: Remove: archive file [/home/abi/fetcher/tmp/gspot_django_auth-0.0.9.tar.gz]
+[2023-06-29 20:29:01] INFO root fetch - main [MainThread]: End processing [gspot-django-auth]: success
+[2023-06-29 20:29:01] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2023-06-29 20:29:01] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2023-06-29 20:29:01] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2023-06-29 20:29:02] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2023-06-29 20:29:02] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-1.2.0a1687673610.tar.gz tmp/pulumi_oci-1.2.0a1688057302.tar.gz --markdown 20230629/p/pulumi-oci/1.2.0a1687673610-1.2.0a1688057302/diff.md --exclude *.pyd
+[2023-06-29 20:29:05] INFO root fetch - processPackages [amlopsvueelements]: Remove: archive file [/home/abi/fetcher/tmp/amlopsvueelements-1.2.8.tar.gz]
+[2023-06-29 20:29:05] INFO root fetch - processPackages [amlopsvueelements]: Remove: archive file [/home/abi/fetcher/tmp/amlopsvueelements-1.2.9.tar.gz]
+[2023-06-29 20:29:05] INFO root fetch - main [MainThread]: End processing [amlopsvueelements]: success
+[2023-06-29 20:29:57] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.2.0a1687673610.tar.gz]
+[2023-06-29 20:29:57] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.2.0a1688057302.tar.gz]
+[2023-06-29 20:29:57] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2023-06-29 20:29:57] INFO root fetch - main [MainThread]: Store serial: [18699051]
