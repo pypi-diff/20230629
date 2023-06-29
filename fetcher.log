@@ -942,3 +942,117 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 09:01:19] INFO root fetch - processPackages [urdf2webots]: Remove: archive file [/home/abi/fetcher/tmp/urdf2webots-2023.1.0.tar.gz]
 [2023-06-29 09:01:19] INFO root fetch - main [MainThread]: End processing [urdf2webots]: success
 [2023-06-29 09:01:19] INFO root fetch - main [MainThread]: Store serial: [18691172]
+[2023-06-29 09:06:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18691172]
+[2023-06-29 09:06:28] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-29 09:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clickzetta-connector
+[2023-06-29 09:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clickzetta-sqlalchemy
+[2023-06-29 09:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seqio-nightly
+[2023-06-29 09:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sentry-ldap
+[2023-06-29 09:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: syft
+[2023-06-29 09:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zoviz
+[2023-06-29 09:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: configu
+[2023-06-29 09:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yz-core2
+[2023-06-29 09:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: data-ecosystem-services
+[2023-06-29 09:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: AdvancedFernetDataEncryption
+[2023-06-29 09:06:28] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-29 09:06:28] INFO root fetch - processPackages [clickzetta-sqlalchemy]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-29 09:06:28] INFO root fetch - processPackages [sentry-ldap]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-06-29 09:06:28] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202306.0.9] Old Version: [202306.0.8]
+[2023-06-29 09:06:28] INFO root fetch - processPackages [configu]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-29 09:06:28] INFO root fetch - processPackages [zoviz]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-06-29 09:06:28] INFO root fetch - processPackages [syft]: New version: [0.8.2b2] Old Version: [0.8.2b1]
+[2023-06-29 09:06:28] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-06-29 09:06:28] INFO root fetch - processPackages [sentry-ldap]: Downloading https://files.pythonhosted.org/packages/e2/06/7ed9438f7a9b7c04f54451531461a75ec06d4a0574ae99093f062a05d5d7/sentry-ldap-1.2.7.tar.gz
+[2023-06-29 09:06:28] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-06-29 09:06:28] INFO root fetch - processPackages [yz-core2]: New version: [1.0.56b2] Old Version: [1.0.56b1]
+[2023-06-29 09:06:28] INFO root fetch - processPackages [AdvancedFernetDataEncryption]: New version: [1.1] Old Version: [1.0.1]
+[2023-06-29 09:06:28] INFO root fetch - processPackages [yz-core2]: Downloading https://files.pythonhosted.org/packages/b7/b3/7d7b30dc016df25d960ea435b78e6005a979fdaba14ff7629484457700e5/yz-core2-1.0.56b1.tar.gz
+[2023-06-29 09:06:28] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/72/d1/d65bb4b4077a404aa08b3a2615159873fac64bc9adabf42a5b45cb50f00b/clickzetta-connector-0.8.8.tar.gz
+[2023-06-29 09:06:28] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/1e/c5/d4be8dcc2a67d1d955c84c09b0223b9977fd638ed0bf7d09cc2a752386cf/clickzetta-sqlalchemy-0.8.8.tar.gz
+[2023-06-29 09:06:28] INFO root fetch - processPackages [sentry-ldap]: Downloading https://files.pythonhosted.org/packages/cb/1e/83cabdfdabeba1802261f3a524815733cc480cb976268328ebff97072c34/sentry-ldap-1.2.8.tar.gz
+[2023-06-29 09:06:28] INFO root fetch - processPackages [configu]: Downloading https://files.pythonhosted.org/packages/7e/af/a206a29d37deadb0fb0b0bf34ef925896c8c894841e1491446c5f287a20d/configu-0.2.0.tar.gz
+[2023-06-29 09:06:28] INFO root fetch - processPackages [zoviz]: Downloading https://files.pythonhosted.org/packages/39/01/118ff39e3e5bc58e05756a517d2b426abe032aa3420d27e3000aaac3b14a/zoviz-0.4.98.tar.gz
+[2023-06-29 09:06:28] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/69/04/26fc4e180fc0b2203f6f0d7734cf290c7e44ea66d113b693dab52ffb5596/syft-0.8.2b1.tar.gz
+[2023-06-29 09:06:28] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/5b/e5/329ad7107804869b21f1700513b8e7aa238a41800ba93be76f705a552922/data_ecosystem_services-202306.0.8.tar.gz
+[2023-06-29 09:06:28] INFO root fetch - processPackages [sentry-ldap]: executing diffoscope
+[2023-06-29 09:06:28] INFO root fetch - processPackages [sentry-ldap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-ldap-1.2.7.tar.gz tmp/sentry-ldap-1.2.8.tar.gz --markdown 20230629/s/sentry-ldap/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-06-29 09:06:29] INFO root fetch - processPackages [AdvancedFernetDataEncryption]: Downloading https://files.pythonhosted.org/packages/f3/3a/ae484639166b04eb43e2602783f649637bce79df94a1e8e9803a2bb951a0/advancedfernetdataencryption-1.0.1.tar.gz
+[2023-06-29 09:06:29] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-06-29 09:06:29] INFO root fetch - processPackages [yz-core2]: Downloading https://files.pythonhosted.org/packages/9c/f7/e2bfdd8794266fb260dfcb5eb71da41465a2adab5d758d44e30c79217c3e/yz-core2-1.0.56b2.tar.gz
+[2023-06-29 09:06:29] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-06-29 09:06:29] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230629/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-06-29 09:06:29] INFO root fetch - processPackages [configu]: Downloading https://files.pythonhosted.org/packages/9e/ce/d1f0ecad1aeebb6ce97e7aa7e47ccf3688107eb5654a23c30fad66f22ebb/configu-0.3.0.tar.gz
+[2023-06-29 09:06:29] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/81/41/2c55796964b0e67291955e1856242db62fc8e6f14e179a50bf1c6296f067/clickzetta-connector-0.8.9.tar.gz
+[2023-06-29 09:06:29] INFO root fetch - processPackages [yz-core2]: executing diffoscope
+[2023-06-29 09:06:29] INFO root fetch - processPackages [yz-core2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yz-core2-1.0.56b1.tar.gz tmp/yz-core2-1.0.56b2.tar.gz --markdown 20230629/y/yz-core2/1.0.56b1-1.0.56b2/diff.md --exclude *.pyd
+[2023-06-29 09:06:29] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2023-06-29 09:06:29] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.8.8.tar.gz tmp/clickzetta-connector-0.8.9.tar.gz --markdown 20230629/c/clickzetta-connector/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-29 09:06:29] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/70/ff/26dcc8981ea022ce24c0c9e8325515744aa95eec5b286d78b43fd2052212/syft-0.8.2b2.tar.gz
+[2023-06-29 09:06:29] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/05/6f/f31876ff58c9201594d988fd4bbd8a182a97a305a16842de419109e35005/clickzetta-sqlalchemy-0.8.9.tar.gz
+[2023-06-29 09:06:29] INFO root fetch - processPackages [AdvancedFernetDataEncryption]: Downloading https://files.pythonhosted.org/packages/20/60/d31ab0436552e2a4d26d1eb57ace36c43a9f10afcf819b7181e3965dfe6b/advancedfernetdataencryption-1.1.tar.gz
+[2023-06-29 09:06:29] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/50/ac/43dfcb08ca1891fb933a120355556d4bab09da2bfb6a923d470f7628cbcf/data_ecosystem_services-202306.0.9.tar.gz
+[2023-06-29 09:06:29] INFO root fetch - processPackages [configu]: executing diffoscope
+[2023-06-29 09:06:29] INFO root fetch - processPackages [configu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configu-0.2.0.tar.gz tmp/configu-0.3.0.tar.gz --markdown 20230629/c/configu/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-29 09:06:29] INFO root fetch - processPackages [clickzetta-sqlalchemy]: executing diffoscope
+[2023-06-29 09:06:29] INFO root fetch - processPackages [clickzetta-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-sqlalchemy-0.8.8.tar.gz tmp/clickzetta-sqlalchemy-0.8.9.tar.gz --markdown 20230629/c/clickzetta-sqlalchemy/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-29 09:06:29] INFO root fetch - processPackages [zoviz]: Downloading https://files.pythonhosted.org/packages/4b/9a/dea269ed1403497e3e963b49e4d08cdc0e831c8642e0f505481d42cdc405/zoviz-0.4.99.tar.gz
+[2023-06-29 09:06:29] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-06-29 09:06:29] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202306.0.8.tar.gz tmp/data_ecosystem_services-202306.0.9.tar.gz --markdown 20230629/d/data-ecosystem-services/202306.0.8-202306.0.9/diff.md --exclude *.pyd
+[2023-06-29 09:06:29] INFO root fetch - processPackages [syft]: executing diffoscope
+[2023-06-29 09:06:29] INFO root fetch - processPackages [syft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syft-0.8.2b1.tar.gz tmp/syft-0.8.2b2.tar.gz --markdown 20230629/s/syft/0.8.2b1-0.8.2b2/diff.md --exclude *.pyd
+[2023-06-29 09:06:29] INFO root fetch - processPackages [AdvancedFernetDataEncryption]: executing diffoscope
+[2023-06-29 09:06:29] INFO root fetch - processPackages [AdvancedFernetDataEncryption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advancedfernetdataencryption-1.0.1.tar.gz tmp/advancedfernetdataencryption-1.1.tar.gz --markdown 20230629/A/AdvancedFernetDataEncryption/1.0.1-1.1/diff.md --exclude *.pyd
+[2023-06-29 09:06:29] INFO root fetch - processPackages [zoviz]: executing diffoscope
+[2023-06-29 09:06:29] INFO root fetch - processPackages [zoviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoviz-0.4.98.tar.gz tmp/zoviz-0.4.99.tar.gz --markdown 20230629/z/zoviz/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-06-29 09:06:30] INFO root fetch - processPackages [sentry-ldap]: Remove: archive file [/home/abi/fetcher/tmp/sentry-ldap-1.2.7.tar.gz]
+[2023-06-29 09:06:30] INFO root fetch - processPackages [sentry-ldap]: Remove: archive file [/home/abi/fetcher/tmp/sentry-ldap-1.2.8.tar.gz]
+[2023-06-29 09:06:30] INFO root fetch - processPackages [sentry-ldap]: Start processing: haystack-hybrid-embedding
+[2023-06-29 09:06:30] INFO root fetch - main [MainThread]: End processing [sentry-ldap]: success
+[2023-06-29 09:06:30] WARNING root fetch - processPackages [haystack-hybrid-embedding]: Skipping, unable to determine old version
+[2023-06-29 09:06:30] INFO root fetch - processPackages [haystack-hybrid-embedding]: Start processing: insights-core
+[2023-06-29 09:06:30] INFO root fetch - main [MainThread]: End processing [haystack-hybrid-embedding] error
+[2023-06-29 09:06:30] INFO root fetch - processPackages [AdvancedFernetDataEncryption]: Remove: archive file [/home/abi/fetcher/tmp/advancedfernetdataencryption-1.0.1.tar.gz]
+[2023-06-29 09:06:30] INFO root fetch - processPackages [AdvancedFernetDataEncryption]: Remove: archive file [/home/abi/fetcher/tmp/advancedfernetdataencryption-1.1.tar.gz]
+[2023-06-29 09:06:30] INFO root fetch - processPackages [AdvancedFernetDataEncryption]: Start processing: sgclimaapiclient
+[2023-06-29 09:06:30] INFO root fetch - main [MainThread]: End processing [AdvancedFernetDataEncryption]: success
+[2023-06-29 09:06:30] INFO root fetch - processPackages [configu]: Remove: archive file [/home/abi/fetcher/tmp/configu-0.2.0.tar.gz]
+[2023-06-29 09:06:30] INFO root fetch - processPackages [configu]: Remove: archive file [/home/abi/fetcher/tmp/configu-0.3.0.tar.gz]
+[2023-06-29 09:06:30] INFO root fetch - main [MainThread]: End processing [configu]: success
+[2023-06-29 09:06:30] INFO root fetch - processPackages [insights-core]: New version: [3.2.3] Old Version: [3.2.2]
+[2023-06-29 09:06:30] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.8.tar.gz]
+[2023-06-29 09:06:30] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.9.tar.gz]
+[2023-06-29 09:06:30] INFO root fetch - main [MainThread]: End processing [clickzetta-sqlalchemy]: success
+[2023-06-29 09:06:30] INFO root fetch - processPackages [sgclimaapiclient]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-29 09:06:31] INFO root fetch - processPackages [zoviz]: Remove: archive file [/home/abi/fetcher/tmp/zoviz-0.4.98.tar.gz]
+[2023-06-29 09:06:31] INFO root fetch - processPackages [zoviz]: Remove: archive file [/home/abi/fetcher/tmp/zoviz-0.4.99.tar.gz]
+[2023-06-29 09:06:31] INFO root fetch - main [MainThread]: End processing [zoviz]: success
+[2023-06-29 09:06:31] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.8.tar.gz]
+[2023-06-29 09:06:31] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.9.tar.gz]
+[2023-06-29 09:06:31] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2023-06-29 09:06:31] INFO root fetch - processPackages [insights-core]: Downloading https://files.pythonhosted.org/packages/1c/91/9cb2f6f8bb7273ac7242cbc4bd75f014fbeef60fde373096f014cb0866ab/insights-core-3.2.2.tar.gz
+[2023-06-29 09:06:31] INFO root fetch - processPackages [sgclimaapiclient]: Downloading https://files.pythonhosted.org/packages/88/50/7a4d65f2a5ebb8c304716e6c9c6a904ab89aa6e106ba951a82fe959d10b6/sgclimaapiclient-1.1.8.tar.gz
+[2023-06-29 09:06:31] INFO root fetch - processPackages [insights-core]: Downloading https://files.pythonhosted.org/packages/e6/e6/cf1a00eedd110817149234e8b00268d41b998f643095556c8abfd713e7c3/insights-core-3.2.3.tar.gz
+[2023-06-29 09:06:31] INFO root fetch - processPackages [sgclimaapiclient]: Downloading https://files.pythonhosted.org/packages/6f/10/7c81648b2176694508c5aa7d054fc4f41d8e89f877d149f20290c26b1f16/sgclimaapiclient-1.1.9.tar.gz
+[2023-06-29 09:06:31] INFO root fetch - processPackages [sgclimaapiclient]: executing diffoscope
+[2023-06-29 09:06:31] INFO root fetch - processPackages [sgclimaapiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sgclimaapiclient-1.1.8.tar.gz tmp/sgclimaapiclient-1.1.9.tar.gz --markdown 20230629/s/sgclimaapiclient/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-29 09:06:31] INFO root fetch - processPackages [insights-core]: executing diffoscope
+[2023-06-29 09:06:31] INFO root fetch - processPackages [insights-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insights-core-3.2.2.tar.gz tmp/insights-core-3.2.3.tar.gz --markdown 20230629/i/insights-core/3.2.2-3.2.3/diff.md --exclude *.pyd
+[2023-06-29 09:06:31] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.2b1.tar.gz]
+[2023-06-29 09:06:31] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.2b2.tar.gz]
+[2023-06-29 09:06:31] INFO root fetch - main [MainThread]: End processing [syft]: success
+[2023-06-29 09:06:31] INFO root fetch - processPackages [yz-core2]: Remove: archive file [/home/abi/fetcher/tmp/yz-core2-1.0.56b1.tar.gz]
+[2023-06-29 09:06:31] INFO root fetch - processPackages [yz-core2]: Remove: archive file [/home/abi/fetcher/tmp/yz-core2-1.0.56b2.tar.gz]
+[2023-06-29 09:06:31] INFO root fetch - main [MainThread]: End processing [yz-core2]: success
+[2023-06-29 09:06:32] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.8.tar.gz]
+[2023-06-29 09:06:32] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.9.tar.gz]
+[2023-06-29 09:06:32] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-06-29 09:06:32] INFO root fetch - processPackages [sgclimaapiclient]: Remove: archive file [/home/abi/fetcher/tmp/sgclimaapiclient-1.1.8.tar.gz]
+[2023-06-29 09:06:32] INFO root fetch - processPackages [sgclimaapiclient]: Remove: archive file [/home/abi/fetcher/tmp/sgclimaapiclient-1.1.9.tar.gz]
+[2023-06-29 09:06:32] INFO root fetch - main [MainThread]: End processing [sgclimaapiclient]: success
+[2023-06-29 09:06:33] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-06-29 09:06:33] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-06-29 09:06:33] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-06-29 09:06:55] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.2.2.tar.gz]
+[2023-06-29 09:06:55] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.2.3.tar.gz]
+[2023-06-29 09:06:55] INFO root fetch - main [MainThread]: End processing [insights-core]: success
+[2023-06-29 09:06:55] INFO root fetch - main [MainThread]: Store serial: [18691210]
