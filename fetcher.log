@@ -429,3 +429,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 08:28:56] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.99.0.tar.gz]
 [2023-06-29 08:28:56] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
 [2023-06-29 08:28:56] INFO root fetch - main [MainThread]: Store serial: [18690976]
+[2023-06-29 08:33:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18690976]
+[2023-06-29 08:34:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-29 08:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gdsfactory
+[2023-06-29 08:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-29 08:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fake-bpy-module-latest
+[2023-06-29 08:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apminsight
+[2023-06-29 08:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: invoicing-pdf-565
+[2023-06-29 08:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zhousf-lib
+[2023-06-29 08:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-filer
+[2023-06-29 08:34:05] ERROR root fetch - processPackages [invoicing-pdf-565]: Unable to get metadata: No such project 'invoicing-pdf-565'
+[2023-06-29 08:34:05] INFO root fetch - main [MainThread]: End processing [invoicing-pdf-565] error
+[2023-06-29 08:34:05] INFO root fetch - processPackages [gdsfactory]: New version: [6.99.0] Old Version: [6.98.2]
+[2023-06-29 08:34:05] INFO root fetch - processPackages [zhousf-lib]: New version: [0.8.0] Old Version: [0.7.9]
+[2023-06-29 08:34:05] INFO root fetch - processPackages [apminsight]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-06-29 08:34:05] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-29 08:34:05] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230629] Old Version: [20230628]
+[2023-06-29 08:34:05] INFO root fetch - processPackages [django-filer]: New version: [3.0.0rc3] Old Version: [3.0.0rc2]
+[2023-06-29 08:34:05] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/80/c1/4c6b9225e24616b51ffab9ab33f5927ddd0c389561fb25f04bf2aa25865c/zhousf-lib-0.7.9.tar.gz
+[2023-06-29 08:34:05] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-29 08:34:05] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/ff/05/870e36f7f563bd7f04c2b112ab12a910e9ff70d6db321ee2869e192b012c/fake-bpy-module-latest-20230628.tar.gz
+[2023-06-29 08:34:05] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/c8/dd/88303eeb3c46484a4a64c2675611a92ea3816ae1ec8181c6eb5e78e85064/gdsfactory-6.98.2.tar.gz
+[2023-06-29 08:34:05] INFO root fetch - processPackages [apminsight]: Downloading https://files.pythonhosted.org/packages/0f/69/a2db9cbd99189c49a8ed413e178e15e868fa3399b185491544ab4b974e92/apminsight-1.0.3.tar.gz
+[2023-06-29 08:34:05] INFO root fetch - processPackages [django-filer]: Downloading https://files.pythonhosted.org/packages/64/1a/b9667f8f614265a6cc7830e8e83b51f11c1d4bed58795134af328032b73f/django-filer-3.0.0rc2.tar.gz
+[2023-06-29 08:34:05] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-29 08:34:05] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/42/14/20ff6f549e40a0ab99512fbac1e84fd48d704a936dae76e1618e9e436f87/fake-bpy-module-latest-20230629.tar.gz
+[2023-06-29 08:34:05] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/3b/f2/f40295a31f1029477eca4a5c60467772eecce6ccf2043b2a5a6be9ace528/zhousf-lib-0.8.0.tar.gz
+[2023-06-29 08:34:05] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-29 08:34:05] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230629/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-29 08:34:05] INFO root fetch - processPackages [apminsight]: Downloading https://files.pythonhosted.org/packages/1e/0b/c5adbd3426f515f01613617954eb2d7b826307b180f251193e4574f1baf0/apminsight-1.1.0.tar.gz
+[2023-06-29 08:34:05] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-06-29 08:34:05] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230628.tar.gz tmp/fake-bpy-module-latest-20230629.tar.gz --markdown 20230629/f/fake-bpy-module-latest/20230628-20230629/diff.md --exclude *.pyd
+[2023-06-29 08:34:05] INFO root fetch - processPackages [django-filer]: Downloading https://files.pythonhosted.org/packages/bc/ed/6464a8a6bb8ef3a342a380220aac36ed9bfdef680fd6066ecffa866a094e/django-filer-3.0.0rc3.tar.gz
+[2023-06-29 08:34:05] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/7e/ec/2cd39e2ce278d617eac6988e914b8df36d3496205cac9e991937c8cd1fe3/gdsfactory-6.99.0.tar.gz
+[2023-06-29 08:34:05] INFO root fetch - processPackages [apminsight]: executing diffoscope
+[2023-06-29 08:34:05] INFO root fetch - processPackages [apminsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apminsight-1.0.3.tar.gz tmp/apminsight-1.1.0.tar.gz --markdown 20230629/a/apminsight/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-06-29 08:34:05] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2023-06-29 08:34:05] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf-lib-0.7.9.tar.gz tmp/zhousf-lib-0.8.0.tar.gz --markdown 20230629/z/zhousf-lib/0.7.9-0.8.0/diff.md --exclude *.pyd
+[2023-06-29 08:34:05] INFO root fetch - processPackages [django-filer]: executing diffoscope
+[2023-06-29 08:34:05] INFO root fetch - processPackages [django-filer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-filer-3.0.0rc2.tar.gz tmp/django-filer-3.0.0rc3.tar.gz --markdown 20230629/d/django-filer/3.0.0rc2-3.0.0rc3/diff.md --exclude *.pyd
+[2023-06-29 08:34:05] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2023-06-29 08:34:05] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-6.98.2.tar.gz tmp/gdsfactory-6.99.0.tar.gz --markdown 20230629/g/gdsfactory/6.98.2-6.99.0/diff.md --exclude *.pyd
+[2023-06-29 08:34:07] INFO root fetch - processPackages [apminsight]: Remove: archive file [/home/abi/fetcher/tmp/apminsight-1.0.3.tar.gz]
+[2023-06-29 08:34:07] INFO root fetch - processPackages [apminsight]: Remove: archive file [/home/abi/fetcher/tmp/apminsight-1.1.0.tar.gz]
+[2023-06-29 08:34:07] INFO root fetch - main [MainThread]: End processing [apminsight]: success
+[2023-06-29 08:34:07] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-06-29 08:34:07] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-06-29 08:34:07] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-29 08:34:08] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.7.9.tar.gz]
+[2023-06-29 08:34:08] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.8.0.tar.gz]
+[2023-06-29 08:34:08] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2023-06-29 08:34:10] INFO root fetch - processPackages [django-filer]: Remove: archive file [/home/abi/fetcher/tmp/django-filer-3.0.0rc2.tar.gz]
+[2023-06-29 08:34:10] INFO root fetch - processPackages [django-filer]: Remove: archive file [/home/abi/fetcher/tmp/django-filer-3.0.0rc3.tar.gz]
+[2023-06-29 08:34:10] INFO root fetch - main [MainThread]: End processing [django-filer]: success
+[2023-06-29 08:34:12] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230628.tar.gz]
+[2023-06-29 08:34:12] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230629.tar.gz]
+[2023-06-29 08:34:12] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-06-29 08:34:13] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.98.2.tar.gz]
+[2023-06-29 08:34:13] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.99.0.tar.gz]
+[2023-06-29 08:34:13] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2023-06-29 08:34:13] INFO root fetch - main [MainThread]: Store serial: [18690998]
