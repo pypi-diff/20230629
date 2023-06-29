@@ -14360,3 +14360,194 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 17:12:38] INFO root fetch - processPackages [quil]: Remove: archive file [/home/abi/fetcher/tmp/quil-0.2.0rc9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-29 17:12:38] INFO root fetch - main [MainThread]: End processing [quil]: success
 [2023-06-29 17:12:38] INFO root fetch - main [MainThread]: Store serial: [18696903]
+[2023-06-29 17:17:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18696903]
+[2023-06-29 17:17:51] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-06-29 17:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: talisman-dm
+[2023-06-29 17:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudshell-networking-juniper
+[2023-06-29 17:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: findlike
+[2023-06-29 17:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atlantiscore
+[2023-06-29 17:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jupyter-locuszoom
+[2023-06-29 17:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: panel
+[2023-06-29 17:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hicpnewman
+[2023-06-29 17:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyutplugins
+[2023-06-29 17:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-artifactory
+[2023-06-29 17:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: actinia-core
+[2023-06-29 17:17:51] INFO root fetch - processPackages [cloudshell-networking-juniper]: New version: [6.0.1] Old Version: [6.0.0]
+[2023-06-29 17:17:51] INFO root fetch - processPackages [findlike]: New version: [1.3.0] Old Version: [1.2.2]
+[2023-06-29 17:17:51] WARNING root fetch - processPackages [jupyter-locuszoom]: Skipping, unable to determine old version
+[2023-06-29 17:17:51] INFO root fetch - processPackages [jupyter-locuszoom]: Start processing: ayon-python-api
+[2023-06-29 17:17:51] INFO root fetch - processPackages [hicpnewman]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-29 17:17:51] INFO root fetch - processPackages [atlantiscore]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-06-29 17:17:51] INFO root fetch - main [MainThread]: End processing [jupyter-locuszoom] error
+[2023-06-29 17:17:51] INFO root fetch - processPackages [actinia-core]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-06-29 17:17:51] INFO root fetch - processPackages [talisman-dm]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-06-29 17:17:51] INFO root fetch - processPackages [pyutplugins]: New version: [0.9.0] Old Version: [0.8.90]
+[2023-06-29 17:17:51] INFO root fetch - processPackages [pulumi-artifactory]: New version: [4.1.0a1688050257] Old Version: [4.1.0a1687670320]
+[2023-06-29 17:17:51] INFO root fetch - processPackages [panel]: New version: [1.2.0a1] Old Version: [1.1.1rc1]
+[2023-06-29 17:17:51] INFO root fetch - processPackages [ayon-python-api]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-29 17:17:51] INFO root fetch - processPackages [hicpnewman]: Downloading https://files.pythonhosted.org/packages/c6/a2/085b4304ce3cd8458d0d7f9d051357fae2b607d5c7203d51e3d2e54ea737/hicpnewman-1.0.2.tar.gz
+[2023-06-29 17:17:51] INFO root fetch - processPackages [ayon-python-api]: Downloading https://files.pythonhosted.org/packages/22/77/b1a6f59fd53ac5c619664ca35ebaeb1661b421be52d337bf15bfa33b6293/ayon-python-api-0.3.0.tar.gz
+[2023-06-29 17:17:52] INFO root fetch - processPackages [atlantiscore]: Downloading https://files.pythonhosted.org/packages/77/6b/241565f7fc0ddb52096750786489c212596225117d65c189f0479f18b28a/atlantiscore-2.1.0.tar.gz
+[2023-06-29 17:17:52] INFO root fetch - processPackages [cloudshell-networking-juniper]: Downloading https://files.pythonhosted.org/packages/9d/f2/482edec07f179cfbebf5884df74b789ad45383c7eebfdd764703e8a938f6/cloudshell-networking-juniper-6.0.0.tar.gz
+[2023-06-29 17:17:52] INFO root fetch - processPackages [talisman-dm]: Downloading https://files.pythonhosted.org/packages/ed/7b/c63dab386460cedecb16ca1a9f5dbb275583d9abb2f9852eac02dc8f1139/talisman-dm-1.0.0a8.tar.gz
+[2023-06-29 17:17:52] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/6b/f3/e8bb13eef4504aa1f0518fa35b4ad84a906c389a21626c9c138f78c194da/pulumi_artifactory-4.1.0a1687670320.tar.gz
+[2023-06-29 17:17:52] INFO root fetch - processPackages [findlike]: Downloading https://files.pythonhosted.org/packages/36/e4/6f5856937071764bcf2eb08c123c023267296d2d3a6c5822caaceb4305ff/findlike-1.2.2.tar.gz
+[2023-06-29 17:17:52] INFO root fetch - processPackages [pyutplugins]: Downloading https://files.pythonhosted.org/packages/67/7c/8c010552fa64ff72e25c09879dfaa545f8888b6a416ac2f51bab0bbebc55/pyutplugins-0.8.90.tar.gz
+[2023-06-29 17:17:52] INFO root fetch - processPackages [panel]: Downloading https://files.pythonhosted.org/packages/fb/e0/75301082a51e5fcab7ca94720c91e1ac6cc05469197795405a07c5217def/panel-1.1.1rc1.tar.gz
+[2023-06-29 17:17:52] INFO root fetch - processPackages [actinia-core]: Downloading https://files.pythonhosted.org/packages/8d/e8/3afcd593a801b9ea6306d5481d5fd72802b14b7245b7cf93f8bc47790ff4/actinia-core-4.9.1.tar.gz
+[2023-06-29 17:17:52] WARNING root fetch - processPackages [panel]: Skipping package: exceeds size limit 25751040>=10485760
+[2023-06-29 17:17:52] INFO root fetch - processPackages [panel]: Start processing: hagrid
+[2023-06-29 17:17:52] INFO root fetch - main [MainThread]: End processing [panel] error
+[2023-06-29 17:17:52] INFO root fetch - processPackages [ayon-python-api]: Downloading https://files.pythonhosted.org/packages/03/d3/56f5a768be5e93e349ed80068ca4ab11915a18dcf815085f21ee5f508eb1/ayon-python-api-0.3.1.tar.gz
+[2023-06-29 17:17:52] INFO root fetch - processPackages [hagrid]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-29 17:17:52] INFO root fetch - processPackages [hicpnewman]: Downloading https://files.pythonhosted.org/packages/e3/da/55af07a5b42dd9e02aec9656e1a6b6cc1c3ba3ca4f62926136a985c4cc34/hicpnewman-1.0.3.tar.gz
+[2023-06-29 17:17:52] INFO root fetch - processPackages [atlantiscore]: Downloading https://files.pythonhosted.org/packages/62/49/f7d63f151e3bad2ee68aba32ef58444e07d8581df91d99e589e9f53c777a/atlantiscore-2.2.0.tar.gz
+[2023-06-29 17:17:52] INFO root fetch - processPackages [cloudshell-networking-juniper]: Downloading https://files.pythonhosted.org/packages/2d/1c/6920089998f29d23e9cbd0e92817c36e04c69ae794ae65d5ec35c85ccb54/cloudshell-networking-juniper-6.0.1.tar.gz
+[2023-06-29 17:17:52] INFO root fetch - processPackages [ayon-python-api]: executing diffoscope
+[2023-06-29 17:17:52] INFO root fetch - processPackages [ayon-python-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayon-python-api-0.3.0.tar.gz tmp/ayon-python-api-0.3.1.tar.gz --markdown 20230629/a/ayon-python-api/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-29 17:17:52] INFO root fetch - processPackages [findlike]: Downloading https://files.pythonhosted.org/packages/a2/17/6d800881cc193ed4687ec6f4dfcf273ee531bff2662c4c9513c5db55bdfc/findlike-1.3.0.tar.gz
+[2023-06-29 17:17:52] INFO root fetch - processPackages [actinia-core]: Downloading https://files.pythonhosted.org/packages/8c/c5/9c956dde5c38ea39e2b1243f508236d4b729abc2b3224e9dc08cb3bea499/actinia-core-4.9.2.tar.gz
+[2023-06-29 17:17:52] INFO root fetch - processPackages [atlantiscore]: executing diffoscope
+[2023-06-29 17:17:52] INFO root fetch - processPackages [atlantiscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlantiscore-2.1.0.tar.gz tmp/atlantiscore-2.2.0.tar.gz --markdown 20230629/a/atlantiscore/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-06-29 17:17:52] INFO root fetch - processPackages [talisman-dm]: Downloading https://files.pythonhosted.org/packages/bd/ef/0d2809d6ed2c72eee47f846077380162aecf867d99c7289e3fbcb3a223f9/talisman-dm-1.0.0a9.tar.gz
+[2023-06-29 17:17:52] INFO root fetch - processPackages [pyutplugins]: Downloading https://files.pythonhosted.org/packages/95/5e/c1681b2d25c9b35e824e835566520ed7dacec50dc521915ea222eb13dd6f/pyutplugins-0.9.0.tar.gz
+[2023-06-29 17:17:52] INFO root fetch - processPackages [cloudshell-networking-juniper]: executing diffoscope
+[2023-06-29 17:17:52] INFO root fetch - processPackages [cloudshell-networking-juniper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudshell-networking-juniper-6.0.0.tar.gz tmp/cloudshell-networking-juniper-6.0.1.tar.gz --markdown 20230629/c/cloudshell-networking-juniper/6.0.0-6.0.1/diff.md --exclude *.pyd
+[2023-06-29 17:17:52] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/da/23/2e13e5263379fe573f7faa21102e7694332939bef8d1d7e090b8bf5fa64b/pulumi_artifactory-4.1.0a1688050257.tar.gz
+[2023-06-29 17:17:52] INFO root fetch - processPackages [findlike]: executing diffoscope
+[2023-06-29 17:17:52] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/63/8f/f6b3f8daafd8bb51dd59ed15dee9f83776e53b4bd4f460239542b391169f/hagrid-0.3.8.tar.gz
+[2023-06-29 17:17:52] INFO root fetch - processPackages [findlike]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findlike-1.2.2.tar.gz tmp/findlike-1.3.0.tar.gz --markdown 20230629/f/findlike/1.2.2-1.3.0/diff.md --exclude *.pyd
+[2023-06-29 17:17:52] INFO root fetch - processPackages [talisman-dm]: executing diffoscope
+[2023-06-29 17:17:52] INFO root fetch - processPackages [talisman-dm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talisman-dm-1.0.0a8.tar.gz tmp/talisman-dm-1.0.0a9.tar.gz --markdown 20230629/t/talisman-dm/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-06-29 17:17:52] INFO root fetch - processPackages [pyutplugins]: executing diffoscope
+[2023-06-29 17:17:52] INFO root fetch - processPackages [pyutplugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyutplugins-0.8.90.tar.gz tmp/pyutplugins-0.9.0.tar.gz --markdown 20230629/p/pyutplugins/0.8.90-0.9.0/diff.md --exclude *.pyd
+[2023-06-29 17:17:52] INFO root fetch - processPackages [actinia-core]: executing diffoscope
+[2023-06-29 17:17:52] INFO root fetch - processPackages [actinia-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actinia-core-4.9.1.tar.gz tmp/actinia-core-4.9.2.tar.gz --markdown 20230629/a/actinia-core/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-06-29 17:17:52] INFO root fetch - processPackages [hicpnewman]: executing diffoscope
+[2023-06-29 17:17:52] INFO root fetch - processPackages [hicpnewman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hicpnewman-1.0.2.tar.gz tmp/hicpnewman-1.0.3.tar.gz --markdown 20230629/h/hicpnewman/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-29 17:17:52] INFO root fetch - processPackages [pulumi-artifactory]: executing diffoscope
+[2023-06-29 17:17:52] INFO root fetch - processPackages [pulumi-artifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_artifactory-4.1.0a1687670320.tar.gz tmp/pulumi_artifactory-4.1.0a1688050257.tar.gz --markdown 20230629/p/pulumi-artifactory/4.1.0a1687670320-4.1.0a1688050257/diff.md --exclude *.pyd
+[2023-06-29 17:17:52] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/93/62/db70dc46e40b49bc26e4074bed1920230e6deffcc964b82b28bdc7cfccdc/hagrid-0.3.9.tar.gz
+[2023-06-29 17:17:53] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2023-06-29 17:17:53] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.8.tar.gz tmp/hagrid-0.3.9.tar.gz --markdown 20230629/h/hagrid/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-29 17:17:53] INFO root fetch - processPackages [atlantiscore]: Remove: archive file [/home/abi/fetcher/tmp/atlantiscore-2.1.0.tar.gz]
+[2023-06-29 17:17:53] INFO root fetch - processPackages [atlantiscore]: Remove: archive file [/home/abi/fetcher/tmp/atlantiscore-2.2.0.tar.gz]
+[2023-06-29 17:17:53] INFO root fetch - processPackages [atlantiscore]: Start processing: prog-algs
+[2023-06-29 17:17:53] INFO root fetch - main [MainThread]: End processing [atlantiscore]: success
+[2023-06-29 17:17:54] INFO root fetch - processPackages [prog-algs]: New version: [1.5.0rc0] Old Version: [1.5.0]
+[2023-06-29 17:17:54] INFO root fetch - processPackages [prog-algs]: Downloading https://files.pythonhosted.org/packages/81/8b/47c794a1cb35046c9c3332ad51d138f2987f94f817bbccd91c5c21928f7e/prog_algs-1.5.0.tar.gz
+[2023-06-29 17:17:54] INFO root fetch - processPackages [findlike]: Remove: archive file [/home/abi/fetcher/tmp/findlike-1.2.2.tar.gz]
+[2023-06-29 17:17:54] INFO root fetch - processPackages [findlike]: Remove: archive file [/home/abi/fetcher/tmp/findlike-1.3.0.tar.gz]
+[2023-06-29 17:17:54] INFO root fetch - processPackages [findlike]: Start processing: autodice
+[2023-06-29 17:17:54] INFO root fetch - main [MainThread]: End processing [findlike]: success
+[2023-06-29 17:17:54] WARNING root fetch - processPackages [autodice]: Skipping, unable to determine old version
+[2023-06-29 17:17:54] INFO root fetch - processPackages [autodice]: Start processing: wwpdb.utils.emdb
+[2023-06-29 17:17:54] INFO root fetch - main [MainThread]: End processing [autodice] error
+[2023-06-29 17:17:54] INFO root fetch - processPackages [wwpdb.utils.emdb]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-29 17:17:54] INFO root fetch - processPackages [cloudshell-networking-juniper]: Remove: archive file [/home/abi/fetcher/tmp/cloudshell-networking-juniper-6.0.0.tar.gz]
+[2023-06-29 17:17:54] INFO root fetch - processPackages [cloudshell-networking-juniper]: Remove: archive file [/home/abi/fetcher/tmp/cloudshell-networking-juniper-6.0.1.tar.gz]
+[2023-06-29 17:17:54] INFO root fetch - processPackages [cloudshell-networking-juniper]: Start processing: fca-algorithms
+[2023-06-29 17:17:54] INFO root fetch - main [MainThread]: End processing [cloudshell-networking-juniper]: success
+[2023-06-29 17:17:54] INFO root fetch - processPackages [fca-algorithms]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-29 17:17:54] INFO root fetch - processPackages [prog-algs]: Downloading https://files.pythonhosted.org/packages/07/49/6cae2951679cf89e0fea7efa149a78d3fc0447cf8e7ed8c3fec7e3c808cc/prog_algs-1.5.0rc0.tar.gz
+[2023-06-29 17:17:54] INFO root fetch - processPackages [wwpdb.utils.emdb]: Downloading https://files.pythonhosted.org/packages/ab/37/d0aed09af6a0257a9a40ff21b5c864c5cc26babb6786fdfc864c31c8c9e1/wwpdb.utils.emdb-1.4.1.tar.gz
+[2023-06-29 17:17:54] INFO root fetch - processPackages [hicpnewman]: Remove: archive file [/home/abi/fetcher/tmp/hicpnewman-1.0.2.tar.gz]
+[2023-06-29 17:17:54] INFO root fetch - processPackages [hicpnewman]: Remove: archive file [/home/abi/fetcher/tmp/hicpnewman-1.0.3.tar.gz]
+[2023-06-29 17:17:54] INFO root fetch - processPackages [hicpnewman]: Start processing: advdef01
+[2023-06-29 17:17:54] INFO root fetch - main [MainThread]: End processing [hicpnewman]: success
+[2023-06-29 17:17:54] INFO root fetch - processPackages [fca-algorithms]: Downloading https://files.pythonhosted.org/packages/96/40/d156d5ccb0242ec1c348e3ed3ff4a769bd73b6f1bf77028620d24ab8a2d6/fca-algorithms-1.0.0.tar.gz
+[2023-06-29 17:17:54] WARNING root fetch - processPackages [advdef01]: Skipping, unable to determine old version
+[2023-06-29 17:17:54] INFO root fetch - processPackages [advdef01]: Start processing: spyder-kernels
+[2023-06-29 17:17:54] INFO root fetch - main [MainThread]: End processing [advdef01] error
+[2023-06-29 17:17:54] INFO root fetch - processPackages [prog-algs]: executing diffoscope
+[2023-06-29 17:17:54] INFO root fetch - processPackages [prog-algs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prog_algs-1.5.0.tar.gz tmp/prog_algs-1.5.0rc0.tar.gz --markdown 20230629/p/prog-algs/1.5.0-1.5.0rc0/diff.md --exclude *.pyd
+[2023-06-29 17:17:54] INFO root fetch - processPackages [spyder-kernels]: New version: [3.0.0b1] Old Version: [2.4.4]
+[2023-06-29 17:17:54] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.8.tar.gz]
+[2023-06-29 17:17:54] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.9.tar.gz]
+[2023-06-29 17:17:54] INFO root fetch - processPackages [hagrid]: Start processing: ag-llama-api
+[2023-06-29 17:17:54] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2023-06-29 17:17:54] INFO root fetch - processPackages [ag-llama-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 17:17:54] INFO root fetch - processPackages [talisman-dm]: Remove: archive file [/home/abi/fetcher/tmp/talisman-dm-1.0.0a8.tar.gz]
+[2023-06-29 17:17:54] INFO root fetch - processPackages [talisman-dm]: Remove: archive file [/home/abi/fetcher/tmp/talisman-dm-1.0.0a9.tar.gz]
+[2023-06-29 17:17:54] INFO root fetch - processPackages [talisman-dm]: Start processing: nimpa
+[2023-06-29 17:17:54] INFO root fetch - main [MainThread]: End processing [talisman-dm]: success
+[2023-06-29 17:17:54] INFO root fetch - processPackages [spyder-kernels]: Downloading https://files.pythonhosted.org/packages/f0/be/c08d65fe5c416a8412415aeb6a5eca482cdc8926a94c1c9a7703508484db/spyder-kernels-2.4.4.tar.gz
+[2023-06-29 17:17:54] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/e7/db/6c93bb8ec9653fafd298258240710b4768345a45843013bc715cf9e658f7/ag_llama_api-0.0.8.tar.gz
+[2023-06-29 17:17:54] INFO root fetch - processPackages [nimpa]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-06-29 17:17:54] INFO root fetch - processPackages [fca-algorithms]: Downloading https://files.pythonhosted.org/packages/dc/0b/3c067b0aae428008a843609feead1cabf8da6ac6bbe9d6c92958303fd211/fca-algorithms-1.0.1.tar.gz
+[2023-06-29 17:17:54] INFO root fetch - processPackages [wwpdb.utils.emdb]: Downloading https://files.pythonhosted.org/packages/9c/b4/8147abc8ffe8678e7f504310264f40ea016c71953a8d0f254388dc586cf5/wwpdb.utils.emdb-1.4.2.tar.gz
+[2023-06-29 17:17:54] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/0e/45/5ce146425eb4c54590e514bf53d436ec8eb7cbeee70953b613dcd4e56824/ag_llama_api-0.0.9.tar.gz
+[2023-06-29 17:17:54] INFO root fetch - processPackages [nimpa]: Downloading https://files.pythonhosted.org/packages/a7/61/7038738683ce11ea94f2864ebc5e9bbd2c5b5239aaddf3f39da8d2048d1a/nimpa-2.6.0.tar.gz
+[2023-06-29 17:17:54] INFO root fetch - processPackages [fca-algorithms]: executing diffoscope
+[2023-06-29 17:17:54] INFO root fetch - processPackages [fca-algorithms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fca-algorithms-1.0.0.tar.gz tmp/fca-algorithms-1.0.1.tar.gz --markdown 20230629/f/fca-algorithms/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-29 17:17:54] INFO root fetch - processPackages [ag-llama-api]: executing diffoscope
+[2023-06-29 17:17:54] INFO root fetch - processPackages [ag-llama-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_api-0.0.8.tar.gz tmp/ag_llama_api-0.0.9.tar.gz --markdown 20230629/a/ag-llama-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 17:17:54] INFO root fetch - processPackages [wwpdb.utils.emdb]: executing diffoscope
+[2023-06-29 17:17:54] INFO root fetch - processPackages [wwpdb.utils.emdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwpdb.utils.emdb-1.4.1.tar.gz tmp/wwpdb.utils.emdb-1.4.2.tar.gz --markdown 20230629/w/wwpdb.utils.emdb/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-29 17:17:54] INFO root fetch - processPackages [spyder-kernels]: Downloading https://files.pythonhosted.org/packages/f3/6d/c7c5a9471cfc9f5714422996525487858a0e2a3d78a6465b51bbc38ffb5c/spyder-kernels-3.0.0b1.tar.gz
+[2023-06-29 17:17:55] INFO root fetch - processPackages [ayon-python-api]: Remove: archive file [/home/abi/fetcher/tmp/ayon-python-api-0.3.0.tar.gz]
+[2023-06-29 17:17:55] INFO root fetch - processPackages [ayon-python-api]: Remove: archive file [/home/abi/fetcher/tmp/ayon-python-api-0.3.1.tar.gz]
+[2023-06-29 17:17:55] INFO root fetch - processPackages [ayon-python-api]: Start processing: Jucodecorrector
+[2023-06-29 17:17:55] INFO root fetch - main [MainThread]: End processing [ayon-python-api]: success
+[2023-06-29 17:17:55] INFO root fetch - processPackages [spyder-kernels]: executing diffoscope
+[2023-06-29 17:17:55] INFO root fetch - processPackages [spyder-kernels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyder-kernels-2.4.4.tar.gz tmp/spyder-kernels-3.0.0b1.tar.gz --markdown 20230629/s/spyder-kernels/2.4.4-3.0.0b1/diff.md --exclude *.pyd
+[2023-06-29 17:17:55] WARNING root fetch - processPackages [Jucodecorrector]: Skipping, unable to determine old version
+[2023-06-29 17:17:55] INFO root fetch - processPackages [Jucodecorrector]: Start processing: cdktf-cdktf-provider-opentelekomcloud
+[2023-06-29 17:17:55] INFO root fetch - main [MainThread]: End processing [Jucodecorrector] error
+[2023-06-29 17:17:55] INFO root fetch - processPackages [nimpa]: Downloading https://files.pythonhosted.org/packages/9a/43/e66ccd7a1d91ce2abdc2fd04a5bd1b441e81a038083195a09e92b34cfecc/nimpa-2.6.1.tar.gz
+[2023-06-29 17:17:55] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-29 17:17:55] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: Downloading https://files.pythonhosted.org/packages/0f/c1/8f1602e8ce629ce481c1a4a06cc7354bb02b1d65abc7fd2d56c2f3e320d5/cdktf-cdktf-provider-opentelekomcloud-7.0.0.tar.gz
+[2023-06-29 17:17:55] INFO root fetch - processPackages [nimpa]: executing diffoscope
+[2023-06-29 17:17:55] INFO root fetch - processPackages [nimpa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nimpa-2.6.0.tar.gz tmp/nimpa-2.6.1.tar.gz --markdown 20230629/n/nimpa/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-06-29 17:17:55] INFO root fetch - processPackages [prog-algs]: Remove: archive file [/home/abi/fetcher/tmp/prog_algs-1.5.0.tar.gz]
+[2023-06-29 17:17:55] INFO root fetch - processPackages [prog-algs]: Remove: archive file [/home/abi/fetcher/tmp/prog_algs-1.5.0rc0.tar.gz]
+[2023-06-29 17:17:55] INFO root fetch - processPackages [prog-algs]: Start processing: ansys-api-pyensight
+[2023-06-29 17:17:55] INFO root fetch - main [MainThread]: End processing [prog-algs]: success
+[2023-06-29 17:17:55] INFO root fetch - processPackages [ansys-api-pyensight]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-29 17:17:55] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: Downloading https://files.pythonhosted.org/packages/c1/68/8446c9d9b70d8a469b480ea8a63154e2b0757a3cf3d5e8bf4c3393537de1/cdktf-cdktf-provider-opentelekomcloud-8.0.0.tar.gz
+[2023-06-29 17:17:55] INFO root fetch - processPackages [ansys-api-pyensight]: Downloading https://files.pythonhosted.org/packages/64/69/10cf2a6af284858bb8bbbebf6c4bb2e48d7a2ee8a604752e27431d026af0/ansys-api-pyensight-0.1.1.tar.gz
+[2023-06-29 17:17:56] INFO root fetch - processPackages [ansys-api-pyensight]: Downloading https://files.pythonhosted.org/packages/1e/2d/ff94d46db017e67314dc890ef1c5a8801775849b61d16e3730965a689563/ansys-api-pyensight-0.2.0.tar.gz
+[2023-06-29 17:17:56] INFO root fetch - processPackages [fca-algorithms]: Remove: archive file [/home/abi/fetcher/tmp/fca-algorithms-1.0.0.tar.gz]
+[2023-06-29 17:17:56] INFO root fetch - processPackages [fca-algorithms]: Remove: archive file [/home/abi/fetcher/tmp/fca-algorithms-1.0.1.tar.gz]
+[2023-06-29 17:17:56] INFO root fetch - processPackages [fca-algorithms]: Start processing: django-pfx
+[2023-06-29 17:17:56] INFO root fetch - main [MainThread]: End processing [fca-algorithms]: success
+[2023-06-29 17:17:56] INFO root fetch - processPackages [django-pfx]: New version: [1.2.dev8] Old Version: [1.2.dev78]
+[2023-06-29 17:17:56] INFO root fetch - processPackages [ansys-api-pyensight]: executing diffoscope
+[2023-06-29 17:17:56] INFO root fetch - processPackages [ansys-api-pyensight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-api-pyensight-0.1.1.tar.gz tmp/ansys-api-pyensight-0.2.0.tar.gz --markdown 20230629/a/ansys-api-pyensight/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-29 17:17:56] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/40/f5/ca221f181de3bd02e14cdae7b467789d6cbf86d6b121dba184eada37ff14/django-pfx-1.2.dev78.tar.gz
+[2023-06-29 17:17:56] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/a8/a1/beee13dd42732e6b09a9fa98a5127296a4eb74cba08e3bdc0c5376e914db/django-pfx-1.2.dev8.tar.gz
+[2023-06-29 17:17:56] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.8.tar.gz]
+[2023-06-29 17:17:56] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.9.tar.gz]
+[2023-06-29 17:17:56] INFO root fetch - main [MainThread]: End processing [ag-llama-api]: success
+[2023-06-29 17:17:56] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2023-06-29 17:17:56] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.2.dev78.tar.gz tmp/django-pfx-1.2.dev8.tar.gz --markdown 20230629/d/django-pfx/1.2.dev78-1.2.dev8/diff.md --exclude *.pyd
+[2023-06-29 17:17:56] INFO root fetch - processPackages [wwpdb.utils.emdb]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.utils.emdb-1.4.1.tar.gz]
+[2023-06-29 17:17:56] INFO root fetch - processPackages [wwpdb.utils.emdb]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.utils.emdb-1.4.2.tar.gz]
+[2023-06-29 17:17:56] INFO root fetch - main [MainThread]: End processing [wwpdb.utils.emdb]: success
+[2023-06-29 17:17:56] INFO root fetch - processPackages [actinia-core]: Remove: archive file [/home/abi/fetcher/tmp/actinia-core-4.9.1.tar.gz]
+[2023-06-29 17:17:56] INFO root fetch - processPackages [actinia-core]: Remove: archive file [/home/abi/fetcher/tmp/actinia-core-4.9.2.tar.gz]
+[2023-06-29 17:17:56] INFO root fetch - main [MainThread]: End processing [actinia-core]: success
+[2023-06-29 17:17:56] INFO root fetch - processPackages [spyder-kernels]: Remove: archive file [/home/abi/fetcher/tmp/spyder-kernels-2.4.4.tar.gz]
+[2023-06-29 17:17:56] INFO root fetch - processPackages [spyder-kernels]: Remove: archive file [/home/abi/fetcher/tmp/spyder-kernels-3.0.0b1.tar.gz]
+[2023-06-29 17:17:56] INFO root fetch - main [MainThread]: End processing [spyder-kernels]: success
+[2023-06-29 17:17:57] INFO root fetch - processPackages [pyutplugins]: Remove: archive file [/home/abi/fetcher/tmp/pyutplugins-0.8.90.tar.gz]
+[2023-06-29 17:17:57] INFO root fetch - processPackages [pyutplugins]: Remove: archive file [/home/abi/fetcher/tmp/pyutplugins-0.9.0.tar.gz]
+[2023-06-29 17:17:57] INFO root fetch - main [MainThread]: End processing [pyutplugins]: success
+[2023-06-29 17:17:57] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: executing diffoscope
+[2023-06-29 17:17:57] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-opentelekomcloud-7.0.0.tar.gz tmp/cdktf-cdktf-provider-opentelekomcloud-8.0.0.tar.gz --markdown 20230629/c/cdktf-cdktf-provider-opentelekomcloud/7.0.0-8.0.0/diff.md --exclude *.pyd
+[2023-06-29 17:17:57] INFO root fetch - processPackages [nimpa]: Remove: archive file [/home/abi/fetcher/tmp/nimpa-2.6.0.tar.gz]
+[2023-06-29 17:17:57] INFO root fetch - processPackages [nimpa]: Remove: archive file [/home/abi/fetcher/tmp/nimpa-2.6.1.tar.gz]
+[2023-06-29 17:17:57] INFO root fetch - main [MainThread]: End processing [nimpa]: success
+[2023-06-29 17:17:58] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev78.tar.gz]
+[2023-06-29 17:17:58] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev8.tar.gz]
+[2023-06-29 17:17:58] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2023-06-29 17:17:58] INFO root fetch - processPackages [ansys-api-pyensight]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-pyensight-0.1.1.tar.gz]
+[2023-06-29 17:17:58] INFO root fetch - processPackages [ansys-api-pyensight]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-pyensight-0.2.0.tar.gz]
+[2023-06-29 17:17:58] INFO root fetch - main [MainThread]: End processing [ansys-api-pyensight]: success
+[2023-06-29 17:18:00] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-4.1.0a1687670320.tar.gz]
+[2023-06-29 17:18:00] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-4.1.0a1688050257.tar.gz]
+[2023-06-29 17:18:00] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
+[2023-06-29 17:18:12] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-opentelekomcloud-7.0.0.tar.gz]
+[2023-06-29 17:18:12] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-opentelekomcloud-8.0.0.tar.gz]
+[2023-06-29 17:18:12] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-opentelekomcloud]: success
+[2023-06-29 17:18:12] INFO root fetch - main [MainThread]: Store serial: [18696987]
