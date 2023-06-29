@@ -7065,3 +7065,86 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 12:26:24] INFO root fetch - processPackages [peek-plugin-livedb]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-livedb-3.4.6.tar.gz]
 [2023-06-29 12:26:24] INFO root fetch - main [MainThread]: End processing [peek-plugin-livedb]: success
 [2023-06-29 12:26:24] INFO root fetch - main [MainThread]: Store serial: [18693622]
+[2023-06-29 12:31:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18693622]
+[2023-06-29 12:31:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-29 12:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clickzetta-connector
+[2023-06-29 12:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clickzetta-sqlalchemy
+[2023-06-29 12:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdfix-sdk
+[2023-06-29 12:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neulab
+[2023-06-29 12:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: power-grid-model
+[2023-06-29 12:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: biliup
+[2023-06-29 12:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pdocr-rpc
+[2023-06-29 12:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: inputty
+[2023-06-29 12:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: marginados-warc-scraper
+[2023-06-29 12:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: resize-icon
+[2023-06-29 12:31:34] INFO root fetch - processPackages [neulab]: New version: [0.1] Old Version: [0.0.30]
+[2023-06-29 12:31:34] INFO root fetch - processPackages [pdfix-sdk]: New version: [7.0.0] Old Version: [6.20.0]
+[2023-06-29 12:31:34] INFO root fetch - processPackages [clickzetta-sqlalchemy]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-29 12:31:34] INFO root fetch - processPackages [marginados-warc-scraper]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-29 12:31:34] WARNING root fetch - processPackages [resize-icon]: Skipping, unable to determine old version
+[2023-06-29 12:31:34] INFO root fetch - processPackages [pdocr-rpc]: New version: [2023.6.29] Old Version: [2023.6.14]
+[2023-06-29 12:31:34] INFO root fetch - main [MainThread]: End processing [resize-icon] error
+[2023-06-29 12:31:34] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-29 12:31:34] INFO root fetch - processPackages [inputty]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-29 12:31:34] INFO root fetch - processPackages [biliup]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-29 12:31:34] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9197412924590] Old Version: [1.5.0rc9197212472686]
+[2023-06-29 12:31:34] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/1e/c5/d4be8dcc2a67d1d955c84c09b0223b9977fd638ed0bf7d09cc2a752386cf/clickzetta-sqlalchemy-0.8.8.tar.gz
+[2023-06-29 12:31:34] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/72/d1/d65bb4b4077a404aa08b3a2615159873fac64bc9adabf42a5b45cb50f00b/clickzetta-connector-0.8.8.tar.gz
+[2023-06-29 12:31:34] INFO root fetch - processPackages [marginados-warc-scraper]: Downloading https://files.pythonhosted.org/packages/a0/66/9bf506706271136b52700f8edea3a08d0f8b2958d73560f8e0a76ddf22db/marginados_warc_scraper-1.0.0.tar.gz
+[2023-06-29 12:31:34] INFO root fetch - processPackages [pdfix-sdk]: Downloading https://files.pythonhosted.org/packages/cc/71/19c9553b8eda0149f05e06fac69fe3e7e63762c8dccf52e7cb7c19790100/pdfix_sdk-6.20.0.tar.gz
+[2023-06-29 12:31:34] INFO root fetch - processPackages [neulab]: Downloading https://files.pythonhosted.org/packages/65/b9/882347aec6c44dc2beb4522199f35b2f98d2b0e35c1d54880b6b72b90038/neulab-0.0.30-py3-none-any.whl
+[2023-06-29 12:31:34] INFO root fetch - processPackages [pdocr-rpc]: Downloading https://files.pythonhosted.org/packages/7e/a6/335ae610828fa0d85a4c87dd44a900bc6301b5411d7ffe6054babd862a8d/pdocr_rpc-2023.6.14.tar.gz
+[2023-06-29 12:31:34] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/3e/b6/78c1bfb0c1ee4d573cecb195db8ada82b2efeabb72f0d6dec9008a593018/power-grid-model-1.5.0rc9197212472686.tar.gz
+[2023-06-29 12:31:34] WARNING root fetch - processPackages [pdfix-sdk]: Skipping package: exceeds size limit 47255797>=10485760
+[2023-06-29 12:31:34] INFO root fetch - main [MainThread]: End processing [pdfix-sdk] error
+[2023-06-29 12:31:34] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/05/6f/f31876ff58c9201594d988fd4bbd8a182a97a305a16842de419109e35005/clickzetta-sqlalchemy-0.8.9.tar.gz
+[2023-06-29 12:31:34] INFO root fetch - processPackages [inputty]: Downloading https://files.pythonhosted.org/packages/e3/fc/a7923bdcd6bf94b14d1bdc0e4c70ff235aaa97eecfe80b34c7b6138bb385/inputty-1.0.4.tar.gz
+[2023-06-29 12:31:34] INFO root fetch - processPackages [biliup]: Downloading https://files.pythonhosted.org/packages/33/26/87446b9e80024414938248abd6d5d23524d52b9a0e07980909695db33a0a/biliup-0.4.8.tar.gz
+[2023-06-29 12:31:34] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/81/41/2c55796964b0e67291955e1856242db62fc8e6f14e179a50bf1c6296f067/clickzetta-connector-0.8.9.tar.gz
+[2023-06-29 12:31:34] INFO root fetch - processPackages [clickzetta-sqlalchemy]: executing diffoscope
+[2023-06-29 12:31:34] INFO root fetch - processPackages [clickzetta-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-sqlalchemy-0.8.8.tar.gz tmp/clickzetta-sqlalchemy-0.8.9.tar.gz --markdown 20230629/c/clickzetta-sqlalchemy/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-29 12:31:34] INFO root fetch - processPackages [marginados-warc-scraper]: Downloading https://files.pythonhosted.org/packages/31/0b/495a4bf88fc051cb0765ad135c4ae6f1414c90275ccdb9de1f837f150267/marginados_warc_scraper-1.0.1.tar.gz
+[2023-06-29 12:31:34] INFO root fetch - processPackages [pdocr-rpc]: Downloading https://files.pythonhosted.org/packages/f6/6a/f7ebd6c2dcb6ca65ab8061cae3795d24bbb0e9446a49246563558e6b08f4/pdocr_rpc-2023.6.29.tar.gz
+[2023-06-29 12:31:34] INFO root fetch - processPackages [neulab]: Downloading https://files.pythonhosted.org/packages/2a/0c/6bd1eaa4804771c02ba7558489baad32178cce6c12ff8c6af1c980ab4b4d/neulab-0.1-py3-none-any.whl
+[2023-06-29 12:31:35] INFO root fetch - processPackages [inputty]: Downloading https://files.pythonhosted.org/packages/a6/9a/2e64c6d9ce2a6b0ad45976df6d5838f1d2b8c1441dfe4b47a819af5f305d/inputty-1.0.5.tar.gz
+[2023-06-29 12:31:35] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/90/af/df2a6645212f508ad5b97811e8c2262b0a6a097b385b913a468bbecc3585/power-grid-model-1.5.0rc9197412924590.tar.gz
+[2023-06-29 12:31:35] INFO root fetch - processPackages [marginados-warc-scraper]: executing diffoscope
+[2023-06-29 12:31:35] INFO root fetch - processPackages [marginados-warc-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marginados_warc_scraper-1.0.0.tar.gz tmp/marginados_warc_scraper-1.0.1.tar.gz --markdown 20230629/m/marginados-warc-scraper/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-29 12:31:35] INFO root fetch - processPackages [pdocr-rpc]: executing diffoscope
+[2023-06-29 12:31:35] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2023-06-29 12:31:35] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.8.8.tar.gz tmp/clickzetta-connector-0.8.9.tar.gz --markdown 20230629/c/clickzetta-connector/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-29 12:31:35] INFO root fetch - processPackages [pdocr-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdocr_rpc-2023.6.14.tar.gz tmp/pdocr_rpc-2023.6.29.tar.gz --markdown 20230629/p/pdocr-rpc/2023.6.14-2023.6.29/diff.md --exclude *.pyd
+[2023-06-29 12:31:35] INFO root fetch - processPackages [inputty]: executing diffoscope
+[2023-06-29 12:31:35] INFO root fetch - processPackages [inputty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inputty-1.0.4.tar.gz tmp/inputty-1.0.5.tar.gz --markdown 20230629/i/inputty/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-29 12:31:35] INFO root fetch - processPackages [neulab]: executing diffoscope
+[2023-06-29 12:31:35] INFO root fetch - processPackages [neulab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neulab-0.0.30-py3-none-any.whl.zip tmp/neulab-0.1-py3-none-any.whl.zip --markdown 20230629/n/neulab/0.0.30-0.1/diff.md --exclude *.pyd
+[2023-06-29 12:31:35] INFO root fetch - processPackages [biliup]: Downloading https://files.pythonhosted.org/packages/ca/50/28c81627954370eeba7075b44c9ef20597ed8f140a1390c814dd976e6c70/biliup-0.4.9.tar.gz
+[2023-06-29 12:31:35] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-06-29 12:31:35] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9197212472686.tar.gz tmp/power-grid-model-1.5.0rc9197412924590.tar.gz --markdown 20230629/p/power-grid-model/1.5.0rc9197212472686-1.5.0rc9197412924590/diff.md --exclude *.pyd
+[2023-06-29 12:31:35] INFO root fetch - processPackages [biliup]: executing diffoscope
+[2023-06-29 12:31:35] INFO root fetch - processPackages [biliup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biliup-0.4.8.tar.gz tmp/biliup-0.4.9.tar.gz --markdown 20230629/b/biliup/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-29 12:31:36] INFO root fetch - processPackages [pdocr-rpc]: Remove: archive file [/home/abi/fetcher/tmp/pdocr_rpc-2023.6.14.tar.gz]
+[2023-06-29 12:31:36] INFO root fetch - processPackages [pdocr-rpc]: Remove: archive file [/home/abi/fetcher/tmp/pdocr_rpc-2023.6.29.tar.gz]
+[2023-06-29 12:31:36] INFO root fetch - main [MainThread]: End processing [pdocr-rpc]: success
+[2023-06-29 12:31:36] INFO root fetch - processPackages [marginados-warc-scraper]: Remove: archive file [/home/abi/fetcher/tmp/marginados_warc_scraper-1.0.0.tar.gz]
+[2023-06-29 12:31:36] INFO root fetch - processPackages [marginados-warc-scraper]: Remove: archive file [/home/abi/fetcher/tmp/marginados_warc_scraper-1.0.1.tar.gz]
+[2023-06-29 12:31:36] INFO root fetch - main [MainThread]: End processing [marginados-warc-scraper]: success
+[2023-06-29 12:31:36] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.8.tar.gz]
+[2023-06-29 12:31:36] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.9.tar.gz]
+[2023-06-29 12:31:36] INFO root fetch - main [MainThread]: End processing [clickzetta-sqlalchemy]: success
+[2023-06-29 12:31:36] INFO root fetch - processPackages [neulab]: Remove: archive file [/home/abi/fetcher/tmp/neulab-0.0.30-py3-none-any.whl.zip]
+[2023-06-29 12:31:36] INFO root fetch - processPackages [neulab]: Remove: archive file [/home/abi/fetcher/tmp/neulab-0.1-py3-none-any.whl.zip]
+[2023-06-29 12:31:36] INFO root fetch - main [MainThread]: End processing [neulab]: success
+[2023-06-29 12:31:36] INFO root fetch - processPackages [inputty]: Remove: archive file [/home/abi/fetcher/tmp/inputty-1.0.4.tar.gz]
+[2023-06-29 12:31:36] INFO root fetch - processPackages [inputty]: Remove: archive file [/home/abi/fetcher/tmp/inputty-1.0.5.tar.gz]
+[2023-06-29 12:31:36] INFO root fetch - main [MainThread]: End processing [inputty]: success
+[2023-06-29 12:31:37] INFO root fetch - processPackages [biliup]: Remove: archive file [/home/abi/fetcher/tmp/biliup-0.4.8.tar.gz]
+[2023-06-29 12:31:37] INFO root fetch - processPackages [biliup]: Remove: archive file [/home/abi/fetcher/tmp/biliup-0.4.9.tar.gz]
+[2023-06-29 12:31:37] INFO root fetch - main [MainThread]: End processing [biliup]: success
+[2023-06-29 12:31:37] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.8.tar.gz]
+[2023-06-29 12:31:37] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.9.tar.gz]
+[2023-06-29 12:31:37] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2023-06-29 12:31:41] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9197212472686.tar.gz]
+[2023-06-29 12:31:41] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9197412924590.tar.gz]
+[2023-06-29 12:31:41] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-06-29 12:31:41] INFO root fetch - main [MainThread]: Store serial: [18693657]
