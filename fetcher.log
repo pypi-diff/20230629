@@ -21115,3 +21115,113 @@ EOFError: EOF read where object expected
 [2023-06-29 21:39:59] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.345.5.tar.gz]
 [2023-06-29 21:39:59] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-06-29 21:39:59] INFO root fetch - main [MainThread]: Store serial: [18699638]
+[2023-06-29 21:45:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18699638]
+[2023-06-29 21:45:09] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-29 21:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: joulescope-ui
+[2023-06-29 21:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cumulus-library
+[2023-06-29 21:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-fastly
+[2023-06-29 21:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: telexy.sam
+[2023-06-29 21:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: parsagon
+[2023-06-29 21:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aicodebot
+[2023-06-29 21:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-newrelic-plugin-agent
+[2023-06-29 21:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: notebook-prototyping
+[2023-06-29 21:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dtale
+[2023-06-29 21:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: carter-py
+[2023-06-29 21:45:09] INFO root fetch - processPackages [cumulus-library]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-29 21:45:09] INFO root fetch - processPackages [carter-py]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-29 21:45:09] INFO root fetch - processPackages [parsagon]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-06-29 21:45:09] INFO root fetch - processPackages [joulescope-ui]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-29 21:45:09] INFO root fetch - processPackages [aicodebot]: New version: [0.6.2] Old Version: [0.6.1.1]
+[2023-06-29 21:45:09] INFO root fetch - processPackages [notebook-prototyping]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 21:45:09] WARNING root fetch - processPackages [telexy.sam]: Skipping, unable to determine old version
+[2023-06-29 21:45:09] INFO root fetch - processPackages [telexy.sam]: Start processing: keystem
+[2023-06-29 21:45:09] INFO root fetch - main [MainThread]: End processing [telexy.sam] error
+[2023-06-29 21:45:09] INFO root fetch - processPackages [django-newrelic-plugin-agent]: New version: [0.5.0] Old Version: [0.3.0]
+[2023-06-29 21:45:09] INFO root fetch - processPackages [pulumi-fastly]: New version: [8.2.0a1688059197] Old Version: [8.2.0a1687671288]
+[2023-06-29 21:45:09] INFO root fetch - processPackages [dtale]: New version: [3.1.7] Old Version: [3.1.6]
+[2023-06-29 21:45:09] INFO root fetch - processPackages [keystem]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-29 21:45:09] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/82/47/49bf29b652708272f6f1fadd36ffdc22775944be91eb75bd1e4c73d9d2c8/pulumi_fastly-8.2.0a1687671288.tar.gz
+[2023-06-29 21:45:09] INFO root fetch - processPackages [notebook-prototyping]: Downloading https://files.pythonhosted.org/packages/9a/90/d1a2b6e77d1276d9ad69921b36b2855212bc2af45cf77dc14f8e8cc98c01/notebook_prototyping-0.1.8.tar.gz
+[2023-06-29 21:45:09] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/02/8a/ad330002a7b641ae5995dceca89bb0f7545dc2b6f18c2ff94f7d066f2083/aicodebot-0.6.1.1.tar.gz
+[2023-06-29 21:45:09] INFO root fetch - processPackages [joulescope-ui]: Downloading https://files.pythonhosted.org/packages/80/ad/cf344fd2c1431f75beac618e47e079bb0420cb75633b7e7dfe4c4e289ec8/joulescope_ui-1.0.8.tar.gz
+[2023-06-29 21:45:09] INFO root fetch - processPackages [cumulus-library]: Downloading https://files.pythonhosted.org/packages/fd/98/744d5cc1a6df38b428d5f712c0d207ad807f7160d51d5be40bb384b8df64/cumulus_library-0.3.1.tar.gz
+[2023-06-29 21:45:09] INFO root fetch - processPackages [carter-py]: Downloading https://files.pythonhosted.org/packages/59/46/6b9c70641776163c7cd27e684f7839e574dc6e7142534836ba31e7fe77f6/carter_py-1.0.1-py3-none-any.whl
+[2023-06-29 21:45:09] INFO root fetch - processPackages [django-newrelic-plugin-agent]: Downloading https://files.pythonhosted.org/packages/90/a5/8efb6fce96ebb3c968730a6b8ebf690ae33ebb8cdc9cca5ab99af6361f6e/django-newrelic-plugin-agent-0.3.0.tar.gz
+[2023-06-29 21:45:09] INFO root fetch - processPackages [parsagon]: Downloading https://files.pythonhosted.org/packages/6d/75/f501e1eb76db2375f2a0e913f09bf3875e3d181311d1aed61bcfc0dd5952/parsagon-0.7.2.tar.gz
+[2023-06-29 21:45:09] INFO root fetch - processPackages [dtale]: Downloading https://files.pythonhosted.org/packages/59/09/ba50bb030c7719f7e454a31d22a856db40ed724db684630b99dc95be83b1/dtale-3.1.6.tar.gz
+[2023-06-29 21:45:09] INFO root fetch - processPackages [keystem]: Downloading https://files.pythonhosted.org/packages/d6/17/31b5f9b1635e40e0571c358d445f6f28e845fe45b5c7e26f6774364b5e5e/keystem-1.0.4.tar.gz
+[2023-06-29 21:45:09] INFO root fetch - processPackages [notebook-prototyping]: Downloading https://files.pythonhosted.org/packages/18/3b/e9a9848e079a58174368ace3a4fcf07b2ecfb461f86abaf1b0952635b2b3/notebook_prototyping-0.1.9.tar.gz
+[2023-06-29 21:45:09] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/ab/e1/10d6b8b3b9051aeb48cf642591282df4ffc66b362d463b7c395ce676b5a3/pulumi_fastly-8.2.0a1688059197.tar.gz
+[2023-06-29 21:45:09] WARNING root fetch - processPackages [dtale]: Skipping package: exceeds size limit 13638265>=10485760
+[2023-06-29 21:45:09] INFO root fetch - processPackages [dtale]: Start processing: mapservice-clientlib
+[2023-06-29 21:45:09] INFO root fetch - main [MainThread]: End processing [dtale] error
+[2023-06-29 21:45:09] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/a8/d2/2dedb18b2db57b4f2be3de4c4cd4cbd0be8af351135d6dc667208951fbad/aicodebot-0.6.2.tar.gz
+[2023-06-29 21:45:09] INFO root fetch - processPackages [mapservice-clientlib]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-06-29 21:45:09] INFO root fetch - processPackages [notebook-prototyping]: executing diffoscope
+[2023-06-29 21:45:09] INFO root fetch - processPackages [notebook-prototyping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebook_prototyping-0.1.8.tar.gz tmp/notebook_prototyping-0.1.9.tar.gz --markdown 20230629/n/notebook-prototyping/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 21:45:09] INFO root fetch - processPackages [pulumi-fastly]: executing diffoscope
+[2023-06-29 21:45:09] INFO root fetch - processPackages [pulumi-fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fastly-8.2.0a1687671288.tar.gz tmp/pulumi_fastly-8.2.0a1688059197.tar.gz --markdown 20230629/p/pulumi-fastly/8.2.0a1687671288-8.2.0a1688059197/diff.md --exclude *.pyd
+[2023-06-29 21:45:09] INFO root fetch - processPackages [mapservice-clientlib]: Downloading https://files.pythonhosted.org/packages/29/7e/77188679e6a009b9bf30d06be656641d8fc6e08e29d62ff486569b2ee7f6/mapservice-clientlib-2.2.0.tar.gz
+[2023-06-29 21:45:09] INFO root fetch - processPackages [carter-py]: Downloading https://files.pythonhosted.org/packages/51/90/fa6ce77a9ecad7ad87560e7967d27763e095e5772042362290198fdf2550/carter_py-1.0.2-py3-none-any.whl
+[2023-06-29 21:45:09] INFO root fetch - processPackages [django-newrelic-plugin-agent]: Downloading https://files.pythonhosted.org/packages/e3/86/85590266b3be80a0021f8284049301351d33d4baeaa66eb3553cd8a0fc96/django-newrelic-plugin-agent-0.5.0.tar.gz
+[2023-06-29 21:45:09] INFO root fetch - processPackages [parsagon]: Downloading https://files.pythonhosted.org/packages/05/79/4ec027216572c2de4f919d108b0e65b8511dce9a9f33f89a385148d6b458/parsagon-0.7.3.tar.gz
+[2023-06-29 21:45:09] INFO root fetch - processPackages [aicodebot]: executing diffoscope
+[2023-06-29 21:45:09] INFO root fetch - processPackages [aicodebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicodebot-0.6.1.1.tar.gz tmp/aicodebot-0.6.2.tar.gz --markdown 20230629/a/aicodebot/0.6.1.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-29 21:45:09] INFO root fetch - processPackages [carter-py]: executing diffoscope
+[2023-06-29 21:45:09] INFO root fetch - processPackages [carter-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carter_py-1.0.1-py3-none-any.whl.zip tmp/carter_py-1.0.2-py3-none-any.whl.zip --markdown 20230629/c/carter-py/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-29 21:45:09] INFO root fetch - processPackages [django-newrelic-plugin-agent]: executing diffoscope
+[2023-06-29 21:45:09] INFO root fetch - processPackages [django-newrelic-plugin-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-newrelic-plugin-agent-0.3.0.tar.gz tmp/django-newrelic-plugin-agent-0.5.0.tar.gz --markdown 20230629/d/django-newrelic-plugin-agent/0.3.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-29 21:45:09] INFO root fetch - processPackages [keystem]: Downloading https://files.pythonhosted.org/packages/9d/aa/3df0e0fe553dae544699d01cacad0697a3e7edb69eed92d55f6151fd4c52/keystem-1.0.5.tar.gz
+[2023-06-29 21:45:09] INFO root fetch - processPackages [parsagon]: executing diffoscope
+[2023-06-29 21:45:09] INFO root fetch - processPackages [parsagon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsagon-0.7.2.tar.gz tmp/parsagon-0.7.3.tar.gz --markdown 20230629/p/parsagon/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-06-29 21:45:09] INFO root fetch - processPackages [cumulus-library]: Downloading https://files.pythonhosted.org/packages/b4/fd/7ed740acf5edbd66a40f116d8d50d63af76d9b60f21631305d176429680a/cumulus_library-0.3.2.tar.gz
+[2023-06-29 21:45:09] INFO root fetch - processPackages [keystem]: executing diffoscope
+[2023-06-29 21:45:09] INFO root fetch - processPackages [keystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keystem-1.0.4.tar.gz tmp/keystem-1.0.5.tar.gz --markdown 20230629/k/keystem/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-29 21:45:10] INFO root fetch - processPackages [mapservice-clientlib]: Downloading https://files.pythonhosted.org/packages/ad/de/bc69ba4823696fec41d212e3a29226bf4b24f47e00ccaeeb28d147764cbd/mapservice_clientlib-2.2.1.tar.gz
+[2023-06-29 21:45:10] INFO root fetch - processPackages [cumulus-library]: executing diffoscope
+[2023-06-29 21:45:10] INFO root fetch - processPackages [cumulus-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cumulus_library-0.3.1.tar.gz tmp/cumulus_library-0.3.2.tar.gz --markdown 20230629/c/cumulus-library/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-29 21:45:10] INFO root fetch - processPackages [mapservice-clientlib]: executing diffoscope
+[2023-06-29 21:45:10] INFO root fetch - processPackages [mapservice-clientlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapservice-clientlib-2.2.0.tar.gz tmp/mapservice_clientlib-2.2.1.tar.gz --markdown 20230629/m/mapservice-clientlib/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-06-29 21:45:10] INFO root fetch - processPackages [notebook-prototyping]: Remove: archive file [/home/abi/fetcher/tmp/notebook_prototyping-0.1.8.tar.gz]
+[2023-06-29 21:45:10] INFO root fetch - processPackages [notebook-prototyping]: Remove: archive file [/home/abi/fetcher/tmp/notebook_prototyping-0.1.9.tar.gz]
+[2023-06-29 21:45:10] INFO root fetch - processPackages [notebook-prototyping]: Start processing: flexvalue
+[2023-06-29 21:45:10] INFO root fetch - main [MainThread]: End processing [notebook-prototyping]: success
+[2023-06-29 21:45:10] INFO root fetch - processPackages [flexvalue]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-29 21:45:11] INFO root fetch - processPackages [carter-py]: Remove: archive file [/home/abi/fetcher/tmp/carter_py-1.0.1-py3-none-any.whl.zip]
+[2023-06-29 21:45:11] INFO root fetch - processPackages [carter-py]: Remove: archive file [/home/abi/fetcher/tmp/carter_py-1.0.2-py3-none-any.whl.zip]
+[2023-06-29 21:45:11] INFO root fetch - main [MainThread]: End processing [carter-py]: success
+[2023-06-29 21:45:11] INFO root fetch - processPackages [joulescope-ui]: Downloading https://files.pythonhosted.org/packages/e6/18/9a80a0ac9a7388cfa55201f54f1b06f7d224884889ce0665cf6b5b53ba88/joulescope_ui-1.0.9.tar.gz
+[2023-06-29 21:45:11] INFO root fetch - processPackages [flexvalue]: Downloading https://files.pythonhosted.org/packages/e2/85/f703f5592570073c8e37770b77432beedc8adf71549e153eef50632635e3/flexvalue-2.0.3.tar.gz
+[2023-06-29 21:45:11] INFO root fetch - processPackages [keystem]: Remove: archive file [/home/abi/fetcher/tmp/keystem-1.0.4.tar.gz]
+[2023-06-29 21:45:11] INFO root fetch - processPackages [keystem]: Remove: archive file [/home/abi/fetcher/tmp/keystem-1.0.5.tar.gz]
+[2023-06-29 21:45:11] INFO root fetch - main [MainThread]: End processing [keystem]: success
+[2023-06-29 21:45:11] INFO root fetch - processPackages [flexvalue]: Downloading https://files.pythonhosted.org/packages/ec/d2/819c7fac89f1cb4de86d2b51e54c02665caae0d65255f59a49be40fb2fcf/flexvalue-2.0.4.tar.gz
+[2023-06-29 21:45:11] INFO root fetch - processPackages [parsagon]: Remove: archive file [/home/abi/fetcher/tmp/parsagon-0.7.2.tar.gz]
+[2023-06-29 21:45:11] INFO root fetch - processPackages [parsagon]: Remove: archive file [/home/abi/fetcher/tmp/parsagon-0.7.3.tar.gz]
+[2023-06-29 21:45:11] INFO root fetch - main [MainThread]: End processing [parsagon]: success
+[2023-06-29 21:45:11] INFO root fetch - processPackages [django-newrelic-plugin-agent]: Remove: archive file [/home/abi/fetcher/tmp/django-newrelic-plugin-agent-0.3.0.tar.gz]
+[2023-06-29 21:45:11] INFO root fetch - processPackages [django-newrelic-plugin-agent]: Remove: archive file [/home/abi/fetcher/tmp/django-newrelic-plugin-agent-0.5.0.tar.gz]
+[2023-06-29 21:45:11] INFO root fetch - main [MainThread]: End processing [django-newrelic-plugin-agent]: success
+[2023-06-29 21:45:11] INFO root fetch - processPackages [flexvalue]: executing diffoscope
+[2023-06-29 21:45:11] INFO root fetch - processPackages [flexvalue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexvalue-2.0.3.tar.gz tmp/flexvalue-2.0.4.tar.gz --markdown 20230629/f/flexvalue/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-29 21:45:11] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.6.1.1.tar.gz]
+[2023-06-29 21:45:11] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.6.2.tar.gz]
+[2023-06-29 21:45:11] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
+[2023-06-29 21:45:12] INFO root fetch - processPackages [mapservice-clientlib]: Remove: archive file [/home/abi/fetcher/tmp/mapservice-clientlib-2.2.0.tar.gz]
+[2023-06-29 21:45:12] INFO root fetch - processPackages [mapservice-clientlib]: Remove: archive file [/home/abi/fetcher/tmp/mapservice_clientlib-2.2.1.tar.gz]
+[2023-06-29 21:45:12] INFO root fetch - main [MainThread]: End processing [mapservice-clientlib]: success
+[2023-06-29 21:45:12] INFO root fetch - processPackages [joulescope-ui]: executing diffoscope
+[2023-06-29 21:45:12] INFO root fetch - processPackages [joulescope-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joulescope_ui-1.0.8.tar.gz tmp/joulescope_ui-1.0.9.tar.gz --markdown 20230629/j/joulescope-ui/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-29 21:45:12] INFO root fetch - processPackages [flexvalue]: Remove: archive file [/home/abi/fetcher/tmp/flexvalue-2.0.3.tar.gz]
+[2023-06-29 21:45:12] INFO root fetch - processPackages [flexvalue]: Remove: archive file [/home/abi/fetcher/tmp/flexvalue-2.0.4.tar.gz]
+[2023-06-29 21:45:12] INFO root fetch - main [MainThread]: End processing [flexvalue]: success
+[2023-06-29 21:45:13] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.2.0a1687671288.tar.gz]
+[2023-06-29 21:45:13] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.2.0a1688059197.tar.gz]
+[2023-06-29 21:45:13] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
+[2023-06-29 21:45:13] INFO root fetch - processPackages [cumulus-library]: Remove: archive file [/home/abi/fetcher/tmp/cumulus_library-0.3.1.tar.gz]
+[2023-06-29 21:45:13] INFO root fetch - processPackages [cumulus-library]: Remove: archive file [/home/abi/fetcher/tmp/cumulus_library-0.3.2.tar.gz]
+[2023-06-29 21:45:13] INFO root fetch - main [MainThread]: End processing [cumulus-library]: success
+[2023-06-29 21:45:15] INFO root fetch - processPackages [joulescope-ui]: Remove: archive file [/home/abi/fetcher/tmp/joulescope_ui-1.0.8.tar.gz]
+[2023-06-29 21:45:15] INFO root fetch - processPackages [joulescope-ui]: Remove: archive file [/home/abi/fetcher/tmp/joulescope_ui-1.0.9.tar.gz]
+[2023-06-29 21:45:15] INFO root fetch - main [MainThread]: End processing [joulescope-ui]: success
+[2023-06-29 21:45:15] INFO root fetch - main [MainThread]: Store serial: [18699676]
