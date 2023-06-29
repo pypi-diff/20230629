@@ -13657,3 +13657,166 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 16:48:55] INFO root fetch - processPackages [drf-rehive-extras]: Remove: archive file [/home/abi/fetcher/tmp/drf-rehive-extras-1.0.7.tar.gz]
 [2023-06-29 16:48:55] INFO root fetch - main [MainThread]: End processing [drf-rehive-extras]: success
 [2023-06-29 16:48:55] INFO root fetch - main [MainThread]: Store serial: [18696584]
+[2023-06-29 16:54:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18696584]
+[2023-06-29 16:54:05] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-29 16:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mighty-logger
+[2023-06-29 16:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fhir-analyzer
+[2023-06-29 16:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vectortile
+[2023-06-29 16:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fantasy-agn
+[2023-06-29 16:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: knot-tube
+[2023-06-29 16:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tomwer
+[2023-06-29 16:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CityLearn
+[2023-06-29 16:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pwl_writer
+[2023-06-29 16:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyHana
+[2023-06-29 16:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: splight-lib
+[2023-06-29 16:54:05] INFO root fetch - processPackages [mighty-logger]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-06-29 16:54:05] INFO root fetch - processPackages [vectortile]: New version: [1.4.0] Old Version: [1.3.3]
+[2023-06-29 16:54:05] INFO root fetch - processPackages [splight-lib]: New version: [3.1.0.dev0] Old Version: [3.0.5]
+[2023-06-29 16:54:05] INFO root fetch - processPackages [CityLearn]: New version: [2.0b3] Old Version: [2.0b2]
+[2023-06-29 16:54:05] WARNING root fetch - processPackages [knot-tube]: Skipping, unable to determine old version
+[2023-06-29 16:54:05] INFO root fetch - processPackages [knot-tube]: Start processing: pyathena
+[2023-06-29 16:54:05] INFO root fetch - main [MainThread]: End processing [knot-tube] error
+[2023-06-29 16:54:05] INFO root fetch - processPackages [pyHana]: New version: [0.0.2b0] Old Version: [0.0.2a2]
+[2023-06-29 16:54:05] INFO root fetch - processPackages [tomwer]: New version: [1.2.0a1] Old Version: [1.2.0a0]
+[2023-06-29 16:54:05] INFO root fetch - processPackages [pwl_writer]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-29 16:54:05] WARNING root fetch - processPackages [fhir-analyzer]: Skipping, unable to determine old version
+[2023-06-29 16:54:05] INFO root fetch - processPackages [fhir-analyzer]: Start processing: dkist-spectral-lines
+[2023-06-29 16:54:05] INFO root fetch - main [MainThread]: End processing [fhir-analyzer] error
+[2023-06-29 16:54:05] INFO root fetch - processPackages [pyathena]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-06-29 16:54:05] INFO root fetch - processPackages [dkist-spectral-lines]: New version: [2.0.0rc1] Old Version: [2.0.0]
+[2023-06-29 16:54:05] INFO root fetch - processPackages [fantasy-agn]: New version: [0.7.2] Old Version: [0.7.0]
+[2023-06-29 16:54:05] INFO root fetch - processPackages [pwl_writer]: Downloading https://files.pythonhosted.org/packages/fe/60/27efa6d81beba7a127ae6b6e9bd91b80e8c5947de4629f53b39a0c0992e6/pwl_writer-1.1.2.tar.gz
+[2023-06-29 16:54:05] INFO root fetch - processPackages [splight-lib]: Downloading https://files.pythonhosted.org/packages/a9/53/4771efc5170ef418af891e997449a9d584262705b7ea642a85fa39737b5e/splight-lib-3.0.5.tar.gz
+[2023-06-29 16:54:05] INFO root fetch - processPackages [pyHana]: Downloading https://files.pythonhosted.org/packages/74/e2/f4bb03b315ceaa68a4f514d414af9f9374e7f893437a2a240d4066f4482b/pyHana-0.0.2a2-py3-none-any.whl
+[2023-06-29 16:54:05] INFO root fetch - processPackages [mighty-logger]: Downloading https://files.pythonhosted.org/packages/51/c1/50d8ae01e10cbac95cbdd839d4ca26b1e3f3e5a26702b76b70096119bdd1/mighty_logger-0.7.2.tar.gz
+[2023-06-29 16:54:05] INFO root fetch - processPackages [dkist-spectral-lines]: Downloading https://files.pythonhosted.org/packages/ff/2e/b8e172842e781632b473d83747ccc5182f1d4bbb8709ca095cda57524484/dkist-spectral-lines-2.0.0.tar.gz
+[2023-06-29 16:54:05] INFO root fetch - processPackages [vectortile]: Downloading https://files.pythonhosted.org/packages/69/8a/f4e8eac2d64c48f1b308a387054883894074d925c6869361d84912f6d38e/vectortile-1.3.3.tar.gz
+[2023-06-29 16:54:05] INFO root fetch - processPackages [pyathena]: Downloading https://files.pythonhosted.org/packages/e2/68/eb6b17341e909c711f4fa258a77482bc666225a87b8e38d6aefe429935b2/pyathena-3.0.3.tar.gz
+[2023-06-29 16:54:05] INFO root fetch - processPackages [tomwer]: Downloading https://files.pythonhosted.org/packages/55/e2/51deca77c72c63d2cf45e1e2662ae01f72e3bf6634c8491cb56d4ff29361/tomwer-1.2.0a0.tar.gz
+[2023-06-29 16:54:05] INFO root fetch - processPackages [CityLearn]: Downloading https://files.pythonhosted.org/packages/e4/01/da64f87f0437c698c80ab5e9f8fc9d5cf9c055efb3d93898935bf85983e9/CityLearn-2.0b2.tar.gz
+[2023-06-29 16:54:05] INFO root fetch - processPackages [fantasy-agn]: Downloading https://files.pythonhosted.org/packages/1f/73/72fc6c96492508cde5a7e7353fc1ebfd81aeb8c11cfa211489434d6f5b1e/fantasy_agn-0.7.0.tar.gz
+[2023-06-29 16:54:05] WARNING root fetch - processPackages [CityLearn]: Skipping package: exceeds size limit 15514512>=10485760
+[2023-06-29 16:54:05] INFO root fetch - processPackages [CityLearn]: Start processing: localstack-core
+[2023-06-29 16:54:05] INFO root fetch - main [MainThread]: End processing [CityLearn] error
+[2023-06-29 16:54:05] WARNING root fetch - processPackages [fantasy-agn]: Skipping package: exceeds size limit 97551888>=10485760
+[2023-06-29 16:54:05] INFO root fetch - processPackages [fantasy-agn]: Start processing: django-data-schema
+[2023-06-29 16:54:05] INFO root fetch - main [MainThread]: End processing [fantasy-agn] error
+[2023-06-29 16:54:05] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230629145214] Old Version: [2.1.1.dev20230629100227]
+[2023-06-29 16:54:05] INFO root fetch - processPackages [dkist-spectral-lines]: executing diffoscope
+[2023-06-29 16:54:05] INFO root fetch - processPackages [dkist-spectral-lines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist-spectral-lines-2.0.0.tar.gz tmp/dkist-spectral-lines-2.0.0rc1.tar.gz --markdown 20230629/d/dkist-spectral-lines/2.0.0-2.0.0rc1/diff.md --exclude *.pyd
+[2023-06-29 16:54:05] INFO root fetch - processPackages [django-data-schema]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-06-29 16:54:05] INFO root fetch - processPackages [pwl_writer]: Downloading https://files.pythonhosted.org/packages/0b/ba/6a8a5bd98f442140a8475d01f151ffb9d6f86775bc2ee2aa69639c795937/pwl_writer-1.1.3.tar.gz
+[2023-06-29 16:54:05] INFO root fetch - processPackages [mighty-logger]: Downloading https://files.pythonhosted.org/packages/7a/76/93f679091a2a8cda68594cd25ca7bc4475acfcfd91bee248c55fd8b2fea3/mighty_logger-0.8.0.tar.gz
+[2023-06-29 16:54:05] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-06-29 16:54:05] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-3.0.5.tar.gz tmp/splight-lib-3.1.0.dev0.tar.gz --markdown 20230629/s/splight-lib/3.0.5-3.1.0.dev0/diff.md --exclude *.pyd
+[2023-06-29 16:54:05] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/5d/e6/e5ed81a576726b098f76c89453bd79a45bc2e540f09c87362734d19794c4/localstack-core-2.1.1.dev20230629100227.tar.gz
+[2023-06-29 16:54:05] INFO root fetch - processPackages [vectortile]: Downloading https://files.pythonhosted.org/packages/99/91/cb1dec0a8856d307ac88a4b359128bf257cc25d03bb9739ddca4e0723b8e/vectortile-1.4.0.tar.gz
+[2023-06-29 16:54:05] INFO root fetch - processPackages [pyathena]: Downloading https://files.pythonhosted.org/packages/0d/d4/5cda14ddfe0295b8d9559bc557333134bdf8eaf5c15eb66a5b6f42fcdde3/pyathena-3.0.4.tar.gz
+[2023-06-29 16:54:05] INFO root fetch - processPackages [pyHana]: Downloading https://files.pythonhosted.org/packages/9e/8a/01b2274f3151aace4e5158af58c136f75281b884e53b6063b81cad975d6c/pyHana-0.0.2b0-py3-none-any.whl
+[2023-06-29 16:54:05] INFO root fetch - processPackages [mighty-logger]: executing diffoscope
+[2023-06-29 16:54:05] INFO root fetch - processPackages [mighty-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mighty_logger-0.7.2.tar.gz tmp/mighty_logger-0.8.0.tar.gz --markdown 20230629/m/mighty-logger/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-06-29 16:54:05] INFO root fetch - processPackages [vectortile]: executing diffoscope
+[2023-06-29 16:54:05] INFO root fetch - processPackages [vectortile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectortile-1.3.3.tar.gz tmp/vectortile-1.4.0.tar.gz --markdown 20230629/v/vectortile/1.3.3-1.4.0/diff.md --exclude *.pyd
+[2023-06-29 16:54:05] INFO root fetch - processPackages [pwl_writer]: executing diffoscope
+[2023-06-29 16:54:05] INFO root fetch - processPackages [pwl_writer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwl_writer-1.1.2.tar.gz tmp/pwl_writer-1.1.3.tar.gz --markdown 20230629/p/pwl_writer/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-29 16:54:05] INFO root fetch - processPackages [pyathena]: executing diffoscope
+[2023-06-29 16:54:05] INFO root fetch - processPackages [pyathena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyathena-3.0.3.tar.gz tmp/pyathena-3.0.4.tar.gz --markdown 20230629/p/pyathena/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-06-29 16:54:05] INFO root fetch - processPackages [django-data-schema]: Downloading https://files.pythonhosted.org/packages/7a/fc/16f4f2632c986cfa3a9e62d0c95204af26afbed72b568d19c0215d1aa17a/django_data_schema-2.0.1-py2.py3-none-any.whl
+[2023-06-29 16:54:06] INFO root fetch - processPackages [pyHana]: executing diffoscope
+[2023-06-29 16:54:06] INFO root fetch - processPackages [pyHana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyHana-0.0.2a2-py3-none-any.whl.zip tmp/pyHana-0.0.2b0-py3-none-any.whl.zip --markdown 20230629/p/pyHana/0.0.2a2-0.0.2b0/diff.md --exclude *.pyd
+[2023-06-29 16:54:06] INFO root fetch - processPackages [tomwer]: Downloading https://files.pythonhosted.org/packages/9c/a6/94383f8fefff438a708de6a15de54cdf27095e019093eba700e8d3150b0f/tomwer-1.2.0a1.tar.gz
+[2023-06-29 16:54:06] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/0c/5c/56c19e7b2c57d1edca8d87893bbf13933ede5810e755ba90bd88963029dd/localstack-core-2.1.1.dev20230629145214.tar.gz
+[2023-06-29 16:54:06] INFO root fetch - processPackages [tomwer]: executing diffoscope
+[2023-06-29 16:54:06] INFO root fetch - processPackages [tomwer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomwer-1.2.0a0.tar.gz tmp/tomwer-1.2.0a1.tar.gz --markdown 20230629/t/tomwer/1.2.0a0-1.2.0a1/diff.md --exclude *.pyd
+[2023-06-29 16:54:06] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-29 16:54:06] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230629100227.tar.gz tmp/localstack-core-2.1.1.dev20230629145214.tar.gz --markdown 20230629/l/localstack-core/2.1.1.dev20230629100227-2.1.1.dev20230629145214/diff.md --exclude *.pyd
+[2023-06-29 16:54:06] INFO root fetch - processPackages [django-data-schema]: Downloading https://files.pythonhosted.org/packages/ec/99/fc6785b027df7e174dba1fff0db1a6c2caafbd42e15e71ea81b6386d73fb/django-data-schema-2.1.0.tar.gz
+[2023-06-29 16:54:06] INFO root fetch - processPackages [django-data-schema]: executing diffoscope
+[2023-06-29 16:54:06] INFO root fetch - processPackages [django-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_data_schema-2.0.1-py2.py3-none-any.whl.zip tmp/django-data-schema-2.1.0.tar.gz --markdown 20230629/d/django-data-schema/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-06-29 16:54:06] INFO root fetch - processPackages [dkist-spectral-lines]: Remove: archive file [/home/abi/fetcher/tmp/dkist-spectral-lines-2.0.0.tar.gz]
+[2023-06-29 16:54:06] INFO root fetch - processPackages [dkist-spectral-lines]: Remove: archive file [/home/abi/fetcher/tmp/dkist-spectral-lines-2.0.0rc1.tar.gz]
+[2023-06-29 16:54:06] INFO root fetch - processPackages [dkist-spectral-lines]: Start processing: ai-code-fixer
+[2023-06-29 16:54:06] INFO root fetch - main [MainThread]: End processing [dkist-spectral-lines]: success
+[2023-06-29 16:54:06] WARNING root fetch - processPackages [ai-code-fixer]: Skipping, unable to determine old version
+[2023-06-29 16:54:06] INFO root fetch - processPackages [ai-code-fixer]: Start processing: pymox
+[2023-06-29 16:54:06] INFO root fetch - main [MainThread]: End processing [ai-code-fixer] error
+[2023-06-29 16:54:07] INFO root fetch - processPackages [pymox]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-06-29 16:54:07] INFO root fetch - processPackages [splight-lib]: Remove: archive file [/home/abi/fetcher/tmp/splight-lib-3.0.5.tar.gz]
+[2023-06-29 16:54:07] INFO root fetch - processPackages [splight-lib]: Remove: archive file [/home/abi/fetcher/tmp/splight-lib-3.1.0.dev0.tar.gz]
+[2023-06-29 16:54:07] INFO root fetch - processPackages [splight-lib]: Start processing: dkist-processing-core
+[2023-06-29 16:54:07] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-06-29 16:54:07] INFO root fetch - processPackages [dkist-processing-core]: New version: [2.0.1] Old Version: [2.0.0rc1]
+[2023-06-29 16:54:07] INFO root fetch - processPackages [pymox]: Downloading https://files.pythonhosted.org/packages/3e/85/f62f69516064df23418365e8846d534eb05848f8f157bfae439c0ab31b56/pymox-1.0.2.tar.gz
+[2023-06-29 16:54:07] INFO root fetch - processPackages [pyHana]: Remove: archive file [/home/abi/fetcher/tmp/pyHana-0.0.2a2-py3-none-any.whl.zip]
+[2023-06-29 16:54:07] INFO root fetch - processPackages [pyHana]: Remove: archive file [/home/abi/fetcher/tmp/pyHana-0.0.2b0-py3-none-any.whl.zip]
+[2023-06-29 16:54:07] INFO root fetch - processPackages [pyHana]: Start processing: revChatGPT
+[2023-06-29 16:54:07] INFO root fetch - main [MainThread]: End processing [pyHana]: success
+[2023-06-29 16:54:07] INFO root fetch - processPackages [pymox]: Downloading https://files.pythonhosted.org/packages/a9/d9/52c6659e9e2f11c17f367f015a0b78c808ed7db11a3017cea02f2f645e9c/pymox-1.1.0.tar.gz
+[2023-06-29 16:54:07] INFO root fetch - processPackages [revChatGPT]: New version: [6.6.1] Old Version: [6.6.0]
+[2023-06-29 16:54:07] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/d1/c9/49ea81e2ddb13c4009296204a74e2b74b87af48f4f450cadd48dd85985fb/revChatGPT-6.6.0.tar.gz
+[2023-06-29 16:54:07] INFO root fetch - processPackages [vectortile]: Remove: archive file [/home/abi/fetcher/tmp/vectortile-1.3.3.tar.gz]
+[2023-06-29 16:54:07] INFO root fetch - processPackages [vectortile]: Remove: archive file [/home/abi/fetcher/tmp/vectortile-1.4.0.tar.gz]
+[2023-06-29 16:54:07] INFO root fetch - processPackages [vectortile]: Start processing: torchkeras
+[2023-06-29 16:54:07] INFO root fetch - main [MainThread]: End processing [vectortile]: success
+[2023-06-29 16:54:07] INFO root fetch - processPackages [dkist-processing-core]: Downloading https://files.pythonhosted.org/packages/b1/ab/b0314d1ef449cb85b45303c64fa30ab5b2d71904eddcc1bb83fdcb6ea89c/dkist-processing-core-2.0.1.tar.gz
+[2023-06-29 16:54:07] INFO root fetch - processPackages [mighty-logger]: Remove: archive file [/home/abi/fetcher/tmp/mighty_logger-0.7.2.tar.gz]
+[2023-06-29 16:54:07] INFO root fetch - processPackages [mighty-logger]: Remove: archive file [/home/abi/fetcher/tmp/mighty_logger-0.8.0.tar.gz]
+[2023-06-29 16:54:07] INFO root fetch - processPackages [mighty-logger]: Start processing: syngen
+[2023-06-29 16:54:07] INFO root fetch - main [MainThread]: End processing [mighty-logger]: success
+[2023-06-29 16:54:07] INFO root fetch - processPackages [torchkeras]: New version: [3.8.9] Old Version: [3.8.8]
+[2023-06-29 16:54:07] INFO root fetch - processPackages [syngen]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 16:54:07] INFO root fetch - processPackages [pymox]: executing diffoscope
+[2023-06-29 16:54:07] INFO root fetch - processPackages [pymox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymox-1.0.2.tar.gz tmp/pymox-1.1.0.tar.gz --markdown 20230629/p/pymox/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-06-29 16:54:07] INFO root fetch - processPackages [django-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/django_data_schema-2.0.1-py2.py3-none-any.whl.zip]
+[2023-06-29 16:54:07] INFO root fetch - processPackages [django-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/django-data-schema-2.1.0.tar.gz]
+[2023-06-29 16:54:07] INFO root fetch - processPackages [django-data-schema]: Start processing: cognite-power-ops
+[2023-06-29 16:54:07] INFO root fetch - main [MainThread]: End processing [django-data-schema]: success
+[2023-06-29 16:54:07] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-29 16:54:07] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/2b/ea/c056f5562fa0bed4321b21572bba15a2f43f6f9795d20397ee822d00d6af/cognite_power_ops-0.9.1.tar.gz
+[2023-06-29 16:54:07] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/47/b2/673ed1c1e9fe74cbc75dca50082ad2685a2388cb5082e0e48a3750764c53/revChatGPT-6.6.1.tar.gz
+[2023-06-29 16:54:07] INFO root fetch - processPackages [torchkeras]: Downloading https://files.pythonhosted.org/packages/f3/a3/8648724a60717ca70cc623b756c641f85ad228e489dc841fc3455679ff3b/torchkeras-3.8.8.tar.gz
+[2023-06-29 16:54:07] INFO root fetch - processPackages [dkist-processing-core]: executing diffoscope
+[2023-06-29 16:54:07] INFO root fetch - processPackages [dkist-processing-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist-processing-core-2.0.0rc1.tar.gz tmp/dkist-processing-core-2.0.1.tar.gz --markdown 20230629/d/dkist-processing-core/2.0.0rc1-2.0.1/diff.md --exclude *.pyd
+[2023-06-29 16:54:07] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/d1/5c/1a07748f97870290d6219c56768425459aa1519f941153183894348fc83a/syngen-0.1.8.tar.gz
+[2023-06-29 16:54:07] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/5a/e7/e66818fdcb4e952516e36c68513139d425136901b019cc2b7ae48bfa3c12/cognite_power_ops-0.9.2.tar.gz
+[2023-06-29 16:54:07] INFO root fetch - processPackages [revChatGPT]: executing diffoscope
+[2023-06-29 16:54:08] INFO root fetch - processPackages [revChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revChatGPT-6.6.0.tar.gz tmp/revChatGPT-6.6.1.tar.gz --markdown 20230629/r/revChatGPT/6.6.0-6.6.1/diff.md --exclude *.pyd
+[2023-06-29 16:54:08] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-06-29 16:54:08] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.9.1.tar.gz tmp/cognite_power_ops-0.9.2.tar.gz --markdown 20230629/c/cognite-power-ops/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-29 16:54:08] INFO root fetch - processPackages [pwl_writer]: Remove: archive file [/home/abi/fetcher/tmp/pwl_writer-1.1.2.tar.gz]
+[2023-06-29 16:54:08] INFO root fetch - processPackages [pwl_writer]: Remove: archive file [/home/abi/fetcher/tmp/pwl_writer-1.1.3.tar.gz]
+[2023-06-29 16:54:08] INFO root fetch - main [MainThread]: End processing [pwl_writer]: success
+[2023-06-29 16:54:08] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/1c/ec/09634635304cfe54bd538c9f136477113b28b8b56e10596aec3cf678573a/syngen-0.1.9.tar.gz
+[2023-06-29 16:54:08] INFO root fetch - processPackages [syngen]: executing diffoscope
+[2023-06-29 16:54:08] INFO root fetch - processPackages [syngen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngen-0.1.8.tar.gz tmp/syngen-0.1.9.tar.gz --markdown 20230629/s/syngen/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 16:54:08] INFO root fetch - processPackages [pyathena]: Remove: archive file [/home/abi/fetcher/tmp/pyathena-3.0.3.tar.gz]
+[2023-06-29 16:54:08] INFO root fetch - processPackages [pyathena]: Remove: archive file [/home/abi/fetcher/tmp/pyathena-3.0.4.tar.gz]
+[2023-06-29 16:54:08] INFO root fetch - main [MainThread]: End processing [pyathena]: success
+[2023-06-29 16:54:08] INFO root fetch - processPackages [dkist-processing-core]: Remove: archive file [/home/abi/fetcher/tmp/dkist-processing-core-2.0.0rc1.tar.gz]
+[2023-06-29 16:54:08] INFO root fetch - processPackages [dkist-processing-core]: Remove: archive file [/home/abi/fetcher/tmp/dkist-processing-core-2.0.1.tar.gz]
+[2023-06-29 16:54:08] INFO root fetch - main [MainThread]: End processing [dkist-processing-core]: success
+[2023-06-29 16:54:09] INFO root fetch - processPackages [torchkeras]: Downloading https://files.pythonhosted.org/packages/a7/01/8c1d5ec4e07f8940c4d4d08097233da28a14f1b9cada3eba781720722633/torchkeras-3.8.9.tar.gz
+[2023-06-29 16:54:09] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.6.0.tar.gz]
+[2023-06-29 16:54:09] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.6.1.tar.gz]
+[2023-06-29 16:54:09] INFO root fetch - main [MainThread]: End processing [revChatGPT]: success
+[2023-06-29 16:54:09] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.1.tar.gz]
+[2023-06-29 16:54:09] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.2.tar.gz]
+[2023-06-29 16:54:09] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-06-29 16:54:09] INFO root fetch - processPackages [pymox]: Remove: archive file [/home/abi/fetcher/tmp/pymox-1.0.2.tar.gz]
+[2023-06-29 16:54:09] INFO root fetch - processPackages [pymox]: Remove: archive file [/home/abi/fetcher/tmp/pymox-1.1.0.tar.gz]
+[2023-06-29 16:54:09] INFO root fetch - main [MainThread]: End processing [pymox]: success
+[2023-06-29 16:54:09] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.1.8.tar.gz]
+[2023-06-29 16:54:09] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.1.9.tar.gz]
+[2023-06-29 16:54:09] INFO root fetch - main [MainThread]: End processing [syngen]: success
+[2023-06-29 16:54:10] INFO root fetch - processPackages [torchkeras]: executing diffoscope
+[2023-06-29 16:54:10] INFO root fetch - processPackages [torchkeras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchkeras-3.8.8.tar.gz tmp/torchkeras-3.8.9.tar.gz --markdown 20230629/t/torchkeras/3.8.8-3.8.9/diff.md --exclude *.pyd
+[2023-06-29 16:54:12] INFO root fetch - processPackages [torchkeras]: Remove: archive file [/home/abi/fetcher/tmp/torchkeras-3.8.8.tar.gz]
+[2023-06-29 16:54:12] INFO root fetch - processPackages [torchkeras]: Remove: archive file [/home/abi/fetcher/tmp/torchkeras-3.8.9.tar.gz]
+[2023-06-29 16:54:12] INFO root fetch - main [MainThread]: End processing [torchkeras]: success
+[2023-06-29 16:54:15] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230629100227.tar.gz]
+[2023-06-29 16:54:15] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230629145214.tar.gz]
+[2023-06-29 16:54:15] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-29 16:54:18] INFO root fetch - processPackages [tomwer]: Remove: archive file [/home/abi/fetcher/tmp/tomwer-1.2.0a0.tar.gz]
+[2023-06-29 16:54:18] INFO root fetch - processPackages [tomwer]: Remove: archive file [/home/abi/fetcher/tmp/tomwer-1.2.0a1.tar.gz]
+[2023-06-29 16:54:18] INFO root fetch - main [MainThread]: End processing [tomwer]: success
+[2023-06-29 16:54:18] INFO root fetch - main [MainThread]: Store serial: [18696651]
