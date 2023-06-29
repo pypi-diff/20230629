@@ -19600,3 +19600,122 @@ AssertionError: tmp/live_parquet-0.2.0.tar.gz does not exist
 [2023-06-29 20:29:57] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.2.0a1688057302.tar.gz]
 [2023-06-29 20:29:57] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
 [2023-06-29 20:29:57] INFO root fetch - main [MainThread]: Store serial: [18699051]
+[2023-06-29 20:35:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18699051]
+[2023-06-29 20:35:07] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-29 20:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gascompressibility
+[2023-06-29 20:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-aws
+[2023-06-29 20:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: macrometa-target-mssql
+[2023-06-29 20:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yeastvision
+[2023-06-29 20:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: astroquery
+[2023-06-29 20:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blight
+[2023-06-29 20:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mentord
+[2023-06-29 20:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shady-island
+[2023-06-29 20:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pymilldb
+[2023-06-29 20:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: symbex
+[2023-06-29 20:35:07] INFO root fetch - processPackages [macrometa-target-mssql]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 20:35:07] INFO root fetch - processPackages [gascompressibility]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-29 20:35:07] INFO root fetch - processPackages [mentord]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-29 20:35:07] INFO root fetch - processPackages [yeastvision]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-29 20:35:07] INFO root fetch - processPackages [symbex]: New version: [1.0] Old Version: [0.7]
+[2023-06-29 20:35:07] INFO root fetch - processPackages [blight]: New version: [0.0.53a2] Old Version: [0.0.53a1]
+[2023-06-29 20:35:07] INFO root fetch - processPackages [astroquery]: New version: [0.4.dev5750] Old Version: [0.4.dev5744]
+[2023-06-29 20:35:07] INFO root fetch - processPackages [pymilldb]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 20:35:07] INFO root fetch - processPackages [cdktf-cdktf-provider-aws]: New version: [9.0.9] Old Version: [9.0.8]
+[2023-06-29 20:35:07] INFO root fetch - processPackages [shady-island]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 20:35:08] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/cc/de/48a001fd71b9e7408c6a9c6477824e9467e63b862f46adb2264dbf2fcd28/mentord-1.1.4.tar.gz
+[2023-06-29 20:35:08] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/47/28/bece1abc54ffab5f0cddaff5d6f1e02fac1343bfb72976d5794f50dad748/macrometa-target-mssql-0.0.8.tar.gz
+[2023-06-29 20:35:08] INFO root fetch - processPackages [gascompressibility]: Downloading https://files.pythonhosted.org/packages/0a/af/2e66a57f1ae9511aa01ca9612637f5829d259782a1ba71aad8499bb55829/gascompressibility-0.1.5.tar.gz
+[2023-06-29 20:35:08] INFO root fetch - processPackages [symbex]: Downloading https://files.pythonhosted.org/packages/bb/5f/c2798f2315d73932988537c4ab35837a84c43c795a38005ffee261fa33c1/symbex-0.7.tar.gz
+[2023-06-29 20:35:08] INFO root fetch - processPackages [yeastvision]: Downloading https://files.pythonhosted.org/packages/76/46/93e34eb58d789fddbdbb6a2bea2b721c232d10958a951e029891a8c578d9/yeastvision-0.1.5.tar.gz
+[2023-06-29 20:35:08] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/ed/ae/a7a990a5b643750cce1402cad9e15fd73a9c16dc25acb3c8a49f79eb7a7d/shady-island-0.0.8.tar.gz
+[2023-06-29 20:35:08] INFO root fetch - processPackages [pymilldb]: Downloading https://files.pythonhosted.org/packages/ef/f8/33202b9d5a47847bd384c6b2e2799cc890b751b824afb7b514e713cc7ca4/pymilldb-0.0.8.tar.gz
+[2023-06-29 20:35:08] INFO root fetch - processPackages [astroquery]: Downloading https://files.pythonhosted.org/packages/80/fc/4ad0567df9f9283caa586681c54894ec9c6f6eb53e17e70998cd1530f071/astroquery-0.4.dev5744.tar.gz
+[2023-06-29 20:35:08] INFO root fetch - processPackages [blight]: Downloading https://files.pythonhosted.org/packages/5f/bf/9ea76e97021b80f345d87324e590c473c7e37c882d66f9a0d89c4c070332/blight-0.0.53a1.tar.gz
+[2023-06-29 20:35:08] INFO root fetch - processPackages [cdktf-cdktf-provider-aws]: Downloading https://files.pythonhosted.org/packages/aa/2e/834bb9d56f903b34743b3b8d5766864ad4e2a039b6c88e65b6d835c946e4/cdktf-cdktf-provider-aws-9.0.8.tar.gz
+[2023-06-29 20:35:08] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/e5/7e/14a055baed34fe96d4d161582b4af93e2e2d545ce6bb8fb57a8e1f966661/mentord-1.1.5.tar.gz
+[2023-06-29 20:35:08] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/3d/97/96f149d7c5c167814edbae8e9693e5915bdec86dfd31a669e08d21162ee9/macrometa-target-mssql-0.0.9.tar.gz
+[2023-06-29 20:35:08] INFO root fetch - processPackages [mentord]: executing diffoscope
+[2023-06-29 20:35:08] INFO root fetch - processPackages [mentord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentord-1.1.4.tar.gz tmp/mentord-1.1.5.tar.gz --markdown 20230629/m/mentord/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-29 20:35:08] INFO root fetch - processPackages [gascompressibility]: Downloading https://files.pythonhosted.org/packages/9d/35/b0b8e214a877393a8723145eed220dbaf2e3b683fe6b8fadba0583b207a1/gascompressibility-0.1.6.tar.gz
+[2023-06-29 20:35:08] INFO root fetch - processPackages [symbex]: Downloading https://files.pythonhosted.org/packages/87/97/27e5cfb680f749fa6b7a8a7db16517d2bd3ca4b933250b3c004b45b77668/symbex-1.0.tar.gz
+[2023-06-29 20:35:08] INFO root fetch - processPackages [pymilldb]: Downloading https://files.pythonhosted.org/packages/73/32/cb3b4141fea5e3b4cab0fc65e33229f29069eb69217f040c9a4c845e2516/pymilldb-0.0.9.tar.gz
+[2023-06-29 20:35:08] INFO root fetch - processPackages [macrometa-target-mssql]: executing diffoscope
+[2023-06-29 20:35:08] INFO root fetch - processPackages [macrometa-target-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mssql-0.0.8.tar.gz tmp/macrometa-target-mssql-0.0.9.tar.gz --markdown 20230629/m/macrometa-target-mssql/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 20:35:08] INFO root fetch - processPackages [gascompressibility]: executing diffoscope
+[2023-06-29 20:35:08] INFO root fetch - processPackages [gascompressibility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gascompressibility-0.1.5.tar.gz tmp/gascompressibility-0.1.6.tar.gz --markdown 20230629/g/gascompressibility/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-29 20:35:08] INFO root fetch - processPackages [symbex]: executing diffoscope
+[2023-06-29 20:35:08] INFO root fetch - processPackages [symbex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbex-0.7.tar.gz tmp/symbex-1.0.tar.gz --markdown 20230629/s/symbex/0.7-1.0/diff.md --exclude *.pyd
+[2023-06-29 20:35:08] INFO root fetch - processPackages [yeastvision]: Downloading https://files.pythonhosted.org/packages/56/c5/e3deb66d5c38c90beaa8ea8feae7871a0699d8dd3c5005999a395adad234/yeastvision-0.1.6.tar.gz
+[2023-06-29 20:35:08] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/69/14/ae3dbf243e4cb1db1d1a6d89c5b0ab88ad11f64d1873591474d5e78d2c24/shady-island-0.0.9.tar.gz
+[2023-06-29 20:35:08] INFO root fetch - processPackages [pymilldb]: executing diffoscope
+[2023-06-29 20:35:08] INFO root fetch - processPackages [pymilldb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymilldb-0.0.8.tar.gz tmp/pymilldb-0.0.9.tar.gz --markdown 20230629/p/pymilldb/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 20:35:08] INFO root fetch - processPackages [astroquery]: Downloading https://files.pythonhosted.org/packages/2e/c6/5a4c3831a8f8fe5714118e49506efd5a52ec2a58bee85f1a70b289f90d88/astroquery-0.4.dev5750.tar.gz
+[2023-06-29 20:35:08] INFO root fetch - processPackages [yeastvision]: executing diffoscope
+[2023-06-29 20:35:08] INFO root fetch - processPackages [yeastvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeastvision-0.1.5.tar.gz tmp/yeastvision-0.1.6.tar.gz --markdown 20230629/y/yeastvision/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-29 20:35:08] INFO root fetch - processPackages [blight]: Downloading https://files.pythonhosted.org/packages/59/b3/588eb67f3ea80e873439536efef02e5d8bc7416b12838fa6414e23f94b80/blight-0.0.53a2.tar.gz
+[2023-06-29 20:35:08] INFO root fetch - processPackages [shady-island]: executing diffoscope
+[2023-06-29 20:35:08] INFO root fetch - processPackages [shady-island]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shady-island-0.0.8.tar.gz tmp/shady-island-0.0.9.tar.gz --markdown 20230629/s/shady-island/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 20:35:08] INFO root fetch - processPackages [blight]: executing diffoscope
+[2023-06-29 20:35:08] INFO root fetch - processPackages [blight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blight-0.0.53a1.tar.gz tmp/blight-0.0.53a2.tar.gz --markdown 20230629/b/blight/0.0.53a1-0.0.53a2/diff.md --exclude *.pyd
+[2023-06-29 20:35:08] WARNING root fetch - processPackages [cdktf-cdktf-provider-aws]: Skipping package: exceeds size limit 23814479>=10485760
+[2023-06-29 20:35:08] INFO root fetch - processPackages [cdktf-cdktf-provider-aws]: Start processing: lightning-utilities
+[2023-06-29 20:35:08] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-aws] error
+[2023-06-29 20:35:08] INFO root fetch - processPackages [astroquery]: executing diffoscope
+[2023-06-29 20:35:08] INFO root fetch - processPackages [astroquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astroquery-0.4.dev5744.tar.gz tmp/astroquery-0.4.dev5750.tar.gz --markdown 20230629/a/astroquery/0.4.dev5744-0.4.dev5750/diff.md --exclude *.pyd
+[2023-06-29 20:35:08] INFO root fetch - processPackages [lightning-utilities]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-29 20:35:09] INFO root fetch - processPackages [lightning-utilities]: Downloading https://files.pythonhosted.org/packages/27/11/869a3de9da0919b8b2179e9b2a6b0d9cd095baa2600f5c1f8744f398c049/lightning-utilities-0.8.0.tar.gz
+[2023-06-29 20:35:09] INFO root fetch - processPackages [lightning-utilities]: Downloading https://files.pythonhosted.org/packages/dd/c0/0850bf9930c85ec68153e096662735bc1df2e4dab9acb469e2dfa72a0f9a/lightning-utilities-0.9.0.tar.gz
+[2023-06-29 20:35:09] INFO root fetch - processPackages [lightning-utilities]: executing diffoscope
+[2023-06-29 20:35:09] INFO root fetch - processPackages [lightning-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-utilities-0.8.0.tar.gz tmp/lightning-utilities-0.9.0.tar.gz --markdown 20230629/l/lightning-utilities/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-29 20:35:09] INFO root fetch - processPackages [mentord]: Remove: archive file [/home/abi/fetcher/tmp/mentord-1.1.4.tar.gz]
+[2023-06-29 20:35:09] INFO root fetch - processPackages [mentord]: Remove: archive file [/home/abi/fetcher/tmp/mentord-1.1.5.tar.gz]
+[2023-06-29 20:35:09] INFO root fetch - processPackages [mentord]: Start processing: ppafm
+[2023-06-29 20:35:09] INFO root fetch - main [MainThread]: End processing [mentord]: success
+[2023-06-29 20:35:09] INFO root fetch - processPackages [ppafm]: New version: [0.2.1a2] Old Version: [0.2.1]
+[2023-06-29 20:35:10] INFO root fetch - processPackages [ppafm]: Downloading https://files.pythonhosted.org/packages/45/6a/2f6828d29868b5cd556f4694ea653bebdc962419952caf90ed616df236a5/ppafm-0.2.1.tar.gz
+[2023-06-29 20:35:10] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.8.tar.gz]
+[2023-06-29 20:35:10] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.9.tar.gz]
+[2023-06-29 20:35:10] INFO root fetch - processPackages [macrometa-target-mssql]: Start processing: astrolight
+[2023-06-29 20:35:10] INFO root fetch - main [MainThread]: End processing [macrometa-target-mssql]: success
+[2023-06-29 20:35:10] INFO root fetch - processPackages [gascompressibility]: Remove: archive file [/home/abi/fetcher/tmp/gascompressibility-0.1.5.tar.gz]
+[2023-06-29 20:35:10] INFO root fetch - processPackages [shady-island]: Remove: archive file [/home/abi/fetcher/tmp/shady-island-0.0.8.tar.gz]
+[2023-06-29 20:35:10] INFO root fetch - processPackages [gascompressibility]: Remove: archive file [/home/abi/fetcher/tmp/gascompressibility-0.1.6.tar.gz]
+[2023-06-29 20:35:10] INFO root fetch - processPackages [shady-island]: Remove: archive file [/home/abi/fetcher/tmp/shady-island-0.0.9.tar.gz]
+[2023-06-29 20:35:10] INFO root fetch - processPackages [gascompressibility]: Start processing: mentord
+[2023-06-29 20:35:10] INFO root fetch - main [MainThread]: End processing [gascompressibility]: success
+[2023-06-29 20:35:10] INFO root fetch - main [MainThread]: End processing [shady-island]: success
+[2023-06-29 20:35:10] WARNING root fetch - processPackages [astrolight]: Skipping, unable to determine old version
+[2023-06-29 20:35:10] INFO root fetch - main [MainThread]: End processing [astrolight] error
+[2023-06-29 20:35:10] INFO root fetch - processPackages [mentord]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-29 20:35:10] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/e5/7e/14a055baed34fe96d4d161582b4af93e2e2d545ce6bb8fb57a8e1f966661/mentord-1.1.5.tar.gz
+[2023-06-29 20:35:10] INFO root fetch - processPackages [ppafm]: Downloading https://files.pythonhosted.org/packages/4e/ee/24992fdfe4beeb85dfdc4618faac20fd689104eff03da58d0b327f40e138/ppafm-0.2.1a2.tar.gz
+[2023-06-29 20:35:10] INFO root fetch - processPackages [pymilldb]: Remove: archive file [/home/abi/fetcher/tmp/pymilldb-0.0.8.tar.gz]
+[2023-06-29 20:35:10] INFO root fetch - processPackages [pymilldb]: Remove: archive file [/home/abi/fetcher/tmp/pymilldb-0.0.9.tar.gz]
+[2023-06-29 20:35:10] INFO root fetch - main [MainThread]: End processing [pymilldb]: success
+[2023-06-29 20:35:10] INFO root fetch - processPackages [ppafm]: executing diffoscope
+[2023-06-29 20:35:10] INFO root fetch - processPackages [ppafm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppafm-0.2.1.tar.gz tmp/ppafm-0.2.1a2.tar.gz --markdown 20230629/p/ppafm/0.2.1-0.2.1a2/diff.md --exclude *.pyd
+[2023-06-29 20:35:10] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/a4/b0/45560647dc7d35ab8c8c53c62f8cc2c2536b494deedf1edbe7adfc4c4914/mentord-1.1.6.tar.gz
+[2023-06-29 20:35:10] INFO root fetch - processPackages [mentord]: executing diffoscope
+[2023-06-29 20:35:10] INFO root fetch - processPackages [mentord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentord-1.1.5.tar.gz tmp/mentord-1.1.6.tar.gz --markdown 20230629/m/mentord/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-29 20:35:10] INFO root fetch - processPackages [symbex]: Remove: archive file [/home/abi/fetcher/tmp/symbex-0.7.tar.gz]
+[2023-06-29 20:35:10] INFO root fetch - processPackages [symbex]: Remove: archive file [/home/abi/fetcher/tmp/symbex-1.0.tar.gz]
+[2023-06-29 20:35:10] INFO root fetch - main [MainThread]: End processing [symbex]: success
+[2023-06-29 20:35:11] INFO root fetch - processPackages [lightning-utilities]: Remove: archive file [/home/abi/fetcher/tmp/lightning-utilities-0.8.0.tar.gz]
+[2023-06-29 20:35:11] INFO root fetch - processPackages [lightning-utilities]: Remove: archive file [/home/abi/fetcher/tmp/lightning-utilities-0.9.0.tar.gz]
+[2023-06-29 20:35:11] INFO root fetch - main [MainThread]: End processing [lightning-utilities]: success
+[2023-06-29 20:35:11] INFO root fetch - processPackages [yeastvision]: Remove: archive file [/home/abi/fetcher/tmp/yeastvision-0.1.5.tar.gz]
+[2023-06-29 20:35:11] INFO root fetch - processPackages [yeastvision]: Remove: archive file [/home/abi/fetcher/tmp/yeastvision-0.1.6.tar.gz]
+[2023-06-29 20:35:11] INFO root fetch - main [MainThread]: End processing [yeastvision]: success
+[2023-06-29 20:35:11] INFO root fetch - processPackages [mentord]: Remove: archive file [/home/abi/fetcher/tmp/mentord-1.1.5.tar.gz]
+[2023-06-29 20:35:11] INFO root fetch - processPackages [mentord]: Remove: archive file [/home/abi/fetcher/tmp/mentord-1.1.6.tar.gz]
+[2023-06-29 20:35:11] INFO root fetch - main [MainThread]: End processing [mentord]: success
+[2023-06-29 20:35:11] INFO root fetch - processPackages [ppafm]: Remove: archive file [/home/abi/fetcher/tmp/ppafm-0.2.1.tar.gz]
+[2023-06-29 20:35:11] INFO root fetch - processPackages [ppafm]: Remove: archive file [/home/abi/fetcher/tmp/ppafm-0.2.1a2.tar.gz]
+[2023-06-29 20:35:12] INFO root fetch - main [MainThread]: End processing [ppafm]: success
+[2023-06-29 20:35:24] INFO root fetch - processPackages [astroquery]: Remove: archive file [/home/abi/fetcher/tmp/astroquery-0.4.dev5744.tar.gz]
+[2023-06-29 20:35:24] INFO root fetch - processPackages [astroquery]: Remove: archive file [/home/abi/fetcher/tmp/astroquery-0.4.dev5750.tar.gz]
+[2023-06-29 20:35:24] INFO root fetch - main [MainThread]: End processing [astroquery]: success
+[2023-06-29 20:36:00] INFO root fetch - processPackages [blight]: Remove: archive file [/home/abi/fetcher/tmp/blight-0.0.53a1.tar.gz]
+[2023-06-29 20:36:00] INFO root fetch - processPackages [blight]: Remove: archive file [/home/abi/fetcher/tmp/blight-0.0.53a2.tar.gz]
+[2023-06-29 20:36:00] INFO root fetch - main [MainThread]: End processing [blight]: success
+[2023-06-29 20:36:00] INFO root fetch - main [MainThread]: Store serial: [18699105]
