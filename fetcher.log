@@ -23512,3 +23512,200 @@ EOFError: EOF read where object expected
 [2023-06-29 22:58:12] INFO root fetch - processPackages [naluconfigs]: Remove: archive file [/home/abi/fetcher/tmp/naluconfigs-11.2.1.tar.gz]
 [2023-06-29 22:58:12] INFO root fetch - main [MainThread]: End processing [naluconfigs]: success
 [2023-06-29 22:58:12] INFO root fetch - main [MainThread]: Store serial: [18700787]
+[2023-06-29 23:03:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18700787]
+[2023-06-29 23:03:21] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-06-29 23:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xia-sendinblue
+[2023-06-29 23:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coiled
+[2023-06-29 23:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: extrabol
+[2023-06-29 23:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CNUfof-utils
+[2023-06-29 23:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xia-pusher-flask
+[2023-06-29 23:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xia-service
+[2023-06-29 23:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-simple-accounting
+[2023-06-29 23:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: duplicated-image-cleaner
+[2023-06-29 23:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tap-github
+[2023-06-29 23:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: globox
+[2023-06-29 23:03:21] ERROR root fetch - processPackages [CNUfof-utils]: Unable to get metadata: No such project 'CNUfof-utils'
+[2023-06-29 23:03:21] INFO root fetch - processPackages [CNUfof-utils]: Start processing: spear-tts-pytorch
+[2023-06-29 23:03:21] INFO root fetch - main [MainThread]: End processing [CNUfof-utils] error
+[2023-06-29 23:03:21] WARNING root fetch - processPackages [django-simple-accounting]: Skipping, unable to determine old version
+[2023-06-29 23:03:21] INFO root fetch - processPackages [xia-pusher-flask]: New version: [0.0.9] Old Version: [0.0.10]
+[2023-06-29 23:03:21] INFO root fetch - processPackages [django-simple-accounting]: Start processing: xia-service-cloudflare
+[2023-06-29 23:03:21] INFO root fetch - main [MainThread]: End processing [django-simple-accounting] error
+[2023-06-29 23:03:21] INFO root fetch - processPackages [extrabol]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-29 23:03:21] INFO root fetch - processPackages [globox]: New version: [2.2.0] Old Version: [2.1.3b0]
+[2023-06-29 23:03:21] INFO root fetch - processPackages [tap-github]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-06-29 23:03:21] INFO root fetch - processPackages [xia-service]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-29 23:03:21] INFO root fetch - processPackages [duplicated-image-cleaner]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-29 23:03:21] INFO root fetch - processPackages [spear-tts-pytorch]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-29 23:03:21] INFO root fetch - processPackages [xia-service-cloudflare]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-29 23:03:21] INFO root fetch - processPackages [coiled]: New version: [0.7.9.dev9] Old Version: [0.7.9.dev8]
+[2023-06-29 23:03:21] INFO root fetch - processPackages [xia-sendinblue]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 23:03:21] INFO root fetch - processPackages [extrabol]: Downloading https://files.pythonhosted.org/packages/78/0d/9eb361fb03fc03324dcd56e0eb306f8acff44646cdcb464f4d5b3fb6bc95/extrabol-1.0.2.tar.gz
+[2023-06-29 23:03:21] INFO root fetch - processPackages [spear-tts-pytorch]: Downloading https://files.pythonhosted.org/packages/e5/c3/9f166b374b5bc6754c1ec671fd701540b14fed3e0a33404013a0294f9bc0/spear-tts-pytorch-0.0.5.tar.gz
+[2023-06-29 23:03:21] INFO root fetch - processPackages [duplicated-image-cleaner]: Downloading https://files.pythonhosted.org/packages/36/f5/33893c53d7f91d358f91ea60c09d2aca442c33555ec2a2d22c3dfbb0d957/duplicated_image_cleaner-0.1.0-py3-none-any.whl
+[2023-06-29 23:03:21] INFO root fetch - processPackages [xia-pusher-flask]: Downloading https://files.pythonhosted.org/packages/0f/28/1fd1c73dc2a0396f64d42eac99239ee216ee9f285ea7fba3c398e90a0b41/xia_pusher_flask-0.0.10-cp39-none-win_amd64.whl
+[2023-06-29 23:03:22] INFO root fetch - processPackages [xia-service]: Downloading https://files.pythonhosted.org/packages/30/93/7f8e12c31e8833fbcb9b49d89d77a28060502ca005d2a859e7e73d67295b/xia_service-0.0.3-cp39-none-win_amd64.whl
+[2023-06-29 23:03:22] INFO root fetch - processPackages [globox]: Downloading https://files.pythonhosted.org/packages/1e/92/15d6e9e0a3139b11076105fc4f6f2de21917c02c3fe697016ef961eebac2/globox-2.1.3b0.tar.gz
+[2023-06-29 23:03:22] INFO root fetch - processPackages [tap-github]: Downloading https://files.pythonhosted.org/packages/73/10/c7960ed7651c99a97f5394887730914279464671d22d8fa5dd544d872de9/tap-github-2.0.4.tar.gz
+[2023-06-29 23:03:22] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/a7/01/b5a4cbd06e8fe6cb1d49512abbe6434f64ea4b91b21a64f30069aa693547/coiled-0.7.9.dev8.tar.gz
+[2023-06-29 23:03:22] INFO root fetch - processPackages [xia-sendinblue]: Downloading https://files.pythonhosted.org/packages/27/38/a25937107306762dc487fa6586f22a3540e114d883ad38b32dc31b5b2c89/xia_sendinblue-0.0.8-cp39-none-win_amd64.whl
+[2023-06-29 23:03:22] INFO root fetch - processPackages [xia-service-cloudflare]: Downloading https://files.pythonhosted.org/packages/89/9c/4d0c2370371b22e58a3d1cf177fb00452562145da5b71db27f54b1c03b38/xia_service_cloudflare-0.0.3-cp39-none-win_amd64.whl
+[2023-06-29 23:03:22] INFO root fetch - processPackages [spear-tts-pytorch]: Downloading https://files.pythonhosted.org/packages/16/f6/4298a5135ebae0353278c36285600a1255ffa2e57d40bf7e3ed15de2b7da/spear-tts-pytorch-0.0.6.tar.gz
+[2023-06-29 23:03:22] INFO root fetch - processPackages [extrabol]: Downloading https://files.pythonhosted.org/packages/d3/49/7fed16fadc841b81c25cb8e68d6c686bfd1383d14a4ede847621a071adee/extrabol-1.0.3.tar.gz
+[2023-06-29 23:03:22] INFO root fetch - processPackages [duplicated-image-cleaner]: Downloading https://files.pythonhosted.org/packages/8b/07/662a139a9b420c2b70b9aeb868536e96f7a8594e2e43bda21702ab8b30c6/duplicated_image_cleaner-0.1.1.tar.gz
+[2023-06-29 23:03:22] INFO root fetch - processPackages [spear-tts-pytorch]: executing diffoscope
+[2023-06-29 23:03:22] INFO root fetch - processPackages [spear-tts-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spear-tts-pytorch-0.0.5.tar.gz tmp/spear-tts-pytorch-0.0.6.tar.gz --markdown 20230629/s/spear-tts-pytorch/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-29 23:03:22] INFO root fetch - processPackages [xia-pusher-flask]: Downloading https://files.pythonhosted.org/packages/65/04/dcee95a35d1f921d186bba679f9662ef276072580e8a3c11426df352397c/xia_pusher_flask-0.0.9-cp39-none-win_amd64.whl
+[2023-06-29 23:03:22] INFO root fetch - processPackages [globox]: Downloading https://files.pythonhosted.org/packages/0c/11/7d04d2ea2a4dc10a3498df5effbdf47881d5aad7de8436673072f0c3f228/globox-2.2.0.tar.gz
+[2023-06-29 23:03:22] INFO root fetch - processPackages [xia-service]: Downloading https://files.pythonhosted.org/packages/43/69/ae7e0766deafa229ac532dfcaae46be8d876ce462058986dfedff2c7adf4/xia_service-0.0.4-cp39-none-win_amd64.whl
+[2023-06-29 23:03:22] INFO root fetch - processPackages [tap-github]: Downloading https://files.pythonhosted.org/packages/d7/e8/42122328986cfc68839d30220c5013a61848442bfdc9a9b6c6f6367cca34/tap-github-2.0.5.tar.gz
+[2023-06-29 23:03:22] INFO root fetch - processPackages [duplicated-image-cleaner]: executing diffoscope
+[2023-06-29 23:03:22] INFO root fetch - processPackages [duplicated-image-cleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duplicated_image_cleaner-0.1.0-py3-none-any.whl.zip tmp/duplicated_image_cleaner-0.1.1.tar.gz --markdown 20230629/d/duplicated-image-cleaner/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-29 23:03:22] INFO root fetch - processPackages [xia-sendinblue]: Downloading https://files.pythonhosted.org/packages/33/78/dab39108034f0ef25a673071a26e559011f34cd8592d606a4564801d0a80/xia_sendinblue-0.0.9-cp39-none-win_amd64.whl
+[2023-06-29 23:03:22] INFO root fetch - processPackages [xia-service-cloudflare]: Downloading https://files.pythonhosted.org/packages/6a/d6/5005c6d9c199cd0c191f60df302c230662c3be5c0b58e05981a433abf97f/xia_service_cloudflare-0.0.4-cp39-none-win_amd64.whl
+[2023-06-29 23:03:22] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/68/a0/03deba097f154d5d35f5aaf9cc9e6203f2e386628cf93962bded599cc14d/coiled-0.7.9.dev9.tar.gz
+[2023-06-29 23:03:22] INFO root fetch - processPackages [globox]: executing diffoscope
+[2023-06-29 23:03:22] INFO root fetch - processPackages [globox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globox-2.1.3b0.tar.gz tmp/globox-2.2.0.tar.gz --markdown 20230629/g/globox/2.1.3b0-2.2.0/diff.md --exclude *.pyd
+[2023-06-29 23:03:22] INFO root fetch - processPackages [xia-service]: executing diffoscope
+[2023-06-29 23:03:22] INFO root fetch - processPackages [xia-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_service-0.0.3-cp39-none-win_amd64.whl.zip tmp/xia_service-0.0.4-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-service/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-29 23:03:22] INFO root fetch - processPackages [xia-pusher-flask]: executing diffoscope
+[2023-06-29 23:03:22] INFO root fetch - processPackages [xia-pusher-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_pusher_flask-0.0.10-cp39-none-win_amd64.whl.zip tmp/xia_pusher_flask-0.0.9-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-pusher-flask/0.0.10-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 23:03:22] INFO root fetch - processPackages [tap-github]: executing diffoscope
+[2023-06-29 23:03:22] INFO root fetch - processPackages [tap-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-github-2.0.4.tar.gz tmp/tap-github-2.0.5.tar.gz --markdown 20230629/t/tap-github/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-06-29 23:03:22] INFO root fetch - processPackages [xia-sendinblue]: executing diffoscope
+[2023-06-29 23:03:22] INFO root fetch - processPackages [xia-sendinblue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_sendinblue-0.0.8-cp39-none-win_amd64.whl.zip tmp/xia_sendinblue-0.0.9-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-sendinblue/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 23:03:22] INFO root fetch - processPackages [xia-service-cloudflare]: executing diffoscope
+[2023-06-29 23:03:22] INFO root fetch - processPackages [xia-service-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_service_cloudflare-0.0.3-cp39-none-win_amd64.whl.zip tmp/xia_service_cloudflare-0.0.4-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-service-cloudflare/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-29 23:03:22] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-29 23:03:22] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.9.dev8.tar.gz tmp/coiled-0.7.9.dev9.tar.gz --markdown 20230629/c/coiled/0.7.9.dev8-0.7.9.dev9/diff.md --exclude *.pyd
+[2023-06-29 23:03:22] INFO root fetch - processPackages [extrabol]: executing diffoscope
+[2023-06-29 23:03:22] INFO root fetch - processPackages [extrabol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extrabol-1.0.2.tar.gz tmp/extrabol-1.0.3.tar.gz --markdown 20230629/e/extrabol/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-29 23:03:23] INFO root fetch - processPackages [spear-tts-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/spear-tts-pytorch-0.0.5.tar.gz]
+[2023-06-29 23:03:23] INFO root fetch - processPackages [spear-tts-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/spear-tts-pytorch-0.0.6.tar.gz]
+[2023-06-29 23:03:23] INFO root fetch - processPackages [spear-tts-pytorch]: Start processing: ecghelper
+[2023-06-29 23:03:23] INFO root fetch - main [MainThread]: End processing [spear-tts-pytorch]: success
+[2023-06-29 23:03:23] INFO root fetch - processPackages [ecghelper]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-29 23:03:23] INFO root fetch - processPackages [ecghelper]: Downloading https://files.pythonhosted.org/packages/f0/ea/c118738f75629e5a0eaa1b7e42c00df1fc54201b0f5ec0f115ff517b5b5c/ecghelper-0.5.0.tar.gz
+[2023-06-29 23:03:23] INFO root fetch - processPackages [duplicated-image-cleaner]: Remove: archive file [/home/abi/fetcher/tmp/duplicated_image_cleaner-0.1.0-py3-none-any.whl.zip]
+[2023-06-29 23:03:23] INFO root fetch - processPackages [duplicated-image-cleaner]: Remove: archive file [/home/abi/fetcher/tmp/duplicated_image_cleaner-0.1.1.tar.gz]
+[2023-06-29 23:03:23] INFO root fetch - processPackages [duplicated-image-cleaner]: Start processing: container-collection
+[2023-06-29 23:03:23] INFO root fetch - main [MainThread]: End processing [duplicated-image-cleaner]: success
+[2023-06-29 23:03:23] INFO root fetch - processPackages [container-collection]: New version: [0.6.0] Old Version: [0.5.2]
+[2023-06-29 23:03:24] INFO root fetch - processPackages [xia-service]: Remove: archive file [/home/abi/fetcher/tmp/xia_service-0.0.3-cp39-none-win_amd64.whl.zip]
+[2023-06-29 23:03:24] INFO root fetch - processPackages [xia-service]: Remove: archive file [/home/abi/fetcher/tmp/xia_service-0.0.4-cp39-none-win_amd64.whl.zip]
+[2023-06-29 23:03:24] INFO root fetch - processPackages [xia-service]: Start processing: xia-sso-flask
+[2023-06-29 23:03:24] INFO root fetch - main [MainThread]: End processing [xia-service]: success
+[2023-06-29 23:03:24] INFO root fetch - processPackages [ecghelper]: Downloading https://files.pythonhosted.org/packages/8e/2a/d8878d74752fb9104d58a584655d6ff14057605efdf420efd8f7eb6ef45c/ecghelper-0.6.0.tar.gz
+[2023-06-29 23:03:24] INFO root fetch - processPackages [xia-sso-flask]: New version: [0.1.21] Old Version: [0.1.20]
+[2023-06-29 23:03:24] INFO root fetch - processPackages [xia-sendinblue]: Remove: archive file [/home/abi/fetcher/tmp/xia_sendinblue-0.0.8-cp39-none-win_amd64.whl.zip]
+[2023-06-29 23:03:24] INFO root fetch - processPackages [xia-sendinblue]: Remove: archive file [/home/abi/fetcher/tmp/xia_sendinblue-0.0.9-cp39-none-win_amd64.whl.zip]
+[2023-06-29 23:03:24] INFO root fetch - processPackages [xia-sendinblue]: Start processing: pywhen
+[2023-06-29 23:03:24] INFO root fetch - main [MainThread]: End processing [xia-sendinblue]: success
+[2023-06-29 23:03:24] INFO root fetch - processPackages [container-collection]: Downloading https://files.pythonhosted.org/packages/6e/5f/0f227658e5b3965aef6392af07ea26785eff1917536f8fced65a4739a5de/container_collection-0.5.2.tar.gz
+[2023-06-29 23:03:24] INFO root fetch - processPackages [pywhen]: New version: [0.11.2] Old Version: [0.11.1]
+[2023-06-29 23:03:24] INFO root fetch - processPackages [xia-service-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/xia_service_cloudflare-0.0.3-cp39-none-win_amd64.whl.zip]
+[2023-06-29 23:03:24] INFO root fetch - processPackages [xia-service-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/xia_service_cloudflare-0.0.4-cp39-none-win_amd64.whl.zip]
+[2023-06-29 23:03:24] INFO root fetch - processPackages [xia-service-cloudflare]: Start processing: fastq2folder
+[2023-06-29 23:03:24] INFO root fetch - main [MainThread]: End processing [xia-service-cloudflare]: success
+[2023-06-29 23:03:24] INFO root fetch - processPackages [fastq2folder]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-29 23:03:24] INFO root fetch - processPackages [globox]: Remove: archive file [/home/abi/fetcher/tmp/globox-2.1.3b0.tar.gz]
+[2023-06-29 23:03:24] INFO root fetch - processPackages [globox]: Remove: archive file [/home/abi/fetcher/tmp/globox-2.2.0.tar.gz]
+[2023-06-29 23:03:24] INFO root fetch - processPackages [globox]: Start processing: xia-storer
+[2023-06-29 23:03:24] INFO root fetch - main [MainThread]: End processing [globox]: success
+[2023-06-29 23:03:24] INFO root fetch - processPackages [xia-storer]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-29 23:03:24] INFO root fetch - processPackages [xia-pusher-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_pusher_flask-0.0.10-cp39-none-win_amd64.whl.zip]
+[2023-06-29 23:03:24] INFO root fetch - processPackages [xia-pusher-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_pusher_flask-0.0.9-cp39-none-win_amd64.whl.zip]
+[2023-06-29 23:03:24] INFO root fetch - processPackages [xia-pusher-flask]: Start processing: xia-storer-gcs
+[2023-06-29 23:03:24] INFO root fetch - main [MainThread]: End processing [xia-pusher-flask]: success
+[2023-06-29 23:03:24] INFO root fetch - processPackages [ecghelper]: executing diffoscope
+[2023-06-29 23:03:24] INFO root fetch - processPackages [ecghelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecghelper-0.5.0.tar.gz tmp/ecghelper-0.6.0.tar.gz --markdown 20230629/e/ecghelper/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-29 23:03:24] INFO root fetch - processPackages [fastq2folder]: Downloading https://files.pythonhosted.org/packages/0c/13/8245a7494144875c53e0cda0695451fb8e7decd3c4ade94862c5e3112ffe/fastq2folder-1.0.2.tar.gz
+[2023-06-29 23:03:24] INFO root fetch - processPackages [xia-storer-gcs]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-29 23:03:24] INFO root fetch - processPackages [xia-sso-flask]: Downloading https://files.pythonhosted.org/packages/26/9b/236daff39861ea5e7f183bb00cb5e4956b51fea8b9072a45f4a4fd82c947/xia_sso_flask-0.1.20-cp39-none-win_amd64.whl
+[2023-06-29 23:03:24] INFO root fetch - processPackages [pywhen]: Downloading https://files.pythonhosted.org/packages/46/ed/704388f91e139386e663e0b51dd969aceba3b09e590f081c39a15ec51837/pywhen-0.11.1.tar.gz
+[2023-06-29 23:03:24] INFO root fetch - processPackages [container-collection]: Downloading https://files.pythonhosted.org/packages/ce/61/d02f4816aeb7d6ccb9f7b78c4534b57e1ba545d55dcf12299b076970182e/container_collection-0.6.0.tar.gz
+[2023-06-29 23:03:24] INFO root fetch - processPackages [container-collection]: executing diffoscope
+[2023-06-29 23:03:24] INFO root fetch - processPackages [container-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/container_collection-0.5.2.tar.gz tmp/container_collection-0.6.0.tar.gz --markdown 20230629/c/container-collection/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2023-06-29 23:03:24] INFO root fetch - processPackages [xia-storer]: Downloading https://files.pythonhosted.org/packages/79/45/3a6da6a2b439d31c72b04bb35c6272e8f7a217e318ccbccc982655e9cc19/xia_storer-0.1.1-cp39-none-win_amd64.whl
+[2023-06-29 23:03:24] INFO root fetch - processPackages [xia-storer-gcs]: Downloading https://files.pythonhosted.org/packages/a5/14/6f1ea4111e5ccecf0377b5fe90bb61c1a2001327b77259706d7ef80c45b7/xia_storer_gcs-0.0.3-cp39-none-win_amd64.whl
+[2023-06-29 23:03:24] INFO root fetch - processPackages [fastq2folder]: Downloading https://files.pythonhosted.org/packages/79/b9/a7bc9b7b1f3cc2c6edd28b7649cc625ac5718663e3fe2d5a9f3882fadf1b/fastq2folder-1.0.3.tar.gz
+[2023-06-29 23:03:24] INFO root fetch - processPackages [fastq2folder]: executing diffoscope
+[2023-06-29 23:03:24] INFO root fetch - processPackages [fastq2folder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastq2folder-1.0.2.tar.gz tmp/fastq2folder-1.0.3.tar.gz --markdown 20230629/f/fastq2folder/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-29 23:03:24] INFO root fetch - processPackages [pywhen]: Downloading https://files.pythonhosted.org/packages/3a/86/999f6cf20926cf8bcd1bd18caac32fe8bf01ff407d929d46e5d060233f16/pywhen-0.11.2.tar.gz
+[2023-06-29 23:03:24] INFO root fetch - processPackages [xia-sso-flask]: Downloading https://files.pythonhosted.org/packages/51/26/0de4ed27c99542f8d1839b158a6d5d228ace432b4314238e622573ef30d7/xia_sso_flask-0.1.21-cp39-none-win_amd64.whl
+[2023-06-29 23:03:24] INFO root fetch - processPackages [pywhen]: executing diffoscope
+[2023-06-29 23:03:24] INFO root fetch - processPackages [pywhen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywhen-0.11.1.tar.gz tmp/pywhen-0.11.2.tar.gz --markdown 20230629/p/pywhen/0.11.1-0.11.2/diff.md --exclude *.pyd
+[2023-06-29 23:03:24] INFO root fetch - processPackages [xia-storer]: Downloading https://files.pythonhosted.org/packages/d0/72/039830ebc325bc4cffaf161024a1cdda445c118b5ea392f3805ad62cf542/xia_storer-0.1.2-cp39-none-win_amd64.whl
+[2023-06-29 23:03:24] INFO root fetch - processPackages [xia-storer-gcs]: Downloading https://files.pythonhosted.org/packages/b2/c3/1646dd1bd55f349e4b202872bd5db1a9a8ed22046a6c13b85d5811a67522/xia_storer_gcs-0.0.4-cp39-none-win_amd64.whl
+[2023-06-29 23:03:24] INFO root fetch - processPackages [xia-sso-flask]: executing diffoscope
+[2023-06-29 23:03:24] INFO root fetch - processPackages [xia-sso-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_sso_flask-0.1.20-cp39-none-win_amd64.whl.zip tmp/xia_sso_flask-0.1.21-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-sso-flask/0.1.20-0.1.21/diff.md --exclude *.pyd
+[2023-06-29 23:03:25] INFO root fetch - processPackages [xia-storer]: executing diffoscope
+[2023-06-29 23:03:25] INFO root fetch - processPackages [xia-storer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_storer-0.1.1-cp39-none-win_amd64.whl.zip tmp/xia_storer-0.1.2-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-storer/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-29 23:03:25] INFO root fetch - processPackages [xia-storer-gcs]: executing diffoscope
+[2023-06-29 23:03:25] INFO root fetch - processPackages [xia-storer-gcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_storer_gcs-0.0.3-cp39-none-win_amd64.whl.zip tmp/xia_storer_gcs-0.0.4-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-storer-gcs/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-29 23:03:25] INFO root fetch - processPackages [tap-github]: Remove: archive file [/home/abi/fetcher/tmp/tap-github-2.0.4.tar.gz]
+[2023-06-29 23:03:25] INFO root fetch - processPackages [tap-github]: Remove: archive file [/home/abi/fetcher/tmp/tap-github-2.0.5.tar.gz]
+[2023-06-29 23:03:25] INFO root fetch - processPackages [tap-github]: Start processing: netfema-branding
+[2023-06-29 23:03:25] INFO root fetch - main [MainThread]: End processing [tap-github]: success
+[2023-06-29 23:03:25] WARNING root fetch - processPackages [netfema-branding]: Skipping, unable to determine old version
+[2023-06-29 23:03:25] INFO root fetch - processPackages [netfema-branding]: Start processing: maelzel
+[2023-06-29 23:03:25] INFO root fetch - main [MainThread]: End processing [netfema-branding] error
+[2023-06-29 23:03:25] INFO root fetch - processPackages [maelzel]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-29 23:03:25] INFO root fetch - processPackages [maelzel]: Downloading https://files.pythonhosted.org/packages/e1/df/3a0f8019b2dde14ee16f9af7a559c1a084128924c3eb3826d3da87bdc1ec/maelzel-0.9.0.tar.gz
+[2023-06-29 23:03:25] WARNING root fetch - processPackages [maelzel]: Skipping package: exceeds size limit 17210322>=10485760
+[2023-06-29 23:03:25] INFO root fetch - processPackages [maelzel]: Start processing: xia-synchronizer
+[2023-06-29 23:03:25] INFO root fetch - main [MainThread]: End processing [maelzel] error
+[2023-06-29 23:03:25] INFO root fetch - processPackages [xia-synchronizer]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-29 23:03:25] INFO root fetch - processPackages [fastq2folder]: Remove: archive file [/home/abi/fetcher/tmp/fastq2folder-1.0.2.tar.gz]
+[2023-06-29 23:03:25] INFO root fetch - processPackages [fastq2folder]: Remove: archive file [/home/abi/fetcher/tmp/fastq2folder-1.0.3.tar.gz]
+[2023-06-29 23:03:25] INFO root fetch - processPackages [fastq2folder]: Start processing: xia-token-flask
+[2023-06-29 23:03:25] INFO root fetch - main [MainThread]: End processing [fastq2folder]: success
+[2023-06-29 23:03:25] INFO root fetch - processPackages [xia-synchronizer]: Downloading https://files.pythonhosted.org/packages/7e/cd/27ca8221538a0c21642d1bef6aa23ac0226b75ba439dfa223bf33438ee15/xia_synchronizer-0.0.3-cp39-none-win_amd64.whl
+[2023-06-29 23:03:25] INFO root fetch - processPackages [xia-token-flask]: New version: [0.1.13] Old Version: [0.1.12]
+[2023-06-29 23:03:25] INFO root fetch - processPackages [container-collection]: Remove: archive file [/home/abi/fetcher/tmp/container_collection-0.5.2.tar.gz]
+[2023-06-29 23:03:25] INFO root fetch - processPackages [container-collection]: Remove: archive file [/home/abi/fetcher/tmp/container_collection-0.6.0.tar.gz]
+[2023-06-29 23:03:25] INFO root fetch - processPackages [container-collection]: Start processing: macrometa-target-mssql
+[2023-06-29 23:03:25] INFO root fetch - main [MainThread]: End processing [container-collection]: success
+[2023-06-29 23:03:26] INFO root fetch - processPackages [macrometa-target-mssql]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 23:03:26] INFO root fetch - processPackages [xia-token-flask]: Downloading https://files.pythonhosted.org/packages/2b/ec/f16e1f2d0ce00ca4f718353d85a35ffcf1cb8d38d9e37802fc5f9a87b9ff/xia_token_flask-0.1.12-cp39-none-win_amd64.whl
+[2023-06-29 23:03:26] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/47/28/bece1abc54ffab5f0cddaff5d6f1e02fac1343bfb72976d5794f50dad748/macrometa-target-mssql-0.0.8.tar.gz
+[2023-06-29 23:03:26] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev8.tar.gz]
+[2023-06-29 23:03:26] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev9.tar.gz]
+[2023-06-29 23:03:26] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-29 23:03:26] INFO root fetch - processPackages [xia-synchronizer]: Downloading https://files.pythonhosted.org/packages/0b/29/38d3bb9d3275d7e9c347ef6e790d660e04a732a08ee8f6fce31030480d94/xia_synchronizer-0.0.4-cp39-none-win_amd64.whl
+[2023-06-29 23:03:26] INFO root fetch - processPackages [pywhen]: Remove: archive file [/home/abi/fetcher/tmp/pywhen-0.11.1.tar.gz]
+[2023-06-29 23:03:26] INFO root fetch - processPackages [pywhen]: Remove: archive file [/home/abi/fetcher/tmp/pywhen-0.11.2.tar.gz]
+[2023-06-29 23:03:26] INFO root fetch - main [MainThread]: End processing [pywhen]: success
+[2023-06-29 23:03:26] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/3d/97/96f149d7c5c167814edbae8e9693e5915bdec86dfd31a669e08d21162ee9/macrometa-target-mssql-0.0.9.tar.gz
+[2023-06-29 23:03:26] INFO root fetch - processPackages [xia-storer]: Remove: archive file [/home/abi/fetcher/tmp/xia_storer-0.1.1-cp39-none-win_amd64.whl.zip]
+[2023-06-29 23:03:26] INFO root fetch - processPackages [xia-storer]: Remove: archive file [/home/abi/fetcher/tmp/xia_storer-0.1.2-cp39-none-win_amd64.whl.zip]
+[2023-06-29 23:03:26] INFO root fetch - main [MainThread]: End processing [xia-storer]: success
+[2023-06-29 23:03:26] INFO root fetch - processPackages [xia-sso-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_sso_flask-0.1.20-cp39-none-win_amd64.whl.zip]
+[2023-06-29 23:03:26] INFO root fetch - processPackages [xia-sso-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_sso_flask-0.1.21-cp39-none-win_amd64.whl.zip]
+[2023-06-29 23:03:26] INFO root fetch - main [MainThread]: End processing [xia-sso-flask]: success
+[2023-06-29 23:03:26] INFO root fetch - processPackages [xia-synchronizer]: executing diffoscope
+[2023-06-29 23:03:26] INFO root fetch - processPackages [xia-synchronizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_synchronizer-0.0.3-cp39-none-win_amd64.whl.zip tmp/xia_synchronizer-0.0.4-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-synchronizer/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-29 23:03:26] INFO root fetch - processPackages [xia-token-flask]: Downloading https://files.pythonhosted.org/packages/e9/dc/5e30728641050b4c03334f79baaf5b410133231f8eb728baa9897dba9f97/xia_token_flask-0.1.13-cp39-none-macosx_11_0_x86_64.whl
+[2023-06-29 23:03:26] INFO root fetch - processPackages [xia-storer-gcs]: Remove: archive file [/home/abi/fetcher/tmp/xia_storer_gcs-0.0.3-cp39-none-win_amd64.whl.zip]
+[2023-06-29 23:03:26] INFO root fetch - processPackages [xia-storer-gcs]: Remove: archive file [/home/abi/fetcher/tmp/xia_storer_gcs-0.0.4-cp39-none-win_amd64.whl.zip]
+[2023-06-29 23:03:26] INFO root fetch - main [MainThread]: End processing [xia-storer-gcs]: success
+[2023-06-29 23:03:26] INFO root fetch - processPackages [macrometa-target-mssql]: executing diffoscope
+[2023-06-29 23:03:26] INFO root fetch - processPackages [macrometa-target-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mssql-0.0.8.tar.gz tmp/macrometa-target-mssql-0.0.9.tar.gz --markdown 20230629/m/macrometa-target-mssql/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 23:03:26] INFO root fetch - processPackages [xia-token-flask]: executing diffoscope
+[2023-06-29 23:03:26] INFO root fetch - processPackages [xia-token-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_token_flask-0.1.12-cp39-none-win_amd64.whl.zip tmp/xia_token_flask-0.1.13-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230629/x/xia-token-flask/0.1.12-0.1.13/diff.md --exclude *.pyd
+[2023-06-29 23:03:26] INFO root fetch - processPackages [ecghelper]: Remove: archive file [/home/abi/fetcher/tmp/ecghelper-0.5.0.tar.gz]
+[2023-06-29 23:03:26] INFO root fetch - processPackages [ecghelper]: Remove: archive file [/home/abi/fetcher/tmp/ecghelper-0.6.0.tar.gz]
+[2023-06-29 23:03:26] INFO root fetch - main [MainThread]: End processing [ecghelper]: success
+[2023-06-29 23:03:27] INFO root fetch - processPackages [xia-synchronizer]: Remove: archive file [/home/abi/fetcher/tmp/xia_synchronizer-0.0.3-cp39-none-win_amd64.whl.zip]
+[2023-06-29 23:03:27] INFO root fetch - processPackages [xia-synchronizer]: Remove: archive file [/home/abi/fetcher/tmp/xia_synchronizer-0.0.4-cp39-none-win_amd64.whl.zip]
+[2023-06-29 23:03:27] INFO root fetch - main [MainThread]: End processing [xia-synchronizer]: success
+[2023-06-29 23:03:27] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.8.tar.gz]
+[2023-06-29 23:03:27] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.9.tar.gz]
+[2023-06-29 23:03:27] INFO root fetch - main [MainThread]: End processing [macrometa-target-mssql]: success
+[2023-06-29 23:03:27] INFO root fetch - processPackages [xia-token-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_token_flask-0.1.12-cp39-none-win_amd64.whl.zip]
+[2023-06-29 23:03:27] INFO root fetch - processPackages [xia-token-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_token_flask-0.1.13-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-06-29 23:03:27] INFO root fetch - main [MainThread]: End processing [xia-token-flask]: success
+[2023-06-29 23:03:27] INFO root fetch - processPackages [extrabol]: Remove: archive file [/home/abi/fetcher/tmp/extrabol-1.0.2.tar.gz]
+[2023-06-29 23:03:27] INFO root fetch - processPackages [extrabol]: Remove: archive file [/home/abi/fetcher/tmp/extrabol-1.0.3.tar.gz]
+[2023-06-29 23:03:27] INFO root fetch - main [MainThread]: End processing [extrabol]: success
+[2023-06-29 23:03:27] INFO root fetch - main [MainThread]: Store serial: [18700906]
