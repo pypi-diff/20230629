@@ -4148,3 +4148,150 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 11:22:50] INFO root fetch - processPackages [oslo.messaging]: Remove: archive file [/home/abi/fetcher/tmp/oslo.messaging-9.8.0.tar.gz]
 [2023-06-29 11:22:50] INFO root fetch - main [MainThread]: End processing [oslo.messaging]: success
 [2023-06-29 11:22:50] INFO root fetch - main [MainThread]: Store serial: [18692622]
+[2023-06-29 11:27:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18692622]
+[2023-06-29 11:28:00] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-29 11:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vavacars-data-utils
+[2023-06-29 11:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2023-06-29 11:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2023-06-29 11:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dask-kubernetes
+[2023-06-29 11:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shortloop-python
+[2023-06-29 11:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mxcubecore
+[2023-06-29 11:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edustudio
+[2023-06-29 11:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pypesto
+[2023-06-29 11:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pydefect
+[2023-06-29 11:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: configzen
+[2023-06-29 11:28:00] INFO root fetch - processPackages [pypesto]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-29 11:28:00] INFO root fetch - processPackages [vavacars-data-utils]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-29 11:28:00] INFO root fetch - processPackages [dask-kubernetes]: New version: [2023.6.1] Old Version: [2023.6.0]
+[2023-06-29 11:28:00] INFO root fetch - processPackages [edustudio]: New version: [1.0.0a3] Old Version: [1.0.0a2]
+[2023-06-29 11:28:00] INFO root fetch - processPackages [shortloop-python]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-29 11:28:00] INFO root fetch - processPackages [mxcubecore]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-29 11:28:00] INFO root fetch - processPackages [pydefect]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-06-29 11:28:00] INFO root fetch - processPackages [configzen]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-06-29 11:28:00] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-29 11:28:00] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-29 11:28:00] INFO root fetch - processPackages [vavacars-data-utils]: Downloading https://files.pythonhosted.org/packages/b6/2c/735c4fd0fc95d5ecc61e991689ebcb442361d0ad6c2bd2561ce4392ae2f2/vavacars_data_utils-1.0.0.tar.gz
+[2023-06-29 11:28:00] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/1c/18/b88b24ccb365103487466781de6686a5476de832acf95f514d37f2baa560/configzen-0.4.5.tar.gz
+[2023-06-29 11:28:00] INFO root fetch - processPackages [pydefect]: Downloading https://files.pythonhosted.org/packages/2e/43/233da458c61596127138504ee80c4ae65e3f70cd87e41990de65b238e2e9/pydefect-0.7.2.tar.gz
+[2023-06-29 11:28:00] INFO root fetch - processPackages [mxcubecore]: Downloading https://files.pythonhosted.org/packages/de/b6/f23c68a8d44340168d91a592a2c31237fe151e457eeaa1ae34a615d3da8b/mxcubecore-1.8.0.tar.gz
+[2023-06-29 11:28:00] INFO root fetch - processPackages [pypesto]: Downloading https://files.pythonhosted.org/packages/82/3a/61beb9823042601457f5e6d68aa313cf4942cf79d52430b892d19107e8e6/pypesto-0.3.0.tar.gz
+[2023-06-29 11:28:00] INFO root fetch - processPackages [edustudio]: Downloading https://files.pythonhosted.org/packages/b4/d9/dcec4993864b582e482b44e3f09a21b185557da51364fe1a4d687de48149/edustudio-1.0.0a2-py3-none-any.whl
+[2023-06-29 11:28:00] INFO root fetch - processPackages [dask-kubernetes]: Downloading https://files.pythonhosted.org/packages/92/5c/d412a9b93c07e3e03cd21cfc3cc3b5fb44e34aa045f060e0ef23772070d0/dask-kubernetes-2023.6.0.tar.gz
+[2023-06-29 11:28:00] INFO root fetch - processPackages [shortloop-python]: Downloading https://files.pythonhosted.org/packages/1d/b7/fc15b79a386234bd3701c711aca1de957aac66cab74bbd1ab47ea47651e9/shortloop_python-0.1.6.tar.gz
+[2023-06-29 11:28:00] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-29 11:28:00] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230629/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-29 11:28:00] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-29 11:28:00] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230629/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-29 11:28:00] WARNING root fetch - processPackages [mxcubecore]: Skipping package: exceeds size limit 28908102>=10485760
+[2023-06-29 11:28:00] INFO root fetch - processPackages [mxcubecore]: Start processing: pontos
+[2023-06-29 11:28:00] INFO root fetch - main [MainThread]: End processing [mxcubecore] error
+[2023-06-29 11:28:00] INFO root fetch - processPackages [pontos]: New version: [23.6.2] Old Version: [23.6.1]
+[2023-06-29 11:28:00] INFO root fetch - processPackages [pydefect]: Downloading https://files.pythonhosted.org/packages/ec/cc/9e1eb5faad39518edd0ed82bd011623858e0eda7bfd40f74ef30c54465e1/pydefect-0.7.3.tar.gz
+[2023-06-29 11:28:00] INFO root fetch - processPackages [vavacars-data-utils]: Downloading https://files.pythonhosted.org/packages/59/f6/0f2cb983b5abce492295ace4c0f264e4224b6bcdc5746cc692e46f7abae8/vavacars_data_utils-1.0.1.tar.gz
+[2023-06-29 11:28:00] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/da/cb/d7933bda17a1078ee53d600710110fdf6ed338b6c0e173159e5aac783de7/configzen-0.4.6.tar.gz
+[2023-06-29 11:28:00] INFO root fetch - processPackages [pypesto]: Downloading https://files.pythonhosted.org/packages/53/93/41b2223c51ff85e54ea88eabc9252cc6569345091836d24f656080684725/pypesto-0.3.1.tar.gz
+[2023-06-29 11:28:00] INFO root fetch - processPackages [dask-kubernetes]: Downloading https://files.pythonhosted.org/packages/47/07/086613293b6eb6570cca46058f26ded3053b300cbc2dd0a231f9216682d6/dask-kubernetes-2023.6.1.tar.gz
+[2023-06-29 11:28:00] INFO root fetch - processPackages [edustudio]: Downloading https://files.pythonhosted.org/packages/fe/b8/00a8aac6d8bad1d0389a630c95634e16ea683b6d8aa37cf9f8bc93ccd34e/edustudio-1.0.0a3-py3-none-any.whl
+[2023-06-29 11:28:00] INFO root fetch - processPackages [pydefect]: executing diffoscope
+[2023-06-29 11:28:00] INFO root fetch - processPackages [pydefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydefect-0.7.2.tar.gz tmp/pydefect-0.7.3.tar.gz --markdown 20230629/p/pydefect/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-06-29 11:28:00] INFO root fetch - processPackages [vavacars-data-utils]: executing diffoscope
+[2023-06-29 11:28:00] INFO root fetch - processPackages [vavacars-data-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vavacars_data_utils-1.0.0.tar.gz tmp/vavacars_data_utils-1.0.1.tar.gz --markdown 20230629/v/vavacars-data-utils/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-29 11:28:00] INFO root fetch - processPackages [pypesto]: executing diffoscope
+[2023-06-29 11:28:00] INFO root fetch - processPackages [pypesto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypesto-0.3.0.tar.gz tmp/pypesto-0.3.1.tar.gz --markdown 20230629/p/pypesto/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-29 11:28:00] INFO root fetch - processPackages [dask-kubernetes]: executing diffoscope
+[2023-06-29 11:28:00] INFO root fetch - processPackages [dask-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-kubernetes-2023.6.0.tar.gz tmp/dask-kubernetes-2023.6.1.tar.gz --markdown 20230629/d/dask-kubernetes/2023.6.0-2023.6.1/diff.md --exclude *.pyd
+[2023-06-29 11:28:00] INFO root fetch - processPackages [shortloop-python]: Downloading https://files.pythonhosted.org/packages/fd/c2/3126a4cdf480d5bcf653fc6dbdb223cbf9268a6b7e386902e41a01f8efab/shortloop_python-0.1.7.tar.gz
+[2023-06-29 11:28:00] INFO root fetch - processPackages [edustudio]: executing diffoscope
+[2023-06-29 11:28:00] INFO root fetch - processPackages [edustudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edustudio-1.0.0a2-py3-none-any.whl.zip tmp/edustudio-1.0.0a3-py3-none-any.whl.zip --markdown 20230629/e/edustudio/1.0.0a2-1.0.0a3/diff.md --exclude *.pyd
+[2023-06-29 11:28:00] INFO root fetch - processPackages [pontos]: Downloading https://files.pythonhosted.org/packages/d5/ac/332a6c547335ee92e9e9a32adb2bbb00743cae2f4541aee4a5e8ca8d8bbf/pontos-23.6.1.tar.gz
+[2023-06-29 11:28:01] INFO root fetch - processPackages [configzen]: executing diffoscope
+[2023-06-29 11:28:01] INFO root fetch - processPackages [configzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configzen-0.4.5.tar.gz tmp/configzen-0.4.6.tar.gz --markdown 20230629/c/configzen/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-06-29 11:28:01] INFO root fetch - processPackages [shortloop-python]: executing diffoscope
+[2023-06-29 11:28:01] INFO root fetch - processPackages [shortloop-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shortloop_python-0.1.6.tar.gz tmp/shortloop_python-0.1.7.tar.gz --markdown 20230629/s/shortloop-python/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-29 11:28:01] INFO root fetch - processPackages [pontos]: Downloading https://files.pythonhosted.org/packages/d5/6d/084da4182a5ba62f5caefc7d213cc1a251ee9b5a61601b359a1ee0b716af/pontos-23.6.2.tar.gz
+[2023-06-29 11:28:01] INFO root fetch - processPackages [pontos]: executing diffoscope
+[2023-06-29 11:28:01] INFO root fetch - processPackages [pontos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pontos-23.6.1.tar.gz tmp/pontos-23.6.2.tar.gz --markdown 20230629/p/pontos/23.6.1-23.6.2/diff.md --exclude *.pyd
+[2023-06-29 11:28:01] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-29 11:28:01] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-29 11:28:01] INFO root fetch - processPackages [spanishconjugator]: Start processing: insist-pista
+[2023-06-29 11:28:01] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-29 11:28:02] INFO root fetch - processPackages [spanishconjugator]: Start processing: gaitalytics
+[2023-06-29 11:28:02] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-29 11:28:02] INFO root fetch - processPackages [insist-pista]: New version: [1.0.28] Old Version: [1.0.27]
+[2023-06-29 11:28:02] INFO root fetch - processPackages [gaitalytics]: New version: [0.1.0b0] Old Version: [0.0.9b0]
+[2023-06-29 11:28:02] INFO root fetch - processPackages [gaitalytics]: Downloading https://files.pythonhosted.org/packages/c3/b9/8465c363dd06d5b9c32a0c4b7424c5c9b114f1054eb6f747762d2bb9e33c/gaitalytics-0.0.9b0.tar.gz
+[2023-06-29 11:28:02] INFO root fetch - processPackages [insist-pista]: Downloading https://files.pythonhosted.org/packages/8c/fd/ffdca771a84424aa042cee385764a6dc5962e15d6be0d429095cc002159a/insist-pista-1.0.27.tar.gz
+[2023-06-29 11:28:02] WARNING root fetch - processPackages [insist-pista]: Skipping package: exceeds size limit 15637768>=10485760
+[2023-06-29 11:28:02] INFO root fetch - processPackages [insist-pista]: Start processing: dank-mids
+[2023-06-29 11:28:02] INFO root fetch - main [MainThread]: End processing [insist-pista] error
+[2023-06-29 11:28:02] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-29 11:28:02] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-29 11:28:02] INFO root fetch - processPackages [vavacars-data-utils]: Remove: archive file [/home/abi/fetcher/tmp/vavacars_data_utils-1.0.0.tar.gz]
+[2023-06-29 11:28:02] INFO root fetch - processPackages [vavacars-data-utils]: Remove: archive file [/home/abi/fetcher/tmp/vavacars_data_utils-1.0.1.tar.gz]
+[2023-06-29 11:28:02] INFO root fetch - processPackages [vavacars-data-utils]: Start processing: certora-cli-alpha-master
+[2023-06-29 11:28:02] INFO root fetch - main [MainThread]: End processing [vavacars-data-utils]: success
+[2023-06-29 11:28:02] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230629.9.26.822535] Old Version: [20230628.20.41.851526]
+[2023-06-29 11:28:02] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-29 11:28:02] INFO root fetch - processPackages [gaitalytics]: Downloading https://files.pythonhosted.org/packages/9e/74/5342143344a6955399905a1ab63d3c1228d3453da5cd333b2dfb4f0b58b2/gaitalytics-0.1.0b0.tar.gz
+[2023-06-29 11:28:02] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/b0/05/9d8be07022881e73c786cead9abaf3e065b0ac6bc468ff6672815b86a869/certora-cli-alpha-master-20230628.20.41.851526.tar.gz
+[2023-06-29 11:28:02] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-29 11:28:02] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230629/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-29 11:28:02] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37420700>=10485760
+[2023-06-29 11:28:02] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: ybt
+[2023-06-29 11:28:02] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-29 11:28:02] INFO root fetch - processPackages [ybt]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-29 11:28:02] INFO root fetch - processPackages [gaitalytics]: executing diffoscope
+[2023-06-29 11:28:02] INFO root fetch - processPackages [gaitalytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaitalytics-0.0.9b0.tar.gz tmp/gaitalytics-0.1.0b0.tar.gz --markdown 20230629/g/gaitalytics/0.0.9b0-0.1.0b0/diff.md --exclude *.pyd
+[2023-06-29 11:28:02] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.4.5.tar.gz]
+[2023-06-29 11:28:02] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.4.6.tar.gz]
+[2023-06-29 11:28:02] INFO root fetch - processPackages [configzen]: Start processing: palmers-agents-general
+[2023-06-29 11:28:02] INFO root fetch - main [MainThread]: End processing [configzen]: success
+[2023-06-29 11:28:02] INFO root fetch - processPackages [palmers-agents-general]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 11:28:02] INFO root fetch - processPackages [dask-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/dask-kubernetes-2023.6.0.tar.gz]
+[2023-06-29 11:28:02] INFO root fetch - processPackages [dask-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/dask-kubernetes-2023.6.1.tar.gz]
+[2023-06-29 11:28:02] INFO root fetch - processPackages [dask-kubernetes]: Start processing: oslo.db
+[2023-06-29 11:28:02] INFO root fetch - main [MainThread]: End processing [dask-kubernetes]: success
+[2023-06-29 11:28:02] INFO root fetch - processPackages [palmers-agents-general]: Downloading https://files.pythonhosted.org/packages/a0/ba/bb9972f2c344a2bfc6289bc81301dc0b876b6cc6c50834a9b71e5b5ffdf4/palmers_agents_general-0.0.8.tar.gz
+[2023-06-29 11:28:02] INFO root fetch - processPackages [oslo.db]: New version: [9.1.0] Old Version: [9.0.0]
+[2023-06-29 11:28:02] INFO root fetch - processPackages [ybt]: Downloading https://files.pythonhosted.org/packages/ef/e2/50819ac96f4dda50d48a4f00304eb2933108ef749658f903da36adacae0d/ybt-0.3.8.tar.gz
+[2023-06-29 11:28:03] INFO root fetch - processPackages [palmers-agents-general]: Downloading https://files.pythonhosted.org/packages/61/cd/e3e3e79d25eaa13474a77df36729a9c49c52bf78a9aabee81eb71e0e9622/palmers_agents_general-0.0.9.tar.gz
+[2023-06-29 11:28:03] INFO root fetch - processPackages [palmers-agents-general]: executing diffoscope
+[2023-06-29 11:28:03] INFO root fetch - processPackages [palmers-agents-general]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palmers_agents_general-0.0.8.tar.gz tmp/palmers_agents_general-0.0.9.tar.gz --markdown 20230629/p/palmers-agents-general/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 11:28:03] INFO root fetch - processPackages [shortloop-python]: Remove: archive file [/home/abi/fetcher/tmp/shortloop_python-0.1.6.tar.gz]
+[2023-06-29 11:28:03] INFO root fetch - processPackages [shortloop-python]: Remove: archive file [/home/abi/fetcher/tmp/shortloop_python-0.1.7.tar.gz]
+[2023-06-29 11:28:03] INFO root fetch - main [MainThread]: End processing [shortloop-python]: success
+[2023-06-29 11:28:03] INFO root fetch - processPackages [oslo.db]: Downloading https://files.pythonhosted.org/packages/11/59/1715a098f5098c5d664cb57ab4ea805314596ef0c1e0bfee67d3dc408949/oslo.db-9.0.0.tar.gz
+[2023-06-29 11:28:03] INFO root fetch - processPackages [ybt]: Downloading https://files.pythonhosted.org/packages/df/6b/7665ef514fb782d511aa6fbaad12f3b341b940312429981fe408f81098ba/ybt-0.3.9.tar.gz
+[2023-06-29 11:28:03] INFO root fetch - processPackages [edustudio]: Remove: archive file [/home/abi/fetcher/tmp/edustudio-1.0.0a2-py3-none-any.whl.zip]
+[2023-06-29 11:28:03] INFO root fetch - processPackages [edustudio]: Remove: archive file [/home/abi/fetcher/tmp/edustudio-1.0.0a3-py3-none-any.whl.zip]
+[2023-06-29 11:28:03] INFO root fetch - main [MainThread]: End processing [edustudio]: success
+[2023-06-29 11:28:03] INFO root fetch - processPackages [oslo.db]: Downloading https://files.pythonhosted.org/packages/4c/8a/43b149809cdc1911c0c032e9c5dbe946c25c5ac5352c0631114758f9718e/oslo.db-9.1.0.tar.gz
+[2023-06-29 11:28:03] INFO root fetch - processPackages [ybt]: executing diffoscope
+[2023-06-29 11:28:03] INFO root fetch - processPackages [ybt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ybt-0.3.8.tar.gz tmp/ybt-0.3.9.tar.gz --markdown 20230629/y/ybt/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-29 11:28:03] INFO root fetch - processPackages [oslo.db]: executing diffoscope
+[2023-06-29 11:28:03] INFO root fetch - processPackages [oslo.db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslo.db-9.0.0.tar.gz tmp/oslo.db-9.1.0.tar.gz --markdown 20230629/o/oslo.db/9.0.0-9.1.0/diff.md --exclude *.pyd
+[2023-06-29 11:28:04] INFO root fetch - processPackages [palmers-agents-general]: Remove: archive file [/home/abi/fetcher/tmp/palmers_agents_general-0.0.8.tar.gz]
+[2023-06-29 11:28:04] INFO root fetch - processPackages [palmers-agents-general]: Remove: archive file [/home/abi/fetcher/tmp/palmers_agents_general-0.0.9.tar.gz]
+[2023-06-29 11:28:04] INFO root fetch - main [MainThread]: End processing [palmers-agents-general]: success
+[2023-06-29 11:28:04] INFO root fetch - processPackages [gaitalytics]: Remove: archive file [/home/abi/fetcher/tmp/gaitalytics-0.0.9b0.tar.gz]
+[2023-06-29 11:28:04] INFO root fetch - processPackages [gaitalytics]: Remove: archive file [/home/abi/fetcher/tmp/gaitalytics-0.1.0b0.tar.gz]
+[2023-06-29 11:28:04] INFO root fetch - main [MainThread]: End processing [gaitalytics]: success
+[2023-06-29 11:28:04] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-29 11:28:04] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-29 11:28:04] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-29 11:28:04] INFO root fetch - processPackages [ybt]: Remove: archive file [/home/abi/fetcher/tmp/ybt-0.3.8.tar.gz]
+[2023-06-29 11:28:04] INFO root fetch - processPackages [ybt]: Remove: archive file [/home/abi/fetcher/tmp/ybt-0.3.9.tar.gz]
+[2023-06-29 11:28:04] INFO root fetch - main [MainThread]: End processing [ybt]: success
+[2023-06-29 11:28:05] INFO root fetch - processPackages [pypesto]: Remove: archive file [/home/abi/fetcher/tmp/pypesto-0.3.0.tar.gz]
+[2023-06-29 11:28:05] INFO root fetch - processPackages [pypesto]: Remove: archive file [/home/abi/fetcher/tmp/pypesto-0.3.1.tar.gz]
+[2023-06-29 11:28:05] INFO root fetch - main [MainThread]: End processing [pypesto]: success
+[2023-06-29 11:28:05] INFO root fetch - processPackages [oslo.db]: Remove: archive file [/home/abi/fetcher/tmp/oslo.db-9.0.0.tar.gz]
+[2023-06-29 11:28:05] INFO root fetch - processPackages [oslo.db]: Remove: archive file [/home/abi/fetcher/tmp/oslo.db-9.1.0.tar.gz]
+[2023-06-29 11:28:05] INFO root fetch - main [MainThread]: End processing [oslo.db]: success
+[2023-06-29 11:28:05] INFO root fetch - processPackages [pydefect]: Remove: archive file [/home/abi/fetcher/tmp/pydefect-0.7.2.tar.gz]
+[2023-06-29 11:28:05] INFO root fetch - processPackages [pydefect]: Remove: archive file [/home/abi/fetcher/tmp/pydefect-0.7.3.tar.gz]
+[2023-06-29 11:28:05] INFO root fetch - main [MainThread]: End processing [pydefect]: success
+[2023-06-29 11:28:06] INFO root fetch - processPackages [pontos]: Remove: archive file [/home/abi/fetcher/tmp/pontos-23.6.1.tar.gz]
+[2023-06-29 11:28:06] INFO root fetch - processPackages [pontos]: Remove: archive file [/home/abi/fetcher/tmp/pontos-23.6.2.tar.gz]
+[2023-06-29 11:28:06] INFO root fetch - main [MainThread]: End processing [pontos]: success
+[2023-06-29 11:28:06] INFO root fetch - main [MainThread]: Store serial: [18692684]
