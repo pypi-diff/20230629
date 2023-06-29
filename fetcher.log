@@ -2281,3 +2281,102 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 10:01:18] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2023.6.29.9.57.33.tar.gz]
 [2023-06-29 10:01:18] INFO root fetch - main [MainThread]: End processing [chatllm]: success
 [2023-06-29 10:01:18] INFO root fetch - main [MainThread]: Store serial: [18691727]
+[2023-06-29 10:06:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18691727]
+[2023-06-29 10:06:27] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-29 10:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gispandas
+[2023-06-29 10:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easyai-sdwebui-api
+[2023-06-29 10:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xcg-test
+[2023-06-29 10:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Flask-BigApp
+[2023-06-29 10:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvidia-dali-tf-plugin-nightly-cuda120
+[2023-06-29 10:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamflow-postgresql
+[2023-06-29 10:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvidia-dali-nightly-cuda120
+[2023-06-29 10:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cadence-detector
+[2023-06-29 10:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ackl
+[2023-06-29 10:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sentry-ldap
+[2023-06-29 10:06:27] WARNING root fetch - processPackages [xcg-test]: Skipping, unable to determine old version
+[2023-06-29 10:06:27] INFO root fetch - processPackages [xcg-test]: Start processing: zen3geo
+[2023-06-29 10:06:27] INFO root fetch - main [MainThread]: End processing [xcg-test] error
+[2023-06-29 10:06:27] WARNING root fetch - processPackages [gispandas]: Skipping, unable to determine old version
+[2023-06-29 10:06:27] INFO root fetch - processPackages [gispandas]: Start processing: haruka-bot
+[2023-06-29 10:06:27] INFO root fetch - main [MainThread]: End processing [gispandas] error
+[2023-06-29 10:06:27] INFO root fetch - processPackages [sentry-ldap]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-06-29 10:06:27] INFO root fetch - processPackages [ackl]: New version: [1.0.6] Old Version: [1.0.2]
+[2023-06-29 10:06:27] INFO root fetch - processPackages [streamflow-postgresql]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-29 10:06:27] INFO root fetch - processPackages [easyai-sdwebui-api]: New version: [0.1.4rc3] Old Version: [0.1.4rc2]
+[2023-06-29 10:06:27] INFO root fetch - processPackages [zen3geo]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-29 10:06:27] INFO root fetch - processPackages [Flask-BigApp]: New version: [2023.1.9.6] Old Version: [2023.1.9.5]
+[2023-06-29 10:06:27] INFO root fetch - processPackages [haruka-bot]: New version: [1.6.0.post3] Old Version: [1.6.0.post2]
+[2023-06-29 10:06:27] INFO root fetch - processPackages [cadence-detector]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-29 10:06:27] INFO root fetch - processPackages [sentry-ldap]: Downloading https://files.pythonhosted.org/packages/e2/06/7ed9438f7a9b7c04f54451531461a75ec06d4a0574ae99093f062a05d5d7/sentry-ldap-1.2.7.tar.gz
+[2023-06-29 10:06:27] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: New version: [1.28.0.dev20230628] Old Version: [1.28.0.dev20230627]
+[2023-06-29 10:06:27] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: New version: [1.28.0.dev20230628] Old Version: [1.28.0.dev20230627]
+[2023-06-29 10:06:27] INFO root fetch - processPackages [Flask-BigApp]: Downloading https://files.pythonhosted.org/packages/04/0d/5ffd7f118ed30315192938637c092ddc9f90c886f82e46e30c546bf127b9/Flask-BigApp-2023.1.9.5.tar.gz
+[2023-06-29 10:06:27] INFO root fetch - processPackages [easyai-sdwebui-api]: Downloading https://files.pythonhosted.org/packages/1f/2b/e28e7c767a53ab7fa77d128f30938f0c8fd1c8a9e897847108672cf124f9/easyai-sdwebui-api-0.1.4rc2.tar.gz
+[2023-06-29 10:06:27] INFO root fetch - processPackages [ackl]: Downloading https://files.pythonhosted.org/packages/45/84/7f635d7945311f1f4af369b0c1426a57069ff14b052e0f5339d7644163fe/ackl-1.0.2.tar.gz
+[2023-06-29 10:06:27] INFO root fetch - processPackages [haruka-bot]: Downloading https://files.pythonhosted.org/packages/53/4f/f7b57322bd1a237dede15f8a27c956ee55645f8465981b4895367b0db383/haruka-bot-1.6.0.post2.tar.gz
+[2023-06-29 10:06:27] INFO root fetch - processPackages [cadence-detector]: Downloading https://files.pythonhosted.org/packages/f4/f1/9da093407e75276e371afdc63757b0178de1dc0e30bc727c4331303a8b61/cadence_detector-0.1.0.tar.gz
+[2023-06-29 10:06:27] INFO root fetch - processPackages [sentry-ldap]: Downloading https://files.pythonhosted.org/packages/cb/1e/83cabdfdabeba1802261f3a524815733cc480cb976268328ebff97072c34/sentry-ldap-1.2.8.tar.gz
+[2023-06-29 10:06:27] INFO root fetch - processPackages [streamflow-postgresql]: Downloading https://files.pythonhosted.org/packages/f8/f5/b6ab8f6665f5b6f34079316db55979545bd01126a662fbb6e52a17320a72/streamflow-postgresql-0.0.2.tar.gz
+[2023-06-29 10:06:27] INFO root fetch - processPackages [zen3geo]: Downloading https://files.pythonhosted.org/packages/aa/48/0084ab419acf0e8e4490434d9d7be43a34d47534c266b938d908cdd07397/zen3geo-0.6.1.tar.gz
+[2023-06-29 10:06:27] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/7d/5b/586b63e2f6c105db460b50db87efd4772379acc68384bca84030b47aa91b/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230627.tar.gz
+[2023-06-29 10:06:27] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/af/b3/44a88ceb64a645043a0a4ce85120d01abae241bf80e6d12b9698187a02bc/nvidia-dali-nightly-cuda120-1.28.0.dev20230627.tar.gz
+[2023-06-29 10:06:27] INFO root fetch - processPackages [sentry-ldap]: executing diffoscope
+[2023-06-29 10:06:27] INFO root fetch - processPackages [sentry-ldap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-ldap-1.2.7.tar.gz tmp/sentry-ldap-1.2.8.tar.gz --markdown 20230629/s/sentry-ldap/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-06-29 10:06:27] INFO root fetch - processPackages [Flask-BigApp]: Downloading https://files.pythonhosted.org/packages/58/cc/007d57aea8f41fe4fd50fa281c6b3d1c3d5c52cb742d97e5de043bafafe7/Flask-BigApp-2023.1.9.6.tar.gz
+[2023-06-29 10:06:27] INFO root fetch - processPackages [ackl]: Downloading https://files.pythonhosted.org/packages/3e/14/274f1663d872c74ab0de08ec1ccbd2541ad419a60e191c5d277be3e259ce/ackl-1.0.6.tar.gz
+[2023-06-29 10:06:28] INFO root fetch - processPackages [zen3geo]: Downloading https://files.pythonhosted.org/packages/c1/5c/21f43227fd147252ade82ae2f748553f1ab5ec88dff4bbe0457c94d0f2f7/zen3geo-0.6.2.tar.gz
+[2023-06-29 10:06:28] INFO root fetch - processPackages [cadence-detector]: Downloading https://files.pythonhosted.org/packages/13/69/7e2e496b4a8e4bbeea42333a2bc57233b3d66611ea350e388efa101008ca/cadence_detector-0.2.0.tar.gz
+[2023-06-29 10:06:28] INFO root fetch - processPackages [ackl]: executing diffoscope
+[2023-06-29 10:06:28] INFO root fetch - processPackages [ackl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ackl-1.0.2.tar.gz tmp/ackl-1.0.6.tar.gz --markdown 20230629/a/ackl/1.0.2-1.0.6/diff.md --exclude *.pyd
+[2023-06-29 10:06:28] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/5b/54/37fba7ac5103cdee79ad1c7fa2d36582a687fe84d9b5d82c04336e4ba6b0/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230628.tar.gz
+[2023-06-29 10:06:28] INFO root fetch - processPackages [Flask-BigApp]: executing diffoscope
+[2023-06-29 10:06:28] INFO root fetch - processPackages [Flask-BigApp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-BigApp-2023.1.9.5.tar.gz tmp/Flask-BigApp-2023.1.9.6.tar.gz --markdown 20230629/F/Flask-BigApp/2023.1.9.5-2023.1.9.6/diff.md --exclude *.pyd
+[2023-06-29 10:06:28] INFO root fetch - processPackages [haruka-bot]: Downloading https://files.pythonhosted.org/packages/9e/c4/a89e891a1a1597c1ad26b7e884530e83f05f031b85bf2638485cb969e2f7/haruka-bot-1.6.0.post3.tar.gz
+[2023-06-29 10:06:28] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/f9/00/3f3cd8f261fa3ea5f8ca0a1e826a65378cafb52c1d9580cb566f9e2e8158/nvidia-dali-nightly-cuda120-1.28.0.dev20230628.tar.gz
+[2023-06-29 10:06:28] INFO root fetch - processPackages [easyai-sdwebui-api]: Downloading https://files.pythonhosted.org/packages/e9/87/1101ada99b00e67d2242a3fdb09538565ffe2b115eb47f59784a18b1a1ce/easyai-sdwebui-api-0.1.4rc3.tar.gz
+[2023-06-29 10:06:28] INFO root fetch - processPackages [streamflow-postgresql]: Downloading https://files.pythonhosted.org/packages/d4/23/b2e411e6e41d92f850e9e58f7ded51f5003f1e369116100e5a50b0854050/streamflow-postgresql-0.0.3.tar.gz
+[2023-06-29 10:06:28] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: executing diffoscope
+[2023-06-29 10:06:28] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230627.tar.gz tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230628.tar.gz --markdown 20230629/n/nvidia-dali-tf-plugin-nightly-cuda120/1.28.0.dev20230627-1.28.0.dev20230628/diff.md --exclude *.pyd
+[2023-06-29 10:06:28] INFO root fetch - processPackages [cadence-detector]: executing diffoscope
+[2023-06-29 10:06:28] INFO root fetch - processPackages [zen3geo]: executing diffoscope
+[2023-06-29 10:06:28] INFO root fetch - processPackages [cadence-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadence_detector-0.1.0.tar.gz tmp/cadence_detector-0.2.0.tar.gz --markdown 20230629/c/cadence-detector/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-29 10:06:28] INFO root fetch - processPackages [zen3geo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zen3geo-0.6.1.tar.gz tmp/zen3geo-0.6.2.tar.gz --markdown 20230629/z/zen3geo/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-29 10:06:28] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: executing diffoscope
+[2023-06-29 10:06:28] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230627.tar.gz tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230628.tar.gz --markdown 20230629/n/nvidia-dali-nightly-cuda120/1.28.0.dev20230627-1.28.0.dev20230628/diff.md --exclude *.pyd
+[2023-06-29 10:06:28] INFO root fetch - processPackages [streamflow-postgresql]: executing diffoscope
+[2023-06-29 10:06:28] INFO root fetch - processPackages [streamflow-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamflow-postgresql-0.0.2.tar.gz tmp/streamflow-postgresql-0.0.3.tar.gz --markdown 20230629/s/streamflow-postgresql/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-29 10:06:28] INFO root fetch - processPackages [haruka-bot]: executing diffoscope
+[2023-06-29 10:06:28] INFO root fetch - processPackages [haruka-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haruka-bot-1.6.0.post2.tar.gz tmp/haruka-bot-1.6.0.post3.tar.gz --markdown 20230629/h/haruka-bot/1.6.0.post2-1.6.0.post3/diff.md --exclude *.pyd
+[2023-06-29 10:06:28] INFO root fetch - processPackages [easyai-sdwebui-api]: executing diffoscope
+[2023-06-29 10:06:28] INFO root fetch - processPackages [easyai-sdwebui-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyai-sdwebui-api-0.1.4rc2.tar.gz tmp/easyai-sdwebui-api-0.1.4rc3.tar.gz --markdown 20230629/e/easyai-sdwebui-api/0.1.4rc2-0.1.4rc3/diff.md --exclude *.pyd
+[2023-06-29 10:06:29] INFO root fetch - processPackages [sentry-ldap]: Remove: archive file [/home/abi/fetcher/tmp/sentry-ldap-1.2.7.tar.gz]
+[2023-06-29 10:06:29] INFO root fetch - processPackages [sentry-ldap]: Remove: archive file [/home/abi/fetcher/tmp/sentry-ldap-1.2.8.tar.gz]
+[2023-06-29 10:06:29] INFO root fetch - main [MainThread]: End processing [sentry-ldap]: success
+[2023-06-29 10:06:29] INFO root fetch - processPackages [ackl]: Remove: archive file [/home/abi/fetcher/tmp/ackl-1.0.2.tar.gz]
+[2023-06-29 10:06:29] INFO root fetch - processPackages [ackl]: Remove: archive file [/home/abi/fetcher/tmp/ackl-1.0.6.tar.gz]
+[2023-06-29 10:06:29] INFO root fetch - main [MainThread]: End processing [ackl]: success
+[2023-06-29 10:06:29] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230627.tar.gz]
+[2023-06-29 10:06:29] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230628.tar.gz]
+[2023-06-29 10:06:29] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda120]: success
+[2023-06-29 10:06:29] INFO root fetch - processPackages [Flask-BigApp]: Remove: archive file [/home/abi/fetcher/tmp/Flask-BigApp-2023.1.9.5.tar.gz]
+[2023-06-29 10:06:29] INFO root fetch - processPackages [Flask-BigApp]: Remove: archive file [/home/abi/fetcher/tmp/Flask-BigApp-2023.1.9.6.tar.gz]
+[2023-06-29 10:06:29] INFO root fetch - main [MainThread]: End processing [Flask-BigApp]: success
+[2023-06-29 10:06:30] INFO root fetch - processPackages [streamflow-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/streamflow-postgresql-0.0.2.tar.gz]
+[2023-06-29 10:06:30] INFO root fetch - processPackages [streamflow-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/streamflow-postgresql-0.0.3.tar.gz]
+[2023-06-29 10:06:30] INFO root fetch - main [MainThread]: End processing [streamflow-postgresql]: success
+[2023-06-29 10:06:30] INFO root fetch - processPackages [cadence-detector]: Remove: archive file [/home/abi/fetcher/tmp/cadence_detector-0.1.0.tar.gz]
+[2023-06-29 10:06:30] INFO root fetch - processPackages [cadence-detector]: Remove: archive file [/home/abi/fetcher/tmp/cadence_detector-0.2.0.tar.gz]
+[2023-06-29 10:06:30] INFO root fetch - main [MainThread]: End processing [cadence-detector]: success
+[2023-06-29 10:06:30] INFO root fetch - processPackages [zen3geo]: Remove: archive file [/home/abi/fetcher/tmp/zen3geo-0.6.1.tar.gz]
+[2023-06-29 10:06:30] INFO root fetch - processPackages [zen3geo]: Remove: archive file [/home/abi/fetcher/tmp/zen3geo-0.6.2.tar.gz]
+[2023-06-29 10:06:30] INFO root fetch - main [MainThread]: End processing [zen3geo]: success
+[2023-06-29 10:06:30] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230627.tar.gz]
+[2023-06-29 10:06:30] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230628.tar.gz]
+[2023-06-29 10:06:30] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda120]: success
+[2023-06-29 10:06:30] INFO root fetch - processPackages [easyai-sdwebui-api]: Remove: archive file [/home/abi/fetcher/tmp/easyai-sdwebui-api-0.1.4rc2.tar.gz]
+[2023-06-29 10:06:30] INFO root fetch - processPackages [easyai-sdwebui-api]: Remove: archive file [/home/abi/fetcher/tmp/easyai-sdwebui-api-0.1.4rc3.tar.gz]
+[2023-06-29 10:06:30] INFO root fetch - main [MainThread]: End processing [easyai-sdwebui-api]: success
+[2023-06-29 10:06:30] INFO root fetch - processPackages [haruka-bot]: Remove: archive file [/home/abi/fetcher/tmp/haruka-bot-1.6.0.post2.tar.gz]
+[2023-06-29 10:06:30] INFO root fetch - processPackages [haruka-bot]: Remove: archive file [/home/abi/fetcher/tmp/haruka-bot-1.6.0.post3.tar.gz]
+[2023-06-29 10:06:30] INFO root fetch - main [MainThread]: End processing [haruka-bot]: success
+[2023-06-29 10:06:30] INFO root fetch - main [MainThread]: Store serial: [18691776]
