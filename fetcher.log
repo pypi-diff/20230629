@@ -11815,3 +11815,168 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 15:35:44] INFO root fetch - processPackages [stcal]: Remove: archive file [/home/abi/fetcher/tmp/stcal-1.4.1.tar.gz]
 [2023-06-29 15:35:44] INFO root fetch - main [MainThread]: End processing [stcal]: success
 [2023-06-29 15:35:44] INFO root fetch - main [MainThread]: Store serial: [18695707]
+[2023-06-29 15:40:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18695707]
+[2023-06-29 15:40:54] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-29 15:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flake8-vcs-ext
+[2023-06-29 15:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: movici-viewer
+[2023-06-29 15:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fw-gear-dcm2niix
+[2023-06-29 15:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lusid-notifications-sdk-preview
+[2023-06-29 15:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ada-py
+[2023-06-29 15:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bookio-fetchfox
+[2023-06-29 15:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xprec
+[2023-06-29 15:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaaql-middleware-python
+[2023-06-29 15:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SELDOMpy
+[2023-06-29 15:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tonicnet
+[2023-06-29 15:40:54] INFO root fetch - processPackages [fw-gear-dcm2niix]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-29 15:40:54] INFO root fetch - processPackages [bookio-fetchfox]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-29 15:40:54] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.762] Old Version: [0.1.760]
+[2023-06-29 15:40:54] WARNING root fetch - processPackages [movici-viewer]: Skipping, unable to determine old version
+[2023-06-29 15:40:54] INFO root fetch - processPackages [movici-viewer]: Start processing: plottah
+[2023-06-29 15:40:54] INFO root fetch - main [MainThread]: End processing [movici-viewer] error
+[2023-06-29 15:40:54] INFO root fetch - processPackages [flake8-vcs-ext]: New version: [1.0.0] Old Version: [0.0.0]
+[2023-06-29 15:40:54] INFO root fetch - processPackages [ada-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 15:40:54] INFO root fetch - processPackages [SELDOMpy]: New version: [0.5.6] Old Version: [0.5.4]
+[2023-06-29 15:40:54] INFO root fetch - processPackages [tonicnet]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-29 15:40:54] INFO root fetch - processPackages [xprec]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-29 15:40:54] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-06-29 15:40:54] INFO root fetch - processPackages [plottah]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 15:40:54] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/e9/24/18bf59e575af91401eeb3bc47f44598ce04ed1d977d6636619dbe7e538d3/SELDOMpy-0.5.4.tar.gz
+[2023-06-29 15:40:54] INFO root fetch - processPackages [xprec]: Downloading https://files.pythonhosted.org/packages/67/b3/da2e3232674531d208ae90f0101252ffd20e657fad386fdbe8369286fe73/xprec-1.3.8.tar.gz
+[2023-06-29 15:40:54] INFO root fetch - processPackages [tonicnet]: Downloading https://files.pythonhosted.org/packages/15/4a/444c0e90c8b3be186768d2c4f91eddf7dfa9389505c47ecb96d79c269114/tonicnet-0.1.2.tar.gz
+[2023-06-29 15:40:54] INFO root fetch - processPackages [ada-py]: Downloading https://files.pythonhosted.org/packages/8a/70/28c401b4087a2a0d07f0538b3f306bfe7a428a802bd063d3d1fc03715727/ada-py-0.0.8.tar.gz
+[2023-06-29 15:40:54] INFO root fetch - processPackages [plottah]: Downloading https://files.pythonhosted.org/packages/1f/bd/8004e10cd96d279cff357b27c7c2919bfd278da1ebc414d2d82c898deaa5/plottah-0.1.8.tar.gz
+[2023-06-29 15:40:54] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/5c/29/6cb85a71537e8f30aa90f242c02eea2d3ca361001bc4860bdcac60ef21b3/jaaql-middleware-python-4.9.0.tar.gz
+[2023-06-29 15:40:54] INFO root fetch - processPackages [flake8-vcs-ext]: Downloading https://files.pythonhosted.org/packages/fa/47/e25bb212575fd5df34d05954a159fb3a774b39d37f9217dcf3452005e78e/flake8_vcs_ext-0.0.0-py3.11.egg
+[2023-06-29 15:40:54] INFO root fetch - processPackages [fw-gear-dcm2niix]: Downloading https://files.pythonhosted.org/packages/4d/08/9dea96c6c6080a5cbbf1a7373429f5580dc1bc5974fc3c1e3925ac8cf458/fw_gear_dcm2niix-2.0.1-py3-none-any.whl
+[2023-06-29 15:40:54] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/48/ba/fe131fd4808024281f0131e7b098d5774dcca4ae3bec36f87992e4816083/bookio_fetchfox-0.9.4.tar.gz
+[2023-06-29 15:40:54] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d7/4c/5899f31b37a95f985e7f834baaa72c024a9b3f73547172556f5be503d889/lusid-notifications-sdk-preview-0.1.760.tar.gz
+[2023-06-29 15:40:54] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/54/6f/d828251d48d5d774d97c3dafdaa5198c655c39196b253988cdc86c71ccc3/SELDOMpy-0.5.6.tar.gz
+[2023-06-29 15:40:54] INFO root fetch - processPackages [plottah]: Downloading https://files.pythonhosted.org/packages/f0/0c/2b96606283fa54d0dde8653cbc8688dcd7136b8891488fa91b0b62a6ea23/plottah-0.1.9.tar.gz
+[2023-06-29 15:40:54] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/1c/9b/c594efdb4d5a8a8eb6e0876f48857da40e24c3018095e5e6276aad18d78d/jaaql-middleware-python-4.9.1.tar.gz
+[2023-06-29 15:40:54] INFO root fetch - processPackages [tonicnet]: Downloading https://files.pythonhosted.org/packages/99/8e/c468c17e80ccebe432e4680e8f9f3420493ef63e5d2af59e2757362d7337/tonicnet-0.1.3.tar.gz
+[2023-06-29 15:40:54] INFO root fetch - processPackages [xprec]: Downloading https://files.pythonhosted.org/packages/dd/e0/e9550016c53b03b74592c800844c174c65e87cf8f73da6717cdeee0dafd9/xprec-1.3.9.tar.gz
+[2023-06-29 15:40:54] INFO root fetch - processPackages [ada-py]: Downloading https://files.pythonhosted.org/packages/7a/1f/0045fd181d5ca07a1f786a6ae1e95f2d15b9eff9674fae3c6e4fef38fe0c/ada-py-0.0.9.tar.gz
+[2023-06-29 15:40:55] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-06-29 15:40:55] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.5.4.tar.gz tmp/SELDOMpy-0.5.6.tar.gz --markdown 20230629/S/SELDOMpy/0.5.4-0.5.6/diff.md --exclude *.pyd
+[2023-06-29 15:40:55] INFO root fetch - processPackages [plottah]: executing diffoscope
+[2023-06-29 15:40:55] INFO root fetch - processPackages [plottah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plottah-0.1.8.tar.gz tmp/plottah-0.1.9.tar.gz --markdown 20230629/p/plottah/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 15:40:55] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-06-29 15:40:55] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.9.0.tar.gz tmp/jaaql-middleware-python-4.9.1.tar.gz --markdown 20230629/j/jaaql-middleware-python/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-06-29 15:40:55] INFO root fetch - processPackages [xprec]: executing diffoscope
+[2023-06-29 15:40:55] INFO root fetch - processPackages [xprec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xprec-1.3.8.tar.gz tmp/xprec-1.3.9.tar.gz --markdown 20230629/x/xprec/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-29 15:40:55] INFO root fetch - processPackages [ada-py]: executing diffoscope
+[2023-06-29 15:40:55] INFO root fetch - processPackages [ada-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ada-py-0.0.8.tar.gz tmp/ada-py-0.0.9.tar.gz --markdown 20230629/a/ada-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 15:40:55] INFO root fetch - processPackages [tonicnet]: executing diffoscope
+[2023-06-29 15:40:55] INFO root fetch - processPackages [tonicnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tonicnet-0.1.2.tar.gz tmp/tonicnet-0.1.3.tar.gz --markdown 20230629/t/tonicnet/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-29 15:40:55] INFO root fetch - processPackages [fw-gear-dcm2niix]: Downloading https://files.pythonhosted.org/packages/17/bf/4e2b40a09d5a3ca301d10b0e27dd4035dfe62f257b9bce72f07f20ac2cfe/fw_gear_dcm2niix-2.0.2-py3-none-any.whl
+[2023-06-29 15:40:55] INFO root fetch - processPackages [flake8-vcs-ext]: Downloading https://files.pythonhosted.org/packages/29/cf/5d62b8f5341b31f2f05320cc86574fd3baf35a1c437c90e3c38a863e791e/flake8_vcs_ext-1.0.0.tar.gz
+[2023-06-29 15:40:55] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/02/e4/232f015a1041f20f94d09e3e6badac77e410b5f7f44760321e28bc7135c7/lusid-notifications-sdk-preview-0.1.762.tar.gz
+[2023-06-29 15:40:55] INFO root fetch - processPackages [bookio-fetchfox]: Downloading https://files.pythonhosted.org/packages/75/ea/0ec148cecd1924c30e81ff63d276ade389cc674d2356eb6b5d1cad33da5a/bookio_fetchfox-0.9.5.tar.gz
+[2023-06-29 15:40:55] INFO root fetch - processPackages [fw-gear-dcm2niix]: executing diffoscope
+[2023-06-29 15:40:55] INFO root fetch - processPackages [fw-gear-dcm2niix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fw_gear_dcm2niix-2.0.1-py3-none-any.whl.zip tmp/fw_gear_dcm2niix-2.0.2-py3-none-any.whl.zip --markdown 20230629/f/fw-gear-dcm2niix/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-29 15:40:55] INFO root fetch - processPackages [bookio-fetchfox]: executing diffoscope
+[2023-06-29 15:40:55] INFO root fetch - processPackages [bookio-fetchfox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookio_fetchfox-0.9.4.tar.gz tmp/bookio_fetchfox-0.9.5.tar.gz --markdown 20230629/b/bookio-fetchfox/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-29 15:40:55] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-06-29 15:40:55] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.760.tar.gz tmp/lusid-notifications-sdk-preview-0.1.762.tar.gz --markdown 20230629/l/lusid-notifications-sdk-preview/0.1.760-0.1.762/diff.md --exclude *.pyd
+[2023-06-29 15:40:55] INFO root fetch - processPackages [flake8-vcs-ext]: executing diffoscope
+[2023-06-29 15:40:55] INFO root fetch - processPackages [flake8-vcs-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8_vcs_ext-0.0.0-py3.11.egg tmp/flake8_vcs_ext-1.0.0.tar.gz --markdown 20230629/f/flake8-vcs-ext/0.0.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-29 15:40:56] INFO root fetch - processPackages [plottah]: Remove: archive file [/home/abi/fetcher/tmp/plottah-0.1.8.tar.gz]
+[2023-06-29 15:40:56] INFO root fetch - processPackages [tonicnet]: Remove: archive file [/home/abi/fetcher/tmp/tonicnet-0.1.2.tar.gz]
+[2023-06-29 15:40:56] INFO root fetch - processPackages [plottah]: Remove: archive file [/home/abi/fetcher/tmp/plottah-0.1.9.tar.gz]
+[2023-06-29 15:40:56] INFO root fetch - processPackages [tonicnet]: Remove: archive file [/home/abi/fetcher/tmp/tonicnet-0.1.3.tar.gz]
+[2023-06-29 15:40:56] INFO root fetch - processPackages [plottah]: Start processing: dbm-agent
+[2023-06-29 15:40:56] INFO root fetch - main [MainThread]: End processing [plottah]: success
+[2023-06-29 15:40:56] INFO root fetch - processPackages [tonicnet]: Start processing: configration
+[2023-06-29 15:40:56] INFO root fetch - main [MainThread]: End processing [tonicnet]: success
+[2023-06-29 15:40:56] INFO root fetch - processPackages [dbm-agent]: New version: [8.33.9] Old Version: [8.33.8]
+[2023-06-29 15:40:56] INFO root fetch - processPackages [configration]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-06-29 15:40:56] INFO root fetch - processPackages [configration]: Downloading https://files.pythonhosted.org/packages/a2/63/521ebe2c0c89be8354ab67d4d7315ce57a93154d01255467b3c3fef946f7/configration-2.0.5.tar.gz
+[2023-06-29 15:40:56] INFO root fetch - processPackages [dbm-agent]: Downloading https://files.pythonhosted.org/packages/96/b4/5d18c8ae0baf6ec55dd17fe5481bea87feb7ea2efe1bf67a841037c6843c/dbm-agent-8.33.8.tar.gz
+[2023-06-29 15:40:56] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.5.4.tar.gz]
+[2023-06-29 15:40:56] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.5.6.tar.gz]
+[2023-06-29 15:40:56] INFO root fetch - processPackages [SELDOMpy]: Start processing: badgers
+[2023-06-29 15:40:56] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-06-29 15:40:56] INFO root fetch - processPackages [flake8-vcs-ext]: Remove: archive file [/home/abi/fetcher/tmp/flake8_vcs_ext-0.0.0-py3.11.egg]
+[2023-06-29 15:40:56] INFO root fetch - processPackages [flake8-vcs-ext]: Remove: archive file [/home/abi/fetcher/tmp/flake8_vcs_ext-1.0.0.tar.gz]
+[2023-06-29 15:40:56] INFO root fetch - processPackages [flake8-vcs-ext]: Start processing: indipydriver
+[2023-06-29 15:40:56] INFO root fetch - main [MainThread]: End processing [flake8-vcs-ext]: success
+[2023-06-29 15:40:56] INFO root fetch - processPackages [indipydriver]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-06-29 15:40:56] INFO root fetch - processPackages [dbm-agent]: Downloading https://files.pythonhosted.org/packages/6e/eb/46f6de2ab921535aa9eac258386a1d4005faf46ad0a43f4556c8e41d51d5/dbm-agent-8.33.9.tar.gz
+[2023-06-29 15:40:56] INFO root fetch - processPackages [fw-gear-dcm2niix]: Remove: archive file [/home/abi/fetcher/tmp/fw_gear_dcm2niix-2.0.1-py3-none-any.whl.zip]
+[2023-06-29 15:40:56] INFO root fetch - processPackages [fw-gear-dcm2niix]: Remove: archive file [/home/abi/fetcher/tmp/fw_gear_dcm2niix-2.0.2-py3-none-any.whl.zip]
+[2023-06-29 15:40:56] INFO root fetch - processPackages [fw-gear-dcm2niix]: Start processing: mighty-logger
+[2023-06-29 15:40:56] INFO root fetch - main [MainThread]: End processing [fw-gear-dcm2niix]: success
+[2023-06-29 15:40:56] WARNING root fetch - processPackages [badgers]: Skipping, unable to determine old version
+[2023-06-29 15:40:56] INFO root fetch - processPackages [badgers]: Start processing: pydflow
+[2023-06-29 15:40:56] INFO root fetch - main [MainThread]: End processing [badgers] error
+[2023-06-29 15:40:56] INFO root fetch - processPackages [mighty-logger]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-06-29 15:40:56] INFO root fetch - processPackages [configration]: Downloading https://files.pythonhosted.org/packages/aa/7b/11d22248c2a38bd0a576ac769805822ae1c2e3342f13aadfb5a89fdbae3b/configration-2.0.6.tar.gz
+[2023-06-29 15:40:56] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-06-29 15:40:56] INFO root fetch - processPackages [dbm-agent]: executing diffoscope
+[2023-06-29 15:40:56] INFO root fetch - processPackages [dbm-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbm-agent-8.33.8.tar.gz tmp/dbm-agent-8.33.9.tar.gz --markdown 20230629/d/dbm-agent/8.33.8-8.33.9/diff.md --exclude *.pyd
+[2023-06-29 15:40:56] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.9.4.tar.gz]
+[2023-06-29 15:40:56] INFO root fetch - processPackages [bookio-fetchfox]: Remove: archive file [/home/abi/fetcher/tmp/bookio_fetchfox-0.9.5.tar.gz]
+[2023-06-29 15:40:56] INFO root fetch - processPackages [bookio-fetchfox]: Start processing: lusid-notification-sdk-preview
+[2023-06-29 15:40:56] INFO root fetch - main [MainThread]: End processing [bookio-fetchfox]: success
+[2023-06-29 15:40:56] INFO root fetch - processPackages [indipydriver]: Downloading https://files.pythonhosted.org/packages/7c/53/cedea63eb2b629942afd7732119f69119e30c9becaf52e45850309457144/indipydriver-0.0.2.tar.gz
+[2023-06-29 15:40:56] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-06-29 15:40:56] INFO root fetch - processPackages [lusid-notification-sdk-preview]: New version: [0.1.762] Old Version: [0.1.758]
+[2023-06-29 15:40:56] INFO root fetch - processPackages [configration]: executing diffoscope
+[2023-06-29 15:40:56] INFO root fetch - processPackages [configration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configration-2.0.5.tar.gz tmp/configration-2.0.6.tar.gz --markdown 20230629/c/configration/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-06-29 15:40:57] INFO root fetch - processPackages [xprec]: Remove: archive file [/home/abi/fetcher/tmp/xprec-1.3.8.tar.gz]
+[2023-06-29 15:40:57] INFO root fetch - processPackages [xprec]: Remove: archive file [/home/abi/fetcher/tmp/xprec-1.3.9.tar.gz]
+[2023-06-29 15:40:57] INFO root fetch - processPackages [xprec]: Start processing: django-dynamic-initial-data
+[2023-06-29 15:40:57] INFO root fetch - main [MainThread]: End processing [xprec]: success
+[2023-06-29 15:40:57] INFO root fetch - processPackages [mighty-logger]: Downloading https://files.pythonhosted.org/packages/51/c1/50d8ae01e10cbac95cbdd839d4ca26b1e3f3e5a26702b76b70096119bdd1/mighty_logger-0.7.2.tar.gz
+[2023-06-29 15:40:57] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-06-29 15:40:57] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/0c/ca/7402550755144f5ee57dbde4872a9c8be23c65c7a0ed5774b06b46a81167/lusid-notification-sdk-preview-0.1.758.tar.gz
+[2023-06-29 15:40:57] INFO root fetch - processPackages [indipydriver]: Downloading https://files.pythonhosted.org/packages/c0/83/e1870d2d98372ae77b66f71409f275066dfaec8ae7b4b9975effd2314a7a/indipydriver-0.0.4.tar.gz
+[2023-06-29 15:40:57] INFO root fetch - processPackages [django-dynamic-initial-data]: New version: [2.2.1] Old Version: [2.1.0]
+[2023-06-29 15:40:57] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-06-29 15:40:57] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230629/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-06-29 15:40:57] INFO root fetch - processPackages [mighty-logger]: Downloading https://files.pythonhosted.org/packages/7a/76/93f679091a2a8cda68594cd25ca7bc4475acfcfd91bee248c55fd8b2fea3/mighty_logger-0.8.0.tar.gz
+[2023-06-29 15:40:57] INFO root fetch - processPackages [indipydriver]: executing diffoscope
+[2023-06-29 15:40:57] INFO root fetch - processPackages [indipydriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indipydriver-0.0.2.tar.gz tmp/indipydriver-0.0.4.tar.gz --markdown 20230629/i/indipydriver/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-06-29 15:40:57] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/08/0d/38327fc63623ba46afec5691ef8e7f408ef22194f5c3277fbe40db0ce481/lusid-notification-sdk-preview-0.1.762.tar.gz
+[2023-06-29 15:40:57] INFO root fetch - processPackages [django-dynamic-initial-data]: Downloading https://files.pythonhosted.org/packages/ba/ad/2d1d9a091fddb316e725fbb91bf0d019e24f33abf6dda5fd2c5afb138e70/django-dynamic-initial-data-2.1.0.tar.gz
+[2023-06-29 15:40:57] INFO root fetch - processPackages [lusid-notification-sdk-preview]: executing diffoscope
+[2023-06-29 15:40:57] INFO root fetch - processPackages [lusid-notification-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notification-sdk-preview-0.1.758.tar.gz tmp/lusid-notification-sdk-preview-0.1.762.tar.gz --markdown 20230629/l/lusid-notification-sdk-preview/0.1.758-0.1.762/diff.md --exclude *.pyd
+[2023-06-29 15:40:57] INFO root fetch - processPackages [mighty-logger]: executing diffoscope
+[2023-06-29 15:40:57] INFO root fetch - processPackages [mighty-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mighty_logger-0.7.2.tar.gz tmp/mighty_logger-0.8.0.tar.gz --markdown 20230629/m/mighty-logger/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-06-29 15:40:57] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.760.tar.gz]
+[2023-06-29 15:40:57] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.762.tar.gz]
+[2023-06-29 15:40:57] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Start processing: odoo14-addon-base-future-response
+[2023-06-29 15:40:57] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-06-29 15:40:57] WARNING root fetch - processPackages [odoo14-addon-base-future-response]: Skipping, unable to determine old version
+[2023-06-29 15:40:57] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-future-response] error
+[2023-06-29 15:40:57] INFO root fetch - processPackages [django-dynamic-initial-data]: Downloading https://files.pythonhosted.org/packages/20/cb/5f8b1c9e27f412d332441d51994a385ab13cb007a389ca09af6506e23c55/django-dynamic-initial-data-2.2.1.tar.gz
+[2023-06-29 15:40:57] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.0.tar.gz]
+[2023-06-29 15:40:57] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.1.tar.gz]
+[2023-06-29 15:40:57] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-06-29 15:40:57] INFO root fetch - processPackages [django-dynamic-initial-data]: executing diffoscope
+[2023-06-29 15:40:57] INFO root fetch - processPackages [django-dynamic-initial-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-dynamic-initial-data-2.1.0.tar.gz tmp/django-dynamic-initial-data-2.2.1.tar.gz --markdown 20230629/d/django-dynamic-initial-data/2.1.0-2.2.1/diff.md --exclude *.pyd
+[2023-06-29 15:40:58] INFO root fetch - processPackages [configration]: Remove: archive file [/home/abi/fetcher/tmp/configration-2.0.5.tar.gz]
+[2023-06-29 15:40:58] INFO root fetch - processPackages [configration]: Remove: archive file [/home/abi/fetcher/tmp/configration-2.0.6.tar.gz]
+[2023-06-29 15:40:58] INFO root fetch - main [MainThread]: End processing [configration]: success
+[2023-06-29 15:40:58] INFO root fetch - processPackages [indipydriver]: Remove: archive file [/home/abi/fetcher/tmp/indipydriver-0.0.2.tar.gz]
+[2023-06-29 15:40:58] INFO root fetch - processPackages [indipydriver]: Remove: archive file [/home/abi/fetcher/tmp/indipydriver-0.0.4.tar.gz]
+[2023-06-29 15:40:58] INFO root fetch - main [MainThread]: End processing [indipydriver]: success
+[2023-06-29 15:40:58] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-06-29 15:40:58] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-06-29 15:40:58] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-06-29 15:40:58] INFO root fetch - processPackages [mighty-logger]: Remove: archive file [/home/abi/fetcher/tmp/mighty_logger-0.7.2.tar.gz]
+[2023-06-29 15:40:58] INFO root fetch - processPackages [mighty-logger]: Remove: archive file [/home/abi/fetcher/tmp/mighty_logger-0.8.0.tar.gz]
+[2023-06-29 15:40:58] INFO root fetch - main [MainThread]: End processing [mighty-logger]: success
+[2023-06-29 15:40:59] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.758.tar.gz]
+[2023-06-29 15:40:59] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.762.tar.gz]
+[2023-06-29 15:40:59] INFO root fetch - main [MainThread]: End processing [lusid-notification-sdk-preview]: success
+[2023-06-29 15:40:59] INFO root fetch - processPackages [ada-py]: Remove: archive file [/home/abi/fetcher/tmp/ada-py-0.0.8.tar.gz]
+[2023-06-29 15:40:59] INFO root fetch - processPackages [ada-py]: Remove: archive file [/home/abi/fetcher/tmp/ada-py-0.0.9.tar.gz]
+[2023-06-29 15:40:59] INFO root fetch - main [MainThread]: End processing [ada-py]: success
+[2023-06-29 15:40:59] INFO root fetch - processPackages [django-dynamic-initial-data]: Remove: archive file [/home/abi/fetcher/tmp/django-dynamic-initial-data-2.1.0.tar.gz]
+[2023-06-29 15:40:59] INFO root fetch - processPackages [django-dynamic-initial-data]: Remove: archive file [/home/abi/fetcher/tmp/django-dynamic-initial-data-2.2.1.tar.gz]
+[2023-06-29 15:40:59] INFO root fetch - main [MainThread]: End processing [django-dynamic-initial-data]: success
+[2023-06-29 15:41:00] INFO root fetch - processPackages [dbm-agent]: Remove: archive file [/home/abi/fetcher/tmp/dbm-agent-8.33.8.tar.gz]
+[2023-06-29 15:41:00] INFO root fetch - processPackages [dbm-agent]: Remove: archive file [/home/abi/fetcher/tmp/dbm-agent-8.33.9.tar.gz]
+[2023-06-29 15:41:00] INFO root fetch - main [MainThread]: End processing [dbm-agent]: success
+[2023-06-29 15:41:00] INFO root fetch - main [MainThread]: Store serial: [18695771]
