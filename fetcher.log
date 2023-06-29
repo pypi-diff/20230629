@@ -1784,3 +1784,106 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 09:39:24] INFO root fetch - processPackages [iOpt]: Remove: archive file [/home/abi/fetcher/tmp/iOpt-0.2.1.tar.gz]
 [2023-06-29 09:39:24] INFO root fetch - main [MainThread]: End processing [iOpt]: success
 [2023-06-29 09:39:24] INFO root fetch - main [MainThread]: Store serial: [18691555]
+[2023-06-29 09:44:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18691555]
+[2023-06-29 09:44:32] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-29 09:44:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lsst-ctrl-bps-htcondor
+[2023-06-29 09:44:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lsst-pex-config
+[2023-06-29 09:44:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyecotrend-ista
+[2023-06-29 09:44:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: serialdevicehandler
+[2023-06-29 09:44:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thipster
+[2023-06-29 09:44:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sentry-ldap
+[2023-06-29 09:44:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: funcOAI
+[2023-06-29 09:44:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lsst-utils
+[2023-06-29 09:44:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: astro-metadata-translator
+[2023-06-29 09:44:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lsst-ctrl-bps-parsl
+[2023-06-29 09:44:32] INFO root fetch - processPackages [pyecotrend-ista]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-29 09:44:32] INFO root fetch - processPackages [serialdevicehandler]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-29 09:44:32] INFO root fetch - processPackages [lsst-pex-config]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-29 09:44:32] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-29 09:44:32] INFO root fetch - processPackages [lsst-utils]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-29 09:44:32] INFO root fetch - processPackages [thipster]: New version: [0.22.1] Old Version: [0.22.0]
+[2023-06-29 09:44:32] INFO root fetch - processPackages [astro-metadata-translator]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-29 09:44:32] WARNING root fetch - processPackages [funcOAI]: Skipping, unable to determine old version
+[2023-06-29 09:44:32] INFO root fetch - processPackages [funcOAI]: Start processing: lsst-ctrl-bps-panda
+[2023-06-29 09:44:32] INFO root fetch - main [MainThread]: End processing [funcOAI] error
+[2023-06-29 09:44:32] INFO root fetch - processPackages [sentry-ldap]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-06-29 09:44:33] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-29 09:44:33] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-29 09:44:33] INFO root fetch - processPackages [sentry-ldap]: Downloading https://files.pythonhosted.org/packages/e2/06/7ed9438f7a9b7c04f54451531461a75ec06d4a0574ae99093f062a05d5d7/sentry-ldap-1.2.7.tar.gz
+[2023-06-29 09:44:33] INFO root fetch - processPackages [pyecotrend-ista]: executing diffoscope
+[2023-06-29 09:44:33] INFO root fetch - processPackages [pyecotrend-ista]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyecotrend-ista-2.0.8.tar.gz tmp/pyecotrend-ista-2.0.9.tar.gz --markdown 20230629/p/pyecotrend-ista/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-29 09:44:33] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/b3/0c/9478b45a86ad24b4c1c9e1b77d64d8276904a8a6f44fbc53c1bc3e31ff72/thipster-0.22.0.tar.gz
+[2023-06-29 09:44:33] INFO root fetch - processPackages [lsst-pex-config]: Downloading https://files.pythonhosted.org/packages/d7/0c/0464eaef88f46db58e9972a38d5221f68038faa115510c0cb95799422145/lsst-pex-config-26.0.0a20230400.tar.gz
+[2023-06-29 09:44:33] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/95/d2/5d16674a9fbd9d5c6dd08502fdaf2392373a5ee644f82312b6433f0688b3/lsst-utils-26.0.0a20230400.tar.gz
+[2023-06-29 09:44:33] INFO root fetch - processPackages [serialdevicehandler]: Downloading https://files.pythonhosted.org/packages/cf/0f/81ac89807543bd4f47d1a319c9e93362b7551904f9b5c221bda10f907184/serialdevicehandler-1.0.0.tar.gz
+[2023-06-29 09:44:33] INFO root fetch - processPackages [astro-metadata-translator]: Downloading https://files.pythonhosted.org/packages/88/0f/ddf4d690ba71629b94ef331c1dcf381615f5fa0220cfb725331d64d70fe9/astro-metadata-translator-26.0.0a20230400.tar.gz
+[2023-06-29 09:44:33] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/9c/29/1a3392502c8a25f2eb2fabe112e03edaf4de2d8396df282510856200f6a7/lsst-ctrl-bps-htcondor-26.0.0a20230400.tar.gz
+[2023-06-29 09:44:33] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Downloading https://files.pythonhosted.org/packages/a0/22/0b893c9cd95d92d19da99d597013f1dd89c378a4a37bd4122e57406ac7c5/lsst-ctrl-bps-panda-26.0.0a20230400.tar.gz
+[2023-06-29 09:44:33] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Downloading https://files.pythonhosted.org/packages/35/8c/c122879a959643f033a579ff1b13d2b33ec6c21551ffa1629264c6d3561a/lsst-ctrl-bps-parsl-26.0.0a20230400.tar.gz
+[2023-06-29 09:44:33] INFO root fetch - processPackages [sentry-ldap]: Downloading https://files.pythonhosted.org/packages/cb/1e/83cabdfdabeba1802261f3a524815733cc480cb976268328ebff97072c34/sentry-ldap-1.2.8.tar.gz
+[2023-06-29 09:44:33] INFO root fetch - processPackages [sentry-ldap]: executing diffoscope
+[2023-06-29 09:44:33] INFO root fetch - processPackages [sentry-ldap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-ldap-1.2.7.tar.gz tmp/sentry-ldap-1.2.8.tar.gz --markdown 20230629/s/sentry-ldap/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-06-29 09:44:33] INFO root fetch - processPackages [serialdevicehandler]: Downloading https://files.pythonhosted.org/packages/25/b9/7405180fd590b9a7112c1799ffbb042b753b06ae1a34db67a2a4e01c6a04/serialdevicehandler-1.0.1.tar.gz
+[2023-06-29 09:44:33] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/44/5c/864be3a9fa1c9927bf8fa9f0838664a2dda34306e1f031ebabbab78fd364/thipster-0.22.1.tar.gz
+[2023-06-29 09:44:33] INFO root fetch - processPackages [astro-metadata-translator]: Downloading https://files.pythonhosted.org/packages/f6/a2/6962018c4d5dc18839328422a99767c526540467659fab3d4282192e3763/astro-metadata-translator-26.0.0a20230500.tar.gz
+[2023-06-29 09:44:33] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/3c/cc/c973405023d7f2d0de5436529223459d8600f71b8be3454b9262b1ac019c/lsst-ctrl-bps-htcondor-26.0.0a20230500.tar.gz
+[2023-06-29 09:44:33] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Downloading https://files.pythonhosted.org/packages/68/73/220eb613172bcce921a4d51c76efc50a37bcd1469c86a7fdd5726300f75b/lsst-ctrl-bps-panda-26.0.0a20230500.tar.gz
+[2023-06-29 09:44:33] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/72/74/81575ebd50afb9ebc10787897207947703ae9d32205910da14de85cdef05/lsst-utils-26.0.0a20230500.tar.gz
+[2023-06-29 09:44:33] INFO root fetch - processPackages [serialdevicehandler]: executing diffoscope
+[2023-06-29 09:44:33] INFO root fetch - processPackages [serialdevicehandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serialdevicehandler-1.0.0.tar.gz tmp/serialdevicehandler-1.0.1.tar.gz --markdown 20230629/s/serialdevicehandler/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-29 09:44:33] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Downloading https://files.pythonhosted.org/packages/73/d7/e06e478c242de09a2c5605a32a3c6bc7f4a1e1aca5c81495250b2cc49b28/lsst-ctrl-bps-parsl-26.0.0a20230500.tar.gz
+[2023-06-29 09:44:33] INFO root fetch - processPackages [thipster]: executing diffoscope
+[2023-06-29 09:44:33] INFO root fetch - processPackages [thipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipster-0.22.0.tar.gz tmp/thipster-0.22.1.tar.gz --markdown 20230629/t/thipster/0.22.0-0.22.1/diff.md --exclude *.pyd
+[2023-06-29 09:44:33] INFO root fetch - processPackages [lsst-pex-config]: Downloading https://files.pythonhosted.org/packages/cb/e7/b5b77ed48e975232d6d946423eca1f7883eb826cf1844d70b96ddddd1696/lsst-pex-config-26.0.0a20230500.tar.gz
+[2023-06-29 09:44:33] INFO root fetch - processPackages [astro-metadata-translator]: executing diffoscope
+[2023-06-29 09:44:33] INFO root fetch - processPackages [astro-metadata-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-metadata-translator-26.0.0a20230400.tar.gz tmp/astro-metadata-translator-26.0.0a20230500.tar.gz --markdown 20230629/a/astro-metadata-translator/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-29 09:44:33] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: executing diffoscope
+[2023-06-29 09:44:33] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-htcondor-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-htcondor-26.0.0a20230500.tar.gz --markdown 20230629/l/lsst-ctrl-bps-htcondor/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-29 09:44:33] INFO root fetch - processPackages [lsst-utils]: executing diffoscope
+[2023-06-29 09:44:33] INFO root fetch - processPackages [lsst-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-utils-26.0.0a20230400.tar.gz tmp/lsst-utils-26.0.0a20230500.tar.gz --markdown 20230629/l/lsst-utils/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-29 09:44:33] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: executing diffoscope
+[2023-06-29 09:44:33] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-parsl-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-parsl-26.0.0a20230500.tar.gz --markdown 20230629/l/lsst-ctrl-bps-parsl/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-29 09:44:33] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: executing diffoscope
+[2023-06-29 09:44:33] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-panda-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-panda-26.0.0a20230500.tar.gz --markdown 20230629/l/lsst-ctrl-bps-panda/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-29 09:44:33] INFO root fetch - processPackages [lsst-pex-config]: executing diffoscope
+[2023-06-29 09:44:33] INFO root fetch - processPackages [lsst-pex-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-pex-config-26.0.0a20230400.tar.gz tmp/lsst-pex-config-26.0.0a20230500.tar.gz --markdown 20230629/l/lsst-pex-config/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-29 09:44:34] INFO root fetch - processPackages [pyecotrend-ista]: Remove: archive file [/home/abi/fetcher/tmp/pyecotrend-ista-2.0.8.tar.gz]
+[2023-06-29 09:44:34] INFO root fetch - processPackages [pyecotrend-ista]: Remove: archive file [/home/abi/fetcher/tmp/pyecotrend-ista-2.0.9.tar.gz]
+[2023-06-29 09:44:34] INFO root fetch - processPackages [pyecotrend-ista]: Start processing: piperider
+[2023-06-29 09:44:34] INFO root fetch - main [MainThread]: End processing [pyecotrend-ista]: success
+[2023-06-29 09:44:34] INFO root fetch - processPackages [piperider]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-06-29 09:44:34] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/a4/50/e24b00f8c9eee6add2d234812268358dd31efb1c7692b89e4f2abcf53b3a/piperider-0.9.0.tar.gz
+[2023-06-29 09:44:34] INFO root fetch - processPackages [sentry-ldap]: Remove: archive file [/home/abi/fetcher/tmp/sentry-ldap-1.2.7.tar.gz]
+[2023-06-29 09:44:34] INFO root fetch - processPackages [sentry-ldap]: Remove: archive file [/home/abi/fetcher/tmp/sentry-ldap-1.2.8.tar.gz]
+[2023-06-29 09:44:34] INFO root fetch - main [MainThread]: End processing [sentry-ldap]: success
+[2023-06-29 09:44:35] INFO root fetch - processPackages [serialdevicehandler]: Remove: archive file [/home/abi/fetcher/tmp/serialdevicehandler-1.0.0.tar.gz]
+[2023-06-29 09:44:35] INFO root fetch - processPackages [serialdevicehandler]: Remove: archive file [/home/abi/fetcher/tmp/serialdevicehandler-1.0.1.tar.gz]
+[2023-06-29 09:44:35] INFO root fetch - main [MainThread]: End processing [serialdevicehandler]: success
+[2023-06-29 09:44:35] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-htcondor-26.0.0a20230400.tar.gz]
+[2023-06-29 09:44:35] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-htcondor-26.0.0a20230500.tar.gz]
+[2023-06-29 09:44:35] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-htcondor]: success
+[2023-06-29 09:44:35] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-panda-26.0.0a20230400.tar.gz]
+[2023-06-29 09:44:35] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-panda-26.0.0a20230500.tar.gz]
+[2023-06-29 09:44:35] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-panda]: success
+[2023-06-29 09:44:35] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/7a/f9/9cc8461c7b00069da016c58db04f6c975e2adf28d9cbd443a882dd7396de/piperider-0.9.0rc1.tar.gz
+[2023-06-29 09:44:35] INFO root fetch - processPackages [lsst-utils]: Remove: archive file [/home/abi/fetcher/tmp/lsst-utils-26.0.0a20230400.tar.gz]
+[2023-06-29 09:44:35] INFO root fetch - processPackages [lsst-utils]: Remove: archive file [/home/abi/fetcher/tmp/lsst-utils-26.0.0a20230500.tar.gz]
+[2023-06-29 09:44:35] INFO root fetch - main [MainThread]: End processing [lsst-utils]: success
+[2023-06-29 09:44:36] INFO root fetch - processPackages [piperider]: executing diffoscope
+[2023-06-29 09:44:36] INFO root fetch - processPackages [piperider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-0.9.0.tar.gz tmp/piperider-0.9.0rc1.tar.gz --markdown 20230629/p/piperider/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-06-29 09:44:36] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.22.0.tar.gz]
+[2023-06-29 09:44:36] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.22.1.tar.gz]
+[2023-06-29 09:44:36] INFO root fetch - main [MainThread]: End processing [thipster]: success
+[2023-06-29 09:44:36] INFO root fetch - processPackages [astro-metadata-translator]: Remove: archive file [/home/abi/fetcher/tmp/astro-metadata-translator-26.0.0a20230400.tar.gz]
+[2023-06-29 09:44:36] INFO root fetch - processPackages [astro-metadata-translator]: Remove: archive file [/home/abi/fetcher/tmp/astro-metadata-translator-26.0.0a20230500.tar.gz]
+[2023-06-29 09:44:36] INFO root fetch - main [MainThread]: End processing [astro-metadata-translator]: success
+[2023-06-29 09:44:36] INFO root fetch - processPackages [lsst-pex-config]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pex-config-26.0.0a20230400.tar.gz]
+[2023-06-29 09:44:36] INFO root fetch - processPackages [lsst-pex-config]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pex-config-26.0.0a20230500.tar.gz]
+[2023-06-29 09:44:36] INFO root fetch - main [MainThread]: End processing [lsst-pex-config]: success
+[2023-06-29 09:44:39] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0.tar.gz]
+[2023-06-29 09:44:39] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0rc1.tar.gz]
+[2023-06-29 09:44:39] INFO root fetch - main [MainThread]: End processing [piperider]: success
+[2023-06-29 09:45:29] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-parsl-26.0.0a20230400.tar.gz]
+[2023-06-29 09:45:29] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-parsl-26.0.0a20230500.tar.gz]
+[2023-06-29 09:45:29] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-parsl]: success
+[2023-06-29 09:45:29] INFO root fetch - main [MainThread]: Store serial: [18691595]
