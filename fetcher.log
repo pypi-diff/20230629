@@ -19291,3 +19291,176 @@ AssertionError: tmp/live_parquet-0.2.0.tar.gz does not exist
 [2023-06-29 20:13:13] INFO root fetch - processPackages [TINTOlib]: Remove: archive file [/home/abi/fetcher/tmp/tintolib-0.0.9.tar.gz]
 [2023-06-29 20:13:13] INFO root fetch - main [MainThread]: End processing [TINTOlib]: success
 [2023-06-29 20:13:13] INFO root fetch - main [MainThread]: Store serial: [18698909]
+[2023-06-29 20:18:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18698909]
+[2023-06-29 20:18:22] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-29 20:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: piperider-nightly
+[2023-06-29 20:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: katalytic-images
+[2023-06-29 20:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2023-06-29 20:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: avro.py
+[2023-06-29 20:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: voicemeeter-compact
+[2023-06-29 20:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: configzen
+[2023-06-29 20:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: afmmech
+[2023-06-29 20:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zensols.nlp
+[2023-06-29 20:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: macrometa-target-mssql
+[2023-06-29 20:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pylivedev
+[2023-06-29 20:18:22] INFO root fetch - processPackages [voicemeeter-compact]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-06-29 20:18:22] INFO root fetch - processPackages [avro.py]: New version: [2023.6.30] Old Version: [2023.6.12]
+[2023-06-29 20:18:22] INFO root fetch - processPackages [katalytic-images]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-29 20:18:22] INFO root fetch - processPackages [afmmech]: New version: [2.1] Old Version: [2.0]
+[2023-06-29 20:18:22] INFO root fetch - processPackages [pylivedev]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-29 20:18:22] INFO root fetch - processPackages [macrometa-target-mssql]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-29 20:18:22] INFO root fetch - processPackages [configzen]: New version: [0.5.1] Old Version: [0.4.2]
+[2023-06-29 20:18:22] INFO root fetch - processPackages [zensols.nlp]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-06-29 20:18:22] INFO root fetch - processPackages [coiled]: New version: [0.7.9.dev9] Old Version: [0.7.9.dev8]
+[2023-06-29 20:18:22] INFO root fetch - processPackages [voicemeeter-compact]: Downloading https://files.pythonhosted.org/packages/c9/94/f44efcb6f60c132551d594f4c7fe5ed2e159134b60dced85f3ed2633fa0a/voicemeeter-compact-1.8.0.tar.gz
+[2023-06-29 20:18:22] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/96/f1/7be66ae3b243ae9b3e01df4655328e36c2da0f5f8fa7de61d7e8b8d25798/macrometa-target-mssql-0.0.7.tar.gz
+[2023-06-29 20:18:22] INFO root fetch - processPackages [piperider-nightly]: New version: [0.9.0.20220921] Old Version: [0.9.0.20220920]
+[2023-06-29 20:18:22] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/a7/01/b5a4cbd06e8fe6cb1d49512abbe6434f64ea4b91b21a64f30069aa693547/coiled-0.7.9.dev8.tar.gz
+[2023-06-29 20:18:22] INFO root fetch - processPackages [afmmech]: Downloading https://files.pythonhosted.org/packages/dd/d2/10c5295507ca1e9eb759f1e500d1de521c4a0cae19d2dfa84fd31df731fd/afmmech-2.0-py3-none-any.whl
+[2023-06-29 20:18:22] INFO root fetch - processPackages [pylivedev]: Downloading https://files.pythonhosted.org/packages/32/e4/6e8c3c8a0664ae66c661a3fdd64ab48cc56d14a10c7b2c829d0c706d6264/pylivedev-1.2.0.tar.gz
+[2023-06-29 20:18:22] INFO root fetch - processPackages [katalytic-images]: Downloading https://files.pythonhosted.org/packages/c0/5a/3a70ffc98e43fe51216ff15e41afebe2d9535e2dc8c598b499bf09d54053/katalytic_images-0.6.0.tar.gz
+[2023-06-29 20:18:22] INFO root fetch - processPackages [avro.py]: Downloading https://files.pythonhosted.org/packages/d0/a5/7dabdc8abb658117e5a53af9e348a8dc6acb864acc78dd3948b9ab4f3d19/avro.py-2023.6.12.tar.gz
+[2023-06-29 20:18:23] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/e9/e7/48633558450f9cff317d34d8df4391c40a737513dc77e42c386f4a34cb87/configzen-0.4.2.tar.gz
+[2023-06-29 20:18:23] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/68/a0/03deba097f154d5d35f5aaf9cc9e6203f2e386628cf93962bded599cc14d/coiled-0.7.9.dev9.tar.gz
+[2023-06-29 20:18:23] INFO root fetch - processPackages [zensols.nlp]: Downloading https://files.pythonhosted.org/packages/62/28/8ffa4f2b08134961cb64303e5ff22ed0e966ee840ca923ac5826d490c31c/zensols.nlp-1.7.2-py3-none-any.whl
+[2023-06-29 20:18:23] INFO root fetch - processPackages [voicemeeter-compact]: Downloading https://files.pythonhosted.org/packages/5d/fa/4f16292146b6805fbdd973a957066f08014e8201db9da4cdf7c505bfa5b0/voicemeeter-compact-1.8.1.tar.gz
+[2023-06-29 20:18:23] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/47/28/bece1abc54ffab5f0cddaff5d6f1e02fac1343bfb72976d5794f50dad748/macrometa-target-mssql-0.0.8.tar.gz
+[2023-06-29 20:18:23] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-29 20:18:23] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.9.dev8.tar.gz tmp/coiled-0.7.9.dev9.tar.gz --markdown 20230629/c/coiled/0.7.9.dev8-0.7.9.dev9/diff.md --exclude *.pyd
+[2023-06-29 20:18:23] INFO root fetch - processPackages [voicemeeter-compact]: executing diffoscope
+[2023-06-29 20:18:23] INFO root fetch - processPackages [voicemeeter-compact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicemeeter-compact-1.8.0.tar.gz tmp/voicemeeter-compact-1.8.1.tar.gz --markdown 20230629/v/voicemeeter-compact/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-06-29 20:18:23] INFO root fetch - processPackages [pylivedev]: Downloading https://files.pythonhosted.org/packages/7e/1c/c2dd4232e81976fc61a38a31b77ad450e29db53eb42d64f835f5db454897/pylivedev-1.2.1.tar.gz
+[2023-06-29 20:18:23] INFO root fetch - processPackages [macrometa-target-mssql]: executing diffoscope
+[2023-06-29 20:18:23] INFO root fetch - processPackages [macrometa-target-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mssql-0.0.7.tar.gz tmp/macrometa-target-mssql-0.0.8.tar.gz --markdown 20230629/m/macrometa-target-mssql/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-29 20:18:23] INFO root fetch - processPackages [afmmech]: Downloading https://files.pythonhosted.org/packages/10/18/7c9c99ee4b802f5496e10c5bd84443902777fb156324f00c57bfec31c56b/afmmech-2.1-py3-none-any.whl
+[2023-06-29 20:18:23] INFO root fetch - processPackages [avro.py]: Downloading https://files.pythonhosted.org/packages/fa/06/fa4708c44944937d676cc0a58802603bf6a08c536e41527b10352a96fa69/avro.py-2023.6.30.tar.gz
+[2023-06-29 20:18:23] INFO root fetch - processPackages [katalytic-images]: Downloading https://files.pythonhosted.org/packages/58/ff/29a33ecb683692a0a3e61b37fb7f27288672551408be407c92e29008381d/katalytic_images-0.7.0.tar.gz
+[2023-06-29 20:18:23] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/1d/0a/a7ad12046846e7445aea27b9badbed2a2488d3eb910fa89a53062bdac2a0/configzen-0.5.1.tar.gz
+[2023-06-29 20:18:23] INFO root fetch - processPackages [pylivedev]: executing diffoscope
+[2023-06-29 20:18:23] INFO root fetch - processPackages [pylivedev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylivedev-1.2.0.tar.gz tmp/pylivedev-1.2.1.tar.gz --markdown 20230629/p/pylivedev/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-29 20:18:23] INFO root fetch - processPackages [piperider-nightly]: executing diffoscope
+[2023-06-29 20:18:23] INFO root fetch - processPackages [piperider-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-nightly-0.9.0.20220920.tar.gz tmp/piperider-nightly-0.9.0.20220921.tar.gz --markdown 20230629/p/piperider-nightly/0.9.0.20220920-0.9.0.20220921/diff.md --exclude *.pyd
+[2023-06-29 20:18:23] INFO root fetch - processPackages [zensols.nlp]: Downloading https://files.pythonhosted.org/packages/d3/74/9d2ba6b1893d63bf80b27dcfe9695efccce4c32767d528209d768cf5e8ac/zensols.nlp-1.7.3-py3-none-any.whl
+[2023-06-29 20:18:23] INFO root fetch - processPackages [avro.py]: executing diffoscope
+[2023-06-29 20:18:23] INFO root fetch - processPackages [avro.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avro.py-2023.6.12.tar.gz tmp/avro.py-2023.6.30.tar.gz --markdown 20230629/a/avro.py/2023.6.12-2023.6.30/diff.md --exclude *.pyd
+[2023-06-29 20:18:23] INFO root fetch - processPackages [katalytic-images]: executing diffoscope
+[2023-06-29 20:18:23] INFO root fetch - processPackages [katalytic-images]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/katalytic_images-0.6.0.tar.gz tmp/katalytic_images-0.7.0.tar.gz --markdown 20230629/k/katalytic-images/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-29 20:18:23] INFO root fetch - processPackages [configzen]: executing diffoscope
+[2023-06-29 20:18:23] INFO root fetch - processPackages [configzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configzen-0.4.2.tar.gz tmp/configzen-0.5.1.tar.gz --markdown 20230629/c/configzen/0.4.2-0.5.1/diff.md --exclude *.pyd
+[2023-06-29 20:18:23] INFO root fetch - processPackages [afmmech]: executing diffoscope
+[2023-06-29 20:18:23] INFO root fetch - processPackages [afmmech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afmmech-2.0-py3-none-any.whl.zip tmp/afmmech-2.1-py3-none-any.whl.zip --markdown 20230629/a/afmmech/2.0-2.1/diff.md --exclude *.pyd
+[2023-06-29 20:18:23] INFO root fetch - processPackages [zensols.nlp]: executing diffoscope
+[2023-06-29 20:18:23] INFO root fetch - processPackages [zensols.nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensols.nlp-1.7.2-py3-none-any.whl.zip tmp/zensols.nlp-1.7.3-py3-none-any.whl.zip --markdown 20230629/z/zensols.nlp/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-06-29 20:18:24] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220920.tar.gz]
+[2023-06-29 20:18:24] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220921.tar.gz]
+[2023-06-29 20:18:24] INFO root fetch - processPackages [piperider-nightly]: Start processing: rai-benchmark-test
+[2023-06-29 20:18:24] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
+[2023-06-29 20:18:24] INFO root fetch - processPackages [rai-benchmark-test]: New version: [0.4] Old Version: [0.3]
+[2023-06-29 20:18:24] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.7.tar.gz]
+[2023-06-29 20:18:24] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.8.tar.gz]
+[2023-06-29 20:18:24] INFO root fetch - processPackages [macrometa-target-mssql]: Start processing: DicomRTTool
+[2023-06-29 20:18:24] INFO root fetch - main [MainThread]: End processing [macrometa-target-mssql]: success
+[2023-06-29 20:18:24] INFO root fetch - processPackages [DicomRTTool]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-29 20:18:24] INFO root fetch - processPackages [rai-benchmark-test]: Downloading https://files.pythonhosted.org/packages/2f/73/d198868edae8ddc8abfedd516f4f5f6b2057865eee300d92ae0dd27e8947/rai_benchmark_test-0.3.tar.gz
+[2023-06-29 20:18:24] INFO root fetch - processPackages [afmmech]: Remove: archive file [/home/abi/fetcher/tmp/afmmech-2.0-py3-none-any.whl.zip]
+[2023-06-29 20:18:24] INFO root fetch - processPackages [afmmech]: Remove: archive file [/home/abi/fetcher/tmp/afmmech-2.1-py3-none-any.whl.zip]
+[2023-06-29 20:18:24] INFO root fetch - processPackages [afmmech]: Start processing: dojo-truant
+[2023-06-29 20:18:24] INFO root fetch - main [MainThread]: End processing [afmmech]: success
+[2023-06-29 20:18:24] INFO root fetch - processPackages [dojo-truant]: New version: [2023.6.29.0] Old Version: [2023.6.15.1]
+[2023-06-29 20:18:24] INFO root fetch - processPackages [DicomRTTool]: Downloading https://files.pythonhosted.org/packages/fd/68/778eac11a2991c66bb6e23ff80cf5b91717b125d0d282c016b868640d7cb/DicomRTTool-2.0.8.tar.gz
+[2023-06-29 20:18:24] INFO root fetch - processPackages [katalytic-images]: Remove: archive file [/home/abi/fetcher/tmp/katalytic_images-0.6.0.tar.gz]
+[2023-06-29 20:18:24] INFO root fetch - processPackages [katalytic-images]: Remove: archive file [/home/abi/fetcher/tmp/katalytic_images-0.7.0.tar.gz]
+[2023-06-29 20:18:24] INFO root fetch - processPackages [katalytic-images]: Start processing: spear-tts-pytorch
+[2023-06-29 20:18:24] INFO root fetch - main [MainThread]: End processing [katalytic-images]: success
+[2023-06-29 20:18:25] INFO root fetch - processPackages [spear-tts-pytorch]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-29 20:18:25] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.4.2.tar.gz]
+[2023-06-29 20:18:25] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.5.1.tar.gz]
+[2023-06-29 20:18:25] INFO root fetch - processPackages [configzen]: Start processing: afmmech
+[2023-06-29 20:18:25] INFO root fetch - main [MainThread]: End processing [configzen]: success
+[2023-06-29 20:18:25] INFO root fetch - processPackages [afmmech]: New version: [2.1] Old Version: [2.0]
+[2023-06-29 20:18:25] INFO root fetch - processPackages [rai-benchmark-test]: Downloading https://files.pythonhosted.org/packages/6c/ef/f961385ff77bb36ffe0bf5e02dc740e2345dfe10dd99c4623bd8411f6d6c/rai_benchmark_test-0.4.tar.gz
+[2023-06-29 20:18:25] INFO root fetch - processPackages [dojo-truant]: Downloading https://files.pythonhosted.org/packages/72/1c/cf21859918a3f42d2ce4e8bd495b59a0e51b6bbed15142354d231224da72/dojo_truant-2023.6.15.1.tar.gz
+[2023-06-29 20:18:25] INFO root fetch - processPackages [avro.py]: Remove: archive file [/home/abi/fetcher/tmp/avro.py-2023.6.12.tar.gz]
+[2023-06-29 20:18:25] INFO root fetch - processPackages [avro.py]: Remove: archive file [/home/abi/fetcher/tmp/avro.py-2023.6.30.tar.gz]
+[2023-06-29 20:18:25] INFO root fetch - processPackages [avro.py]: Start processing: rai-benchmark-test
+[2023-06-29 20:18:25] INFO root fetch - main [MainThread]: End processing [avro.py]: success
+[2023-06-29 20:18:25] INFO root fetch - processPackages [zensols.nlp]: Remove: archive file [/home/abi/fetcher/tmp/zensols.nlp-1.7.2-py3-none-any.whl.zip]
+[2023-06-29 20:18:25] INFO root fetch - processPackages [afmmech]: Downloading https://files.pythonhosted.org/packages/dd/d2/10c5295507ca1e9eb759f1e500d1de521c4a0cae19d2dfa84fd31df731fd/afmmech-2.0-py3-none-any.whl
+[2023-06-29 20:18:25] INFO root fetch - processPackages [zensols.nlp]: Remove: archive file [/home/abi/fetcher/tmp/zensols.nlp-1.7.3-py3-none-any.whl.zip]
+[2023-06-29 20:18:25] INFO root fetch - processPackages [zensols.nlp]: Start processing: bluetooth-data-tools
+[2023-06-29 20:18:25] INFO root fetch - main [MainThread]: End processing [zensols.nlp]: success
+[2023-06-29 20:18:25] INFO root fetch - processPackages [voicemeeter-compact]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter-compact-1.8.0.tar.gz]
+[2023-06-29 20:18:25] INFO root fetch - processPackages [voicemeeter-compact]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter-compact-1.8.1.tar.gz]
+[2023-06-29 20:18:25] INFO root fetch - processPackages [voicemeeter-compact]: Start processing: yangsuite-netconf
+[2023-06-29 20:18:25] INFO root fetch - main [MainThread]: End processing [voicemeeter-compact]: success
+[2023-06-29 20:18:25] INFO root fetch - processPackages [rai-benchmark-test]: New version: [0.4] Old Version: [0.3]
+[2023-06-29 20:18:25] INFO root fetch - processPackages [bluetooth-data-tools]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-29 20:18:25] INFO root fetch - processPackages [yangsuite-netconf]: New version: [1.17.8.post0.dev38] Old Version: [1.17.8.post0.dev14]
+[2023-06-29 20:18:25] INFO root fetch - processPackages [pylivedev]: Remove: archive file [/home/abi/fetcher/tmp/pylivedev-1.2.0.tar.gz]
+[2023-06-29 20:18:25] INFO root fetch - processPackages [pylivedev]: Remove: archive file [/home/abi/fetcher/tmp/pylivedev-1.2.1.tar.gz]
+[2023-06-29 20:18:25] INFO root fetch - processPackages [pylivedev]: Start processing: list-printer-v1-01-01-01
+[2023-06-29 20:18:25] INFO root fetch - main [MainThread]: End processing [pylivedev]: success
+[2023-06-29 20:18:25] INFO root fetch - processPackages [list-printer-v1-01-01-01]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-29 20:18:25] INFO root fetch - processPackages [spear-tts-pytorch]: Downloading https://files.pythonhosted.org/packages/7f/d1/eb7ce81ff2c069b39cba8cc907c0e92da838527210e9839e50df736b3515/spear-tts-pytorch-0.0.3.tar.gz
+[2023-06-29 20:18:25] INFO root fetch - processPackages [rai-benchmark-test]: Downloading https://files.pythonhosted.org/packages/6c/ef/f961385ff77bb36ffe0bf5e02dc740e2345dfe10dd99c4623bd8411f6d6c/rai_benchmark_test-0.4.tar.gz
+[2023-06-29 20:18:25] INFO root fetch - processPackages [afmmech]: Downloading https://files.pythonhosted.org/packages/10/18/7c9c99ee4b802f5496e10c5bd84443902777fb156324f00c57bfec31c56b/afmmech-2.1-py3-none-any.whl
+[2023-06-29 20:18:25] INFO root fetch - processPackages [rai-benchmark-test]: executing diffoscope
+[2023-06-29 20:18:25] INFO root fetch - processPackages [rai-benchmark-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rai_benchmark_test-0.3.tar.gz tmp/rai_benchmark_test-0.4.tar.gz --markdown 20230629/r/rai-benchmark-test/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-29 20:18:25] INFO root fetch - processPackages [spear-tts-pytorch]: executing diffoscope
+[2023-06-29 20:18:25] INFO root fetch - processPackages [spear-tts-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spear-tts-pytorch-0.0.2.tar.gz tmp/spear-tts-pytorch-0.0.3.tar.gz --markdown 20230629/s/spear-tts-pytorch/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-29 20:18:25] INFO root fetch - processPackages [rai-benchmark-test]: executing diffoscope
+[2023-06-29 20:18:25] INFO root fetch - processPackages [rai-benchmark-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rai_benchmark_test-0.3.tar.gz tmp/rai_benchmark_test-0.4.tar.gz --markdown 20230629/r/rai-benchmark-test/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-29 20:18:25] INFO root fetch - processPackages [afmmech]: executing diffoscope
+[2023-06-29 20:18:25] INFO root fetch - processPackages [afmmech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afmmech-2.0-py3-none-any.whl.zip tmp/afmmech-2.1-py3-none-any.whl.zip --markdown 20230629/a/afmmech/2.0-2.1/diff.md --exclude *.pyd
+[2023-06-29 20:18:25] INFO root fetch - processPackages [DicomRTTool]: Downloading https://files.pythonhosted.org/packages/6e/da/dd4f05a1c89e0ca5ca8e3194bef9a6525244afb7dcb02233ed5c758e2060/DicomRTTool-2.0.9.tar.gz
+[2023-06-29 20:18:25] INFO root fetch - processPackages [dojo-truant]: Downloading https://files.pythonhosted.org/packages/f4/b1/cfcc518914aa1430771b7002fa85d007f00a6eec2eebe7b4aeb3db667782/dojo_truant-2023.6.29.0.tar.gz
+[2023-06-29 20:18:25] INFO root fetch - processPackages [bluetooth-data-tools]: Downloading https://files.pythonhosted.org/packages/51/1a/75a9d4424f4e8c7cd826d414031211a19160612796396fe541af7b564e05/bluetooth_data_tools-1.2.0.tar.gz
+[2023-06-29 20:18:25] INFO root fetch - processPackages [list-printer-v1-01-01-01]: Downloading https://files.pythonhosted.org/packages/15/98/e2b17da64ca0550544d7cc1bab87e718dc0280ab7857909ae6164e6ce283/list_printer_v1_01_01_01-1.0.0.tar.gz
+[2023-06-29 20:18:25] INFO root fetch - processPackages [yangsuite-netconf]: Downloading https://files.pythonhosted.org/packages/5a/11/5aa11b2dcc9e791c0582581b5c467a630fa98da3812520696e34debc9360/yangsuite_netconf-1.17.8.post0.dev14-py3-none-any.whl
+[2023-06-29 20:18:25] INFO root fetch - processPackages [DicomRTTool]: executing diffoscope
+[2023-06-29 20:18:25] INFO root fetch - processPackages [DicomRTTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DicomRTTool-2.0.8.tar.gz tmp/DicomRTTool-2.0.9.tar.gz --markdown 20230629/D/DicomRTTool/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-29 20:18:25] INFO root fetch - processPackages [dojo-truant]: executing diffoscope
+[2023-06-29 20:18:25] INFO root fetch - processPackages [dojo-truant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dojo_truant-2023.6.15.1.tar.gz tmp/dojo_truant-2023.6.29.0.tar.gz --markdown 20230629/d/dojo-truant/2023.6.15.1-2023.6.29.0/diff.md --exclude *.pyd
+[2023-06-29 20:18:25] INFO root fetch - processPackages [bluetooth-data-tools]: Downloading https://files.pythonhosted.org/packages/a4/79/4b0d5407d71c15569ab5eb75995bac150629223e99987f6ea2d439d5c150/bluetooth_data_tools-1.3.0.tar.gz
+[2023-06-29 20:18:25] INFO root fetch - processPackages [list-printer-v1-01-01-01]: Downloading https://files.pythonhosted.org/packages/c8/95/77d7fbfd7d1c6633edb38d8603337d8dbc582c13eebf8b4ec57d0ca88af3/list_printer_v1_01_01_01-1.1.0.tar.gz
+[2023-06-29 20:18:25] INFO root fetch - processPackages [bluetooth-data-tools]: executing diffoscope
+[2023-06-29 20:18:25] INFO root fetch - processPackages [bluetooth-data-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluetooth_data_tools-1.2.0.tar.gz tmp/bluetooth_data_tools-1.3.0.tar.gz --markdown 20230629/b/bluetooth-data-tools/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-29 20:18:25] INFO root fetch - processPackages [list-printer-v1-01-01-01]: executing diffoscope
+[2023-06-29 20:18:25] INFO root fetch - processPackages [list-printer-v1-01-01-01]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/list_printer_v1_01_01_01-1.0.0.tar.gz tmp/list_printer_v1_01_01_01-1.1.0.tar.gz --markdown 20230629/l/list-printer-v1-01-01-01/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-29 20:18:26] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev8.tar.gz]
+[2023-06-29 20:18:26] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev9.tar.gz]
+[2023-06-29 20:18:26] INFO root fetch - processPackages [coiled]: Start processing: fw-gear-dicom-fixer
+[2023-06-29 20:18:26] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-29 20:18:26] INFO root fetch - processPackages [fw-gear-dicom-fixer]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-06-29 20:18:26] INFO root fetch - processPackages [fw-gear-dicom-fixer]: Downloading https://files.pythonhosted.org/packages/d6/f1/461ae317b72a623273e4b2be0926ba15644c6b59f7ab89fe853bf10f8616/fw_gear_dicom_fixer-0.7.4-py3-none-any.whl
+[2023-06-29 20:18:26] INFO root fetch - processPackages [spear-tts-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/spear-tts-pytorch-0.0.2.tar.gz]
+[2023-06-29 20:18:26] INFO root fetch - processPackages [spear-tts-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/spear-tts-pytorch-0.0.3.tar.gz]
+[2023-06-29 20:18:26] INFO root fetch - main [MainThread]: End processing [spear-tts-pytorch]: success
+[2023-06-29 20:18:26] INFO root fetch - processPackages [rai-benchmark-test]: Remove: archive file [/home/abi/fetcher/tmp/rai_benchmark_test-0.3.tar.gz]
+[2023-06-29 20:18:26] INFO root fetch - processPackages [rai-benchmark-test]: Remove: archive file [/home/abi/fetcher/tmp/rai_benchmark_test-0.4.tar.gz]
+[2023-06-29 20:18:26] INFO root fetch - main [MainThread]: End processing [rai-benchmark-test]: success
+[2023-06-29 20:18:26] INFO root fetch - processPackages [afmmech]: Remove: archive file [/home/abi/fetcher/tmp/afmmech-2.0-py3-none-any.whl.zip]
+[2023-06-29 20:18:26] INFO root fetch - processPackages [afmmech]: Remove: archive file [/home/abi/fetcher/tmp/afmmech-2.1-py3-none-any.whl.zip]
+[2023-06-29 20:18:26] INFO root fetch - main [MainThread]: End processing [afmmech]: success
+[2023-06-29 20:18:26] INFO root fetch - processPackages [yangsuite-netconf]: Downloading https://files.pythonhosted.org/packages/c3/c4/8fabf796659e4d33c93f7df316b463e07342c195578fd0359b017bdfa0c2/yangsuite_netconf-1.17.8.post0.dev38-py3-none-any.whl
+[2023-06-29 20:18:26] INFO root fetch - processPackages [dojo-truant]: Remove: archive file [/home/abi/fetcher/tmp/dojo_truant-2023.6.15.1.tar.gz]
+[2023-06-29 20:18:26] INFO root fetch - processPackages [dojo-truant]: Remove: archive file [/home/abi/fetcher/tmp/dojo_truant-2023.6.29.0.tar.gz]
+[2023-06-29 20:18:26] INFO root fetch - main [MainThread]: End processing [dojo-truant]: success
+[2023-06-29 20:18:27] INFO root fetch - main [MainThread]: End processing [rai-benchmark-test]: success
+[2023-06-29 20:18:27] INFO root fetch - processPackages [DicomRTTool]: Remove: archive file [/home/abi/fetcher/tmp/DicomRTTool-2.0.8.tar.gz]
+[2023-06-29 20:18:27] INFO root fetch - processPackages [DicomRTTool]: Remove: archive file [/home/abi/fetcher/tmp/DicomRTTool-2.0.9.tar.gz]
+[2023-06-29 20:18:27] INFO root fetch - main [MainThread]: End processing [DicomRTTool]: success
+[2023-06-29 20:18:27] INFO root fetch - processPackages [list-printer-v1-01-01-01]: Remove: archive file [/home/abi/fetcher/tmp/list_printer_v1_01_01_01-1.0.0.tar.gz]
+[2023-06-29 20:18:27] INFO root fetch - processPackages [list-printer-v1-01-01-01]: Remove: archive file [/home/abi/fetcher/tmp/list_printer_v1_01_01_01-1.1.0.tar.gz]
+[2023-06-29 20:18:27] INFO root fetch - main [MainThread]: End processing [list-printer-v1-01-01-01]: success
+[2023-06-29 20:18:27] WARNING root fetch - processPackages [fw-gear-dicom-fixer]: Skipping package: exceeds size limit 10894516>=10485760
+[2023-06-29 20:18:27] INFO root fetch - main [MainThread]: End processing [fw-gear-dicom-fixer] error
+[2023-06-29 20:18:27] INFO root fetch - processPackages [bluetooth-data-tools]: Remove: archive file [/home/abi/fetcher/tmp/bluetooth_data_tools-1.2.0.tar.gz]
+[2023-06-29 20:18:27] INFO root fetch - processPackages [bluetooth-data-tools]: Remove: archive file [/home/abi/fetcher/tmp/bluetooth_data_tools-1.3.0.tar.gz]
+[2023-06-29 20:18:27] INFO root fetch - main [MainThread]: End processing [bluetooth-data-tools]: success
+[2023-06-29 20:18:27] INFO root fetch - processPackages [yangsuite-netconf]: executing diffoscope
+[2023-06-29 20:18:27] INFO root fetch - processPackages [yangsuite-netconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yangsuite_netconf-1.17.8.post0.dev14-py3-none-any.whl.zip tmp/yangsuite_netconf-1.17.8.post0.dev38-py3-none-any.whl.zip --markdown 20230629/y/yangsuite-netconf/1.17.8.post0.dev14-1.17.8.post0.dev38/diff.md --exclude *.pyd
+[2023-06-29 20:18:35] INFO root fetch - processPackages [yangsuite-netconf]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite_netconf-1.17.8.post0.dev14-py3-none-any.whl.zip]
+[2023-06-29 20:18:35] INFO root fetch - processPackages [yangsuite-netconf]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite_netconf-1.17.8.post0.dev38-py3-none-any.whl.zip]
+[2023-06-29 20:18:35] INFO root fetch - main [MainThread]: End processing [yangsuite-netconf]: success
+[2023-06-29 20:18:35] INFO root fetch - main [MainThread]: Store serial: [18698976]
