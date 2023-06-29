@@ -18466,3 +18466,130 @@ AssertionError: tmp/live_parquet-0.2.0.tar.gz does not exist
 [2023-06-29 19:24:37] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.7.8.tar.gz]
 [2023-06-29 19:24:37] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
 [2023-06-29 19:24:37] INFO root fetch - main [MainThread]: Store serial: [18698591]
+[2023-06-29 19:29:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18698591]
+[2023-06-29 19:29:47] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-29 19:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2023-06-29 19:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbrlabs-pulumi-eks
+[2023-06-29 19:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: backwork-backup-mongo
+[2023-06-29 19:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ortega
+[2023-06-29 19:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: macrometa-target-mssql
+[2023-06-29 19:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ppafm
+[2023-06-29 19:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: voicemeeter-compact
+[2023-06-29 19:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: backwork-backup-postgresql
+[2023-06-29 19:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: twitter-api-client
+[2023-06-29 19:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: avro.py
+[2023-06-29 19:29:47] INFO root fetch - processPackages [macrometa-target-mssql]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-29 19:29:47] INFO root fetch - processPackages [backwork-backup-postgresql]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-29 19:29:47] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: New version: [0.0.6a1688057944] Old Version: [0.0.5a1687823535]
+[2023-06-29 19:29:47] INFO root fetch - processPackages [backwork-backup-mongo]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-29 19:29:47] INFO root fetch - processPackages [ppafm]: New version: [0.2.1a2] Old Version: [0.2.0a3]
+[2023-06-29 19:29:47] INFO root fetch - processPackages [voicemeeter-compact]: New version: [1.8.0] Old Version: [1.7.1]
+[2023-06-29 19:29:47] INFO root fetch - processPackages [ortega]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-29 19:29:47] INFO root fetch - processPackages [twitter-api-client]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-29 19:29:47] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/e0/a0/3f0465e2d00a7069659c01b9bd097f71abb92442cdde44a377b64de1c04e/macrometa-target-mssql-0.0.6.tar.gz
+[2023-06-29 19:29:47] INFO root fetch - processPackages [twitter-api-client]: Downloading https://files.pythonhosted.org/packages/6d/c9/1d547e8da64fdc6c40cf41bfcd04bab1dc66b8b77d10c444ff66c5a904dc/twitter-api-client-0.9.8.tar.gz
+[2023-06-29 19:29:48] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-29 19:29:48] INFO root fetch - processPackages [avro.py]: New version: [2023.6.29] Old Version: [2023.6.12]
+[2023-06-29 19:29:48] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Downloading https://files.pythonhosted.org/packages/6a/2f/16f56ab1a05c240cf25156f5155539fb1ba039636225fc976fda91dce3b6/lbrlabs_pulumi_eks-0.0.5a1687823535.tar.gz
+[2023-06-29 19:29:48] INFO root fetch - processPackages [backwork-backup-postgresql]: Downloading https://files.pythonhosted.org/packages/5b/7d/a3b4b614a7635796b143f56d5260e072b7b32146fb1ef46430033046e10a/backwork-backup-postgresql-0.2.1.tar.gz
+[2023-06-29 19:29:48] INFO root fetch - processPackages [voicemeeter-compact]: Downloading https://files.pythonhosted.org/packages/7e/08/eb5050105d5d78870a91777c5ffd08ce67d06e80300145740c667c48e2e2/voicemeeter-compact-1.7.1.tar.gz
+[2023-06-29 19:29:48] INFO root fetch - processPackages [ppafm]: Downloading https://files.pythonhosted.org/packages/71/81/8c7765efd216a564dc0d1fd702f90eeb61b358c3aa10069e4764553580b2/ppafm-0.2.0a3.tar.gz
+[2023-06-29 19:29:48] INFO root fetch - processPackages [ortega]: Downloading https://files.pythonhosted.org/packages/43/8a/519f15a9423f54f090b284e125ebb49c2ebf36ab793a89e02df69d6b37c7/ortega-1.0.4.tar.gz
+[2023-06-29 19:29:48] INFO root fetch - processPackages [backwork-backup-mongo]: Downloading https://files.pythonhosted.org/packages/85/65/08d47b61d8858ff0245f2e20572c405478115979930df18908f85df95b6e/backwork-backup-mongo-0.3.1.tar.gz
+[2023-06-29 19:29:48] INFO root fetch - processPackages [twitter-api-client]: Downloading https://files.pythonhosted.org/packages/01/72/7a27249d90e3f2e1c268ed5863305cd0c3a1970bb7a1b645b17053605afe/twitter-api-client-0.9.9.tar.gz
+[2023-06-29 19:29:48] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/96/f1/7be66ae3b243ae9b3e01df4655328e36c2da0f5f8fa7de61d7e8b8d25798/macrometa-target-mssql-0.0.7.tar.gz
+[2023-06-29 19:29:48] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-29 19:29:48] INFO root fetch - processPackages [twitter-api-client]: executing diffoscope
+[2023-06-29 19:29:48] INFO root fetch - processPackages [twitter-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter-api-client-0.9.8.tar.gz tmp/twitter-api-client-0.9.9.tar.gz --markdown 20230629/t/twitter-api-client/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-29 19:29:48] INFO root fetch - processPackages [macrometa-target-mssql]: executing diffoscope
+[2023-06-29 19:29:48] INFO root fetch - processPackages [macrometa-target-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mssql-0.0.6.tar.gz tmp/macrometa-target-mssql-0.0.7.tar.gz --markdown 20230629/m/macrometa-target-mssql/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-29 19:29:48] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Downloading https://files.pythonhosted.org/packages/ad/81/ca31957cb4cbceaaf3fc44a6bed10774c5fd709b48d0160f4be1fd2be55e/lbrlabs_pulumi_eks-0.0.6a1688057944.tar.gz
+[2023-06-29 19:29:48] INFO root fetch - processPackages [avro.py]: Downloading https://files.pythonhosted.org/packages/d0/a5/7dabdc8abb658117e5a53af9e348a8dc6acb864acc78dd3948b9ab4f3d19/avro.py-2023.6.12.tar.gz
+[2023-06-29 19:29:48] INFO root fetch - processPackages [backwork-backup-postgresql]: Downloading https://files.pythonhosted.org/packages/19/b2/9f33fe6972b3efbdec5594c61c4f63dd90545150b603e6b6c26e26f64a8d/backwork-backup-postgresql-0.2.2.tar.gz
+[2023-06-29 19:29:48] INFO root fetch - processPackages [backwork-backup-mongo]: Downloading https://files.pythonhosted.org/packages/80/91/4f970f4fbfe711de1bf8c5cc51d24badee85b7b06e82e2ced5b0f4546c30/backwork-backup-mongo-0.3.2.tar.gz
+[2023-06-29 19:29:48] INFO root fetch - processPackages [backwork-backup-postgresql]: executing diffoscope
+[2023-06-29 19:29:48] INFO root fetch - processPackages [backwork-backup-mongo]: executing diffoscope
+[2023-06-29 19:29:48] INFO root fetch - processPackages [backwork-backup-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backwork-backup-postgresql-0.2.1.tar.gz tmp/backwork-backup-postgresql-0.2.2.tar.gz --markdown 20230629/b/backwork-backup-postgresql/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-29 19:29:48] INFO root fetch - processPackages [backwork-backup-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backwork-backup-mongo-0.3.1.tar.gz tmp/backwork-backup-mongo-0.3.2.tar.gz --markdown 20230629/b/backwork-backup-mongo/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-29 19:29:48] INFO root fetch - processPackages [ortega]: Downloading https://files.pythonhosted.org/packages/17/36/33f4880b3aaf0babb76bc987edee9c68f6451a1c63e4c4883ee108debf73/ortega-1.0.5.tar.gz
+[2023-06-29 19:29:48] INFO root fetch - processPackages [voicemeeter-compact]: Downloading https://files.pythonhosted.org/packages/c9/94/f44efcb6f60c132551d594f4c7fe5ed2e159134b60dced85f3ed2633fa0a/voicemeeter-compact-1.8.0.tar.gz
+[2023-06-29 19:29:48] INFO root fetch - processPackages [ppafm]: Downloading https://files.pythonhosted.org/packages/4e/ee/24992fdfe4beeb85dfdc4618faac20fd689104eff03da58d0b327f40e138/ppafm-0.2.1a2.tar.gz
+[2023-06-29 19:29:48] INFO root fetch - processPackages [ortega]: executing diffoscope
+[2023-06-29 19:29:48] INFO root fetch - processPackages [ortega]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ortega-1.0.4.tar.gz tmp/ortega-1.0.5.tar.gz --markdown 20230629/o/ortega/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-29 19:29:48] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: executing diffoscope
+[2023-06-29 19:29:48] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbrlabs_pulumi_eks-0.0.5a1687823535.tar.gz tmp/lbrlabs_pulumi_eks-0.0.6a1688057944.tar.gz --markdown 20230629/l/lbrlabs-pulumi-eks/0.0.5a1687823535-0.0.6a1688057944/diff.md --exclude *.pyd
+[2023-06-29 19:29:48] INFO root fetch - processPackages [voicemeeter-compact]: executing diffoscope
+[2023-06-29 19:29:48] INFO root fetch - processPackages [voicemeeter-compact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicemeeter-compact-1.7.1.tar.gz tmp/voicemeeter-compact-1.8.0.tar.gz --markdown 20230629/v/voicemeeter-compact/1.7.1-1.8.0/diff.md --exclude *.pyd
+[2023-06-29 19:29:48] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-29 19:29:48] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-29 19:29:48] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230629/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-29 19:29:48] INFO root fetch - processPackages [avro.py]: Downloading https://files.pythonhosted.org/packages/12/b9/15da6c984e52db4971f60a6ae88f16ad146b28461a3a36510acbcb9b3f0e/avro.py-2023.6.29.tar.gz
+[2023-06-29 19:29:48] INFO root fetch - processPackages [ppafm]: executing diffoscope
+[2023-06-29 19:29:48] INFO root fetch - processPackages [ppafm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppafm-0.2.0a3.tar.gz tmp/ppafm-0.2.1a2.tar.gz --markdown 20230629/p/ppafm/0.2.0a3-0.2.1a2/diff.md --exclude *.pyd
+[2023-06-29 19:29:48] INFO root fetch - processPackages [avro.py]: executing diffoscope
+[2023-06-29 19:29:48] INFO root fetch - processPackages [avro.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avro.py-2023.6.12.tar.gz tmp/avro.py-2023.6.29.tar.gz --markdown 20230629/a/avro.py/2023.6.12-2023.6.29/diff.md --exclude *.pyd
+[2023-06-29 19:29:49] INFO root fetch - processPackages [twitter-api-client]: Remove: archive file [/home/abi/fetcher/tmp/twitter-api-client-0.9.8.tar.gz]
+[2023-06-29 19:29:49] INFO root fetch - processPackages [twitter-api-client]: Remove: archive file [/home/abi/fetcher/tmp/twitter-api-client-0.9.9.tar.gz]
+[2023-06-29 19:29:49] INFO root fetch - processPackages [twitter-api-client]: Start processing: azure-keyvault-cli
+[2023-06-29 19:29:49] INFO root fetch - main [MainThread]: End processing [twitter-api-client]: success
+[2023-06-29 19:29:49] WARNING root fetch - processPackages [azure-keyvault-cli]: Skipping, unable to determine old version
+[2023-06-29 19:29:49] INFO root fetch - processPackages [azure-keyvault-cli]: Start processing: rai-benchmark-test
+[2023-06-29 19:29:49] INFO root fetch - main [MainThread]: End processing [azure-keyvault-cli] error
+[2023-06-29 19:29:49] WARNING root fetch - processPackages [rai-benchmark-test]: Skipping, unable to determine old version
+[2023-06-29 19:29:49] INFO root fetch - processPackages [rai-benchmark-test]: Start processing: qsi-tk
+[2023-06-29 19:29:49] INFO root fetch - main [MainThread]: End processing [rai-benchmark-test] error
+[2023-06-29 19:29:49] INFO root fetch - processPackages [qsi-tk]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-29 19:29:49] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_eks-0.0.5a1687823535.tar.gz]
+[2023-06-29 19:29:49] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_eks-0.0.6a1688057944.tar.gz]
+[2023-06-29 19:29:49] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Start processing: epibox
+[2023-06-29 19:29:49] INFO root fetch - main [MainThread]: End processing [lbrlabs-pulumi-eks]: success
+[2023-06-29 19:29:50] INFO root fetch - processPackages [qsi-tk]: Downloading https://files.pythonhosted.org/packages/09/2f/b0c47342b91ded81cf8f341fa4d84be8f33afa4d76723468fd89261ee936/qsi-tk-0.5.2.tar.gz
+[2023-06-29 19:29:50] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.6.tar.gz]
+[2023-06-29 19:29:50] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.7.tar.gz]
+[2023-06-29 19:29:50] INFO root fetch - processPackages [macrometa-target-mssql]: Start processing: katalytic-pkg
+[2023-06-29 19:29:50] INFO root fetch - main [MainThread]: End processing [macrometa-target-mssql]: success
+[2023-06-29 19:29:50] INFO root fetch - processPackages [backwork-backup-mongo]: Remove: archive file [/home/abi/fetcher/tmp/backwork-backup-mongo-0.3.1.tar.gz]
+[2023-06-29 19:29:50] INFO root fetch - processPackages [backwork-backup-mongo]: Remove: archive file [/home/abi/fetcher/tmp/backwork-backup-mongo-0.3.2.tar.gz]
+[2023-06-29 19:29:50] INFO root fetch - processPackages [backwork-backup-mongo]: Start processing: jwst-novt
+[2023-06-29 19:29:50] INFO root fetch - main [MainThread]: End processing [backwork-backup-mongo]: success
+[2023-06-29 19:29:50] INFO root fetch - processPackages [epibox]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-29 19:29:50] INFO root fetch - processPackages [backwork-backup-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/backwork-backup-postgresql-0.2.1.tar.gz]
+[2023-06-29 19:29:50] INFO root fetch - processPackages [backwork-backup-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/backwork-backup-postgresql-0.2.2.tar.gz]
+[2023-06-29 19:29:50] INFO root fetch - main [MainThread]: End processing [backwork-backup-postgresql]: success
+[2023-06-29 19:29:50] WARNING root fetch - processPackages [qsi-tk]: Skipping package: exceeds size limit 58249005>=10485760
+[2023-06-29 19:29:50] INFO root fetch - main [MainThread]: End processing [qsi-tk] error
+[2023-06-29 19:29:50] INFO root fetch - processPackages [katalytic-pkg]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-29 19:29:50] INFO root fetch - processPackages [ortega]: Remove: archive file [/home/abi/fetcher/tmp/ortega-1.0.4.tar.gz]
+[2023-06-29 19:29:50] INFO root fetch - processPackages [ortega]: Remove: archive file [/home/abi/fetcher/tmp/ortega-1.0.5.tar.gz]
+[2023-06-29 19:29:50] INFO root fetch - main [MainThread]: End processing [ortega]: success
+[2023-06-29 19:29:50] INFO root fetch - processPackages [jwst-novt]: New version: [0.1rc1] Old Version: [0.1.dev0]
+[2023-06-29 19:29:50] INFO root fetch - processPackages [avro.py]: Remove: archive file [/home/abi/fetcher/tmp/avro.py-2023.6.12.tar.gz]
+[2023-06-29 19:29:50] INFO root fetch - processPackages [avro.py]: Remove: archive file [/home/abi/fetcher/tmp/avro.py-2023.6.29.tar.gz]
+[2023-06-29 19:29:50] INFO root fetch - main [MainThread]: End processing [avro.py]: success
+[2023-06-29 19:29:50] INFO root fetch - processPackages [epibox]: Downloading https://files.pythonhosted.org/packages/b5/ac/373f898516dad24a5a948784bc82ae071ef5ac3510a3ed625beea588fca8/epibox-2.0.1.tar.gz
+[2023-06-29 19:29:50] INFO root fetch - processPackages [katalytic-pkg]: Downloading https://files.pythonhosted.org/packages/77/a6/2573fda1dbaeb591ca8968b0f4c5a940dfbb11fcf7ce59c9f9efeaa1a409/katalytic-pkg-0.4.0.tar.gz
+[2023-06-29 19:29:50] INFO root fetch - processPackages [jwst-novt]: Downloading https://files.pythonhosted.org/packages/26/0f/ec4a0f3aeb914f03e7dd1467f7928670a29142e4f0a25c4599b4a8c9d809/jwst_novt-0.1.dev0.tar.gz
+[2023-06-29 19:29:50] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-29 19:29:50] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-29 19:29:50] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-29 19:29:50] WARNING root fetch - processPackages [jwst-novt]: Skipping package: exceeds size limit 18838067>=10485760
+[2023-06-29 19:29:50] INFO root fetch - main [MainThread]: End processing [jwst-novt] error
+[2023-06-29 19:29:50] INFO root fetch - processPackages [ppafm]: Remove: archive file [/home/abi/fetcher/tmp/ppafm-0.2.0a3.tar.gz]
+[2023-06-29 19:29:50] INFO root fetch - processPackages [ppafm]: Remove: archive file [/home/abi/fetcher/tmp/ppafm-0.2.1a2.tar.gz]
+[2023-06-29 19:29:50] INFO root fetch - main [MainThread]: End processing [ppafm]: success
+[2023-06-29 19:29:50] INFO root fetch - processPackages [katalytic-pkg]: Downloading https://files.pythonhosted.org/packages/b4/22/a13bb7527ddd558c2e954d47129c54308f87d377179d4b82e9ec0f5ced3f/katalytic_pkg-0.4.1.tar.gz
+[2023-06-29 19:29:50] INFO root fetch - processPackages [epibox]: Downloading https://files.pythonhosted.org/packages/bf/ac/e78d3b0d339840725486e3c874f9703203f2c2d353fc3f3726c38647dffc/epibox-2.0.2.tar.gz
+[2023-06-29 19:29:50] INFO root fetch - processPackages [katalytic-pkg]: executing diffoscope
+[2023-06-29 19:29:50] INFO root fetch - processPackages [katalytic-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/katalytic-pkg-0.4.0.tar.gz tmp/katalytic_pkg-0.4.1.tar.gz --markdown 20230629/k/katalytic-pkg/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-29 19:29:50] INFO root fetch - processPackages [epibox]: executing diffoscope
+[2023-06-29 19:29:50] INFO root fetch - processPackages [epibox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epibox-2.0.1.tar.gz tmp/epibox-2.0.2.tar.gz --markdown 20230629/e/epibox/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-29 19:29:51] INFO root fetch - processPackages [voicemeeter-compact]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter-compact-1.7.1.tar.gz]
+[2023-06-29 19:29:51] INFO root fetch - processPackages [voicemeeter-compact]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter-compact-1.8.0.tar.gz]
+[2023-06-29 19:29:51] INFO root fetch - main [MainThread]: End processing [voicemeeter-compact]: success
+[2023-06-29 19:29:52] INFO root fetch - processPackages [epibox]: Remove: archive file [/home/abi/fetcher/tmp/epibox-2.0.1.tar.gz]
+[2023-06-29 19:29:52] INFO root fetch - processPackages [epibox]: Remove: archive file [/home/abi/fetcher/tmp/epibox-2.0.2.tar.gz]
+[2023-06-29 19:29:52] INFO root fetch - main [MainThread]: End processing [epibox]: success
+[2023-06-29 19:29:52] INFO root fetch - processPackages [katalytic-pkg]: Remove: archive file [/home/abi/fetcher/tmp/katalytic-pkg-0.4.0.tar.gz]
+[2023-06-29 19:29:52] INFO root fetch - processPackages [katalytic-pkg]: Remove: archive file [/home/abi/fetcher/tmp/katalytic_pkg-0.4.1.tar.gz]
+[2023-06-29 19:29:52] INFO root fetch - main [MainThread]: End processing [katalytic-pkg]: success
+[2023-06-29 19:29:52] INFO root fetch - main [MainThread]: Store serial: [18698651]
