@@ -2380,3 +2380,96 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 10:06:30] INFO root fetch - processPackages [haruka-bot]: Remove: archive file [/home/abi/fetcher/tmp/haruka-bot-1.6.0.post3.tar.gz]
 [2023-06-29 10:06:30] INFO root fetch - main [MainThread]: End processing [haruka-bot]: success
 [2023-06-29 10:06:30] INFO root fetch - main [MainThread]: Store serial: [18691776]
+[2023-06-29 10:11:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18691776]
+[2023-06-29 10:11:39] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-29 10:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: catbridge
+[2023-06-29 10:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stopable-thread-job
+[2023-06-29 10:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymudclient
+[2023-06-29 10:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyglove
+[2023-06-29 10:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qontract-reconcile
+[2023-06-29 10:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: area-fig
+[2023-06-29 10:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rl-deploy
+[2023-06-29 10:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jcmutils
+[2023-06-29 10:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reytool
+[2023-06-29 10:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: piperider
+[2023-06-29 10:11:39] INFO root fetch - processPackages [catbridge]: New version: [0.5] Old Version: [0.4]
+[2023-06-29 10:11:39] WARNING root fetch - processPackages [area-fig]: Skipping, unable to determine old version
+[2023-06-29 10:11:39] INFO root fetch - processPackages [area-fig]: Start processing: dalec
+[2023-06-29 10:11:39] INFO root fetch - main [MainThread]: End processing [area-fig] error
+[2023-06-29 10:11:39] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230629] Old Version: [0.3.1.dev20230628]
+[2023-06-29 10:11:39] INFO root fetch - processPackages [rl-deploy]: New version: [1.1.1.0] Old Version: [1.1.0.0]
+[2023-06-29 10:11:39] INFO root fetch - processPackages [jcmutils]: New version: [1.6.2] Old Version: [1.6.0]
+[2023-06-29 10:11:39] INFO root fetch - processPackages [stopable-thread-job]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-29 10:11:39] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-29 10:11:39] INFO root fetch - processPackages [piperider]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-06-29 10:11:39] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/f6/43/7883e614408f88118c0c2bcf0b6f50b9766e9f994c40412a952c9dceb033/pyglove-0.3.1.dev20230628.tar.gz
+[2023-06-29 10:11:39] INFO root fetch - processPackages [jcmutils]: Downloading https://files.pythonhosted.org/packages/30/92/d2824f69398b0ff41fe5feb2557ada28332322a16c5d874408bc782c22b3/jcmutils-1.6.0.tar.gz
+[2023-06-29 10:11:39] WARNING root fetch - processPackages [pymudclient]: Skipping, unable to determine old version
+[2023-06-29 10:11:39] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/a4/50/e24b00f8c9eee6add2d234812268358dd31efb1c7692b89e4f2abcf53b3a/piperider-0.9.0.tar.gz
+[2023-06-29 10:11:39] INFO root fetch - processPackages [pymudclient]: Start processing: cla
+[2023-06-29 10:11:39] INFO root fetch - main [MainThread]: End processing [pymudclient] error
+[2023-06-29 10:11:39] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-06-29 10:11:39] WARNING root fetch - processPackages [dalec]: Skipping, unable to determine old version
+[2023-06-29 10:11:39] INFO root fetch - main [MainThread]: End processing [dalec] error
+[2023-06-29 10:11:39] INFO root fetch - processPackages [catbridge]: Downloading https://files.pythonhosted.org/packages/34/59/5f6ad3624e4d6835ae038259846b9b02afd5e62f832804dbb25c3bf55413/catbridge-0.4.tar.gz
+[2023-06-29 10:11:39] INFO root fetch - processPackages [rl-deploy]: Downloading https://files.pythonhosted.org/packages/46/69/2d703e30d383ffc37fc529a5cfe22083679ca0939302d81582befff8ac82/rl_deploy-1.1.0.0-py2.py3-none-win_amd64.whl
+[2023-06-29 10:11:39] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-29 10:11:39] INFO root fetch - processPackages [stopable-thread-job]: Downloading https://files.pythonhosted.org/packages/2c/91/fdade830601b176d114ad587845ea2a748fafa614b811183b3388897d498/stopable_thread_job-1.0.0-py3-none-any.whl
+[2023-06-29 10:11:39] INFO root fetch - processPackages [cla]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-06-29 10:11:39] INFO root fetch - processPackages [jcmutils]: Downloading https://files.pythonhosted.org/packages/cd/5b/e80739cec3206587b7de19c549c7b754e64c5e32061f8c3607b7725d72c7/jcmutils-1.6.2.tar.gz
+[2023-06-29 10:11:39] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-06-29 10:11:40] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/7a/f9/9cc8461c7b00069da016c58db04f6c975e2adf28d9cbd443a882dd7396de/piperider-0.9.0rc1.tar.gz
+[2023-06-29 10:11:40] INFO root fetch - processPackages [jcmutils]: executing diffoscope
+[2023-06-29 10:11:40] INFO root fetch - processPackages [jcmutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcmutils-1.6.0.tar.gz tmp/jcmutils-1.6.2.tar.gz --markdown 20230629/j/jcmutils/1.6.0-1.6.2/diff.md --exclude *.pyd
+[2023-06-29 10:11:40] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/47/ee/4c63bc22406d7d1bed45bea549bf6546659c38daf6a6e8d467cdb95ada69/pyglove-0.3.1.dev20230629.tar.gz
+[2023-06-29 10:11:40] INFO root fetch - processPackages [catbridge]: Downloading https://files.pythonhosted.org/packages/e8/3b/e8a9b656f477ff39034fd50d1c58e150ee421912ccffff1d5ed39662bfc9/catbridge-0.5.tar.gz
+[2023-06-29 10:11:40] INFO root fetch - processPackages [cla]: Downloading https://files.pythonhosted.org/packages/4d/d9/4f82617c71ddfb89e5f58db198d182555b673bda50d36d4f36d2a122ac1d/cla-1.1.6.tar.gz
+[2023-06-29 10:11:40] INFO root fetch - processPackages [piperider]: executing diffoscope
+[2023-06-29 10:11:40] INFO root fetch - processPackages [piperider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-0.9.0.tar.gz tmp/piperider-0.9.0rc1.tar.gz --markdown 20230629/p/piperider/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-06-29 10:11:40] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-06-29 10:11:40] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230628.tar.gz tmp/pyglove-0.3.1.dev20230629.tar.gz --markdown 20230629/p/pyglove/0.3.1.dev20230628-0.3.1.dev20230629/diff.md --exclude *.pyd
+[2023-06-29 10:11:40] INFO root fetch - processPackages [stopable-thread-job]: Downloading https://files.pythonhosted.org/packages/a1/91/375d1298ce0da33ba97890d70aacdc18d6f5f4178199747efaa1a2494d36/stopable_thread_job-1.0.1-py3-none-any.whl
+[2023-06-29 10:11:40] INFO root fetch - processPackages [rl-deploy]: Downloading https://files.pythonhosted.org/packages/b7/a1/42538a99d1a492f5930de8b8d0fec771f9de8f77448f43e8911c4e1e3e43/rl_deploy-1.1.1.0-py2.py3-none-win_amd64.whl
+[2023-06-29 10:11:40] INFO root fetch - processPackages [catbridge]: executing diffoscope
+[2023-06-29 10:11:40] INFO root fetch - processPackages [catbridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catbridge-0.4.tar.gz tmp/catbridge-0.5.tar.gz --markdown 20230629/c/catbridge/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-29 10:11:40] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-29 10:11:40] INFO root fetch - processPackages [stopable-thread-job]: executing diffoscope
+[2023-06-29 10:11:40] INFO root fetch - processPackages [stopable-thread-job]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stopable_thread_job-1.0.0-py3-none-any.whl.zip tmp/stopable_thread_job-1.0.1-py3-none-any.whl.zip --markdown 20230629/s/stopable-thread-job/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-29 10:11:40] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-06-29 10:11:40] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-29 10:11:40] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230629/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-29 10:11:40] INFO root fetch - processPackages [rl-deploy]: executing diffoscope
+[2023-06-29 10:11:40] INFO root fetch - processPackages [rl-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rl_deploy-1.1.0.0-py2.py3-none-win_amd64.whl.zip tmp/rl_deploy-1.1.1.0-py2.py3-none-win_amd64.whl.zip --markdown 20230629/r/rl-deploy/1.1.0.0-1.1.1.0/diff.md --exclude *.pyd
+[2023-06-29 10:11:40] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-06-29 10:11:40] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230629/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-06-29 10:11:40] INFO root fetch - processPackages [cla]: Downloading https://files.pythonhosted.org/packages/68/9f/b01ff4e8d2c6aad57bd7e690b1ec79cca55bc4d4527215ab6eeb3c934e05/cla-1.1.7-py3-none-any.whl
+[2023-06-29 10:11:40] INFO root fetch - processPackages [cla]: executing diffoscope
+[2023-06-29 10:11:40] INFO root fetch - processPackages [cla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cla-1.1.6.tar.gz tmp/cla-1.1.7-py3-none-any.whl.zip --markdown 20230629/c/cla/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-06-29 10:11:41] INFO root fetch - processPackages [jcmutils]: Remove: archive file [/home/abi/fetcher/tmp/jcmutils-1.6.0.tar.gz]
+[2023-06-29 10:11:41] INFO root fetch - processPackages [jcmutils]: Remove: archive file [/home/abi/fetcher/tmp/jcmutils-1.6.2.tar.gz]
+[2023-06-29 10:11:41] INFO root fetch - main [MainThread]: End processing [jcmutils]: success
+[2023-06-29 10:11:41] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-06-29 10:11:41] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-06-29 10:11:41] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-06-29 10:11:41] INFO root fetch - processPackages [stopable-thread-job]: Remove: archive file [/home/abi/fetcher/tmp/stopable_thread_job-1.0.0-py3-none-any.whl.zip]
+[2023-06-29 10:11:41] INFO root fetch - processPackages [stopable-thread-job]: Remove: archive file [/home/abi/fetcher/tmp/stopable_thread_job-1.0.1-py3-none-any.whl.zip]
+[2023-06-29 10:11:41] INFO root fetch - main [MainThread]: End processing [stopable-thread-job]: success
+[2023-06-29 10:11:41] INFO root fetch - processPackages [cla]: Remove: archive file [/home/abi/fetcher/tmp/cla-1.1.6.tar.gz]
+[2023-06-29 10:11:41] INFO root fetch - processPackages [cla]: Remove: archive file [/home/abi/fetcher/tmp/cla-1.1.7-py3-none-any.whl.zip]
+[2023-06-29 10:11:41] INFO root fetch - main [MainThread]: End processing [cla]: success
+[2023-06-29 10:11:42] INFO root fetch - processPackages [catbridge]: Remove: archive file [/home/abi/fetcher/tmp/catbridge-0.4.tar.gz]
+[2023-06-29 10:11:42] INFO root fetch - processPackages [catbridge]: Remove: archive file [/home/abi/fetcher/tmp/catbridge-0.5.tar.gz]
+[2023-06-29 10:11:42] INFO root fetch - main [MainThread]: End processing [catbridge]: success
+[2023-06-29 10:11:43] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230628.tar.gz]
+[2023-06-29 10:11:43] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230629.tar.gz]
+[2023-06-29 10:11:43] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-06-29 10:11:45] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0.tar.gz]
+[2023-06-29 10:11:45] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0rc1.tar.gz]
+[2023-06-29 10:11:45] INFO root fetch - main [MainThread]: End processing [piperider]: success
+[2023-06-29 10:11:46] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-29 10:11:46] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-29 10:11:46] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-29 10:12:01] INFO root fetch - processPackages [rl-deploy]: Remove: archive file [/home/abi/fetcher/tmp/rl_deploy-1.1.0.0-py2.py3-none-win_amd64.whl.zip]
+[2023-06-29 10:12:01] INFO root fetch - processPackages [rl-deploy]: Remove: archive file [/home/abi/fetcher/tmp/rl_deploy-1.1.1.0-py2.py3-none-win_amd64.whl.zip]
+[2023-06-29 10:12:01] INFO root fetch - main [MainThread]: End processing [rl-deploy]: success
+[2023-06-29 10:12:01] INFO root fetch - main [MainThread]: Store serial: [18691832]
