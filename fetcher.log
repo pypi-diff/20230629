@@ -21442,3 +21442,131 @@ EOFError: EOF read where object expected
 [2023-06-29 21:55:50] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-06-29 21:55:50] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-06-29 21:55:50] INFO root fetch - main [MainThread]: Store serial: [18699764]
+[2023-06-29 22:00:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18699764]
+[2023-06-29 22:00:59] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-29 22:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nextguild
+[2023-06-29 22:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: molgenis-emx2-pyclient
+[2023-06-29 22:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: whisper-mic
+[2023-06-29 22:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cerebrium
+[2023-06-29 22:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: id-translation
+[2023-06-29 22:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jupyterlab_local_browser
+[2023-06-29 22:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swarms
+[2023-06-29 22:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: macrometa-target-mssql
+[2023-06-29 22:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PDFraken
+[2023-06-29 22:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyMELTScalc
+[2023-06-29 22:00:59] INFO root fetch - processPackages [whisper-mic]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-06-29 22:00:59] INFO root fetch - processPackages [id-translation]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-29 22:00:59] INFO root fetch - processPackages [nextguild]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-06-29 22:00:59] INFO root fetch - processPackages [molgenis-emx2-pyclient]: New version: [8.199.7] Old Version: [8.199.6]
+[2023-06-29 22:00:59] INFO root fetch - processPackages [jupyterlab_local_browser]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-06-29 22:00:59] WARNING root fetch - processPackages [swarms]: Skipping, unable to determine old version
+[2023-06-29 22:00:59] INFO root fetch - processPackages [swarms]: Start processing: pyMELTScalc
+[2023-06-29 22:00:59] INFO root fetch - main [MainThread]: End processing [swarms] error
+[2023-06-29 22:00:59] INFO root fetch - processPackages [macrometa-target-mssql]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 22:00:59] INFO root fetch - processPackages [pyMELTScalc]: New version: [0.1.21] Old Version: [0.0.7.dev0]
+[2023-06-29 22:00:59] WARNING root fetch - processPackages [PDFraken]: Skipping, unable to determine old version
+[2023-06-29 22:00:59] INFO root fetch - processPackages [PDFraken]: Start processing: pyMELTScalc
+[2023-06-29 22:00:59] INFO root fetch - main [MainThread]: End processing [PDFraken] error
+[2023-06-29 22:00:59] INFO root fetch - processPackages [cerebrium]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-29 22:00:59] INFO root fetch - processPackages [pyMELTScalc]: New version: [0.1.21] Old Version: [0.0.7.dev0]
+[2023-06-29 22:00:59] INFO root fetch - processPackages [pyMELTScalc]: New version: [0.1.21] Old Version: [0.0.7.dev0]
+[2023-06-29 22:00:59] INFO root fetch - processPackages [id-translation]: Downloading https://files.pythonhosted.org/packages/7c/02/4c6490de20295fee775598e0df247e92a588fc89b36f9b31792a651418e4/id_translation-0.4.0.tar.gz
+[2023-06-29 22:00:59] INFO root fetch - processPackages [pyMELTScalc]: Downloading https://files.pythonhosted.org/packages/f2/02/9cd4a8ba14fbde60a96cc3c97cacf470b04c5cd649c2cf79ccfbe9b9b1f7/pyMELTScalc-0.0.7.dev0-py3.9.egg
+[2023-06-29 22:00:59] INFO root fetch - processPackages [pyMELTScalc]: Downloading https://files.pythonhosted.org/packages/f2/02/9cd4a8ba14fbde60a96cc3c97cacf470b04c5cd649c2cf79ccfbe9b9b1f7/pyMELTScalc-0.0.7.dev0-py3.9.egg
+[2023-06-29 22:00:59] INFO root fetch - processPackages [cerebrium]: Downloading https://files.pythonhosted.org/packages/96/00/12545147293f287dcb14996234bcebb96e91b0041f93ac3d8de0ff62b5d7/cerebrium-1.1.4.tar.gz
+[2023-06-29 22:00:59] INFO root fetch - processPackages [pyMELTScalc]: Downloading https://files.pythonhosted.org/packages/f2/02/9cd4a8ba14fbde60a96cc3c97cacf470b04c5cd649c2cf79ccfbe9b9b1f7/pyMELTScalc-0.0.7.dev0-py3.9.egg
+[2023-06-29 22:00:59] INFO root fetch - processPackages [whisper-mic]: Downloading https://files.pythonhosted.org/packages/41/cd/bab1e9b685332510392c98ea4a04c1321e728cf56fdf739774e669180a60/whisper_mic-0.0.1.tar.gz
+[2023-06-29 22:00:59] INFO root fetch - processPackages [jupyterlab_local_browser]: Downloading https://files.pythonhosted.org/packages/3e/c5/a59b4c2654f07b1f3bb44dd54f7bbd8df66860bd6b79ccf9bc07c86da4ca/jupyterlab_local_browser-0.3.1.tar.gz
+[2023-06-29 22:00:59] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/46/15/9ba25bb68855a11d59df60837f1930313699abe7ea5fbfe9454fe02d9c9d/molgenis_emx2_pyclient-8.199.6.tar.gz
+[2023-06-29 22:00:59] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/47/28/bece1abc54ffab5f0cddaff5d6f1e02fac1343bfb72976d5794f50dad748/macrometa-target-mssql-0.0.8.tar.gz
+[2023-06-29 22:00:59] INFO root fetch - processPackages [nextguild]: Downloading https://files.pythonhosted.org/packages/9b/93/a555e1df0184dbfa673fc9de025d70503217cbc142b058c988a4861def82/nextguild-1.2.8.tar.gz
+[2023-06-29 22:00:59] INFO root fetch - processPackages [id-translation]: Downloading https://files.pythonhosted.org/packages/93/4b/970380ad0289a855b03ebb03cc82cb6025c100a1a58f3bc82011bfa871af/id_translation-0.5.0.tar.gz
+[2023-06-29 22:00:59] INFO root fetch - processPackages [nextguild]: executing diffoscope
+[2023-06-29 22:00:59] INFO root fetch - processPackages [nextguild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextguild-1.2.7.tar.gz tmp/nextguild-1.2.8.tar.gz --markdown 20230629/n/nextguild/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-06-29 22:00:59] INFO root fetch - processPackages [whisper-mic]: Downloading https://files.pythonhosted.org/packages/69/bf/f37c92a354d7788ab59d5e99da36cef98c1c5527b7c449d15ec989922b74/whisper_mic-1.0.0.tar.gz
+[2023-06-29 22:00:59] INFO root fetch - processPackages [cerebrium]: Downloading https://files.pythonhosted.org/packages/4a/5f/c86f84319cfc13e03c48d3186e918f2b9ab75ac268d4870a591a0e2adcb8/cerebrium-1.1.5.tar.gz
+[2023-06-29 22:00:59] INFO root fetch - processPackages [pyMELTScalc]: Downloading https://files.pythonhosted.org/packages/7e/fa/6663ac3e04a5ee2ffe5a06bc5595379cc594114810d679d53c672fa6ced6/pyMELTScalc-0.1.21.tar.gz
+[2023-06-29 22:00:59] INFO root fetch - processPackages [pyMELTScalc]: Downloading https://files.pythonhosted.org/packages/7e/fa/6663ac3e04a5ee2ffe5a06bc5595379cc594114810d679d53c672fa6ced6/pyMELTScalc-0.1.21.tar.gz
+[2023-06-29 22:00:59] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/3d/97/96f149d7c5c167814edbae8e9693e5915bdec86dfd31a669e08d21162ee9/macrometa-target-mssql-0.0.9.tar.gz
+[2023-06-29 22:00:59] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/1e/77/8d19ae1f36224afdcc7a1f4b79cb3a69d725fa764a95c7afdfb6b19de016/molgenis_emx2_pyclient-8.199.7.tar.gz
+[2023-06-29 22:00:59] INFO root fetch - processPackages [pyMELTScalc]: Downloading https://files.pythonhosted.org/packages/7e/fa/6663ac3e04a5ee2ffe5a06bc5595379cc594114810d679d53c672fa6ced6/pyMELTScalc-0.1.21.tar.gz
+[2023-06-29 22:00:59] INFO root fetch - processPackages [id-translation]: executing diffoscope
+[2023-06-29 22:00:59] INFO root fetch - processPackages [id-translation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/id_translation-0.4.0.tar.gz tmp/id_translation-0.5.0.tar.gz --markdown 20230629/i/id-translation/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-29 22:01:00] INFO root fetch - processPackages [whisper-mic]: executing diffoscope
+[2023-06-29 22:01:00] INFO root fetch - processPackages [whisper-mic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper_mic-0.0.1.tar.gz tmp/whisper_mic-1.0.0.tar.gz --markdown 20230629/w/whisper-mic/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-29 22:01:00] INFO root fetch - processPackages [jupyterlab_local_browser]: Downloading https://files.pythonhosted.org/packages/cd/40/482ff4ec1d6e0cde88ea870faad538849993a15dc154171122ef7beed21a/jupyterlab_local_browser-0.4.0.tar.gz
+[2023-06-29 22:01:00] INFO root fetch - processPackages [cerebrium]: executing diffoscope
+[2023-06-29 22:01:00] INFO root fetch - processPackages [cerebrium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerebrium-1.1.4.tar.gz tmp/cerebrium-1.1.5.tar.gz --markdown 20230629/c/cerebrium/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-29 22:01:00] INFO root fetch - processPackages [macrometa-target-mssql]: executing diffoscope
+[2023-06-29 22:01:00] INFO root fetch - processPackages [macrometa-target-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mssql-0.0.8.tar.gz tmp/macrometa-target-mssql-0.0.9.tar.gz --markdown 20230629/m/macrometa-target-mssql/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 22:01:00] INFO root fetch - processPackages [pyMELTScalc]: executing diffoscope
+[2023-06-29 22:01:00] INFO root fetch - processPackages [pyMELTScalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyMELTScalc-0.0.7.dev0-py3.9.egg tmp/pyMELTScalc-0.1.21.tar.gz --markdown 20230629/p/pyMELTScalc/0.0.7.dev0-0.1.21/diff.md --exclude *.pyd
+[2023-06-29 22:01:00] INFO root fetch - processPackages [pyMELTScalc]: executing diffoscope
+[2023-06-29 22:01:00] INFO root fetch - processPackages [pyMELTScalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyMELTScalc-0.0.7.dev0-py3.9.egg tmp/pyMELTScalc-0.1.21.tar.gz --markdown 20230629/p/pyMELTScalc/0.0.7.dev0-0.1.21/diff.md --exclude *.pyd
+[2023-06-29 22:01:00] INFO root fetch - processPackages [pyMELTScalc]: executing diffoscope
+[2023-06-29 22:01:00] INFO root fetch - processPackages [pyMELTScalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyMELTScalc-0.0.7.dev0-py3.9.egg tmp/pyMELTScalc-0.1.21.tar.gz --markdown 20230629/p/pyMELTScalc/0.0.7.dev0-0.1.21/diff.md --exclude *.pyd
+[2023-06-29 22:01:00] INFO root fetch - processPackages [molgenis-emx2-pyclient]: executing diffoscope
+[2023-06-29 22:01:00] INFO root fetch - processPackages [molgenis-emx2-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis_emx2_pyclient-8.199.6.tar.gz tmp/molgenis_emx2_pyclient-8.199.7.tar.gz --markdown 20230629/m/molgenis-emx2-pyclient/8.199.6-8.199.7/diff.md --exclude *.pyd
+[2023-06-29 22:01:00] INFO root fetch - processPackages [jupyterlab_local_browser]: executing diffoscope
+[2023-06-29 22:01:00] INFO root fetch - processPackages [jupyterlab_local_browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_local_browser-0.3.1.tar.gz tmp/jupyterlab_local_browser-0.4.0.tar.gz --markdown 20230629/j/jupyterlab_local_browser/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-29 22:01:01] INFO root fetch - processPackages [nextguild]: Remove: archive file [/home/abi/fetcher/tmp/nextguild-1.2.7.tar.gz]
+[2023-06-29 22:01:01] INFO root fetch - processPackages [nextguild]: Remove: archive file [/home/abi/fetcher/tmp/nextguild-1.2.8.tar.gz]
+[2023-06-29 22:01:01] INFO root fetch - processPackages [nextguild]: Start processing: pyMELTScalc
+[2023-06-29 22:01:01] INFO root fetch - main [MainThread]: End processing [nextguild]: success
+[2023-06-29 22:01:01] INFO root fetch - processPackages [pyMELTScalc]: New version: [0.1.21] Old Version: [0.0.7.dev0]
+[2023-06-29 22:01:01] INFO root fetch - processPackages [pyMELTScalc]: executing diffoscope
+[2023-06-29 22:01:01] INFO root fetch - processPackages [pyMELTScalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyMELTScalc-0.0.7.dev0-py3.9.egg tmp/pyMELTScalc-0.1.21.tar.gz --markdown 20230629/p/pyMELTScalc/0.0.7.dev0-0.1.21/diff.md --exclude *.pyd
+[2023-06-29 22:01:01] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.8.tar.gz]
+[2023-06-29 22:01:01] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.9.tar.gz]
+[2023-06-29 22:01:01] INFO root fetch - processPackages [macrometa-target-mssql]: Start processing: botsy
+[2023-06-29 22:01:01] INFO root fetch - main [MainThread]: End processing [macrometa-target-mssql]: success
+[2023-06-29 22:01:01] INFO root fetch - processPackages [whisper-mic]: Remove: archive file [/home/abi/fetcher/tmp/whisper_mic-0.0.1.tar.gz]
+[2023-06-29 22:01:01] INFO root fetch - processPackages [whisper-mic]: Remove: archive file [/home/abi/fetcher/tmp/whisper_mic-1.0.0.tar.gz]
+[2023-06-29 22:01:01] INFO root fetch - processPackages [whisper-mic]: Start processing: commonutil-net-fileservice
+[2023-06-29 22:01:01] INFO root fetch - main [MainThread]: End processing [whisper-mic]: success
+[2023-06-29 22:01:01] INFO root fetch - processPackages [botsy]: New version: [0.1.5] Old Version: [0.1.27]
+[2023-06-29 22:01:01] WARNING root fetch - processPackages [commonutil-net-fileservice]: Skipping, unable to determine old version
+[2023-06-29 22:01:01] INFO root fetch - processPackages [commonutil-net-fileservice]: Start processing: soundstorm-pytorch
+[2023-06-29 22:01:01] INFO root fetch - main [MainThread]: End processing [commonutil-net-fileservice] error
+[2023-06-29 22:01:01] INFO root fetch - processPackages [pyMELTScalc]: Remove: archive file [/home/abi/fetcher/tmp/pyMELTScalc-0.0.7.dev0-py3.9.egg]
+[2023-06-29 22:01:01] INFO root fetch - processPackages [pyMELTScalc]: Remove: archive file [/home/abi/fetcher/tmp/pyMELTScalc-0.1.21.tar.gz]
+[2023-06-29 22:01:01] INFO root fetch - processPackages [pyMELTScalc]: Start processing: nwebclient
+[2023-06-29 22:01:01] INFO root fetch - main [MainThread]: End processing [pyMELTScalc]: success
+[2023-06-29 22:01:01] INFO root fetch - processPackages [soundstorm-pytorch]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-29 22:01:01] INFO root fetch - main [MainThread]: End processing [pyMELTScalc]: success
+[2023-06-29 22:01:01] INFO root fetch - processPackages [botsy]: Downloading https://files.pythonhosted.org/packages/00/14/5016139d1f91c7839e0410fc7c159a9f64e32229d05eefc5835f1ae48485/botsy-0.1.27.tar.gz
+[2023-06-29 22:01:01] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.199.6.tar.gz]
+[2023-06-29 22:01:01] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.199.7.tar.gz]
+[2023-06-29 22:01:01] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-pyclient]: success
+[2023-06-29 22:01:01] WARNING root fetch - processPackages [botsy]: Skipping package: exceeds size limit 57265463>=10485760
+[2023-06-29 22:01:01] INFO root fetch - main [MainThread]: End processing [botsy] error
+[2023-06-29 22:01:01] INFO root fetch - processPackages [cerebrium]: Remove: archive file [/home/abi/fetcher/tmp/cerebrium-1.1.4.tar.gz]
+[2023-06-29 22:01:01] INFO root fetch - processPackages [cerebrium]: Remove: archive file [/home/abi/fetcher/tmp/cerebrium-1.1.5.tar.gz]
+[2023-06-29 22:01:01] INFO root fetch - main [MainThread]: End processing [cerebrium]: success
+[2023-06-29 22:01:02] INFO root fetch - processPackages [id-translation]: Remove: archive file [/home/abi/fetcher/tmp/id_translation-0.4.0.tar.gz]
+[2023-06-29 22:01:02] INFO root fetch - processPackages [id-translation]: Remove: archive file [/home/abi/fetcher/tmp/id_translation-0.5.0.tar.gz]
+[2023-06-29 22:01:02] INFO root fetch - main [MainThread]: End processing [id-translation]: success
+[2023-06-29 22:01:02] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-06-29 22:01:02] INFO root fetch - main [MainThread]: End processing [pyMELTScalc]: success
+[2023-06-29 22:01:02] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-06-29 22:01:02] INFO root fetch - processPackages [soundstorm-pytorch]: Downloading https://files.pythonhosted.org/packages/29/b7/f46ca5a6f46dad7414ad44385b3a5581848e95cc740256ae0442c40e7878/soundstorm-pytorch-0.0.6.tar.gz
+[2023-06-29 22:01:02] ERROR root fetch - processPackages [pyMELTScalc]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/pyMELTScalc-0.0.7.dev0-py3.9.egg: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/pyMELTScalc-0.1.21.tar.gz: No such file or directory
+
+[2023-06-29 22:01:02] INFO root fetch - main [MainThread]: End processing [pyMELTScalc] error
+[2023-06-29 22:01:02] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-06-29 22:01:02] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-06-29 22:01:02] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230629/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-06-29 22:01:02] INFO root fetch - processPackages [soundstorm-pytorch]: Downloading https://files.pythonhosted.org/packages/af/c6/22b180eef3ee4eb74b0a54f9f7b30706b1bf7c55d4a49f5a644b395c978b/soundstorm-pytorch-0.0.7.tar.gz
+[2023-06-29 22:01:02] INFO root fetch - processPackages [soundstorm-pytorch]: executing diffoscope
+[2023-06-29 22:01:02] INFO root fetch - processPackages [soundstorm-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soundstorm-pytorch-0.0.6.tar.gz tmp/soundstorm-pytorch-0.0.7.tar.gz --markdown 20230629/s/soundstorm-pytorch/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-29 22:01:03] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-06-29 22:01:03] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-06-29 22:01:03] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-06-29 22:01:03] INFO root fetch - processPackages [soundstorm-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/soundstorm-pytorch-0.0.6.tar.gz]
+[2023-06-29 22:01:03] INFO root fetch - processPackages [soundstorm-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/soundstorm-pytorch-0.0.7.tar.gz]
+[2023-06-29 22:01:03] INFO root fetch - main [MainThread]: End processing [soundstorm-pytorch]: success
+[2023-06-29 22:01:04] INFO root fetch - processPackages [jupyterlab_local_browser]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_local_browser-0.3.1.tar.gz]
+[2023-06-29 22:01:04] INFO root fetch - processPackages [jupyterlab_local_browser]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_local_browser-0.4.0.tar.gz]
+[2023-06-29 22:01:04] INFO root fetch - main [MainThread]: End processing [jupyterlab_local_browser]: success
+[2023-06-29 22:01:04] INFO root fetch - main [MainThread]: Store serial: [18699822]
