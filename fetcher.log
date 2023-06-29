@@ -23002,3 +23002,297 @@ EOFError: EOF read where object expected
 [2023-06-29 22:46:20] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.345.9.tar.gz]
 [2023-06-29 22:46:20] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-06-29 22:46:20] INFO root fetch - main [MainThread]: Store serial: [18700491]
+[2023-06-29 22:51:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18700491]
+[2023-06-29 22:51:31] INFO root fetch - main [MainThread]: Found 33 changed packages
+[2023-06-29 22:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xia-engine-mysql
+[2023-06-29 22:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xia-engine-rest
+[2023-06-29 22:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xia-engine-firestore
+[2023-06-29 22:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rai-benchmark-test
+[2023-06-29 22:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-sops-secrets
+[2023-06-29 22:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: linode-cli
+[2023-06-29 22:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: io-collection
+[2023-06-29 22:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xia-engine-sql
+[2023-06-29 22:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xia-engine-terraform
+[2023-06-29 22:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-oscar-bluelight
+[2023-06-29 22:51:31] INFO root fetch - processPackages [xia-engine-rest]: New version: [0.1.12] Old Version: [0.1.11]
+[2023-06-29 22:51:31] INFO root fetch - processPackages [rai-benchmark-test]: New version: [0.9] Old Version: [0.8]
+[2023-06-29 22:51:31] INFO root fetch - processPackages [xia-engine-mysql]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-29 22:51:31] INFO root fetch - processPackages [xia-engine-terraform]: New version: [0.1.17] Old Version: [0.1.16]
+[2023-06-29 22:51:31] INFO root fetch - processPackages [xia-engine-firestore]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-29 22:51:31] INFO root fetch - processPackages [xia-engine-sql]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-29 22:51:31] INFO root fetch - processPackages [io-collection]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-06-29 22:51:31] INFO root fetch - processPackages [linode-cli]: New version: [5.9.1] Old Version: [5.9.0]
+[2023-06-29 22:51:31] INFO root fetch - processPackages [django-oscar-bluelight]: New version: [5.4.0rc1] Old Version: [5.4.0b5]
+[2023-06-29 22:51:31] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-29 22:51:31] INFO root fetch - processPackages [xia-engine-rest]: Downloading https://files.pythonhosted.org/packages/c6/ad/4022fb3eb9e024470fe122bf0240c50bef2db0925e7f9343ef77075793bd/xia_engine_rest-0.1.11-cp39-none-win_amd64.whl
+[2023-06-29 22:51:31] INFO root fetch - processPackages [io-collection]: Downloading https://files.pythonhosted.org/packages/5f/e1/1d7e8cc5cc02815622d81ea9eb1004f511382aee70e29bef946bb569c210/io_collection-0.7.2.tar.gz
+[2023-06-29 22:51:31] INFO root fetch - processPackages [rai-benchmark-test]: Downloading https://files.pythonhosted.org/packages/c6/4d/e1c18a73332b61353a249470e89d6c0202f843fd3484600b17e2903ca04c/rai_benchmark_test-0.8.tar.gz
+[2023-06-29 22:51:31] INFO root fetch - processPackages [xia-engine-firestore]: Downloading https://files.pythonhosted.org/packages/fb/d7/fb6cba4c221583c6427ff7917c322cabc525829063c992831efad08d6c5b/xia_engine_firestore-0.3.4-cp39-none-win_amd64.whl
+[2023-06-29 22:51:31] INFO root fetch - processPackages [xia-engine-mysql]: Downloading https://files.pythonhosted.org/packages/8e/5c/685d1c37a8410c4c28c6e05b3bc029da26a633573d4ea2e8f484f9f43c3e/xia_engine_mysql-0.1.7-cp39-none-win_amd64.whl
+[2023-06-29 22:51:31] INFO root fetch - processPackages [xia-engine-sql]: Downloading https://files.pythonhosted.org/packages/d0/05/38a2c811d7862a2dd2742a96babc6634ba8105cea3435643a1b1c01cdf66/xia_engine_sql-0.2.1-cp39-none-win_amd64.whl
+[2023-06-29 22:51:31] INFO root fetch - processPackages [linode-cli]: Downloading https://files.pythonhosted.org/packages/44/f8/2ca8314eee932df8081f2b97fa6ca36798b2eb3f222b93cbb47bf9749c12/linode_cli-5.9.0-py2.py3-none-any.whl
+[2023-06-29 22:51:31] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-06-29 22:51:31] INFO root fetch - processPackages [xia-engine-terraform]: Downloading https://files.pythonhosted.org/packages/5e/f7/608e2e8a19a41313f78f2ff3e500839ed9ca626e987d33f7eeef9c65de29/xia_engine_terraform-0.1.16-cp39-none-win_amd64.whl
+[2023-06-29 22:51:31] INFO root fetch - processPackages [django-oscar-bluelight]: Downloading https://files.pythonhosted.org/packages/a8/8d/2e27f4d835d7910df937f74971a9c375917436c3561723f90a09e2e576e1/django-oscar-bluelight-5.4.0b5.tar.gz
+[2023-06-29 22:51:31] INFO root fetch - processPackages [xia-engine-firestore]: Downloading https://files.pythonhosted.org/packages/79/4c/38d526584df39187a88062398abe2bd233c1af3a5393f12542e7c6eaa5a6/xia_engine_firestore-0.3.5-cp39-none-win_amd64.whl
+[2023-06-29 22:51:31] INFO root fetch - processPackages [io-collection]: Downloading https://files.pythonhosted.org/packages/02/98/ece436665d5170511fae78b96b76b4cf0c8deae5aea9d9f93af080febb9b/io_collection-0.7.3.tar.gz
+[2023-06-29 22:51:31] INFO root fetch - processPackages [rai-benchmark-test]: Downloading https://files.pythonhosted.org/packages/f1/c6/af7e29c0191e61f84549975aa6873d0f61d1fcb82e7988b948bece7f2aa0/rai_benchmark_test-0.9.tar.gz
+[2023-06-29 22:51:31] INFO root fetch - processPackages [xia-engine-mysql]: Downloading https://files.pythonhosted.org/packages/96/e7/ec1c593199901b5b9e573dd54ede6aff837cb9d7dd13f082da2f6b4e0595/xia_engine_mysql-0.1.8-cp39-none-win_amd64.whl
+[2023-06-29 22:51:31] INFO root fetch - processPackages [django-oscar-bluelight]: Downloading https://files.pythonhosted.org/packages/0b/76/c377ca4c3e04851e2a29348f7bad73d87f7b96b85b51c0af600c8c0d297b/django-oscar-bluelight-5.4.0rc1.tar.gz
+[2023-06-29 22:51:32] INFO root fetch - processPackages [xia-engine-firestore]: executing diffoscope
+[2023-06-29 22:51:32] INFO root fetch - processPackages [xia-engine-firestore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_firestore-0.3.4-cp39-none-win_amd64.whl.zip tmp/xia_engine_firestore-0.3.5-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-engine-firestore/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-29 22:51:32] INFO root fetch - processPackages [xia-engine-sql]: Downloading https://files.pythonhosted.org/packages/ef/64/cafa1925231979dfccf8a70c5bed46b2025d7aa7198d718c859238b94abe/xia_engine_sql-0.2.2-cp39-none-win_amd64.whl
+[2023-06-29 22:51:32] INFO root fetch - processPackages [io-collection]: executing diffoscope
+[2023-06-29 22:51:32] INFO root fetch - processPackages [io-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/io_collection-0.7.2.tar.gz tmp/io_collection-0.7.3.tar.gz --markdown 20230629/i/io-collection/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-06-29 22:51:32] INFO root fetch - processPackages [rai-benchmark-test]: executing diffoscope
+[2023-06-29 22:51:32] INFO root fetch - processPackages [rai-benchmark-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rai_benchmark_test-0.8.tar.gz tmp/rai_benchmark_test-0.9.tar.gz --markdown 20230629/r/rai-benchmark-test/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-29 22:51:32] INFO root fetch - processPackages [xia-engine-mysql]: executing diffoscope
+[2023-06-29 22:51:32] INFO root fetch - processPackages [xia-engine-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_mysql-0.1.7-cp39-none-win_amd64.whl.zip tmp/xia_engine_mysql-0.1.8-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-engine-mysql/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-29 22:51:32] INFO root fetch - processPackages [xia-engine-rest]: Downloading https://files.pythonhosted.org/packages/34/5b/10984f170151a2d1f9a98fb16230267a6a8d2afd93d1983a23e79868f37a/xia_engine_rest-0.1.12-cp39-none-win_amd64.whl
+[2023-06-29 22:51:32] INFO root fetch - processPackages [linode-cli]: Downloading https://files.pythonhosted.org/packages/40/b5/a0bf4e113c8105221b5eedc38c8c3ab189866517023014ef5c2e08072105/linode_cli-5.9.1-py2.py3-none-any.whl
+[2023-06-29 22:51:32] INFO root fetch - processPackages [django-oscar-bluelight]: executing diffoscope
+[2023-06-29 22:51:32] INFO root fetch - processPackages [django-oscar-bluelight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-oscar-bluelight-5.4.0b5.tar.gz tmp/django-oscar-bluelight-5.4.0rc1.tar.gz --markdown 20230629/d/django-oscar-bluelight/5.4.0b5-5.4.0rc1/diff.md --exclude *.pyd
+[2023-06-29 22:51:32] INFO root fetch - processPackages [xia-engine-sql]: executing diffoscope
+[2023-06-29 22:51:32] INFO root fetch - processPackages [xia-engine-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_sql-0.2.1-cp39-none-win_amd64.whl.zip tmp/xia_engine_sql-0.2.2-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-engine-sql/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-29 22:51:32] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-06-29 22:51:32] INFO root fetch - processPackages [xia-engine-terraform]: Downloading https://files.pythonhosted.org/packages/8d/62/62cdc739cdb20caea5a916db8274734ba8848b9123739fc0a8654692425a/xia_engine_terraform-0.1.17-cp39-none-win_amd64.whl
+[2023-06-29 22:51:32] INFO root fetch - processPackages [xia-engine-rest]: executing diffoscope
+[2023-06-29 22:51:32] INFO root fetch - processPackages [xia-engine-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_rest-0.1.11-cp39-none-win_amd64.whl.zip tmp/xia_engine_rest-0.1.12-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-engine-rest/0.1.11-0.1.12/diff.md --exclude *.pyd
+[2023-06-29 22:51:32] INFO root fetch - processPackages [xia-engine-terraform]: executing diffoscope
+[2023-06-29 22:51:32] INFO root fetch - processPackages [xia-engine-terraform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_terraform-0.1.16-cp39-none-win_amd64.whl.zip tmp/xia_engine_terraform-0.1.17-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-engine-terraform/0.1.16-0.1.17/diff.md --exclude *.pyd
+[2023-06-29 22:51:32] INFO root fetch - processPackages [linode-cli]: executing diffoscope
+[2023-06-29 22:51:32] INFO root fetch - processPackages [linode-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linode_cli-5.9.0-py2.py3-none-any.whl.zip tmp/linode_cli-5.9.1-py2.py3-none-any.whl.zip --markdown 20230629/l/linode-cli/5.9.0-5.9.1/diff.md --exclude *.pyd
+[2023-06-29 22:51:32] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-06-29 22:51:32] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230629/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-29 22:51:33] INFO root fetch - processPackages [xia-engine-firestore]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_firestore-0.3.4-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:51:33] INFO root fetch - processPackages [xia-engine-firestore]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_firestore-0.3.5-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:51:33] INFO root fetch - processPackages [xia-engine-firestore]: Start processing: PCCanalyser
+[2023-06-29 22:51:33] INFO root fetch - main [MainThread]: End processing [xia-engine-firestore]: success
+[2023-06-29 22:51:33] INFO root fetch - processPackages [PCCanalyser]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-29 22:51:33] INFO root fetch - processPackages [rai-benchmark-test]: Remove: archive file [/home/abi/fetcher/tmp/rai_benchmark_test-0.8.tar.gz]
+[2023-06-29 22:51:33] INFO root fetch - processPackages [rai-benchmark-test]: Remove: archive file [/home/abi/fetcher/tmp/rai_benchmark_test-0.9.tar.gz]
+[2023-06-29 22:51:33] INFO root fetch - processPackages [rai-benchmark-test]: Start processing: django-awl
+[2023-06-29 22:51:33] INFO root fetch - main [MainThread]: End processing [rai-benchmark-test]: success
+[2023-06-29 22:51:33] INFO root fetch - processPackages [django-awl]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-06-29 22:51:33] INFO root fetch - processPackages [xia-engine-mysql]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_mysql-0.1.7-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:51:33] INFO root fetch - processPackages [xia-engine-mysql]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_mysql-0.1.8-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:51:33] INFO root fetch - processPackages [xia-engine-mysql]: Start processing: rubika
+[2023-06-29 22:51:33] INFO root fetch - main [MainThread]: End processing [xia-engine-mysql]: success
+[2023-06-29 22:51:33] INFO root fetch - processPackages [PCCanalyser]: Downloading https://files.pythonhosted.org/packages/d8/d3/e3794e97bff0a6ef34bb9fa01f788f5f676f5cf1e84b9324b0b141132a57/PCCanalyser-0.5.0.tar.gz
+[2023-06-29 22:51:33] INFO root fetch - processPackages [xia-engine-rest]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_rest-0.1.11-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:51:33] INFO root fetch - processPackages [xia-engine-rest]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_rest-0.1.12-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:51:33] INFO root fetch - processPackages [xia-engine-rest]: Start processing: policyengine-us
+[2023-06-29 22:51:33] INFO root fetch - main [MainThread]: End processing [xia-engine-rest]: success
+[2023-06-29 22:51:33] INFO root fetch - processPackages [rubika]: New version: [6.6.7] Old Version: [6.6.6]
+[2023-06-29 22:51:33] INFO root fetch - processPackages [xia-engine-terraform]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_terraform-0.1.16-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:51:33] INFO root fetch - processPackages [xia-engine-terraform]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_terraform-0.1.17-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:51:33] INFO root fetch - processPackages [xia-engine-terraform]: Start processing: concept-x-converter
+[2023-06-29 22:51:33] INFO root fetch - main [MainThread]: End processing [xia-engine-terraform]: success
+[2023-06-29 22:51:33] INFO root fetch - processPackages [policyengine-us]: New version: [0.345.9] Old Version: [0.345.8]
+[2023-06-29 22:51:33] INFO root fetch - processPackages [xia-engine-sql]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_sql-0.2.1-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:51:33] INFO root fetch - processPackages [xia-engine-sql]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_sql-0.2.2-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:51:33] INFO root fetch - processPackages [xia-engine-sql]: Start processing: xia-engine-bigquery
+[2023-06-29 22:51:33] INFO root fetch - main [MainThread]: End processing [xia-engine-sql]: success
+[2023-06-29 22:51:33] INFO root fetch - processPackages [concept-x-converter]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-29 22:51:33] INFO root fetch - processPackages [xia-engine-bigquery]: New version: [0.1.12] Old Version: [0.1.11]
+[2023-06-29 22:51:33] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/bf/19/1d276230e19465ac7feef9633938d90f25d7e5f23fbd1ba2c9e1e87b18b9/policyengine-us-0.345.8.tar.gz
+[2023-06-29 22:51:33] INFO root fetch - processPackages [concept-x-converter]: Downloading https://files.pythonhosted.org/packages/5d/fc/756b699a3676bd74d83141271bec62e2da11c04edbed145c87b0fe9679a1/concept_x_converter-0.3.0-cp37-abi3-win_amd64.whl
+[2023-06-29 22:51:33] INFO root fetch - processPackages [django-awl]: Downloading https://files.pythonhosted.org/packages/2c/2d/f10ffd492867694ab807b02ee55cb5b0d74142dc67db285f2de1ecfc2ec1/django-awl-1.8.0.tar.gz
+[2023-06-29 22:51:33] INFO root fetch - processPackages [io-collection]: Remove: archive file [/home/abi/fetcher/tmp/io_collection-0.7.2.tar.gz]
+[2023-06-29 22:51:33] INFO root fetch - processPackages [io-collection]: Remove: archive file [/home/abi/fetcher/tmp/io_collection-0.7.3.tar.gz]
+[2023-06-29 22:51:33] INFO root fetch - processPackages [io-collection]: Start processing: cmflib
+[2023-06-29 22:51:33] INFO root fetch - main [MainThread]: End processing [io-collection]: success
+[2023-06-29 22:51:33] INFO root fetch - processPackages [rubika]: Downloading https://files.pythonhosted.org/packages/24/16/1db264e0e246b9b5f0d9323e60f454a05e46ca4e9e898d3b283dcad8bdfc/rubika-6.6.6.tar.gz
+[2023-06-29 22:51:33] INFO root fetch - processPackages [cmflib]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-29 22:51:33] INFO root fetch - processPackages [PCCanalyser]: Downloading https://files.pythonhosted.org/packages/45/3c/98c5d402409d459f3d23f800d067c0a417b1d657ab211ec52a1347b96988/PCCanalyser-0.5.1.tar.gz
+[2023-06-29 22:51:34] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/3b/8d/d173a89b4fd01437264d48e49289d3bed7dd14f70c08f120638e3a97cc64/policyengine-us-0.345.9.tar.gz
+[2023-06-29 22:51:34] INFO root fetch - processPackages [xia-engine-bigquery]: Downloading https://files.pythonhosted.org/packages/2b/1a/a8508773852d77ca107c93035816616711b2f3502e590e9f8076ad4be97d/xia_engine_bigquery-0.1.11-cp39-none-win_amd64.whl
+[2023-06-29 22:51:34] INFO root fetch - processPackages [PCCanalyser]: executing diffoscope
+[2023-06-29 22:51:34] INFO root fetch - processPackages [PCCanalyser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PCCanalyser-0.5.0.tar.gz tmp/PCCanalyser-0.5.1.tar.gz --markdown 20230629/P/PCCanalyser/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-29 22:51:34] INFO root fetch - processPackages [concept-x-converter]: Downloading https://files.pythonhosted.org/packages/df/71/05548307b80952378de99ca785741ef39b8b611924879591853dcf7da4ab/concept_x_converter-0.3.1-cp37-abi3-win_amd64.whl
+[2023-06-29 22:51:34] INFO root fetch - processPackages [cmflib]: Downloading https://files.pythonhosted.org/packages/78/9a/e1b3ab870549250a7bc10842b99dd1b84e503309acb969caf75d10dae921/cmflib-0.0.3.tar.gz
+[2023-06-29 22:51:34] INFO root fetch - processPackages [django-awl]: Downloading https://files.pythonhosted.org/packages/97/60/69f1bcdfab2589367224b0582efb0269e1f83b5a6023f2e49b21b1512866/django-awl-1.8.1.tar.gz
+[2023-06-29 22:51:34] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-06-29 22:51:34] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.345.8.tar.gz tmp/policyengine-us-0.345.9.tar.gz --markdown 20230629/p/policyengine-us/0.345.8-0.345.9/diff.md --exclude *.pyd
+[2023-06-29 22:51:34] INFO root fetch - processPackages [rubika]: Downloading https://files.pythonhosted.org/packages/8d/6d/796614f0967887417d96e7d8ff338377baeb80c3dabf82e8254375e6c86b/rubika-6.6.7.tar.gz
+[2023-06-29 22:51:34] INFO root fetch - processPackages [django-awl]: executing diffoscope
+[2023-06-29 22:51:34] INFO root fetch - processPackages [django-awl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-awl-1.8.0.tar.gz tmp/django-awl-1.8.1.tar.gz --markdown 20230629/d/django-awl/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-06-29 22:51:34] INFO root fetch - processPackages [concept-x-converter]: executing diffoscope
+[2023-06-29 22:51:34] INFO root fetch - processPackages [concept-x-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concept_x_converter-0.3.0-cp37-abi3-win_amd64.whl.zip tmp/concept_x_converter-0.3.1-cp37-abi3-win_amd64.whl.zip --markdown 20230629/c/concept-x-converter/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-29 22:51:34] INFO root fetch - processPackages [xia-engine-bigquery]: Downloading https://files.pythonhosted.org/packages/6f/b3/924ecb22171c91991d3417970a2d3ab81895e53f71d1597032d98a668416/xia_engine_bigquery-0.1.12-cp39-none-win_amd64.whl
+[2023-06-29 22:51:34] INFO root fetch - processPackages [rubika]: executing diffoscope
+[2023-06-29 22:51:34] INFO root fetch - processPackages [rubika]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubika-6.6.6.tar.gz tmp/rubika-6.6.7.tar.gz --markdown 20230629/r/rubika/6.6.6-6.6.7/diff.md --exclude *.pyd
+[2023-06-29 22:51:34] INFO root fetch - processPackages [cmflib]: Downloading https://files.pythonhosted.org/packages/72/93/934bed7a9c06ca07f5f2fccdb0ed4bb4ec22ef3b7dc984c1e904ec3930d3/cmflib-0.0.4.tar.gz
+[2023-06-29 22:51:34] INFO root fetch - processPackages [xia-engine-bigquery]: executing diffoscope
+[2023-06-29 22:51:34] INFO root fetch - processPackages [xia-engine-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_bigquery-0.1.11-cp39-none-win_amd64.whl.zip tmp/xia_engine_bigquery-0.1.12-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-engine-bigquery/0.1.11-0.1.12/diff.md --exclude *.pyd
+[2023-06-29 22:51:34] INFO root fetch - processPackages [cmflib]: executing diffoscope
+[2023-06-29 22:51:34] INFO root fetch - processPackages [cmflib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmflib-0.0.3.tar.gz tmp/cmflib-0.0.4.tar.gz --markdown 20230629/c/cmflib/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-29 22:51:35] INFO root fetch - processPackages [concept-x-converter]: Remove: archive file [/home/abi/fetcher/tmp/concept_x_converter-0.3.0-cp37-abi3-win_amd64.whl.zip]
+[2023-06-29 22:51:35] INFO root fetch - processPackages [concept-x-converter]: Remove: archive file [/home/abi/fetcher/tmp/concept_x_converter-0.3.1-cp37-abi3-win_amd64.whl.zip]
+[2023-06-29 22:51:35] INFO root fetch - processPackages [concept-x-converter]: Start processing: xia-engine-terraform-gcs
+[2023-06-29 22:51:35] INFO root fetch - main [MainThread]: End processing [concept-x-converter]: success
+[2023-06-29 22:51:35] INFO root fetch - processPackages [xia-engine-terraform-gcs]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-29 22:51:35] INFO root fetch - processPackages [django-awl]: Remove: archive file [/home/abi/fetcher/tmp/django-awl-1.8.0.tar.gz]
+[2023-06-29 22:51:35] INFO root fetch - processPackages [django-awl]: Remove: archive file [/home/abi/fetcher/tmp/django-awl-1.8.1.tar.gz]
+[2023-06-29 22:51:35] INFO root fetch - processPackages [django-awl]: Start processing: hssm
+[2023-06-29 22:51:35] INFO root fetch - main [MainThread]: End processing [django-awl]: success
+[2023-06-29 22:51:35] INFO root fetch - processPackages [rubika]: Remove: archive file [/home/abi/fetcher/tmp/rubika-6.6.6.tar.gz]
+[2023-06-29 22:51:35] INFO root fetch - processPackages [rubika]: Remove: archive file [/home/abi/fetcher/tmp/rubika-6.6.7.tar.gz]
+[2023-06-29 22:51:35] INFO root fetch - processPackages [rubika]: Start processing: pyMELTScalc
+[2023-06-29 22:51:35] INFO root fetch - main [MainThread]: End processing [rubika]: success
+[2023-06-29 22:51:35] INFO root fetch - processPackages [pyMELTScalc]: New version: [0.1.22] Old Version: [0.1.21]
+[2023-06-29 22:51:35] WARNING root fetch - processPackages [hssm]: Skipping, unable to determine old version
+[2023-06-29 22:51:35] INFO root fetch - processPackages [hssm]: Start processing: autopack-tools
+[2023-06-29 22:51:35] INFO root fetch - main [MainThread]: End processing [hssm] error
+[2023-06-29 22:51:35] INFO root fetch - processPackages [autopack-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 22:51:35] INFO root fetch - processPackages [xia-engine-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_bigquery-0.1.11-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:51:35] INFO root fetch - processPackages [xia-engine-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_bigquery-0.1.12-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:51:35] INFO root fetch - processPackages [xia-engine-bigquery]: Start processing: exif2pandas
+[2023-06-29 22:51:35] INFO root fetch - main [MainThread]: End processing [xia-engine-bigquery]: success
+[2023-06-29 22:51:35] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/ef/0c/f57d60eb05dae4cba5d661461902b4a48bcf09ed761732d4d1b06da5e1ec/autopack_tools-0.1.8.tar.gz
+[2023-06-29 22:51:35] INFO root fetch - processPackages [exif2pandas]: New version: [2.0] Old Version: [1.5]
+[2023-06-29 22:51:35] INFO root fetch - processPackages [xia-engine-terraform-gcs]: Downloading https://files.pythonhosted.org/packages/4f/d0/14c46799e13c1b8f40e94d8357f0c04bfd1ec6a56890ea451a816b06c8f3/xia_engine_terraform_gcs-0.1.1-cp39-none-win_amd64.whl
+[2023-06-29 22:51:35] INFO root fetch - processPackages [pyMELTScalc]: Downloading https://files.pythonhosted.org/packages/7e/fa/6663ac3e04a5ee2ffe5a06bc5595379cc594114810d679d53c672fa6ced6/pyMELTScalc-0.1.21.tar.gz
+[2023-06-29 22:51:35] INFO root fetch - processPackages [PCCanalyser]: Remove: archive file [/home/abi/fetcher/tmp/PCCanalyser-0.5.0.tar.gz]
+[2023-06-29 22:51:35] INFO root fetch - processPackages [PCCanalyser]: Remove: archive file [/home/abi/fetcher/tmp/PCCanalyser-0.5.1.tar.gz]
+[2023-06-29 22:51:35] INFO root fetch - processPackages [PCCanalyser]: Start processing: pulumi-fivetran
+[2023-06-29 22:51:35] INFO root fetch - main [MainThread]: End processing [PCCanalyser]: success
+[2023-06-29 22:51:35] INFO root fetch - processPackages [pulumi-fivetran]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-06-29 22:51:35] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/bc/2e/f0d8e8182bf7f585a96ee564c6c8516419f3a7e7ef764e3e0cc4ac7831ba/autopack_tools-0.1.9.tar.gz
+[2023-06-29 22:51:36] INFO root fetch - processPackages [cmflib]: Remove: archive file [/home/abi/fetcher/tmp/cmflib-0.0.3.tar.gz]
+[2023-06-29 22:51:36] INFO root fetch - processPackages [cmflib]: Remove: archive file [/home/abi/fetcher/tmp/cmflib-0.0.4.tar.gz]
+[2023-06-29 22:51:36] INFO root fetch - processPackages [cmflib]: Start processing: xia-engine-test
+[2023-06-29 22:51:36] INFO root fetch - main [MainThread]: End processing [cmflib]: success
+[2023-06-29 22:51:36] INFO root fetch - processPackages [exif2pandas]: Downloading https://files.pythonhosted.org/packages/f0/6b/a8e8fbb0115713e9e8dbea9e796a249ca84cae58f14141e28cc742639ffd/exif2pandas-1.5.tar.gz
+[2023-06-29 22:51:36] INFO root fetch - processPackages [xia-engine-test]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-29 22:51:36] INFO root fetch - processPackages [autopack-tools]: executing diffoscope
+[2023-06-29 22:51:36] INFO root fetch - processPackages [autopack-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopack_tools-0.1.8.tar.gz tmp/autopack_tools-0.1.9.tar.gz --markdown 20230629/a/autopack-tools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 22:51:36] INFO root fetch - processPackages [xia-engine-terraform-gcs]: Downloading https://files.pythonhosted.org/packages/16/aa/26af65c7ee906795b9bc612c739f179e826e9af6787d76030ce4aa2c9385/xia_engine_terraform_gcs-0.1.2-cp39-none-win_amd64.whl
+[2023-06-29 22:51:36] INFO root fetch - processPackages [pulumi-fivetran]: Downloading https://files.pythonhosted.org/packages/f7/b3/1ec544994c4a16e68506a4cc2eb8ff81086a3da824daefc8818f5c2b21a8/pulumi_fivetran-0.1.6.tar.gz
+[2023-06-29 22:51:36] INFO root fetch - processPackages [linode-cli]: Remove: archive file [/home/abi/fetcher/tmp/linode_cli-5.9.0-py2.py3-none-any.whl.zip]
+[2023-06-29 22:51:36] INFO root fetch - processPackages [linode-cli]: Remove: archive file [/home/abi/fetcher/tmp/linode_cli-5.9.1-py2.py3-none-any.whl.zip]
+[2023-06-29 22:51:36] INFO root fetch - processPackages [linode-cli]: Start processing: pdm-utils
+[2023-06-29 22:51:36] INFO root fetch - main [MainThread]: End processing [linode-cli]: success
+[2023-06-29 22:51:36] INFO root fetch - processPackages [pyMELTScalc]: Downloading https://files.pythonhosted.org/packages/ec/24/bb0aefd1e0cc5eceac2f90535ed1583ae03c070817c006c29efbe733fb5d/pyMELTScalc-0.1.22.tar.gz
+[2023-06-29 22:51:36] INFO root fetch - processPackages [pdm-utils]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-29 22:51:36] INFO root fetch - processPackages [xia-engine-terraform-gcs]: executing diffoscope
+[2023-06-29 22:51:36] INFO root fetch - processPackages [xia-engine-terraform-gcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_terraform_gcs-0.1.1-cp39-none-win_amd64.whl.zip tmp/xia_engine_terraform_gcs-0.1.2-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-engine-terraform-gcs/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-29 22:51:36] INFO root fetch - processPackages [pdm-utils]: Downloading https://files.pythonhosted.org/packages/d8/68/de145d0e376f505a7bd97a6f9d4fc19c1374dbb120c0f21b2141fcef88c7/pdm_utils-1.1.2.tar.gz
+[2023-06-29 22:51:36] INFO root fetch - processPackages [pyMELTScalc]: executing diffoscope
+[2023-06-29 22:51:36] INFO root fetch - processPackages [pyMELTScalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyMELTScalc-0.1.21.tar.gz tmp/pyMELTScalc-0.1.22.tar.gz --markdown 20230629/p/pyMELTScalc/0.1.21-0.1.22/diff.md --exclude *.pyd
+[2023-06-29 22:51:36] INFO root fetch - processPackages [xia-engine-test]: Downloading https://files.pythonhosted.org/packages/63/24/8b3222ef6308c87ce0a3a00339a30e9acf3662fd3b68a38ce4ad13c1975e/xia_engine_test-0.1.2-cp39-none-win_amd64.whl
+[2023-06-29 22:51:36] INFO root fetch - processPackages [exif2pandas]: Downloading https://files.pythonhosted.org/packages/c3/19/4cd06968d6e8743b6f903df3861356982523cb5c29c86828a92ca4b0f05b/exif2pandas-2.0.tar.gz
+[2023-06-29 22:51:36] INFO root fetch - processPackages [pulumi-fivetran]: Downloading https://files.pythonhosted.org/packages/0f/d2/ba421728280fdf5a34bffde0bbd6e4a0b698fbd2f2725cbbd32727b02ebc/pulumi_fivetran-0.1.8.tar.gz
+[2023-06-29 22:51:36] INFO root fetch - processPackages [exif2pandas]: executing diffoscope
+[2023-06-29 22:51:36] INFO root fetch - processPackages [exif2pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exif2pandas-1.5.tar.gz tmp/exif2pandas-2.0.tar.gz --markdown 20230629/e/exif2pandas/1.5-2.0/diff.md --exclude *.pyd
+[2023-06-29 22:51:36] INFO root fetch - processPackages [pdm-utils]: Downloading https://files.pythonhosted.org/packages/91/c2/9aaebbc0ef06005bdabb306e6436b057d446a1b427cf910b289a000c88f0/pdm_utils-1.1.3.tar.gz
+[2023-06-29 22:51:36] INFO root fetch - processPackages [pulumi-fivetran]: executing diffoscope
+[2023-06-29 22:51:36] INFO root fetch - processPackages [pulumi-fivetran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fivetran-0.1.6.tar.gz tmp/pulumi_fivetran-0.1.8.tar.gz --markdown 20230629/p/pulumi-fivetran/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-06-29 22:51:36] INFO root fetch - processPackages [xia-engine-test]: Downloading https://files.pythonhosted.org/packages/0a/ef/416c81f4c1bdd7a3c2fb0390137e1e072c0046349407f1ae8f4b9e9e7fdf/xia_engine_test-0.1.3-cp39-none-win_amd64.whl
+[2023-06-29 22:51:36] INFO root fetch - processPackages [pdm-utils]: executing diffoscope
+[2023-06-29 22:51:36] INFO root fetch - processPackages [pdm-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_utils-1.1.2.tar.gz tmp/pdm_utils-1.1.3.tar.gz --markdown 20230629/p/pdm-utils/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-29 22:51:36] INFO root fetch - processPackages [xia-engine-test]: executing diffoscope
+[2023-06-29 22:51:36] INFO root fetch - processPackages [xia-engine-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_test-0.1.2-cp39-none-win_amd64.whl.zip tmp/xia_engine_test-0.1.3-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-engine-test/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-29 22:51:36] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-06-29 22:51:36] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-06-29 22:51:37] INFO root fetch - processPackages [cdk-sops-secrets]: Start processing: xia-fields
+[2023-06-29 22:51:37] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-06-29 22:51:37] INFO root fetch - processPackages [xia-fields]: New version: [0.3.12] Old Version: [0.3.11]
+[2023-06-29 22:51:37] INFO root fetch - processPackages [xia-fields]: Downloading https://files.pythonhosted.org/packages/4f/df/804a463af2c16ca333b5a438e530ce08e2c3242737cac95369acd9e06170/xia_fields-0.3.11-cp39-none-win_amd64.whl
+[2023-06-29 22:51:37] INFO root fetch - processPackages [xia-engine-terraform-gcs]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_terraform_gcs-0.1.1-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:51:37] INFO root fetch - processPackages [xia-engine-terraform-gcs]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_terraform_gcs-0.1.2-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:51:37] INFO root fetch - processPackages [xia-engine-terraform-gcs]: Start processing: xia-fields-network
+[2023-06-29 22:51:37] INFO root fetch - main [MainThread]: End processing [xia-engine-terraform-gcs]: success
+[2023-06-29 22:51:37] INFO root fetch - processPackages [xia-fields-network]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-29 22:51:37] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.1.8.tar.gz]
+[2023-06-29 22:51:37] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.1.9.tar.gz]
+[2023-06-29 22:51:37] INFO root fetch - processPackages [autopack-tools]: Start processing: terrascope-api
+[2023-06-29 22:51:37] INFO root fetch - main [MainThread]: End processing [autopack-tools]: success
+[2023-06-29 22:51:37] INFO root fetch - processPackages [xia-fields]: Downloading https://files.pythonhosted.org/packages/b0/6d/eeec6b02aaf9652ec3fd1db981e3577797e52f54e42ff8a525e5cfcc8c4b/xia_fields-0.3.12-cp39-none-win_amd64.whl
+[2023-06-29 22:51:37] INFO root fetch - processPackages [terrascope-api]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-29 22:51:37] INFO root fetch - processPackages [xia-fields-network]: Downloading https://files.pythonhosted.org/packages/fc/be/41bff01044bf65210aea98448c677f0c1e43be4cadb031f5358952522e0a/xia_fields_network-0.0.3-cp39-none-win_amd64.whl
+[2023-06-29 22:51:37] INFO root fetch - processPackages [xia-fields]: executing diffoscope
+[2023-06-29 22:51:37] INFO root fetch - processPackages [xia-fields]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_fields-0.3.11-cp39-none-win_amd64.whl.zip tmp/xia_fields-0.3.12-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-fields/0.3.11-0.3.12/diff.md --exclude *.pyd
+[2023-06-29 22:51:37] INFO root fetch - processPackages [terrascope-api]: Downloading https://files.pythonhosted.org/packages/e6/78/55b9800fc35e6abd6bf69f420f453b05547714e35ad56598ff3d42509319/terrascope-api-1.0.4.tar.gz
+[2023-06-29 22:51:38] INFO root fetch - processPackages [django-oscar-bluelight]: Remove: archive file [/home/abi/fetcher/tmp/django-oscar-bluelight-5.4.0b5.tar.gz]
+[2023-06-29 22:51:38] INFO root fetch - processPackages [django-oscar-bluelight]: Remove: archive file [/home/abi/fetcher/tmp/django-oscar-bluelight-5.4.0rc1.tar.gz]
+[2023-06-29 22:51:38] INFO root fetch - processPackages [django-oscar-bluelight]: Start processing: xia-git
+[2023-06-29 22:51:38] INFO root fetch - main [MainThread]: End processing [django-oscar-bluelight]: success
+[2023-06-29 22:51:38] INFO root fetch - processPackages [xia-fields-network]: Downloading https://files.pythonhosted.org/packages/42/89/2fe1b58612895a4160b69d2916c63e7ccee1591239ea8b9bdba449b1731d/xia_fields_network-0.0.4-cp39-none-win_amd64.whl
+[2023-06-29 22:51:38] INFO root fetch - processPackages [xia-git]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-29 22:51:38] INFO root fetch - processPackages [terrascope-api]: Downloading https://files.pythonhosted.org/packages/81/ae/b1db15ffd6afefdd9d5ae66d22be90a85424e6513a5bcdc93b146c59b396/terrascope-api-1.0.5.tar.gz
+[2023-06-29 22:51:38] INFO root fetch - processPackages [xia-engine-test]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_test-0.1.2-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:51:38] INFO root fetch - processPackages [xia-engine-test]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_test-0.1.3-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:51:38] INFO root fetch - processPackages [xia-engine-test]: Start processing: xia-git-gitlab
+[2023-06-29 22:51:38] INFO root fetch - main [MainThread]: End processing [xia-engine-test]: success
+[2023-06-29 22:51:38] INFO root fetch - processPackages [xia-fields-network]: executing diffoscope
+[2023-06-29 22:51:38] INFO root fetch - processPackages [xia-fields-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_fields_network-0.0.3-cp39-none-win_amd64.whl.zip tmp/xia_fields_network-0.0.4-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-fields-network/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-29 22:51:38] INFO root fetch - processPackages [terrascope-api]: executing diffoscope
+[2023-06-29 22:51:38] INFO root fetch - processPackages [terrascope-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrascope-api-1.0.4.tar.gz tmp/terrascope-api-1.0.5.tar.gz --markdown 20230629/t/terrascope-api/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-29 22:51:38] INFO root fetch - processPackages [xia-git]: Downloading https://files.pythonhosted.org/packages/d4/4a/9e832e5898a85c4b755e3b3d782a4c06c85840a1c417fc0eabe0e436a883/xia_git-0.1.2-cp39-none-win_amd64.whl
+[2023-06-29 22:51:38] INFO root fetch - processPackages [xia-git-gitlab]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 22:51:38] INFO root fetch - processPackages [exif2pandas]: Remove: archive file [/home/abi/fetcher/tmp/exif2pandas-1.5.tar.gz]
+[2023-06-29 22:51:38] INFO root fetch - processPackages [exif2pandas]: Remove: archive file [/home/abi/fetcher/tmp/exif2pandas-2.0.tar.gz]
+[2023-06-29 22:51:38] INFO root fetch - processPackages [exif2pandas]: Start processing: rubika
+[2023-06-29 22:51:38] INFO root fetch - main [MainThread]: End processing [exif2pandas]: success
+[2023-06-29 22:51:38] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/92/b1/f665930988976d735c90a8c003aeba5c20bea03bd96a8d030f2ed2c2f9fc/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl
+[2023-06-29 22:51:38] INFO root fetch - processPackages [rubika]: New version: [6.6.8] Old Version: [6.6.7]
+[2023-06-29 22:51:38] INFO root fetch - processPackages [pulumi-fivetran]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fivetran-0.1.6.tar.gz]
+[2023-06-29 22:51:38] INFO root fetch - processPackages [pulumi-fivetran]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fivetran-0.1.8.tar.gz]
+[2023-06-29 22:51:38] INFO root fetch - processPackages [pulumi-fivetran]: Start processing: xia-gpt
+[2023-06-29 22:51:38] INFO root fetch - main [MainThread]: End processing [pulumi-fivetran]: success
+[2023-06-29 22:51:38] INFO root fetch - processPackages [rubika]: Downloading https://files.pythonhosted.org/packages/8d/6d/796614f0967887417d96e7d8ff338377baeb80c3dabf82e8254375e6c86b/rubika-6.6.7.tar.gz
+[2023-06-29 22:51:38] INFO root fetch - processPackages [pyMELTScalc]: Remove: archive file [/home/abi/fetcher/tmp/pyMELTScalc-0.1.21.tar.gz]
+[2023-06-29 22:51:38] INFO root fetch - processPackages [pyMELTScalc]: Remove: archive file [/home/abi/fetcher/tmp/pyMELTScalc-0.1.22.tar.gz]
+[2023-06-29 22:51:38] INFO root fetch - processPackages [pyMELTScalc]: Start processing: xia-gpt-openai
+[2023-06-29 22:51:38] INFO root fetch - main [MainThread]: End processing [pyMELTScalc]: success
+[2023-06-29 22:51:38] INFO root fetch - processPackages [xia-gpt]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-29 22:51:38] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/75/bf/b4b1fd4ce01d8bdefccc982d9d85c0794307e529b68823871084d0ef833e/xia_git_gitlab-0.1.9-cp39-none-win_amd64.whl
+[2023-06-29 22:51:38] INFO root fetch - processPackages [xia-gpt-openai]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-29 22:51:38] INFO root fetch - processPackages [xia-git]: Downloading https://files.pythonhosted.org/packages/8c/fe/48fe313978f380851ebe6fb88a11ab343d492364b80d730dd84833a82aea/xia_git-0.1.3-cp39-none-macosx_11_0_x86_64.whl
+[2023-06-29 22:51:38] INFO root fetch - processPackages [xia-git]: executing diffoscope
+[2023-06-29 22:51:38] INFO root fetch - processPackages [xia-git]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_git-0.1.2-cp39-none-win_amd64.whl.zip tmp/xia_git-0.1.3-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230629/x/xia-git/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-29 22:51:38] INFO root fetch - processPackages [xia-gpt]: Downloading https://files.pythonhosted.org/packages/a3/bd/5a9e5f7afa9bfc01e34219e830e7ef494042c2a11bc56c659edfee565929/xia_gpt-0.1.1-cp39-none-win_amd64.whl
+[2023-06-29 22:51:38] INFO root fetch - processPackages [pdm-utils]: Remove: archive file [/home/abi/fetcher/tmp/pdm_utils-1.1.2.tar.gz]
+[2023-06-29 22:51:38] INFO root fetch - processPackages [pdm-utils]: Remove: archive file [/home/abi/fetcher/tmp/pdm_utils-1.1.3.tar.gz]
+[2023-06-29 22:51:38] INFO root fetch - main [MainThread]: End processing [pdm-utils]: success
+[2023-06-29 22:51:38] INFO root fetch - processPackages [rubika]: Downloading https://files.pythonhosted.org/packages/91/34/80ec778696f24341d0a2a94abf10554a6dcf3a933ed80359d7460586116b/rubika-6.6.8.tar.gz
+[2023-06-29 22:51:38] INFO root fetch - processPackages [xia-gpt-openai]: Downloading https://files.pythonhosted.org/packages/97/7e/ee913d536a61b8f85d8648c67f5d32e27b6fc2a84a12b04342578aa2cb3a/xia_gpt_openai-0.1.0-cp39-none-win_amd64.whl
+[2023-06-29 22:51:38] INFO root fetch - processPackages [xia-git-gitlab]: executing diffoscope
+[2023-06-29 22:51:38] INFO root fetch - processPackages [xia-git-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl.zip tmp/xia_git_gitlab-0.1.9-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-git-gitlab/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 22:51:38] INFO root fetch - processPackages [rubika]: executing diffoscope
+[2023-06-29 22:51:38] INFO root fetch - processPackages [rubika]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubika-6.6.7.tar.gz tmp/rubika-6.6.8.tar.gz --markdown 20230629/r/rubika/6.6.7-6.6.8/diff.md --exclude *.pyd
+[2023-06-29 22:51:38] INFO root fetch - processPackages [xia-gpt]: Downloading https://files.pythonhosted.org/packages/fe/64/e6727aea10776600d9b55298fddc48a62f798177f133ac755212de4324ac/xia_gpt-0.1.2-cp39-none-macosx_11_0_x86_64.whl
+[2023-06-29 22:51:38] INFO root fetch - processPackages [xia-gpt-openai]: Downloading https://files.pythonhosted.org/packages/6b/32/6fea4247d72e4327ca2fd43f23140873472dde9062c332d4e0fce0e62909/xia_gpt_openai-0.1.1-cp39-none-macosx_11_0_x86_64.whl
+[2023-06-29 22:51:39] INFO root fetch - processPackages [xia-gpt]: executing diffoscope
+[2023-06-29 22:51:39] INFO root fetch - processPackages [xia-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_gpt-0.1.1-cp39-none-win_amd64.whl.zip tmp/xia_gpt-0.1.2-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230629/x/xia-gpt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-29 22:51:39] INFO root fetch - processPackages [xia-gpt-openai]: executing diffoscope
+[2023-06-29 22:51:39] INFO root fetch - processPackages [xia-gpt-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_gpt_openai-0.1.0-cp39-none-win_amd64.whl.zip tmp/xia_gpt_openai-0.1.1-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230629/x/xia-gpt-openai/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-29 22:51:39] INFO root fetch - processPackages [xia-fields]: Remove: archive file [/home/abi/fetcher/tmp/xia_fields-0.3.11-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:51:39] INFO root fetch - processPackages [xia-fields]: Remove: archive file [/home/abi/fetcher/tmp/xia_fields-0.3.12-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:51:39] INFO root fetch - main [MainThread]: End processing [xia-fields]: success
+[2023-06-29 22:51:39] INFO root fetch - processPackages [xia-fields-network]: Remove: archive file [/home/abi/fetcher/tmp/xia_fields_network-0.0.3-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:51:39] INFO root fetch - processPackages [xia-fields-network]: Remove: archive file [/home/abi/fetcher/tmp/xia_fields_network-0.0.4-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:51:39] INFO root fetch - main [MainThread]: End processing [xia-fields-network]: success
+[2023-06-29 22:51:39] INFO root fetch - processPackages [xia-git]: Remove: archive file [/home/abi/fetcher/tmp/xia_git-0.1.2-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:51:39] INFO root fetch - processPackages [xia-git]: Remove: archive file [/home/abi/fetcher/tmp/xia_git-0.1.3-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-06-29 22:51:39] INFO root fetch - main [MainThread]: End processing [xia-git]: success
+[2023-06-29 22:51:39] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:51:39] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.9-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:51:39] INFO root fetch - main [MainThread]: End processing [xia-git-gitlab]: success
+[2023-06-29 22:51:40] INFO root fetch - processPackages [terrascope-api]: Remove: archive file [/home/abi/fetcher/tmp/terrascope-api-1.0.4.tar.gz]
+[2023-06-29 22:51:40] INFO root fetch - processPackages [terrascope-api]: Remove: archive file [/home/abi/fetcher/tmp/terrascope-api-1.0.5.tar.gz]
+[2023-06-29 22:51:40] INFO root fetch - main [MainThread]: End processing [terrascope-api]: success
+[2023-06-29 22:51:40] INFO root fetch - processPackages [xia-gpt]: Remove: archive file [/home/abi/fetcher/tmp/xia_gpt-0.1.1-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:51:40] INFO root fetch - processPackages [xia-gpt]: Remove: archive file [/home/abi/fetcher/tmp/xia_gpt-0.1.2-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-06-29 22:51:40] INFO root fetch - main [MainThread]: End processing [xia-gpt]: success
+[2023-06-29 22:51:40] INFO root fetch - processPackages [xia-gpt-openai]: Remove: archive file [/home/abi/fetcher/tmp/xia_gpt_openai-0.1.0-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:51:40] INFO root fetch - processPackages [xia-gpt-openai]: Remove: archive file [/home/abi/fetcher/tmp/xia_gpt_openai-0.1.1-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-06-29 22:51:40] INFO root fetch - main [MainThread]: End processing [xia-gpt-openai]: success
+[2023-06-29 22:51:40] INFO root fetch - processPackages [rubika]: Remove: archive file [/home/abi/fetcher/tmp/rubika-6.6.7.tar.gz]
+[2023-06-29 22:51:40] INFO root fetch - processPackages [rubika]: Remove: archive file [/home/abi/fetcher/tmp/rubika-6.6.8.tar.gz]
+[2023-06-29 22:51:40] INFO root fetch - main [MainThread]: End processing [rubika]: success
+[2023-06-29 22:52:55] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.345.8.tar.gz]
+[2023-06-29 22:52:55] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.345.9.tar.gz]
+[2023-06-29 22:52:55] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-06-29 22:52:55] INFO root fetch - main [MainThread]: Store serial: [18700652]
