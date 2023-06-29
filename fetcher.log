@@ -9826,3 +9826,189 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 14:28:20] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-06-29 14:28:21] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-06-29 14:28:21] INFO root fetch - main [MainThread]: Store serial: [18694814]
+[2023-06-29 14:33:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18694814]
+[2023-06-29 14:33:31] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-29 14:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moto
+[2023-06-29 14:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rtdip-sdk
+[2023-06-29 14:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moto
+[2023-06-29 14:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cbra
+[2023-06-29 14:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sdc-dp-helpers
+[2023-06-29 14:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kuryr-tempest-plugin
+[2023-06-29 14:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: icotest-voice
+[2023-06-29 14:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rope
+[2023-06-29 14:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: regrez
+[2023-06-29 14:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyconvox
+[2023-06-29 14:33:31] INFO root fetch - processPackages [rtdip-sdk]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-29 14:33:31] INFO root fetch - processPackages [pyconvox]: New version: [2.0.0.dev0] Old Version: [0.2.3]
+[2023-06-29 14:33:31] INFO root fetch - processPackages [icotest-voice]: New version: [1.0.37] Old Version: [1.0.36]
+[2023-06-29 14:33:31] INFO root fetch - processPackages [rope]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-29 14:33:31] INFO root fetch - processPackages [kuryr-tempest-plugin]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-29 14:33:31] INFO root fetch - processPackages [sdc-dp-helpers]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-29 14:33:31] INFO root fetch - processPackages [cbra]: New version: [3.0.0a7] Old Version: [2.0.0a99]
+[2023-06-29 14:33:31] INFO root fetch - processPackages [regrez]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-29 14:33:31] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-06-29 14:33:31] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-06-29 14:33:31] INFO root fetch - processPackages [regrez]: Downloading https://files.pythonhosted.org/packages/30/83/0466df631590f4eed3179dffafdf9c3972c8b3dd501cfb4e770fe8521f55/regrez-1.0.4.tar.gz
+[2023-06-29 14:33:31] INFO root fetch - processPackages [pyconvox]: Downloading https://files.pythonhosted.org/packages/85/c7/dcae1a328e56eddfb0736d7e4291871d552b4dc3f8eb20253636bcf1e531/pyconvox-0.2.3.tar.gz
+[2023-06-29 14:33:31] INFO root fetch - processPackages [cbra]: Downloading https://files.pythonhosted.org/packages/af/88/3a153e5aa2b82ead874b96b5f03840a68acf0a2fd0a8e77b0e770c40e5a0/cbra-2.0.0a99.tar.gz
+[2023-06-29 14:33:31] INFO root fetch - processPackages [rope]: Downloading https://files.pythonhosted.org/packages/f1/69/40583ae5bbdfca2a9a4db7ff68f90b4a91dd0f93536afe5a58c44ba2256a/rope-1.8.0.tar.gz
+[2023-06-29 14:33:31] INFO root fetch - processPackages [sdc-dp-helpers]: Downloading https://files.pythonhosted.org/packages/7e/ad/205d20086e8b60aab6e03aeedd376212de7a75d4d1e9de8045008b3184e9/sdc_dp_helpers-1.3.8.tar.gz
+[2023-06-29 14:33:31] INFO root fetch - processPackages [icotest-voice]: Downloading https://files.pythonhosted.org/packages/06/66/c613af86cd57a434ad1f78df2f43e24f014bfc2ae9af1a2164931a843d59/icotest-voice-1.0.36.tar.gz
+[2023-06-29 14:33:31] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-06-29 14:33:31] INFO root fetch - processPackages [kuryr-tempest-plugin]: Downloading https://files.pythonhosted.org/packages/00/31/37356c1ec2732e594df92ec93e367313e4adddb29e85fd120481b79a5ea4/kuryr-tempest-plugin-0.8.0.tar.gz
+[2023-06-29 14:33:31] INFO root fetch - processPackages [rtdip-sdk]: Downloading https://files.pythonhosted.org/packages/d5/30/8361334779bd269b613cb3dfc12926ff40c8c35bb8e10ea197457090ed28/rtdip-sdk-0.5.0.tar.gz
+[2023-06-29 14:33:31] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-06-29 14:33:31] WARNING root fetch - processPackages [rtdip-sdk]: Skipping package: exceeds size limit 14619386>=10485760
+[2023-06-29 14:33:31] INFO root fetch - processPackages [rtdip-sdk]: Start processing: joeflow
+[2023-06-29 14:33:31] INFO root fetch - main [MainThread]: End processing [rtdip-sdk] error
+[2023-06-29 14:33:31] INFO root fetch - processPackages [regrez]: Downloading https://files.pythonhosted.org/packages/aa/71/15f99f87550bc4e8604ea3c345226bfd21a37bc9fb5b3e90c06f0e20fee0/regrez-1.0.5.tar.gz
+[2023-06-29 14:33:31] INFO root fetch - processPackages [joeflow]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-29 14:33:31] INFO root fetch - processPackages [cbra]: Downloading https://files.pythonhosted.org/packages/e3/30/881c6ff6126ad5e84aee92c87271280498b0d03f3c7ad7ca93e0e0fd381b/cbra-3.0.0a7.tar.gz
+[2023-06-29 14:33:31] INFO root fetch - processPackages [pyconvox]: Downloading https://files.pythonhosted.org/packages/1c/9e/354f9b2322d4508d2292ab678efa165a52eee7400027cac23d81606753ad/pyconvox-2.0.0.dev0.tar.gz
+[2023-06-29 14:33:31] INFO root fetch - processPackages [regrez]: executing diffoscope
+[2023-06-29 14:33:31] INFO root fetch - processPackages [regrez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regrez-1.0.4.tar.gz tmp/regrez-1.0.5.tar.gz --markdown 20230629/r/regrez/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-29 14:33:31] INFO root fetch - processPackages [rope]: Downloading https://files.pythonhosted.org/packages/3d/1f/d61b1e57a148cbc7c0d01437df44d276bed97bf043efb81abbeba1ba0a8c/rope-1.9.0.tar.gz
+[2023-06-29 14:33:31] INFO root fetch - processPackages [icotest-voice]: Downloading https://files.pythonhosted.org/packages/e1/72/1cf5428aa904db67de0e0757dc70d825d169bfa673ba81d88e0991fca973/icotest-voice-1.0.37.tar.gz
+[2023-06-29 14:33:31] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-06-29 14:33:31] INFO root fetch - processPackages [joeflow]: Downloading https://files.pythonhosted.org/packages/ef/5f/5eac4b3fcc1fc60750073f1f4eaad12abf415e88cbcf1aedd4e5d928d49c/joeflow-1.2.3.tar.gz
+[2023-06-29 14:33:31] INFO root fetch - processPackages [sdc-dp-helpers]: Downloading https://files.pythonhosted.org/packages/0f/de/99781e525582f90b6861bb6232054ca4652b42ba8e02b5ea965f48cac721/sdc_dp_helpers-1.3.9.tar.gz
+[2023-06-29 14:33:31] INFO root fetch - processPackages [cbra]: executing diffoscope
+[2023-06-29 14:33:31] INFO root fetch - processPackages [cbra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbra-2.0.0a99.tar.gz tmp/cbra-3.0.0a7.tar.gz --markdown 20230629/c/cbra/2.0.0a99-3.0.0a7/diff.md --exclude *.pyd
+[2023-06-29 14:33:31] INFO root fetch - processPackages [pyconvox]: executing diffoscope
+[2023-06-29 14:33:31] INFO root fetch - processPackages [pyconvox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyconvox-0.2.3.tar.gz tmp/pyconvox-2.0.0.dev0.tar.gz --markdown 20230629/p/pyconvox/0.2.3-2.0.0.dev0/diff.md --exclude *.pyd
+[2023-06-29 14:33:31] INFO root fetch - processPackages [icotest-voice]: executing diffoscope
+[2023-06-29 14:33:31] INFO root fetch - processPackages [icotest-voice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icotest-voice-1.0.36.tar.gz tmp/icotest-voice-1.0.37.tar.gz --markdown 20230629/i/icotest-voice/1.0.36-1.0.37/diff.md --exclude *.pyd
+[2023-06-29 14:33:31] INFO root fetch - processPackages [sdc-dp-helpers]: executing diffoscope
+[2023-06-29 14:33:31] INFO root fetch - processPackages [sdc-dp-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdc_dp_helpers-1.3.8.tar.gz tmp/sdc_dp_helpers-1.3.9.tar.gz --markdown 20230629/s/sdc-dp-helpers/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-29 14:33:32] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-06-29 14:33:32] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-06-29 14:33:32] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230629/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-06-29 14:33:32] INFO root fetch - processPackages [joeflow]: Downloading https://files.pythonhosted.org/packages/e0/72/8527f7020a79f4a4ed1a36ec8bb73fcf3a32b1ba9e99dfb8074c95887699/joeflow-1.2.4.tar.gz
+[2023-06-29 14:33:32] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-06-29 14:33:32] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230629/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-06-29 14:33:32] INFO root fetch - processPackages [joeflow]: executing diffoscope
+[2023-06-29 14:33:32] INFO root fetch - processPackages [joeflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joeflow-1.2.3.tar.gz tmp/joeflow-1.2.4.tar.gz --markdown 20230629/j/joeflow/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-29 14:33:32] INFO root fetch - processPackages [rope]: executing diffoscope
+[2023-06-29 14:33:32] INFO root fetch - processPackages [rope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rope-1.8.0.tar.gz tmp/rope-1.9.0.tar.gz --markdown 20230629/r/rope/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-29 14:33:33] INFO root fetch - processPackages [pyconvox]: Remove: archive file [/home/abi/fetcher/tmp/pyconvox-0.2.3.tar.gz]
+[2023-06-29 14:33:33] INFO root fetch - processPackages [pyconvox]: Remove: archive file [/home/abi/fetcher/tmp/pyconvox-2.0.0.dev0.tar.gz]
+[2023-06-29 14:33:33] INFO root fetch - processPackages [pyconvox]: Start processing: up-esb
+[2023-06-29 14:33:33] INFO root fetch - main [MainThread]: End processing [pyconvox]: success
+[2023-06-29 14:33:33] INFO root fetch - processPackages [regrez]: Remove: archive file [/home/abi/fetcher/tmp/regrez-1.0.4.tar.gz]
+[2023-06-29 14:33:33] INFO root fetch - processPackages [regrez]: Remove: archive file [/home/abi/fetcher/tmp/regrez-1.0.5.tar.gz]
+[2023-06-29 14:33:33] INFO root fetch - processPackages [regrez]: Start processing: anywidget
+[2023-06-29 14:33:33] INFO root fetch - main [MainThread]: End processing [regrez]: success
+[2023-06-29 14:33:33] INFO root fetch - processPackages [up-esb]: New version: [0.0.138] Old Version: [0.0.136]
+[2023-06-29 14:33:33] INFO root fetch - processPackages [anywidget]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-29 14:33:33] INFO root fetch - processPackages [anywidget]: Downloading https://files.pythonhosted.org/packages/65/1b/7fa9e0fbedea0df51a434742cbfe3117b3359cb28ee99ce76e28801bd26b/anywidget-0.6.0.tar.gz
+[2023-06-29 14:33:33] INFO root fetch - processPackages [up-esb]: Downloading https://files.pythonhosted.org/packages/1f/37/8d264ef7759857c561653302f08f747d3bcce70b6abe10d4facd0cc1cf0a/up_esb-0.0.136.tar.gz
+[2023-06-29 14:33:33] INFO root fetch - processPackages [sdc-dp-helpers]: Remove: archive file [/home/abi/fetcher/tmp/sdc_dp_helpers-1.3.8.tar.gz]
+[2023-06-29 14:33:33] INFO root fetch - processPackages [sdc-dp-helpers]: Remove: archive file [/home/abi/fetcher/tmp/sdc_dp_helpers-1.3.9.tar.gz]
+[2023-06-29 14:33:33] INFO root fetch - processPackages [sdc-dp-helpers]: Start processing: port-ocean
+[2023-06-29 14:33:33] INFO root fetch - main [MainThread]: End processing [sdc-dp-helpers]: success
+[2023-06-29 14:33:34] INFO root fetch - processPackages [port-ocean]: New version: [0.1.0.dev3] Old Version: [0.1.0.dev2]
+[2023-06-29 14:33:34] INFO root fetch - processPackages [joeflow]: Remove: archive file [/home/abi/fetcher/tmp/joeflow-1.2.3.tar.gz]
+[2023-06-29 14:33:34] INFO root fetch - processPackages [joeflow]: Remove: archive file [/home/abi/fetcher/tmp/joeflow-1.2.4.tar.gz]
+[2023-06-29 14:33:34] INFO root fetch - processPackages [joeflow]: Start processing: py3toolbox
+[2023-06-29 14:33:34] INFO root fetch - main [MainThread]: End processing [joeflow]: success
+[2023-06-29 14:33:34] INFO root fetch - processPackages [py3toolbox]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 14:33:34] INFO root fetch - processPackages [up-esb]: Downloading https://files.pythonhosted.org/packages/8e/15/7fbcf06ef14a96eeb60fbb40904d90dd16000b6ae5789d199d5644e8fbdb/up_esb-0.0.138.tar.gz
+[2023-06-29 14:33:34] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/d9/fb/08291191a7f029a574af31b758a8213dd9d58753b4c03c0e4fa9dac05b01/port_ocean-0.1.0.dev2.tar.gz
+[2023-06-29 14:33:34] INFO root fetch - processPackages [icotest-voice]: Remove: archive file [/home/abi/fetcher/tmp/icotest-voice-1.0.36.tar.gz]
+[2023-06-29 14:33:34] INFO root fetch - processPackages [icotest-voice]: Remove: archive file [/home/abi/fetcher/tmp/icotest-voice-1.0.37.tar.gz]
+[2023-06-29 14:33:34] INFO root fetch - processPackages [icotest-voice]: Start processing: ndbioimage
+[2023-06-29 14:33:34] INFO root fetch - main [MainThread]: End processing [icotest-voice]: success
+[2023-06-29 14:33:34] INFO root fetch - processPackages [ndbioimage]: New version: [2023.6.1] Old Version: [2022.7.1]
+[2023-06-29 14:33:34] INFO root fetch - processPackages [anywidget]: Downloading https://files.pythonhosted.org/packages/6a/c1/abbe91a6edd8f38e7e98866092573c06aeb2bb9501cf87db6d99863e2f78/anywidget-0.6.1.tar.gz
+[2023-06-29 14:33:34] INFO root fetch - processPackages [py3toolbox]: Downloading https://files.pythonhosted.org/packages/e4/e6/6f1e77832ec5b71f6d0f65cfbec5c2f186703fac1a664626aea040325c7c/py3toolbox-0.1.8.tar.gz
+[2023-06-29 14:33:34] INFO root fetch - processPackages [up-esb]: executing diffoscope
+[2023-06-29 14:33:34] INFO root fetch - processPackages [up-esb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_esb-0.0.136.tar.gz tmp/up_esb-0.0.138.tar.gz --markdown 20230629/u/up-esb/0.0.136-0.0.138/diff.md --exclude *.pyd
+[2023-06-29 14:33:34] INFO root fetch - processPackages [kuryr-tempest-plugin]: Downloading https://files.pythonhosted.org/packages/89/8b/03d71ec6fc13f730b8e3e33e506f401d0a272d88b3472490de1b76b07fa2/kuryr-tempest-plugin-0.9.0.tar.gz
+[2023-06-29 14:33:34] INFO root fetch - processPackages [ndbioimage]: Downloading https://files.pythonhosted.org/packages/d2/30/d0e3845620f387394eadbd5acbd6ba98760e0f40a1680d583355a28eea96/ndbioimage-2022.7.1.tar.gz
+[2023-06-29 14:33:34] INFO root fetch - processPackages [anywidget]: executing diffoscope
+[2023-06-29 14:33:34] INFO root fetch - processPackages [anywidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anywidget-0.6.0.tar.gz tmp/anywidget-0.6.1.tar.gz --markdown 20230629/a/anywidget/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-29 14:33:34] INFO root fetch - processPackages [py3toolbox]: Downloading https://files.pythonhosted.org/packages/25/6b/7f9865a1bedf9c30b0ba7956a568b97cc5dd18c9825e37d26c54ae28ed7d/py3toolbox-0.1.9.tar.gz
+[2023-06-29 14:33:34] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/44/cc/3c9584a27a1765468118d658bef338c55d06eb3a4c2d702e9efc6df1d2f1/port_ocean-0.1.0.dev3.tar.gz
+[2023-06-29 14:33:34] INFO root fetch - processPackages [py3toolbox]: executing diffoscope
+[2023-06-29 14:33:34] INFO root fetch - processPackages [py3toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3toolbox-0.1.8.tar.gz tmp/py3toolbox-0.1.9.tar.gz --markdown 20230629/p/py3toolbox/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 14:33:34] INFO root fetch - processPackages [port-ocean]: executing diffoscope
+[2023-06-29 14:33:34] INFO root fetch - processPackages [port-ocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_ocean-0.1.0.dev2.tar.gz tmp/port_ocean-0.1.0.dev3.tar.gz --markdown 20230629/p/port-ocean/0.1.0.dev2-0.1.0.dev3/diff.md --exclude *.pyd
+[2023-06-29 14:33:34] INFO root fetch - processPackages [ndbioimage]: Downloading https://files.pythonhosted.org/packages/ca/ee/40928c4c23956026df2dbe909d69bcfa3af59c0edde4b33da44a6a82e00a/ndbioimage-2023.6.1.tar.gz
+[2023-06-29 14:33:34] INFO root fetch - processPackages [ndbioimage]: executing diffoscope
+[2023-06-29 14:33:34] INFO root fetch - processPackages [ndbioimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndbioimage-2022.7.1.tar.gz tmp/ndbioimage-2023.6.1.tar.gz --markdown 20230629/n/ndbioimage/2022.7.1-2023.6.1/diff.md --exclude *.pyd
+[2023-06-29 14:33:35] INFO root fetch - processPackages [rope]: Remove: archive file [/home/abi/fetcher/tmp/rope-1.8.0.tar.gz]
+[2023-06-29 14:33:35] INFO root fetch - processPackages [rope]: Remove: archive file [/home/abi/fetcher/tmp/rope-1.9.0.tar.gz]
+[2023-06-29 14:33:35] INFO root fetch - processPackages [rope]: Start processing: jaaql-middleware-python
+[2023-06-29 14:33:35] INFO root fetch - main [MainThread]: End processing [rope]: success
+[2023-06-29 14:33:35] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-06-29 14:33:35] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/5c/29/6cb85a71537e8f30aa90f242c02eea2d3ca361001bc4860bdcac60ef21b3/jaaql-middleware-python-4.9.0.tar.gz
+[2023-06-29 14:33:35] INFO root fetch - processPackages [up-esb]: Remove: archive file [/home/abi/fetcher/tmp/up_esb-0.0.136.tar.gz]
+[2023-06-29 14:33:35] INFO root fetch - processPackages [up-esb]: Remove: archive file [/home/abi/fetcher/tmp/up_esb-0.0.138.tar.gz]
+[2023-06-29 14:33:35] INFO root fetch - processPackages [up-esb]: Start processing: py-ke-utils-fastapi
+[2023-06-29 14:33:35] INFO root fetch - main [MainThread]: End processing [up-esb]: success
+[2023-06-29 14:33:35] INFO root fetch - processPackages [py-ke-utils-fastapi]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-29 14:33:35] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/1c/9b/c594efdb4d5a8a8eb6e0876f48857da40e24c3018095e5e6276aad18d78d/jaaql-middleware-python-4.9.1.tar.gz
+[2023-06-29 14:33:35] INFO root fetch - processPackages [py-ke-utils-fastapi]: Downloading https://files.pythonhosted.org/packages/c6/53/79c4f128f4b47d24a66bb05192248fdff0b6453427e147321ecd72f3edda/py-ke-utils-fastapi-1.0.3.tar.gz
+[2023-06-29 14:33:35] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-06-29 14:33:35] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.9.0.tar.gz tmp/jaaql-middleware-python-4.9.1.tar.gz --markdown 20230629/j/jaaql-middleware-python/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-06-29 14:33:36] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.0.dev2.tar.gz]
+[2023-06-29 14:33:36] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.0.dev3.tar.gz]
+[2023-06-29 14:33:36] INFO root fetch - processPackages [port-ocean]: Start processing: openstacksdk
+[2023-06-29 14:33:36] INFO root fetch - main [MainThread]: End processing [port-ocean]: success
+[2023-06-29 14:33:36] INFO root fetch - processPackages [py-ke-utils-fastapi]: Downloading https://files.pythonhosted.org/packages/c4/d2/46a47c13c2c06697958dfd51b5d41c3450b23ec090e90b17daf863c11315/py-ke-utils-fastapi-1.0.4.tar.gz
+[2023-06-29 14:33:36] INFO root fetch - processPackages [py3toolbox]: Remove: archive file [/home/abi/fetcher/tmp/py3toolbox-0.1.8.tar.gz]
+[2023-06-29 14:33:36] INFO root fetch - processPackages [py3toolbox]: Remove: archive file [/home/abi/fetcher/tmp/py3toolbox-0.1.9.tar.gz]
+[2023-06-29 14:33:36] INFO root fetch - processPackages [py3toolbox]: Start processing: hcpsdk
+[2023-06-29 14:33:36] INFO root fetch - main [MainThread]: End processing [py3toolbox]: success
+[2023-06-29 14:33:36] INFO root fetch - processPackages [openstacksdk]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-29 14:33:36] INFO root fetch - processPackages [py-ke-utils-fastapi]: executing diffoscope
+[2023-06-29 14:33:36] INFO root fetch - processPackages [py-ke-utils-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-ke-utils-fastapi-1.0.3.tar.gz tmp/py-ke-utils-fastapi-1.0.4.tar.gz --markdown 20230629/p/py-ke-utils-fastapi/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-29 14:33:36] INFO root fetch - processPackages [openstacksdk]: Downloading https://files.pythonhosted.org/packages/ac/bd/99a8970d6638d32b5fc0e3ad1e41adfd1f1de4c47e8e1814e43708104a41/openstacksdk-1.3.0.tar.gz
+[2023-06-29 14:33:36] INFO root fetch - processPackages [hcpsdk]: New version: [0.9.5.post1] Old Version: [0.9.4.post9]
+[2023-06-29 14:33:36] INFO root fetch - processPackages [hcpsdk]: Downloading https://files.pythonhosted.org/packages/f7/ed/42bff5e3c1dde085a58a80f85fc180a1a704f366873d7a143bca3d759065/hcpsdk-0.9.4.post9.tar.gz
+[2023-06-29 14:33:36] INFO root fetch - processPackages [openstacksdk]: Downloading https://files.pythonhosted.org/packages/bd/39/1244aee426dddb220a6914a79734b5a230c51295c221de9c1f062784f08e/openstacksdk-1.3.1.tar.gz
+[2023-06-29 14:33:36] INFO root fetch - processPackages [openstacksdk]: executing diffoscope
+[2023-06-29 14:33:36] INFO root fetch - processPackages [openstacksdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstacksdk-1.3.0.tar.gz tmp/openstacksdk-1.3.1.tar.gz --markdown 20230629/o/openstacksdk/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-29 14:33:36] INFO root fetch - processPackages [hcpsdk]: Downloading https://files.pythonhosted.org/packages/a4/86/0974ad67ea313e7ffafa8e407a3b65d0003c4a87281b09f7d1443736ee81/hcpsdk-0.9.5.post1.tar.gz
+[2023-06-29 14:33:36] INFO root fetch - processPackages [hcpsdk]: executing diffoscope
+[2023-06-29 14:33:36] INFO root fetch - processPackages [hcpsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcpsdk-0.9.4.post9.tar.gz tmp/hcpsdk-0.9.5.post1.tar.gz --markdown 20230629/h/hcpsdk/0.9.4.post9-0.9.5.post1/diff.md --exclude *.pyd
+[2023-06-29 14:33:37] INFO root fetch - processPackages [kuryr-tempest-plugin]: executing diffoscope
+[2023-06-29 14:33:37] INFO root fetch - processPackages [kuryr-tempest-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuryr-tempest-plugin-0.8.0.tar.gz tmp/kuryr-tempest-plugin-0.9.0.tar.gz --markdown 20230629/k/kuryr-tempest-plugin/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-29 14:33:37] INFO root fetch - processPackages [py-ke-utils-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/py-ke-utils-fastapi-1.0.3.tar.gz]
+[2023-06-29 14:33:37] INFO root fetch - processPackages [py-ke-utils-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/py-ke-utils-fastapi-1.0.4.tar.gz]
+[2023-06-29 14:33:37] INFO root fetch - processPackages [py-ke-utils-fastapi]: Start processing: django-encryption
+[2023-06-29 14:33:37] INFO root fetch - main [MainThread]: End processing [py-ke-utils-fastapi]: success
+[2023-06-29 14:33:37] INFO root fetch - processPackages [django-encryption]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-06-29 14:33:37] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.0.tar.gz]
+[2023-06-29 14:33:37] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.1.tar.gz]
+[2023-06-29 14:33:37] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-06-29 14:33:37] INFO root fetch - processPackages [django-encryption]: Downloading https://files.pythonhosted.org/packages/f7/f9/2455c133392d8764fe669c4c1c2d3a2555953c97157183ff94e6fe591cfd/django_encryption-0.3.6.tar.gz
+[2023-06-29 14:33:37] INFO root fetch - processPackages [django-encryption]: Downloading https://files.pythonhosted.org/packages/9d/f1/8efc744ea87c01521e31519d2bc1045dae90ac3f47db91d71784e5651584/django_encryption-0.3.7.tar.gz
+[2023-06-29 14:33:37] INFO root fetch - processPackages [django-encryption]: executing diffoscope
+[2023-06-29 14:33:37] INFO root fetch - processPackages [django-encryption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_encryption-0.3.6.tar.gz tmp/django_encryption-0.3.7.tar.gz --markdown 20230629/d/django-encryption/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-06-29 14:33:38] INFO root fetch - processPackages [hcpsdk]: Remove: archive file [/home/abi/fetcher/tmp/hcpsdk-0.9.4.post9.tar.gz]
+[2023-06-29 14:33:38] INFO root fetch - processPackages [hcpsdk]: Remove: archive file [/home/abi/fetcher/tmp/hcpsdk-0.9.5.post1.tar.gz]
+[2023-06-29 14:33:38] INFO root fetch - main [MainThread]: End processing [hcpsdk]: success
+[2023-06-29 14:33:39] INFO root fetch - processPackages [kuryr-tempest-plugin]: Remove: archive file [/home/abi/fetcher/tmp/kuryr-tempest-plugin-0.8.0.tar.gz]
+[2023-06-29 14:33:39] INFO root fetch - processPackages [kuryr-tempest-plugin]: Remove: archive file [/home/abi/fetcher/tmp/kuryr-tempest-plugin-0.9.0.tar.gz]
+[2023-06-29 14:33:39] INFO root fetch - main [MainThread]: End processing [kuryr-tempest-plugin]: success
+[2023-06-29 14:33:39] INFO root fetch - processPackages [django-encryption]: Remove: archive file [/home/abi/fetcher/tmp/django_encryption-0.3.6.tar.gz]
+[2023-06-29 14:33:39] INFO root fetch - processPackages [django-encryption]: Remove: archive file [/home/abi/fetcher/tmp/django_encryption-0.3.7.tar.gz]
+[2023-06-29 14:33:39] INFO root fetch - main [MainThread]: End processing [django-encryption]: success
+[2023-06-29 14:33:39] INFO root fetch - processPackages [ndbioimage]: Remove: archive file [/home/abi/fetcher/tmp/ndbioimage-2022.7.1.tar.gz]
+[2023-06-29 14:33:39] INFO root fetch - processPackages [ndbioimage]: Remove: archive file [/home/abi/fetcher/tmp/ndbioimage-2023.6.1.tar.gz]
+[2023-06-29 14:33:39] INFO root fetch - main [MainThread]: End processing [ndbioimage]: success
+[2023-06-29 14:33:39] INFO root fetch - processPackages [cbra]: Remove: archive file [/home/abi/fetcher/tmp/cbra-2.0.0a99.tar.gz]
+[2023-06-29 14:33:39] INFO root fetch - processPackages [cbra]: Remove: archive file [/home/abi/fetcher/tmp/cbra-3.0.0a7.tar.gz]
+[2023-06-29 14:33:39] INFO root fetch - main [MainThread]: End processing [cbra]: success
+[2023-06-29 14:33:41] INFO root fetch - processPackages [anywidget]: Remove: archive file [/home/abi/fetcher/tmp/anywidget-0.6.0.tar.gz]
+[2023-06-29 14:33:41] INFO root fetch - processPackages [anywidget]: Remove: archive file [/home/abi/fetcher/tmp/anywidget-0.6.1.tar.gz]
+[2023-06-29 14:33:41] INFO root fetch - main [MainThread]: End processing [anywidget]: success
+[2023-06-29 14:34:12] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-06-29 14:34:12] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-06-29 14:34:12] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-06-29 14:34:13] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-06-29 14:34:16] INFO root fetch - processPackages [openstacksdk]: Remove: archive file [/home/abi/fetcher/tmp/openstacksdk-1.3.0.tar.gz]
+[2023-06-29 14:34:16] INFO root fetch - processPackages [openstacksdk]: Remove: archive file [/home/abi/fetcher/tmp/openstacksdk-1.3.1.tar.gz]
+[2023-06-29 14:34:16] INFO root fetch - main [MainThread]: End processing [openstacksdk]: success
+[2023-06-29 14:34:16] INFO root fetch - main [MainThread]: Store serial: [18694883]
