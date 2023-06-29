@@ -20662,3 +20662,124 @@ EOFError: EOF read where object expected
 [2023-06-29 21:20:00] INFO root fetch - processPackages [saltext.vmware]: Remove: archive file [/home/abi/fetcher/tmp/saltext.vmware-23.6.29.0rc1-py2.py3-none-any.whl.zip]
 [2023-06-29 21:20:00] INFO root fetch - main [MainThread]: End processing [saltext.vmware]: success
 [2023-06-29 21:20:00] INFO root fetch - main [MainThread]: Store serial: [18699421]
+[2023-06-29 21:25:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18699421]
+[2023-06-29 21:25:09] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-29 21:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: macrometa-target-mssql
+[2023-06-29 21:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: astrolight
+[2023-06-29 21:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wad2023-program
+[2023-06-29 21:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: policyengine-us
+[2023-06-29 21:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aibench
+[2023-06-29 21:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coiled
+[2023-06-29 21:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ipyforcegraph
+[2023-06-29 21:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sniimapp2
+[2023-06-29 21:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: policyengine-us
+[2023-06-29 21:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: parsevasp
+[2023-06-29 21:25:09] INFO root fetch - processPackages [macrometa-target-mssql]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 21:25:09] INFO root fetch - processPackages [wad2023-program]: New version: [1.2.0.post0] Old Version: [1.1.1.dev0]
+[2023-06-29 21:25:09] INFO root fetch - processPackages [astrolight]: New version: [0.1] Old Version: [0.0.1]
+[2023-06-29 21:25:09] ERROR root fetch - processPackages [sniimapp2]: Unable to get metadata: No such project 'sniimapp2'
+[2023-06-29 21:25:09] INFO root fetch - processPackages [sniimapp2]: Start processing: pylibCZIrw
+[2023-06-29 21:25:09] INFO root fetch - main [MainThread]: End processing [sniimapp2] error
+[2023-06-29 21:25:09] INFO root fetch - processPackages [aibench]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-29 21:25:09] INFO root fetch - processPackages [ipyforcegraph]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-29 21:25:09] INFO root fetch - processPackages [parsevasp]: New version: [3.2.1] Old Version: [3.2.0]
+[2023-06-29 21:25:09] INFO root fetch - processPackages [policyengine-us]: New version: [0.345.3] Old Version: [0.345.2]
+[2023-06-29 21:25:09] INFO root fetch - processPackages [policyengine-us]: New version: [0.345.3] Old Version: [0.345.2]
+[2023-06-29 21:25:09] INFO root fetch - processPackages [coiled]: New version: [0.7.9.dev9] Old Version: [0.7.9.dev8]
+[2023-06-29 21:25:09] INFO root fetch - processPackages [pylibCZIrw]: New version: [3.4.2] Old Version: [3.4.1]
+[2023-06-29 21:25:09] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/a7/01/b5a4cbd06e8fe6cb1d49512abbe6434f64ea4b91b21a64f30069aa693547/coiled-0.7.9.dev8.tar.gz
+[2023-06-29 21:25:09] INFO root fetch - processPackages [wad2023-program]: Downloading https://files.pythonhosted.org/packages/39/56/69105f3c2c52fad9bd35f13e603b8e6e742d36cc3e8e7ed7449b55e09053/wad2023-program-1.1.1.dev0.tar.gz
+[2023-06-29 21:25:10] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/47/28/bece1abc54ffab5f0cddaff5d6f1e02fac1343bfb72976d5794f50dad748/macrometa-target-mssql-0.0.8.tar.gz
+[2023-06-29 21:25:10] INFO root fetch - processPackages [astrolight]: Downloading https://files.pythonhosted.org/packages/25/f1/f72e2470323abb71f755e6e11c53efba8c972f69d8da62c57f091598ddad/astrolight-0.0.1-py3-none-any.whl
+[2023-06-29 21:25:10] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/16/ef/45299cbabdc929a525573dd0fd97ca953c97e2f77db4c0bfd15173908c48/policyengine-us-0.345.2.tar.gz
+[2023-06-29 21:25:10] INFO root fetch - processPackages [aibench]: Downloading https://files.pythonhosted.org/packages/22/ba/9598cb7de58b61d4d9ee93e504ad6b367a1fecb0a9e167edefc29a91485a/aibench-0.0.4.tar.gz
+[2023-06-29 21:25:10] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/16/ef/45299cbabdc929a525573dd0fd97ca953c97e2f77db4c0bfd15173908c48/policyengine-us-0.345.2.tar.gz
+[2023-06-29 21:25:10] INFO root fetch - processPackages [parsevasp]: Downloading https://files.pythonhosted.org/packages/01/d4/a6c7fe0961ca4e3f79283be857dadc4d729e837f5f3744fb619d1d0d1011/parsevasp-3.2.0.tar.gz
+[2023-06-29 21:25:10] INFO root fetch - processPackages [ipyforcegraph]: Downloading https://files.pythonhosted.org/packages/70/67/daf83ef781f930985c85ada5663c157d5edf0e58983e6dc73f27a9c4c6c1/ipyforcegraph-0.3.3.tar.gz
+[2023-06-29 21:25:10] INFO root fetch - processPackages [pylibCZIrw]: Downloading https://files.pythonhosted.org/packages/01/39/b05ce439df46b189f80745ddb76ebff4383d01fae043730545ed3095c8af/pylibCZIrw-3.4.1.tar.gz
+[2023-06-29 21:25:10] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/68/a0/03deba097f154d5d35f5aaf9cc9e6203f2e386628cf93962bded599cc14d/coiled-0.7.9.dev9.tar.gz
+[2023-06-29 21:25:10] INFO root fetch - processPackages [astrolight]: Downloading https://files.pythonhosted.org/packages/c4/73/09e953b1ef2a5a6f4fc84097c239f6f995c4ac925fa8311fc1f7898446b4/astrolight-0.1-py3-none-any.whl
+[2023-06-29 21:25:10] INFO root fetch - processPackages [wad2023-program]: Downloading https://files.pythonhosted.org/packages/22/d9/8ad0a569a8b59f654d707ff7cedddb4724f5fc5f543917ae04c11e914fd9/wad2023-program-1.2.0.post0.tar.gz
+[2023-06-29 21:25:10] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/3d/97/96f149d7c5c167814edbae8e9693e5915bdec86dfd31a669e08d21162ee9/macrometa-target-mssql-0.0.9.tar.gz
+[2023-06-29 21:25:10] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-29 21:25:10] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.9.dev8.tar.gz tmp/coiled-0.7.9.dev9.tar.gz --markdown 20230629/c/coiled/0.7.9.dev8-0.7.9.dev9/diff.md --exclude *.pyd
+[2023-06-29 21:25:10] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/08/3e/6a7f7fb7b3dc0d0e9b9ae3eb98c5d2a3f84b258028dffc38f78be5b70313/policyengine-us-0.345.3.tar.gz
+[2023-06-29 21:25:10] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/08/3e/6a7f7fb7b3dc0d0e9b9ae3eb98c5d2a3f84b258028dffc38f78be5b70313/policyengine-us-0.345.3.tar.gz
+[2023-06-29 21:25:10] INFO root fetch - processPackages [astrolight]: executing diffoscope
+[2023-06-29 21:25:10] INFO root fetch - processPackages [astrolight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astrolight-0.0.1-py3-none-any.whl.zip tmp/astrolight-0.1-py3-none-any.whl.zip --markdown 20230629/a/astrolight/0.0.1-0.1/diff.md --exclude *.pyd
+[2023-06-29 21:25:10] INFO root fetch - processPackages [parsevasp]: Downloading https://files.pythonhosted.org/packages/43/0d/cfab064a600dd882ddc00d0853c54dccbfd5598215363706d664a4782f06/parsevasp-3.2.1.tar.gz
+[2023-06-29 21:25:10] INFO root fetch - processPackages [macrometa-target-mssql]: executing diffoscope
+[2023-06-29 21:25:10] INFO root fetch - processPackages [macrometa-target-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mssql-0.0.8.tar.gz tmp/macrometa-target-mssql-0.0.9.tar.gz --markdown 20230629/m/macrometa-target-mssql/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 21:25:10] INFO root fetch - processPackages [aibench]: Downloading https://files.pythonhosted.org/packages/14/e8/b9059615ad115e612f43c19f6290cea6410cd9273b20050d3135e3d9912a/aibench-0.0.5.tar.gz
+[2023-06-29 21:25:10] INFO root fetch - processPackages [ipyforcegraph]: Downloading https://files.pythonhosted.org/packages/91/5a/907378a07bb4ae765ba731669ccf06c899fcd506ad629f15877cc1b4d306/ipyforcegraph-0.3.4.tar.gz
+[2023-06-29 21:25:10] INFO root fetch - processPackages [wad2023-program]: executing diffoscope
+[2023-06-29 21:25:10] INFO root fetch - processPackages [wad2023-program]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wad2023-program-1.1.1.dev0.tar.gz tmp/wad2023-program-1.2.0.post0.tar.gz --markdown 20230629/w/wad2023-program/1.1.1.dev0-1.2.0.post0/diff.md --exclude *.pyd
+[2023-06-29 21:25:10] INFO root fetch - processPackages [aibench]: executing diffoscope
+[2023-06-29 21:25:10] INFO root fetch - processPackages [aibench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aibench-0.0.4.tar.gz tmp/aibench-0.0.5.tar.gz --markdown 20230629/a/aibench/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-29 21:25:10] INFO root fetch - processPackages [parsevasp]: executing diffoscope
+[2023-06-29 21:25:10] INFO root fetch - processPackages [parsevasp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsevasp-3.2.0.tar.gz tmp/parsevasp-3.2.1.tar.gz --markdown 20230629/p/parsevasp/3.2.0-3.2.1/diff.md --exclude *.pyd
+[2023-06-29 21:25:10] INFO root fetch - processPackages [ipyforcegraph]: executing diffoscope
+[2023-06-29 21:25:10] INFO root fetch - processPackages [ipyforcegraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyforcegraph-0.3.3.tar.gz tmp/ipyforcegraph-0.3.4.tar.gz --markdown 20230629/i/ipyforcegraph/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-29 21:25:10] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-06-29 21:25:10] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.345.2.tar.gz tmp/policyengine-us-0.345.3.tar.gz --markdown 20230629/p/policyengine-us/0.345.2-0.345.3/diff.md --exclude *.pyd
+[2023-06-29 21:25:10] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-06-29 21:25:10] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.345.2.tar.gz tmp/policyengine-us-0.345.3.tar.gz --markdown 20230629/p/policyengine-us/0.345.2-0.345.3/diff.md --exclude *.pyd
+[2023-06-29 21:25:10] INFO root fetch - processPackages [pylibCZIrw]: Downloading https://files.pythonhosted.org/packages/0d/a9/cf92da4150235a30c965e7ea56248a4405837e0944bc4d15f66986afa11b/pylibCZIrw-3.4.2.tar.gz
+[2023-06-29 21:25:11] INFO root fetch - processPackages [astrolight]: Remove: archive file [/home/abi/fetcher/tmp/astrolight-0.0.1-py3-none-any.whl.zip]
+[2023-06-29 21:25:11] INFO root fetch - processPackages [astrolight]: Remove: archive file [/home/abi/fetcher/tmp/astrolight-0.1-py3-none-any.whl.zip]
+[2023-06-29 21:25:11] INFO root fetch - processPackages [astrolight]: Start processing: khoj-assistant
+[2023-06-29 21:25:11] INFO root fetch - main [MainThread]: End processing [astrolight]: success
+[2023-06-29 21:25:11] INFO root fetch - processPackages [khoj-assistant]: New version: [0.6.3.dev98] Old Version: [0.6.3.dev97]
+[2023-06-29 21:25:12] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/52/3e/00e8a7320c4f8c9c3debe4b1423c02ef13f01f377e74630e1cc35e085a3a/khoj_assistant-0.6.3.dev97.tar.gz
+[2023-06-29 21:25:12] INFO root fetch - processPackages [pylibCZIrw]: executing diffoscope
+[2023-06-29 21:25:12] INFO root fetch - processPackages [pylibCZIrw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylibCZIrw-3.4.1.tar.gz tmp/pylibCZIrw-3.4.2.tar.gz --markdown 20230629/p/pylibCZIrw/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2023-06-29 21:25:12] INFO root fetch - processPackages [wad2023-program]: Remove: archive file [/home/abi/fetcher/tmp/wad2023-program-1.1.1.dev0.tar.gz]
+[2023-06-29 21:25:12] INFO root fetch - processPackages [wad2023-program]: Remove: archive file [/home/abi/fetcher/tmp/wad2023-program-1.2.0.post0.tar.gz]
+[2023-06-29 21:25:12] INFO root fetch - processPackages [wad2023-program]: Start processing: notebook-prototyping
+[2023-06-29 21:25:12] INFO root fetch - main [MainThread]: End processing [wad2023-program]: success
+[2023-06-29 21:25:12] INFO root fetch - processPackages [notebook-prototyping]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 21:25:12] INFO root fetch - processPackages [notebook-prototyping]: Downloading https://files.pythonhosted.org/packages/9a/90/d1a2b6e77d1276d9ad69921b36b2855212bc2af45cf77dc14f8e8cc98c01/notebook_prototyping-0.1.8.tar.gz
+[2023-06-29 21:25:12] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.8.tar.gz]
+[2023-06-29 21:25:12] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.9.tar.gz]
+[2023-06-29 21:25:12] INFO root fetch - processPackages [macrometa-target-mssql]: Start processing: strictly-typed-pandas
+[2023-06-29 21:25:12] INFO root fetch - main [MainThread]: End processing [macrometa-target-mssql]: success
+[2023-06-29 21:25:12] INFO root fetch - processPackages [parsevasp]: Remove: archive file [/home/abi/fetcher/tmp/parsevasp-3.2.0.tar.gz]
+[2023-06-29 21:25:12] INFO root fetch - processPackages [parsevasp]: Remove: archive file [/home/abi/fetcher/tmp/parsevasp-3.2.1.tar.gz]
+[2023-06-29 21:25:12] INFO root fetch - main [MainThread]: End processing [parsevasp]: success
+[2023-06-29 21:25:12] INFO root fetch - processPackages [notebook-prototyping]: Downloading https://files.pythonhosted.org/packages/18/3b/e9a9848e079a58174368ace3a4fcf07b2ecfb461f86abaf1b0952635b2b3/notebook_prototyping-0.1.9.tar.gz
+[2023-06-29 21:25:12] INFO root fetch - processPackages [strictly-typed-pandas]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 21:25:12] INFO root fetch - processPackages [notebook-prototyping]: executing diffoscope
+[2023-06-29 21:25:12] INFO root fetch - processPackages [notebook-prototyping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebook_prototyping-0.1.8.tar.gz tmp/notebook_prototyping-0.1.9.tar.gz --markdown 20230629/n/notebook-prototyping/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 21:25:12] INFO root fetch - processPackages [aibench]: Remove: archive file [/home/abi/fetcher/tmp/aibench-0.0.4.tar.gz]
+[2023-06-29 21:25:12] INFO root fetch - processPackages [aibench]: Remove: archive file [/home/abi/fetcher/tmp/aibench-0.0.5.tar.gz]
+[2023-06-29 21:25:12] INFO root fetch - main [MainThread]: End processing [aibench]: success
+[2023-06-29 21:25:12] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/9d/ff/7cbd5090c4832c8d2352fba09f03c093a4d17e209c1cf794a07d2b16b554/khoj_assistant-0.6.3.dev98.tar.gz
+[2023-06-29 21:25:12] INFO root fetch - processPackages [strictly-typed-pandas]: Downloading https://files.pythonhosted.org/packages/f5/2e/c43e7e0d7098b5f99a149c908724e115735f9cd4ad1df929b8bf391e9d9d/strictly_typed_pandas-0.1.8.tar.gz
+[2023-06-29 21:25:12] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-06-29 21:25:12] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.6.3.dev97.tar.gz tmp/khoj_assistant-0.6.3.dev98.tar.gz --markdown 20230629/k/khoj-assistant/0.6.3.dev97-0.6.3.dev98/diff.md --exclude *.pyd
+[2023-06-29 21:25:12] INFO root fetch - processPackages [strictly-typed-pandas]: Downloading https://files.pythonhosted.org/packages/0f/aa/527a7e9488a76dbd520ce0ef38277429906101467da38f92226908d1c988/strictly_typed_pandas-0.1.9.tar.gz
+[2023-06-29 21:25:12] INFO root fetch - processPackages [strictly-typed-pandas]: executing diffoscope
+[2023-06-29 21:25:12] INFO root fetch - processPackages [strictly-typed-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strictly_typed_pandas-0.1.8.tar.gz tmp/strictly_typed_pandas-0.1.9.tar.gz --markdown 20230629/s/strictly-typed-pandas/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 21:25:13] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev8.tar.gz]
+[2023-06-29 21:25:13] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev9.tar.gz]
+[2023-06-29 21:25:13] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-29 21:25:13] INFO root fetch - processPackages [notebook-prototyping]: Remove: archive file [/home/abi/fetcher/tmp/notebook_prototyping-0.1.8.tar.gz]
+[2023-06-29 21:25:13] INFO root fetch - processPackages [notebook-prototyping]: Remove: archive file [/home/abi/fetcher/tmp/notebook_prototyping-0.1.9.tar.gz]
+[2023-06-29 21:25:13] INFO root fetch - main [MainThread]: End processing [notebook-prototyping]: success
+[2023-06-29 21:25:13] INFO root fetch - processPackages [strictly-typed-pandas]: Remove: archive file [/home/abi/fetcher/tmp/strictly_typed_pandas-0.1.8.tar.gz]
+[2023-06-29 21:25:13] INFO root fetch - processPackages [strictly-typed-pandas]: Remove: archive file [/home/abi/fetcher/tmp/strictly_typed_pandas-0.1.9.tar.gz]
+[2023-06-29 21:25:13] INFO root fetch - main [MainThread]: End processing [strictly-typed-pandas]: success
+[2023-06-29 21:25:14] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev97.tar.gz]
+[2023-06-29 21:25:14] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev98.tar.gz]
+[2023-06-29 21:25:14] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-06-29 21:25:16] INFO root fetch - processPackages [ipyforcegraph]: Remove: archive file [/home/abi/fetcher/tmp/ipyforcegraph-0.3.3.tar.gz]
+[2023-06-29 21:25:16] INFO root fetch - processPackages [ipyforcegraph]: Remove: archive file [/home/abi/fetcher/tmp/ipyforcegraph-0.3.4.tar.gz]
+[2023-06-29 21:25:16] INFO root fetch - main [MainThread]: End processing [ipyforcegraph]: success
+[2023-06-29 21:25:20] INFO root fetch - processPackages [pylibCZIrw]: Remove: archive file [/home/abi/fetcher/tmp/pylibCZIrw-3.4.1.tar.gz]
+[2023-06-29 21:25:20] INFO root fetch - processPackages [pylibCZIrw]: Remove: archive file [/home/abi/fetcher/tmp/pylibCZIrw-3.4.2.tar.gz]
+[2023-06-29 21:25:20] INFO root fetch - main [MainThread]: End processing [pylibCZIrw]: success
+[2023-06-29 21:26:37] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.345.2.tar.gz]
+[2023-06-29 21:26:37] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.345.3.tar.gz]
+[2023-06-29 21:26:37] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-06-29 21:26:42] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-06-29 21:26:42] INFO root fetch - main [MainThread]: Store serial: [18699477]
