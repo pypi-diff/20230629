@@ -2083,3 +2083,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 09:50:51] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
 [2023-06-29 09:50:51] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-06-29 09:50:51] INFO root fetch - main [MainThread]: Store serial: [18691656]
+[2023-06-29 09:55:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18691656]
+[2023-06-29 09:56:00] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-29 09:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-cpu
+[2023-06-29 09:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dcentralab-qa-infra-automation
+[2023-06-29 09:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grimoire-elk-public-inbox
+[2023-06-29 09:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypdl
+[2023-06-29 09:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-interface-tester
+[2023-06-29 09:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openoligo
+[2023-06-29 09:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eodc-faas-sen2like
+[2023-06-29 09:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: funcOAI
+[2023-06-29 09:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openexpressions
+[2023-06-29 09:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: esds
+[2023-06-29 09:56:00] WARNING root fetch - processPackages [grimoire-elk-public-inbox]: Skipping, unable to determine old version
+[2023-06-29 09:56:00] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-29 09:56:00] INFO root fetch - main [MainThread]: End processing [grimoire-elk-public-inbox] error
+[2023-06-29 09:56:00] INFO root fetch - processPackages [pypdl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 09:56:00] INFO root fetch - processPackages [openoligo]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-29 09:56:00] INFO root fetch - processPackages [eodc-faas-sen2like]: New version: [2023.6.3rc9] Old Version: [2023.6.3rc8]
+[2023-06-29 09:56:00] INFO root fetch - processPackages [openexpressions]: New version: [1.1] Old Version: [1.0]
+[2023-06-29 09:56:00] INFO root fetch - processPackages [pytest-interface-tester]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-29 09:56:00] INFO root fetch - processPackages [funcOAI]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-29 09:56:00] INFO root fetch - processPackages [esds]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-29 09:56:00] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230629] Old Version: [2.14.0.dev20230628]
+[2023-06-29 09:56:00] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: Downloading https://files.pythonhosted.org/packages/8b/78/684de16cb972d7b79105b488fca2553e50d5a1f6f38b5427aa0b01d52934/dcentralab_qa_infra_automation-1.0.4.tar.gz
+[2023-06-29 09:56:00] INFO root fetch - processPackages [pytest-interface-tester]: Downloading https://files.pythonhosted.org/packages/17/89/46c3c388ae33a0a16057420e16124affeba06dfdbb81cd71d26a99737b32/pytest-interface-tester-0.3.1.tar.gz
+[2023-06-29 09:56:00] INFO root fetch - processPackages [pypdl]: Downloading https://files.pythonhosted.org/packages/ca/20/eb690584d22b843c585d22b68aa8bb150b75da55e4301ee5d89976b638b4/pypdl-0.0.8.tar.gz
+[2023-06-29 09:56:00] INFO root fetch - processPackages [funcOAI]: Downloading https://files.pythonhosted.org/packages/68/4f/b9c323d55c4b46a1db2883fd9c469311a27bd0ee0ede8e5dc664cd5ee764/funcOAI-0.0.1.tar.gz
+[2023-06-29 09:56:00] INFO root fetch - processPackages [openoligo]: Downloading https://files.pythonhosted.org/packages/a6/e7/544e6c3b9fe8f1144383340f1c0fe7968f5302d8b386d47a5f8148aee0ab/openoligo-0.1.2.tar.gz
+[2023-06-29 09:56:00] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/11/f4/b2727d96c33d209798f49f8fe737c479349b68736158f7e1424f37f2e354/eodc_faas_sen2like-2023.6.3rc8.tar.gz
+[2023-06-29 09:56:00] INFO root fetch - processPackages [openexpressions]: Downloading https://files.pythonhosted.org/packages/2d/32/c80b5ad95f2a236263379f72c331f7dc21778521bcf5a287c2e8752ef017/openexpressions-1.0.tar.gz
+[2023-06-29 09:56:00] INFO root fetch - processPackages [esds]: Downloading https://files.pythonhosted.org/packages/24/b8/68ab4f811bc844520dd50510b2ffc89374cd5e5aee14c5e179f445ef2513/esds-0.0.1.tar.gz
+[2023-06-29 09:56:00] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/b2/7e/41d8592039a284fa8213b71301ed1c5202a3f4f0b279ad409debefc202ef/tf_nightly_cpu-2.14.0.dev20230628-cp39-cp39-win_amd64.whl
+[2023-06-29 09:56:00] INFO root fetch - processPackages [openoligo]: Downloading https://files.pythonhosted.org/packages/69/45/f422f2d94df3b81ba643e5c142dc6a34d7ef572c8473491bc814aebdde4f/openoligo-0.1.3.tar.gz
+[2023-06-29 09:56:00] INFO root fetch - processPackages [funcOAI]: Downloading https://files.pythonhosted.org/packages/c5/5b/0f7ee89719561d91c97ffd21d6affb8e87567bfce93c0bce73431f1395c2/funcOAI-0.0.2.tar.gz
+[2023-06-29 09:56:00] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: Downloading https://files.pythonhosted.org/packages/fd/1c/f58a80ad1b35586649ec2bc09043bf55965b1d41cc3b018cce0e33cd2e82/dcentralab_qa_infra_automation-1.0.5.tar.gz
+[2023-06-29 09:56:00] INFO root fetch - processPackages [openexpressions]: Downloading https://files.pythonhosted.org/packages/ab/ab/5aa08fbcbda9f110402d8e9e2e51fffb09d64c9577afb9c73d93c89e87e1/openexpressions-1.1.tar.gz
+[2023-06-29 09:56:00] INFO root fetch - processPackages [pypdl]: Downloading https://files.pythonhosted.org/packages/71/c1/f76ce83a5e2b3e6e0ee7c7a332158cff3ea71f7111ad59c0b38004242cbf/pypdl-0.0.9.tar.gz
+[2023-06-29 09:56:00] INFO root fetch - processPackages [pytest-interface-tester]: Downloading https://files.pythonhosted.org/packages/f0/57/a1a0cc5d45e13f3619afbdaf77f866a8915e9897abec1fb568322fd5dcc7/pytest-interface-tester-0.3.2.tar.gz
+[2023-06-29 09:56:00] INFO root fetch - processPackages [openoligo]: executing diffoscope
+[2023-06-29 09:56:00] INFO root fetch - processPackages [openoligo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openoligo-0.1.2.tar.gz tmp/openoligo-0.1.3.tar.gz --markdown 20230629/o/openoligo/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-29 09:56:00] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: executing diffoscope
+[2023-06-29 09:56:00] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcentralab_qa_infra_automation-1.0.4.tar.gz tmp/dcentralab_qa_infra_automation-1.0.5.tar.gz --markdown 20230629/d/dcentralab-qa-infra-automation/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-29 09:56:00] INFO root fetch - processPackages [funcOAI]: executing diffoscope
+[2023-06-29 09:56:00] INFO root fetch - processPackages [funcOAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcOAI-0.0.1.tar.gz tmp/funcOAI-0.0.2.tar.gz --markdown 20230629/f/funcOAI/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-29 09:56:00] INFO root fetch - processPackages [openexpressions]: executing diffoscope
+[2023-06-29 09:56:00] INFO root fetch - processPackages [openexpressions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openexpressions-1.0.tar.gz tmp/openexpressions-1.1.tar.gz --markdown 20230629/o/openexpressions/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-29 09:56:00] INFO root fetch - processPackages [esds]: Downloading https://files.pythonhosted.org/packages/c1/da/b6ce3b81836ffcfe114e3f80b6928370cb5680f25c4a016c281dbd7453ea/esds-0.0.2.tar.gz
+[2023-06-29 09:56:00] INFO root fetch - processPackages [pytest-interface-tester]: executing diffoscope
+[2023-06-29 09:56:00] INFO root fetch - processPackages [pytest-interface-tester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-interface-tester-0.3.1.tar.gz tmp/pytest-interface-tester-0.3.2.tar.gz --markdown 20230629/p/pytest-interface-tester/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-29 09:56:01] INFO root fetch - processPackages [pypdl]: executing diffoscope
+[2023-06-29 09:56:01] INFO root fetch - processPackages [pypdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypdl-0.0.8.tar.gz tmp/pypdl-0.0.9.tar.gz --markdown 20230629/p/pypdl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 09:56:01] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/d1/18/1ecffbdd44ed7c22ca7ec29600a01ed80bfc79a601bb05e80e0ca1177eba/eodc_faas_sen2like-2023.6.3rc9.tar.gz
+[2023-06-29 09:56:01] INFO root fetch - processPackages [esds]: executing diffoscope
+[2023-06-29 09:56:01] INFO root fetch - processPackages [esds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esds-0.0.1.tar.gz tmp/esds-0.0.2.tar.gz --markdown 20230629/e/esds/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-29 09:56:01] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/43/ae/21837a7db976a974555a1932efa1466675ce2d6a0f2a54cd0964f952c0f9/tf_nightly_cpu-2.14.0.dev20230629-cp39-cp39-win_amd64.whl
+[2023-06-29 09:56:01] INFO root fetch - processPackages [eodc-faas-sen2like]: executing diffoscope
+[2023-06-29 09:56:01] INFO root fetch - processPackages [eodc-faas-sen2like]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_sen2like-2023.6.3rc8.tar.gz tmp/eodc_faas_sen2like-2023.6.3rc9.tar.gz --markdown 20230629/e/eodc-faas-sen2like/2023.6.3rc8-2023.6.3rc9/diff.md --exclude *.pyd
+[2023-06-29 09:56:01] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-06-29 09:56:01] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230628-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230629-cp39-cp39-win_amd64.whl.zip --markdown 20230629/t/tf-nightly-cpu/2.14.0.dev20230628-2.14.0.dev20230629/diff.md --exclude *.pyd
+[2023-06-29 09:56:02] INFO root fetch - processPackages [openoligo]: Remove: archive file [/home/abi/fetcher/tmp/openoligo-0.1.2.tar.gz]
+[2023-06-29 09:56:02] INFO root fetch - processPackages [openoligo]: Remove: archive file [/home/abi/fetcher/tmp/openoligo-0.1.3.tar.gz]
+[2023-06-29 09:56:02] INFO root fetch - main [MainThread]: End processing [openoligo]: success
+[2023-06-29 09:56:02] INFO root fetch - processPackages [pypdl]: Remove: archive file [/home/abi/fetcher/tmp/pypdl-0.0.8.tar.gz]
+[2023-06-29 09:56:02] INFO root fetch - processPackages [pypdl]: Remove: archive file [/home/abi/fetcher/tmp/pypdl-0.0.9.tar.gz]
+[2023-06-29 09:56:02] INFO root fetch - main [MainThread]: End processing [pypdl]: success
+[2023-06-29 09:56:02] INFO root fetch - processPackages [funcOAI]: Remove: archive file [/home/abi/fetcher/tmp/funcOAI-0.0.1.tar.gz]
+[2023-06-29 09:56:02] INFO root fetch - processPackages [funcOAI]: Remove: archive file [/home/abi/fetcher/tmp/funcOAI-0.0.2.tar.gz]
+[2023-06-29 09:56:02] INFO root fetch - main [MainThread]: End processing [funcOAI]: success
+[2023-06-29 09:56:02] INFO root fetch - processPackages [openexpressions]: Remove: archive file [/home/abi/fetcher/tmp/openexpressions-1.0.tar.gz]
+[2023-06-29 09:56:02] INFO root fetch - processPackages [openexpressions]: Remove: archive file [/home/abi/fetcher/tmp/openexpressions-1.1.tar.gz]
+[2023-06-29 09:56:02] INFO root fetch - main [MainThread]: End processing [openexpressions]: success
+[2023-06-29 09:56:02] INFO root fetch - processPackages [esds]: Remove: archive file [/home/abi/fetcher/tmp/esds-0.0.1.tar.gz]
+[2023-06-29 09:56:02] INFO root fetch - processPackages [esds]: Remove: archive file [/home/abi/fetcher/tmp/esds-0.0.2.tar.gz]
+[2023-06-29 09:56:02] INFO root fetch - main [MainThread]: End processing [esds]: success
+[2023-06-29 09:56:02] INFO root fetch - processPackages [pytest-interface-tester]: Remove: archive file [/home/abi/fetcher/tmp/pytest-interface-tester-0.3.1.tar.gz]
+[2023-06-29 09:56:02] INFO root fetch - processPackages [pytest-interface-tester]: Remove: archive file [/home/abi/fetcher/tmp/pytest-interface-tester-0.3.2.tar.gz]
+[2023-06-29 09:56:02] INFO root fetch - main [MainThread]: End processing [pytest-interface-tester]: success
+[2023-06-29 09:56:02] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: Remove: archive file [/home/abi/fetcher/tmp/dcentralab_qa_infra_automation-1.0.4.tar.gz]
+[2023-06-29 09:56:02] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: Remove: archive file [/home/abi/fetcher/tmp/dcentralab_qa_infra_automation-1.0.5.tar.gz]
+[2023-06-29 09:56:02] INFO root fetch - main [MainThread]: End processing [dcentralab-qa-infra-automation]: success
+[2023-06-29 09:56:02] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230628-cp39-cp39-win_amd64.whl.zip]
+[2023-06-29 09:56:02] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230629-cp39-cp39-win_amd64.whl.zip]
+[2023-06-29 09:56:02] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-06-29 09:56:03] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2023.6.3rc8.tar.gz]
+[2023-06-29 09:56:03] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2023.6.3rc9.tar.gz]
+[2023-06-29 09:56:03] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
+[2023-06-29 09:56:03] INFO root fetch - main [MainThread]: Store serial: [18691690]
