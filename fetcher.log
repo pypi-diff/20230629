@@ -891,3 +891,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 08:56:07] INFO root fetch - processPackages [commercetools]: Remove: archive file [/home/abi/fetcher/tmp/commercetools-9.0.0.tar.gz]
 [2023-06-29 08:56:07] INFO root fetch - main [MainThread]: End processing [commercetools]: success
 [2023-06-29 08:56:07] INFO root fetch - main [MainThread]: Store serial: [18691153]
+[2023-06-29 09:01:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18691153]
+[2023-06-29 09:01:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-29 09:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SELDOMpy
+[2023-06-29 09:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: monalysa
+[2023-06-29 09:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dank-mids
+[2023-06-29 09:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: urdf2webots
+[2023-06-29 09:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-stock-no-negative
+[2023-06-29 09:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: star-rail-gps
+[2023-06-29 09:01:18] INFO root fetch - processPackages [SELDOMpy]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-29 09:01:18] INFO root fetch - processPackages [odoo-addon-stock-no-negative]: New version: [16.0.1.0.1.2] Old Version: [16.0.1.0.1]
+[2023-06-29 09:01:18] INFO root fetch - processPackages [monalysa]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 09:01:18] WARNING root fetch - processPackages [star-rail-gps]: Skipping, unable to determine old version
+[2023-06-29 09:01:18] INFO root fetch - main [MainThread]: End processing [star-rail-gps] error
+[2023-06-29 09:01:18] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-29 09:01:18] INFO root fetch - processPackages [urdf2webots]: New version: [2023.1.0] Old Version: [2.0.3]
+[2023-06-29 09:01:18] INFO root fetch - processPackages [monalysa]: Downloading https://files.pythonhosted.org/packages/d7/d1/e2eb5cd92f494b0b719769cb08194a6c063fd07bdea68fb227e0ee3bd9dd/monalysa-0.0.8.tar.gz
+[2023-06-29 09:01:18] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-29 09:01:18] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/a9/42/129f33f8fa7d7e7f7ed4d47f4eef107aa43202c26cb730b4bb1087726b17/SELDOMpy-0.2.3.tar.gz
+[2023-06-29 09:01:18] INFO root fetch - processPackages [odoo-addon-stock-no-negative]: Downloading https://files.pythonhosted.org/packages/51/cb/d440260378fb8519748bee29e5408573ef772b5c206bfff43784a9865953/odoo_addon_stock_no_negative-16.0.1.0.1-py3-none-any.whl
+[2023-06-29 09:01:18] INFO root fetch - processPackages [urdf2webots]: Downloading https://files.pythonhosted.org/packages/5d/24/046739363405fea8b6c3c89c00f860d88d35c218f05b8d0f70ab3e44eddc/urdf2webots-2.0.3.tar.gz
+[2023-06-29 09:01:18] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-29 09:01:18] INFO root fetch - processPackages [monalysa]: Downloading https://files.pythonhosted.org/packages/d1/13/65abe2bca84d2821801bdc73c3bbd3b627ec03c54b9fac03ac4f95b372f9/monalysa-0.0.9.tar.gz
+[2023-06-29 09:01:18] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-29 09:01:18] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230629/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-29 09:01:18] INFO root fetch - processPackages [monalysa]: executing diffoscope
+[2023-06-29 09:01:18] INFO root fetch - processPackages [monalysa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monalysa-0.0.8.tar.gz tmp/monalysa-0.0.9.tar.gz --markdown 20230629/m/monalysa/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 09:01:18] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/2a/ea/d2678e4eae92af7c9fc6db0728af540d64cb7f13874b30d44f7f20c85a49/SELDOMpy-0.2.4.tar.gz
+[2023-06-29 09:01:18] INFO root fetch - processPackages [odoo-addon-stock-no-negative]: Downloading https://files.pythonhosted.org/packages/b7/92/de7ecc8893bc1030db2ccbb109cc67d45e5000bb66b018e366d86cba9427/odoo_addon_stock_no_negative-16.0.1.0.1.2-py3-none-any.whl
+[2023-06-29 09:01:18] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-06-29 09:01:18] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.2.3.tar.gz tmp/SELDOMpy-0.2.4.tar.gz --markdown 20230629/S/SELDOMpy/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-29 09:01:18] INFO root fetch - processPackages [urdf2webots]: Downloading https://files.pythonhosted.org/packages/61/1e/3531c65ea51c1f1e19d9052f5f8e8336b3b574dc23c585adcf8d4415edcb/urdf2webots-2023.1.0.tar.gz
+[2023-06-29 09:01:18] INFO root fetch - processPackages [odoo-addon-stock-no-negative]: executing diffoscope
+[2023-06-29 09:01:18] INFO root fetch - processPackages [odoo-addon-stock-no-negative]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_no_negative-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_no_negative-16.0.1.0.1.2-py3-none-any.whl.zip --markdown 20230629/o/odoo-addon-stock-no-negative/16.0.1.0.1-16.0.1.0.1.2/diff.md --exclude *.pyd
+[2023-06-29 09:01:18] INFO root fetch - processPackages [urdf2webots]: executing diffoscope
+[2023-06-29 09:01:18] INFO root fetch - processPackages [urdf2webots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urdf2webots-2.0.3.tar.gz tmp/urdf2webots-2023.1.0.tar.gz --markdown 20230629/u/urdf2webots/2.0.3-2023.1.0/diff.md --exclude *.pyd
+[2023-06-29 09:01:19] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-29 09:01:19] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-29 09:01:19] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-29 09:01:19] INFO root fetch - processPackages [monalysa]: Remove: archive file [/home/abi/fetcher/tmp/monalysa-0.0.8.tar.gz]
+[2023-06-29 09:01:19] INFO root fetch - processPackages [monalysa]: Remove: archive file [/home/abi/fetcher/tmp/monalysa-0.0.9.tar.gz]
+[2023-06-29 09:01:19] INFO root fetch - main [MainThread]: End processing [monalysa]: success
+[2023-06-29 09:01:19] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.2.3.tar.gz]
+[2023-06-29 09:01:19] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.2.4.tar.gz]
+[2023-06-29 09:01:19] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-06-29 09:01:19] INFO root fetch - processPackages [odoo-addon-stock-no-negative]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_no_negative-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-29 09:01:19] INFO root fetch - processPackages [odoo-addon-stock-no-negative]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_no_negative-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2023-06-29 09:01:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-no-negative]: success
+[2023-06-29 09:01:19] INFO root fetch - processPackages [urdf2webots]: Remove: archive file [/home/abi/fetcher/tmp/urdf2webots-2.0.3.tar.gz]
+[2023-06-29 09:01:19] INFO root fetch - processPackages [urdf2webots]: Remove: archive file [/home/abi/fetcher/tmp/urdf2webots-2023.1.0.tar.gz]
+[2023-06-29 09:01:19] INFO root fetch - main [MainThread]: End processing [urdf2webots]: success
+[2023-06-29 09:01:19] INFO root fetch - main [MainThread]: Store serial: [18691172]
