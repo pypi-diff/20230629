@@ -10166,3 +10166,197 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 14:39:50] INFO root fetch - processPackages [neutron-lib]: Remove: archive file [/home/abi/fetcher/tmp/neutron-lib-3.7.0.tar.gz]
 [2023-06-29 14:39:50] INFO root fetch - main [MainThread]: End processing [neutron-lib]: success
 [2023-06-29 14:39:50] INFO root fetch - main [MainThread]: Store serial: [18694953]
+[2023-06-29 14:44:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18694953]
+[2023-06-29 14:45:00] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-29 14:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrdfsubset
+[2023-06-29 14:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-friesian-spark3
+[2023-06-29 14:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-chronos-spark3
+[2023-06-29 14:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-spark3
+[2023-06-29 14:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Geode-Numerics
+[2023-06-29 14:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kyano
+[2023-06-29 14:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vehicle-lang
+[2023-06-29 14:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mcsolver
+[2023-06-29 14:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: simple-lirui
+[2023-06-29 14:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: energinet-ml-sdk
+[2023-06-29 14:45:00] INFO root fetch - processPackages [Geode-Numerics]: New version: [3.0.6rc1] Old Version: [3.0.5rc1]
+[2023-06-29 14:45:00] INFO root fetch - processPackages [pyrdfsubset]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-29 14:45:00] WARNING root fetch - processPackages [simple-lirui]: Skipping, unable to determine old version
+[2023-06-29 14:45:00] INFO root fetch - processPackages [simple-lirui]: Start processing: tensorcircuit-nightly
+[2023-06-29 14:45:00] INFO root fetch - main [MainThread]: End processing [simple-lirui] error
+[2023-06-29 14:45:00] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230629] Old Version: [2.4.0b20230626]
+[2023-06-29 14:45:00] INFO root fetch - processPackages [vehicle-lang]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-29 14:45:00] WARNING root fetch - processPackages [kyano]: Skipping, unable to determine old version
+[2023-06-29 14:45:00] INFO root fetch - processPackages [kyano]: Start processing: eiffel-framework
+[2023-06-29 14:45:00] INFO root fetch - main [MainThread]: End processing [kyano] error
+[2023-06-29 14:45:00] INFO root fetch - processPackages [mcsolver]: New version: [3.0.5] Old Version: [3.0.4]
+[2023-06-29 14:45:00] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230629] Old Version: [2.4.0b20230626]
+[2023-06-29 14:45:00] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230629] Old Version: [2.4.0b20230626]
+[2023-06-29 14:45:00] INFO root fetch - processPackages [energinet-ml-sdk]: New version: [1.0.1.dev27] Old Version: [1.0.0.dev26]
+[2023-06-29 14:45:00] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2023-06-29 14:45:00] INFO root fetch - processPackages [eiffel-framework]: New version: [0.1.5rc1] Old Version: [0.1.4]
+[2023-06-29 14:45:00] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2023-06-29 14:45:01] INFO root fetch - processPackages [pyrdfsubset]: Downloading https://files.pythonhosted.org/packages/d7/65/d280ec72312e6ab21ae43f858248194f9c2b64d71494cef14ed56c037662/pyrdfsubset-0.0.4.tar.gz
+[2023-06-29 14:45:01] INFO root fetch - processPackages [Geode-Numerics]: Downloading https://files.pythonhosted.org/packages/74/82/d3cf2d148c40dc4b085c5c2074e6eacac7cb532e61b43ddb4478197dad45/Geode_Numerics-3.0.5rc1-cp39-cp39-win_amd64.whl
+[2023-06-29 14:45:01] INFO root fetch - processPackages [eiffel-framework]: Downloading https://files.pythonhosted.org/packages/a4/fd/4ff4dea1e7c649cdfd463618be022b8d7e3625b5c1e6e7350662e53398db/eiffel_framework-0.1.4.tar.gz
+[2023-06-29 14:45:01] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/7d/24/bd02649bf20d7da1625319d03f212f73f8029420f0460b08fe2ddb3d11e8/bigdl_friesian_spark3-2.4.0b20230626-py3-none-manylinux1_x86_64.whl
+[2023-06-29 14:45:01] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/b5/13/55f3028f9c213153c37abf03363b4d897c66e13238393b6efd967db93869/bigdl_spark3-2.4.0b20230626-py3-none-manylinux1_x86_64.whl
+[2023-06-29 14:45:01] INFO root fetch - processPackages [mcsolver]: Downloading https://files.pythonhosted.org/packages/41/87/51e763ca52b05ccaa80b19fd0d1288b907c1bdba12ea9a8e7312662ee1ae/mcsolver-3.0.4.tar.gz
+[2023-06-29 14:45:01] INFO root fetch - processPackages [energinet-ml-sdk]: Downloading https://files.pythonhosted.org/packages/db/ea/99d5655e0b7e71aa68fef47bb54a1f5c90fcccb1df9d1182e006a70e1737/energinet-ml-sdk-1.0.0.dev26.tar.gz
+[2023-06-29 14:45:01] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/fc/67/aff7639d3c82cd569573eeb1001b22d79ebf45e85647740efbc857ff4201/bigdl_chronos_spark3-2.4.0b20230626-py3-none-manylinux1_x86_64.whl
+[2023-06-29 14:45:01] INFO root fetch - processPackages [vehicle-lang]: Downloading https://files.pythonhosted.org/packages/9c/16/d572578877f47fe9a63598147df8d395bed2bf1bcd4dc27d0df565633545/vehicle_lang-0.5.0-cp39-cp39-win_amd64.whl
+[2023-06-29 14:45:01] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2023-06-29 14:45:01] WARNING root fetch - processPackages [vehicle-lang]: Skipping package: exceeds size limit 12023554>=10485760
+[2023-06-29 14:45:01] INFO root fetch - processPackages [vehicle-lang]: Start processing: fsaa
+[2023-06-29 14:45:01] INFO root fetch - main [MainThread]: End processing [vehicle-lang] error
+[2023-06-29 14:45:01] INFO root fetch - processPackages [fsaa]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-29 14:45:01] INFO root fetch - processPackages [pyrdfsubset]: Downloading https://files.pythonhosted.org/packages/1f/88/0a749771a13a4ace7d81d652a1ad8808d4286ac4267741588c2599b279bf/pyrdfsubset-0.0.5.tar.gz
+[2023-06-29 14:45:01] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-06-29 14:45:01] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20230629/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2023-06-29 14:45:01] INFO root fetch - processPackages [eiffel-framework]: Downloading https://files.pythonhosted.org/packages/1e/4d/e613ae814e411d304465a093e0836c0b2ddd5cb04f14a829c9877d059a79/eiffel_framework-0.1.5rc1.tar.gz
+[2023-06-29 14:45:01] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/16/24/21060ee9da753e5e500fb1f1aab19ce16668994d136d462fcc0b03458117/bigdl_friesian_spark3-2.4.0b20230629-py3-none-manylinux1_x86_64.whl
+[2023-06-29 14:45:01] INFO root fetch - processPackages [pyrdfsubset]: executing diffoscope
+[2023-06-29 14:45:01] INFO root fetch - processPackages [pyrdfsubset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrdfsubset-0.0.4.tar.gz tmp/pyrdfsubset-0.0.5.tar.gz --markdown 20230629/p/pyrdfsubset/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-29 14:45:01] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/ee/f5/e3e949819f23d7b41dfaaaf3f19af07bfde73a540653991075da01183259/bigdl_spark3-2.4.0b20230629-py3-none-manylinux1_x86_64.whl
+[2023-06-29 14:45:01] INFO root fetch - processPackages [mcsolver]: Downloading https://files.pythonhosted.org/packages/0e/21/8be902935943a88dc2ffc731d6be0a3c9de94c7c9d26ce995c42b6ab9b5f/mcsolver-3.0.5.tar.gz
+[2023-06-29 14:45:01] INFO root fetch - processPackages [energinet-ml-sdk]: Downloading https://files.pythonhosted.org/packages/f0/36/7173e955b83c95e048d4cbda40649620d6eb282279149aaa8cd5b6da29ef/energinet-ml-sdk-1.0.1.dev27.tar.gz
+[2023-06-29 14:45:01] INFO root fetch - processPackages [fsaa]: Downloading https://files.pythonhosted.org/packages/df/91/c38f1691803220882c239a72609d7c0d65e0db6d599cebfda9bfe658c130/fsaa-0.0.1.tar.gz
+[2023-06-29 14:45:01] INFO root fetch - processPackages [eiffel-framework]: executing diffoscope
+[2023-06-29 14:45:01] INFO root fetch - processPackages [eiffel-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eiffel_framework-0.1.4.tar.gz tmp/eiffel_framework-0.1.5rc1.tar.gz --markdown 20230629/e/eiffel-framework/0.1.4-0.1.5rc1/diff.md --exclude *.pyd
+[2023-06-29 14:45:01] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/b2/17/b4c0ddd8c365a8f19869cfd8e87964e5a73fc0c6a2d233d7da8f5c04c840/bigdl_chronos_spark3-2.4.0b20230629-py3-none-manylinux1_x86_64.whl
+[2023-06-29 14:45:01] INFO root fetch - processPackages [Geode-Numerics]: Downloading https://files.pythonhosted.org/packages/d4/8a/95e4313a082a002eeff88e5998e1eb02e206086ae068012a4d92096ee869/Geode_Numerics-3.0.6rc1-cp39-cp39-win_amd64.whl
+[2023-06-29 14:45:01] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-06-29 14:45:01] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230626-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip --markdown 20230629/b/bigdl-friesian-spark3/2.4.0b20230626-2.4.0b20230629/diff.md --exclude *.pyd
+[2023-06-29 14:45:01] INFO root fetch - processPackages [mcsolver]: executing diffoscope
+[2023-06-29 14:45:01] INFO root fetch - processPackages [mcsolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcsolver-3.0.4.tar.gz tmp/mcsolver-3.0.5.tar.gz --markdown 20230629/m/mcsolver/3.0.4-3.0.5/diff.md --exclude *.pyd
+[2023-06-29 14:45:01] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-06-29 14:45:01] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230626-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip --markdown 20230629/b/bigdl-spark3/2.4.0b20230626-2.4.0b20230629/diff.md --exclude *.pyd
+[2023-06-29 14:45:01] INFO root fetch - processPackages [energinet-ml-sdk]: executing diffoscope
+[2023-06-29 14:45:01] INFO root fetch - processPackages [energinet-ml-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energinet-ml-sdk-1.0.0.dev26.tar.gz tmp/energinet-ml-sdk-1.0.1.dev27.tar.gz --markdown 20230629/e/energinet-ml-sdk/1.0.0.dev26-1.0.1.dev27/diff.md --exclude *.pyd
+[2023-06-29 14:45:01] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-06-29 14:45:01] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230626-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip --markdown 20230629/b/bigdl-chronos-spark3/2.4.0b20230626-2.4.0b20230629/diff.md --exclude *.pyd
+[2023-06-29 14:45:01] INFO root fetch - processPackages [fsaa]: Downloading https://files.pythonhosted.org/packages/59/6d/b2a9bc540061829ebabf17d0ef58e199cf11ffbc17ecec6c4eee29b5880d/fsaa-0.0.3.tar.gz
+[2023-06-29 14:45:01] INFO root fetch - processPackages [fsaa]: executing diffoscope
+[2023-06-29 14:45:01] INFO root fetch - processPackages [fsaa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsaa-0.0.1.tar.gz tmp/fsaa-0.0.3.tar.gz --markdown 20230629/f/fsaa/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-06-29 14:45:02] INFO root fetch - processPackages [Geode-Numerics]: executing diffoscope
+[2023-06-29 14:45:02] INFO root fetch - processPackages [Geode-Numerics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Numerics-3.0.5rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Numerics-3.0.6rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230629/G/Geode-Numerics/3.0.5rc1-3.0.6rc1/diff.md --exclude *.pyd
+[2023-06-29 14:45:02] INFO root fetch - processPackages [eiffel-framework]: Remove: archive file [/home/abi/fetcher/tmp/eiffel_framework-0.1.4.tar.gz]
+[2023-06-29 14:45:02] INFO root fetch - processPackages [eiffel-framework]: Remove: archive file [/home/abi/fetcher/tmp/eiffel_framework-0.1.5rc1.tar.gz]
+[2023-06-29 14:45:02] INFO root fetch - processPackages [eiffel-framework]: Start processing: frills
+[2023-06-29 14:45:02] INFO root fetch - main [MainThread]: End processing [eiffel-framework]: success
+[2023-06-29 14:45:02] INFO root fetch - processPackages [frills]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-06-29 14:45:02] INFO root fetch - processPackages [pyrdfsubset]: Remove: archive file [/home/abi/fetcher/tmp/pyrdfsubset-0.0.4.tar.gz]
+[2023-06-29 14:45:02] INFO root fetch - processPackages [pyrdfsubset]: Remove: archive file [/home/abi/fetcher/tmp/pyrdfsubset-0.0.5.tar.gz]
+[2023-06-29 14:45:02] INFO root fetch - processPackages [pyrdfsubset]: Start processing: goc
+[2023-06-29 14:45:02] INFO root fetch - main [MainThread]: End processing [pyrdfsubset]: success
+[2023-06-29 14:45:02] INFO root fetch - processPackages [goc]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-29 14:45:03] INFO root fetch - processPackages [goc]: Downloading https://files.pythonhosted.org/packages/53/3d/4f5b78db583df3e63f80eee16ca66b0fcde85b4c97335617540bc1bcfa1c/goc-0.2.0.tar.gz
+[2023-06-29 14:45:03] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230626-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-29 14:45:03] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-29 14:45:03] INFO root fetch - processPackages [bigdl-spark3]: Start processing: crossroads-schematization
+[2023-06-29 14:45:03] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-06-29 14:45:03] INFO root fetch - processPackages [crossroads-schematization]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-29 14:45:03] INFO root fetch - processPackages [frills]: Downloading https://files.pythonhosted.org/packages/26/0b/cb1b959194ae550fc8c47419591d07a16353d7e7a81638e1e4705aa037a2/frills-0.0.1.tar.gz
+[2023-06-29 14:45:03] INFO root fetch - processPackages [crossroads-schematization]: Downloading https://files.pythonhosted.org/packages/5d/16/a4267e95cc9d8250b962c3de09cad872b1a7ff0ea4be4808ad50372e36fa/crossroads-schematization-0.2.1.tar.gz
+[2023-06-29 14:45:03] INFO root fetch - processPackages [goc]: Downloading https://files.pythonhosted.org/packages/6a/04/48fad26e8b0279b864c2aa556b28e8de9fe0eab6f7b38130a77f005bdb20/goc-0.3.0.tar.gz
+[2023-06-29 14:45:03] INFO root fetch - processPackages [frills]: Downloading https://files.pythonhosted.org/packages/2b/e8/f550349077061346eec791fd4bfe0c44933e700bc328057827fa95fedae8/frills-1.0.0.tar.gz
+[2023-06-29 14:45:03] INFO root fetch - processPackages [crossroads-schematization]: Downloading https://files.pythonhosted.org/packages/b6/49/45483652ec5c954d29f6596327468263abd76f6df13c01929eb86f9d73fb/crossroads-schematization-0.2.2.tar.gz
+[2023-06-29 14:45:03] INFO root fetch - processPackages [goc]: executing diffoscope
+[2023-06-29 14:45:03] INFO root fetch - processPackages [goc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goc-0.2.0.tar.gz tmp/goc-0.3.0.tar.gz --markdown 20230629/g/goc/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-29 14:45:03] INFO root fetch - processPackages [fsaa]: Remove: archive file [/home/abi/fetcher/tmp/fsaa-0.0.1.tar.gz]
+[2023-06-29 14:45:03] INFO root fetch - processPackages [fsaa]: Remove: archive file [/home/abi/fetcher/tmp/fsaa-0.0.3.tar.gz]
+[2023-06-29 14:45:03] INFO root fetch - processPackages [fsaa]: Start processing: webcam
+[2023-06-29 14:45:03] INFO root fetch - main [MainThread]: End processing [fsaa]: success
+[2023-06-29 14:45:03] INFO root fetch - processPackages [frills]: executing diffoscope
+[2023-06-29 14:45:03] INFO root fetch - processPackages [frills]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frills-0.0.1.tar.gz tmp/frills-1.0.0.tar.gz --markdown 20230629/f/frills/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-29 14:45:03] INFO root fetch - processPackages [webcam]: New version: [1.8] Old Version: [1.7]
+[2023-06-29 14:45:03] INFO root fetch - processPackages [crossroads-schematization]: executing diffoscope
+[2023-06-29 14:45:03] INFO root fetch - processPackages [crossroads-schematization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossroads-schematization-0.2.1.tar.gz tmp/crossroads-schematization-0.2.2.tar.gz --markdown 20230629/c/crossroads-schematization/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-29 14:45:03] INFO root fetch - processPackages [webcam]: Downloading https://files.pythonhosted.org/packages/c8/58/10e1260f49ed9b685a7cce1fa407f8370a06fbd21561da23109226a1a2af/webcam-1.7.tar.gz
+[2023-06-29 14:45:03] INFO root fetch - processPackages [webcam]: Downloading https://files.pythonhosted.org/packages/31/4f/5f62a6aab1c05a3296501d54d104278fb9f289b855a8dd7a9263dd64d053/webcam-1.8.tar.gz
+[2023-06-29 14:45:03] INFO root fetch - processPackages [webcam]: executing diffoscope
+[2023-06-29 14:45:03] INFO root fetch - processPackages [webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webcam-1.7.tar.gz tmp/webcam-1.8.tar.gz --markdown 20230629/w/webcam/1.7-1.8/diff.md --exclude *.pyd
+[2023-06-29 14:45:03] INFO root fetch - processPackages [mcsolver]: Remove: archive file [/home/abi/fetcher/tmp/mcsolver-3.0.4.tar.gz]
+[2023-06-29 14:45:03] INFO root fetch - processPackages [mcsolver]: Remove: archive file [/home/abi/fetcher/tmp/mcsolver-3.0.5.tar.gz]
+[2023-06-29 14:45:03] INFO root fetch - processPackages [mcsolver]: Start processing: ckanext-ckanpackager
+[2023-06-29 14:45:03] INFO root fetch - main [MainThread]: End processing [mcsolver]: success
+[2023-06-29 14:45:04] INFO root fetch - processPackages [ckanext-ckanpackager]: New version: [2.2.8] Old Version: [2.2.7]
+[2023-06-29 14:45:04] INFO root fetch - processPackages [ckanext-ckanpackager]: Downloading https://files.pythonhosted.org/packages/42/58/0091068776d0ec760d50ab38cdf8d55e76bcfaeb3af2727be6518a5eef59/ckanext-ckanpackager-2.2.7.tar.gz
+[2023-06-29 14:45:04] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230626-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-29 14:45:04] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-29 14:45:04] INFO root fetch - processPackages [bigdl-chronos-spark3]: Start processing: notebook-prototyping
+[2023-06-29 14:45:04] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-06-29 14:45:04] INFO root fetch - processPackages [notebook-prototyping]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-29 14:45:04] INFO root fetch - processPackages [notebook-prototyping]: Downloading https://files.pythonhosted.org/packages/ca/e5/5ccf4580e49aade91b241da5486717730f369f131b96c4cdc9731ede5893/notebook_prototyping-0.1.5.tar.gz
+[2023-06-29 14:45:04] INFO root fetch - processPackages [ckanext-ckanpackager]: Downloading https://files.pythonhosted.org/packages/48/20/da40f78d0e09614be15510900c0c2875fcd924a9be1990bfc7eb8cdbb333/ckanext-ckanpackager-2.2.8.tar.gz
+[2023-06-29 14:45:04] INFO root fetch - processPackages [notebook-prototyping]: Downloading https://files.pythonhosted.org/packages/23/1c/177c1d24d1ac8f963d9791df4fb504f969ced2a05707420f15a033bbe0f2/notebook_prototyping-0.1.6.tar.gz
+[2023-06-29 14:45:04] INFO root fetch - processPackages [ckanext-ckanpackager]: executing diffoscope
+[2023-06-29 14:45:04] INFO root fetch - processPackages [ckanext-ckanpackager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-ckanpackager-2.2.7.tar.gz tmp/ckanext-ckanpackager-2.2.8.tar.gz --markdown 20230629/c/ckanext-ckanpackager/2.2.7-2.2.8/diff.md --exclude *.pyd
+[2023-06-29 14:45:04] INFO root fetch - processPackages [notebook-prototyping]: executing diffoscope
+[2023-06-29 14:45:04] INFO root fetch - processPackages [notebook-prototyping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebook_prototyping-0.1.5.tar.gz tmp/notebook_prototyping-0.1.6.tar.gz --markdown 20230629/n/notebook-prototyping/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-29 14:45:05] INFO root fetch - processPackages [energinet-ml-sdk]: Remove: archive file [/home/abi/fetcher/tmp/energinet-ml-sdk-1.0.0.dev26.tar.gz]
+[2023-06-29 14:45:05] INFO root fetch - processPackages [energinet-ml-sdk]: Remove: archive file [/home/abi/fetcher/tmp/energinet-ml-sdk-1.0.1.dev27.tar.gz]
+[2023-06-29 14:45:05] INFO root fetch - processPackages [energinet-ml-sdk]: Start processing: biocartograph
+[2023-06-29 14:45:05] INFO root fetch - main [MainThread]: End processing [energinet-ml-sdk]: success
+[2023-06-29 14:45:05] INFO root fetch - processPackages [goc]: Remove: archive file [/home/abi/fetcher/tmp/goc-0.2.0.tar.gz]
+[2023-06-29 14:45:05] INFO root fetch - processPackages [goc]: Remove: archive file [/home/abi/fetcher/tmp/goc-0.3.0.tar.gz]
+[2023-06-29 14:45:05] INFO root fetch - processPackages [goc]: Start processing: regrez
+[2023-06-29 14:45:05] INFO root fetch - main [MainThread]: End processing [goc]: success
+[2023-06-29 14:45:05] INFO root fetch - processPackages [regrez]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-29 14:45:05] INFO root fetch - processPackages [biocartograph]: New version: [0.6.4] Old Version: [0.6.2]
+[2023-06-29 14:45:05] INFO root fetch - processPackages [frills]: Remove: archive file [/home/abi/fetcher/tmp/frills-0.0.1.tar.gz]
+[2023-06-29 14:45:05] INFO root fetch - processPackages [frills]: Remove: archive file [/home/abi/fetcher/tmp/frills-1.0.0.tar.gz]
+[2023-06-29 14:45:05] INFO root fetch - processPackages [frills]: Start processing: pycontext-lib
+[2023-06-29 14:45:05] INFO root fetch - main [MainThread]: End processing [frills]: success
+[2023-06-29 14:45:05] INFO root fetch - processPackages [regrez]: Downloading https://files.pythonhosted.org/packages/4a/6b/4ab39b71cbe92fdc26ce9ab7ed7e27e12c23c932472b294bcf1c23144ef0/regrez-1.1.5.tar.gz
+[2023-06-29 14:45:05] INFO root fetch - processPackages [pycontext-lib]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-29 14:45:05] INFO root fetch - processPackages [regrez]: Downloading https://files.pythonhosted.org/packages/be/58/55ab182885cab0d6b993184059b33058c6dd3d88c0797520a606302d1c3f/regrez-1.1.6.tar.gz
+[2023-06-29 14:45:05] INFO root fetch - processPackages [biocartograph]: Downloading https://files.pythonhosted.org/packages/60/f3/3c293378cccee327ab32a2417f2b284e9e7fbf7f6368e423bf12baa1ff41/biocartograph-0.6.2.tar.gz
+[2023-06-29 14:45:05] INFO root fetch - processPackages [regrez]: executing diffoscope
+[2023-06-29 14:45:05] INFO root fetch - processPackages [regrez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regrez-1.1.5.tar.gz tmp/regrez-1.1.6.tar.gz --markdown 20230629/r/regrez/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-29 14:45:05] INFO root fetch - processPackages [pycontext-lib]: Downloading https://files.pythonhosted.org/packages/31/6b/d543a4401ce7251b6cd0c047bdd8ab0c2c4502ec0ef5521a88f683815889/pycontext-lib-1.0.1.tar.gz
+[2023-06-29 14:45:05] INFO root fetch - processPackages [biocartograph]: Downloading https://files.pythonhosted.org/packages/f0/36/c22639d6840d84698e90afa14443ddf8d35eefafa4cd0e257f775e8beba2/biocartograph-0.6.4.tar.gz
+[2023-06-29 14:45:05] INFO root fetch - processPackages [webcam]: Remove: archive file [/home/abi/fetcher/tmp/webcam-1.7.tar.gz]
+[2023-06-29 14:45:05] INFO root fetch - processPackages [webcam]: Remove: archive file [/home/abi/fetcher/tmp/webcam-1.8.tar.gz]
+[2023-06-29 14:45:05] INFO root fetch - processPackages [webcam]: Start processing: nc-py-api
+[2023-06-29 14:45:05] INFO root fetch - main [MainThread]: End processing [webcam]: success
+[2023-06-29 14:45:06] INFO root fetch - processPackages [biocartograph]: executing diffoscope
+[2023-06-29 14:45:06] INFO root fetch - processPackages [biocartograph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biocartograph-0.6.2.tar.gz tmp/biocartograph-0.6.4.tar.gz --markdown 20230629/b/biocartograph/0.6.2-0.6.4/diff.md --exclude *.pyd
+[2023-06-29 14:45:06] INFO root fetch - processPackages [nc-py-api]: New version: [0.0.11] Old Version: [0.0.10]
+[2023-06-29 14:45:06] INFO root fetch - processPackages [pycontext-lib]: Downloading https://files.pythonhosted.org/packages/17/7d/358119bf80c257ded3500ee562e16b9a1f6595b44d8121f284c69274a569/pycontext-lib-1.0.2.tar.gz
+[2023-06-29 14:45:06] INFO root fetch - processPackages [pycontext-lib]: executing diffoscope
+[2023-06-29 14:45:06] INFO root fetch - processPackages [pycontext-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycontext-lib-1.0.1.tar.gz tmp/pycontext-lib-1.0.2.tar.gz --markdown 20230629/p/pycontext-lib/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-29 14:45:06] INFO root fetch - processPackages [nc-py-api]: Downloading https://files.pythonhosted.org/packages/d0/6e/64fb31366d08f48800431d484df33bb0053ef53392ae3575e72c0d5a2fa6/nc_py_api-0.0.10.tar.gz
+[2023-06-29 14:45:06] INFO root fetch - processPackages [nc-py-api]: Downloading https://files.pythonhosted.org/packages/36/68/c98ee48957c607de3e6e961f1910dd17e86fe24fb6596a0f6cff21d55648/nc_py_api-0.0.11.tar.gz
+[2023-06-29 14:45:06] INFO root fetch - processPackages [nc-py-api]: executing diffoscope
+[2023-06-29 14:45:06] INFO root fetch - processPackages [nc-py-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nc_py_api-0.0.10.tar.gz tmp/nc_py_api-0.0.11.tar.gz --markdown 20230629/n/nc-py-api/0.0.10-0.0.11/diff.md --exclude *.pyd
+[2023-06-29 14:45:07] INFO root fetch - processPackages [notebook-prototyping]: Remove: archive file [/home/abi/fetcher/tmp/notebook_prototyping-0.1.5.tar.gz]
+[2023-06-29 14:45:07] INFO root fetch - processPackages [notebook-prototyping]: Remove: archive file [/home/abi/fetcher/tmp/notebook_prototyping-0.1.6.tar.gz]
+[2023-06-29 14:45:07] INFO root fetch - main [MainThread]: End processing [notebook-prototyping]: success
+[2023-06-29 14:45:07] INFO root fetch - processPackages [ckanext-ckanpackager]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-ckanpackager-2.2.7.tar.gz]
+[2023-06-29 14:45:07] INFO root fetch - processPackages [ckanext-ckanpackager]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-ckanpackager-2.2.8.tar.gz]
+[2023-06-29 14:45:07] INFO root fetch - main [MainThread]: End processing [ckanext-ckanpackager]: success
+[2023-06-29 14:45:07] INFO root fetch - processPackages [crossroads-schematization]: Remove: archive file [/home/abi/fetcher/tmp/crossroads-schematization-0.2.1.tar.gz]
+[2023-06-29 14:45:07] INFO root fetch - processPackages [crossroads-schematization]: Remove: archive file [/home/abi/fetcher/tmp/crossroads-schematization-0.2.2.tar.gz]
+[2023-06-29 14:45:07] INFO root fetch - main [MainThread]: End processing [crossroads-schematization]: success
+[2023-06-29 14:45:07] INFO root fetch - processPackages [regrez]: Remove: archive file [/home/abi/fetcher/tmp/regrez-1.1.5.tar.gz]
+[2023-06-29 14:45:07] INFO root fetch - processPackages [regrez]: Remove: archive file [/home/abi/fetcher/tmp/regrez-1.1.6.tar.gz]
+[2023-06-29 14:45:07] INFO root fetch - main [MainThread]: End processing [regrez]: success
+[2023-06-29 14:45:08] INFO root fetch - processPackages [pycontext-lib]: Remove: archive file [/home/abi/fetcher/tmp/pycontext-lib-1.0.1.tar.gz]
+[2023-06-29 14:45:08] INFO root fetch - processPackages [pycontext-lib]: Remove: archive file [/home/abi/fetcher/tmp/pycontext-lib-1.0.2.tar.gz]
+[2023-06-29 14:45:08] INFO root fetch - main [MainThread]: End processing [pycontext-lib]: success
+[2023-06-29 14:45:08] INFO root fetch - processPackages [biocartograph]: Remove: archive file [/home/abi/fetcher/tmp/biocartograph-0.6.2.tar.gz]
+[2023-06-29 14:45:08] INFO root fetch - processPackages [biocartograph]: Remove: archive file [/home/abi/fetcher/tmp/biocartograph-0.6.4.tar.gz]
+[2023-06-29 14:45:08] INFO root fetch - main [MainThread]: End processing [biocartograph]: success
+[2023-06-29 14:45:08] INFO root fetch - processPackages [nc-py-api]: Remove: archive file [/home/abi/fetcher/tmp/nc_py_api-0.0.10.tar.gz]
+[2023-06-29 14:45:08] INFO root fetch - processPackages [nc-py-api]: Remove: archive file [/home/abi/fetcher/tmp/nc_py_api-0.0.11.tar.gz]
+[2023-06-29 14:45:08] INFO root fetch - main [MainThread]: End processing [nc-py-api]: success
+[2023-06-29 14:45:09] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2023-06-29 14:45:09] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2023-06-29 14:45:09] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-06-29 14:45:10] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230626-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-29 14:45:10] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-29 14:45:10] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-06-29 14:45:21] INFO root fetch - processPackages [Geode-Numerics]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Numerics-3.0.5rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-29 14:45:21] INFO root fetch - processPackages [Geode-Numerics]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Numerics-3.0.6rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-29 14:45:21] INFO root fetch - main [MainThread]: End processing [Geode-Numerics]: success
+[2023-06-29 14:45:21] INFO root fetch - main [MainThread]: Store serial: [18695049]
