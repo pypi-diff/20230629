@@ -11209,3 +11209,176 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 15:18:18] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2023-06-29 15:18:18] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2023-06-29 15:18:18] INFO root fetch - main [MainThread]: Store serial: [18695428]
+[2023-06-29 15:23:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18695428]
+[2023-06-29 15:23:27] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-29 15:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: orbit-component-zerodocs
+[2023-06-29 15:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moto
+[2023-06-29 15:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: WebtoonScraper
+[2023-06-29 15:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ocrd-segment
+[2023-06-29 15:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-sphinx
+[2023-06-29 15:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mse-cli-core
+[2023-06-29 15:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: orbit-component-vcheck
+[2023-06-29 15:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flake8-vcs-ext
+[2023-06-29 15:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cg
+[2023-06-29 15:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: orbit-component-dbshell
+[2023-06-29 15:23:27] INFO root fetch - processPackages [ocrd-segment]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 15:23:27] INFO root fetch - processPackages [orbit-component-zerodocs]: New version: [1.0.9] Old Version: [1.0.12]
+[2023-06-29 15:23:27] INFO root fetch - processPackages [WebtoonScraper]: New version: [1.0.0] Old Version: [0.1.2]
+[2023-06-29 15:23:27] INFO root fetch - processPackages [mse-cli-core]: New version: [0.1a9] Old Version: [0.1a8]
+[2023-06-29 15:23:27] WARNING root fetch - processPackages [flake8-vcs-ext]: Skipping, unable to determine old version
+[2023-06-29 15:23:27] INFO root fetch - processPackages [orbit-component-vcheck]: New version: [1.0.9] Old Version: [1.0.2]
+[2023-06-29 15:23:27] INFO root fetch - processPackages [flake8-vcs-ext]: Start processing: gpforecaster
+[2023-06-29 15:23:27] INFO root fetch - main [MainThread]: End processing [flake8-vcs-ext] error
+[2023-06-29 15:23:27] INFO root fetch - processPackages [orbit-component-dbshell]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-29 15:23:27] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-29 15:23:27] INFO root fetch - processPackages [cg]: New version: [37.0.9] Old Version: [37.0.8]
+[2023-06-29 15:23:27] INFO root fetch - processPackages [mse-cli-core]: Downloading https://files.pythonhosted.org/packages/f1/da/a150ba3bd4f52dd763a0365c901a497c90e31350397f0c1ad461e7928f5b/mse_cli_core-0.1a8.tar.gz
+[2023-06-29 15:23:27] INFO root fetch - processPackages [gpforecaster]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-29 15:23:27] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-06-29 15:23:27] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/ec/1d/c584ab5bd145f7bc64a980cb9243f2ce4190d6259515da4ad36aa6cd5b8d/cg-37.0.8.tar.gz
+[2023-06-29 15:23:27] INFO root fetch - processPackages [ocrd-segment]: Downloading https://files.pythonhosted.org/packages/79/4f/b3793a3bcc917d5c9094ad9366bbba5a93faaf8e0fecfe9cb41c963a73d8/ocrd_segment-0.1.8.tar.gz
+[2023-06-29 15:23:27] INFO root fetch - processPackages [gpforecaster]: Downloading https://files.pythonhosted.org/packages/a3/48/07c7faf219f06659c85021907eba859f7478fad0e790c1731e124295d8b7/gpforecaster-0.3.8.tar.gz
+[2023-06-29 15:23:27] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-06-29 15:23:27] INFO root fetch - processPackages [WebtoonScraper]: Downloading https://files.pythonhosted.org/packages/ca/21/df0963cb05b378cd8637400d99b7555e438eaaa5691e2d5fe7a933148b30/WebtoonScraper-0.1.2.tar.gz
+[2023-06-29 15:23:27] INFO root fetch - processPackages [mse-cli-core]: Downloading https://files.pythonhosted.org/packages/d0/b3/54deeb4cd2167809d0a93108100079353e27b24b73d7f1063f5949c0fa19/mse_cli_core-0.1a9.tar.gz
+[2023-06-29 15:23:27] INFO root fetch - processPackages [orbit-component-vcheck]: Downloading https://files.pythonhosted.org/packages/4e/55/321de96d7c8260320b71e81ce5353282fdad8c048a7d15a3a0fc65593e56/orbit_component_vcheck-1.0.2.tar.gz
+[2023-06-29 15:23:27] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-06-29 15:23:27] INFO root fetch - processPackages [orbit-component-zerodocs]: Downloading https://files.pythonhosted.org/packages/d9/3b/8f3af0855c70c7f95b7991a599b58f27b42dc91e9e0fd9adb5a296285b54/orbit_component_zerodocs-1.0.12.tar.gz
+[2023-06-29 15:23:27] INFO root fetch - processPackages [orbit-component-dbshell]: Downloading https://files.pythonhosted.org/packages/16/77/50631c606f5a63d0b7d497d9a767f5262bbf404653895ebd39e9bd42ce5d/orbit_component_dbshell-1.0.2.tar.gz
+[2023-06-29 15:23:27] INFO root fetch - processPackages [mse-cli-core]: executing diffoscope
+[2023-06-29 15:23:27] INFO root fetch - processPackages [mse-cli-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mse_cli_core-0.1a8.tar.gz tmp/mse_cli_core-0.1a9.tar.gz --markdown 20230629/m/mse-cli-core/0.1a8-0.1a9/diff.md --exclude *.pyd
+[2023-06-29 15:23:27] INFO root fetch - processPackages [gpforecaster]: Downloading https://files.pythonhosted.org/packages/92/5f/ac0cce7d644b9cf855fde3021fe913db55e05b3641325229c5df912c2f36/gpforecaster-0.3.9.tar.gz
+[2023-06-29 15:23:27] INFO root fetch - processPackages [gpforecaster]: executing diffoscope
+[2023-06-29 15:23:27] INFO root fetch - processPackages [gpforecaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpforecaster-0.3.8.tar.gz tmp/gpforecaster-0.3.9.tar.gz --markdown 20230629/g/gpforecaster/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-29 15:23:27] INFO root fetch - processPackages [WebtoonScraper]: Downloading https://files.pythonhosted.org/packages/0d/0a/50378ba743991fd724ea814ebab413e7248e417584b49a65f67fa621df6b/WebtoonScraper-1.0.0.tar.gz
+[2023-06-29 15:23:27] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-06-29 15:23:27] INFO root fetch - processPackages [orbit-component-zerodocs]: Downloading https://files.pythonhosted.org/packages/04/2c/8c8531b18da66a5bff50cef3ed436d05cbc4cd0c86ce2edb050974cd4cbd/orbit_component_zerodocs-1.0.9.tar.gz
+[2023-06-29 15:23:28] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/d6/7e/80bbf10d5634a932760fbb85138245f7f53ad73bcdd6d223800c8b51e56f/cg-37.0.9.tar.gz
+[2023-06-29 15:23:28] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-06-29 15:23:28] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230629/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-29 15:23:28] INFO root fetch - processPackages [orbit-component-vcheck]: Downloading https://files.pythonhosted.org/packages/90/cd/fa02721161daf7be8dd5cbecc36f3715d91f76495433f216cb79c5aeea4b/orbit_component_vcheck-1.0.9.tar.gz
+[2023-06-29 15:23:28] INFO root fetch - processPackages [orbit-component-dbshell]: Downloading https://files.pythonhosted.org/packages/2f/ce/ebd7cc4255ba0360afa1400ba3f1d7611df5f89a256e4653794a34dc8cce/orbit_component_dbshell-1.0.3.tar.gz
+[2023-06-29 15:23:28] INFO root fetch - processPackages [WebtoonScraper]: executing diffoscope
+[2023-06-29 15:23:28] INFO root fetch - processPackages [WebtoonScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WebtoonScraper-0.1.2.tar.gz tmp/WebtoonScraper-1.0.0.tar.gz --markdown 20230629/W/WebtoonScraper/0.1.2-1.0.0/diff.md --exclude *.pyd
+[2023-06-29 15:23:28] INFO root fetch - processPackages [orbit-component-zerodocs]: executing diffoscope
+[2023-06-29 15:23:28] INFO root fetch - processPackages [orbit-component-zerodocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbit_component_zerodocs-1.0.12.tar.gz tmp/orbit_component_zerodocs-1.0.9.tar.gz --markdown 20230629/o/orbit-component-zerodocs/1.0.12-1.0.9/diff.md --exclude *.pyd
+[2023-06-29 15:23:28] INFO root fetch - processPackages [orbit-component-vcheck]: executing diffoscope
+[2023-06-29 15:23:28] INFO root fetch - processPackages [orbit-component-vcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbit_component_vcheck-1.0.2.tar.gz tmp/orbit_component_vcheck-1.0.9.tar.gz --markdown 20230629/o/orbit-component-vcheck/1.0.2-1.0.9/diff.md --exclude *.pyd
+[2023-06-29 15:23:28] INFO root fetch - processPackages [orbit-component-dbshell]: executing diffoscope
+[2023-06-29 15:23:28] INFO root fetch - processPackages [orbit-component-dbshell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbit_component_dbshell-1.0.2.tar.gz tmp/orbit_component_dbshell-1.0.3.tar.gz --markdown 20230629/o/orbit-component-dbshell/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-29 15:23:28] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-06-29 15:23:28] INFO root fetch - processPackages [ocrd-segment]: Downloading https://files.pythonhosted.org/packages/d9/c4/4a4c506b21426b2a3be3a3658ce71bf1bf1823d4ddb537b3124b7d35d8d5/ocrd_segment-0.1.9.tar.gz
+[2023-06-29 15:23:28] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-29 15:23:28] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-37.0.8.tar.gz tmp/cg-37.0.9.tar.gz --markdown 20230629/c/cg/37.0.8-37.0.9/diff.md --exclude *.pyd
+[2023-06-29 15:23:28] INFO root fetch - processPackages [ocrd-segment]: executing diffoscope
+[2023-06-29 15:23:28] INFO root fetch - processPackages [ocrd-segment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocrd_segment-0.1.8.tar.gz tmp/ocrd_segment-0.1.9.tar.gz --markdown 20230629/o/ocrd-segment/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 15:23:28] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-06-29 15:23:28] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230629/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-06-29 15:23:29] INFO root fetch - processPackages [gpforecaster]: Remove: archive file [/home/abi/fetcher/tmp/gpforecaster-0.3.8.tar.gz]
+[2023-06-29 15:23:29] INFO root fetch - processPackages [gpforecaster]: Remove: archive file [/home/abi/fetcher/tmp/gpforecaster-0.3.9.tar.gz]
+[2023-06-29 15:23:29] INFO root fetch - processPackages [gpforecaster]: Start processing: packg
+[2023-06-29 15:23:29] INFO root fetch - main [MainThread]: End processing [gpforecaster]: success
+[2023-06-29 15:23:29] INFO root fetch - processPackages [packg]: New version: [0.2.16] Old Version: [0.2.15]
+[2023-06-29 15:23:29] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/f8/00/3dfe3603722db1877c4ab2b8eea36a268e725098797865fb7376c27014d3/packg-0.2.15.tar.gz
+[2023-06-29 15:23:29] INFO root fetch - processPackages [orbit-component-dbshell]: Remove: archive file [/home/abi/fetcher/tmp/orbit_component_dbshell-1.0.2.tar.gz]
+[2023-06-29 15:23:29] INFO root fetch - processPackages [orbit-component-dbshell]: Remove: archive file [/home/abi/fetcher/tmp/orbit_component_dbshell-1.0.3.tar.gz]
+[2023-06-29 15:23:29] INFO root fetch - processPackages [orbit-component-dbshell]: Start processing: regrez
+[2023-06-29 15:23:29] INFO root fetch - main [MainThread]: End processing [orbit-component-dbshell]: success
+[2023-06-29 15:23:29] INFO root fetch - processPackages [orbit-component-zerodocs]: Remove: archive file [/home/abi/fetcher/tmp/orbit_component_zerodocs-1.0.12.tar.gz]
+[2023-06-29 15:23:29] INFO root fetch - processPackages [orbit-component-zerodocs]: Remove: archive file [/home/abi/fetcher/tmp/orbit_component_zerodocs-1.0.9.tar.gz]
+[2023-06-29 15:23:29] INFO root fetch - processPackages [orbit-component-zerodocs]: Start processing: nbdev-django
+[2023-06-29 15:23:29] INFO root fetch - main [MainThread]: End processing [orbit-component-zerodocs]: success
+[2023-06-29 15:23:29] INFO root fetch - processPackages [regrez]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-06-29 15:23:29] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-29 15:23:29] INFO root fetch - processPackages [regrez]: Downloading https://files.pythonhosted.org/packages/ec/02/a3d96fcb6dbb9f5329f59871a19074c067ace53667f5c6f2dfdc6ef93544/regrez-2.1.7.tar.gz
+[2023-06-29 15:23:29] INFO root fetch - processPackages [orbit-component-vcheck]: Remove: archive file [/home/abi/fetcher/tmp/orbit_component_vcheck-1.0.2.tar.gz]
+[2023-06-29 15:23:29] INFO root fetch - processPackages [orbit-component-vcheck]: Remove: archive file [/home/abi/fetcher/tmp/orbit_component_vcheck-1.0.9.tar.gz]
+[2023-06-29 15:23:29] INFO root fetch - processPackages [orbit-component-vcheck]: Start processing: up-tamer
+[2023-06-29 15:23:29] INFO root fetch - main [MainThread]: End processing [orbit-component-vcheck]: success
+[2023-06-29 15:23:29] INFO root fetch - processPackages [up-tamer]: New version: [0.3.1.9.dev1] Old Version: [0.3.1.7.dev1]
+[2023-06-29 15:23:29] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/10/0d/e44691b814b09ae851f83e2371da36aca20d632fbc59846b3b5a884431d7/packg-0.2.16.tar.gz
+[2023-06-29 15:23:29] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-06-29 15:23:29] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-06-29 15:23:29] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: restdoctor
+[2023-06-29 15:23:29] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-06-29 15:23:29] INFO root fetch - processPackages [packg]: executing diffoscope
+[2023-06-29 15:23:29] INFO root fetch - processPackages [packg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packg-0.2.15.tar.gz tmp/packg-0.2.16.tar.gz --markdown 20230629/p/packg/0.2.15-0.2.16/diff.md --exclude *.pyd
+[2023-06-29 15:23:29] INFO root fetch - processPackages [mse-cli-core]: Remove: archive file [/home/abi/fetcher/tmp/mse_cli_core-0.1a8.tar.gz]
+[2023-06-29 15:23:29] INFO root fetch - processPackages [mse-cli-core]: Remove: archive file [/home/abi/fetcher/tmp/mse_cli_core-0.1a9.tar.gz]
+[2023-06-29 15:23:29] INFO root fetch - processPackages [mse-cli-core]: Start processing: error-alerts
+[2023-06-29 15:23:29] INFO root fetch - main [MainThread]: End processing [mse-cli-core]: success
+[2023-06-29 15:23:29] INFO root fetch - processPackages [WebtoonScraper]: Remove: archive file [/home/abi/fetcher/tmp/WebtoonScraper-0.1.2.tar.gz]
+[2023-06-29 15:23:29] INFO root fetch - processPackages [WebtoonScraper]: Remove: archive file [/home/abi/fetcher/tmp/WebtoonScraper-1.0.0.tar.gz]
+[2023-06-29 15:23:29] INFO root fetch - processPackages [WebtoonScraper]: Start processing: plottah
+[2023-06-29 15:23:29] INFO root fetch - main [MainThread]: End processing [WebtoonScraper]: success
+[2023-06-29 15:23:29] INFO root fetch - processPackages [restdoctor]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 15:23:29] INFO root fetch - processPackages [error-alerts]: New version: [5.2] Old Version: [5.1]
+[2023-06-29 15:23:29] INFO root fetch - processPackages [plottah]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 15:23:29] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-06-29 15:23:30] INFO root fetch - processPackages [plottah]: Downloading https://files.pythonhosted.org/packages/1f/bd/8004e10cd96d279cff357b27c7c2919bfd278da1ebc414d2d82c898deaa5/plottah-0.1.8.tar.gz
+[2023-06-29 15:23:30] INFO root fetch - processPackages [ocrd-segment]: Remove: archive file [/home/abi/fetcher/tmp/ocrd_segment-0.1.8.tar.gz]
+[2023-06-29 15:23:30] INFO root fetch - processPackages [ocrd-segment]: Remove: archive file [/home/abi/fetcher/tmp/ocrd_segment-0.1.9.tar.gz]
+[2023-06-29 15:23:30] INFO root fetch - processPackages [ocrd-segment]: Start processing: bigdl-dllib-spark2
+[2023-06-29 15:23:30] INFO root fetch - main [MainThread]: End processing [ocrd-segment]: success
+[2023-06-29 15:23:30] INFO root fetch - processPackages [up-tamer]: Downloading https://files.pythonhosted.org/packages/a7/60/6433ef4c971174413d5176e83e07155eb0773a7b083e2be59c018380db91/up_tamer-0.3.1.7.dev1.tar.gz
+[2023-06-29 15:23:30] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230629] Old Version: [2.4.0b20230626]
+[2023-06-29 15:23:30] INFO root fetch - processPackages [regrez]: Downloading https://files.pythonhosted.org/packages/86/ae/7be26aaa72963b3741263c69f25e3359c58ebbb7b90e92313dd6d13308eb/regrez-2.1.8.tar.gz
+[2023-06-29 15:23:30] INFO root fetch - processPackages [restdoctor]: Downloading https://files.pythonhosted.org/packages/52/fe/338d51b3860b4a7202a77b64472d97a2070e3e996e4d5f42bc831ed540b2/restdoctor-0.0.8-py3-none-any.whl
+[2023-06-29 15:23:30] INFO root fetch - processPackages [plottah]: Downloading https://files.pythonhosted.org/packages/f0/0c/2b96606283fa54d0dde8653cbc8688dcd7136b8891488fa91b0b62a6ea23/plottah-0.1.9.tar.gz
+[2023-06-29 15:23:30] INFO root fetch - processPackages [error-alerts]: Downloading https://files.pythonhosted.org/packages/6a/ef/910b86447b4d3e2187722c2d50f43a91e7fede9972034e467a7b680ba72e/error-alerts-5.1.tar.gz
+[2023-06-29 15:23:30] INFO root fetch - processPackages [regrez]: executing diffoscope
+[2023-06-29 15:23:30] INFO root fetch - processPackages [regrez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regrez-2.1.7.tar.gz tmp/regrez-2.1.8.tar.gz --markdown 20230629/r/regrez/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-06-29 15:23:30] INFO root fetch - processPackages [plottah]: executing diffoscope
+[2023-06-29 15:23:30] INFO root fetch - processPackages [plottah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plottah-0.1.8.tar.gz tmp/plottah-0.1.9.tar.gz --markdown 20230629/p/plottah/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 15:23:30] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-06-29 15:23:30] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/fa/9d/47fb38a6473d9a3c9a1558a87d57ff3b431564b9cea644af9d9be549c0ca/bigdl-dllib-spark2-2.4.0b20230626.tar.gz
+[2023-06-29 15:23:30] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-06-29 15:23:30] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230629/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-29 15:23:30] INFO root fetch - processPackages [up-tamer]: Downloading https://files.pythonhosted.org/packages/da/04/7612a277ea4c1eba3ffb6b9d81b43107ead3478727fb6308c0270c6cad60/up_tamer-0.3.1.9.dev1.tar.gz
+[2023-06-29 15:23:30] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53638736>=10485760
+[2023-06-29 15:23:30] INFO root fetch - processPackages [bigdl-dllib-spark2]: Start processing: nbdev-apl
+[2023-06-29 15:23:30] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-06-29 15:23:30] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.864] Old Version: [0.0.863]
+[2023-06-29 15:23:30] INFO root fetch - processPackages [error-alerts]: Downloading https://files.pythonhosted.org/packages/ec/80/377291bab1ef55157e73060623980fc2960446bd0577dd7427ea84bde755/error-alerts-5.2.tar.gz
+[2023-06-29 15:23:30] INFO root fetch - processPackages [error-alerts]: executing diffoscope
+[2023-06-29 15:23:30] INFO root fetch - processPackages [error-alerts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/error-alerts-5.1.tar.gz tmp/error-alerts-5.2.tar.gz --markdown 20230629/e/error-alerts/5.1-5.2/diff.md --exclude *.pyd
+[2023-06-29 15:23:30] INFO root fetch - processPackages [up-tamer]: executing diffoscope
+[2023-06-29 15:23:30] INFO root fetch - processPackages [up-tamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_tamer-0.3.1.7.dev1.tar.gz tmp/up_tamer-0.3.1.9.dev1.tar.gz --markdown 20230629/u/up-tamer/0.3.1.7.dev1-0.3.1.9.dev1/diff.md --exclude *.pyd
+[2023-06-29 15:23:30] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/7e/4f/4022fc17633f8ec043d6d6ea9b3db3f0720a829b6bdb912d18e5c28dc226/nbdev-apl-0.0.863.tar.gz
+[2023-06-29 15:23:30] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/eb/5c/85dd61c867ff6f19509a779e92f969dda419267920a08946b0b58a9d2ecf/nbdev-apl-0.0.864.tar.gz
+[2023-06-29 15:23:30] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-06-29 15:23:30] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.863.tar.gz tmp/nbdev-apl-0.0.864.tar.gz --markdown 20230629/n/nbdev-apl/0.0.863-0.0.864/diff.md --exclude *.pyd
+[2023-06-29 15:23:30] INFO root fetch - processPackages [restdoctor]: Downloading https://files.pythonhosted.org/packages/b4/2d/da9f3bb0d77fc5ce3020e23bc1eda69d6ffa1507a62f36f0b4359e3b984b/restdoctor-0.0.9-py3-none-any.whl
+[2023-06-29 15:23:31] INFO root fetch - processPackages [restdoctor]: executing diffoscope
+[2023-06-29 15:23:31] INFO root fetch - processPackages [restdoctor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/restdoctor-0.0.8-py3-none-any.whl.zip tmp/restdoctor-0.0.9-py3-none-any.whl.zip --markdown 20230629/r/restdoctor/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 15:23:31] INFO root fetch - processPackages [regrez]: Remove: archive file [/home/abi/fetcher/tmp/regrez-2.1.7.tar.gz]
+[2023-06-29 15:23:31] INFO root fetch - processPackages [regrez]: Remove: archive file [/home/abi/fetcher/tmp/regrez-2.1.8.tar.gz]
+[2023-06-29 15:23:31] INFO root fetch - main [MainThread]: End processing [regrez]: success
+[2023-06-29 15:23:31] INFO root fetch - processPackages [plottah]: Remove: archive file [/home/abi/fetcher/tmp/plottah-0.1.8.tar.gz]
+[2023-06-29 15:23:31] INFO root fetch - processPackages [plottah]: Remove: archive file [/home/abi/fetcher/tmp/plottah-0.1.9.tar.gz]
+[2023-06-29 15:23:31] INFO root fetch - main [MainThread]: End processing [plottah]: success
+[2023-06-29 15:23:31] INFO root fetch - processPackages [error-alerts]: Remove: archive file [/home/abi/fetcher/tmp/error-alerts-5.1.tar.gz]
+[2023-06-29 15:23:31] INFO root fetch - processPackages [error-alerts]: Remove: archive file [/home/abi/fetcher/tmp/error-alerts-5.2.tar.gz]
+[2023-06-29 15:23:31] INFO root fetch - main [MainThread]: End processing [error-alerts]: success
+[2023-06-29 15:23:31] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-06-29 15:23:31] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-06-29 15:23:31] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-06-29 15:23:31] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.2.15.tar.gz]
+[2023-06-29 15:23:31] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.2.16.tar.gz]
+[2023-06-29 15:23:31] INFO root fetch - main [MainThread]: End processing [packg]: success
+[2023-06-29 15:23:31] INFO root fetch - processPackages [up-tamer]: Remove: archive file [/home/abi/fetcher/tmp/up_tamer-0.3.1.7.dev1.tar.gz]
+[2023-06-29 15:23:31] INFO root fetch - processPackages [up-tamer]: Remove: archive file [/home/abi/fetcher/tmp/up_tamer-0.3.1.9.dev1.tar.gz]
+[2023-06-29 15:23:31] INFO root fetch - main [MainThread]: End processing [up-tamer]: success
+[2023-06-29 15:23:32] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.863.tar.gz]
+[2023-06-29 15:23:32] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.864.tar.gz]
+[2023-06-29 15:23:32] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-06-29 15:23:32] INFO root fetch - processPackages [restdoctor]: Remove: archive file [/home/abi/fetcher/tmp/restdoctor-0.0.8-py3-none-any.whl.zip]
+[2023-06-29 15:23:32] INFO root fetch - processPackages [restdoctor]: Remove: archive file [/home/abi/fetcher/tmp/restdoctor-0.0.9-py3-none-any.whl.zip]
+[2023-06-29 15:23:32] INFO root fetch - main [MainThread]: End processing [restdoctor]: success
+[2023-06-29 15:23:40] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.8.tar.gz]
+[2023-06-29 15:23:40] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.9.tar.gz]
+[2023-06-29 15:23:40] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-29 15:24:00] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-06-29 15:24:00] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-06-29 15:24:00] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-06-29 15:24:00] INFO root fetch - main [MainThread]: Store serial: [18695492]
