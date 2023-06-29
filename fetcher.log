@@ -20429,3 +20429,117 @@ AssertionError: tmp/live_parquet-0.2.0.tar.gz does not exist
 [2023-06-29 21:08:31] INFO root fetch - processPackages [sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-2.99.0.tar.gz]
 [2023-06-29 21:08:31] INFO root fetch - main [MainThread]: End processing [sagemaker]: success
 [2023-06-29 21:08:31] INFO root fetch - main [MainThread]: Store serial: [18699350]
+[2023-06-29 21:13:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18699350]
+[2023-06-29 21:13:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-29 21:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: molano
+[2023-06-29 21:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: solutions-template
+[2023-06-29 21:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: headless
+[2023-06-29 21:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: supervisely
+[2023-06-29 21:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agilicus
+[2023-06-29 21:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seaplane
+[2023-06-29 21:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sesg
+[2023-06-29 21:13:40] INFO root fetch - processPackages [seaplane]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-29 21:13:40] INFO root fetch - processPackages [molano]: New version: [1.0.0a9] Old Version: [1.0.0a6]
+[2023-06-29 21:13:40] INFO root fetch - processPackages [solutions-template]: New version: [1.9.0] Old Version: [1.10.0]
+[2023-06-29 21:13:40] INFO root fetch - processPackages [headless]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-06-29 21:13:40] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-06-29 21:13:40] INFO root fetch - processPackages [agilicus]: New version: [1.99.0] Old Version: [1.98.9]
+[2023-06-29 21:13:40] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/e7/61/c864ce95e15abf9ad2a76809ae1db8bd46564cb3bfcf2cf7b76a1221faf8/seaplane-0.3.8.tar.gz
+[2023-06-29 21:13:41] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2023-06-29 21:13:41] INFO root fetch - processPackages [sesg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 21:13:41] INFO root fetch - processPackages [solutions-template]: Downloading https://files.pythonhosted.org/packages/d0/9a/77ea3a89c6744f3ed2c4ddf94e6f7128a23d487115b539b5cb584413b37c/solutions_template-1.10.0.tar.gz
+[2023-06-29 21:13:41] INFO root fetch - processPackages [agilicus]: executing diffoscope
+[2023-06-29 21:13:41] INFO root fetch - processPackages [agilicus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agilicus-1.98.9.tar.gz tmp/agilicus-1.99.0.tar.gz --markdown 20230629/a/agilicus/1.98.9-1.99.0/diff.md --exclude *.pyd
+[2023-06-29 21:13:41] INFO root fetch - processPackages [molano]: Downloading https://files.pythonhosted.org/packages/cf/84/e37efd7b93813804cbf27f927bb2a5d924e9c7544cee017145344ebb2f14/molano-1.0.0a6.tar.gz
+[2023-06-29 21:13:41] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/f7/af/2f29681bd0dce058b9d26f46481537dde0fcdbe0e5d6d80d9e4622dc52b8/seaplane-0.3.9.tar.gz
+[2023-06-29 21:13:41] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2023-06-29 21:13:41] INFO root fetch - processPackages [headless]: Downloading https://files.pythonhosted.org/packages/01/29/f491c1a0644d9df25cc0746859c9830d9b3f44d290ebd1e5de7b756b2490/headless-2.0.0a8.tar.gz
+[2023-06-29 21:13:41] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-06-29 21:13:41] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.3.8.tar.gz tmp/seaplane-0.3.9.tar.gz --markdown 20230629/s/seaplane/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-29 21:13:41] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-06-29 21:13:41] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230629/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-06-29 21:13:41] INFO root fetch - processPackages [sesg]: Downloading https://files.pythonhosted.org/packages/32/a5/c948ce4c33581a843a2c081120906c27c689f26208e8d99c3228f95c9c33/sesg-0.0.8.tar.gz
+[2023-06-29 21:13:41] INFO root fetch - processPackages [solutions-template]: Downloading https://files.pythonhosted.org/packages/3c/0d/2699abf0a01f0586b9fd193f8f2c7c0b0366bbc413517d19dd190bde5dae/solutions_template-1.9.0.tar.gz
+[2023-06-29 21:13:41] INFO root fetch - processPackages [sesg]: Downloading https://files.pythonhosted.org/packages/b0/99/29404871db61302e769d5573a523b07920080eb0de82ce589685af7d2da5/sesg-0.0.9.tar.gz
+[2023-06-29 21:13:41] INFO root fetch - processPackages [molano]: Downloading https://files.pythonhosted.org/packages/b9/cd/dde39b077eaa0feea200a2ce07ac39c3530e122096121c9a35fa2bf1de81/molano-1.0.0a9.tar.gz
+[2023-06-29 21:13:41] INFO root fetch - processPackages [sesg]: executing diffoscope
+[2023-06-29 21:13:41] INFO root fetch - processPackages [sesg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sesg-0.0.8.tar.gz tmp/sesg-0.0.9.tar.gz --markdown 20230629/s/sesg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 21:13:41] INFO root fetch - processPackages [solutions-template]: executing diffoscope
+[2023-06-29 21:13:41] INFO root fetch - processPackages [solutions-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solutions_template-1.10.0.tar.gz tmp/solutions_template-1.9.0.tar.gz --markdown 20230629/s/solutions-template/1.10.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-29 21:13:41] INFO root fetch - processPackages [headless]: Downloading https://files.pythonhosted.org/packages/db/4e/49b62296a404c0b751546e8c9091d5f19f25932fffbf24e6927b8888f3d2/headless-2.0.0a9.tar.gz
+[2023-06-29 21:13:41] INFO root fetch - processPackages [molano]: executing diffoscope
+[2023-06-29 21:13:41] INFO root fetch - processPackages [molano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molano-1.0.0a6.tar.gz tmp/molano-1.0.0a9.tar.gz --markdown 20230629/m/molano/1.0.0a6-1.0.0a9/diff.md --exclude *.pyd
+[2023-06-29 21:13:41] INFO root fetch - processPackages [headless]: executing diffoscope
+[2023-06-29 21:13:41] INFO root fetch - processPackages [headless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headless-2.0.0a8.tar.gz tmp/headless-2.0.0a9.tar.gz --markdown 20230629/h/headless/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-06-29 21:13:42] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.8.tar.gz]
+[2023-06-29 21:13:42] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.9.tar.gz]
+[2023-06-29 21:13:42] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-06-29 21:13:42] INFO root fetch - processPackages [molano]: Remove: archive file [/home/abi/fetcher/tmp/molano-1.0.0a6.tar.gz]
+[2023-06-29 21:13:42] INFO root fetch - processPackages [molano]: Remove: archive file [/home/abi/fetcher/tmp/molano-1.0.0a9.tar.gz]
+[2023-06-29 21:13:42] INFO root fetch - main [MainThread]: End processing [molano]: success
+[2023-06-29 21:13:43] INFO root fetch - processPackages [sesg]: Remove: archive file [/home/abi/fetcher/tmp/sesg-0.0.8.tar.gz]
+[2023-06-29 21:13:43] INFO root fetch - processPackages [sesg]: Remove: archive file [/home/abi/fetcher/tmp/sesg-0.0.9.tar.gz]
+[2023-06-29 21:13:43] INFO root fetch - main [MainThread]: End processing [sesg]: success
+[2023-06-29 21:13:43] INFO root fetch - processPackages [headless]: Remove: archive file [/home/abi/fetcher/tmp/headless-2.0.0a8.tar.gz]
+[2023-06-29 21:13:43] INFO root fetch - processPackages [headless]: Remove: archive file [/home/abi/fetcher/tmp/headless-2.0.0a9.tar.gz]
+[2023-06-29 21:13:43] INFO root fetch - main [MainThread]: End processing [headless]: success
+[2023-06-29 21:13:43] INFO root fetch - processPackages [solutions-template]: Remove: archive file [/home/abi/fetcher/tmp/solutions_template-1.10.0.tar.gz]
+[2023-06-29 21:13:43] INFO root fetch - processPackages [solutions-template]: Remove: archive file [/home/abi/fetcher/tmp/solutions_template-1.9.0.tar.gz]
+[2023-06-29 21:13:43] INFO root fetch - main [MainThread]: End processing [solutions-template]: success
+[2023-06-29 21:13:45] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2023-06-29 21:13:45] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2023-06-29 21:13:45] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-06-29 21:14:02] ERROR root fetch - processPackages [agilicus]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2023-06-29 21:14:02] INFO root fetch - main [MainThread]: End processing [agilicus] error
+[2023-06-29 21:14:02] INFO root fetch - main [MainThread]: Store serial: [18699369]
