@@ -11980,3 +11980,162 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 15:41:00] INFO root fetch - processPackages [dbm-agent]: Remove: archive file [/home/abi/fetcher/tmp/dbm-agent-8.33.9.tar.gz]
 [2023-06-29 15:41:00] INFO root fetch - main [MainThread]: End processing [dbm-agent]: success
 [2023-06-29 15:41:00] INFO root fetch - main [MainThread]: Store serial: [18695771]
+[2023-06-29 15:46:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18695771]
+[2023-06-29 15:46:10] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-29 15:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fbgemm-gpu-nightly
+[2023-06-29 15:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: season
+[2023-06-29 15:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: StarRailGPS
+[2023-06-29 15:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sloth-framework
+[2023-06-29 15:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assemblyai
+[2023-06-29 15:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oking
+[2023-06-29 15:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stdatamodels
+[2023-06-29 15:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: antimeridian
+[2023-06-29 15:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kcli
+[2023-06-29 15:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: abstra
+[2023-06-29 15:46:10] INFO root fetch - processPackages [season]: New version: [2.3.8] Old Version: [2.3.7]
+[2023-06-29 15:46:10] INFO root fetch - processPackages [sloth-framework]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 15:46:10] INFO root fetch - processPackages [assemblyai]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-29 15:46:10] WARNING root fetch - processPackages [StarRailGPS]: Skipping, unable to determine old version
+[2023-06-29 15:46:10] INFO root fetch - processPackages [StarRailGPS]: Start processing: SilverStreamingApplication
+[2023-06-29 15:46:10] INFO root fetch - main [MainThread]: End processing [StarRailGPS] error
+[2023-06-29 15:46:10] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.6.28] Old Version: [2023.6.27]
+[2023-06-29 15:46:10] INFO root fetch - processPackages [stdatamodels]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-06-29 15:46:10] INFO root fetch - processPackages [antimeridian]: New version: [0.3.0] Old Version: [0.2.6]
+[2023-06-29 15:46:10] INFO root fetch - processPackages [oking]: New version: [4.1.177] Old Version: [4.1.176]
+[2023-06-29 15:46:10] INFO root fetch - processPackages [kcli]: New version: [99.0.202306291343] Old Version: [99.0.202306291109]
+[2023-06-29 15:46:10] INFO root fetch - processPackages [abstra]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-29 15:46:10] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/e2/b7/36edffef8d4f943d1006bec2a20a70640b8abf5632c2c82e866d18633c35/kcli-99.0.202306291109-py3-none-any.whl
+[2023-06-29 15:46:10] INFO root fetch - processPackages [SilverStreamingApplication]: New version: [1.2] Old Version: [1.1]
+[2023-06-29 15:46:10] INFO root fetch - processPackages [sloth-framework]: Downloading https://files.pythonhosted.org/packages/75/0d/006a214eaeb72416cf89a7becfc002641eb8a9514ecd0ddbda137b98bcb2/sloth-framework-0.1.8.tar.gz
+[2023-06-29 15:46:10] INFO root fetch - processPackages [season]: Downloading https://files.pythonhosted.org/packages/59/62/e012e34170fb613292d0a5f9e77a2bf05813a3404c150f267f1d2c2a3bb2/season-2.3.7-py3-none-any.whl
+[2023-06-29 15:46:10] INFO root fetch - processPackages [stdatamodels]: Downloading https://files.pythonhosted.org/packages/9e/ba/0d2949ada7c63292307af8622ff518e26c806af6c024b8258bf4a5eaddb4/stdatamodels-1.6.0.tar.gz
+[2023-06-29 15:46:10] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/77/2f/3b8b5367a8e93c84de8a9a257fcf9c0138382b0787051a9b060da34e5058/fbgemm_gpu_nightly-2023.6.27-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-29 15:46:10] INFO root fetch - processPackages [assemblyai]: Downloading https://files.pythonhosted.org/packages/7b/55/a6d0f59e51e905a5e5417e92ec8ae21b89ea6d6499807b180f4011ceadbc/assemblyai-0.8.1.tar.gz
+[2023-06-29 15:46:10] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/79/2c/7a820163a4e95357cb44f655a829eca1025718f7b1c27051d6e2740fe159/oking-4.1.176.tar.gz
+[2023-06-29 15:46:10] INFO root fetch - processPackages [antimeridian]: Downloading https://files.pythonhosted.org/packages/0b/1d/8cbb14f249611115d91b24cc5027c7f626cf6b3f323fc59c527c384f16f4/antimeridian-0.2.6.tar.gz
+[2023-06-29 15:46:10] WARNING root fetch - processPackages [season]: Skipping package: exceeds size limit 13772884>=10485760
+[2023-06-29 15:46:10] INFO root fetch - processPackages [season]: Start processing: up-tamer
+[2023-06-29 15:46:10] INFO root fetch - main [MainThread]: End processing [season] error
+[2023-06-29 15:46:10] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 257989879>=10485760
+[2023-06-29 15:46:10] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: prolog-primitives
+[2023-06-29 15:46:10] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82501220>=10485760
+[2023-06-29 15:46:10] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-06-29 15:46:10] INFO root fetch - processPackages [oking]: Start processing: mxcubeweb
+[2023-06-29 15:46:10] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-06-29 15:46:10] INFO root fetch - processPackages [up-tamer]: New version: [0.3.1.9.dev1] Old Version: [0.3.1.7.dev1]
+[2023-06-29 15:46:10] INFO root fetch - processPackages [abstra]: Downloading https://files.pythonhosted.org/packages/05/28/f72832c041e0b2b0b63df0d3511c62d5fcbca5ba96f7d4a263a7454e6806/abstra-0.8.0.tar.gz
+[2023-06-29 15:46:10] INFO root fetch - processPackages [SilverStreamingApplication]: Downloading https://files.pythonhosted.org/packages/a9/0f/4ad1fff3aa127270a417eb3d1952be2b02e64775b001f10238a68f907a47/SilverStreamingApplication-1.1.tar.gz
+[2023-06-29 15:46:10] INFO root fetch - processPackages [mxcubeweb]: New version: [1.52.0] Old Version: [1.51.0]
+[2023-06-29 15:46:10] INFO root fetch - processPackages [up-tamer]: Downloading https://files.pythonhosted.org/packages/a7/60/6433ef4c971174413d5176e83e07155eb0773a7b083e2be59c018380db91/up_tamer-0.3.1.7.dev1.tar.gz
+[2023-06-29 15:46:10] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/e0/72/670bb47af9c45e07dc811f543ec5e2cd0c64d359452b45d59c01c6c9e94f/mxcubeweb-1.51.0.tar.gz
+[2023-06-29 15:46:10] INFO root fetch - processPackages [stdatamodels]: Downloading https://files.pythonhosted.org/packages/17/5a/f31bc439313209ccf7380abe036645b4d9704f533dfd080b808c3d930290/stdatamodels-1.7.0.tar.gz
+[2023-06-29 15:46:10] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/29/b0/87928a3c7a939f04d7c01f5cc4807f474b634915d0d967fcfba546136bcb/kcli-99.0.202306291343-py3-none-any.whl
+[2023-06-29 15:46:10] INFO root fetch - processPackages [sloth-framework]: Downloading https://files.pythonhosted.org/packages/1b/5e/f7756769bdc54ffa207ac448c35548cc179b70dca456bf78b6d4997e96f9/sloth-framework-0.1.9.tar.gz
+[2023-06-29 15:46:10] INFO root fetch - processPackages [antimeridian]: Downloading https://files.pythonhosted.org/packages/b7/9a/3de73a74f7b5af14c00781535345e5d25a5624af70b6ebf59ecfbd75636a/antimeridian-0.3.0.tar.gz
+[2023-06-29 15:46:10] WARNING root fetch - processPackages [prolog-primitives]: Skipping, unable to determine old version
+[2023-06-29 15:46:10] INFO root fetch - processPackages [prolog-primitives]: Start processing: error-alerts
+[2023-06-29 15:46:10] INFO root fetch - processPackages [assemblyai]: Downloading https://files.pythonhosted.org/packages/c6/f0/4abff3cb2af3f5a220945783c4d77b44f567affffb79dd2d316988c45f0b/assemblyai-0.9.0.tar.gz
+[2023-06-29 15:46:10] INFO root fetch - main [MainThread]: End processing [prolog-primitives] error
+[2023-06-29 15:46:10] INFO root fetch - processPackages [abstra]: Downloading https://files.pythonhosted.org/packages/53/b0/210e93eceb08f1666cd15ef523580965cb7020363a0db1d10cd50c9a5b2e/abstra-0.9.0.tar.gz
+[2023-06-29 15:46:10] INFO root fetch - processPackages [error-alerts]: New version: [5.2] Old Version: [5.1]
+[2023-06-29 15:46:10] INFO root fetch - processPackages [antimeridian]: executing diffoscope
+[2023-06-29 15:46:10] INFO root fetch - processPackages [antimeridian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antimeridian-0.2.6.tar.gz tmp/antimeridian-0.3.0.tar.gz --markdown 20230629/a/antimeridian/0.2.6-0.3.0/diff.md --exclude *.pyd
+[2023-06-29 15:46:10] INFO root fetch - processPackages [stdatamodels]: executing diffoscope
+[2023-06-29 15:46:10] INFO root fetch - processPackages [stdatamodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdatamodels-1.6.0.tar.gz tmp/stdatamodels-1.7.0.tar.gz --markdown 20230629/s/stdatamodels/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-06-29 15:46:10] INFO root fetch - processPackages [up-tamer]: Downloading https://files.pythonhosted.org/packages/da/04/7612a277ea4c1eba3ffb6b9d81b43107ead3478727fb6308c0270c6cad60/up_tamer-0.3.1.9.dev1.tar.gz
+[2023-06-29 15:46:11] INFO root fetch - processPackages [assemblyai]: executing diffoscope
+[2023-06-29 15:46:11] INFO root fetch - processPackages [assemblyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyai-0.8.1.tar.gz tmp/assemblyai-0.9.0.tar.gz --markdown 20230629/a/assemblyai/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-29 15:46:11] INFO root fetch - processPackages [SilverStreamingApplication]: Downloading https://files.pythonhosted.org/packages/a2/9a/353706fe01eb957b318288054c9c0e53751a0b7523802eede0419184ef44/SilverStreamingApplication-1.2.tar.gz
+[2023-06-29 15:46:11] INFO root fetch - processPackages [error-alerts]: Downloading https://files.pythonhosted.org/packages/6a/ef/910b86447b4d3e2187722c2d50f43a91e7fede9972034e467a7b680ba72e/error-alerts-5.1.tar.gz
+[2023-06-29 15:46:11] INFO root fetch - processPackages [sloth-framework]: executing diffoscope
+[2023-06-29 15:46:11] INFO root fetch - processPackages [sloth-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sloth-framework-0.1.8.tar.gz tmp/sloth-framework-0.1.9.tar.gz --markdown 20230629/s/sloth-framework/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 15:46:11] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/89/4a/bd548471677611c15ffbe765c0632d49b778c16e03cf7cfe217185f57afb/mxcubeweb-1.52.0.tar.gz
+[2023-06-29 15:46:11] INFO root fetch - processPackages [abstra]: executing diffoscope
+[2023-06-29 15:46:11] INFO root fetch - processPackages [abstra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstra-0.8.0.tar.gz tmp/abstra-0.9.0.tar.gz --markdown 20230629/a/abstra/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-29 15:46:11] INFO root fetch - processPackages [up-tamer]: executing diffoscope
+[2023-06-29 15:46:11] INFO root fetch - processPackages [up-tamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_tamer-0.3.1.7.dev1.tar.gz tmp/up_tamer-0.3.1.9.dev1.tar.gz --markdown 20230629/u/up-tamer/0.3.1.7.dev1-0.3.1.9.dev1/diff.md --exclude *.pyd
+[2023-06-29 15:46:11] INFO root fetch - processPackages [SilverStreamingApplication]: executing diffoscope
+[2023-06-29 15:46:11] INFO root fetch - processPackages [SilverStreamingApplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SilverStreamingApplication-1.1.tar.gz tmp/SilverStreamingApplication-1.2.tar.gz --markdown 20230629/S/SilverStreamingApplication/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-29 15:46:11] INFO root fetch - processPackages [error-alerts]: Downloading https://files.pythonhosted.org/packages/ec/80/377291bab1ef55157e73060623980fc2960446bd0577dd7427ea84bde755/error-alerts-5.2.tar.gz
+[2023-06-29 15:46:11] INFO root fetch - processPackages [mxcubeweb]: executing diffoscope
+[2023-06-29 15:46:11] INFO root fetch - processPackages [mxcubeweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxcubeweb-1.51.0.tar.gz tmp/mxcubeweb-1.52.0.tar.gz --markdown 20230629/m/mxcubeweb/1.51.0-1.52.0/diff.md --exclude *.pyd
+[2023-06-29 15:46:11] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-29 15:46:11] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306291109-py3-none-any.whl.zip tmp/kcli-99.0.202306291343-py3-none-any.whl.zip --markdown 20230629/k/kcli/99.0.202306291109-99.0.202306291343/diff.md --exclude *.pyd
+[2023-06-29 15:46:11] INFO root fetch - processPackages [error-alerts]: executing diffoscope
+[2023-06-29 15:46:11] INFO root fetch - processPackages [error-alerts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/error-alerts-5.1.tar.gz tmp/error-alerts-5.2.tar.gz --markdown 20230629/e/error-alerts/5.1-5.2/diff.md --exclude *.pyd
+[2023-06-29 15:46:12] INFO root fetch - processPackages [antimeridian]: Remove: archive file [/home/abi/fetcher/tmp/antimeridian-0.2.6.tar.gz]
+[2023-06-29 15:46:12] INFO root fetch - processPackages [antimeridian]: Remove: archive file [/home/abi/fetcher/tmp/antimeridian-0.3.0.tar.gz]
+[2023-06-29 15:46:12] INFO root fetch - processPackages [antimeridian]: Start processing: gs-quant
+[2023-06-29 15:46:12] INFO root fetch - main [MainThread]: End processing [antimeridian]: success
+[2023-06-29 15:46:12] INFO root fetch - processPackages [gs-quant]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-29 15:46:12] INFO root fetch - processPackages [error-alerts]: Remove: archive file [/home/abi/fetcher/tmp/error-alerts-5.1.tar.gz]
+[2023-06-29 15:46:12] INFO root fetch - processPackages [error-alerts]: Remove: archive file [/home/abi/fetcher/tmp/error-alerts-5.2.tar.gz]
+[2023-06-29 15:46:12] INFO root fetch - processPackages [error-alerts]: Start processing: xprec
+[2023-06-29 15:46:12] INFO root fetch - main [MainThread]: End processing [error-alerts]: success
+[2023-06-29 15:46:12] INFO root fetch - processPackages [SilverStreamingApplication]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplication-1.1.tar.gz]
+[2023-06-29 15:46:12] INFO root fetch - processPackages [SilverStreamingApplication]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplication-1.2.tar.gz]
+[2023-06-29 15:46:12] INFO root fetch - processPackages [SilverStreamingApplication]: Start processing: odoo-addon-stock-free-quantity
+[2023-06-29 15:46:12] INFO root fetch - main [MainThread]: End processing [SilverStreamingApplication]: success
+[2023-06-29 15:46:12] INFO root fetch - processPackages [xprec]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-29 15:46:12] INFO root fetch - processPackages [xprec]: Downloading https://files.pythonhosted.org/packages/67/b3/da2e3232674531d208ae90f0101252ffd20e657fad386fdbe8369286fe73/xprec-1.3.8.tar.gz
+[2023-06-29 15:46:12] INFO root fetch - processPackages [abstra]: Remove: archive file [/home/abi/fetcher/tmp/abstra-0.8.0.tar.gz]
+[2023-06-29 15:46:12] INFO root fetch - processPackages [abstra]: Remove: archive file [/home/abi/fetcher/tmp/abstra-0.9.0.tar.gz]
+[2023-06-29 15:46:12] INFO root fetch - processPackages [abstra]: Start processing: recon-lw
+[2023-06-29 15:46:12] INFO root fetch - main [MainThread]: End processing [abstra]: success
+[2023-06-29 15:46:12] INFO root fetch - processPackages [gs-quant]: Downloading https://files.pythonhosted.org/packages/a8/22/ccb70839873a816734ed7fe4a20a50658f4061e8379cdae45a21e643297a/gs_quant-1.0.8.tar.gz
+[2023-06-29 15:46:12] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev5412498418] Old Version: [2.0.0.dev5411511182]
+[2023-06-29 15:46:12] INFO root fetch - processPackages [odoo-addon-stock-free-quantity]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.1.4]
+[2023-06-29 15:46:13] INFO root fetch - processPackages [up-tamer]: Remove: archive file [/home/abi/fetcher/tmp/up_tamer-0.3.1.7.dev1.tar.gz]
+[2023-06-29 15:46:13] INFO root fetch - processPackages [up-tamer]: Remove: archive file [/home/abi/fetcher/tmp/up_tamer-0.3.1.9.dev1.tar.gz]
+[2023-06-29 15:46:13] INFO root fetch - processPackages [up-tamer]: Start processing: up-pyperplan
+[2023-06-29 15:46:13] INFO root fetch - main [MainThread]: End processing [up-tamer]: success
+[2023-06-29 15:46:13] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/b7/68/3754a95312d143e4ad71fe05f95a5dc78f98567063e3298bf076769d86d2/recon_lw-2.0.0.dev5411511182.tar.gz
+[2023-06-29 15:46:13] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.51.0.tar.gz]
+[2023-06-29 15:46:13] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.52.0.tar.gz]
+[2023-06-29 15:46:13] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
+[2023-06-29 15:46:13] INFO root fetch - processPackages [assemblyai]: Remove: archive file [/home/abi/fetcher/tmp/assemblyai-0.8.1.tar.gz]
+[2023-06-29 15:46:13] INFO root fetch - processPackages [assemblyai]: Remove: archive file [/home/abi/fetcher/tmp/assemblyai-0.9.0.tar.gz]
+[2023-06-29 15:46:13] INFO root fetch - main [MainThread]: End processing [assemblyai]: success
+[2023-06-29 15:46:13] INFO root fetch - processPackages [up-pyperplan]: New version: [1.0.0] Old Version: [0.3.0.4.dev1]
+[2023-06-29 15:46:13] INFO root fetch - processPackages [odoo-addon-stock-free-quantity]: Downloading https://files.pythonhosted.org/packages/df/ab/1e12c4a9704eb598e22b9613d5e98b15e60b918de84f3ad5a60e20b7b0d2/odoo_addon_stock_free_quantity-15.0.1.0.1.4-py3-none-any.whl
+[2023-06-29 15:46:13] INFO root fetch - processPackages [xprec]: Downloading https://files.pythonhosted.org/packages/dd/e0/e9550016c53b03b74592c800844c174c65e87cf8f73da6717cdeee0dafd9/xprec-1.3.9.tar.gz
+[2023-06-29 15:46:13] INFO root fetch - processPackages [gs-quant]: Downloading https://files.pythonhosted.org/packages/36/ec/d3b4336a4612dcf07a05e896931bb06e76482967f438ed53953017d5c2fd/gs_quant-1.0.9.tar.gz
+[2023-06-29 15:46:13] INFO root fetch - processPackages [xprec]: executing diffoscope
+[2023-06-29 15:46:13] INFO root fetch - processPackages [xprec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xprec-1.3.8.tar.gz tmp/xprec-1.3.9.tar.gz --markdown 20230629/x/xprec/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-29 15:46:13] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/ce/81/2b341bedd3dced8b531579e1b40d73907e700777c26682c081b2ffb64cec/recon_lw-2.0.0.dev5412498418.tar.gz
+[2023-06-29 15:46:13] INFO root fetch - processPackages [up-pyperplan]: Downloading https://files.pythonhosted.org/packages/b7/92/e75a7d553e699d72245915cf69571d58b8177e226e5b15b80586930ad446/up_pyperplan-0.3.0.4.dev1.tar.gz
+[2023-06-29 15:46:13] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-06-29 15:46:13] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev5411511182.tar.gz tmp/recon_lw-2.0.0.dev5412498418.tar.gz --markdown 20230629/r/recon-lw/2.0.0.dev5411511182-2.0.0.dev5412498418/diff.md --exclude *.pyd
+[2023-06-29 15:46:13] INFO root fetch - processPackages [gs-quant]: executing diffoscope
+[2023-06-29 15:46:13] INFO root fetch - processPackages [gs-quant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_quant-1.0.8.tar.gz tmp/gs_quant-1.0.9.tar.gz --markdown 20230629/g/gs-quant/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-29 15:46:13] INFO root fetch - processPackages [odoo-addon-stock-free-quantity]: Downloading https://files.pythonhosted.org/packages/71/31/513b5605104b4863c9a6679fd0be31a24c96ace768c1029748de1495b6b5/odoo_addon_stock_free_quantity-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-29 15:46:13] INFO root fetch - processPackages [odoo-addon-stock-free-quantity]: executing diffoscope
+[2023-06-29 15:46:13] INFO root fetch - processPackages [odoo-addon-stock-free-quantity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_free_quantity-15.0.1.0.1.4-py3-none-any.whl.zip tmp/odoo_addon_stock_free_quantity-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230629/o/odoo-addon-stock-free-quantity/15.0.1.0.1.4-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-29 15:46:13] INFO root fetch - processPackages [up-pyperplan]: Downloading https://files.pythonhosted.org/packages/f6/a4/fb227867e52cdf61a5e6411a254759fc52eced3d38aa8e0187c12061b54f/up_pyperplan-1.0.0.tar.gz
+[2023-06-29 15:46:14] INFO root fetch - processPackages [up-pyperplan]: executing diffoscope
+[2023-06-29 15:46:14] INFO root fetch - processPackages [up-pyperplan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_pyperplan-0.3.0.4.dev1.tar.gz tmp/up_pyperplan-1.0.0.tar.gz --markdown 20230629/u/up-pyperplan/0.3.0.4.dev1-1.0.0/diff.md --exclude *.pyd
+[2023-06-29 15:46:14] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5411511182.tar.gz]
+[2023-06-29 15:46:14] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5412498418.tar.gz]
+[2023-06-29 15:46:14] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-06-29 15:46:14] INFO root fetch - processPackages [xprec]: Remove: archive file [/home/abi/fetcher/tmp/xprec-1.3.8.tar.gz]
+[2023-06-29 15:46:14] INFO root fetch - processPackages [xprec]: Remove: archive file [/home/abi/fetcher/tmp/xprec-1.3.9.tar.gz]
+[2023-06-29 15:46:14] INFO root fetch - main [MainThread]: End processing [xprec]: success
+[2023-06-29 15:46:14] INFO root fetch - processPackages [odoo-addon-stock-free-quantity]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_free_quantity-15.0.1.0.1.4-py3-none-any.whl.zip]
+[2023-06-29 15:46:14] INFO root fetch - processPackages [odoo-addon-stock-free-quantity]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_free_quantity-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-29 15:46:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-free-quantity]: success
+[2023-06-29 15:46:15] INFO root fetch - processPackages [up-pyperplan]: Remove: archive file [/home/abi/fetcher/tmp/up_pyperplan-0.3.0.4.dev1.tar.gz]
+[2023-06-29 15:46:15] INFO root fetch - processPackages [up-pyperplan]: Remove: archive file [/home/abi/fetcher/tmp/up_pyperplan-1.0.0.tar.gz]
+[2023-06-29 15:46:15] INFO root fetch - main [MainThread]: End processing [up-pyperplan]: success
+[2023-06-29 15:46:15] INFO root fetch - processPackages [sloth-framework]: Remove: archive file [/home/abi/fetcher/tmp/sloth-framework-0.1.8.tar.gz]
+[2023-06-29 15:46:15] INFO root fetch - processPackages [sloth-framework]: Remove: archive file [/home/abi/fetcher/tmp/sloth-framework-0.1.9.tar.gz]
+[2023-06-29 15:46:15] INFO root fetch - main [MainThread]: End processing [sloth-framework]: success
+[2023-06-29 15:46:17] INFO root fetch - processPackages [stdatamodels]: Remove: archive file [/home/abi/fetcher/tmp/stdatamodels-1.6.0.tar.gz]
+[2023-06-29 15:46:17] INFO root fetch - processPackages [stdatamodels]: Remove: archive file [/home/abi/fetcher/tmp/stdatamodels-1.7.0.tar.gz]
+[2023-06-29 15:46:17] INFO root fetch - main [MainThread]: End processing [stdatamodels]: success
+[2023-06-29 15:46:18] INFO root fetch - processPackages [gs-quant]: Remove: archive file [/home/abi/fetcher/tmp/gs_quant-1.0.8.tar.gz]
+[2023-06-29 15:46:18] INFO root fetch - processPackages [gs-quant]: Remove: archive file [/home/abi/fetcher/tmp/gs_quant-1.0.9.tar.gz]
+[2023-06-29 15:46:18] INFO root fetch - main [MainThread]: End processing [gs-quant]: success
+[2023-06-29 15:46:19] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306291109-py3-none-any.whl.zip]
+[2023-06-29 15:46:19] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306291343-py3-none-any.whl.zip]
+[2023-06-29 15:46:19] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-29 15:46:19] INFO root fetch - main [MainThread]: Store serial: [18695850]
