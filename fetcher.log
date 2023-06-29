@@ -21570,3 +21570,119 @@ EOFError: EOF read where object expected
 [2023-06-29 22:01:04] INFO root fetch - processPackages [jupyterlab_local_browser]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_local_browser-0.4.0.tar.gz]
 [2023-06-29 22:01:04] INFO root fetch - main [MainThread]: End processing [jupyterlab_local_browser]: success
 [2023-06-29 22:01:04] INFO root fetch - main [MainThread]: Store serial: [18699822]
+[2023-06-29 22:06:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18699822]
+[2023-06-29 22:06:13] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-29 22:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nwebclient
+[2023-06-29 22:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: circuitpython-jled
+[2023-06-29 22:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reactpy-django
+[2023-06-29 22:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simple-pygame-gui
+[2023-06-29 22:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spy-der
+[2023-06-29 22:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: istruthy
+[2023-06-29 22:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: klcreqs
+[2023-06-29 22:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: acryl-sqlglot
+[2023-06-29 22:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: notebook-prototyping
+[2023-06-29 22:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: earthengine-api
+[2023-06-29 22:06:13] INFO root fetch - processPackages [circuitpython-jled]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-29 22:06:13] INFO root fetch - processPackages [spy-der]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-29 22:06:13] WARNING root fetch - processPackages [simple-pygame-gui]: Skipping, unable to determine old version
+[2023-06-29 22:06:13] INFO root fetch - processPackages [klcreqs]: New version: [2023.6.29] Old Version: [2023.2.17]
+[2023-06-29 22:06:13] INFO root fetch - processPackages [simple-pygame-gui]: Start processing: flowcept
+[2023-06-29 22:06:13] INFO root fetch - main [MainThread]: End processing [simple-pygame-gui] error
+[2023-06-29 22:06:13] INFO root fetch - processPackages [reactpy-django]: New version: [3.2.1] Old Version: [3.2.0]
+[2023-06-29 22:06:13] WARNING root fetch - processPackages [istruthy]: Skipping, unable to determine old version
+[2023-06-29 22:06:13] INFO root fetch - processPackages [istruthy]: Start processing: policyengine-us
+[2023-06-29 22:06:13] INFO root fetch - main [MainThread]: End processing [istruthy] error
+[2023-06-29 22:06:13] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-06-29 22:06:13] INFO root fetch - processPackages [notebook-prototyping]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 22:06:13] INFO root fetch - processPackages [acryl-sqlglot]: New version: [16.7.6.dev6] Old Version: [16.7.1.dev8]
+[2023-06-29 22:06:13] INFO root fetch - processPackages [earthengine-api]: New version: [0.1.99] Old Version: [0.1.97]
+[2023-06-29 22:06:13] INFO root fetch - processPackages [flowcept]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-29 22:06:13] INFO root fetch - processPackages [policyengine-us]: New version: [0.345.6] Old Version: [0.345.5]
+[2023-06-29 22:06:13] INFO root fetch - processPackages [notebook-prototyping]: Downloading https://files.pythonhosted.org/packages/9a/90/d1a2b6e77d1276d9ad69921b36b2855212bc2af45cf77dc14f8e8cc98c01/notebook_prototyping-0.1.8.tar.gz
+[2023-06-29 22:06:13] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-06-29 22:06:14] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/72/c3/abe02fd1ac71afe8eab3a78aa23e8d9ff7e70210e14aa61019e2462c9db4/policyengine-us-0.345.5.tar.gz
+[2023-06-29 22:06:14] INFO root fetch - processPackages [klcreqs]: Downloading https://files.pythonhosted.org/packages/58/1a/3c0a1ad770af81ade87e59a775b71a4d3fb40960d79620e15807e8c3be25/klcreqs-2023.2.17.tar.gz
+[2023-06-29 22:06:14] INFO root fetch - processPackages [circuitpython-jled]: Downloading https://files.pythonhosted.org/packages/8a/b1/72c097f693f6a815d56f542a1b37e9b2666e88a8f81a93b67c11a7c69858/circuitpython-jled-1.0.3.tar.gz
+[2023-06-29 22:06:14] INFO root fetch - processPackages [spy-der]: Downloading https://files.pythonhosted.org/packages/9b/40/9f199e69d7885ec74f80fa6dabfb56c867e41c096c4d29ff4bcfd6a94d2d/spy-der-0.4.0.tar.gz
+[2023-06-29 22:06:14] INFO root fetch - processPackages [acryl-sqlglot]: Downloading https://files.pythonhosted.org/packages/79/8f/4dc0a4d9a7ffbbe40ffa9f5b51728eb42f15540df085c9a8c20daa7e9b6b/acryl-sqlglot-16.7.1.dev8.tar.gz
+[2023-06-29 22:06:14] INFO root fetch - processPackages [reactpy-django]: Downloading https://files.pythonhosted.org/packages/f5/ec/54ab2f44466e5bc14cccc90fd34f272ec59af058bdb4427e564348c42d4e/reactpy_django-3.2.0.tar.gz
+[2023-06-29 22:06:14] INFO root fetch - processPackages [earthengine-api]: Downloading https://files.pythonhosted.org/packages/34/ab/ffc5a8a504b242a55990eb9ac363c9e5e30cdbb203f0362d6e7ba41bbcad/earthengine-api-0.1.97.tar.gz
+[2023-06-29 22:06:14] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-06-29 22:06:14] INFO root fetch - processPackages [notebook-prototyping]: Downloading https://files.pythonhosted.org/packages/18/3b/e9a9848e079a58174368ace3a4fcf07b2ecfb461f86abaf1b0952635b2b3/notebook_prototyping-0.1.9.tar.gz
+[2023-06-29 22:06:14] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-06-29 22:06:14] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230629/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-06-29 22:06:14] INFO root fetch - processPackages [notebook-prototyping]: executing diffoscope
+[2023-06-29 22:06:14] INFO root fetch - processPackages [notebook-prototyping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebook_prototyping-0.1.8.tar.gz tmp/notebook_prototyping-0.1.9.tar.gz --markdown 20230629/n/notebook-prototyping/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 22:06:14] INFO root fetch - processPackages [klcreqs]: Downloading https://files.pythonhosted.org/packages/49/14/4e2b3c366640d76e7c8d0a74436a5e5af1eeeb6dafdc232def814a369a6f/klcreqs-2023.6.29.tar.gz
+[2023-06-29 22:06:14] INFO root fetch - processPackages [flowcept]: Downloading https://files.pythonhosted.org/packages/fa/c2/1193ad6afa4dcb6c941926521b15feb12d47e14fdc7c7ab794852e0ccdf6/flowcept-0.1.3.tar.gz
+[2023-06-29 22:06:14] INFO root fetch - processPackages [circuitpython-jled]: Downloading https://files.pythonhosted.org/packages/2b/04/8d7242b2a2b1cd31a21f684072d67f8bb5b59fedbe2479e8fd4fc66ce6c9/circuitpython-jled-1.0.4.tar.gz
+[2023-06-29 22:06:14] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/61/ec/2b41fd4dd346a64672721a715b595818c2139ca86ff16ff926d8c88bd8da/policyengine-us-0.345.6.tar.gz
+[2023-06-29 22:06:14] INFO root fetch - processPackages [spy-der]: Downloading https://files.pythonhosted.org/packages/a0/77/26f8cd7a6e80a7766c1bfc83436e8571d988ce0e619e83e09a75bd334e31/spy-der-0.4.1.tar.gz
+[2023-06-29 22:06:14] INFO root fetch - processPackages [klcreqs]: executing diffoscope
+[2023-06-29 22:06:14] INFO root fetch - processPackages [klcreqs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klcreqs-2023.2.17.tar.gz tmp/klcreqs-2023.6.29.tar.gz --markdown 20230629/k/klcreqs/2023.2.17-2023.6.29/diff.md --exclude *.pyd
+[2023-06-29 22:06:14] INFO root fetch - processPackages [flowcept]: executing diffoscope
+[2023-06-29 22:06:14] INFO root fetch - processPackages [flowcept]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowcept-0.1.2.tar.gz tmp/flowcept-0.1.3.tar.gz --markdown 20230629/f/flowcept/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-29 22:06:14] INFO root fetch - processPackages [circuitpython-jled]: executing diffoscope
+[2023-06-29 22:06:14] INFO root fetch - processPackages [circuitpython-jled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitpython-jled-1.0.3.tar.gz tmp/circuitpython-jled-1.0.4.tar.gz --markdown 20230629/c/circuitpython-jled/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-29 22:06:14] INFO root fetch - processPackages [spy-der]: executing diffoscope
+[2023-06-29 22:06:14] INFO root fetch - processPackages [spy-der]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spy-der-0.4.0.tar.gz tmp/spy-der-0.4.1.tar.gz --markdown 20230629/s/spy-der/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-29 22:06:14] INFO root fetch - processPackages [reactpy-django]: Downloading https://files.pythonhosted.org/packages/9b/96/5e5a061d81422d298a35355160caf7135b85e3fff589526917463eba9909/reactpy_django-3.2.1.tar.gz
+[2023-06-29 22:06:14] INFO root fetch - processPackages [earthengine-api]: Downloading https://files.pythonhosted.org/packages/57/32/e9962f84ea0857b1d931597eb5b674e5a023c9162b7e369593bcab88756d/earthengine-api-0.1.99.tar.gz
+[2023-06-29 22:06:14] INFO root fetch - processPackages [reactpy-django]: executing diffoscope
+[2023-06-29 22:06:14] INFO root fetch - processPackages [reactpy-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactpy_django-3.2.0.tar.gz tmp/reactpy_django-3.2.1.tar.gz --markdown 20230629/r/reactpy-django/3.2.0-3.2.1/diff.md --exclude *.pyd
+[2023-06-29 22:06:14] INFO root fetch - processPackages [earthengine-api]: executing diffoscope
+[2023-06-29 22:06:14] INFO root fetch - processPackages [earthengine-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/earthengine-api-0.1.97.tar.gz tmp/earthengine-api-0.1.99.tar.gz --markdown 20230629/e/earthengine-api/0.1.97-0.1.99/diff.md --exclude *.pyd
+[2023-06-29 22:06:14] INFO root fetch - processPackages [acryl-sqlglot]: Downloading https://files.pythonhosted.org/packages/00/4b/1321cef05ffd4ab5b77c4f7aab0fab57fb388667ec13cfb2344cab3eab59/acryl-sqlglot-16.7.6.dev6.tar.gz
+[2023-06-29 22:06:14] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-06-29 22:06:14] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.345.5.tar.gz tmp/policyengine-us-0.345.6.tar.gz --markdown 20230629/p/policyengine-us/0.345.5-0.345.6/diff.md --exclude *.pyd
+[2023-06-29 22:06:15] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-06-29 22:06:15] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-06-29 22:06:15] INFO root fetch - processPackages [nwebclient]: Start processing: kgtk
+[2023-06-29 22:06:15] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-06-29 22:06:15] INFO root fetch - processPackages [flowcept]: Remove: archive file [/home/abi/fetcher/tmp/flowcept-0.1.2.tar.gz]
+[2023-06-29 22:06:15] INFO root fetch - processPackages [flowcept]: Remove: archive file [/home/abi/fetcher/tmp/flowcept-0.1.3.tar.gz]
+[2023-06-29 22:06:15] INFO root fetch - processPackages [flowcept]: Start processing: piper
+[2023-06-29 22:06:15] INFO root fetch - main [MainThread]: End processing [flowcept]: success
+[2023-06-29 22:06:15] INFO root fetch - processPackages [notebook-prototyping]: Remove: archive file [/home/abi/fetcher/tmp/notebook_prototyping-0.1.8.tar.gz]
+[2023-06-29 22:06:15] INFO root fetch - processPackages [notebook-prototyping]: Remove: archive file [/home/abi/fetcher/tmp/notebook_prototyping-0.1.9.tar.gz]
+[2023-06-29 22:06:15] INFO root fetch - main [MainThread]: End processing [notebook-prototyping]: success
+[2023-06-29 22:06:15] INFO root fetch - processPackages [klcreqs]: Remove: archive file [/home/abi/fetcher/tmp/klcreqs-2023.2.17.tar.gz]
+[2023-06-29 22:06:15] INFO root fetch - processPackages [klcreqs]: Remove: archive file [/home/abi/fetcher/tmp/klcreqs-2023.6.29.tar.gz]
+[2023-06-29 22:06:15] INFO root fetch - main [MainThread]: End processing [klcreqs]: success
+[2023-06-29 22:06:15] INFO root fetch - processPackages [acryl-sqlglot]: executing diffoscope
+[2023-06-29 22:06:15] INFO root fetch - processPackages [acryl-sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-sqlglot-16.7.1.dev8.tar.gz tmp/acryl-sqlglot-16.7.6.dev6.tar.gz --markdown 20230629/a/acryl-sqlglot/16.7.1.dev8-16.7.6.dev6/diff.md --exclude *.pyd
+[2023-06-29 22:06:15] INFO root fetch - processPackages [kgtk]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-06-29 22:06:15] INFO root fetch - processPackages [piper]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-29 22:06:16] INFO root fetch - processPackages [piper]: Downloading https://files.pythonhosted.org/packages/0d/e2/087a1be7b5caa02ea064f6ca4ef304feb0ff9d1403a7c25530fc628f56b9/piper-0.9.3.tar.gz
+[2023-06-29 22:06:16] INFO root fetch - processPackages [kgtk]: Downloading https://files.pythonhosted.org/packages/c6/e4/2c5f8ae3024a339979fd0d67f2bf18bba8f7fe5426ed165bcb4ff02bc41a/kgtk-1.5.3.tar.gz
+[2023-06-29 22:06:16] INFO root fetch - processPackages [earthengine-api]: Remove: archive file [/home/abi/fetcher/tmp/earthengine-api-0.1.97.tar.gz]
+[2023-06-29 22:06:16] INFO root fetch - processPackages [earthengine-api]: Remove: archive file [/home/abi/fetcher/tmp/earthengine-api-0.1.99.tar.gz]
+[2023-06-29 22:06:16] INFO root fetch - main [MainThread]: End processing [earthengine-api]: success
+[2023-06-29 22:06:16] INFO root fetch - processPackages [kgtk]: Downloading https://files.pythonhosted.org/packages/f1/86/8f1c94c2e47e11675eea076f59ceb1c60969d6ebafeb493d02560b26823b/kgtk-1.5.4.tar.gz
+[2023-06-29 22:06:16] INFO root fetch - processPackages [piper]: Downloading https://files.pythonhosted.org/packages/ed/41/f6839f7ffb8f224ca898f33b27853a88b60ffd81eb405878e5771f261dbe/piper-0.9.4.tar.gz
+[2023-06-29 22:06:16] INFO root fetch - processPackages [piper]: executing diffoscope
+[2023-06-29 22:06:16] INFO root fetch - processPackages [piper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piper-0.9.3.tar.gz tmp/piper-0.9.4.tar.gz --markdown 20230629/p/piper/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-29 22:06:16] INFO root fetch - processPackages [kgtk]: executing diffoscope
+[2023-06-29 22:06:16] INFO root fetch - processPackages [kgtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kgtk-1.5.3.tar.gz tmp/kgtk-1.5.4.tar.gz --markdown 20230629/k/kgtk/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-06-29 22:06:17] INFO root fetch - processPackages [reactpy-django]: Remove: archive file [/home/abi/fetcher/tmp/reactpy_django-3.2.0.tar.gz]
+[2023-06-29 22:06:17] INFO root fetch - processPackages [reactpy-django]: Remove: archive file [/home/abi/fetcher/tmp/reactpy_django-3.2.1.tar.gz]
+[2023-06-29 22:06:17] INFO root fetch - main [MainThread]: End processing [reactpy-django]: success
+[2023-06-29 22:06:17] INFO root fetch - processPackages [piper]: Remove: archive file [/home/abi/fetcher/tmp/piper-0.9.3.tar.gz]
+[2023-06-29 22:06:17] INFO root fetch - processPackages [piper]: Remove: archive file [/home/abi/fetcher/tmp/piper-0.9.4.tar.gz]
+[2023-06-29 22:06:17] INFO root fetch - main [MainThread]: End processing [piper]: success
+[2023-06-29 22:06:18] INFO root fetch - processPackages [spy-der]: Remove: archive file [/home/abi/fetcher/tmp/spy-der-0.4.0.tar.gz]
+[2023-06-29 22:06:18] INFO root fetch - processPackages [spy-der]: Remove: archive file [/home/abi/fetcher/tmp/spy-der-0.4.1.tar.gz]
+[2023-06-29 22:06:18] INFO root fetch - main [MainThread]: End processing [spy-der]: success
+[2023-06-29 22:06:19] INFO root fetch - processPackages [kgtk]: Remove: archive file [/home/abi/fetcher/tmp/kgtk-1.5.3.tar.gz]
+[2023-06-29 22:06:19] INFO root fetch - processPackages [kgtk]: Remove: archive file [/home/abi/fetcher/tmp/kgtk-1.5.4.tar.gz]
+[2023-06-29 22:06:19] INFO root fetch - main [MainThread]: End processing [kgtk]: success
+[2023-06-29 22:06:56] INFO root fetch - processPackages [circuitpython-jled]: Remove: archive file [/home/abi/fetcher/tmp/circuitpython-jled-1.0.3.tar.gz]
+[2023-06-29 22:06:56] INFO root fetch - processPackages [circuitpython-jled]: Remove: archive file [/home/abi/fetcher/tmp/circuitpython-jled-1.0.4.tar.gz]
+[2023-06-29 22:06:56] INFO root fetch - main [MainThread]: End processing [circuitpython-jled]: success
+[2023-06-29 22:07:08] INFO root fetch - processPackages [acryl-sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/acryl-sqlglot-16.7.1.dev8.tar.gz]
+[2023-06-29 22:07:08] INFO root fetch - processPackages [acryl-sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/acryl-sqlglot-16.7.6.dev6.tar.gz]
+[2023-06-29 22:07:08] INFO root fetch - main [MainThread]: End processing [acryl-sqlglot]: success
+[2023-06-29 22:07:46] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.345.5.tar.gz]
+[2023-06-29 22:07:46] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.345.6.tar.gz]
+[2023-06-29 22:07:46] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-06-29 22:07:46] INFO root fetch - main [MainThread]: Store serial: [18699870]
