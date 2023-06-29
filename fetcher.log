@@ -14138,3 +14138,225 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 17:07:05] INFO root fetch - processPackages [argilla]: Remove: archive file [/home/abi/fetcher/tmp/argilla-1.9.0.tar.gz]
 [2023-06-29 17:07:05] INFO root fetch - main [MainThread]: End processing [argilla]: success
 [2023-06-29 17:07:05] INFO root fetch - main [MainThread]: Store serial: [18696783]
+[2023-06-29 17:12:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18696783]
+[2023-06-29 17:12:15] INFO root fetch - main [MainThread]: Found 30 changed packages
+[2023-06-29 17:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloci
+[2023-06-29 17:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: com.castsoftware.uc.python.common
+[2023-06-29 17:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: live-parquet
+[2023-06-29 17:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modular-sdk
+[2023-06-29 17:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jupyter-code-fixer
+[2023-06-29 17:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-clickhouse-backend
+[2023-06-29 17:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ag-llama-api
+[2023-06-29 17:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rosetta-ce
+[2023-06-29 17:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vectortile
+[2023-06-29 17:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sqlglot
+[2023-06-29 17:12:15] INFO root fetch - processPackages [vectortile]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-06-29 17:12:15] INFO root fetch - processPackages [rosetta-ce]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-06-29 17:12:15] WARNING root fetch - processPackages [live-parquet]: Skipping, unable to determine old version
+[2023-06-29 17:12:15] INFO root fetch - processPackages [live-parquet]: Start processing: fastapi-orm-manager
+[2023-06-29 17:12:15] INFO root fetch - main [MainThread]: End processing [live-parquet] error
+[2023-06-29 17:12:15] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2023-06-29 17:12:15] INFO root fetch - processPackages [django-clickhouse-backend]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-29 17:12:15] WARNING root fetch - processPackages [modular-sdk]: Skipping, unable to determine old version
+[2023-06-29 17:12:15] INFO root fetch - processPackages [modular-sdk]: Start processing: tensorflow-text-nightly
+[2023-06-29 17:12:15] INFO root fetch - main [MainThread]: End processing [modular-sdk] error
+[2023-06-29 17:12:15] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-29 17:12:15] WARNING root fetch - processPackages [jupyter-code-fixer]: Skipping, unable to determine old version
+[2023-06-29 17:12:15] INFO root fetch - processPackages [jupyter-code-fixer]: Start processing: quil
+[2023-06-29 17:12:15] INFO root fetch - main [MainThread]: End processing [jupyter-code-fixer] error
+[2023-06-29 17:12:15] INFO root fetch - processPackages [cloci]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 17:12:15] INFO root fetch - processPackages [ag-llama-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 17:12:15] INFO root fetch - processPackages [fastapi-orm-manager]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 17:12:15] INFO root fetch - processPackages [vectortile]: Downloading https://files.pythonhosted.org/packages/99/91/cb1dec0a8856d307ac88a4b359128bf257cc25d03bb9739ddca4e0723b8e/vectortile-1.4.0.tar.gz
+[2023-06-29 17:12:15] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.14.0.dev20230627] Old Version: [2.14.0.dev20230626]
+[2023-06-29 17:12:15] INFO root fetch - processPackages [quil]: New version: [0.2.0rc9] Old Version: [0.2.0rc8]
+[2023-06-29 17:12:15] INFO root fetch - processPackages [django-clickhouse-backend]: Downloading https://files.pythonhosted.org/packages/30/4a/0757bfc1cdce2f5645bb5640661c7ba05f5420b19f8860592d315eecde89/django-clickhouse-backend-1.0.2.tar.gz
+[2023-06-29 17:12:15] INFO root fetch - processPackages [fastapi-orm-manager]: executing diffoscope
+[2023-06-29 17:12:15] INFO root fetch - processPackages [fastapi-orm-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_orm_manager-0.0.8.tar.gz tmp/fastapi_orm_manager-0.0.9.tar.gz --markdown 20230629/f/fastapi-orm-manager/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 17:12:15] INFO root fetch - processPackages [cloci]: Downloading https://files.pythonhosted.org/packages/d8/b5/9e088a183a7e0a762c35174699f2161dabb9e17ea822799f49415d0a6e7f/cloci-0.0.8.tar.gz
+[2023-06-29 17:12:15] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/e7/db/6c93bb8ec9653fafd298258240710b4768345a45843013bc715cf9e658f7/ag_llama_api-0.0.8.tar.gz
+[2023-06-29 17:12:15] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/95/77/caac58bd2d5828ab76f0289686631e715df498ce80fd1010fd73d57dabb3/rosetta-ce-1.2.9.tar.gz
+[2023-06-29 17:12:15] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: Downloading https://files.pythonhosted.org/packages/80/8e/fbc02a94f934844f87e6f0df2a9898e2cd0ce0c137c675cec5e95eaa17e6/com.castsoftware.uc.python.common-1.0.8.tar.gz
+[2023-06-29 17:12:15] INFO root fetch - processPackages [quil]: Downloading https://files.pythonhosted.org/packages/94/78/03d63317e11b6758655ca8302d3f8d97fb6e2ab5e7c04edd1e87d64f7875/quil-0.2.0rc8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-29 17:12:15] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/1d/36/7dd85969524c7409daeb11f98dba2bfc6cbc0cdfbbf6a5aeff8c918c8d10/tensorflow_text_nightly-2.14.0.dev20230626-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-29 17:12:15] INFO root fetch - processPackages [vectortile]: Downloading https://files.pythonhosted.org/packages/c6/6b/b3d1153a9e0314dcd602711ccccf8ba4039c58e60db5c68ff2ad7b73cdd0/vectortile-1.4.1.tar.gz
+[2023-06-29 17:12:15] INFO root fetch - processPackages [django-clickhouse-backend]: Downloading https://files.pythonhosted.org/packages/b8/f0/2b01f7be6f4b199e53abfc990e2d08b7b129fb3e22e5b7515868eb2a89c7/django-clickhouse-backend-1.0.3.tar.gz
+[2023-06-29 17:12:15] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2023-06-29 17:12:15] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20230629/s/sqlglot/9.0.5-9.0.6/diff.md --exclude *.pyd
+[2023-06-29 17:12:15] INFO root fetch - processPackages [vectortile]: executing diffoscope
+[2023-06-29 17:12:15] INFO root fetch - processPackages [vectortile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectortile-1.4.0.tar.gz tmp/vectortile-1.4.1.tar.gz --markdown 20230629/v/vectortile/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-06-29 17:12:15] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/07/36/817be64f54d11f59d021eaa40bb315277e0df07d14dac31e3fb554654a8d/rosetta-ce-1.3.0.tar.gz
+[2023-06-29 17:12:15] INFO root fetch - processPackages [cloci]: Downloading https://files.pythonhosted.org/packages/b3/30/534091a16ad6fbdec08d920b15429451ad66c4c803b1cf9f58035160bc7b/cloci-0.0.9.tar.gz
+[2023-06-29 17:12:15] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/0e/45/5ce146425eb4c54590e514bf53d436ec8eb7cbeee70953b613dcd4e56824/ag_llama_api-0.0.9.tar.gz
+[2023-06-29 17:12:15] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: Downloading https://files.pythonhosted.org/packages/84/93/d95ee2e0763796458166b5e0aa32c45741b2b0be7e91cf97a77779079abb/com.castsoftware.uc.python.common-1.0.9.tar.gz
+[2023-06-29 17:12:15] INFO root fetch - processPackages [django-clickhouse-backend]: executing diffoscope
+[2023-06-29 17:12:15] INFO root fetch - processPackages [django-clickhouse-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-clickhouse-backend-1.0.2.tar.gz tmp/django-clickhouse-backend-1.0.3.tar.gz --markdown 20230629/d/django-clickhouse-backend/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-29 17:12:15] INFO root fetch - processPackages [rosetta-ce]: executing diffoscope
+[2023-06-29 17:12:15] INFO root fetch - processPackages [rosetta-ce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosetta-ce-1.2.9.tar.gz tmp/rosetta-ce-1.3.0.tar.gz --markdown 20230629/r/rosetta-ce/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-06-29 17:12:15] INFO root fetch - processPackages [cloci]: executing diffoscope
+[2023-06-29 17:12:15] INFO root fetch - processPackages [cloci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloci-0.0.8.tar.gz tmp/cloci-0.0.9.tar.gz --markdown 20230629/c/cloci/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 17:12:15] INFO root fetch - processPackages [ag-llama-api]: executing diffoscope
+[2023-06-29 17:12:15] INFO root fetch - processPackages [ag-llama-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_api-0.0.8.tar.gz tmp/ag_llama_api-0.0.9.tar.gz --markdown 20230629/a/ag-llama-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 17:12:15] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: executing diffoscope
+[2023-06-29 17:12:15] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/com.castsoftware.uc.python.common-1.0.8.tar.gz tmp/com.castsoftware.uc.python.common-1.0.9.tar.gz --markdown 20230629/c/com.castsoftware.uc.python.common/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-29 17:12:15] INFO root fetch - processPackages [quil]: Downloading https://files.pythonhosted.org/packages/b1/3c/00401430a1be1644e4a3cb6e13e5f3d10cb99725d133fdb62d7d15ccef22/quil-0.2.0rc9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-29 17:12:16] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/50/88/e53249c6b4749cf1c77d9792fcc5057f594cce5eea7966a7542d98635810/tensorflow_text_nightly-2.14.0.dev20230627-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-29 17:12:16] INFO root fetch - processPackages [quil]: executing diffoscope
+[2023-06-29 17:12:16] INFO root fetch - processPackages [quil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quil-0.2.0rc8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/quil-0.2.0rc9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230629/q/quil/0.2.0rc8-0.2.0rc9/diff.md --exclude *.pyd
+[2023-06-29 17:12:16] INFO root fetch - processPackages [fastapi-orm-manager]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_orm_manager-0.0.8.tar.gz]
+[2023-06-29 17:12:16] INFO root fetch - processPackages [fastapi-orm-manager]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_orm_manager-0.0.9.tar.gz]
+[2023-06-29 17:12:16] INFO root fetch - processPackages [fastapi-orm-manager]: Start processing: devex-sdk
+[2023-06-29 17:12:16] INFO root fetch - main [MainThread]: End processing [fastapi-orm-manager]: success
+[2023-06-29 17:12:16] INFO root fetch - processPackages [devex-sdk]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-29 17:12:16] INFO root fetch - processPackages [devex-sdk]: Downloading https://files.pythonhosted.org/packages/8c/88/c56dec4a0e10ee7becaf825af9fbf1770e3e4d53668def5ad507f592d9a7/devex_sdk-1.0.2.tar.gz
+[2023-06-29 17:12:16] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.5.tar.gz]
+[2023-06-29 17:12:16] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.6.tar.gz]
+[2023-06-29 17:12:16] INFO root fetch - processPackages [sqlglot]: Start processing: RanDepict
+[2023-06-29 17:12:16] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2023-06-29 17:12:16] INFO root fetch - processPackages [RanDepict]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-06-29 17:12:17] INFO root fetch - processPackages [RanDepict]: Downloading https://files.pythonhosted.org/packages/91/d2/1ad5e1a241c689d276646c4d7d6b34141d72bb02535399ebac45b498b710/RanDepict-1.1.7.tar.gz
+[2023-06-29 17:12:17] INFO root fetch - processPackages [devex-sdk]: Downloading https://files.pythonhosted.org/packages/38/ce/7314963ae1d0d1a4fd28bf5e218987e7e0cb8d817cc4c211fe2886b3bf42/devex_sdk-1.0.3.tar.gz
+[2023-06-29 17:12:17] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-06-29 17:12:17] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.14.0.dev20230626-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_text_nightly-2.14.0.dev20230627-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230629/t/tensorflow-text-nightly/2.14.0.dev20230626-2.14.0.dev20230627/diff.md --exclude *.pyd
+[2023-06-29 17:12:17] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.8.tar.gz]
+[2023-06-29 17:12:17] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.9.tar.gz]
+[2023-06-29 17:12:17] INFO root fetch - processPackages [ag-llama-api]: Start processing: sparksnake
+[2023-06-29 17:12:17] INFO root fetch - main [MainThread]: End processing [ag-llama-api]: success
+[2023-06-29 17:12:17] INFO root fetch - processPackages [devex-sdk]: executing diffoscope
+[2023-06-29 17:12:17] INFO root fetch - processPackages [devex-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devex_sdk-1.0.2.tar.gz tmp/devex_sdk-1.0.3.tar.gz --markdown 20230629/d/devex-sdk/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-29 17:12:17] INFO root fetch - processPackages [sparksnake]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 17:12:17] WARNING root fetch - processPackages [RanDepict]: Skipping package: exceeds size limit 53372506>=10485760
+[2023-06-29 17:12:17] INFO root fetch - processPackages [RanDepict]: Start processing: com.castsoftware.uc.oneclick
+[2023-06-29 17:12:17] INFO root fetch - main [MainThread]: End processing [RanDepict] error
+[2023-06-29 17:12:17] INFO root fetch - processPackages [vectortile]: Remove: archive file [/home/abi/fetcher/tmp/vectortile-1.4.0.tar.gz]
+[2023-06-29 17:12:17] INFO root fetch - processPackages [vectortile]: Remove: archive file [/home/abi/fetcher/tmp/vectortile-1.4.1.tar.gz]
+[2023-06-29 17:12:17] INFO root fetch - processPackages [vectortile]: Start processing: ecghelper
+[2023-06-29 17:12:17] INFO root fetch - main [MainThread]: End processing [vectortile]: success
+[2023-06-29 17:12:17] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: New version: [0.2.3.1b0] Old Version: [0.2.2.9]
+[2023-06-29 17:12:17] INFO root fetch - processPackages [ecghelper]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-06-29 17:12:17] INFO root fetch - processPackages [sparksnake]: Downloading https://files.pythonhosted.org/packages/07/82/b61aa887aa1d5119b80feb0143d565e3cf5c7acca393fe99c8acf9712b7f/sparksnake-0.1.8.tar.gz
+[2023-06-29 17:12:17] INFO root fetch - processPackages [ecghelper]: Downloading https://files.pythonhosted.org/packages/5c/cb/ab158eb919f43df21808b7da919747f317fd35ecc0757f084557678eeefa/ecghelper-0.3.1.tar.gz
+[2023-06-29 17:12:17] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: Downloading https://files.pythonhosted.org/packages/e5/f7/94c5d16a7af138492c6522416d7a67a6e7a2703f62e3e7a8df8151151f1c/com.castsoftware.uc.oneclick-0.2.2.9.tar.gz
+[2023-06-29 17:12:17] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: Remove: archive file [/home/abi/fetcher/tmp/com.castsoftware.uc.python.common-1.0.8.tar.gz]
+[2023-06-29 17:12:17] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: Remove: archive file [/home/abi/fetcher/tmp/com.castsoftware.uc.python.common-1.0.9.tar.gz]
+[2023-06-29 17:12:17] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: Start processing: jupyterlab-sql-editor
+[2023-06-29 17:12:17] INFO root fetch - main [MainThread]: End processing [com.castsoftware.uc.python.common]: success
+[2023-06-29 17:12:17] INFO root fetch - processPackages [jupyterlab-sql-editor]: New version: [0.1.66] Old Version: [0.1.65a1]
+[2023-06-29 17:12:17] INFO root fetch - processPackages [sparksnake]: Downloading https://files.pythonhosted.org/packages/96/eb/78a26281cfc4ee84b9572f8495ca91db74d482a3c9752fba1c7b2faa0466/sparksnake-0.1.9.tar.gz
+[2023-06-29 17:12:17] INFO root fetch - processPackages [ecghelper]: Downloading https://files.pythonhosted.org/packages/98/c7/be6dea3c9f41fffb5738acc8d5863e9cd5bc17279b3976eaec72b43b8627/ecghelper-0.4.0.tar.gz
+[2023-06-29 17:12:17] INFO root fetch - processPackages [sparksnake]: executing diffoscope
+[2023-06-29 17:12:17] INFO root fetch - processPackages [sparksnake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparksnake-0.1.8.tar.gz tmp/sparksnake-0.1.9.tar.gz --markdown 20230629/s/sparksnake/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 17:12:17] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.2.9.tar.gz]
+[2023-06-29 17:12:17] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.3.0.tar.gz]
+[2023-06-29 17:12:17] INFO root fetch - processPackages [rosetta-ce]: Start processing: porobot
+[2023-06-29 17:12:17] INFO root fetch - main [MainThread]: End processing [rosetta-ce]: success
+[2023-06-29 17:12:17] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: Downloading https://files.pythonhosted.org/packages/3e/f5/e84af1e36dfe8428763a04eea38ae40c42c6898ac0d3abe395bedb3fe2ba/com.castsoftware.uc.oneclick-0.2.3.1b0.tar.gz
+[2023-06-29 17:12:17] INFO root fetch - processPackages [porobot]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-29 17:12:17] INFO root fetch - processPackages [ecghelper]: executing diffoscope
+[2023-06-29 17:12:17] INFO root fetch - processPackages [jupyterlab-sql-editor]: Downloading https://files.pythonhosted.org/packages/2e/8c/9eb1ab8ea89c48d35429ae96b276799fdc9d3b8326917dacc30b56be7f10/jupyterlab_sql_editor-0.1.66.tar.gz
+[2023-06-29 17:12:17] INFO root fetch - processPackages [ecghelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecghelper-0.3.1.tar.gz tmp/ecghelper-0.4.0.tar.gz --markdown 20230629/e/ecghelper/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-29 17:12:17] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: executing diffoscope
+[2023-06-29 17:12:17] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/com.castsoftware.uc.oneclick-0.2.2.9.tar.gz tmp/com.castsoftware.uc.oneclick-0.2.3.1b0.tar.gz --markdown 20230629/c/com.castsoftware.uc.oneclick/0.2.2.9-0.2.3.1b0/diff.md --exclude *.pyd
+[2023-06-29 17:12:17] INFO root fetch - processPackages [porobot]: Downloading https://files.pythonhosted.org/packages/c6/ec/c94cbec88a6059a386e5d40d6aa8c15669f2f57fbc4f4f5e8a8858d4f22b/porobot-0.0.1.tar.gz
+[2023-06-29 17:12:18] INFO root fetch - processPackages [jupyterlab-sql-editor]: executing diffoscope
+[2023-06-29 17:12:18] INFO root fetch - processPackages [jupyterlab-sql-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_sql_editor-0.1.65a1.tar.gz tmp/jupyterlab_sql_editor-0.1.66.tar.gz --markdown 20230629/j/jupyterlab-sql-editor/0.1.65a1-0.1.66/diff.md --exclude *.pyd
+[2023-06-29 17:12:18] INFO root fetch - processPackages [django-clickhouse-backend]: Remove: archive file [/home/abi/fetcher/tmp/django-clickhouse-backend-1.0.2.tar.gz]
+[2023-06-29 17:12:18] INFO root fetch - processPackages [django-clickhouse-backend]: Remove: archive file [/home/abi/fetcher/tmp/django-clickhouse-backend-1.0.3.tar.gz]
+[2023-06-29 17:12:18] INFO root fetch - processPackages [django-clickhouse-backend]: Start processing: modular-cli-sdk
+[2023-06-29 17:12:18] INFO root fetch - main [MainThread]: End processing [django-clickhouse-backend]: success
+[2023-06-29 17:12:18] WARNING root fetch - processPackages [modular-cli-sdk]: Skipping, unable to determine old version
+[2023-06-29 17:12:18] INFO root fetch - processPackages [modular-cli-sdk]: Start processing: coiled
+[2023-06-29 17:12:18] INFO root fetch - main [MainThread]: End processing [modular-cli-sdk] error
+[2023-06-29 17:12:18] INFO root fetch - processPackages [cloci]: Remove: archive file [/home/abi/fetcher/tmp/cloci-0.0.8.tar.gz]
+[2023-06-29 17:12:18] INFO root fetch - processPackages [cloci]: Remove: archive file [/home/abi/fetcher/tmp/cloci-0.0.9.tar.gz]
+[2023-06-29 17:12:18] INFO root fetch - processPackages [cloci]: Start processing: django-encryption
+[2023-06-29 17:12:18] INFO root fetch - main [MainThread]: End processing [cloci]: success
+[2023-06-29 17:12:18] INFO root fetch - processPackages [porobot]: Downloading https://files.pythonhosted.org/packages/23/11/77bdcf922ed321fafc42ef558a59a0940cb4b73605fc1ade3f2eb9b251ae/porobot-0.0.2.tar.gz
+[2023-06-29 17:12:18] INFO root fetch - processPackages [django-encryption]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-06-29 17:12:18] INFO root fetch - processPackages [coiled]: New version: [0.7.9.dev9] Old Version: [0.7.9.dev8]
+[2023-06-29 17:12:18] INFO root fetch - processPackages [django-encryption]: Downloading https://files.pythonhosted.org/packages/9d/f1/8efc744ea87c01521e31519d2bc1045dae90ac3f47db91d71784e5651584/django_encryption-0.3.7.tar.gz
+[2023-06-29 17:12:18] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/a7/01/b5a4cbd06e8fe6cb1d49512abbe6434f64ea4b91b21a64f30069aa693547/coiled-0.7.9.dev8.tar.gz
+[2023-06-29 17:12:18] INFO root fetch - processPackages [porobot]: executing diffoscope
+[2023-06-29 17:12:18] INFO root fetch - processPackages [porobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/porobot-0.0.1.tar.gz tmp/porobot-0.0.2.tar.gz --markdown 20230629/p/porobot/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-29 17:12:18] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/68/a0/03deba097f154d5d35f5aaf9cc9e6203f2e386628cf93962bded599cc14d/coiled-0.7.9.dev9.tar.gz
+[2023-06-29 17:12:18] INFO root fetch - processPackages [django-encryption]: Downloading https://files.pythonhosted.org/packages/0a/42/6d2637ff91b53729dbe07fd5875ab4b7cd70785b41649c6fe49c305b7d86/django_encryption-0.3.8.tar.gz
+[2023-06-29 17:12:18] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-29 17:12:18] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.9.dev8.tar.gz tmp/coiled-0.7.9.dev9.tar.gz --markdown 20230629/c/coiled/0.7.9.dev8-0.7.9.dev9/diff.md --exclude *.pyd
+[2023-06-29 17:12:18] INFO root fetch - processPackages [django-encryption]: executing diffoscope
+[2023-06-29 17:12:18] INFO root fetch - processPackages [django-encryption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_encryption-0.3.7.tar.gz tmp/django_encryption-0.3.8.tar.gz --markdown 20230629/d/django-encryption/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-06-29 17:12:19] INFO root fetch - processPackages [sparksnake]: Remove: archive file [/home/abi/fetcher/tmp/sparksnake-0.1.8.tar.gz]
+[2023-06-29 17:12:19] INFO root fetch - processPackages [sparksnake]: Remove: archive file [/home/abi/fetcher/tmp/sparksnake-0.1.9.tar.gz]
+[2023-06-29 17:12:19] INFO root fetch - processPackages [sparksnake]: Start processing: mozilla-metric-config-parser
+[2023-06-29 17:12:19] INFO root fetch - main [MainThread]: End processing [sparksnake]: success
+[2023-06-29 17:12:19] INFO root fetch - processPackages [mozilla-metric-config-parser]: New version: [2023.6.6] Old Version: [2023.6.5]
+[2023-06-29 17:12:19] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230626-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-29 17:12:19] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230627-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-29 17:12:19] INFO root fetch - processPackages [tensorflow-text-nightly]: Start processing: dkist-processing-common
+[2023-06-29 17:12:19] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-06-29 17:12:19] INFO root fetch - processPackages [devex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/devex_sdk-1.0.2.tar.gz]
+[2023-06-29 17:12:19] INFO root fetch - processPackages [devex-sdk]: Remove: archive file [/home/abi/fetcher/tmp/devex_sdk-1.0.3.tar.gz]
+[2023-06-29 17:12:19] INFO root fetch - processPackages [devex-sdk]: Start processing: hicpnewman
+[2023-06-29 17:12:19] INFO root fetch - main [MainThread]: End processing [devex-sdk]: success
+[2023-06-29 17:12:19] INFO root fetch - processPackages [dkist-processing-common]: New version: [4.0.0rc1] Old Version: [3.0.0rc9]
+[2023-06-29 17:12:19] INFO root fetch - processPackages [hicpnewman]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-29 17:12:19] INFO root fetch - processPackages [jupyterlab-sql-editor]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_sql_editor-0.1.65a1.tar.gz]
+[2023-06-29 17:12:19] INFO root fetch - processPackages [jupyterlab-sql-editor]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_sql_editor-0.1.66.tar.gz]
+[2023-06-29 17:12:19] INFO root fetch - processPackages [jupyterlab-sql-editor]: Start processing: hicpnewman
+[2023-06-29 17:12:19] INFO root fetch - main [MainThread]: End processing [jupyterlab-sql-editor]: success
+[2023-06-29 17:12:19] INFO root fetch - processPackages [hicpnewman]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-29 17:12:19] INFO root fetch - processPackages [mozilla-metric-config-parser]: Downloading https://files.pythonhosted.org/packages/d8/15/b2763cd783a244138906ad8c958d85647e1b54adcf1997505f58723c385a/mozilla-metric-config-parser-2023.6.5.tar.gz
+[2023-06-29 17:12:19] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: Remove: archive file [/home/abi/fetcher/tmp/com.castsoftware.uc.oneclick-0.2.2.9.tar.gz]
+[2023-06-29 17:12:19] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: Remove: archive file [/home/abi/fetcher/tmp/com.castsoftware.uc.oneclick-0.2.3.1b0.tar.gz]
+[2023-06-29 17:12:19] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: Start processing: tqma
+[2023-06-29 17:12:19] INFO root fetch - main [MainThread]: End processing [com.castsoftware.uc.oneclick]: success
+[2023-06-29 17:12:19] WARNING root fetch - processPackages [tqma]: Skipping, unable to determine old version
+[2023-06-29 17:12:19] INFO root fetch - processPackages [tqma]: Start processing: mxcubecore
+[2023-06-29 17:12:19] INFO root fetch - main [MainThread]: End processing [tqma] error
+[2023-06-29 17:12:19] INFO root fetch - processPackages [hicpnewman]: Downloading https://files.pythonhosted.org/packages/b5/82/92e485fe653a765564ae9847b562bf5261b8790e1ce7633f029bc1abf054/hicpnewman-1.0.1.tar.gz
+[2023-06-29 17:12:19] INFO root fetch - processPackages [mxcubecore]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-29 17:12:19] INFO root fetch - processPackages [hicpnewman]: Downloading https://files.pythonhosted.org/packages/b5/82/92e485fe653a765564ae9847b562bf5261b8790e1ce7633f029bc1abf054/hicpnewman-1.0.1.tar.gz
+[2023-06-29 17:12:19] INFO root fetch - processPackages [dkist-processing-common]: Downloading https://files.pythonhosted.org/packages/3c/1f/22dc9e7acbbcb5ebc69c20870d8e380b4a8a64835d431e07bb5d69ff8266/dkist-processing-common-3.0.0rc9.tar.gz
+[2023-06-29 17:12:19] INFO root fetch - processPackages [mxcubecore]: Downloading https://files.pythonhosted.org/packages/de/b6/f23c68a8d44340168d91a592a2c31237fe151e457eeaa1ae34a615d3da8b/mxcubecore-1.8.0.tar.gz
+[2023-06-29 17:12:19] WARNING root fetch - processPackages [mxcubecore]: Skipping package: exceeds size limit 28908102>=10485760
+[2023-06-29 17:12:19] INFO root fetch - processPackages [mxcubecore]: Start processing: mendable-py
+[2023-06-29 17:12:19] INFO root fetch - main [MainThread]: End processing [mxcubecore] error
+[2023-06-29 17:12:19] INFO root fetch - processPackages [mozilla-metric-config-parser]: Downloading https://files.pythonhosted.org/packages/7f/a7/89822f262eb7d393d444bdfae422c3e9429afa56ea0a7df89a6f08bc2602/mozilla-metric-config-parser-2023.6.6.tar.gz
+[2023-06-29 17:12:19] INFO root fetch - processPackages [porobot]: Remove: archive file [/home/abi/fetcher/tmp/porobot-0.0.1.tar.gz]
+[2023-06-29 17:12:19] INFO root fetch - processPackages [porobot]: Remove: archive file [/home/abi/fetcher/tmp/porobot-0.0.2.tar.gz]
+[2023-06-29 17:12:19] INFO root fetch - main [MainThread]: End processing [porobot]: success
+[2023-06-29 17:12:19] WARNING root fetch - processPackages [mendable-py]: Skipping, unable to determine old version
+[2023-06-29 17:12:19] INFO root fetch - main [MainThread]: End processing [mendable-py] error
+[2023-06-29 17:12:19] INFO root fetch - processPackages [dkist-processing-common]: Downloading https://files.pythonhosted.org/packages/6b/d5/77dde4dd5cd3051b95964a421562c782eeecfdb43e9d3a0a202cc276df76/dkist-processing-common-4.0.0rc1.tar.gz
+[2023-06-29 17:12:19] INFO root fetch - processPackages [mozilla-metric-config-parser]: executing diffoscope
+[2023-06-29 17:12:19] INFO root fetch - processPackages [mozilla-metric-config-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mozilla-metric-config-parser-2023.6.5.tar.gz tmp/mozilla-metric-config-parser-2023.6.6.tar.gz --markdown 20230629/m/mozilla-metric-config-parser/2023.6.5-2023.6.6/diff.md --exclude *.pyd
+[2023-06-29 17:12:19] INFO root fetch - processPackages [dkist-processing-common]: executing diffoscope
+[2023-06-29 17:12:19] INFO root fetch - processPackages [dkist-processing-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist-processing-common-3.0.0rc9.tar.gz tmp/dkist-processing-common-4.0.0rc1.tar.gz --markdown 20230629/d/dkist-processing-common/3.0.0rc9-4.0.0rc1/diff.md --exclude *.pyd
+[2023-06-29 17:12:19] INFO root fetch - processPackages [hicpnewman]: Downloading https://files.pythonhosted.org/packages/c6/a2/085b4304ce3cd8458d0d7f9d051357fae2b607d5c7203d51e3d2e54ea737/hicpnewman-1.0.2.tar.gz
+[2023-06-29 17:12:19] INFO root fetch - processPackages [hicpnewman]: Downloading https://files.pythonhosted.org/packages/c6/a2/085b4304ce3cd8458d0d7f9d051357fae2b607d5c7203d51e3d2e54ea737/hicpnewman-1.0.2.tar.gz
+[2023-06-29 17:12:20] INFO root fetch - processPackages [django-encryption]: Remove: archive file [/home/abi/fetcher/tmp/django_encryption-0.3.7.tar.gz]
+[2023-06-29 17:12:20] INFO root fetch - processPackages [django-encryption]: Remove: archive file [/home/abi/fetcher/tmp/django_encryption-0.3.8.tar.gz]
+[2023-06-29 17:12:20] INFO root fetch - main [MainThread]: End processing [django-encryption]: success
+[2023-06-29 17:12:20] INFO root fetch - processPackages [hicpnewman]: executing diffoscope
+[2023-06-29 17:12:20] INFO root fetch - processPackages [hicpnewman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hicpnewman-1.0.1.tar.gz tmp/hicpnewman-1.0.2.tar.gz --markdown 20230629/h/hicpnewman/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-29 17:12:20] INFO root fetch - processPackages [hicpnewman]: executing diffoscope
+[2023-06-29 17:12:20] INFO root fetch - processPackages [hicpnewman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hicpnewman-1.0.1.tar.gz tmp/hicpnewman-1.0.2.tar.gz --markdown 20230629/h/hicpnewman/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-29 17:12:21] INFO root fetch - processPackages [mozilla-metric-config-parser]: Remove: archive file [/home/abi/fetcher/tmp/mozilla-metric-config-parser-2023.6.5.tar.gz]
+[2023-06-29 17:12:21] INFO root fetch - processPackages [mozilla-metric-config-parser]: Remove: archive file [/home/abi/fetcher/tmp/mozilla-metric-config-parser-2023.6.6.tar.gz]
+[2023-06-29 17:12:21] INFO root fetch - main [MainThread]: End processing [mozilla-metric-config-parser]: success
+[2023-06-29 17:12:21] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev8.tar.gz]
+[2023-06-29 17:12:21] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev9.tar.gz]
+[2023-06-29 17:12:21] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-29 17:12:21] INFO root fetch - processPackages [dkist-processing-common]: Remove: archive file [/home/abi/fetcher/tmp/dkist-processing-common-3.0.0rc9.tar.gz]
+[2023-06-29 17:12:21] INFO root fetch - processPackages [dkist-processing-common]: Remove: archive file [/home/abi/fetcher/tmp/dkist-processing-common-4.0.0rc1.tar.gz]
+[2023-06-29 17:12:21] INFO root fetch - main [MainThread]: End processing [dkist-processing-common]: success
+[2023-06-29 17:12:21] INFO root fetch - processPackages [hicpnewman]: Remove: archive file [/home/abi/fetcher/tmp/hicpnewman-1.0.1.tar.gz]
+[2023-06-29 17:12:21] INFO root fetch - processPackages [hicpnewman]: Remove: archive file [/home/abi/fetcher/tmp/hicpnewman-1.0.2.tar.gz]
+[2023-06-29 17:12:21] INFO root fetch - main [MainThread]: End processing [hicpnewman]: success
+[2023-06-29 17:12:21] INFO root fetch - main [MainThread]: End processing [hicpnewman]: success
+[2023-06-29 17:12:21] INFO root fetch - processPackages [ecghelper]: Remove: archive file [/home/abi/fetcher/tmp/ecghelper-0.3.1.tar.gz]
+[2023-06-29 17:12:21] INFO root fetch - processPackages [ecghelper]: Remove: archive file [/home/abi/fetcher/tmp/ecghelper-0.4.0.tar.gz]
+[2023-06-29 17:12:21] INFO root fetch - main [MainThread]: End processing [ecghelper]: success
+[2023-06-29 17:12:38] INFO root fetch - processPackages [quil]: Remove: archive file [/home/abi/fetcher/tmp/quil-0.2.0rc8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-29 17:12:38] INFO root fetch - processPackages [quil]: Remove: archive file [/home/abi/fetcher/tmp/quil-0.2.0rc9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-29 17:12:38] INFO root fetch - main [MainThread]: End processing [quil]: success
+[2023-06-29 17:12:38] INFO root fetch - main [MainThread]: Store serial: [18696903]
