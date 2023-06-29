@@ -10416,3 +10416,160 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 14:50:39] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-0.6.0.94.dev1.tar.gz]
 [2023-06-29 14:50:39] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
 [2023-06-29 14:50:39] INFO root fetch - main [MainThread]: Store serial: [18695073]
+[2023-06-29 14:55:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18695073]
+[2023-06-29 14:55:49] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-29 14:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datamaestro-text
+[2023-06-29 14:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nxsrecselector
+[2023-06-29 14:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: frills
+[2023-06-29 14:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: manticore
+[2023-06-29 14:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Geode-Explicit
+[2023-06-29 14:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Pegamoid
+[2023-06-29 14:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-opsgenie
+[2023-06-29 14:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ensmallen
+[2023-06-29 14:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oilanalytics
+[2023-06-29 14:55:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: 3DFin
+[2023-06-29 14:55:49] INFO root fetch - processPackages [datamaestro-text]: New version: [2023.6.29] Old Version: [2023.6.26]
+[2023-06-29 14:55:49] INFO root fetch - processPackages [frills]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-29 14:55:49] INFO root fetch - processPackages [nxsrecselector]: New version: [3.30.0] Old Version: [3.29.0]
+[2023-06-29 14:55:49] INFO root fetch - processPackages [Geode-Explicit]: New version: [4.0.2rc2] Old Version: [4.0.2rc1]
+[2023-06-29 14:55:49] INFO root fetch - processPackages [3DFin]: New version: [0.2.0rc3] Old Version: [0.2.0rc2]
+[2023-06-29 14:55:49] INFO root fetch - processPackages [ensmallen]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-29 14:55:49] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230629] Old Version: [0.3.8.dev230628]
+[2023-06-29 14:55:49] INFO root fetch - processPackages [frills]: Downloading https://files.pythonhosted.org/packages/2b/e8/f550349077061346eec791fd4bfe0c44933e700bc328057827fa95fedae8/frills-1.0.0.tar.gz
+[2023-06-29 14:55:49] INFO root fetch - processPackages [pulumi-opsgenie]: New version: [1.3.0a1688042112] Old Version: [1.3.0a1687799894]
+[2023-06-29 14:55:49] INFO root fetch - processPackages [Pegamoid]: New version: [2.8] Old Version: [2.7]
+[2023-06-29 14:55:49] INFO root fetch - processPackages [oilanalytics]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-29 14:55:49] INFO root fetch - processPackages [3DFin]: Downloading https://files.pythonhosted.org/packages/04/35/6243d986b15797a1cfbc2c43df3eb60de64773ec5bac2b26b36914d0b79e/3dfin-0.2.0rc2.tar.gz
+[2023-06-29 14:55:49] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/2b/cb/a1b73f47ebac3e9af310b8e7e90221da3603fd79a2510ae7a358ae966592/manticore-0.3.8.dev230628.tar.gz
+[2023-06-29 14:55:49] INFO root fetch - processPackages [datamaestro-text]: Downloading https://files.pythonhosted.org/packages/e8/db/5a46bdd3d1e2617be0233c423f61521cea9fe392a9ff1334267aeb35fdfb/datamaestro-text-2023.6.26.tar.gz
+[2023-06-29 14:55:49] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/96/a2/d4664939c1dd2953d09259cbaa29919191a7e137558b26336d5437f61eda/Geode_Explicit-4.0.2rc1-cp39-cp39-win_amd64.whl
+[2023-06-29 14:55:49] INFO root fetch - processPackages [nxsrecselector]: Downloading https://files.pythonhosted.org/packages/6b/43/536902d0a4869d90493e9a2ff001a46c8f7ecf7b40ffb693297bae5db345/nxsrecselector-3.29.0.tar.gz
+[2023-06-29 14:55:49] INFO root fetch - processPackages [ensmallen]: Downloading https://files.pythonhosted.org/packages/75/07/70c25877db695ae02b4a944b722513282eaca44b6bec77e09bed7e8bea0c/ensmallen-0.8.8-cp37-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-06-29 14:55:49] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/d2/6f/71fb0f5bbd97038d1266c0a3e133b598e45128d6c3af9aad7be416091eea/pulumi_opsgenie-1.3.0a1687799894.tar.gz
+[2023-06-29 14:55:49] INFO root fetch - processPackages [oilanalytics]: Downloading https://files.pythonhosted.org/packages/ff/61/f3ef455b7dab54f95dc7811abf349378cc3ee00122f4393dfd110fcc3d26/oilanalytics-0.3.0.tar.gz
+[2023-06-29 14:55:49] INFO root fetch - processPackages [Pegamoid]: Downloading https://files.pythonhosted.org/packages/02/d6/1f14935da0a6c3fdf60087e9a9fa901021a995bcdd55cf470ca0f0d53393/Pegamoid-2.7.tar.gz
+[2023-06-29 14:55:49] WARNING root fetch - processPackages [ensmallen]: Skipping package: exceeds size limit 18826030>=10485760
+[2023-06-29 14:55:49] INFO root fetch - processPackages [ensmallen]: Start processing: xia-engine-firestore
+[2023-06-29 14:55:49] INFO root fetch - main [MainThread]: End processing [ensmallen] error
+[2023-06-29 14:55:49] INFO root fetch - processPackages [frills]: Downloading https://files.pythonhosted.org/packages/17/6f/556a047900dbd26379a3bddca8c5b65e1c3b8f10b0a64585751ce8b6d68f/frills-1.0.1.tar.gz
+[2023-06-29 14:55:49] INFO root fetch - processPackages [3DFin]: Downloading https://files.pythonhosted.org/packages/31/db/bf47c3ea9a66421cdd40e0e5ec10ba1ab06d2d236e6179a936fea923862b/3dfin-0.2.0rc3.tar.gz
+[2023-06-29 14:55:49] INFO root fetch - processPackages [xia-engine-firestore]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-29 14:55:49] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/9a/b5/4b87676c98a2d0d6f941f87e9b541a72789a238e565ebdee760b8ccb6b63/manticore-0.3.8.dev230629.tar.gz
+[2023-06-29 14:55:49] INFO root fetch - processPackages [datamaestro-text]: Downloading https://files.pythonhosted.org/packages/67/d8/3d03102d05d83e0d07aaceac25f1b160fdc2a7f7f91991c14502175884e6/datamaestro-text-2023.6.29.tar.gz
+[2023-06-29 14:55:49] INFO root fetch - processPackages [frills]: executing diffoscope
+[2023-06-29 14:55:49] INFO root fetch - processPackages [frills]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frills-1.0.0.tar.gz tmp/frills-1.0.1.tar.gz --markdown 20230629/f/frills/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-29 14:55:49] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/dd/06/4f0e05dbb529fb68f8df62757e0a3c139058b14cac35144d732bcd6a8d6b/Geode_Explicit-4.0.2rc2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-29 14:55:49] INFO root fetch - processPackages [oilanalytics]: Downloading https://files.pythonhosted.org/packages/b9/41/e70d997b64462268e99901835d7a37e4d86905682401111aa89c37b0e712/oilanalytics-0.3.1.tar.gz
+[2023-06-29 14:55:49] INFO root fetch - processPackages [datamaestro-text]: executing diffoscope
+[2023-06-29 14:55:49] INFO root fetch - processPackages [datamaestro-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamaestro-text-2023.6.26.tar.gz tmp/datamaestro-text-2023.6.29.tar.gz --markdown 20230629/d/datamaestro-text/2023.6.26-2023.6.29/diff.md --exclude *.pyd
+[2023-06-29 14:55:49] INFO root fetch - processPackages [3DFin]: executing diffoscope
+[2023-06-29 14:55:49] INFO root fetch - processPackages [3DFin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/3dfin-0.2.0rc2.tar.gz tmp/3dfin-0.2.0rc3.tar.gz --markdown 20230629/3/3DFin/0.2.0rc2-0.2.0rc3/diff.md --exclude *.pyd
+[2023-06-29 14:55:49] INFO root fetch - processPackages [Pegamoid]: Downloading https://files.pythonhosted.org/packages/94/06/3d2de6dcce19057c17c84f4e296729d940019331c6a6a5515cf59304a281/Pegamoid-2.8.tar.gz
+[2023-06-29 14:55:50] INFO root fetch - processPackages [nxsrecselector]: Downloading https://files.pythonhosted.org/packages/a4/4c/3f5b24ca65a86b5ec4ffbedc476672791c68dcd157ee24ff63a8fb55b74c/nxsrecselector-3.30.0.tar.gz
+[2023-06-29 14:55:50] INFO root fetch - processPackages [xia-engine-firestore]: Downloading https://files.pythonhosted.org/packages/42/8d/f5b1e50c29f231ee6d25bb59c548350aabf1180cffdff965155dc8088f2e/xia_engine_firestore-0.3.2-cp39-none-win_amd64.whl
+[2023-06-29 14:55:50] INFO root fetch - processPackages [oilanalytics]: executing diffoscope
+[2023-06-29 14:55:50] INFO root fetch - processPackages [oilanalytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oilanalytics-0.3.0.tar.gz tmp/oilanalytics-0.3.1.tar.gz --markdown 20230629/o/oilanalytics/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-29 14:55:50] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-06-29 14:55:50] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230628.tar.gz tmp/manticore-0.3.8.dev230629.tar.gz --markdown 20230629/m/manticore/0.3.8.dev230628-0.3.8.dev230629/diff.md --exclude *.pyd
+[2023-06-29 14:55:50] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/5b/97/b22b3f5a40834f3525080aff39f3b1f43ddff23220c93cc95ae7da23a7a6/pulumi_opsgenie-1.3.0a1688042112.tar.gz
+[2023-06-29 14:55:50] INFO root fetch - processPackages [Pegamoid]: executing diffoscope
+[2023-06-29 14:55:50] INFO root fetch - processPackages [Pegamoid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pegamoid-2.7.tar.gz tmp/Pegamoid-2.8.tar.gz --markdown 20230629/P/Pegamoid/2.7-2.8/diff.md --exclude *.pyd
+[2023-06-29 14:55:50] INFO root fetch - processPackages [nxsrecselector]: executing diffoscope
+[2023-06-29 14:55:50] INFO root fetch - processPackages [nxsrecselector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nxsrecselector-3.29.0.tar.gz tmp/nxsrecselector-3.30.0.tar.gz --markdown 20230629/n/nxsrecselector/3.29.0-3.30.0/diff.md --exclude *.pyd
+[2023-06-29 14:55:50] INFO root fetch - processPackages [Geode-Explicit]: executing diffoscope
+[2023-06-29 14:55:50] INFO root fetch - processPackages [Geode-Explicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Explicit-4.0.2rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Explicit-4.0.2rc2-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230629/G/Geode-Explicit/4.0.2rc1-4.0.2rc2/diff.md --exclude *.pyd
+[2023-06-29 14:55:50] INFO root fetch - processPackages [pulumi-opsgenie]: executing diffoscope
+[2023-06-29 14:55:50] INFO root fetch - processPackages [pulumi-opsgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opsgenie-1.3.0a1687799894.tar.gz tmp/pulumi_opsgenie-1.3.0a1688042112.tar.gz --markdown 20230629/p/pulumi-opsgenie/1.3.0a1687799894-1.3.0a1688042112/diff.md --exclude *.pyd
+[2023-06-29 14:55:50] INFO root fetch - processPackages [xia-engine-firestore]: Downloading https://files.pythonhosted.org/packages/f9/be/600f18f19ed3b28fb6e8ed3e5a5a5dfb746428ce84326aabb426b32fae65/xia_engine_firestore-0.3.3-cp39-none-win_amd64.whl
+[2023-06-29 14:55:50] INFO root fetch - processPackages [xia-engine-firestore]: executing diffoscope
+[2023-06-29 14:55:50] INFO root fetch - processPackages [xia-engine-firestore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_firestore-0.3.2-cp39-none-win_amd64.whl.zip tmp/xia_engine_firestore-0.3.3-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-engine-firestore/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-29 14:55:51] INFO root fetch - processPackages [frills]: Remove: archive file [/home/abi/fetcher/tmp/frills-1.0.0.tar.gz]
+[2023-06-29 14:55:51] INFO root fetch - processPackages [frills]: Remove: archive file [/home/abi/fetcher/tmp/frills-1.0.1.tar.gz]
+[2023-06-29 14:55:51] INFO root fetch - processPackages [frills]: Start processing: FOFA-py
+[2023-06-29 14:55:51] INFO root fetch - main [MainThread]: End processing [frills]: success
+[2023-06-29 14:55:51] INFO root fetch - processPackages [FOFA-py]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-29 14:55:51] INFO root fetch - processPackages [FOFA-py]: Downloading https://files.pythonhosted.org/packages/18/11/6effad729b9bd9cc18abe801de098a25fa369bbb624e3872235fa35edbc6/FOFA-py-2.0.1.tar.gz
+[2023-06-29 14:55:51] INFO root fetch - processPackages [datamaestro-text]: Remove: archive file [/home/abi/fetcher/tmp/datamaestro-text-2023.6.26.tar.gz]
+[2023-06-29 14:55:51] INFO root fetch - processPackages [datamaestro-text]: Remove: archive file [/home/abi/fetcher/tmp/datamaestro-text-2023.6.29.tar.gz]
+[2023-06-29 14:55:51] INFO root fetch - processPackages [datamaestro-text]: Start processing: gyver
+[2023-06-29 14:55:51] INFO root fetch - main [MainThread]: End processing [datamaestro-text]: success
+[2023-06-29 14:55:51] INFO root fetch - processPackages [gyver]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-06-29 14:55:51] INFO root fetch - processPackages [FOFA-py]: Downloading https://files.pythonhosted.org/packages/4f/16/8e7742d78dabfb85525895a7d4219f4399b33b41f5fc63865ef9eeb9d623/FOFA-py-2.0.2.tar.gz
+[2023-06-29 14:55:51] INFO root fetch - processPackages [oilanalytics]: Remove: archive file [/home/abi/fetcher/tmp/oilanalytics-0.3.0.tar.gz]
+[2023-06-29 14:55:51] INFO root fetch - processPackages [oilanalytics]: Remove: archive file [/home/abi/fetcher/tmp/oilanalytics-0.3.1.tar.gz]
+[2023-06-29 14:55:51] INFO root fetch - processPackages [oilanalytics]: Start processing: bigdl-dllib
+[2023-06-29 14:55:51] INFO root fetch - main [MainThread]: End processing [oilanalytics]: success
+[2023-06-29 14:55:51] INFO root fetch - processPackages [Pegamoid]: Remove: archive file [/home/abi/fetcher/tmp/Pegamoid-2.7.tar.gz]
+[2023-06-29 14:55:51] INFO root fetch - processPackages [Pegamoid]: Remove: archive file [/home/abi/fetcher/tmp/Pegamoid-2.8.tar.gz]
+[2023-06-29 14:55:51] INFO root fetch - processPackages [Pegamoid]: Start processing: quarchQCS
+[2023-06-29 14:55:51] INFO root fetch - main [MainThread]: End processing [Pegamoid]: success
+[2023-06-29 14:55:51] INFO root fetch - processPackages [gyver]: Downloading https://files.pythonhosted.org/packages/8c/3b/9c99679fa602b5e4fd9c82b3c81c9a6eaa37359664faa1e7667a08422c23/gyver-2.3.0.tar.gz
+[2023-06-29 14:55:51] INFO root fetch - processPackages [FOFA-py]: executing diffoscope
+[2023-06-29 14:55:51] INFO root fetch - processPackages [FOFA-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FOFA-py-2.0.1.tar.gz tmp/FOFA-py-2.0.2.tar.gz --markdown 20230629/F/FOFA-py/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-29 14:55:51] INFO root fetch - processPackages [nxsrecselector]: Remove: archive file [/home/abi/fetcher/tmp/nxsrecselector-3.29.0.tar.gz]
+[2023-06-29 14:55:51] INFO root fetch - processPackages [nxsrecselector]: Remove: archive file [/home/abi/fetcher/tmp/nxsrecselector-3.30.0.tar.gz]
+[2023-06-29 14:55:51] INFO root fetch - processPackages [nxsrecselector]: Start processing: ag-llama-api
+[2023-06-29 14:55:51] INFO root fetch - main [MainThread]: End processing [nxsrecselector]: success
+[2023-06-29 14:55:51] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230629] Old Version: [2.4.0b20230626]
+[2023-06-29 14:55:51] INFO root fetch - processPackages [ag-llama-api]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-29 14:55:51] INFO root fetch - processPackages [xia-engine-firestore]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_firestore-0.3.2-cp39-none-win_amd64.whl.zip]
+[2023-06-29 14:55:51] INFO root fetch - processPackages [xia-engine-firestore]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_firestore-0.3.3-cp39-none-win_amd64.whl.zip]
+[2023-06-29 14:55:51] INFO root fetch - processPackages [xia-engine-firestore]: Start processing: automation-editor
+[2023-06-29 14:55:51] INFO root fetch - main [MainThread]: End processing [xia-engine-firestore]: success
+[2023-06-29 14:55:51] INFO root fetch - processPackages [quarchQCS]: New version: [1.1.4.dev1] Old Version: [1.1.3.dev3]
+[2023-06-29 14:55:51] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/12/48/75bf05b8c2eb77ddccc9605fca6b0809cb50a9ba494c6dcb8e43fd457956/ag_llama_api-0.0.1.tar.gz
+[2023-06-29 14:55:52] INFO root fetch - processPackages [automation-editor]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 14:55:52] INFO root fetch - processPackages [gyver]: Downloading https://files.pythonhosted.org/packages/82/11/aa6ce7aa50c1b3e6af91ad6eaae138b4a892411c0d13906e6d746a78e194/gyver-2.3.1.tar.gz
+[2023-06-29 14:55:52] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/8f/73/c0c8d3e09c68c488fd65e7e30804e49209ca2f432440e766bb9869cd0f87/ag_llama_api-0.0.2.tar.gz
+[2023-06-29 14:55:52] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/21/75/feefcea22fbf91b1e57e93de84df0076b743b3206f6db91e2ff19ed33b68/bigdl-dllib-2.4.0b20230626.tar.gz
+[2023-06-29 14:55:52] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230628.tar.gz]
+[2023-06-29 14:55:52] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230629.tar.gz]
+[2023-06-29 14:55:52] INFO root fetch - processPackages [manticore]: Start processing: certbot-onion
+[2023-06-29 14:55:52] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-06-29 14:55:52] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53638675>=10485760
+[2023-06-29 14:55:52] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-06-29 14:55:52] INFO root fetch - processPackages [quarchQCS]: Downloading https://files.pythonhosted.org/packages/28/fe/1dd321a70ff6f67bae4cf922645614e9753f4a3e77a8ab4f49351c672d0a/quarchQCS-1.1.3.dev3-py3-none-any.whl
+[2023-06-29 14:55:52] INFO root fetch - processPackages [gyver]: executing diffoscope
+[2023-06-29 14:55:52] INFO root fetch - processPackages [gyver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gyver-2.3.0.tar.gz tmp/gyver-2.3.1.tar.gz --markdown 20230629/g/gyver/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-06-29 14:55:52] INFO root fetch - processPackages [ag-llama-api]: executing diffoscope
+[2023-06-29 14:55:52] INFO root fetch - processPackages [ag-llama-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_api-0.0.1.tar.gz tmp/ag_llama_api-0.0.2.tar.gz --markdown 20230629/a/ag-llama-api/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-29 14:55:52] INFO root fetch - processPackages [automation-editor]: Downloading https://files.pythonhosted.org/packages/a6/cc/235d014fef7e03686b0488b987150241cb106dcd6fd45abc8fcb6af5a349/automation_editor-0.0.8.tar.gz
+[2023-06-29 14:55:52] INFO root fetch - processPackages [certbot-onion]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-29 14:55:52] INFO root fetch - processPackages [certbot-onion]: Downloading https://files.pythonhosted.org/packages/41/07/c91f2a31578110323b6a848e41b63614c3ba12abbe6d1f7cffb4bcad8cfb/certbot-onion-0.1.4.tar.gz
+[2023-06-29 14:55:52] INFO root fetch - processPackages [quarchQCS]: Downloading https://files.pythonhosted.org/packages/12/7c/5bce6501f38f45ed74f32eea95a08a5dc4b8abb93f42cc92a380effa370f/quarchQCS-1.1.4.dev1-py3-none-any.whl
+[2023-06-29 14:55:52] INFO root fetch - processPackages [automation-editor]: Downloading https://files.pythonhosted.org/packages/50/4c/caa76f5eb438558d75b65bbcb114724ff8359c2db4245dd07c86a05485a5/automation_editor-0.0.9.tar.gz
+[2023-06-29 14:55:52] INFO root fetch - processPackages [quarchQCS]: executing diffoscope
+[2023-06-29 14:55:52] INFO root fetch - processPackages [quarchQCS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarchQCS-1.1.3.dev3-py3-none-any.whl.zip tmp/quarchQCS-1.1.4.dev1-py3-none-any.whl.zip --markdown 20230629/q/quarchQCS/1.1.3.dev3-1.1.4.dev1/diff.md --exclude *.pyd
+[2023-06-29 14:55:52] INFO root fetch - processPackages [3DFin]: Remove: archive file [/home/abi/fetcher/tmp/3dfin-0.2.0rc2.tar.gz]
+[2023-06-29 14:55:52] INFO root fetch - processPackages [automation-editor]: executing diffoscope
+[2023-06-29 14:55:52] INFO root fetch - processPackages [automation-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_editor-0.0.8.tar.gz tmp/automation_editor-0.0.9.tar.gz --markdown 20230629/a/automation-editor/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 14:55:52] INFO root fetch - processPackages [3DFin]: Remove: archive file [/home/abi/fetcher/tmp/3dfin-0.2.0rc3.tar.gz]
+[2023-06-29 14:55:52] INFO root fetch - main [MainThread]: End processing [3DFin]: success
+[2023-06-29 14:55:52] INFO root fetch - processPackages [certbot-onion]: Downloading https://files.pythonhosted.org/packages/f6/72/2b4214066aecafe31d3de1865a9850b5e22eba9fe3d77d67f865ffd1d5dc/certbot_onion-0.1.5-cp310-cp310-musllinux_1_1_x86_64.whl
+[2023-06-29 14:55:52] INFO root fetch - processPackages [FOFA-py]: Remove: archive file [/home/abi/fetcher/tmp/FOFA-py-2.0.1.tar.gz]
+[2023-06-29 14:55:52] INFO root fetch - processPackages [FOFA-py]: Remove: archive file [/home/abi/fetcher/tmp/FOFA-py-2.0.2.tar.gz]
+[2023-06-29 14:55:52] INFO root fetch - main [MainThread]: End processing [FOFA-py]: success
+[2023-06-29 14:55:53] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.1.tar.gz]
+[2023-06-29 14:55:53] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.2.tar.gz]
+[2023-06-29 14:55:53] INFO root fetch - main [MainThread]: End processing [ag-llama-api]: success
+[2023-06-29 14:55:53] INFO root fetch - processPackages [automation-editor]: Remove: archive file [/home/abi/fetcher/tmp/automation_editor-0.0.8.tar.gz]
+[2023-06-29 14:55:53] INFO root fetch - processPackages [automation-editor]: Remove: archive file [/home/abi/fetcher/tmp/automation_editor-0.0.9.tar.gz]
+[2023-06-29 14:55:53] INFO root fetch - main [MainThread]: End processing [automation-editor]: success
+[2023-06-29 14:55:54] INFO root fetch - processPackages [certbot-onion]: executing diffoscope
+[2023-06-29 14:55:54] INFO root fetch - processPackages [certbot-onion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-onion-0.1.4.tar.gz tmp/certbot_onion-0.1.5-cp310-cp310-musllinux_1_1_x86_64.whl.zip --markdown 20230629/c/certbot-onion/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-29 14:55:54] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.3.0a1687799894.tar.gz]
+[2023-06-29 14:55:54] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.3.0a1688042112.tar.gz]
+[2023-06-29 14:55:54] INFO root fetch - main [MainThread]: End processing [pulumi-opsgenie]: success
+[2023-06-29 14:55:54] INFO root fetch - processPackages [quarchQCS]: Remove: archive file [/home/abi/fetcher/tmp/quarchQCS-1.1.3.dev3-py3-none-any.whl.zip]
+[2023-06-29 14:55:54] INFO root fetch - processPackages [quarchQCS]: Remove: archive file [/home/abi/fetcher/tmp/quarchQCS-1.1.4.dev1-py3-none-any.whl.zip]
+[2023-06-29 14:55:54] INFO root fetch - main [MainThread]: End processing [quarchQCS]: success
+[2023-06-29 14:55:54] INFO root fetch - processPackages [gyver]: Remove: archive file [/home/abi/fetcher/tmp/gyver-2.3.0.tar.gz]
+[2023-06-29 14:55:54] INFO root fetch - processPackages [gyver]: Remove: archive file [/home/abi/fetcher/tmp/gyver-2.3.1.tar.gz]
+[2023-06-29 14:55:54] INFO root fetch - main [MainThread]: End processing [gyver]: success
+[2023-06-29 14:55:55] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.0.2rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-29 14:55:55] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.0.2rc2-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-29 14:55:55] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
+[2023-06-29 14:55:55] INFO root fetch - processPackages [certbot-onion]: Remove: archive file [/home/abi/fetcher/tmp/certbot-onion-0.1.4.tar.gz]
+[2023-06-29 14:55:55] INFO root fetch - processPackages [certbot-onion]: Remove: archive file [/home/abi/fetcher/tmp/certbot_onion-0.1.5-cp310-cp310-musllinux_1_1_x86_64.whl.zip]
+[2023-06-29 14:55:55] INFO root fetch - main [MainThread]: End processing [certbot-onion]: success
+[2023-06-29 14:55:55] INFO root fetch - main [MainThread]: Store serial: [18695147]
