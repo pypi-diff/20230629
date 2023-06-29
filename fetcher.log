@@ -21686,3 +21686,192 @@ EOFError: EOF read where object expected
 [2023-06-29 22:07:46] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.345.6.tar.gz]
 [2023-06-29 22:07:46] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-06-29 22:07:46] INFO root fetch - main [MainThread]: Store serial: [18699870]
+[2023-06-29 22:12:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18699870]
+[2023-06-29 22:12:56] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-29 22:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: barktools
+[2023-06-29 22:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simple-pygame-gui
+[2023-06-29 22:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crds
+[2023-06-29 22:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: molgenis-emx2-pyclient
+[2023-06-29 22:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: istruthy
+[2023-06-29 22:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: v3io
+[2023-06-29 22:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nwebclient
+[2023-06-29 22:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: BeatNet
+[2023-06-29 22:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: biopipen
+[2023-06-29 22:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tendril-filestore
+[2023-06-29 22:12:56] INFO root fetch - processPackages [barktools]: New version: [0.0.2] Old Version: [0.0.1.3]
+[2023-06-29 22:12:56] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-06-29 22:12:56] INFO root fetch - processPackages [istruthy]: New version: [0.11] Old Version: [0.10]
+[2023-06-29 22:12:56] INFO root fetch - processPackages [molgenis-emx2-pyclient]: New version: [8.199.7] Old Version: [8.199.6]
+[2023-06-29 22:12:56] INFO root fetch - processPackages [v3io]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-29 22:12:56] INFO root fetch - processPackages [BeatNet]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-29 22:12:56] INFO root fetch - processPackages [simple-pygame-gui]: New version: [0.0.4] Old Version: [0.0.1]
+[2023-06-29 22:12:56] INFO root fetch - processPackages [tendril-filestore]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-29 22:12:56] INFO root fetch - processPackages [biopipen]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-29 22:12:56] INFO root fetch - processPackages [crds]: New version: [7.6.0] Old Version: [7.5.0.0]
+[2023-06-29 22:12:56] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-06-29 22:12:56] INFO root fetch - processPackages [barktools]: Downloading https://files.pythonhosted.org/packages/d3/76/63cc5d8e14ef8a6851315e1f01abe378fa52a20ceb501acee478a7627d7c/barktools-0.0.1.3.tar.gz
+[2023-06-29 22:12:56] INFO root fetch - processPackages [istruthy]: Downloading https://files.pythonhosted.org/packages/26/f5/9b38b24c8b2f887a4cdd593da9abd9b609209fd8bbcbf8d456a8471332e5/istruthy-0.10.tar.gz
+[2023-06-29 22:12:56] INFO root fetch - processPackages [simple-pygame-gui]: Downloading https://files.pythonhosted.org/packages/51/5a/edb8bd11ce8fb418b51667b69e5dc73ffecc20bcdfb8049e0117922661b1/simple_pygame_gui-0.0.1.tar.gz
+[2023-06-29 22:12:56] INFO root fetch - processPackages [tendril-filestore]: Downloading https://files.pythonhosted.org/packages/ff/96/4aad9c3007b27a6e75538624bc0864be73be018aab0bc08e2fae5027d615/tendril-filestore-0.2.8.tar.gz
+[2023-06-29 22:12:56] INFO root fetch - processPackages [v3io]: Downloading https://files.pythonhosted.org/packages/e3/5d/09bcaca89e2d42b0730464489274943873da452c13a790bce0143da614b6/v3io-0.5.8.tar.gz
+[2023-06-29 22:12:56] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/46/15/9ba25bb68855a11d59df60837f1930313699abe7ea5fbfe9454fe02d9c9d/molgenis_emx2_pyclient-8.199.6.tar.gz
+[2023-06-29 22:12:56] INFO root fetch - processPackages [BeatNet]: Downloading https://files.pythonhosted.org/packages/5b/23/75d9edd1b44fd3c70d587e9587ddd2017a8e0cb404cc566d12b2e238ee23/BeatNet-1.1.0.tar.gz
+[2023-06-29 22:12:56] INFO root fetch - processPackages [crds]: Downloading https://files.pythonhosted.org/packages/65/16/26455717258db253b47991f0ab26a8eddc2fd7c14f459f6f1417dec5975b/crds-7.5.0.0.tar.gz
+[2023-06-29 22:12:56] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-06-29 22:12:56] INFO root fetch - processPackages [biopipen]: Downloading https://files.pythonhosted.org/packages/a5/8e/ea43c3f8b17ca2e871d77d1dbbf2e019b6aab9877410ee0c3fcd32c9204a/biopipen-0.8.0.tar.gz
+[2023-06-29 22:12:56] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-06-29 22:12:56] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230629/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-06-29 22:12:56] INFO root fetch - processPackages [barktools]: Downloading https://files.pythonhosted.org/packages/70/c7/f6b006e84d03dd6b1917db55c3115e974d593d47298c599d27d8c7f25f7b/barktools-0.0.2.tar.gz
+[2023-06-29 22:12:56] INFO root fetch - processPackages [istruthy]: Downloading https://files.pythonhosted.org/packages/c9/bd/92dfcf567813916da1770cf470d917ac99fff5fac8d5188121f9f0e3ae0a/istruthy-0.11.tar.gz
+[2023-06-29 22:12:56] INFO root fetch - processPackages [simple-pygame-gui]: Downloading https://files.pythonhosted.org/packages/5f/9b/a60d4945921f3ab8402494ec39d673455c4c18d65bda7237da37a541c33f/simple_pygame_gui-0.0.4.tar.gz
+[2023-06-29 22:12:57] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/1e/77/8d19ae1f36224afdcc7a1f4b79cb3a69d725fa764a95c7afdfb6b19de016/molgenis_emx2_pyclient-8.199.7.tar.gz
+[2023-06-29 22:12:57] INFO root fetch - processPackages [tendril-filestore]: Downloading https://files.pythonhosted.org/packages/d9/1e/d54f6db51c670a79d285b3c3d863de03484e3747b5637814806029bf69b5/tendril-filestore-0.2.9.tar.gz
+[2023-06-29 22:12:57] INFO root fetch - processPackages [istruthy]: executing diffoscope
+[2023-06-29 22:12:57] INFO root fetch - processPackages [istruthy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/istruthy-0.10.tar.gz tmp/istruthy-0.11.tar.gz --markdown 20230629/i/istruthy/0.10-0.11/diff.md --exclude *.pyd
+[2023-06-29 22:12:57] INFO root fetch - processPackages [v3io]: Downloading https://files.pythonhosted.org/packages/9f/25/ddf290bba9e5246646436b73c3b20416a0995bb8b778db388d5f525e9d8a/v3io-0.5.9.tar.gz
+[2023-06-29 22:12:57] INFO root fetch - processPackages [barktools]: executing diffoscope
+[2023-06-29 22:12:57] INFO root fetch - processPackages [barktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barktools-0.0.1.3.tar.gz tmp/barktools-0.0.2.tar.gz --markdown 20230629/b/barktools/0.0.1.3-0.0.2/diff.md --exclude *.pyd
+[2023-06-29 22:12:57] INFO root fetch - processPackages [simple-pygame-gui]: executing diffoscope
+[2023-06-29 22:12:57] INFO root fetch - processPackages [molgenis-emx2-pyclient]: executing diffoscope
+[2023-06-29 22:12:57] INFO root fetch - processPackages [simple-pygame-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_pygame_gui-0.0.1.tar.gz tmp/simple_pygame_gui-0.0.4.tar.gz --markdown 20230629/s/simple-pygame-gui/0.0.1-0.0.4/diff.md --exclude *.pyd
+[2023-06-29 22:12:57] INFO root fetch - processPackages [molgenis-emx2-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis_emx2_pyclient-8.199.6.tar.gz tmp/molgenis_emx2_pyclient-8.199.7.tar.gz --markdown 20230629/m/molgenis-emx2-pyclient/8.199.6-8.199.7/diff.md --exclude *.pyd
+[2023-06-29 22:12:57] INFO root fetch - processPackages [biopipen]: Downloading https://files.pythonhosted.org/packages/34/4d/fb153c9b41fa48d6d7a50c214bb186d02cafed5396271f1b0f549fd56b16/biopipen-0.9.0.tar.gz
+[2023-06-29 22:12:57] INFO root fetch - processPackages [crds]: Downloading https://files.pythonhosted.org/packages/b1/e2/b9ed0a497dca387b05ad9dec0e24f6bda9292342a3a2e52ef05de967fc3c/crds-7.6.0.tar.gz
+[2023-06-29 22:12:57] INFO root fetch - processPackages [tendril-filestore]: executing diffoscope
+[2023-06-29 22:12:57] INFO root fetch - processPackages [tendril-filestore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-filestore-0.2.8.tar.gz tmp/tendril-filestore-0.2.9.tar.gz --markdown 20230629/t/tendril-filestore/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-29 22:12:57] INFO root fetch - processPackages [biopipen]: executing diffoscope
+[2023-06-29 22:12:57] INFO root fetch - processPackages [biopipen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biopipen-0.8.0.tar.gz tmp/biopipen-0.9.0.tar.gz --markdown 20230629/b/biopipen/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-29 22:12:57] INFO root fetch - processPackages [v3io]: executing diffoscope
+[2023-06-29 22:12:57] INFO root fetch - processPackages [v3io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v3io-0.5.8.tar.gz tmp/v3io-0.5.9.tar.gz --markdown 20230629/v/v3io/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-29 22:12:57] INFO root fetch - processPackages [crds]: executing diffoscope
+[2023-06-29 22:12:57] INFO root fetch - processPackages [crds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crds-7.5.0.0.tar.gz tmp/crds-7.6.0.tar.gz --markdown 20230629/c/crds/7.5.0.0-7.6.0/diff.md --exclude *.pyd
+[2023-06-29 22:12:58] INFO root fetch - processPackages [BeatNet]: Downloading https://files.pythonhosted.org/packages/79/04/e92cdb43f6ce89138eefc3294aae08bda5a2d3f41d667e964de165b5e385/BeatNet-1.1.1.tar.gz
+[2023-06-29 22:12:58] INFO root fetch - processPackages [BeatNet]: executing diffoscope
+[2023-06-29 22:12:58] INFO root fetch - processPackages [BeatNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BeatNet-1.1.0.tar.gz tmp/BeatNet-1.1.1.tar.gz --markdown 20230629/B/BeatNet/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-29 22:12:58] INFO root fetch - processPackages [istruthy]: Remove: archive file [/home/abi/fetcher/tmp/istruthy-0.10.tar.gz]
+[2023-06-29 22:12:58] INFO root fetch - processPackages [istruthy]: Remove: archive file [/home/abi/fetcher/tmp/istruthy-0.11.tar.gz]
+[2023-06-29 22:12:58] INFO root fetch - processPackages [istruthy]: Start processing: PDFraken
+[2023-06-29 22:12:58] INFO root fetch - main [MainThread]: End processing [istruthy]: success
+[2023-06-29 22:12:58] INFO root fetch - processPackages [PDFraken]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-29 22:12:58] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-06-29 22:12:58] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-06-29 22:12:58] INFO root fetch - processPackages [nwebclient]: Start processing: botsy
+[2023-06-29 22:12:58] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-06-29 22:12:58] INFO root fetch - processPackages [botsy]: New version: [0.1.5] Old Version: [0.1.28]
+[2023-06-29 22:12:58] INFO root fetch - processPackages [barktools]: Remove: archive file [/home/abi/fetcher/tmp/barktools-0.0.1.3.tar.gz]
+[2023-06-29 22:12:58] INFO root fetch - processPackages [barktools]: Remove: archive file [/home/abi/fetcher/tmp/barktools-0.0.2.tar.gz]
+[2023-06-29 22:12:58] INFO root fetch - processPackages [barktools]: Start processing: linuxdoc
+[2023-06-29 22:12:58] INFO root fetch - main [MainThread]: End processing [barktools]: success
+[2023-06-29 22:12:58] INFO root fetch - processPackages [linuxdoc]: New version: [20230629] Old Version: [20230506]
+[2023-06-29 22:12:58] INFO root fetch - processPackages [simple-pygame-gui]: Remove: archive file [/home/abi/fetcher/tmp/simple_pygame_gui-0.0.1.tar.gz]
+[2023-06-29 22:12:58] INFO root fetch - processPackages [simple-pygame-gui]: Remove: archive file [/home/abi/fetcher/tmp/simple_pygame_gui-0.0.4.tar.gz]
+[2023-06-29 22:12:58] INFO root fetch - processPackages [simple-pygame-gui]: Start processing: autopack-tools
+[2023-06-29 22:12:58] INFO root fetch - main [MainThread]: End processing [simple-pygame-gui]: success
+[2023-06-29 22:12:58] INFO root fetch - processPackages [autopack-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 22:12:58] INFO root fetch - processPackages [PDFraken]: Downloading https://files.pythonhosted.org/packages/47/b2/55f0085a4db5473cdec5b4d0a69f95e2220a0ffe86c6f6818d1272989a42/PDFraken-0.1.0.tar.gz
+[2023-06-29 22:12:58] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.199.6.tar.gz]
+[2023-06-29 22:12:58] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.199.7.tar.gz]
+[2023-06-29 22:12:58] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Start processing: IPFX
+[2023-06-29 22:12:58] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-pyclient]: success
+[2023-06-29 22:12:58] INFO root fetch - processPackages [botsy]: Downloading https://files.pythonhosted.org/packages/bb/b2/d182d842fb4952be033bc424f7dd84ab98972eaba6333be4aeb9750f46d9/botsy-0.1.28.tar.gz
+[2023-06-29 22:12:58] INFO root fetch - processPackages [IPFX]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-29 22:12:58] INFO root fetch - processPackages [linuxdoc]: Downloading https://files.pythonhosted.org/packages/03/34/f31ce13403dd5b08153402774be3013cbf19c93e938a9f99cfd4b70e9b04/linuxdoc-20230506.tar.gz
+[2023-06-29 22:12:58] INFO root fetch - processPackages [tendril-filestore]: Remove: archive file [/home/abi/fetcher/tmp/tendril-filestore-0.2.8.tar.gz]
+[2023-06-29 22:12:58] INFO root fetch - processPackages [tendril-filestore]: Remove: archive file [/home/abi/fetcher/tmp/tendril-filestore-0.2.9.tar.gz]
+[2023-06-29 22:12:58] INFO root fetch - processPackages [tendril-filestore]: Start processing: fw-classification
+[2023-06-29 22:12:58] INFO root fetch - main [MainThread]: End processing [tendril-filestore]: success
+[2023-06-29 22:12:58] INFO root fetch - processPackages [v3io]: Remove: archive file [/home/abi/fetcher/tmp/v3io-0.5.8.tar.gz]
+[2023-06-29 22:12:58] INFO root fetch - processPackages [v3io]: Remove: archive file [/home/abi/fetcher/tmp/v3io-0.5.9.tar.gz]
+[2023-06-29 22:12:58] INFO root fetch - processPackages [v3io]: Start processing: trex-imager-readfile
+[2023-06-29 22:12:58] INFO root fetch - main [MainThread]: End processing [v3io]: success
+[2023-06-29 22:12:58] INFO root fetch - processPackages [PDFraken]: Downloading https://files.pythonhosted.org/packages/da/db/8b3da05e6320651b553886b22b02798ecc2e74e107515ab4926b94e14fb7/PDFraken-0.1.1.tar.gz
+[2023-06-29 22:12:58] INFO root fetch - processPackages [IPFX]: Downloading https://files.pythonhosted.org/packages/36/d9/e3a6d52bfb03babb8940429437c6755549f61fc68bec348c62c80385d14a/IPFX-1.0.7.tar.gz
+[2023-06-29 22:12:58] INFO root fetch - processPackages [trex-imager-readfile]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-29 22:12:58] INFO root fetch - processPackages [fw-classification]: New version: [0.4.0] Old Version: [0.3.5]
+[2023-06-29 22:12:59] INFO root fetch - processPackages [PDFraken]: executing diffoscope
+[2023-06-29 22:12:59] INFO root fetch - processPackages [PDFraken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PDFraken-0.1.0.tar.gz tmp/PDFraken-0.1.1.tar.gz --markdown 20230629/P/PDFraken/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-29 22:12:59] INFO root fetch - processPackages [trex-imager-readfile]: executing diffoscope
+[2023-06-29 22:12:59] INFO root fetch - processPackages [trex-imager-readfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex_imager_readfile-1.4.1.tar.gz tmp/trex_imager_readfile-1.4.2.tar.gz --markdown 20230629/t/trex-imager-readfile/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-29 22:12:59] INFO root fetch - processPackages [linuxdoc]: Downloading https://files.pythonhosted.org/packages/77/f9/65b9dbb30d82e7ab57e19ba25b6cf2fb99583529a0ffe0740561af2d7f92/linuxdoc-20230629.tar.gz
+[2023-06-29 22:12:59] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/bc/2e/f0d8e8182bf7f585a96ee564c6c8516419f3a7e7ef764e3e0cc4ac7831ba/autopack_tools-0.1.9.tar.gz
+[2023-06-29 22:12:59] WARNING root fetch - processPackages [botsy]: Skipping package: exceeds size limit 57266198>=10485760
+[2023-06-29 22:12:59] INFO root fetch - processPackages [botsy]: Start processing: mbnk
+[2023-06-29 22:12:59] INFO root fetch - main [MainThread]: End processing [botsy] error
+[2023-06-29 22:12:59] INFO root fetch - processPackages [fw-classification]: Downloading https://files.pythonhosted.org/packages/d4/bd/3906b001d51fbc5db83a5ea3df245d8a693242f222c1a0463bcdce05a5ef/fw_classification-0.3.5-py3-none-any.whl
+[2023-06-29 22:12:59] INFO root fetch - processPackages [linuxdoc]: executing diffoscope
+[2023-06-29 22:12:59] INFO root fetch - processPackages [linuxdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linuxdoc-20230506.tar.gz tmp/linuxdoc-20230629.tar.gz --markdown 20230629/l/linuxdoc/20230506-20230629/diff.md --exclude *.pyd
+[2023-06-29 22:12:59] INFO root fetch - processPackages [mbnk]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-29 22:12:59] INFO root fetch - processPackages [autopack-tools]: executing diffoscope
+[2023-06-29 22:12:59] INFO root fetch - processPackages [autopack-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopack_tools-0.1.8.tar.gz tmp/autopack_tools-0.1.9.tar.gz --markdown 20230629/a/autopack-tools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 22:12:59] INFO root fetch - processPackages [mbnk]: Downloading https://files.pythonhosted.org/packages/7d/49/21866684e09fe720c093becc4cecc08e6eddfff7d2c446f5d68869488429/mbnk-0.0.3.tar.gz
+[2023-06-29 22:12:59] INFO root fetch - processPackages [fw-classification]: Downloading https://files.pythonhosted.org/packages/58/13/1ff5ada8e964643b1e86a2a0b54a41ddbab0ab3cbb50ff64b5ac4da020b2/fw_classification-0.4.0-py3-none-any.whl
+[2023-06-29 22:12:59] INFO root fetch - processPackages [mbnk]: Downloading https://files.pythonhosted.org/packages/c7/fa/29a0779da59f35fb9662f96c6a902fc68fec2f0224b474f2564475400773/mbnk-0.0.4.tar.gz
+[2023-06-29 22:12:59] INFO root fetch - processPackages [fw-classification]: executing diffoscope
+[2023-06-29 22:12:59] INFO root fetch - processPackages [fw-classification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fw_classification-0.3.5-py3-none-any.whl.zip tmp/fw_classification-0.4.0-py3-none-any.whl.zip --markdown 20230629/f/fw-classification/0.3.5-0.4.0/diff.md --exclude *.pyd
+[2023-06-29 22:12:59] INFO root fetch - processPackages [mbnk]: executing diffoscope
+[2023-06-29 22:12:59] INFO root fetch - processPackages [mbnk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbnk-0.0.3.tar.gz tmp/mbnk-0.0.4.tar.gz --markdown 20230629/m/mbnk/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-29 22:12:59] INFO root fetch - processPackages [IPFX]: Downloading https://files.pythonhosted.org/packages/1f/aa/e8f03af7fdca68b3dd6e926f1f86662cc621f8b2314105e52956839b5e4a/IPFX-1.0.8.tar.gz
+[2023-06-29 22:12:59] ERROR root fetch - processPackages [mbnk]: Diffoscope failed: Error: error creating container storage: the container name "determined_mcnulty" is already in use by "e0d0f823dc0ab51ced7caea9bca0f707d799a42474776401c5d2b19679ee5c95". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-29 22:12:59] INFO root fetch - processPackages [mbnk]: Start processing: policyengine-us
+[2023-06-29 22:12:59] INFO root fetch - main [MainThread]: End processing [mbnk] error
+[2023-06-29 22:12:59] INFO root fetch - processPackages [IPFX]: executing diffoscope
+[2023-06-29 22:12:59] INFO root fetch - processPackages [IPFX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IPFX-1.0.7.tar.gz tmp/IPFX-1.0.8.tar.gz --markdown 20230629/I/IPFX/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-29 22:12:59] INFO root fetch - processPackages [policyengine-us]: New version: [0.345.6] Old Version: [0.345.5]
+[2023-06-29 22:12:59] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/72/c3/abe02fd1ac71afe8eab3a78aa23e8d9ff7e70210e14aa61019e2462c9db4/policyengine-us-0.345.5.tar.gz
+[2023-06-29 22:13:00] INFO root fetch - processPackages [PDFraken]: Remove: archive file [/home/abi/fetcher/tmp/PDFraken-0.1.0.tar.gz]
+[2023-06-29 22:13:00] INFO root fetch - processPackages [PDFraken]: Remove: archive file [/home/abi/fetcher/tmp/PDFraken-0.1.1.tar.gz]
+[2023-06-29 22:13:00] INFO root fetch - processPackages [PDFraken]: Start processing: integer-fft
+[2023-06-29 22:13:00] INFO root fetch - main [MainThread]: End processing [PDFraken]: success
+[2023-06-29 22:13:00] INFO root fetch - processPackages [trex-imager-readfile]: Remove: archive file [/home/abi/fetcher/tmp/trex_imager_readfile-1.4.1.tar.gz]
+[2023-06-29 22:13:00] INFO root fetch - processPackages [trex-imager-readfile]: Remove: archive file [/home/abi/fetcher/tmp/trex_imager_readfile-1.4.2.tar.gz]
+[2023-06-29 22:13:00] INFO root fetch - processPackages [trex-imager-readfile]: Start processing: pyhOn
+[2023-06-29 22:13:00] INFO root fetch - main [MainThread]: End processing [trex-imager-readfile]: success
+[2023-06-29 22:13:00] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/61/ec/2b41fd4dd346a64672721a715b595818c2139ca86ff16ff926d8c88bd8da/policyengine-us-0.345.6.tar.gz
+[2023-06-29 22:13:00] INFO root fetch - processPackages [pyhOn]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-29 22:13:00] INFO root fetch - processPackages [pyhOn]: Downloading https://files.pythonhosted.org/packages/ea/21/a02ec05f27736d84fc536a77e7d8d4bff64042649263f7f166eb347f645e/pyhOn-0.9.0.tar.gz
+[2023-06-29 22:13:00] WARNING root fetch - processPackages [integer-fft]: Skipping, unable to determine old version
+[2023-06-29 22:13:00] INFO root fetch - processPackages [integer-fft]: Start processing: telexy.sam
+[2023-06-29 22:13:00] INFO root fetch - main [MainThread]: End processing [integer-fft] error
+[2023-06-29 22:13:00] WARNING root fetch - processPackages [telexy.sam]: Skipping, unable to determine old version
+[2023-06-29 22:13:00] INFO root fetch - processPackages [telexy.sam]: Start processing: arabica
+[2023-06-29 22:13:00] INFO root fetch - main [MainThread]: End processing [telexy.sam] error
+[2023-06-29 22:13:00] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-06-29 22:13:00] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.345.5.tar.gz tmp/policyengine-us-0.345.6.tar.gz --markdown 20230629/p/policyengine-us/0.345.5-0.345.6/diff.md --exclude *.pyd
+[2023-06-29 22:13:00] INFO root fetch - processPackages [arabica]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-06-29 22:13:00] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.1.8.tar.gz]
+[2023-06-29 22:13:00] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.1.9.tar.gz]
+[2023-06-29 22:13:00] INFO root fetch - main [MainThread]: End processing [autopack-tools]: success
+[2023-06-29 22:13:00] INFO root fetch - processPackages [pyhOn]: Downloading https://files.pythonhosted.org/packages/bd/8e/c3ca4f478da222a67df9747f74292644f871e32df734b2eaaef829814af5/pyhOn-0.9.1.tar.gz
+[2023-06-29 22:13:00] INFO root fetch - processPackages [arabica]: executing diffoscope
+[2023-06-29 22:13:00] INFO root fetch - processPackages [arabica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arabica-1.6.4.tar.gz tmp/arabica-1.6.5.tar.gz --markdown 20230629/a/arabica/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-06-29 22:13:00] INFO root fetch - processPackages [linuxdoc]: Remove: archive file [/home/abi/fetcher/tmp/linuxdoc-20230506.tar.gz]
+[2023-06-29 22:13:00] INFO root fetch - processPackages [linuxdoc]: Remove: archive file [/home/abi/fetcher/tmp/linuxdoc-20230629.tar.gz]
+[2023-06-29 22:13:00] INFO root fetch - main [MainThread]: End processing [linuxdoc]: success
+[2023-06-29 22:13:00] INFO root fetch - processPackages [pyhOn]: executing diffoscope
+[2023-06-29 22:13:00] INFO root fetch - processPackages [pyhOn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhOn-0.9.0.tar.gz tmp/pyhOn-0.9.1.tar.gz --markdown 20230629/p/pyhOn/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-29 22:13:00] INFO root fetch - processPackages [fw-classification]: Remove: archive file [/home/abi/fetcher/tmp/fw_classification-0.3.5-py3-none-any.whl.zip]
+[2023-06-29 22:13:00] INFO root fetch - processPackages [fw-classification]: Remove: archive file [/home/abi/fetcher/tmp/fw_classification-0.4.0-py3-none-any.whl.zip]
+[2023-06-29 22:13:00] INFO root fetch - main [MainThread]: End processing [fw-classification]: success
+[2023-06-29 22:13:01] INFO root fetch - processPackages [BeatNet]: Remove: archive file [/home/abi/fetcher/tmp/BeatNet-1.1.0.tar.gz]
+[2023-06-29 22:13:01] INFO root fetch - processPackages [BeatNet]: Remove: archive file [/home/abi/fetcher/tmp/BeatNet-1.1.1.tar.gz]
+[2023-06-29 22:13:01] INFO root fetch - main [MainThread]: End processing [BeatNet]: success
+[2023-06-29 22:13:01] INFO root fetch - processPackages [arabica]: Remove: archive file [/home/abi/fetcher/tmp/arabica-1.6.4.tar.gz]
+[2023-06-29 22:13:01] INFO root fetch - processPackages [arabica]: Remove: archive file [/home/abi/fetcher/tmp/arabica-1.6.5.tar.gz]
+[2023-06-29 22:13:01] INFO root fetch - main [MainThread]: End processing [arabica]: success
+[2023-06-29 22:13:01] INFO root fetch - processPackages [biopipen]: Remove: archive file [/home/abi/fetcher/tmp/biopipen-0.8.0.tar.gz]
+[2023-06-29 22:13:01] INFO root fetch - processPackages [biopipen]: Remove: archive file [/home/abi/fetcher/tmp/biopipen-0.9.0.tar.gz]
+[2023-06-29 22:13:01] INFO root fetch - main [MainThread]: End processing [biopipen]: success
+[2023-06-29 22:13:01] INFO root fetch - processPackages [pyhOn]: Remove: archive file [/home/abi/fetcher/tmp/pyhOn-0.9.0.tar.gz]
+[2023-06-29 22:13:01] INFO root fetch - processPackages [pyhOn]: Remove: archive file [/home/abi/fetcher/tmp/pyhOn-0.9.1.tar.gz]
+[2023-06-29 22:13:01] INFO root fetch - main [MainThread]: End processing [pyhOn]: success
+[2023-06-29 22:13:03] INFO root fetch - processPackages [IPFX]: Remove: archive file [/home/abi/fetcher/tmp/IPFX-1.0.7.tar.gz]
+[2023-06-29 22:13:03] INFO root fetch - processPackages [IPFX]: Remove: archive file [/home/abi/fetcher/tmp/IPFX-1.0.8.tar.gz]
+[2023-06-29 22:13:03] INFO root fetch - main [MainThread]: End processing [IPFX]: success
+[2023-06-29 22:13:14] INFO root fetch - processPackages [crds]: Remove: archive file [/home/abi/fetcher/tmp/crds-7.5.0.0.tar.gz]
+[2023-06-29 22:13:14] INFO root fetch - processPackages [crds]: Remove: archive file [/home/abi/fetcher/tmp/crds-7.6.0.tar.gz]
+[2023-06-29 22:13:14] INFO root fetch - main [MainThread]: End processing [crds]: success
+[2023-06-29 22:14:19] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.345.5.tar.gz]
+[2023-06-29 22:14:19] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.345.6.tar.gz]
+[2023-06-29 22:14:19] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-06-29 22:14:19] INFO root fetch - main [MainThread]: Store serial: [18699935]
