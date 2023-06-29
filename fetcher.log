@@ -10794,3 +10794,184 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 15:06:38] INFO root fetch - processPackages [intel-sgx-ra]: Remove: archive file [/home/abi/fetcher/tmp/intel_sgx_ra-2.0a9-cp38-cp38-manylinux_2_34_x86_64.whl.zip]
 [2023-06-29 15:06:38] INFO root fetch - main [MainThread]: End processing [intel-sgx-ra]: success
 [2023-06-29 15:06:38] INFO root fetch - main [MainThread]: Store serial: [18695245]
+[2023-06-29 15:11:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18695245]
+[2023-06-29 15:11:51] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-29 15:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-06-29 15:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dvc
+[2023-06-29 15:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: constava
+[2023-06-29 15:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cbra
+[2023-06-29 15:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ansys-api-pyensight
+[2023-06-29 15:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jacktest
+[2023-06-29 15:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: joserfc
+[2023-06-29 15:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: squlearn
+[2023-06-29 15:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: phylum
+[2023-06-29 15:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: franky-panda
+[2023-06-29 15:11:52] INFO root fetch - processPackages [ansys-api-pyensight]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-29 15:11:52] INFO root fetch - processPackages [cbra]: New version: [3.0.0a7] Old Version: [2.0.0a99]
+[2023-06-29 15:11:52] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.6.28] Old Version: [2023.6.27]
+[2023-06-29 15:11:52] WARNING root fetch - processPackages [constava]: Skipping, unable to determine old version
+[2023-06-29 15:11:52] INFO root fetch - processPackages [constava]: Start processing: bigdl-orca
+[2023-06-29 15:11:52] INFO root fetch - main [MainThread]: End processing [constava] error
+[2023-06-29 15:11:52] INFO root fetch - processPackages [joserfc]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-29 15:11:52] INFO root fetch - processPackages [phylum]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-29 15:11:52] INFO root fetch - processPackages [dvc]: New version: [3.2.3] Old Version: [3.2.2]
+[2023-06-29 15:11:52] INFO root fetch - processPackages [squlearn]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-29 15:11:52] INFO root fetch - processPackages [franky-panda]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-06-29 15:11:52] INFO root fetch - processPackages [cbra]: Downloading https://files.pythonhosted.org/packages/af/88/3a153e5aa2b82ead874b96b5f03840a68acf0a2fd0a8e77b0e770c40e5a0/cbra-2.0.0a99.tar.gz
+[2023-06-29 15:11:52] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230629] Old Version: [2.4.0b20230626]
+[2023-06-29 15:11:52] WARNING root fetch - processPackages [jacktest]: Skipping, unable to determine old version
+[2023-06-29 15:11:52] INFO root fetch - processPackages [jacktest]: Start processing: honkaistarrail
+[2023-06-29 15:11:52] INFO root fetch - main [MainThread]: End processing [jacktest] error
+[2023-06-29 15:11:52] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/59/a2/5be791eb10d3122bc4c1f84d655250dacff48824b8820eb6ee0b0f9cf718/fbgemm_gpu_nightly_cpu-2023.6.27-cp39-cp39-manylinux2014_aarch64.whl
+[2023-06-29 15:11:52] INFO root fetch - processPackages [honkaistarrail]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-29 15:11:52] INFO root fetch - processPackages [honkaistarrail]: Downloading https://files.pythonhosted.org/packages/af/49/2e457e19dda2de74e6ddc0b3693d4eba67fca417be4c848d864ce5b70e22/honkaistarrail-0.0.5.tar.gz
+[2023-06-29 15:11:52] INFO root fetch - processPackages [ansys-api-pyensight]: Downloading https://files.pythonhosted.org/packages/a4/00/fa937e85ab1e7e94fe150bee27442f1c06dc6b679327de966777d2ccfddb/ansys-api-pyensight-0.1.0.tar.gz
+[2023-06-29 15:11:52] INFO root fetch - processPackages [franky-panda]: Downloading https://files.pythonhosted.org/packages/f9/b5/8d72cfe8787e15e3638ae3c56e9c8d5ebc2193dfc344d5474586f1d7ac77/franky_panda-0.1.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-29 15:11:52] INFO root fetch - processPackages [cbra]: Downloading https://files.pythonhosted.org/packages/e3/30/881c6ff6126ad5e84aee92c87271280498b0d03f3c7ad7ca93e0e0fd381b/cbra-3.0.0a7.tar.gz
+[2023-06-29 15:11:52] INFO root fetch - processPackages [squlearn]: Downloading https://files.pythonhosted.org/packages/db/e1/4ed085c42c5e4297621a9366062eba5d54d713cb168fc8f2656fc29c5635/squlearn-0.1.0.tar.gz
+[2023-06-29 15:11:52] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/8d/d1/a508f61ce0358487824b722b7b3543e0cc6d0228adf513bd6a6df1fd1a74/dvc-3.2.2.tar.gz
+[2023-06-29 15:11:52] INFO root fetch - processPackages [phylum]: Downloading https://files.pythonhosted.org/packages/37/4e/41266fcf993f1a49a31c58ba110656032f751026d9a406718dc4c9173158/phylum-0.9.0.tar.gz
+[2023-06-29 15:11:52] INFO root fetch - processPackages [joserfc]: Downloading https://files.pythonhosted.org/packages/a8/28/5bec50ef21aae37461d36f66d92c0e735f67272f834f2bb36a13942fc570/joserfc-0.2.0.tar.gz
+[2023-06-29 15:11:52] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/ab/8d/1bc4f15ea814bcb0cb41d2cf8d7bc704b845cc0013f63a0650047b2bfc3e/bigdl_orca-2.4.0b20230626-py3-none-manylinux1_x86_64.whl
+[2023-06-29 15:11:52] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20369607>=10485760
+[2023-06-29 15:11:52] INFO root fetch - processPackages [cbra]: executing diffoscope
+[2023-06-29 15:11:52] INFO root fetch - processPackages [bigdl-orca]: Start processing: bigdl-friesian
+[2023-06-29 15:11:52] INFO root fetch - processPackages [cbra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbra-2.0.0a99.tar.gz tmp/cbra-3.0.0a7.tar.gz --markdown 20230629/c/cbra/2.0.0a99-3.0.0a7/diff.md --exclude *.pyd
+[2023-06-29 15:11:52] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-06-29 15:11:52] INFO root fetch - processPackages [honkaistarrail]: Downloading https://files.pythonhosted.org/packages/67/e3/28e98d1744972327720fbd054b26dc357736b1b15f6300b9b9103a1c4fb3/honkaistarrail-0.0.6.tar.gz
+[2023-06-29 15:11:52] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230629] Old Version: [2.4.0b20230626]
+[2023-06-29 15:11:52] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/90/c2/7c386ed33761e47fe1e9378b55b4fac0267a12700a10f69082ed98206701/fbgemm_gpu_nightly_cpu-2023.6.28-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-29 15:11:52] INFO root fetch - processPackages [honkaistarrail]: executing diffoscope
+[2023-06-29 15:11:52] INFO root fetch - processPackages [honkaistarrail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honkaistarrail-0.0.5.tar.gz tmp/honkaistarrail-0.0.6.tar.gz --markdown 20230629/h/honkaistarrail/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-29 15:11:52] INFO root fetch - processPackages [squlearn]: Downloading https://files.pythonhosted.org/packages/fc/fd/8dae1db844a986c8cb910c77bd0d89c1c792d1621af223c22090d5edeab5/squlearn-0.2.0.tar.gz
+[2023-06-29 15:11:52] INFO root fetch - processPackages [ansys-api-pyensight]: Downloading https://files.pythonhosted.org/packages/1e/2d/ff94d46db017e67314dc890ef1c5a8801775849b61d16e3730965a689563/ansys-api-pyensight-0.2.0.tar.gz
+[2023-06-29 15:11:52] INFO root fetch - processPackages [joserfc]: Downloading https://files.pythonhosted.org/packages/9d/ba/eb0a080dd189e041d5085fd28ac2c145a8bdd4c20a1177dbc210d3631ea1/joserfc-0.3.0.tar.gz
+[2023-06-29 15:11:52] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/33/c7/0574c78423b1ce670a79032c1c3de2d579af7362662be2ba1e3b98231aee/dvc-3.2.3.tar.gz
+[2023-06-29 15:11:52] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-06-29 15:11:52] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.6.27-cp39-cp39-manylinux2014_aarch64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.6.28-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230629/f/fbgemm-gpu-nightly-cpu/2023.6.27-2023.6.28/diff.md --exclude *.pyd
+[2023-06-29 15:11:52] INFO root fetch - processPackages [franky-panda]: Downloading https://files.pythonhosted.org/packages/4a/10/5a17fb80029fd482bdc91df2642697859e10428550b7ba00ccec7f365885/franky_panda-0.2.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-29 15:11:52] INFO root fetch - processPackages [joserfc]: executing diffoscope
+[2023-06-29 15:11:52] INFO root fetch - processPackages [joserfc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joserfc-0.2.0.tar.gz tmp/joserfc-0.3.0.tar.gz --markdown 20230629/j/joserfc/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-29 15:11:52] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/f7/a9/b0bbadf7d3e41b65b667dab369605b65c89fc896334af63f6271f6108fca/bigdl_friesian-2.4.0b20230626-py3-none-manylinux1_x86_64.whl
+[2023-06-29 15:11:52] INFO root fetch - processPackages [phylum]: Downloading https://files.pythonhosted.org/packages/c6/84/cd0cff92b7198afbfc8857ec37b2af61b15ae7edd4d42e783db4b8de9ffd/phylum-0.9.1.tar.gz
+[2023-06-29 15:11:52] INFO root fetch - processPackages [ansys-api-pyensight]: executing diffoscope
+[2023-06-29 15:11:52] INFO root fetch - processPackages [ansys-api-pyensight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-api-pyensight-0.1.0.tar.gz tmp/ansys-api-pyensight-0.2.0.tar.gz --markdown 20230629/a/ansys-api-pyensight/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-29 15:11:52] INFO root fetch - processPackages [squlearn]: executing diffoscope
+[2023-06-29 15:11:52] INFO root fetch - processPackages [squlearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squlearn-0.1.0.tar.gz tmp/squlearn-0.2.0.tar.gz --markdown 20230629/s/squlearn/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-29 15:11:52] INFO root fetch - processPackages [dvc]: executing diffoscope
+[2023-06-29 15:11:52] INFO root fetch - processPackages [dvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-3.2.2.tar.gz tmp/dvc-3.2.3.tar.gz --markdown 20230629/d/dvc/3.2.2-3.2.3/diff.md --exclude *.pyd
+[2023-06-29 15:11:52] INFO root fetch - processPackages [franky-panda]: executing diffoscope
+[2023-06-29 15:11:52] INFO root fetch - processPackages [franky-panda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/franky_panda-0.1.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/franky_panda-0.2.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230629/f/franky-panda/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-06-29 15:11:53] INFO root fetch - processPackages [phylum]: executing diffoscope
+[2023-06-29 15:11:53] INFO root fetch - processPackages [phylum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phylum-0.9.0.tar.gz tmp/phylum-0.9.1.tar.gz --markdown 20230629/p/phylum/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-29 15:11:53] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/07/f9/86434ed198b0427ec6e86b77322a56c18f1de03076e857b33c2bb31fa554/bigdl_friesian-2.4.0b20230629-py3-none-manylinux1_x86_64.whl
+[2023-06-29 15:11:53] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-06-29 15:11:53] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230626-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip --markdown 20230629/b/bigdl-friesian/2.4.0b20230626-2.4.0b20230629/diff.md --exclude *.pyd
+[2023-06-29 15:11:53] INFO root fetch - processPackages [honkaistarrail]: Remove: archive file [/home/abi/fetcher/tmp/honkaistarrail-0.0.5.tar.gz]
+[2023-06-29 15:11:53] INFO root fetch - processPackages [honkaistarrail]: Remove: archive file [/home/abi/fetcher/tmp/honkaistarrail-0.0.6.tar.gz]
+[2023-06-29 15:11:53] INFO root fetch - processPackages [honkaistarrail]: Start processing: bigdl
+[2023-06-29 15:11:53] INFO root fetch - main [MainThread]: End processing [honkaistarrail]: success
+[2023-06-29 15:11:53] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230629] Old Version: [2.4.0b20230626]
+[2023-06-29 15:11:54] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/80/b6/f2d8ee43a460a46a9e3766cfc97cf2736c514b45dc451c68cc03c03e6b70/bigdl-2.4.0b20230626-py3-none-manylinux1_x86_64.whl
+[2023-06-29 15:11:54] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/8d/1e/241d97ee5add2fbeb25c22c635f87b4d6c25b61f107f14930903b759e7df/bigdl-2.4.0b20230629-py3-none-manylinux1_x86_64.whl
+[2023-06-29 15:11:54] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-06-29 15:11:54] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230626-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip --markdown 20230629/b/bigdl/2.4.0b20230626-2.4.0b20230629/diff.md --exclude *.pyd
+[2023-06-29 15:11:55] INFO root fetch - processPackages [squlearn]: Remove: archive file [/home/abi/fetcher/tmp/squlearn-0.1.0.tar.gz]
+[2023-06-29 15:11:55] INFO root fetch - processPackages [squlearn]: Remove: archive file [/home/abi/fetcher/tmp/squlearn-0.2.0.tar.gz]
+[2023-06-29 15:11:55] INFO root fetch - processPackages [squlearn]: Start processing: djangocms-audio
+[2023-06-29 15:11:55] INFO root fetch - main [MainThread]: End processing [squlearn]: success
+[2023-06-29 15:11:55] INFO root fetch - processPackages [djangocms-audio]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-29 15:11:55] INFO root fetch - processPackages [joserfc]: Remove: archive file [/home/abi/fetcher/tmp/joserfc-0.2.0.tar.gz]
+[2023-06-29 15:11:55] INFO root fetch - processPackages [joserfc]: Remove: archive file [/home/abi/fetcher/tmp/joserfc-0.3.0.tar.gz]
+[2023-06-29 15:11:55] INFO root fetch - processPackages [joserfc]: Start processing: unreal-stylesheet
+[2023-06-29 15:11:55] INFO root fetch - main [MainThread]: End processing [joserfc]: success
+[2023-06-29 15:11:55] INFO root fetch - processPackages [unreal-stylesheet]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-29 15:11:55] INFO root fetch - processPackages [djangocms-audio]: Downloading https://files.pythonhosted.org/packages/92/89/9e6e8e429c304260ab0bf006c06e0b7a275d27848b6a85c8e6b6c1bbdf79/djangocms-audio-2.0.0.tar.gz
+[2023-06-29 15:11:55] INFO root fetch - processPackages [phylum]: Remove: archive file [/home/abi/fetcher/tmp/phylum-0.9.0.tar.gz]
+[2023-06-29 15:11:55] INFO root fetch - processPackages [phylum]: Remove: archive file [/home/abi/fetcher/tmp/phylum-0.9.1.tar.gz]
+[2023-06-29 15:11:55] INFO root fetch - processPackages [phylum]: Start processing: xprec
+[2023-06-29 15:11:55] INFO root fetch - main [MainThread]: End processing [phylum]: success
+[2023-06-29 15:11:55] INFO root fetch - processPackages [xprec]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-29 15:11:55] INFO root fetch - processPackages [unreal-stylesheet]: Downloading https://files.pythonhosted.org/packages/fe/e5/0a0d1e485dcd56358086b027335125f2a3ef08b271a25434c40afdab401e/unreal-stylesheet-0.0.1.tar.gz
+[2023-06-29 15:11:55] INFO root fetch - processPackages [djangocms-audio]: Downloading https://files.pythonhosted.org/packages/6d/15/60b72b6ed96320666fb68dc78a916913ae5b1fc870f9dabdaff5a49e8f66/djangocms-audio-2.1.0.tar.gz
+[2023-06-29 15:11:55] INFO root fetch - processPackages [xprec]: Downloading https://files.pythonhosted.org/packages/67/b3/da2e3232674531d208ae90f0101252ffd20e657fad386fdbe8369286fe73/xprec-1.3.8.tar.gz
+[2023-06-29 15:11:55] INFO root fetch - processPackages [djangocms-audio]: executing diffoscope
+[2023-06-29 15:11:55] INFO root fetch - processPackages [djangocms-audio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms-audio-2.0.0.tar.gz tmp/djangocms-audio-2.1.0.tar.gz --markdown 20230629/d/djangocms-audio/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-29 15:11:55] INFO root fetch - processPackages [unreal-stylesheet]: Downloading https://files.pythonhosted.org/packages/0a/4c/b8aee9ea9b65c2117a1679bf2484b435dddaef6d088aeb3d71e2e990dd2d/unreal-stylesheet-0.0.2.tar.gz
+[2023-06-29 15:11:55] INFO root fetch - processPackages [xprec]: Downloading https://files.pythonhosted.org/packages/dd/e0/e9550016c53b03b74592c800844c174c65e87cf8f73da6717cdeee0dafd9/xprec-1.3.9.tar.gz
+[2023-06-29 15:11:55] INFO root fetch - processPackages [unreal-stylesheet]: executing diffoscope
+[2023-06-29 15:11:55] INFO root fetch - processPackages [unreal-stylesheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unreal-stylesheet-0.0.1.tar.gz tmp/unreal-stylesheet-0.0.2.tar.gz --markdown 20230629/u/unreal-stylesheet/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-29 15:11:56] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230626-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-29 15:11:56] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-29 15:11:56] INFO root fetch - processPackages [bigdl]: Start processing: cg
+[2023-06-29 15:11:56] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-06-29 15:11:56] INFO root fetch - processPackages [xprec]: executing diffoscope
+[2023-06-29 15:11:56] INFO root fetch - processPackages [xprec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xprec-1.3.8.tar.gz tmp/xprec-1.3.9.tar.gz --markdown 20230629/x/xprec/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-29 15:11:56] INFO root fetch - processPackages [cg]: New version: [37.0.9] Old Version: [37.0.8]
+[2023-06-29 15:11:56] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/ec/1d/c584ab5bd145f7bc64a980cb9243f2ce4190d6259515da4ad36aa6cd5b8d/cg-37.0.8.tar.gz
+[2023-06-29 15:11:56] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/d6/7e/80bbf10d5634a932760fbb85138245f7f53ad73bcdd6d223800c8b51e56f/cg-37.0.9.tar.gz
+[2023-06-29 15:11:56] INFO root fetch - processPackages [ansys-api-pyensight]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-pyensight-0.1.0.tar.gz]
+[2023-06-29 15:11:56] INFO root fetch - processPackages [ansys-api-pyensight]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-pyensight-0.2.0.tar.gz]
+[2023-06-29 15:11:56] INFO root fetch - processPackages [ansys-api-pyensight]: Start processing: nbdev-stdlib
+[2023-06-29 15:11:56] INFO root fetch - main [MainThread]: End processing [ansys-api-pyensight]: success
+[2023-06-29 15:11:56] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-29 15:11:56] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-37.0.8.tar.gz tmp/cg-37.0.9.tar.gz --markdown 20230629/c/cg/37.0.8-37.0.9/diff.md --exclude *.pyd
+[2023-06-29 15:11:56] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-29 15:11:56] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-06-29 15:11:57] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-06-29 15:11:57] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-06-29 15:11:57] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230629/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-29 15:11:58] INFO root fetch - processPackages [xprec]: Remove: archive file [/home/abi/fetcher/tmp/xprec-1.3.8.tar.gz]
+[2023-06-29 15:11:58] INFO root fetch - processPackages [xprec]: Remove: archive file [/home/abi/fetcher/tmp/xprec-1.3.9.tar.gz]
+[2023-06-29 15:11:58] INFO root fetch - processPackages [xprec]: Start processing: fps-jupytercad
+[2023-06-29 15:11:58] INFO root fetch - main [MainThread]: End processing [xprec]: success
+[2023-06-29 15:11:58] INFO root fetch - processPackages [unreal-stylesheet]: Remove: archive file [/home/abi/fetcher/tmp/unreal-stylesheet-0.0.1.tar.gz]
+[2023-06-29 15:11:58] INFO root fetch - processPackages [unreal-stylesheet]: Remove: archive file [/home/abi/fetcher/tmp/unreal-stylesheet-0.0.2.tar.gz]
+[2023-06-29 15:11:58] INFO root fetch - processPackages [unreal-stylesheet]: Start processing: jupytercad
+[2023-06-29 15:11:58] INFO root fetch - main [MainThread]: End processing [unreal-stylesheet]: success
+[2023-06-29 15:11:58] INFO root fetch - processPackages [djangocms-audio]: Remove: archive file [/home/abi/fetcher/tmp/djangocms-audio-2.0.0.tar.gz]
+[2023-06-29 15:11:58] INFO root fetch - processPackages [djangocms-audio]: Remove: archive file [/home/abi/fetcher/tmp/djangocms-audio-2.1.0.tar.gz]
+[2023-06-29 15:11:58] INFO root fetch - processPackages [djangocms-audio]: Start processing: domain-admin
+[2023-06-29 15:11:58] INFO root fetch - main [MainThread]: End processing [djangocms-audio]: success
+[2023-06-29 15:11:58] INFO root fetch - processPackages [fps-jupytercad]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-29 15:11:58] INFO root fetch - processPackages [domain-admin]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-29 15:11:58] INFO root fetch - processPackages [jupytercad]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-29 15:11:58] INFO root fetch - processPackages [fps-jupytercad]: Downloading https://files.pythonhosted.org/packages/f9/a8/a90a64656cbbd081a9f1e77e17e8cf6fd9c132798366ba9d4575c676a569/fps_jupytercad-0.3.2.tar.gz
+[2023-06-29 15:11:58] INFO root fetch - processPackages [jupytercad]: Downloading https://files.pythonhosted.org/packages/cf/5f/ed7c09bb232131b6af827926e133372dd05e871371d9d1c45c85bb3d5ebe/jupytercad-0.3.2.tar.gz
+[2023-06-29 15:11:58] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/3a/f2/23400df41503073b93b342c8dcf715e54b76978a0ee3202a010a8c6a2fe7/domain-admin-1.4.8.tar.gz
+[2023-06-29 15:11:58] WARNING root fetch - processPackages [jupytercad]: Skipping package: exceeds size limit 29283760>=10485760
+[2023-06-29 15:11:58] INFO root fetch - main [MainThread]: End processing [jupytercad] error
+[2023-06-29 15:11:58] INFO root fetch - processPackages [fps-jupytercad]: Downloading https://files.pythonhosted.org/packages/ee/82/c0b42d68630128c2a65d138c118f318d06b1f8292321c904ba822877b879/fps_jupytercad-0.3.3.tar.gz
+[2023-06-29 15:11:58] INFO root fetch - processPackages [fps-jupytercad]: executing diffoscope
+[2023-06-29 15:11:58] INFO root fetch - processPackages [fps-jupytercad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_jupytercad-0.3.2.tar.gz tmp/fps_jupytercad-0.3.3.tar.gz --markdown 20230629/f/fps-jupytercad/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-29 15:11:58] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/c8/72/cfb118e14c007a151e3448decdf03d9f857f769cf0e5fce80f46281b8de5/domain-admin-1.4.9.tar.gz
+[2023-06-29 15:11:59] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-06-29 15:11:59] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.4.8.tar.gz tmp/domain-admin-1.4.9.tar.gz --markdown 20230629/d/domain-admin/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-29 15:11:59] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-06-29 15:11:59] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-06-29 15:11:59] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-06-29 15:12:00] INFO root fetch - processPackages [fps-jupytercad]: Remove: archive file [/home/abi/fetcher/tmp/fps_jupytercad-0.3.2.tar.gz]
+[2023-06-29 15:12:00] INFO root fetch - processPackages [fps-jupytercad]: Remove: archive file [/home/abi/fetcher/tmp/fps_jupytercad-0.3.3.tar.gz]
+[2023-06-29 15:12:00] INFO root fetch - main [MainThread]: End processing [fps-jupytercad]: success
+[2023-06-29 15:12:02] INFO root fetch - processPackages [franky-panda]: Remove: archive file [/home/abi/fetcher/tmp/franky_panda-0.1.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-29 15:12:02] INFO root fetch - processPackages [franky-panda]: Remove: archive file [/home/abi/fetcher/tmp/franky_panda-0.2.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-29 15:12:02] INFO root fetch - main [MainThread]: End processing [franky-panda]: success
+[2023-06-29 15:12:02] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.2.2.tar.gz]
+[2023-06-29 15:12:02] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.2.3.tar.gz]
+[2023-06-29 15:12:02] INFO root fetch - main [MainThread]: End processing [dvc]: success
+[2023-06-29 15:12:03] INFO root fetch - processPackages [cbra]: Remove: archive file [/home/abi/fetcher/tmp/cbra-2.0.0a99.tar.gz]
+[2023-06-29 15:12:03] INFO root fetch - processPackages [cbra]: Remove: archive file [/home/abi/fetcher/tmp/cbra-3.0.0a7.tar.gz]
+[2023-06-29 15:12:03] INFO root fetch - main [MainThread]: End processing [cbra]: success
+[2023-06-29 15:12:13] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230626-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-29 15:12:13] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-29 15:12:13] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-06-29 15:12:13] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.8.tar.gz]
+[2023-06-29 15:12:13] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
+[2023-06-29 15:12:13] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-06-29 15:12:14] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.8.tar.gz]
+[2023-06-29 15:12:14] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.9.tar.gz]
+[2023-06-29 15:12:14] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-29 15:12:37] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.27-cp39-cp39-manylinux2014_aarch64.whl.zip]
+[2023-06-29 15:12:37] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.28-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-29 15:12:37] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-06-29 15:12:37] INFO root fetch - main [MainThread]: Store serial: [18695334]
