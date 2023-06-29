@@ -2948,3 +2948,99 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 10:33:23] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-06-29 10:33:23] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-06-29 10:33:23] INFO root fetch - main [MainThread]: Store serial: [18692131]
+[2023-06-29 10:38:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18692131]
+[2023-06-29 10:38:32] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-29 10:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bionty
+[2023-06-29 10:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CMZ-Frameworks
+[2023-06-29 10:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: theopendictionary
+[2023-06-29 10:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ncm-163key-parser
+[2023-06-29 10:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: st-ant-menu
+[2023-06-29 10:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: featurelayers
+[2023-06-29 10:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wakeblaster-sdk
+[2023-06-29 10:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kiara-plugin.service
+[2023-06-29 10:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: crossroads-schematization
+[2023-06-29 10:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fibertrace
+[2023-06-29 10:38:32] INFO root fetch - processPackages [CMZ-Frameworks]: New version: [1.2.0] Old Version: [0.0.1]
+[2023-06-29 10:38:32] INFO root fetch - processPackages [theopendictionary]: New version: [0.6.0] Old Version: [0.4.0]
+[2023-06-29 10:38:32] INFO root fetch - processPackages [wakeblaster-sdk]: New version: [2.6.5] Old Version: [2.6.4]
+[2023-06-29 10:38:32] WARNING root fetch - processPackages [ncm-163key-parser]: Skipping, unable to determine old version
+[2023-06-29 10:38:32] INFO root fetch - processPackages [ncm-163key-parser]: Start processing: tf-estimator-nightly
+[2023-06-29 10:38:32] INFO root fetch - main [MainThread]: End processing [ncm-163key-parser] error
+[2023-06-29 10:38:32] INFO root fetch - processPackages [featurelayers]: New version: [1.5.0] Old Version: [1.4.9]
+[2023-06-29 10:38:32] INFO root fetch - processPackages [st-ant-menu]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 10:38:32] INFO root fetch - processPackages [bionty]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-06-29 10:38:32] INFO root fetch - processPackages [kiara-plugin.service]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-29 10:38:32] INFO root fetch - processPackages [fibertrace]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-29 10:38:32] INFO root fetch - processPackages [crossroads-schematization]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-06-29 10:38:32] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-06-29 10:38:32] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/c6/22/584104dc29ba63a88d3b11501488c14dc938096fb764ea5c982e03b43931/featurelayers-1.4.9.tar.gz
+[2023-06-29 10:38:32] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-06-29 10:38:32] INFO root fetch - processPackages [CMZ-Frameworks]: Downloading https://files.pythonhosted.org/packages/af/b9/e2de00a878141c2fdfe6234175c6e8a80f38f4fe82bfbfa299c0af698d4b/CMZ_Frameworks-0.0.1-py3-none-any.whl
+[2023-06-29 10:38:32] INFO root fetch - processPackages [fibertrace]: Downloading https://files.pythonhosted.org/packages/b9/fd/de094bc453fe69c4d0c366b3d9731e38f741b01e6fdebbe75cc730ca5a21/fibertrace-0.1.0.tar.gz
+[2023-06-29 10:38:32] INFO root fetch - processPackages [theopendictionary]: Downloading https://files.pythonhosted.org/packages/67/0c/1f040695c44a47257bff10b28456a3b51b9501a24e1edde3cc85971b0170/theopendictionary-0.4.0.tar.gz
+[2023-06-29 10:38:32] INFO root fetch - processPackages [wakeblaster-sdk]: Downloading https://files.pythonhosted.org/packages/b3/86/4a14bb129bd9d4802350ebabd95f242a92dc9d4334ad23f622a8def2408b/wakeblaster-sdk-2.6.4.tar.gz
+[2023-06-29 10:38:32] INFO root fetch - processPackages [st-ant-menu]: Downloading https://files.pythonhosted.org/packages/00/5e/3df1dc090c5df6e89406368e969852a9521de210ab6049a9cd41d3d29d91/st_ant_menu-0.0.8-py3-none-any.whl
+[2023-06-29 10:38:32] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/99/96/56b5f6e7d406917b173d9b761f4b2ff41b68d375105fe40b9b23131b295d/bionty-0.9.0.tar.gz
+[2023-06-29 10:38:32] INFO root fetch - processPackages [kiara-plugin.service]: Downloading https://files.pythonhosted.org/packages/12/d3/3e8739992cebe8321657159fd2d31c4196040101af22bac97b1cc03b043b/kiara_plugin.service-0.4.1.tar.gz
+[2023-06-29 10:38:32] INFO root fetch - processPackages [crossroads-schematization]: Downloading https://files.pythonhosted.org/packages/67/8d/01f9499a87e21d3290b1336c6527e0bc0fa27efb856b6a67dc595bb59437/crossroads-schematization-0.1.3.tar.gz
+[2023-06-29 10:38:32] INFO root fetch - processPackages [CMZ-Frameworks]: Downloading https://files.pythonhosted.org/packages/33/c7/f685f5f2d4f714422ee9f0dde866a4b6c179dea69aeea712f88406ad3d90/CMZ_Frameworks-1.2.0.tar.gz
+[2023-06-29 10:38:32] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-06-29 10:38:32] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/2b/17/60971396496757ecabdb604aead831729e83b19f7706fee376e4b84cec55/featurelayers-1.5.0.tar.gz
+[2023-06-29 10:38:32] INFO root fetch - processPackages [fibertrace]: Downloading https://files.pythonhosted.org/packages/75/76/ae511e431f5943bbec61651c7580dc5ef6009ccefe402dbd666c0b5082b0/fibertrace-0.1.1.tar.gz
+[2023-06-29 10:38:32] INFO root fetch - processPackages [CMZ-Frameworks]: executing diffoscope
+[2023-06-29 10:38:32] INFO root fetch - processPackages [CMZ-Frameworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CMZ_Frameworks-0.0.1-py3-none-any.whl.zip tmp/CMZ_Frameworks-1.2.0.tar.gz --markdown 20230629/C/CMZ-Frameworks/0.0.1-1.2.0/diff.md --exclude *.pyd
+[2023-06-29 10:38:32] INFO root fetch - processPackages [featurelayers]: executing diffoscope
+[2023-06-29 10:38:32] INFO root fetch - processPackages [wakeblaster-sdk]: Downloading https://files.pythonhosted.org/packages/d3/f0/d03fe0bcad383628db9736e4e9bc4d0abc9e5ab2456808734aed7bdcde6a/wakeblaster-sdk-2.6.5.tar.gz
+[2023-06-29 10:38:32] INFO root fetch - processPackages [featurelayers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurelayers-1.4.9.tar.gz tmp/featurelayers-1.5.0.tar.gz --markdown 20230629/f/featurelayers/1.4.9-1.5.0/diff.md --exclude *.pyd
+[2023-06-29 10:38:32] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-06-29 10:38:32] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230629/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-06-29 10:38:32] INFO root fetch - processPackages [kiara-plugin.service]: Downloading https://files.pythonhosted.org/packages/4c/bd/5bbaa51afb56e2d2271b283cfd76363e304ea2e069bcad32e878f58e46d6/kiara_plugin.service-0.4.2.tar.gz
+[2023-06-29 10:38:32] INFO root fetch - processPackages [theopendictionary]: Downloading https://files.pythonhosted.org/packages/fc/28/d35441ee61bc1cedb953ead6c16168d497d8047dc0d6d78bdb9e4ca2f259/theopendictionary-0.6.0.tar.gz
+[2023-06-29 10:38:32] INFO root fetch - processPackages [crossroads-schematization]: Downloading https://files.pythonhosted.org/packages/6e/d0/4bd2da04313c1d1cd2161f8c7a218d585ece9540339e72f5b04295cbecf6/crossroads-schematization-0.2.0.tar.gz
+[2023-06-29 10:38:32] INFO root fetch - processPackages [kiara-plugin.service]: executing diffoscope
+[2023-06-29 10:38:32] INFO root fetch - processPackages [kiara-plugin.service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara_plugin.service-0.4.1.tar.gz tmp/kiara_plugin.service-0.4.2.tar.gz --markdown 20230629/k/kiara-plugin.service/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-29 10:38:32] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/f4/01/3a99104d9a37cf7fbdae5c733cec97f252f8eb35f5553cd253a05edf8420/bionty-0.9.0rc1.tar.gz
+[2023-06-29 10:38:32] INFO root fetch - processPackages [wakeblaster-sdk]: executing diffoscope
+[2023-06-29 10:38:32] INFO root fetch - processPackages [wakeblaster-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wakeblaster-sdk-2.6.4.tar.gz tmp/wakeblaster-sdk-2.6.5.tar.gz --markdown 20230629/w/wakeblaster-sdk/2.6.4-2.6.5/diff.md --exclude *.pyd
+[2023-06-29 10:38:32] INFO root fetch - processPackages [theopendictionary]: executing diffoscope
+[2023-06-29 10:38:32] INFO root fetch - processPackages [theopendictionary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/theopendictionary-0.4.0.tar.gz tmp/theopendictionary-0.6.0.tar.gz --markdown 20230629/t/theopendictionary/0.4.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-29 10:38:32] INFO root fetch - processPackages [fibertrace]: executing diffoscope
+[2023-06-29 10:38:32] INFO root fetch - processPackages [fibertrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fibertrace-0.1.0.tar.gz tmp/fibertrace-0.1.1.tar.gz --markdown 20230629/f/fibertrace/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-29 10:38:32] INFO root fetch - processPackages [crossroads-schematization]: executing diffoscope
+[2023-06-29 10:38:32] INFO root fetch - processPackages [crossroads-schematization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossroads-schematization-0.1.3.tar.gz tmp/crossroads-schematization-0.2.0.tar.gz --markdown 20230629/c/crossroads-schematization/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-06-29 10:38:33] INFO root fetch - processPackages [bionty]: executing diffoscope
+[2023-06-29 10:38:33] INFO root fetch - processPackages [bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bionty-0.9.0.tar.gz tmp/bionty-0.9.0rc1.tar.gz --markdown 20230629/b/bionty/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-06-29 10:38:33] INFO root fetch - processPackages [st-ant-menu]: Downloading https://files.pythonhosted.org/packages/8d/b8/05b9140865f38d5b42db920bf8ece71bdc9acfc0d6b4b3a6367b72e3c541/st_ant_menu-0.0.9-py3-none-any.whl
+[2023-06-29 10:38:33] INFO root fetch - processPackages [st-ant-menu]: executing diffoscope
+[2023-06-29 10:38:33] INFO root fetch - processPackages [st-ant-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_ant_menu-0.0.8-py3-none-any.whl.zip tmp/st_ant_menu-0.0.9-py3-none-any.whl.zip --markdown 20230629/s/st-ant-menu/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 10:38:34] INFO root fetch - processPackages [CMZ-Frameworks]: Remove: archive file [/home/abi/fetcher/tmp/CMZ_Frameworks-0.0.1-py3-none-any.whl.zip]
+[2023-06-29 10:38:34] INFO root fetch - processPackages [CMZ-Frameworks]: Remove: archive file [/home/abi/fetcher/tmp/CMZ_Frameworks-1.2.0.tar.gz]
+[2023-06-29 10:38:34] INFO root fetch - main [MainThread]: End processing [CMZ-Frameworks]: success
+[2023-06-29 10:38:34] INFO root fetch - processPackages [theopendictionary]: Remove: archive file [/home/abi/fetcher/tmp/theopendictionary-0.4.0.tar.gz]
+[2023-06-29 10:38:34] INFO root fetch - processPackages [theopendictionary]: Remove: archive file [/home/abi/fetcher/tmp/theopendictionary-0.6.0.tar.gz]
+[2023-06-29 10:38:34] INFO root fetch - main [MainThread]: End processing [theopendictionary]: success
+[2023-06-29 10:38:34] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.4.9.tar.gz]
+[2023-06-29 10:38:34] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.5.0.tar.gz]
+[2023-06-29 10:38:34] INFO root fetch - main [MainThread]: End processing [featurelayers]: success
+[2023-06-29 10:38:34] INFO root fetch - processPackages [fibertrace]: Remove: archive file [/home/abi/fetcher/tmp/fibertrace-0.1.0.tar.gz]
+[2023-06-29 10:38:34] INFO root fetch - processPackages [fibertrace]: Remove: archive file [/home/abi/fetcher/tmp/fibertrace-0.1.1.tar.gz]
+[2023-06-29 10:38:34] INFO root fetch - main [MainThread]: End processing [fibertrace]: success
+[2023-06-29 10:38:34] INFO root fetch - processPackages [kiara-plugin.service]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.service-0.4.1.tar.gz]
+[2023-06-29 10:38:34] INFO root fetch - processPackages [kiara-plugin.service]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.service-0.4.2.tar.gz]
+[2023-06-29 10:38:34] INFO root fetch - main [MainThread]: End processing [kiara-plugin.service]: success
+[2023-06-29 10:38:35] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0.tar.gz]
+[2023-06-29 10:38:35] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0rc1.tar.gz]
+[2023-06-29 10:38:35] INFO root fetch - main [MainThread]: End processing [bionty]: success
+[2023-06-29 10:38:36] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-06-29 10:38:36] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-06-29 10:38:36] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-06-29 10:38:36] INFO root fetch - processPackages [wakeblaster-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wakeblaster-sdk-2.6.4.tar.gz]
+[2023-06-29 10:38:36] INFO root fetch - processPackages [wakeblaster-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wakeblaster-sdk-2.6.5.tar.gz]
+[2023-06-29 10:38:36] INFO root fetch - main [MainThread]: End processing [wakeblaster-sdk]: success
+[2023-06-29 10:38:36] INFO root fetch - processPackages [crossroads-schematization]: Remove: archive file [/home/abi/fetcher/tmp/crossroads-schematization-0.1.3.tar.gz]
+[2023-06-29 10:38:36] INFO root fetch - processPackages [crossroads-schematization]: Remove: archive file [/home/abi/fetcher/tmp/crossroads-schematization-0.2.0.tar.gz]
+[2023-06-29 10:38:36] INFO root fetch - main [MainThread]: End processing [crossroads-schematization]: success
+[2023-06-29 10:39:44] INFO root fetch - processPackages [st-ant-menu]: Remove: archive file [/home/abi/fetcher/tmp/st_ant_menu-0.0.8-py3-none-any.whl.zip]
+[2023-06-29 10:39:44] INFO root fetch - processPackages [st-ant-menu]: Remove: archive file [/home/abi/fetcher/tmp/st_ant_menu-0.0.9-py3-none-any.whl.zip]
+[2023-06-29 10:39:44] INFO root fetch - main [MainThread]: End processing [st-ant-menu]: success
+[2023-06-29 10:39:44] INFO root fetch - main [MainThread]: Store serial: [18692169]
