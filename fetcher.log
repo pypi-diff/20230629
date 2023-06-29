@@ -13979,3 +13979,162 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 16:59:34] INFO root fetch - processPackages [dashpool-pylibs]: Remove: archive file [/home/abi/fetcher/tmp/dashpool_pylibs-2.1.9-py3-none-any.whl.zip]
 [2023-06-29 16:59:34] INFO root fetch - main [MainThread]: End processing [dashpool-pylibs]: success
 [2023-06-29 16:59:34] INFO root fetch - main [MainThread]: Store serial: [18696722]
+[2023-06-29 17:04:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18696722]
+[2023-06-29 17:04:43] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-29 17:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bfgcardplay
+[2023-06-29 17:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-snowflake
+[2023-06-29 17:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qontract-reconcile
+[2023-06-29 17:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fca-algorithms
+[2023-06-29 17:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: html-sanitizer
+[2023-06-29 17:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-pfx
+[2023-06-29 17:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyHana
+[2023-06-29 17:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prog-algs
+[2023-06-29 17:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: CodeToCAD
+[2023-06-29 17:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autodice
+[2023-06-29 17:04:43] WARNING root fetch - processPackages [pyHana]: Skipping, unable to determine old version
+[2023-06-29 17:04:43] INFO root fetch - processPackages [pyHana]: Start processing: gov-uk-dashboards
+[2023-06-29 17:04:43] INFO root fetch - main [MainThread]: End processing [pyHana] error
+[2023-06-29 17:04:43] INFO root fetch - processPackages [fca-algorithms]: New version: [1.0.0] Old Version: [0.2.4]
+[2023-06-29 17:04:43] INFO root fetch - processPackages [prog-algs]: New version: [1.5.0rc0] Old Version: [1.4.3rc0]
+[2023-06-29 17:04:43] INFO root fetch - processPackages [html-sanitizer]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-29 17:04:43] INFO root fetch - processPackages [CodeToCAD]: New version: [0.2.6] Old Version: [0.2.1688050852]
+[2023-06-29 17:04:43] INFO root fetch - processPackages [bfgcardplay]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-29 17:04:43] INFO root fetch - processPackages [autodice]: New version: [1.0.1.dev1] Old Version: [1.0.0.dev2]
+[2023-06-29 17:04:43] INFO root fetch - processPackages [django-pfx]: New version: [1.2.dev8] Old Version: [1.2.dev78]
+[2023-06-29 17:04:43] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-29 17:04:43] INFO root fetch - processPackages [gov-uk-dashboards]: New version: [9.9.0] Old Version: [9.8.0]
+[2023-06-29 17:04:43] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-29 17:04:43] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-29 17:04:43] INFO root fetch - processPackages [html-sanitizer]: Downloading https://files.pythonhosted.org/packages/1b/fb/9345bd665b4224d855684ada4190d0136171718816fae02f637fc44c77d4/html_sanitizer-2.0.0.tar.gz
+[2023-06-29 17:04:43] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/40/f5/ca221f181de3bd02e14cdae7b467789d6cbf86d6b121dba184eada37ff14/django-pfx-1.2.dev78.tar.gz
+[2023-06-29 17:04:43] INFO root fetch - processPackages [bfgcardplay]: Downloading https://files.pythonhosted.org/packages/be/de/12f84b5d97dd275d301cf4ad2e461bea0a43c5370212737b4b8eac27b7ab/bfgcardplay-1.0.7.tar.gz
+[2023-06-29 17:04:43] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Downloading https://files.pythonhosted.org/packages/d1/9b/7a6a1a793e56e8ccae08e393dfb01ef63b7a14b6b5d410f69a110c11ce56/cdktf-cdktf-provider-snowflake-7.0.0.tar.gz
+[2023-06-29 17:04:43] INFO root fetch - processPackages [fca-algorithms]: Downloading https://files.pythonhosted.org/packages/44/65/077ffc0cb9bfbb4e551a7d645cfd8e5ac76cd330fb159658111765439784/fca-algorithms-0.2.4.tar.gz
+[2023-06-29 17:04:43] INFO root fetch - processPackages [autodice]: Downloading https://files.pythonhosted.org/packages/95/80/0135605e7800b5a957bd7dd0fa89a50a3109281d5432b569e749ae8494fb/autodice-1.0.0.dev2.tar.gz
+[2023-06-29 17:04:43] INFO root fetch - processPackages [prog-algs]: Downloading https://files.pythonhosted.org/packages/75/6c/5bb8131b82ac035f1c5b405c2b8f93452f5e505ab71d233c732700169be9/prog_algs-1.4.3rc0.tar.gz
+[2023-06-29 17:04:43] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/15/aa038ec0161f510bba1e81208b6b8fb48174839d812f78343601edd00197/gov_uk_dashboards-9.8.0.tar.gz
+[2023-06-29 17:04:44] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/42/10/ca2009839280daf2c7c63c2684e0bc2c515041a316732674695fe4ae266c/CodeToCAD-0.2.1688050852.tar.gz
+[2023-06-29 17:04:44] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-29 17:04:44] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/a8/a1/beee13dd42732e6b09a9fa98a5127296a4eb74cba08e3bdc0c5376e914db/django-pfx-1.2.dev8.tar.gz
+[2023-06-29 17:04:44] INFO root fetch - processPackages [fca-algorithms]: Downloading https://files.pythonhosted.org/packages/96/40/d156d5ccb0242ec1c348e3ed3ff4a769bd73b6f1bf77028620d24ab8a2d6/fca-algorithms-1.0.0.tar.gz
+[2023-06-29 17:04:44] INFO root fetch - processPackages [html-sanitizer]: Downloading https://files.pythonhosted.org/packages/45/5a/c540716cf4f311da73fbdeda086d98ea8ff5c7ed8736845aaca0828e6a78/html_sanitizer-2.1.0.tar.gz
+[2023-06-29 17:04:44] INFO root fetch - processPackages [prog-algs]: Downloading https://files.pythonhosted.org/packages/07/49/6cae2951679cf89e0fea7efa149a78d3fc0447cf8e7ed8c3fec7e3c808cc/prog_algs-1.5.0rc0.tar.gz
+[2023-06-29 17:04:44] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-29 17:04:44] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2023-06-29 17:04:44] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230629/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-29 17:04:44] INFO root fetch - processPackages [autodice]: Downloading https://files.pythonhosted.org/packages/76/50/b62d298393cbe1acb585f855b215856bd782cf095b78bacedba8fe91fc27/autodice-1.0.1.dev1.tar.gz
+[2023-06-29 17:04:44] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.2.dev78.tar.gz tmp/django-pfx-1.2.dev8.tar.gz --markdown 20230629/d/django-pfx/1.2.dev78-1.2.dev8/diff.md --exclude *.pyd
+[2023-06-29 17:04:44] INFO root fetch - processPackages [bfgcardplay]: Downloading https://files.pythonhosted.org/packages/c6/b4/85ab17805dd28ca0dcb3e08653e8e792f5362f94463eb7f8ac02cd3f5cc4/bfgcardplay-1.0.8.tar.gz
+[2023-06-29 17:04:44] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Downloading https://files.pythonhosted.org/packages/4f/d2/ec6f85d80ee48ce5bae216198b94d44015b4dcd25505a48f912f0ac8cae1/cdktf-cdktf-provider-snowflake-8.0.0.tar.gz
+[2023-06-29 17:04:44] INFO root fetch - processPackages [fca-algorithms]: executing diffoscope
+[2023-06-29 17:04:44] INFO root fetch - processPackages [fca-algorithms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fca-algorithms-0.2.4.tar.gz tmp/fca-algorithms-1.0.0.tar.gz --markdown 20230629/f/fca-algorithms/0.2.4-1.0.0/diff.md --exclude *.pyd
+[2023-06-29 17:04:44] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/97/88/713e1635de92466694eecb2ee4b779a7f2819fdb270f5979c857272b4a92/CodeToCAD-0.2.6.tar.gz
+[2023-06-29 17:04:44] INFO root fetch - processPackages [html-sanitizer]: executing diffoscope
+[2023-06-29 17:04:44] INFO root fetch - processPackages [html-sanitizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html_sanitizer-2.0.0.tar.gz tmp/html_sanitizer-2.1.0.tar.gz --markdown 20230629/h/html-sanitizer/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-29 17:04:44] INFO root fetch - processPackages [prog-algs]: executing diffoscope
+[2023-06-29 17:04:44] INFO root fetch - processPackages [prog-algs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prog_algs-1.4.3rc0.tar.gz tmp/prog_algs-1.5.0rc0.tar.gz --markdown 20230629/p/prog-algs/1.4.3rc0-1.5.0rc0/diff.md --exclude *.pyd
+[2023-06-29 17:04:44] INFO root fetch - processPackages [bfgcardplay]: executing diffoscope
+[2023-06-29 17:04:44] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/ea/814247833cc4320a4963bc9588f46cb3725c05f6064d14ac066bbc574e6d/gov_uk_dashboards-9.9.0.tar.gz
+[2023-06-29 17:04:44] INFO root fetch - processPackages [bfgcardplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bfgcardplay-1.0.7.tar.gz tmp/bfgcardplay-1.0.8.tar.gz --markdown 20230629/b/bfgcardplay/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-29 17:04:44] INFO root fetch - processPackages [CodeToCAD]: executing diffoscope
+[2023-06-29 17:04:44] INFO root fetch - processPackages [CodeToCAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodeToCAD-0.2.1688050852.tar.gz tmp/CodeToCAD-0.2.6.tar.gz --markdown 20230629/C/CodeToCAD/0.2.1688050852-0.2.6/diff.md --exclude *.pyd
+[2023-06-29 17:04:44] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: executing diffoscope
+[2023-06-29 17:04:44] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-snowflake-7.0.0.tar.gz tmp/cdktf-cdktf-provider-snowflake-8.0.0.tar.gz --markdown 20230629/c/cdktf-cdktf-provider-snowflake/7.0.0-8.0.0/diff.md --exclude *.pyd
+[2023-06-29 17:04:44] INFO root fetch - processPackages [autodice]: executing diffoscope
+[2023-06-29 17:04:44] INFO root fetch - processPackages [autodice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodice-1.0.0.dev2.tar.gz tmp/autodice-1.0.1.dev1.tar.gz --markdown 20230629/a/autodice/1.0.0.dev2-1.0.1.dev1/diff.md --exclude *.pyd
+[2023-06-29 17:04:44] INFO root fetch - processPackages [gov-uk-dashboards]: executing diffoscope
+[2023-06-29 17:04:44] INFO root fetch - processPackages [gov-uk-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gov_uk_dashboards-9.8.0.tar.gz tmp/gov_uk_dashboards-9.9.0.tar.gz --markdown 20230629/g/gov-uk-dashboards/9.8.0-9.9.0/diff.md --exclude *.pyd
+[2023-06-29 17:04:45] INFO root fetch - processPackages [fca-algorithms]: Remove: archive file [/home/abi/fetcher/tmp/fca-algorithms-0.2.4.tar.gz]
+[2023-06-29 17:04:45] INFO root fetch - processPackages [fca-algorithms]: Remove: archive file [/home/abi/fetcher/tmp/fca-algorithms-1.0.0.tar.gz]
+[2023-06-29 17:04:45] INFO root fetch - processPackages [fca-algorithms]: Start processing: cloci
+[2023-06-29 17:04:45] INFO root fetch - main [MainThread]: End processing [fca-algorithms]: success
+[2023-06-29 17:04:45] INFO root fetch - processPackages [cloci]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 17:04:45] INFO root fetch - processPackages [html-sanitizer]: Remove: archive file [/home/abi/fetcher/tmp/html_sanitizer-2.0.0.tar.gz]
+[2023-06-29 17:04:45] INFO root fetch - processPackages [html-sanitizer]: Remove: archive file [/home/abi/fetcher/tmp/html_sanitizer-2.1.0.tar.gz]
+[2023-06-29 17:04:45] INFO root fetch - processPackages [html-sanitizer]: Start processing: rlax
+[2023-06-29 17:04:45] INFO root fetch - main [MainThread]: End processing [html-sanitizer]: success
+[2023-06-29 17:04:46] INFO root fetch - processPackages [cloci]: Downloading https://files.pythonhosted.org/packages/d8/b5/9e088a183a7e0a762c35174699f2161dabb9e17ea822799f49415d0a6e7f/cloci-0.0.8.tar.gz
+[2023-06-29 17:04:46] INFO root fetch - processPackages [rlax]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-29 17:04:46] INFO root fetch - processPackages [cloci]: Downloading https://files.pythonhosted.org/packages/b3/30/534091a16ad6fbdec08d920b15429451ad66c4c803b1cf9f58035160bc7b/cloci-0.0.9.tar.gz
+[2023-06-29 17:04:46] INFO root fetch - processPackages [autodice]: Remove: archive file [/home/abi/fetcher/tmp/autodice-1.0.0.dev2.tar.gz]
+[2023-06-29 17:04:46] INFO root fetch - processPackages [autodice]: Remove: archive file [/home/abi/fetcher/tmp/autodice-1.0.1.dev1.tar.gz]
+[2023-06-29 17:04:46] INFO root fetch - processPackages [autodice]: Start processing: atomcache
+[2023-06-29 17:04:46] INFO root fetch - main [MainThread]: End processing [autodice]: success
+[2023-06-29 17:04:46] INFO root fetch - processPackages [atomcache]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-06-29 17:04:46] INFO root fetch - processPackages [rlax]: Downloading https://files.pythonhosted.org/packages/9b/49/486a4e55b1300c8f010240f29442d50afee498cef58f2fc73e8ba6cb6b19/rlax-0.1.5.tar.gz
+[2023-06-29 17:04:46] INFO root fetch - processPackages [bfgcardplay]: Remove: archive file [/home/abi/fetcher/tmp/bfgcardplay-1.0.7.tar.gz]
+[2023-06-29 17:04:46] INFO root fetch - processPackages [bfgcardplay]: Remove: archive file [/home/abi/fetcher/tmp/bfgcardplay-1.0.8.tar.gz]
+[2023-06-29 17:04:46] INFO root fetch - processPackages [bfgcardplay]: Start processing: fhir-analyzer
+[2023-06-29 17:04:46] INFO root fetch - main [MainThread]: End processing [bfgcardplay]: success
+[2023-06-29 17:04:46] INFO root fetch - processPackages [cloci]: executing diffoscope
+[2023-06-29 17:04:46] INFO root fetch - processPackages [cloci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloci-0.0.8.tar.gz tmp/cloci-0.0.9.tar.gz --markdown 20230629/c/cloci/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 17:04:46] INFO root fetch - processPackages [prog-algs]: Remove: archive file [/home/abi/fetcher/tmp/prog_algs-1.4.3rc0.tar.gz]
+[2023-06-29 17:04:46] INFO root fetch - processPackages [prog-algs]: Remove: archive file [/home/abi/fetcher/tmp/prog_algs-1.5.0rc0.tar.gz]
+[2023-06-29 17:04:46] INFO root fetch - processPackages [prog-algs]: Start processing: argilla
+[2023-06-29 17:04:46] INFO root fetch - main [MainThread]: End processing [prog-algs]: success
+[2023-06-29 17:04:46] INFO root fetch - processPackages [fhir-analyzer]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-29 17:04:46] INFO root fetch - processPackages [atomcache]: Downloading https://files.pythonhosted.org/packages/72/31/623007d7bee8642dad6844c27fe25bb7e2eded3efd0d9dc439572b971c3e/atomcache-0.7.2.tar.gz
+[2023-06-29 17:04:46] INFO root fetch - processPackages [argilla]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-29 17:04:46] INFO root fetch - processPackages [rlax]: Downloading https://files.pythonhosted.org/packages/5e/ba/2c70f9eaf40b3955876616baacb1eb5879904c0de82504a67f1c48e5d15f/rlax-0.1.6.tar.gz
+[2023-06-29 17:04:46] INFO root fetch - processPackages [fhir-analyzer]: Downloading https://files.pythonhosted.org/packages/e5/33/00e3299fd411d0c166d96f52a79cf2ceca5c3d3f232510365daba7b808e3/fhir_analyzer-0.0.2.tar.gz
+[2023-06-29 17:04:46] INFO root fetch - processPackages [CodeToCAD]: Remove: archive file [/home/abi/fetcher/tmp/CodeToCAD-0.2.1688050852.tar.gz]
+[2023-06-29 17:04:46] INFO root fetch - processPackages [CodeToCAD]: Remove: archive file [/home/abi/fetcher/tmp/CodeToCAD-0.2.6.tar.gz]
+[2023-06-29 17:04:46] INFO root fetch - processPackages [CodeToCAD]: Start processing: grib2io-interp
+[2023-06-29 17:04:46] INFO root fetch - main [MainThread]: End processing [CodeToCAD]: success
+[2023-06-29 17:04:46] INFO root fetch - processPackages [argilla]: Downloading https://files.pythonhosted.org/packages/63/3c/2adc8bbdc37604d3bfc0eea97ee56d1ba2d7463315123d81f7065ab57e47/argilla-1.8.0.tar.gz
+[2023-06-29 17:04:46] INFO root fetch - processPackages [rlax]: executing diffoscope
+[2023-06-29 17:04:46] INFO root fetch - processPackages [rlax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlax-0.1.5.tar.gz tmp/rlax-0.1.6.tar.gz --markdown 20230629/r/rlax/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-29 17:04:46] INFO root fetch - processPackages [atomcache]: Downloading https://files.pythonhosted.org/packages/58/21/c50ca7f226b9df085b73b55a7b679df8514077db18fafbf07a046fec955e/atomcache-0.7.3.tar.gz
+[2023-06-29 17:04:46] INFO root fetch - processPackages [fhir-analyzer]: Downloading https://files.pythonhosted.org/packages/ad/ed/4e4976f41434825cce0bda74aba1ed4645a5f44a277c29d9b1020fdeb4b9/fhir_analyzer-0.0.3.tar.gz
+[2023-06-29 17:04:46] INFO root fetch - processPackages [grib2io-interp]: New version: [1.0.1] Old Version: [1.0.0rc1]
+[2023-06-29 17:04:46] INFO root fetch - processPackages [atomcache]: executing diffoscope
+[2023-06-29 17:04:46] INFO root fetch - processPackages [atomcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomcache-0.7.2.tar.gz tmp/atomcache-0.7.3.tar.gz --markdown 20230629/a/atomcache/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-06-29 17:04:46] INFO root fetch - processPackages [fhir-analyzer]: executing diffoscope
+[2023-06-29 17:04:46] INFO root fetch - processPackages [fhir-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fhir_analyzer-0.0.2.tar.gz tmp/fhir_analyzer-0.0.3.tar.gz --markdown 20230629/f/fhir-analyzer/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-29 17:04:47] INFO root fetch - processPackages [grib2io-interp]: Downloading https://files.pythonhosted.org/packages/a6/3f/20e55dd63078e752cf6e509e3267cfd643ae7b8b93912241570ae2d73bd2/grib2io_interp-1.0.0rc1.tar.gz
+[2023-06-29 17:04:47] INFO root fetch - processPackages [argilla]: Downloading https://files.pythonhosted.org/packages/d5/65/f5260906481f183068fa89f4a369f0d6b322e536cb0b5aa12eedb16fe91d/argilla-1.9.0.tar.gz
+[2023-06-29 17:04:47] INFO root fetch - processPackages [grib2io-interp]: Downloading https://files.pythonhosted.org/packages/83/ff/8ab37ad031c52dd7a9d0e3241054edc12298a4cbc51a579ac1e00642997e/grib2io-interp-1.0.1.tar.gz
+[2023-06-29 17:04:47] WARNING root fetch - processPackages [grib2io-interp]: Skipping package: exceeds size limit 56475223>=10485760
+[2023-06-29 17:04:47] INFO root fetch - processPackages [grib2io-interp]: Start processing: currency-cloud
+[2023-06-29 17:04:47] INFO root fetch - main [MainThread]: End processing [grib2io-interp] error
+[2023-06-29 17:04:47] INFO root fetch - processPackages [cloci]: Remove: archive file [/home/abi/fetcher/tmp/cloci-0.0.8.tar.gz]
+[2023-06-29 17:04:47] INFO root fetch - processPackages [cloci]: Remove: archive file [/home/abi/fetcher/tmp/cloci-0.0.9.tar.gz]
+[2023-06-29 17:04:47] INFO root fetch - processPackages [cloci]: Start processing: Final2x-core
+[2023-06-29 17:04:47] INFO root fetch - main [MainThread]: End processing [cloci]: success
+[2023-06-29 17:04:47] INFO root fetch - processPackages [currency-cloud]: New version: [5.4.0] Old Version: [5.3.0]
+[2023-06-29 17:04:47] INFO root fetch - processPackages [argilla]: executing diffoscope
+[2023-06-29 17:04:47] INFO root fetch - processPackages [argilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argilla-1.8.0.tar.gz tmp/argilla-1.9.0.tar.gz --markdown 20230629/a/argilla/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-29 17:04:47] WARNING root fetch - processPackages [Final2x-core]: Skipping, unable to determine old version
+[2023-06-29 17:04:47] INFO root fetch - main [MainThread]: End processing [Final2x-core] error
+[2023-06-29 17:04:47] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev78.tar.gz]
+[2023-06-29 17:04:47] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev8.tar.gz]
+[2023-06-29 17:04:47] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2023-06-29 17:04:47] INFO root fetch - processPackages [currency-cloud]: Downloading https://files.pythonhosted.org/packages/11/60/a8760760d785a94a0a475fa3108dc4db8611ba58c6c8d912cc6d5de68cc5/currency_cloud-5.3.0.tar.gz
+[2023-06-29 17:04:47] INFO root fetch - processPackages [currency-cloud]: Downloading https://files.pythonhosted.org/packages/b5/e2/a7cb99fac4e68b8f7c22b0e9e0a818d5714187189b21874683c55711ae96/currency_cloud-5.4.0.tar.gz
+[2023-06-29 17:04:48] INFO root fetch - processPackages [currency-cloud]: executing diffoscope
+[2023-06-29 17:04:48] INFO root fetch - processPackages [currency-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/currency_cloud-5.3.0.tar.gz tmp/currency_cloud-5.4.0.tar.gz --markdown 20230629/c/currency-cloud/5.3.0-5.4.0/diff.md --exclude *.pyd
+[2023-06-29 17:04:48] INFO root fetch - processPackages [atomcache]: Remove: archive file [/home/abi/fetcher/tmp/atomcache-0.7.2.tar.gz]
+[2023-06-29 17:04:48] INFO root fetch - processPackages [atomcache]: Remove: archive file [/home/abi/fetcher/tmp/atomcache-0.7.3.tar.gz]
+[2023-06-29 17:04:48] INFO root fetch - main [MainThread]: End processing [atomcache]: success
+[2023-06-29 17:04:48] INFO root fetch - processPackages [fhir-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/fhir_analyzer-0.0.2.tar.gz]
+[2023-06-29 17:04:48] INFO root fetch - processPackages [fhir-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/fhir_analyzer-0.0.3.tar.gz]
+[2023-06-29 17:04:48] INFO root fetch - main [MainThread]: End processing [fhir-analyzer]: success
+[2023-06-29 17:04:49] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.8.0.tar.gz]
+[2023-06-29 17:04:49] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.9.0.tar.gz]
+[2023-06-29 17:04:49] INFO root fetch - main [MainThread]: End processing [gov-uk-dashboards]: success
+[2023-06-29 17:04:49] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-snowflake-7.0.0.tar.gz]
+[2023-06-29 17:04:49] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-snowflake-8.0.0.tar.gz]
+[2023-06-29 17:04:49] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-snowflake]: success
+[2023-06-29 17:04:49] INFO root fetch - processPackages [currency-cloud]: Remove: archive file [/home/abi/fetcher/tmp/currency_cloud-5.3.0.tar.gz]
+[2023-06-29 17:04:49] INFO root fetch - processPackages [currency-cloud]: Remove: archive file [/home/abi/fetcher/tmp/currency_cloud-5.4.0.tar.gz]
+[2023-06-29 17:04:49] INFO root fetch - main [MainThread]: End processing [currency-cloud]: success
+[2023-06-29 17:04:49] INFO root fetch - processPackages [rlax]: Remove: archive file [/home/abi/fetcher/tmp/rlax-0.1.5.tar.gz]
+[2023-06-29 17:04:49] INFO root fetch - processPackages [rlax]: Remove: archive file [/home/abi/fetcher/tmp/rlax-0.1.6.tar.gz]
+[2023-06-29 17:04:49] INFO root fetch - main [MainThread]: End processing [rlax]: success
+[2023-06-29 17:04:49] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-29 17:04:49] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-29 17:04:49] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-29 17:07:05] INFO root fetch - processPackages [argilla]: Remove: archive file [/home/abi/fetcher/tmp/argilla-1.8.0.tar.gz]
+[2023-06-29 17:07:05] INFO root fetch - processPackages [argilla]: Remove: archive file [/home/abi/fetcher/tmp/argilla-1.9.0.tar.gz]
+[2023-06-29 17:07:05] INFO root fetch - main [MainThread]: End processing [argilla]: success
+[2023-06-29 17:07:05] INFO root fetch - main [MainThread]: Store serial: [18696783]
