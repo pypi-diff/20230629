@@ -9592,3 +9592,237 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 14:22:27] INFO root fetch - processPackages [salure-helpers-profit]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_profit-1.3.5.tar.gz]
 [2023-06-29 14:22:27] INFO root fetch - main [MainThread]: End processing [salure-helpers-profit]: success
 [2023-06-29 14:22:27] INFO root fetch - main [MainThread]: Store serial: [18694737]
+[2023-06-29 14:27:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18694737]
+[2023-06-29 14:27:36] INFO root fetch - main [MainThread]: Found 30 changed packages
+[2023-06-29 14:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: diffenator2
+[2023-06-29 14:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ag-llama-api
+[2023-06-29 14:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py3toolbox
+[2023-06-29 14:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: notebook-prototyping
+[2023-06-29 14:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ndbioimage
+[2023-06-29 14:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ndbioimage
+[2023-06-29 14:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gspread
+[2023-06-29 14:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fractal-server
+[2023-06-29 14:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oddrn-generator
+[2023-06-29 14:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cbra
+[2023-06-29 14:27:36] INFO root fetch - processPackages [ndbioimage]: New version: [2023.6.0] Old Version: [2023.5.0]
+[2023-06-29 14:27:36] INFO root fetch - processPackages [ndbioimage]: New version: [2023.6.0] Old Version: [2023.5.0]
+[2023-06-29 14:27:36] INFO root fetch - processPackages [gspread]: New version: [5.9.0] Old Version: [5.8.0]
+[2023-06-29 14:27:36] INFO root fetch - processPackages [notebook-prototyping]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-29 14:27:36] INFO root fetch - processPackages [oddrn-generator]: New version: [0.1.9] Old Version: [0.1.84]
+[2023-06-29 14:27:36] INFO root fetch - processPackages [py3toolbox]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 14:27:36] INFO root fetch - processPackages [ag-llama-api]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-29 14:27:36] INFO root fetch - processPackages [diffenator2]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-29 14:27:36] INFO root fetch - processPackages [fractal-server]: New version: [1.3.2a1] Old Version: [1.3.2a0]
+[2023-06-29 14:27:36] INFO root fetch - processPackages [cbra]: New version: [3.0.0a7] Old Version: [2.0.0a99]
+[2023-06-29 14:27:36] INFO root fetch - processPackages [py3toolbox]: Downloading https://files.pythonhosted.org/packages/e4/e6/6f1e77832ec5b71f6d0f65cfbec5c2f186703fac1a664626aea040325c7c/py3toolbox-0.1.8.tar.gz
+[2023-06-29 14:27:36] INFO root fetch - processPackages [notebook-prototyping]: Downloading https://files.pythonhosted.org/packages/ca/e5/5ccf4580e49aade91b241da5486717730f369f131b96c4cdc9731ede5893/notebook_prototyping-0.1.5.tar.gz
+[2023-06-29 14:27:36] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/81/ae/ef005002e16a23e48930a0ec07b269ad9493d0ee246ed24bbd57f1d8f75e/fractal_server-1.3.2a0.tar.gz
+[2023-06-29 14:27:36] INFO root fetch - processPackages [ndbioimage]: Downloading https://files.pythonhosted.org/packages/be/07/aa02364b5e7325face21833d0796aeb076706de199e5ff78023866cdfa6b/ndbioimage-2023.5.0.tar.gz
+[2023-06-29 14:27:36] INFO root fetch - processPackages [ndbioimage]: Downloading https://files.pythonhosted.org/packages/be/07/aa02364b5e7325face21833d0796aeb076706de199e5ff78023866cdfa6b/ndbioimage-2023.5.0.tar.gz
+[2023-06-29 14:27:36] INFO root fetch - processPackages [oddrn-generator]: Downloading https://files.pythonhosted.org/packages/8b/d5/6f895c1ab39375027676b0a63e43d344c5d7adcb39589d880bbf034dc677/oddrn_generator-0.1.84.tar.gz
+[2023-06-29 14:27:36] INFO root fetch - processPackages [gspread]: Downloading https://files.pythonhosted.org/packages/32/da/d7f820b7efd943d740861d4403ccedee9376811548efb199b086753037ed/gspread-5.8.0.tar.gz
+[2023-06-29 14:27:36] INFO root fetch - processPackages [cbra]: executing diffoscope
+[2023-06-29 14:27:36] INFO root fetch - processPackages [cbra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbra-2.0.0a99.tar.gz tmp/cbra-3.0.0a7.tar.gz --markdown 20230629/c/cbra/2.0.0a99-3.0.0a7/diff.md --exclude *.pyd
+[2023-06-29 14:27:36] WARNING root fetch - processPackages [ndbioimage]: Skipping package: exceeds size limit 41070524>=10485760
+[2023-06-29 14:27:36] INFO root fetch - processPackages [ndbioimage]: Start processing: cg
+[2023-06-29 14:27:36] WARNING root fetch - processPackages [ndbioimage]: Skipping package: exceeds size limit 41070524>=10485760
+[2023-06-29 14:27:36] INFO root fetch - main [MainThread]: End processing [ndbioimage] error
+[2023-06-29 14:27:36] INFO root fetch - processPackages [ndbioimage]: Start processing: MultiEL
+[2023-06-29 14:27:36] INFO root fetch - main [MainThread]: End processing [ndbioimage] error
+[2023-06-29 14:27:37] INFO root fetch - processPackages [MultiEL]: New version: [0.5] Old Version: [0.4]
+[2023-06-29 14:27:37] INFO root fetch - processPackages [diffenator2]: Downloading https://files.pythonhosted.org/packages/c3/2b/73cfa2176c608d4f90cec65c5038fe25cdfb52335764b3584daf3c87e5f3/diffenator2-0.2.5.tar.gz
+[2023-06-29 14:27:37] INFO root fetch - processPackages [cg]: New version: [37.0.9] Old Version: [37.0.8]
+[2023-06-29 14:27:37] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/12/48/75bf05b8c2eb77ddccc9605fca6b0809cb50a9ba494c6dcb8e43fd457956/ag_llama_api-0.0.1.tar.gz
+[2023-06-29 14:27:37] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/ec/1d/c584ab5bd145f7bc64a980cb9243f2ce4190d6259515da4ad36aa6cd5b8d/cg-37.0.8.tar.gz
+[2023-06-29 14:27:37] INFO root fetch - processPackages [py3toolbox]: Downloading https://files.pythonhosted.org/packages/25/6b/7f9865a1bedf9c30b0ba7956a568b97cc5dd18c9825e37d26c54ae28ed7d/py3toolbox-0.1.9.tar.gz
+[2023-06-29 14:27:37] INFO root fetch - processPackages [MultiEL]: Downloading https://files.pythonhosted.org/packages/3e/e3/cc26f1f77b17c2c533991f877390e08fcaf9c6242ecf8335c9e508873bce/MultiEL-0.4.tar.gz
+[2023-06-29 14:27:37] INFO root fetch - processPackages [gspread]: Downloading https://files.pythonhosted.org/packages/c4/ad/d76417ba329ab5b10ac26082ccb0e52a90bdef5135ab6d88c79ffa4e1644/gspread-5.9.0.tar.gz
+[2023-06-29 14:27:37] INFO root fetch - processPackages [notebook-prototyping]: Downloading https://files.pythonhosted.org/packages/23/1c/177c1d24d1ac8f963d9791df4fb504f969ced2a05707420f15a033bbe0f2/notebook_prototyping-0.1.6.tar.gz
+[2023-06-29 14:27:37] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/e3/02/d6da296e964206fd0fee014bef41a1386d5d38801a9c1824caa738d2e45e/fractal_server-1.3.2a1.tar.gz
+[2023-06-29 14:27:37] INFO root fetch - processPackages [py3toolbox]: executing diffoscope
+[2023-06-29 14:27:37] INFO root fetch - processPackages [py3toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3toolbox-0.1.8.tar.gz tmp/py3toolbox-0.1.9.tar.gz --markdown 20230629/p/py3toolbox/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 14:27:37] INFO root fetch - processPackages [notebook-prototyping]: executing diffoscope
+[2023-06-29 14:27:37] INFO root fetch - processPackages [notebook-prototyping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebook_prototyping-0.1.5.tar.gz tmp/notebook_prototyping-0.1.6.tar.gz --markdown 20230629/n/notebook-prototyping/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-29 14:27:37] WARNING root fetch - processPackages [diffenator2]: Skipping package: exceeds size limit 12794796>=10485760
+[2023-06-29 14:27:37] INFO root fetch - processPackages [diffenator2]: Start processing: lnschema_bionty
+[2023-06-29 14:27:37] INFO root fetch - main [MainThread]: End processing [diffenator2] error
+[2023-06-29 14:27:37] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2023-06-29 14:27:37] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-1.3.2a0.tar.gz tmp/fractal_server-1.3.2a1.tar.gz --markdown 20230629/f/fractal-server/1.3.2a0-1.3.2a1/diff.md --exclude *.pyd
+[2023-06-29 14:27:37] INFO root fetch - processPackages [oddrn-generator]: Downloading https://files.pythonhosted.org/packages/2a/2e/c01483d58b0cf1c450eb92f93a9180e3d71bda2dfe4cbe678bad80d62bfb/oddrn-generator-0.1.9.tar.gz
+[2023-06-29 14:27:37] INFO root fetch - processPackages [lnschema_bionty]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-29 14:27:37] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/d6/7e/80bbf10d5634a932760fbb85138245f7f53ad73bcdd6d223800c8b51e56f/cg-37.0.9.tar.gz
+[2023-06-29 14:27:37] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/8f/73/c0c8d3e09c68c488fd65e7e30804e49209ca2f432440e766bb9869cd0f87/ag_llama_api-0.0.2.tar.gz
+[2023-06-29 14:27:37] INFO root fetch - processPackages [gspread]: executing diffoscope
+[2023-06-29 14:27:37] INFO root fetch - processPackages [gspread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gspread-5.8.0.tar.gz tmp/gspread-5.9.0.tar.gz --markdown 20230629/g/gspread/5.8.0-5.9.0/diff.md --exclude *.pyd
+[2023-06-29 14:27:37] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/12/bb/32a1cbaa73ee4f038a3540bbbf0b3d7e27f22edcdbd7d7c80667fef68afd/lnschema_bionty-0.8.1.tar.gz
+[2023-06-29 14:27:37] INFO root fetch - processPackages [ag-llama-api]: executing diffoscope
+[2023-06-29 14:27:37] INFO root fetch - processPackages [ag-llama-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_api-0.0.1.tar.gz tmp/ag_llama_api-0.0.2.tar.gz --markdown 20230629/a/ag-llama-api/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-29 14:27:37] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-29 14:27:37] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-37.0.8.tar.gz tmp/cg-37.0.9.tar.gz --markdown 20230629/c/cg/37.0.8-37.0.9/diff.md --exclude *.pyd
+[2023-06-29 14:27:37] INFO root fetch - processPackages [oddrn-generator]: executing diffoscope
+[2023-06-29 14:27:37] INFO root fetch - processPackages [oddrn-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oddrn_generator-0.1.84.tar.gz tmp/oddrn-generator-0.1.9.tar.gz --markdown 20230629/o/oddrn-generator/0.1.84-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 14:27:37] INFO root fetch - processPackages [MultiEL]: Downloading https://files.pythonhosted.org/packages/49/79/47ab743a239de6ff22795b884aff8be8e1029aa9b66aea58d538420e20af/MultiEL-0.5.tar.gz
+[2023-06-29 14:27:37] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/ed/64/d2babdba858b56f5825e7ac3e2d375cf42dcf278f3c6ad9daf179e40b556/lnschema_bionty-0.9.0.tar.gz
+[2023-06-29 14:27:37] INFO root fetch - processPackages [lnschema_bionty]: executing diffoscope
+[2023-06-29 14:27:37] INFO root fetch - processPackages [lnschema_bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_bionty-0.8.1.tar.gz tmp/lnschema_bionty-0.9.0.tar.gz --markdown 20230629/l/lnschema_bionty/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-29 14:27:37] INFO root fetch - processPackages [MultiEL]: executing diffoscope
+[2023-06-29 14:27:37] INFO root fetch - processPackages [MultiEL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MultiEL-0.4.tar.gz tmp/MultiEL-0.5.tar.gz --markdown 20230629/M/MultiEL/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-29 14:27:38] INFO root fetch - processPackages [cbra]: Remove: archive file [/home/abi/fetcher/tmp/cbra-2.0.0a99.tar.gz]
+[2023-06-29 14:27:38] INFO root fetch - processPackages [cbra]: Remove: archive file [/home/abi/fetcher/tmp/cbra-3.0.0a7.tar.gz]
+[2023-06-29 14:27:38] INFO root fetch - processPackages [cbra]: Start processing: increase
+[2023-06-29 14:27:38] INFO root fetch - main [MainThread]: End processing [cbra]: success
+[2023-06-29 14:27:38] INFO root fetch - processPackages [increase]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-06-29 14:27:38] INFO root fetch - processPackages [notebook-prototyping]: Remove: archive file [/home/abi/fetcher/tmp/notebook_prototyping-0.1.5.tar.gz]
+[2023-06-29 14:27:38] INFO root fetch - processPackages [notebook-prototyping]: Remove: archive file [/home/abi/fetcher/tmp/notebook_prototyping-0.1.6.tar.gz]
+[2023-06-29 14:27:38] INFO root fetch - processPackages [notebook-prototyping]: Start processing: moto
+[2023-06-29 14:27:38] INFO root fetch - main [MainThread]: End processing [notebook-prototyping]: success
+[2023-06-29 14:27:38] INFO root fetch - processPackages [increase]: Downloading https://files.pythonhosted.org/packages/10/88/74ab20e237b7f65915398d7e4cc7c03a3de91677d3ce82a19779eae1c453/increase-0.7.1.tar.gz
+[2023-06-29 14:27:38] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-06-29 14:27:38] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-06-29 14:27:38] INFO root fetch - processPackages [py3toolbox]: Remove: archive file [/home/abi/fetcher/tmp/py3toolbox-0.1.8.tar.gz]
+[2023-06-29 14:27:38] INFO root fetch - processPackages [py3toolbox]: Remove: archive file [/home/abi/fetcher/tmp/py3toolbox-0.1.9.tar.gz]
+[2023-06-29 14:27:38] INFO root fetch - processPackages [py3toolbox]: Start processing: osc-sdk
+[2023-06-29 14:27:38] INFO root fetch - main [MainThread]: End processing [py3toolbox]: success
+[2023-06-29 14:27:38] INFO root fetch - processPackages [osc-sdk]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-29 14:27:39] INFO root fetch - processPackages [increase]: Downloading https://files.pythonhosted.org/packages/4d/da/88c5ed55ab913ac5130a27958c5f5e71ab21187ec105b2a3a0a2ab9d1895/increase-0.8.0.tar.gz
+[2023-06-29 14:27:39] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-06-29 14:27:39] INFO root fetch - processPackages [osc-sdk]: Downloading https://files.pythonhosted.org/packages/e2/d3/2ff474be2543a868df1415f7a722d1b28016ee521982268e00b575adf0b9/osc-sdk-1.8.0.tar.gz
+[2023-06-29 14:27:39] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.1.tar.gz]
+[2023-06-29 14:27:39] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.2.tar.gz]
+[2023-06-29 14:27:39] INFO root fetch - processPackages [ag-llama-api]: Start processing: eea.progress.editing
+[2023-06-29 14:27:39] INFO root fetch - main [MainThread]: End processing [ag-llama-api]: success
+[2023-06-29 14:27:39] INFO root fetch - processPackages [eea.progress.editing]: New version: [2.0] Old Version: [1.5]
+[2023-06-29 14:27:39] INFO root fetch - processPackages [increase]: executing diffoscope
+[2023-06-29 14:27:39] INFO root fetch - processPackages [increase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/increase-0.7.1.tar.gz tmp/increase-0.8.0.tar.gz --markdown 20230629/i/increase/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-06-29 14:27:39] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-06-29 14:27:39] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230629/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-06-29 14:27:39] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.8.1.tar.gz]
+[2023-06-29 14:27:39] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.9.0.tar.gz]
+[2023-06-29 14:27:39] INFO root fetch - processPackages [lnschema_bionty]: Start processing: moto
+[2023-06-29 14:27:39] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
+[2023-06-29 14:27:39] INFO root fetch - processPackages [eea.progress.editing]: Downloading https://files.pythonhosted.org/packages/6b/85/3225cb3579880f59fb502cef739fe8d6238aba45e2f33144d164def0f5ea/eea.progress.editing-1.5.zip
+[2023-06-29 14:27:39] INFO root fetch - processPackages [oddrn-generator]: Remove: archive file [/home/abi/fetcher/tmp/oddrn_generator-0.1.84.tar.gz]
+[2023-06-29 14:27:39] INFO root fetch - processPackages [oddrn-generator]: Remove: archive file [/home/abi/fetcher/tmp/oddrn-generator-0.1.9.tar.gz]
+[2023-06-29 14:27:39] INFO root fetch - processPackages [oddrn-generator]: Start processing: eea.progress.editing
+[2023-06-29 14:27:39] INFO root fetch - main [MainThread]: End processing [oddrn-generator]: success
+[2023-06-29 14:27:39] INFO root fetch - processPackages [eea.progress.editing]: New version: [2.0] Old Version: [1.5]
+[2023-06-29 14:27:39] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-06-29 14:27:39] INFO root fetch - processPackages [osc-sdk]: Downloading https://files.pythonhosted.org/packages/b0/60/cd6582d56188c841bd58ce004b67c0a64b8ad855175ea574f01b0158271d/osc-sdk-1.9.0.tar.gz
+[2023-06-29 14:27:39] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-06-29 14:27:39] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230629/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-06-29 14:27:39] INFO root fetch - processPackages [osc-sdk]: executing diffoscope
+[2023-06-29 14:27:39] INFO root fetch - processPackages [osc-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osc-sdk-1.8.0.tar.gz tmp/osc-sdk-1.9.0.tar.gz --markdown 20230629/o/osc-sdk/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-29 14:27:39] INFO root fetch - processPackages [gspread]: Remove: archive file [/home/abi/fetcher/tmp/gspread-5.8.0.tar.gz]
+[2023-06-29 14:27:39] INFO root fetch - processPackages [gspread]: Remove: archive file [/home/abi/fetcher/tmp/gspread-5.9.0.tar.gz]
+[2023-06-29 14:27:39] INFO root fetch - processPackages [gspread]: Start processing: eea.progress.editing
+[2023-06-29 14:27:39] INFO root fetch - main [MainThread]: End processing [gspread]: success
+[2023-06-29 14:27:39] INFO root fetch - processPackages [eea.progress.editing]: Downloading https://files.pythonhosted.org/packages/9a/14/e8c229947b3e25c90253a9f8d07a30c800938e8647aeca330d7fd3e92eb6/eea.progress.editing-2.0.zip
+[2023-06-29 14:27:39] INFO root fetch - processPackages [eea.progress.editing]: Downloading https://files.pythonhosted.org/packages/9a/14/e8c229947b3e25c90253a9f8d07a30c800938e8647aeca330d7fd3e92eb6/eea.progress.editing-2.0.zip
+[2023-06-29 14:27:39] INFO root fetch - processPackages [eea.progress.editing]: New version: [2.0] Old Version: [1.5]
+[2023-06-29 14:27:39] INFO root fetch - processPackages [eea.progress.editing]: executing diffoscope
+[2023-06-29 14:27:39] INFO root fetch - processPackages [eea.progress.editing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eea.progress.editing-1.5.zip tmp/eea.progress.editing-2.0.zip --markdown 20230629/e/eea.progress.editing/1.5-2.0/diff.md --exclude *.pyd
+[2023-06-29 14:27:39] INFO root fetch - processPackages [eea.progress.editing]: executing diffoscope
+[2023-06-29 14:27:39] INFO root fetch - processPackages [eea.progress.editing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eea.progress.editing-1.5.zip tmp/eea.progress.editing-2.0.zip --markdown 20230629/e/eea.progress.editing/1.5-2.0/diff.md --exclude *.pyd
+[2023-06-29 14:27:39] INFO root fetch - processPackages [eea.progress.editing]: executing diffoscope
+[2023-06-29 14:27:39] INFO root fetch - processPackages [eea.progress.editing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eea.progress.editing-1.5.zip tmp/eea.progress.editing-2.0.zip --markdown 20230629/e/eea.progress.editing/1.5-2.0/diff.md --exclude *.pyd
+[2023-06-29 14:27:40] INFO root fetch - processPackages [MultiEL]: Remove: archive file [/home/abi/fetcher/tmp/MultiEL-0.4.tar.gz]
+[2023-06-29 14:27:40] INFO root fetch - processPackages [MultiEL]: Remove: archive file [/home/abi/fetcher/tmp/MultiEL-0.5.tar.gz]
+[2023-06-29 14:27:40] INFO root fetch - processPackages [MultiEL]: Start processing: eea.progress.editing
+[2023-06-29 14:27:40] INFO root fetch - main [MainThread]: End processing [MultiEL]: success
+[2023-06-29 14:27:40] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-1.3.2a0.tar.gz]
+[2023-06-29 14:27:40] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-1.3.2a1.tar.gz]
+[2023-06-29 14:27:40] INFO root fetch - processPackages [fractal-server]: Start processing: eea.progress.editing
+[2023-06-29 14:27:40] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2023-06-29 14:27:40] INFO root fetch - processPackages [eea.progress.editing]: New version: [2.0] Old Version: [1.5]
+[2023-06-29 14:27:40] INFO root fetch - processPackages [eea.progress.editing]: New version: [2.0] Old Version: [1.5]
+[2023-06-29 14:27:40] INFO root fetch - processPackages [eea.progress.editing]: executing diffoscope
+[2023-06-29 14:27:40] INFO root fetch - processPackages [eea.progress.editing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eea.progress.editing-1.5.zip tmp/eea.progress.editing-2.0.zip --markdown 20230629/e/eea.progress.editing/1.5-2.0/diff.md --exclude *.pyd
+[2023-06-29 14:27:40] INFO root fetch - processPackages [eea.progress.editing]: executing diffoscope
+[2023-06-29 14:27:40] INFO root fetch - processPackages [eea.progress.editing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eea.progress.editing-1.5.zip tmp/eea.progress.editing-2.0.zip --markdown 20230629/e/eea.progress.editing/1.5-2.0/diff.md --exclude *.pyd
+[2023-06-29 14:27:41] INFO root fetch - processPackages [osc-sdk]: Remove: archive file [/home/abi/fetcher/tmp/osc-sdk-1.8.0.tar.gz]
+[2023-06-29 14:27:41] INFO root fetch - processPackages [osc-sdk]: Remove: archive file [/home/abi/fetcher/tmp/osc-sdk-1.9.0.tar.gz]
+[2023-06-29 14:27:41] INFO root fetch - processPackages [osc-sdk]: Start processing: eea.progress.editing
+[2023-06-29 14:27:41] INFO root fetch - main [MainThread]: End processing [osc-sdk]: success
+[2023-06-29 14:27:41] INFO root fetch - processPackages [eea.progress.editing]: New version: [2.0] Old Version: [1.5]
+[2023-06-29 14:27:41] INFO root fetch - processPackages [eea.progress.editing]: executing diffoscope
+[2023-06-29 14:27:41] INFO root fetch - processPackages [eea.progress.editing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eea.progress.editing-1.5.zip tmp/eea.progress.editing-2.0.zip --markdown 20230629/e/eea.progress.editing/1.5-2.0/diff.md --exclude *.pyd
+[2023-06-29 14:27:41] INFO root fetch - processPackages [eea.progress.editing]: Remove: archive file [/home/abi/fetcher/tmp/eea.progress.editing-1.5.zip]
+[2023-06-29 14:27:41] INFO root fetch - processPackages [eea.progress.editing]: Remove: archive file [/home/abi/fetcher/tmp/eea.progress.editing-2.0.zip]
+[2023-06-29 14:27:41] INFO root fetch - processPackages [eea.progress.editing]: Start processing: py3toolbox
+[2023-06-29 14:27:41] INFO root fetch - main [MainThread]: End processing [eea.progress.editing]: success
+[2023-06-29 14:27:41] INFO root fetch - processPackages [eea.progress.editing]: Start processing: eea.progress.editing
+[2023-06-29 14:27:41] INFO root fetch - main [MainThread]: End processing [eea.progress.editing]: success
+[2023-06-29 14:27:41] INFO root fetch - processPackages [eea.progress.editing]: New version: [2.0] Old Version: [1.5]
+[2023-06-29 14:27:41] INFO root fetch - processPackages [py3toolbox]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 14:27:41] INFO root fetch - processPackages [eea.progress.editing]: Downloading https://files.pythonhosted.org/packages/6b/85/3225cb3579880f59fb502cef739fe8d6238aba45e2f33144d164def0f5ea/eea.progress.editing-1.5.zip
+[2023-06-29 14:27:41] INFO root fetch - processPackages [eea.progress.editing]: Start processing: nmbu.rinex
+[2023-06-29 14:27:41] INFO root fetch - main [MainThread]: End processing [eea.progress.editing]: success
+[2023-06-29 14:27:41] INFO root fetch - processPackages [py3toolbox]: Downloading https://files.pythonhosted.org/packages/e4/e6/6f1e77832ec5b71f6d0f65cfbec5c2f186703fac1a664626aea040325c7c/py3toolbox-0.1.8.tar.gz
+[2023-06-29 14:27:41] INFO root fetch - processPackages [nmbu.rinex]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-29 14:27:42] INFO root fetch - processPackages [eea.progress.editing]: Downloading https://files.pythonhosted.org/packages/9a/14/e8c229947b3e25c90253a9f8d07a30c800938e8647aeca330d7fd3e92eb6/eea.progress.editing-2.0.zip
+[2023-06-29 14:27:42] INFO root fetch - processPackages [py3toolbox]: Downloading https://files.pythonhosted.org/packages/25/6b/7f9865a1bedf9c30b0ba7956a568b97cc5dd18c9825e37d26c54ae28ed7d/py3toolbox-0.1.9.tar.gz
+[2023-06-29 14:27:42] INFO root fetch - processPackages [nmbu.rinex]: Downloading https://files.pythonhosted.org/packages/1e/06/78b20c25f50fd12a69b61a66ee5c34c88599e01b86c233269078f9cfbd3e/nmbu.rinex-1.0.0.tar.gz
+[2023-06-29 14:27:42] INFO root fetch - processPackages [eea.progress.editing]: executing diffoscope
+[2023-06-29 14:27:42] INFO root fetch - processPackages [eea.progress.editing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eea.progress.editing-1.5.zip tmp/eea.progress.editing-2.0.zip --markdown 20230629/e/eea.progress.editing/1.5-2.0/diff.md --exclude *.pyd
+[2023-06-29 14:27:42] INFO root fetch - processPackages [py3toolbox]: executing diffoscope
+[2023-06-29 14:27:42] INFO root fetch - processPackages [py3toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3toolbox-0.1.8.tar.gz tmp/py3toolbox-0.1.9.tar.gz --markdown 20230629/p/py3toolbox/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 14:27:42] INFO root fetch - processPackages [eea.progress.editing]: Remove: archive file [/home/abi/fetcher/tmp/eea.progress.editing-1.5.zip]
+[2023-06-29 14:27:42] INFO root fetch - processPackages [eea.progress.editing]: Remove: archive file [/home/abi/fetcher/tmp/eea.progress.editing-2.0.zip]
+[2023-06-29 14:27:42] INFO root fetch - processPackages [eea.progress.editing]: Start processing: ezcharts
+[2023-06-29 14:27:42] INFO root fetch - main [MainThread]: End processing [eea.progress.editing]: success
+[2023-06-29 14:27:42] INFO root fetch - processPackages [ezcharts]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-29 14:27:42] INFO root fetch - processPackages [eea.progress.editing]: Start processing: py3toolbox
+[2023-06-29 14:27:42] INFO root fetch - main [MainThread]: End processing [eea.progress.editing]: success
+[2023-06-29 14:27:42] INFO root fetch - processPackages [ezcharts]: Downloading https://files.pythonhosted.org/packages/73/c1/079a70f9fa90494b764cd204e44573983981412b9ff23cac6ce849ba7c1e/ezcharts-0.4.0.tar.gz
+[2023-06-29 14:27:42] INFO root fetch - processPackages [py3toolbox]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 14:27:42] ERROR root fetch - processPackages [eea.progress.editing]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/eea.progress.editing-1.5.zip: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/eea.progress.editing-2.0.zip: No such file or directory
+
+[2023-06-29 14:27:42] INFO root fetch - processPackages [eea.progress.editing]: Start processing: eodc-faas-openeo
+[2023-06-29 14:27:42] INFO root fetch - main [MainThread]: End processing [eea.progress.editing] error
+[2023-06-29 14:27:42] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-29 14:27:42] INFO root fetch - processPackages [py3toolbox]: executing diffoscope
+[2023-06-29 14:27:42] INFO root fetch - processPackages [py3toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3toolbox-0.1.8.tar.gz tmp/py3toolbox-0.1.9.tar.gz --markdown 20230629/p/py3toolbox/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 14:27:42] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/bf/65/17c492bd7934456ef4a003078ffcb510f62f943407298b90a63969aa3f1f/eodc_faas_openeo-2023.6.8.tar.gz
+[2023-06-29 14:27:42] INFO root fetch - processPackages [nmbu.rinex]: Downloading https://files.pythonhosted.org/packages/f6/a8/426e7198379673e5f331d0ce0cecb5cccd80c5ea62824a8ba42359c39066/nmbu.rinex-1.0.1.tar.gz
+[2023-06-29 14:27:42] INFO root fetch - processPackages [ezcharts]: Downloading https://files.pythonhosted.org/packages/e4/e1/6313d04b79d25a787fedbbed0ef31ae53ac1742785ab035b2f9f1dddbd1f/ezcharts-0.5.0.tar.gz
+[2023-06-29 14:27:42] INFO root fetch - processPackages [nmbu.rinex]: executing diffoscope
+[2023-06-29 14:27:42] INFO root fetch - processPackages [nmbu.rinex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmbu.rinex-1.0.0.tar.gz tmp/nmbu.rinex-1.0.1.tar.gz --markdown 20230629/n/nmbu.rinex/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-29 14:27:42] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/77/6b/8eb1deae635c30a05c1c3a89c459d64974381087d1c84d89e3ad9410049a/eodc_faas_openeo-2023.6.9.tar.gz
+[2023-06-29 14:27:42] INFO root fetch - processPackages [ezcharts]: executing diffoscope
+[2023-06-29 14:27:42] INFO root fetch - processPackages [ezcharts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezcharts-0.4.0.tar.gz tmp/ezcharts-0.5.0.tar.gz --markdown 20230629/e/ezcharts/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-29 14:27:42] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2023-06-29 14:27:42] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2023.6.8.tar.gz tmp/eodc_faas_openeo-2023.6.9.tar.gz --markdown 20230629/e/eodc-faas-openeo/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-29 14:27:43] ERROR root fetch - processPackages [eea.progress.editing]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/eea.progress.editing-1.5.zip: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/eea.progress.editing-2.0.zip: No such file or directory
+
+[2023-06-29 14:27:43] INFO root fetch - processPackages [eea.progress.editing]: Start processing: moto
+[2023-06-29 14:27:43] INFO root fetch - main [MainThread]: End processing [eea.progress.editing] error
+[2023-06-29 14:27:43] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-06-29 14:27:43] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-06-29 14:27:43] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230629/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-06-29 14:27:43] INFO root fetch - processPackages [py3toolbox]: Remove: archive file [/home/abi/fetcher/tmp/py3toolbox-0.1.8.tar.gz]
+[2023-06-29 14:27:43] INFO root fetch - processPackages [py3toolbox]: Remove: archive file [/home/abi/fetcher/tmp/py3toolbox-0.1.9.tar.gz]
+[2023-06-29 14:27:43] INFO root fetch - main [MainThread]: End processing [py3toolbox]: success
+[2023-06-29 14:27:44] INFO root fetch - main [MainThread]: End processing [py3toolbox]: success
+[2023-06-29 14:27:44] INFO root fetch - processPackages [nmbu.rinex]: Remove: archive file [/home/abi/fetcher/tmp/nmbu.rinex-1.0.0.tar.gz]
+[2023-06-29 14:27:44] INFO root fetch - processPackages [nmbu.rinex]: Remove: archive file [/home/abi/fetcher/tmp/nmbu.rinex-1.0.1.tar.gz]
+[2023-06-29 14:27:44] INFO root fetch - main [MainThread]: End processing [nmbu.rinex]: success
+[2023-06-29 14:27:44] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2023.6.8.tar.gz]
+[2023-06-29 14:27:44] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2023.6.9.tar.gz]
+[2023-06-29 14:27:44] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2023-06-29 14:27:45] INFO root fetch - processPackages [increase]: Remove: archive file [/home/abi/fetcher/tmp/increase-0.7.1.tar.gz]
+[2023-06-29 14:27:45] INFO root fetch - processPackages [increase]: Remove: archive file [/home/abi/fetcher/tmp/increase-0.8.0.tar.gz]
+[2023-06-29 14:27:45] INFO root fetch - main [MainThread]: End processing [increase]: success
+[2023-06-29 14:27:49] INFO root fetch - processPackages [ezcharts]: Remove: archive file [/home/abi/fetcher/tmp/ezcharts-0.4.0.tar.gz]
+[2023-06-29 14:27:49] INFO root fetch - processPackages [ezcharts]: Remove: archive file [/home/abi/fetcher/tmp/ezcharts-0.5.0.tar.gz]
+[2023-06-29 14:27:49] INFO root fetch - main [MainThread]: End processing [ezcharts]: success
+[2023-06-29 14:27:52] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.8.tar.gz]
+[2023-06-29 14:27:52] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.9.tar.gz]
+[2023-06-29 14:27:52] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-29 14:28:19] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-06-29 14:28:19] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-06-29 14:28:19] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-06-29 14:28:20] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-06-29 14:28:21] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-06-29 14:28:21] INFO root fetch - main [MainThread]: Store serial: [18694814]
