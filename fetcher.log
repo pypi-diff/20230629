@@ -20122,3 +20122,90 @@ AssertionError: tmp/live_parquet-0.2.0.tar.gz does not exist
 [2023-06-29 20:51:53] INFO root fetch - processPackages [franky-panda]: Remove: archive file [/home/abi/fetcher/tmp/franky_panda-0.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-29 20:51:53] INFO root fetch - main [MainThread]: End processing [franky-panda]: success
 [2023-06-29 20:51:53] INFO root fetch - main [MainThread]: Store serial: [18699243]
+[2023-06-29 20:56:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18699243]
+[2023-06-29 20:57:04] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-29 20:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spectralnet
+[2023-06-29 20:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deltacat
+[2023-06-29 20:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: translators
+[2023-06-29 20:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: micropython-magic
+[2023-06-29 20:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lusid-sdk
+[2023-06-29 20:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lusid-sdk-preview
+[2023-06-29 20:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rai-benchmark-test
+[2023-06-29 20:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gpt3discord
+[2023-06-29 20:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: teamanchorhello
+[2023-06-29 20:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: CheckVersionW10
+[2023-06-29 20:57:04] INFO root fetch - processPackages [micropython-magic]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-29 20:57:04] INFO root fetch - processPackages [teamanchorhello]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-29 20:57:04] INFO root fetch - processPackages [rai-benchmark-test]: New version: [0.6] Old Version: [0.5]
+[2023-06-29 20:57:04] INFO root fetch - processPackages [spectralnet]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-29 20:57:04] WARNING root fetch - processPackages [CheckVersionW10]: Skipping, unable to determine old version
+[2023-06-29 20:57:04] INFO root fetch - main [MainThread]: End processing [CheckVersionW10] error
+[2023-06-29 20:57:04] INFO root fetch - processPackages [translators]: New version: [5.7.8] Old Version: [5.7.7]
+[2023-06-29 20:57:04] INFO root fetch - processPackages [deltacat]: New version: [0.1.9.dev0] Old Version: [0.1.9]
+[2023-06-29 20:57:04] INFO root fetch - processPackages [gpt3discord]: New version: [9.1] Old Version: [9.0.4]
+[2023-06-29 20:57:04] INFO root fetch - processPackages [micropython-magic]: Downloading https://files.pythonhosted.org/packages/02/05/948c2dae08c608910557430b6a1295f6da57aabfbeaed22f57c84983e97f/micropython_magic-0.3.0.tar.gz
+[2023-06-29 20:57:04] INFO root fetch - processPackages [rai-benchmark-test]: Downloading https://files.pythonhosted.org/packages/c9/39/38afca67969f02f5642f2c42581ef10d807a0abe927650322993f2ebe7bc/rai_benchmark_test-0.5.tar.gz
+[2023-06-29 20:57:04] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-06-29 20:57:04] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-06-29 20:57:04] INFO root fetch - processPackages [translators]: Downloading https://files.pythonhosted.org/packages/09/fa/805725a7283a82229ff94e8519029bab1ba7537088797318be5b7086c86a/translators-5.7.7.tar.gz
+[2023-06-29 20:57:04] INFO root fetch - processPackages [teamanchorhello]: Downloading https://files.pythonhosted.org/packages/c8/fa/21500b7e76291990632ddcafba6c00f2e880347d3f30d2d5641dfc40816c/teamanchorhello-0.0.4.tar.gz
+[2023-06-29 20:57:05] INFO root fetch - processPackages [deltacat]: Downloading https://files.pythonhosted.org/packages/65/97/d9df40b8c21392597283008b24d709501012a50d694f7b4906d937a821d7/deltacat-0.1.9.tar.gz
+[2023-06-29 20:57:05] INFO root fetch - processPackages [spectralnet]: Downloading https://files.pythonhosted.org/packages/f9/c1/576803397f67d4d7179ae3a2e5e6083f747a3d7d556cd9d2260383ff12e1/spectralnet-0.0.4.tar.gz
+[2023-06-29 20:57:05] INFO root fetch - processPackages [gpt3discord]: Downloading https://files.pythonhosted.org/packages/37/05/2206aa04638856656febff14ed92b412dfe23dcbf520d5ae6b2e00bb94b8/gpt3discord-9.0.4.tar.gz
+[2023-06-29 20:57:05] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/be/34/7662f651750d07513450337ca9275481d00381ada330eaaa7e365fdde135/lusid-sdk-1.0.91.tar.gz
+[2023-06-29 20:57:05] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/49/7a/a2c137408aeb27bd4c7f6dd83e907217e3962f825b96448437c4cfa4e0ea/lusid-sdk-preview-1.0.91.tar.gz
+[2023-06-29 20:57:05] INFO root fetch - processPackages [rai-benchmark-test]: Downloading https://files.pythonhosted.org/packages/87/33/13ecb0efb1b143f29853f2e6657bcd6b67e1a517eb2e7b02abf4d7353d00/rai_benchmark_test-0.6.tar.gz
+[2023-06-29 20:57:05] INFO root fetch - processPackages [micropython-magic]: Downloading https://files.pythonhosted.org/packages/77/b6/f84a9864f07fded296e1390c494fa31a152cbf778dff993390c4e7f2d68e/micropython_magic-0.3.1.tar.gz
+[2023-06-29 20:57:05] INFO root fetch - processPackages [translators]: Downloading https://files.pythonhosted.org/packages/15/87/20dd951bea6163e4e72785041ebcf2fbc4d79d35521cc948d4294686fb79/translators-5.7.8.tar.gz
+[2023-06-29 20:57:05] INFO root fetch - processPackages [teamanchorhello]: Downloading https://files.pythonhosted.org/packages/3d/83/240d75147af5164f723e0c6d3e616164991da1f7a1868792239e41bb412a/teamanchorhello-0.0.5.tar.gz
+[2023-06-29 20:57:05] INFO root fetch - processPackages [micropython-magic]: executing diffoscope
+[2023-06-29 20:57:05] INFO root fetch - processPackages [micropython-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython_magic-0.3.0.tar.gz tmp/micropython_magic-0.3.1.tar.gz --markdown 20230629/m/micropython-magic/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-29 20:57:05] INFO root fetch - processPackages [translators]: executing diffoscope
+[2023-06-29 20:57:05] INFO root fetch - processPackages [translators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/translators-5.7.7.tar.gz tmp/translators-5.7.8.tar.gz --markdown 20230629/t/translators/5.7.7-5.7.8/diff.md --exclude *.pyd
+[2023-06-29 20:57:05] INFO root fetch - processPackages [spectralnet]: Downloading https://files.pythonhosted.org/packages/97/c7/43e5de263a211d79616c4fbecb6fd5a69253007214a88cad415e55a0147c/spectralnet-0.0.5.tar.gz
+[2023-06-29 20:57:05] INFO root fetch - processPackages [rai-benchmark-test]: executing diffoscope
+[2023-06-29 20:57:05] INFO root fetch - processPackages [rai-benchmark-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rai_benchmark_test-0.5.tar.gz tmp/rai_benchmark_test-0.6.tar.gz --markdown 20230629/r/rai-benchmark-test/0.5-0.6/diff.md --exclude *.pyd
+[2023-06-29 20:57:05] INFO root fetch - processPackages [teamanchorhello]: executing diffoscope
+[2023-06-29 20:57:05] INFO root fetch - processPackages [teamanchorhello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teamanchorhello-0.0.4.tar.gz tmp/teamanchorhello-0.0.5.tar.gz --markdown 20230629/t/teamanchorhello/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-29 20:57:05] INFO root fetch - processPackages [gpt3discord]: Downloading https://files.pythonhosted.org/packages/35/2f/7cad7be49486612c7af56839595bd1843092d25ac4d2d187a8f56624913a/gpt3discord-9.1.tar.gz
+[2023-06-29 20:57:05] INFO root fetch - processPackages [spectralnet]: executing diffoscope
+[2023-06-29 20:57:05] INFO root fetch - processPackages [spectralnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectralnet-0.0.4.tar.gz tmp/spectralnet-0.0.5.tar.gz --markdown 20230629/s/spectralnet/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-29 20:57:05] INFO root fetch - processPackages [deltacat]: Downloading https://files.pythonhosted.org/packages/e4/d7/2fc51ca29931e17ba455fc8d9c55a9f652408864963811fe0fd121d3d7f5/deltacat-0.1.9.dev0.tar.gz
+[2023-06-29 20:57:05] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/98/81/36672596a28f997865bee76ba030a446e52a68b56b9e297ed56f9a8fb301/lusid-sdk-preview-1.0.98.tar.gz
+[2023-06-29 20:57:05] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/14/c8/523a5d4f9c0dcabd6883ffe308d0ecf41ed93c1f7e1cdc4baced16ec67c6/lusid-sdk-1.0.98.tar.gz
+[2023-06-29 20:57:05] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-06-29 20:57:05] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230629/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-06-29 20:57:05] INFO root fetch - processPackages [gpt3discord]: executing diffoscope
+[2023-06-29 20:57:05] INFO root fetch - processPackages [gpt3discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt3discord-9.0.4.tar.gz tmp/gpt3discord-9.1.tar.gz --markdown 20230629/g/gpt3discord/9.0.4-9.1/diff.md --exclude *.pyd
+[2023-06-29 20:57:05] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-06-29 20:57:05] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230629/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-06-29 20:57:05] INFO root fetch - processPackages [deltacat]: executing diffoscope
+[2023-06-29 20:57:05] INFO root fetch - processPackages [deltacat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltacat-0.1.9.tar.gz tmp/deltacat-0.1.9.dev0.tar.gz --markdown 20230629/d/deltacat/0.1.9-0.1.9.dev0/diff.md --exclude *.pyd
+[2023-06-29 20:57:06] INFO root fetch - processPackages [micropython-magic]: Remove: archive file [/home/abi/fetcher/tmp/micropython_magic-0.3.0.tar.gz]
+[2023-06-29 20:57:06] INFO root fetch - processPackages [micropython-magic]: Remove: archive file [/home/abi/fetcher/tmp/micropython_magic-0.3.1.tar.gz]
+[2023-06-29 20:57:06] INFO root fetch - main [MainThread]: End processing [micropython-magic]: success
+[2023-06-29 20:57:06] INFO root fetch - processPackages [teamanchorhello]: Remove: archive file [/home/abi/fetcher/tmp/teamanchorhello-0.0.4.tar.gz]
+[2023-06-29 20:57:06] INFO root fetch - processPackages [teamanchorhello]: Remove: archive file [/home/abi/fetcher/tmp/teamanchorhello-0.0.5.tar.gz]
+[2023-06-29 20:57:06] INFO root fetch - main [MainThread]: End processing [teamanchorhello]: success
+[2023-06-29 20:57:07] INFO root fetch - processPackages [rai-benchmark-test]: Remove: archive file [/home/abi/fetcher/tmp/rai_benchmark_test-0.5.tar.gz]
+[2023-06-29 20:57:07] INFO root fetch - processPackages [rai-benchmark-test]: Remove: archive file [/home/abi/fetcher/tmp/rai_benchmark_test-0.6.tar.gz]
+[2023-06-29 20:57:07] INFO root fetch - main [MainThread]: End processing [rai-benchmark-test]: success
+[2023-06-29 20:57:07] INFO root fetch - processPackages [gpt3discord]: Remove: archive file [/home/abi/fetcher/tmp/gpt3discord-9.0.4.tar.gz]
+[2023-06-29 20:57:07] INFO root fetch - processPackages [gpt3discord]: Remove: archive file [/home/abi/fetcher/tmp/gpt3discord-9.1.tar.gz]
+[2023-06-29 20:57:07] INFO root fetch - main [MainThread]: End processing [gpt3discord]: success
+[2023-06-29 20:57:07] INFO root fetch - processPackages [spectralnet]: Remove: archive file [/home/abi/fetcher/tmp/spectralnet-0.0.4.tar.gz]
+[2023-06-29 20:57:07] INFO root fetch - processPackages [spectralnet]: Remove: archive file [/home/abi/fetcher/tmp/spectralnet-0.0.5.tar.gz]
+[2023-06-29 20:57:07] INFO root fetch - main [MainThread]: End processing [spectralnet]: success
+[2023-06-29 20:57:07] INFO root fetch - processPackages [deltacat]: Remove: archive file [/home/abi/fetcher/tmp/deltacat-0.1.9.tar.gz]
+[2023-06-29 20:57:07] INFO root fetch - processPackages [deltacat]: Remove: archive file [/home/abi/fetcher/tmp/deltacat-0.1.9.dev0.tar.gz]
+[2023-06-29 20:57:07] INFO root fetch - main [MainThread]: End processing [deltacat]: success
+[2023-06-29 20:57:09] INFO root fetch - processPackages [translators]: Remove: archive file [/home/abi/fetcher/tmp/translators-5.7.7.tar.gz]
+[2023-06-29 20:57:09] INFO root fetch - processPackages [translators]: Remove: archive file [/home/abi/fetcher/tmp/translators-5.7.8.tar.gz]
+[2023-06-29 20:57:09] INFO root fetch - main [MainThread]: End processing [translators]: success
+[2023-06-29 20:57:28] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.91.tar.gz]
+[2023-06-29 20:57:28] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.98.tar.gz]
+[2023-06-29 20:57:28] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-06-29 20:57:41] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.91.tar.gz]
+[2023-06-29 20:57:41] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
+[2023-06-29 20:57:41] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-06-29 20:57:41] INFO root fetch - main [MainThread]: Store serial: [18699274]
