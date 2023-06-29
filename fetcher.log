@@ -19842,3 +19842,118 @@ AssertionError: tmp/live_parquet-0.2.0.tar.gz does not exist
 [2023-06-29 20:41:21] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306291840-py3-none-any.whl.zip]
 [2023-06-29 20:41:21] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-29 20:41:21] INFO root fetch - main [MainThread]: Store serial: [18699145]
+[2023-06-29 20:46:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18699145]
+[2023-06-29 20:46:30] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-29 20:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: velesresearch
+[2023-06-29 20:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xata
+[2023-06-29 20:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bxsolana-trader-proto
+[2023-06-29 20:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: petlib-fork
+[2023-06-29 20:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kfish
+[2023-06-29 20:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dkist-processing-common
+[2023-06-29 20:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sscred-fork
+[2023-06-29 20:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: petisco
+[2023-06-29 20:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-restraint
+[2023-06-29 20:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: teamanchorhello
+[2023-06-29 20:46:30] INFO root fetch - processPackages [xata]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-29 20:46:30] INFO root fetch - processPackages [teamanchorhello]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-29 20:46:30] WARNING root fetch - processPackages [petlib-fork]: Skipping, unable to determine old version
+[2023-06-29 20:46:30] INFO root fetch - processPackages [petlib-fork]: Start processing: backwork-upload-cos
+[2023-06-29 20:46:30] INFO root fetch - main [MainThread]: End processing [petlib-fork] error
+[2023-06-29 20:46:30] INFO root fetch - processPackages [django-restraint]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-06-29 20:46:30] WARNING root fetch - processPackages [sscred-fork]: Skipping, unable to determine old version
+[2023-06-29 20:46:30] INFO root fetch - processPackages [velesresearch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 20:46:30] INFO root fetch - processPackages [sscred-fork]: Start processing: kaggle
+[2023-06-29 20:46:30] INFO root fetch - main [MainThread]: End processing [sscred-fork] error
+[2023-06-29 20:46:30] INFO root fetch - processPackages [bxsolana-trader-proto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 20:46:30] INFO root fetch - processPackages [kfish]: New version: [99.0.202306291842] Old Version: [99.0.202306291746]
+[2023-06-29 20:46:30] INFO root fetch - processPackages [backwork-upload-cos]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-29 20:46:30] INFO root fetch - processPackages [petisco]: New version: [2.0.0rc8] Old Version: [2.0.0rc7]
+[2023-06-29 20:46:30] INFO root fetch - processPackages [dkist-processing-common]: New version: [4.0.0rc1] Old Version: [4.0.0]
+[2023-06-29 20:46:30] INFO root fetch - processPackages [kaggle]: New version: [1.6.0a2] Old Version: [1.6.0a0]
+[2023-06-29 20:46:30] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c0/51/7195499c7c402c34e3cbcc33107315db124d10b3bd4c38770bbf4dced241/kfish-99.0.202306291746-py3-none-any.whl
+[2023-06-29 20:46:30] INFO root fetch - processPackages [teamanchorhello]: Downloading https://files.pythonhosted.org/packages/b5/22/3dcc8787d039a41debf4c01a56de74740fcdf70f2e05f6c6b5922979e86f/teamanchorhello-0.0.3.tar.gz
+[2023-06-29 20:46:30] INFO root fetch - processPackages [xata]: Downloading https://files.pythonhosted.org/packages/77/48/dd532f5775f8b626c60933368edc401aad73f9e4dccdef9352e1c970da86/xata-0.9.2.tar.gz
+[2023-06-29 20:46:30] INFO root fetch - processPackages [django-restraint]: Downloading https://files.pythonhosted.org/packages/e2/42/8b9609b7b7dea1e3606c8965b01c487eb2187112ad9549a8121a835df483/django-restraint-2.2.0.tar.gz
+[2023-06-29 20:46:30] INFO root fetch - processPackages [dkist-processing-common]: Downloading https://files.pythonhosted.org/packages/c9/be/fa958dc07d4aae4523a7ccedbaac294dd16a4813a7aa93c1706878df742b/dkist-processing-common-4.0.0.tar.gz
+[2023-06-29 20:46:30] INFO root fetch - processPackages [bxsolana-trader-proto]: Downloading https://files.pythonhosted.org/packages/cc/d4/3f7c211a4ccb59865cc2c8d794c3929a7c5bb19d89429a74cc76c5c682c2/bxsolana-trader-proto-0.0.8.tar.gz
+[2023-06-29 20:46:30] INFO root fetch - processPackages [kaggle]: Downloading https://files.pythonhosted.org/packages/96/e1/682676315943c64802706b192f2178bad3c5c0cdad34551d48c7b9f14865/kaggle-1.6.0a0.tar.gz
+[2023-06-29 20:46:30] INFO root fetch - processPackages [backwork-upload-cos]: Downloading https://files.pythonhosted.org/packages/d0/ec/b8bce71a438e43e0010508234c73ff9ed10a2e6f8204b7e5d722b8df1b31/backwork-upload-cos-0.3.1.tar.gz
+[2023-06-29 20:46:30] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/8d/0f/b32d3c30337fff6546a44cdccdf2d83a830cdba6cbcb762f2941a2a58c9f/petisco-2.0.0rc7.tar.gz
+[2023-06-29 20:46:30] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/65/ca/827f2ac6b96d77cb014211a68df3c4b1b7148d9b2fdfdb5bde937344a7fe/kfish-99.0.202306291842-py3-none-any.whl
+[2023-06-29 20:46:30] INFO root fetch - processPackages [dkist-processing-common]: Downloading https://files.pythonhosted.org/packages/6b/d5/77dde4dd5cd3051b95964a421562c782eeecfdb43e9d3a0a202cc276df76/dkist-processing-common-4.0.0rc1.tar.gz
+[2023-06-29 20:46:31] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-29 20:46:31] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306291746-py3-none-any.whl.zip tmp/kfish-99.0.202306291842-py3-none-any.whl.zip --markdown 20230629/k/kfish/99.0.202306291746-99.0.202306291842/diff.md --exclude *.pyd
+[2023-06-29 20:46:31] INFO root fetch - processPackages [velesresearch]: executing diffoscope
+[2023-06-29 20:46:31] INFO root fetch - processPackages [teamanchorhello]: Downloading https://files.pythonhosted.org/packages/c8/fa/21500b7e76291990632ddcafba6c00f2e880347d3f30d2d5641dfc40816c/teamanchorhello-0.0.4.tar.gz
+[2023-06-29 20:46:31] INFO root fetch - processPackages [velesresearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/velesresearch-0.0.8.tar.gz tmp/velesresearch-0.0.9.tar.gz --markdown 20230629/v/velesresearch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 20:46:31] INFO root fetch - processPackages [xata]: Downloading https://files.pythonhosted.org/packages/42/69/2646d6b3144a5f36812a0f6f7c09718c6742ffb7d482115dcdc7de874585/xata-0.9.3.tar.gz
+[2023-06-29 20:46:31] INFO root fetch - processPackages [backwork-upload-cos]: Downloading https://files.pythonhosted.org/packages/9a/71/3a8ec5af775bdc3887c59648c4e827774c19fd41b3d9b2e641e75aaa8b57/backwork-upload-cos-0.3.2.tar.gz
+[2023-06-29 20:46:31] INFO root fetch - processPackages [teamanchorhello]: executing diffoscope
+[2023-06-29 20:46:31] INFO root fetch - processPackages [teamanchorhello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teamanchorhello-0.0.3.tar.gz tmp/teamanchorhello-0.0.4.tar.gz --markdown 20230629/t/teamanchorhello/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-29 20:46:31] INFO root fetch - processPackages [django-restraint]: Downloading https://files.pythonhosted.org/packages/1c/53/1b89c9716ef01d816bd826ff80deea83bf8eef15899d7ac2c0cfad49c2b4/django-restraint-2.3.0.tar.gz
+[2023-06-29 20:46:31] INFO root fetch - processPackages [bxsolana-trader-proto]: Downloading https://files.pythonhosted.org/packages/f1/4d/2dae934faee772dba6ffca551f80a4bf48f3e12feb404256a37b431161ac/bxsolana-trader-proto-0.0.9.tar.gz
+[2023-06-29 20:46:31] INFO root fetch - processPackages [backwork-upload-cos]: executing diffoscope
+[2023-06-29 20:46:31] INFO root fetch - processPackages [backwork-upload-cos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backwork-upload-cos-0.3.1.tar.gz tmp/backwork-upload-cos-0.3.2.tar.gz --markdown 20230629/b/backwork-upload-cos/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-29 20:46:31] INFO root fetch - processPackages [django-restraint]: executing diffoscope
+[2023-06-29 20:46:31] INFO root fetch - processPackages [django-restraint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-restraint-2.2.0.tar.gz tmp/django-restraint-2.3.0.tar.gz --markdown 20230629/d/django-restraint/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-06-29 20:46:31] INFO root fetch - processPackages [dkist-processing-common]: executing diffoscope
+[2023-06-29 20:46:31] INFO root fetch - processPackages [dkist-processing-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist-processing-common-4.0.0.tar.gz tmp/dkist-processing-common-4.0.0rc1.tar.gz --markdown 20230629/d/dkist-processing-common/4.0.0-4.0.0rc1/diff.md --exclude *.pyd
+[2023-06-29 20:46:31] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/6c/22/10d99d1280b98239e5c5f4c45e4e4f017af7c413c388a012689ece0e0fc4/petisco-2.0.0rc8.tar.gz
+[2023-06-29 20:46:31] INFO root fetch - processPackages [kaggle]: Downloading https://files.pythonhosted.org/packages/a6/57/696496a42dc530df245e93b04d3cb64529e63f3dd0dcbdbe4e5ff1a5010e/kaggle-1.6.0a2.tar.gz
+[2023-06-29 20:46:31] INFO root fetch - processPackages [xata]: executing diffoscope
+[2023-06-29 20:46:31] INFO root fetch - processPackages [xata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xata-0.9.2.tar.gz tmp/xata-0.9.3.tar.gz --markdown 20230629/x/xata/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-29 20:46:31] INFO root fetch - processPackages [bxsolana-trader-proto]: executing diffoscope
+[2023-06-29 20:46:31] INFO root fetch - processPackages [bxsolana-trader-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bxsolana-trader-proto-0.0.8.tar.gz tmp/bxsolana-trader-proto-0.0.9.tar.gz --markdown 20230629/b/bxsolana-trader-proto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 20:46:31] INFO root fetch - processPackages [petisco]: executing diffoscope
+[2023-06-29 20:46:31] INFO root fetch - processPackages [petisco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petisco-2.0.0rc7.tar.gz tmp/petisco-2.0.0rc8.tar.gz --markdown 20230629/p/petisco/2.0.0rc7-2.0.0rc8/diff.md --exclude *.pyd
+[2023-06-29 20:46:31] INFO root fetch - processPackages [kaggle]: executing diffoscope
+[2023-06-29 20:46:31] INFO root fetch - processPackages [kaggle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaggle-1.6.0a0.tar.gz tmp/kaggle-1.6.0a2.tar.gz --markdown 20230629/k/kaggle/1.6.0a0-1.6.0a2/diff.md --exclude *.pyd
+[2023-06-29 20:46:32] INFO root fetch - processPackages [velesresearch]: Remove: archive file [/home/abi/fetcher/tmp/velesresearch-0.0.8.tar.gz]
+[2023-06-29 20:46:32] INFO root fetch - processPackages [velesresearch]: Remove: archive file [/home/abi/fetcher/tmp/velesresearch-0.0.9.tar.gz]
+[2023-06-29 20:46:32] INFO root fetch - processPackages [velesresearch]: Start processing: screwduplicates
+[2023-06-29 20:46:32] INFO root fetch - main [MainThread]: End processing [velesresearch]: success
+[2023-06-29 20:46:32] INFO root fetch - processPackages [screwduplicates]: New version: [0.11] Old Version: [0.10]
+[2023-06-29 20:46:32] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306291746-py3-none-any.whl.zip]
+[2023-06-29 20:46:32] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306291842-py3-none-any.whl.zip]
+[2023-06-29 20:46:32] INFO root fetch - processPackages [kfish]: Start processing: shady-island
+[2023-06-29 20:46:32] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-29 20:46:32] INFO root fetch - processPackages [shady-island]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 20:46:32] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/ed/ae/a7a990a5b643750cce1402cad9e15fd73a9c16dc25acb3c8a49f79eb7a7d/shady-island-0.0.8.tar.gz
+[2023-06-29 20:46:32] INFO root fetch - processPackages [teamanchorhello]: Remove: archive file [/home/abi/fetcher/tmp/teamanchorhello-0.0.3.tar.gz]
+[2023-06-29 20:46:32] INFO root fetch - processPackages [teamanchorhello]: Remove: archive file [/home/abi/fetcher/tmp/teamanchorhello-0.0.4.tar.gz]
+[2023-06-29 20:46:32] INFO root fetch - main [MainThread]: End processing [teamanchorhello]: success
+[2023-06-29 20:46:32] INFO root fetch - processPackages [screwduplicates]: Downloading https://files.pythonhosted.org/packages/ca/53/0c6408fc77f749def01123c41599120cec6dd859d5d9909c18613ea90689/screwduplicates-0.10.tar.gz
+[2023-06-29 20:46:32] INFO root fetch - processPackages [backwork-upload-cos]: Remove: archive file [/home/abi/fetcher/tmp/backwork-upload-cos-0.3.1.tar.gz]
+[2023-06-29 20:46:32] INFO root fetch - processPackages [backwork-upload-cos]: Remove: archive file [/home/abi/fetcher/tmp/backwork-upload-cos-0.3.2.tar.gz]
+[2023-06-29 20:46:32] INFO root fetch - main [MainThread]: End processing [backwork-upload-cos]: success
+[2023-06-29 20:46:32] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/69/14/ae3dbf243e4cb1db1d1a6d89c5b0ab88ad11f64d1873591474d5e78d2c24/shady-island-0.0.9.tar.gz
+[2023-06-29 20:46:32] INFO root fetch - processPackages [screwduplicates]: Downloading https://files.pythonhosted.org/packages/9b/82/94d03047577d051639bb2dabf02f79e020080e55ad5284e47bf94f1b7ad4/screwduplicates-0.11.tar.gz
+[2023-06-29 20:46:32] INFO root fetch - processPackages [django-restraint]: Remove: archive file [/home/abi/fetcher/tmp/django-restraint-2.2.0.tar.gz]
+[2023-06-29 20:46:32] INFO root fetch - processPackages [django-restraint]: Remove: archive file [/home/abi/fetcher/tmp/django-restraint-2.3.0.tar.gz]
+[2023-06-29 20:46:32] INFO root fetch - main [MainThread]: End processing [django-restraint]: success
+[2023-06-29 20:46:32] INFO root fetch - processPackages [screwduplicates]: executing diffoscope
+[2023-06-29 20:46:32] INFO root fetch - processPackages [screwduplicates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screwduplicates-0.10.tar.gz tmp/screwduplicates-0.11.tar.gz --markdown 20230629/s/screwduplicates/0.10-0.11/diff.md --exclude *.pyd
+[2023-06-29 20:46:32] INFO root fetch - processPackages [shady-island]: executing diffoscope
+[2023-06-29 20:46:32] INFO root fetch - processPackages [shady-island]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shady-island-0.0.8.tar.gz tmp/shady-island-0.0.9.tar.gz --markdown 20230629/s/shady-island/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 20:46:33] INFO root fetch - processPackages [bxsolana-trader-proto]: Remove: archive file [/home/abi/fetcher/tmp/bxsolana-trader-proto-0.0.8.tar.gz]
+[2023-06-29 20:46:33] INFO root fetch - processPackages [bxsolana-trader-proto]: Remove: archive file [/home/abi/fetcher/tmp/bxsolana-trader-proto-0.0.9.tar.gz]
+[2023-06-29 20:46:33] INFO root fetch - main [MainThread]: End processing [bxsolana-trader-proto]: success
+[2023-06-29 20:46:33] INFO root fetch - processPackages [xata]: Remove: archive file [/home/abi/fetcher/tmp/xata-0.9.2.tar.gz]
+[2023-06-29 20:46:33] INFO root fetch - processPackages [xata]: Remove: archive file [/home/abi/fetcher/tmp/xata-0.9.3.tar.gz]
+[2023-06-29 20:46:33] INFO root fetch - main [MainThread]: End processing [xata]: success
+[2023-06-29 20:46:33] INFO root fetch - processPackages [kaggle]: Remove: archive file [/home/abi/fetcher/tmp/kaggle-1.6.0a0.tar.gz]
+[2023-06-29 20:46:33] INFO root fetch - processPackages [kaggle]: Remove: archive file [/home/abi/fetcher/tmp/kaggle-1.6.0a2.tar.gz]
+[2023-06-29 20:46:33] INFO root fetch - main [MainThread]: End processing [kaggle]: success
+[2023-06-29 20:46:33] INFO root fetch - processPackages [dkist-processing-common]: Remove: archive file [/home/abi/fetcher/tmp/dkist-processing-common-4.0.0.tar.gz]
+[2023-06-29 20:46:33] INFO root fetch - processPackages [dkist-processing-common]: Remove: archive file [/home/abi/fetcher/tmp/dkist-processing-common-4.0.0rc1.tar.gz]
+[2023-06-29 20:46:33] INFO root fetch - main [MainThread]: End processing [dkist-processing-common]: success
+[2023-06-29 20:46:33] INFO root fetch - processPackages [shady-island]: Remove: archive file [/home/abi/fetcher/tmp/shady-island-0.0.8.tar.gz]
+[2023-06-29 20:46:33] INFO root fetch - processPackages [shady-island]: Remove: archive file [/home/abi/fetcher/tmp/shady-island-0.0.9.tar.gz]
+[2023-06-29 20:46:33] INFO root fetch - main [MainThread]: End processing [shady-island]: success
+[2023-06-29 20:46:33] INFO root fetch - processPackages [screwduplicates]: Remove: archive file [/home/abi/fetcher/tmp/screwduplicates-0.10.tar.gz]
+[2023-06-29 20:46:33] INFO root fetch - processPackages [screwduplicates]: Remove: archive file [/home/abi/fetcher/tmp/screwduplicates-0.11.tar.gz]
+[2023-06-29 20:46:33] INFO root fetch - main [MainThread]: End processing [screwduplicates]: success
+[2023-06-29 20:46:35] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc7.tar.gz]
+[2023-06-29 20:46:35] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc8.tar.gz]
+[2023-06-29 20:46:35] INFO root fetch - main [MainThread]: End processing [petisco]: success
+[2023-06-29 20:46:35] INFO root fetch - main [MainThread]: Store serial: [18699190]
