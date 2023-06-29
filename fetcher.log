@@ -16265,3 +16265,171 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 18:08:10] INFO root fetch - processPackages [girder-large-image]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-1.9.1.dev8.tar.gz]
 [2023-06-29 18:08:10] INFO root fetch - main [MainThread]: End processing [girder-large-image]: success
 [2023-06-29 18:08:10] INFO root fetch - main [MainThread]: Store serial: [18697595]
+[2023-06-29 18:13:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18697595]
+[2023-06-29 18:13:24] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-29 18:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ask-smapi-model
+[2023-06-29 18:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: notification-service-nightly
+[2023-06-29 18:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ai-flow-nightly
+[2023-06-29 18:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-game-collection
+[2023-06-29 18:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: landingai
+[2023-06-29 18:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oloren
+[2023-06-29 18:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bridgestan
+[2023-06-29 18:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hypernetx
+[2023-06-29 18:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dolead-entry-points
+[2023-06-29 18:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quarter-lib
+[2023-06-29 18:13:24] INFO root fetch - processPackages [ask-smapi-model]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-29 18:13:24] INFO root fetch - processPackages [landingai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-29 18:13:24] INFO root fetch - processPackages [bridgestan]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-29 18:13:24] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-29 18:13:24] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-29 18:13:24] INFO root fetch - processPackages [quarter-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 18:13:24] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 18:13:24] INFO root fetch - processPackages [hypernetx]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-29 18:13:24] INFO root fetch - processPackages [ask-smapi-model]: Downloading https://files.pythonhosted.org/packages/cc/58/68fbbfca4c91086e37e2240e384dedd5ead58a736380d1bb7dbdcbeea679/ask-smapi-model-1.9.1.tar.gz
+[2023-06-29 18:13:24] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-06-29 18:13:24] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/60/1e/33a59a6d19349b60110279e0f4904b88c93779a866e4df1bb5fdc97ea00c/notification_service_nightly-2023.6.8.tar.gz
+[2023-06-29 18:13:24] INFO root fetch - processPackages [dolead-entry-points]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-29 18:13:24] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-29 18:13:24] INFO root fetch - processPackages [quarter-lib]: Downloading https://files.pythonhosted.org/packages/9b/2c/e3bb99ac668b35c7fa2b66ee8d36052b84861b367a38bd7089b64806de1f/quarter_lib-0.0.8.tar.gz
+[2023-06-29 18:13:24] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/f8/ce/f2cdb54fd34d5f722838df65d988beeaf815ec747efab45a21e56deaaa7c/notification_service_nightly-2023.6.9.tar.gz
+[2023-06-29 18:13:24] INFO root fetch - processPackages [ask-smapi-model]: Downloading https://files.pythonhosted.org/packages/72/41/574a9f2ae259decea878ee76ade7e89abdef7e9af5966e4a92ef6ed9ebbf/ask-smapi-model-1.9.2.tar.gz
+[2023-06-29 18:13:24] INFO root fetch - processPackages [bridgestan]: Downloading https://files.pythonhosted.org/packages/ba/43/1a95c5e8bbf3498972cc11ccee88ae3ab62647f4ec0f547b313a9902223d/bridgestan-2.0.0.tar.gz
+[2023-06-29 18:13:24] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/07/d0/ebcd6d9c3397c5a245c8e65834997b6b1974ee7084fa149409dca5eb7b1d/nonebot_plugin_game_collection-2.2.8.tar.gz
+[2023-06-29 18:13:24] INFO root fetch - processPackages [hypernetx]: Downloading https://files.pythonhosted.org/packages/3e/f8/040cc96dae99ef09ec159a7cfc9b44778c20b9639bf203f2ee02baded6ef/hypernetx-2.0.1.tar.gz
+[2023-06-29 18:13:24] INFO root fetch - processPackages [dolead-entry-points]: Downloading https://files.pythonhosted.org/packages/71/9e/4afd344e1eb7bb85f8b621640f0583a649fdf1b05ca0e45f98c50f9f5864/dolead_entry_points-0.0.7.tar.gz
+[2023-06-29 18:13:24] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/34/1d/be9be06cee41d896178e7bb38ed9dec185d52aae65bb569e8174d486e5ed/ai_flow_nightly-2023.6.8.tar.gz
+[2023-06-29 18:13:24] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-06-29 18:13:24] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.6.8.tar.gz tmp/notification_service_nightly-2023.6.9.tar.gz --markdown 20230629/n/notification-service-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-29 18:13:24] INFO root fetch - processPackages [ask-smapi-model]: executing diffoscope
+[2023-06-29 18:13:24] INFO root fetch - processPackages [ask-smapi-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ask-smapi-model-1.9.1.tar.gz tmp/ask-smapi-model-1.9.2.tar.gz --markdown 20230629/a/ask-smapi-model/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-29 18:13:25] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-06-29 18:13:25] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.0.7.tar.gz tmp/landingai-0.0.8.tar.gz --markdown 20230629/l/landingai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-29 18:13:25] INFO root fetch - processPackages [hypernetx]: Downloading https://files.pythonhosted.org/packages/7f/98/79d878d66d591ad694867e4db8d3c1c79e1458d003df3cd4831ef54ccffc/hypernetx-2.0.2.tar.gz
+[2023-06-29 18:13:25] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/26/57/8b244714216be7a805c6e5fc6ef4d0f4df429ea0c8cec347d68c2f87434c/nonebot_plugin_game_collection-2.2.9.tar.gz
+[2023-06-29 18:13:25] INFO root fetch - processPackages [bridgestan]: Downloading https://files.pythonhosted.org/packages/8c/df/8f0cc005752ef738552968714a62544159f7dbacd3de7c409dcc70dd49b3/bridgestan-2.1.0.tar.gz
+[2023-06-29 18:13:25] INFO root fetch - processPackages [quarter-lib]: Downloading https://files.pythonhosted.org/packages/de/35/0aa9b114fe985dd877df8c9134b9ee9dff07682aa29d20ca67048428916c/quarter_lib-0.0.9.tar.gz
+[2023-06-29 18:13:25] INFO root fetch - processPackages [dolead-entry-points]: Downloading https://files.pythonhosted.org/packages/44/41/4c081e6aff9aef9f3c23ed5966e416aee3f5cc85b7de4fc82c34a9b824d2/dolead_entry_points-0.0.8.tar.gz
+[2023-06-29 18:13:25] INFO root fetch - processPackages [hypernetx]: executing diffoscope
+[2023-06-29 18:13:25] INFO root fetch - processPackages [hypernetx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypernetx-2.0.1.tar.gz tmp/hypernetx-2.0.2.tar.gz --markdown 20230629/h/hypernetx/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-29 18:13:25] INFO root fetch - processPackages [bridgestan]: executing diffoscope
+[2023-06-29 18:13:25] INFO root fetch - processPackages [bridgestan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgestan-2.0.0.tar.gz tmp/bridgestan-2.1.0.tar.gz --markdown 20230629/b/bridgestan/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-29 18:13:25] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/cc/73/3f73f232627f5ecbe868f04b645ad7af47bcedf955abd2f49f643b401ca5/ai_flow_nightly-2023.6.9.tar.gz
+[2023-06-29 18:13:25] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-06-29 18:13:25] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.2.8.tar.gz tmp/nonebot_plugin_game_collection-2.2.9.tar.gz --markdown 20230629/n/nonebot-plugin-game-collection/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-29 18:13:25] INFO root fetch - processPackages [quarter-lib]: executing diffoscope
+[2023-06-29 18:13:25] INFO root fetch - processPackages [quarter-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarter_lib-0.0.8.tar.gz tmp/quarter_lib-0.0.9.tar.gz --markdown 20230629/q/quarter-lib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 18:13:25] INFO root fetch - processPackages [dolead-entry-points]: executing diffoscope
+[2023-06-29 18:13:25] INFO root fetch - processPackages [dolead-entry-points]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolead_entry_points-0.0.7.tar.gz tmp/dolead_entry_points-0.0.8.tar.gz --markdown 20230629/d/dolead-entry-points/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-29 18:13:25] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-06-29 18:13:25] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.6.8.tar.gz tmp/ai_flow_nightly-2023.6.9.tar.gz --markdown 20230629/a/ai-flow-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-29 18:13:26] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.0.7.tar.gz]
+[2023-06-29 18:13:26] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.0.8.tar.gz]
+[2023-06-29 18:13:26] INFO root fetch - processPackages [landingai]: Start processing: django-yubin
+[2023-06-29 18:13:26] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-06-29 18:13:26] INFO root fetch - processPackages [django-yubin]: New version: [2.0.0b3] Old Version: [2.0.0b2]
+[2023-06-29 18:13:26] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-06-29 18:13:26] INFO root fetch - processPackages [django-yubin]: Downloading https://files.pythonhosted.org/packages/9c/c5/4a28a6ebb767330fcf5d6e1b299231f0be52fac9ab8767c889d8b4a22e9b/django-yubin-2.0.0b2.tar.gz
+[2023-06-29 18:13:26] INFO root fetch - processPackages [bridgestan]: Remove: archive file [/home/abi/fetcher/tmp/bridgestan-2.0.0.tar.gz]
+[2023-06-29 18:13:26] INFO root fetch - processPackages [bridgestan]: Remove: archive file [/home/abi/fetcher/tmp/bridgestan-2.1.0.tar.gz]
+[2023-06-29 18:13:26] INFO root fetch - processPackages [bridgestan]: Start processing: archytas
+[2023-06-29 18:13:26] INFO root fetch - main [MainThread]: End processing [bridgestan]: success
+[2023-06-29 18:13:26] INFO root fetch - processPackages [archytas]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-29 18:13:26] INFO root fetch - processPackages [quarter-lib]: Remove: archive file [/home/abi/fetcher/tmp/quarter_lib-0.0.8.tar.gz]
+[2023-06-29 18:13:26] INFO root fetch - processPackages [quarter-lib]: Remove: archive file [/home/abi/fetcher/tmp/quarter_lib-0.0.9.tar.gz]
+[2023-06-29 18:13:26] INFO root fetch - processPackages [quarter-lib]: Start processing: bfgcardplay
+[2023-06-29 18:13:26] INFO root fetch - main [MainThread]: End processing [quarter-lib]: success
+[2023-06-29 18:13:26] INFO root fetch - processPackages [dolead-entry-points]: Remove: archive file [/home/abi/fetcher/tmp/dolead_entry_points-0.0.7.tar.gz]
+[2023-06-29 18:13:26] INFO root fetch - processPackages [dolead-entry-points]: Remove: archive file [/home/abi/fetcher/tmp/dolead_entry_points-0.0.8.tar.gz]
+[2023-06-29 18:13:26] INFO root fetch - processPackages [dolead-entry-points]: Start processing: canaille
+[2023-06-29 18:13:26] INFO root fetch - main [MainThread]: End processing [dolead-entry-points]: success
+[2023-06-29 18:13:26] INFO root fetch - processPackages [bfgcardplay]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-29 18:13:26] INFO root fetch - processPackages [canaille]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 18:13:26] INFO root fetch - processPackages [bfgcardplay]: Downloading https://files.pythonhosted.org/packages/c6/b4/85ab17805dd28ca0dcb3e08653e8e792f5362f94463eb7f8ac02cd3f5cc4/bfgcardplay-1.0.8.tar.gz
+[2023-06-29 18:13:26] INFO root fetch - processPackages [archytas]: Downloading https://files.pythonhosted.org/packages/6c/5f/cf7b4b554bc1c032e7be6448c0e00809147cb8334240ef8df1e2bfc4bdd8/archytas-1.0.1.tar.gz
+[2023-06-29 18:13:26] INFO root fetch - processPackages [django-yubin]: Downloading https://files.pythonhosted.org/packages/8f/4b/a144da620df111bb0ca6c1cee2417f7fdec0e2474ab222f50533f83c8e59/django-yubin-2.0.0b3.tar.gz
+[2023-06-29 18:13:26] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.8.tar.gz]
+[2023-06-29 18:13:26] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.9.tar.gz]
+[2023-06-29 18:13:26] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Start processing: tensorflow-macos
+[2023-06-29 18:13:26] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-06-29 18:13:26] INFO root fetch - processPackages [canaille]: Downloading https://files.pythonhosted.org/packages/d6/eb/991a3a33db9ca5921988151369084477a94b823d1f0b8df10104a1cf97eb/Canaille-0.0.8.tar.gz
+[2023-06-29 18:13:26] INFO root fetch - processPackages [tensorflow-macos]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-06-29 18:13:26] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.6.8.tar.gz]
+[2023-06-29 18:13:26] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.6.9.tar.gz]
+[2023-06-29 18:13:26] INFO root fetch - processPackages [notification-service-nightly]: Start processing: mahdix
+[2023-06-29 18:13:26] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-06-29 18:13:27] INFO root fetch - processPackages [django-yubin]: executing diffoscope
+[2023-06-29 18:13:27] INFO root fetch - processPackages [django-yubin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-yubin-2.0.0b2.tar.gz tmp/django-yubin-2.0.0b3.tar.gz --markdown 20230629/d/django-yubin/2.0.0b2-2.0.0b3/diff.md --exclude *.pyd
+[2023-06-29 18:13:27] INFO root fetch - processPackages [bfgcardplay]: Downloading https://files.pythonhosted.org/packages/da/18/444f9d7b0e9ab2bd209590967158be7d5a0afd26f9af0133591dc7247f0b/bfgcardplay-1.0.9.tar.gz
+[2023-06-29 18:13:27] INFO root fetch - processPackages [bfgcardplay]: executing diffoscope
+[2023-06-29 18:13:27] INFO root fetch - processPackages [bfgcardplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bfgcardplay-1.0.8.tar.gz tmp/bfgcardplay-1.0.9.tar.gz --markdown 20230629/b/bfgcardplay/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-29 18:13:27] INFO root fetch - processPackages [mahdix]: New version: [0.1.3.6] Old Version: [0.1.3.5]
+[2023-06-29 18:13:27] INFO root fetch - processPackages [archytas]: Downloading https://files.pythonhosted.org/packages/d7/64/b9e6152cbc6fee79f00e143195e774b9a11b797f1b17959c47f8ec1aad20/archytas-1.0.2.tar.gz
+[2023-06-29 18:13:27] INFO root fetch - processPackages [tensorflow-macos]: Downloading https://files.pythonhosted.org/packages/e6/99/1a88558b12f78e17ea703384f3f34f5ac45a1acff4947491830c6add1434/tensorflow_macos-2.9.1-cp39-cp39-macosx_11_0_x86_64.whl
+[2023-06-29 18:13:27] INFO root fetch - processPackages [archytas]: executing diffoscope
+[2023-06-29 18:13:27] INFO root fetch - processPackages [archytas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archytas-1.0.1.tar.gz tmp/archytas-1.0.2.tar.gz --markdown 20230629/a/archytas/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-29 18:13:27] WARNING root fetch - processPackages [tensorflow-macos]: Skipping package: exceeds size limit 237539752>=10485760
+[2023-06-29 18:13:27] INFO root fetch - processPackages [tensorflow-macos]: Start processing: twitter-api-client
+[2023-06-29 18:13:27] INFO root fetch - main [MainThread]: End processing [tensorflow-macos] error
+[2023-06-29 18:13:27] INFO root fetch - processPackages [mahdix]: Downloading https://files.pythonhosted.org/packages/ed/68/79f3fc89e9c079bb5a4db9798da348bbb00599def5be7181ee7c62b46510/mahdix-0.1.3.5.tar.gz
+[2023-06-29 18:13:27] INFO root fetch - processPackages [twitter-api-client]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-29 18:13:27] INFO root fetch - processPackages [twitter-api-client]: Downloading https://files.pythonhosted.org/packages/6d/c9/1d547e8da64fdc6c40cf41bfcd04bab1dc66b8b77d10c444ff66c5a904dc/twitter-api-client-0.9.8.tar.gz
+[2023-06-29 18:13:27] INFO root fetch - processPackages [mahdix]: Downloading https://files.pythonhosted.org/packages/db/c2/3673332b43df9da17a80de5ebbe5560a67102a626ed6cfb23f6c6318f09b/mahdix-0.1.3.6.tar.gz
+[2023-06-29 18:13:27] INFO root fetch - processPackages [mahdix]: executing diffoscope
+[2023-06-29 18:13:27] INFO root fetch - processPackages [mahdix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mahdix-0.1.3.5.tar.gz tmp/mahdix-0.1.3.6.tar.gz --markdown 20230629/m/mahdix/0.1.3.5-0.1.3.6/diff.md --exclude *.pyd
+[2023-06-29 18:13:27] INFO root fetch - processPackages [hypernetx]: Remove: archive file [/home/abi/fetcher/tmp/hypernetx-2.0.1.tar.gz]
+[2023-06-29 18:13:27] INFO root fetch - processPackages [hypernetx]: Remove: archive file [/home/abi/fetcher/tmp/hypernetx-2.0.2.tar.gz]
+[2023-06-29 18:13:27] INFO root fetch - processPackages [hypernetx]: Start processing: polytope-client
+[2023-06-29 18:13:27] INFO root fetch - main [MainThread]: End processing [hypernetx]: success
+[2023-06-29 18:13:27] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-06-29 18:13:27] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230629/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 18:13:27] INFO root fetch - processPackages [twitter-api-client]: Downloading https://files.pythonhosted.org/packages/01/72/7a27249d90e3f2e1c268ed5863305cd0c3a1970bb7a1b645b17053605afe/twitter-api-client-0.9.9.tar.gz
+[2023-06-29 18:13:28] INFO root fetch - processPackages [twitter-api-client]: executing diffoscope
+[2023-06-29 18:13:28] INFO root fetch - processPackages [twitter-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter-api-client-0.9.8.tar.gz tmp/twitter-api-client-0.9.9.tar.gz --markdown 20230629/t/twitter-api-client/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-29 18:13:28] INFO root fetch - processPackages [polytope-client]: New version: [0.7.1] Old Version: [0.6.3]
+[2023-06-29 18:13:28] INFO root fetch - processPackages [polytope-client]: Downloading https://files.pythonhosted.org/packages/e1/25/abe399f71baf07c7f38e3e147a11c6ba88483a63c9f24267b6b7b83ea6eb/polytope-client-0.6.3.tar.gz
+[2023-06-29 18:13:28] INFO root fetch - processPackages [archytas]: Remove: archive file [/home/abi/fetcher/tmp/archytas-1.0.1.tar.gz]
+[2023-06-29 18:13:28] INFO root fetch - processPackages [archytas]: Remove: archive file [/home/abi/fetcher/tmp/archytas-1.0.2.tar.gz]
+[2023-06-29 18:13:28] INFO root fetch - processPackages [archytas]: Start processing: OpenRadio
+[2023-06-29 18:13:28] INFO root fetch - main [MainThread]: End processing [archytas]: success
+[2023-06-29 18:13:28] INFO root fetch - processPackages [bfgcardplay]: Remove: archive file [/home/abi/fetcher/tmp/bfgcardplay-1.0.8.tar.gz]
+[2023-06-29 18:13:28] INFO root fetch - processPackages [bfgcardplay]: Remove: archive file [/home/abi/fetcher/tmp/bfgcardplay-1.0.9.tar.gz]
+[2023-06-29 18:13:28] INFO root fetch - main [MainThread]: End processing [bfgcardplay]: success
+[2023-06-29 18:13:28] INFO root fetch - processPackages [canaille]: Downloading https://files.pythonhosted.org/packages/ea/de/e5cb98bd36f4d3ede89c7fd372eb1414185d621efaba9f50b438082962d5/Canaille-0.0.9.tar.gz
+[2023-06-29 18:13:28] INFO root fetch - processPackages [django-yubin]: Remove: archive file [/home/abi/fetcher/tmp/django-yubin-2.0.0b2.tar.gz]
+[2023-06-29 18:13:28] INFO root fetch - processPackages [django-yubin]: Remove: archive file [/home/abi/fetcher/tmp/django-yubin-2.0.0b3.tar.gz]
+[2023-06-29 18:13:28] INFO root fetch - main [MainThread]: End processing [django-yubin]: success
+[2023-06-29 18:13:28] INFO root fetch - processPackages [OpenRadio]: New version: [1.1.0] Old Version: [1.0]
+[2023-06-29 18:13:28] INFO root fetch - processPackages [polytope-client]: Downloading https://files.pythonhosted.org/packages/67/d7/bfe35bd156ef6bcd7960b88e9fc7199766afbb3c92ee4a93d254a3b0b0ac/polytope-client-0.7.1.tar.gz
+[2023-06-29 18:13:28] INFO root fetch - processPackages [OpenRadio]: Downloading https://files.pythonhosted.org/packages/27/19/4c3d66e694926c9a9ca94acd880d4bd284a501be5fb955e348c1bd900101/OpenRadio-1.0.tar.gz
+[2023-06-29 18:13:28] INFO root fetch - processPackages [polytope-client]: executing diffoscope
+[2023-06-29 18:13:28] INFO root fetch - processPackages [polytope-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polytope-client-0.6.3.tar.gz tmp/polytope-client-0.7.1.tar.gz --markdown 20230629/p/polytope-client/0.6.3-0.7.1/diff.md --exclude *.pyd
+[2023-06-29 18:13:28] INFO root fetch - processPackages [mahdix]: Remove: archive file [/home/abi/fetcher/tmp/mahdix-0.1.3.5.tar.gz]
+[2023-06-29 18:13:28] INFO root fetch - processPackages [mahdix]: Remove: archive file [/home/abi/fetcher/tmp/mahdix-0.1.3.6.tar.gz]
+[2023-06-29 18:13:28] INFO root fetch - main [MainThread]: End processing [mahdix]: success
+[2023-06-29 18:13:29] INFO root fetch - processPackages [twitter-api-client]: Remove: archive file [/home/abi/fetcher/tmp/twitter-api-client-0.9.8.tar.gz]
+[2023-06-29 18:13:29] INFO root fetch - processPackages [twitter-api-client]: Remove: archive file [/home/abi/fetcher/tmp/twitter-api-client-0.9.9.tar.gz]
+[2023-06-29 18:13:29] INFO root fetch - main [MainThread]: End processing [twitter-api-client]: success
+[2023-06-29 18:13:29] INFO root fetch - processPackages [OpenRadio]: Downloading https://files.pythonhosted.org/packages/29/4d/208c8101f91b0b9497c89fc4184792a16eb9f7baa7d6bc07cdfce1a060a0/OpenRadio-1.1.0.tar.gz
+[2023-06-29 18:13:29] INFO root fetch - processPackages [OpenRadio]: executing diffoscope
+[2023-06-29 18:13:29] INFO root fetch - processPackages [OpenRadio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenRadio-1.0.tar.gz tmp/OpenRadio-1.1.0.tar.gz --markdown 20230629/O/OpenRadio/1.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-29 18:13:29] INFO root fetch - processPackages [canaille]: executing diffoscope
+[2023-06-29 18:13:29] INFO root fetch - processPackages [canaille]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Canaille-0.0.8.tar.gz tmp/Canaille-0.0.9.tar.gz --markdown 20230629/c/canaille/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 18:13:29] INFO root fetch - processPackages [polytope-client]: Remove: archive file [/home/abi/fetcher/tmp/polytope-client-0.6.3.tar.gz]
+[2023-06-29 18:13:29] INFO root fetch - processPackages [polytope-client]: Remove: archive file [/home/abi/fetcher/tmp/polytope-client-0.7.1.tar.gz]
+[2023-06-29 18:13:29] INFO root fetch - main [MainThread]: End processing [polytope-client]: success
+[2023-06-29 18:13:31] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.6.8.tar.gz]
+[2023-06-29 18:13:31] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.6.9.tar.gz]
+[2023-06-29 18:13:31] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-06-29 18:13:32] INFO root fetch - processPackages [OpenRadio]: Remove: archive file [/home/abi/fetcher/tmp/OpenRadio-1.0.tar.gz]
+[2023-06-29 18:13:32] INFO root fetch - processPackages [OpenRadio]: Remove: archive file [/home/abi/fetcher/tmp/OpenRadio-1.1.0.tar.gz]
+[2023-06-29 18:13:32] INFO root fetch - main [MainThread]: End processing [OpenRadio]: success
+[2023-06-29 18:13:33] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-06-29 18:13:33] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-06-29 18:13:33] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-06-29 18:13:37] INFO root fetch - processPackages [ask-smapi-model]: Remove: archive file [/home/abi/fetcher/tmp/ask-smapi-model-1.9.1.tar.gz]
+[2023-06-29 18:13:37] INFO root fetch - processPackages [ask-smapi-model]: Remove: archive file [/home/abi/fetcher/tmp/ask-smapi-model-1.9.2.tar.gz]
+[2023-06-29 18:13:37] INFO root fetch - main [MainThread]: End processing [ask-smapi-model]: success
+[2023-06-29 18:13:38] INFO root fetch - processPackages [canaille]: Remove: archive file [/home/abi/fetcher/tmp/Canaille-0.0.8.tar.gz]
+[2023-06-29 18:13:38] INFO root fetch - processPackages [canaille]: Remove: archive file [/home/abi/fetcher/tmp/Canaille-0.0.9.tar.gz]
+[2023-06-29 18:13:38] INFO root fetch - main [MainThread]: End processing [canaille]: success
+[2023-06-29 18:13:38] INFO root fetch - main [MainThread]: Store serial: [18697654]
