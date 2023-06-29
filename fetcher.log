@@ -18145,3 +18145,186 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 19:13:11] INFO root fetch - processPackages [django-stubs]: Remove: archive file [/home/abi/fetcher/tmp/django-stubs-4.2.3.tar.gz]
 [2023-06-29 19:13:11] INFO root fetch - main [MainThread]: End processing [django-stubs]: success
 [2023-06-29 19:13:11] INFO root fetch - main [MainThread]: Store serial: [18698438]
+[2023-06-29 19:18:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18698438]
+[2023-06-29 19:18:21] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-29 19:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-lsp-server
+[2023-06-29 19:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: live-parquet
+[2023-06-29 19:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atlas-finance-noad
+[2023-06-29 19:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sob
+[2023-06-29 19:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: macrometa-target-mssql
+[2023-06-29 19:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: appian-locust
+[2023-06-29 19:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyProcessingPipeline
+[2023-06-29 19:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: admobilizeapis
+[2023-06-29 19:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gascompressibility
+[2023-06-29 19:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dapla-toolbelt-pseudo
+[2023-06-29 19:18:21] INFO root fetch - processPackages [python-lsp-server]: New version: [1.7.4] Old Version: [1.7.3]
+[2023-06-29 19:18:21] INFO root fetch - processPackages [live-parquet]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-29 19:18:21] INFO root fetch - processPackages [sob]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-29 19:18:21] INFO root fetch - processPackages [macrometa-target-mssql]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-29 19:18:21] INFO root fetch - processPackages [pyProcessingPipeline]: New version: [0.0.1.dev1] Old Version: [0.0.1.dev0]
+[2023-06-29 19:18:21] INFO root fetch - processPackages [gascompressibility]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-29 19:18:21] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-06-29 19:18:21] INFO root fetch - processPackages [appian-locust]: New version: [2.0.0b0] Old Version: [2.0.0a9]
+[2023-06-29 19:18:21] INFO root fetch - processPackages [admobilizeapis]: New version: [2023.6.29.post1] Old Version: [2023.6.22.post1]
+[2023-06-29 19:18:21] INFO root fetch - processPackages [gascompressibility]: Downloading https://files.pythonhosted.org/packages/24/02/a63f63e7b2ea387d7b7ecb60966b0c2050a25a01d5583802efe583f78aef/gascompressibility-0.1.4.tar.gz
+[2023-06-29 19:18:21] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/b5/6f/14df00c6558a988f4b6a8d44f135a7c55177c1198b15370d3f8844ab5fa5/macrometa-target-mssql-0.0.5.tar.gz
+[2023-06-29 19:18:21] ERROR root fetch - processPackages [atlas-finance-noad]: Unable to get metadata: No such project 'atlas-finance-noad'
+[2023-06-29 19:18:21] INFO root fetch - processPackages [atlas-finance-noad]: Start processing: ntropy-sdk
+[2023-06-29 19:18:21] INFO root fetch - main [MainThread]: End processing [atlas-finance-noad] error
+[2023-06-29 19:18:21] INFO root fetch - processPackages [ntropy-sdk]: New version: [4.9.1rc1] Old Version: [4.9.0rc8]
+[2023-06-29 19:18:21] INFO root fetch - processPackages [pyProcessingPipeline]: executing diffoscope
+[2023-06-29 19:18:21] INFO root fetch - processPackages [pyProcessingPipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyProcessingPipeline-0.0.1.dev0.tar.gz tmp/pyProcessingPipeline-0.0.1.dev1.tar.gz --markdown 20230629/p/pyProcessingPipeline/0.0.1.dev0-0.0.1.dev1/diff.md --exclude *.pyd
+[2023-06-29 19:18:21] INFO root fetch - processPackages [live-parquet]: Downloading https://files.pythonhosted.org/packages/f2/5d/368e9877a0dbaf2b187ba0a0c962a9e0767ecd1a1b1904d4135f52fd22a2/live_parquet-0.2.0.tar.gz
+[2023-06-29 19:18:21] INFO root fetch - processPackages [sob]: Downloading https://files.pythonhosted.org/packages/68/0b/18d1e5972567a1b3660ba9733a5c03b2b71fca688a5aa5470a0e42a09190/sob-1.8.0.tar.gz
+[2023-06-29 19:18:21] INFO root fetch - processPackages [python-lsp-server]: Downloading https://files.pythonhosted.org/packages/73/82/34eea2e9f8b93f2cb97425140e06cae21a1e43a93ee3da70c975856c9281/python-lsp-server-1.7.3.tar.gz
+[2023-06-29 19:18:21] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Downloading https://files.pythonhosted.org/packages/f3/98/46f4537cd8f405cc8ce7caa55b7d21b232ab4a78c964487893d1b178ec0a/dapla_toolbelt_pseudo-0.2.9.tar.gz
+[2023-06-29 19:18:21] INFO root fetch - processPackages [appian-locust]: Downloading https://files.pythonhosted.org/packages/a2/64/3ae6a268fdfbf4802cf40b7af560a886241d4cfb73cc1a155f5a3bb4564a/appian-locust-2.0.0a9.tar.gz
+[2023-06-29 19:18:21] INFO root fetch - processPackages [ntropy-sdk]: executing diffoscope
+[2023-06-29 19:18:21] INFO root fetch - processPackages [ntropy-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntropy_sdk-4.9.0rc8.tar.gz tmp/ntropy_sdk-4.9.1rc1.tar.gz --markdown 20230629/n/ntropy-sdk/4.9.0rc8-4.9.1rc1/diff.md --exclude *.pyd
+[2023-06-29 19:18:21] INFO root fetch - processPackages [admobilizeapis]: Downloading https://files.pythonhosted.org/packages/81/d7/b61b139b5e4c87bc1edb274ec7abf824bfab45c4cd97783db9138c5aa7cb/admobilizeapis-2023.6.22.post1.tar.gz
+[2023-06-29 19:18:21] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/e0/a0/3f0465e2d00a7069659c01b9bd097f71abb92442cdde44a377b64de1c04e/macrometa-target-mssql-0.0.6.tar.gz
+[2023-06-29 19:18:21] INFO root fetch - processPackages [gascompressibility]: Downloading https://files.pythonhosted.org/packages/0a/af/2e66a57f1ae9511aa01ca9612637f5829d259782a1ba71aad8499bb55829/gascompressibility-0.1.5.tar.gz
+[2023-06-29 19:18:21] INFO root fetch - processPackages [live-parquet]: Downloading https://files.pythonhosted.org/packages/cc/a5/452e199aaba61381874842671a159fb9c8d21916e95cb9b57b85c3b4000b/live_parquet-0.3.0.tar.gz
+[2023-06-29 19:18:21] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Downloading https://files.pythonhosted.org/packages/9c/47/487fe9c5cb75086587c94374c49597d0f6212f4d9fb17c787332537c8d93/dapla_toolbelt_pseudo-0.3.0.tar.gz
+[2023-06-29 19:18:21] INFO root fetch - processPackages [macrometa-target-mssql]: executing diffoscope
+[2023-06-29 19:18:21] INFO root fetch - processPackages [macrometa-target-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mssql-0.0.5.tar.gz tmp/macrometa-target-mssql-0.0.6.tar.gz --markdown 20230629/m/macrometa-target-mssql/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-29 19:18:21] INFO root fetch - processPackages [python-lsp-server]: Downloading https://files.pythonhosted.org/packages/7e/56/b7c8569ab17ed75a858487d26fa5e8f489e72e8d5842107329490c6a6323/python-lsp-server-1.7.4.tar.gz
+[2023-06-29 19:18:21] INFO root fetch - processPackages [gascompressibility]: executing diffoscope
+[2023-06-29 19:18:21] INFO root fetch - processPackages [gascompressibility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gascompressibility-0.1.4.tar.gz tmp/gascompressibility-0.1.5.tar.gz --markdown 20230629/g/gascompressibility/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-29 19:18:21] INFO root fetch - processPackages [sob]: Downloading https://files.pythonhosted.org/packages/0a/91/66740726cd91782b276f3988fdbe597428377437c72a2be9b03340cbbd72/sob-1.9.0.tar.gz
+[2023-06-29 19:18:21] INFO root fetch - processPackages [appian-locust]: Downloading https://files.pythonhosted.org/packages/df/94/afcfdb5b8a936b705f04d1f6bb7f0ad7f05cc77db506b078ca19235fc5a9/appian-locust-2.0.0b0.tar.gz
+[2023-06-29 19:18:21] INFO root fetch - processPackages [admobilizeapis]: Downloading https://files.pythonhosted.org/packages/3b/48/c8523157342b433db72bd7bbb6a88469afb7a739f8dcb971abf20c2aa1bc/admobilizeapis-2023.6.29.post1.tar.gz
+[2023-06-29 19:18:21] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: executing diffoscope
+[2023-06-29 19:18:21] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapla_toolbelt_pseudo-0.2.9.tar.gz tmp/dapla_toolbelt_pseudo-0.3.0.tar.gz --markdown 20230629/d/dapla-toolbelt-pseudo/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-06-29 19:18:21] INFO root fetch - processPackages [python-lsp-server]: executing diffoscope
+[2023-06-29 19:18:21] INFO root fetch - processPackages [python-lsp-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-lsp-server-1.7.3.tar.gz tmp/python-lsp-server-1.7.4.tar.gz --markdown 20230629/p/python-lsp-server/1.7.3-1.7.4/diff.md --exclude *.pyd
+[2023-06-29 19:18:21] INFO root fetch - processPackages [sob]: executing diffoscope
+[2023-06-29 19:18:21] INFO root fetch - processPackages [sob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sob-1.8.0.tar.gz tmp/sob-1.9.0.tar.gz --markdown 20230629/s/sob/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-29 19:18:21] INFO root fetch - processPackages [live-parquet]: executing diffoscope
+[2023-06-29 19:18:21] INFO root fetch - processPackages [live-parquet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/live_parquet-0.2.0.tar.gz tmp/live_parquet-0.3.0.tar.gz --markdown 20230629/l/live-parquet/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-29 19:18:21] INFO root fetch - processPackages [appian-locust]: executing diffoscope
+[2023-06-29 19:18:21] INFO root fetch - processPackages [appian-locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appian-locust-2.0.0a9.tar.gz tmp/appian-locust-2.0.0b0.tar.gz --markdown 20230629/a/appian-locust/2.0.0a9-2.0.0b0/diff.md --exclude *.pyd
+[2023-06-29 19:18:21] INFO root fetch - processPackages [admobilizeapis]: executing diffoscope
+[2023-06-29 19:18:21] INFO root fetch - processPackages [admobilizeapis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/admobilizeapis-2023.6.22.post1.tar.gz tmp/admobilizeapis-2023.6.29.post1.tar.gz --markdown 20230629/a/admobilizeapis/2023.6.22.post1-2023.6.29.post1/diff.md --exclude *.pyd
+[2023-06-29 19:18:22] INFO root fetch - processPackages [pyProcessingPipeline]: Remove: archive file [/home/abi/fetcher/tmp/PyProcessingPipeline-0.0.1.dev0.tar.gz]
+[2023-06-29 19:18:22] INFO root fetch - processPackages [pyProcessingPipeline]: Remove: archive file [/home/abi/fetcher/tmp/pyProcessingPipeline-0.0.1.dev1.tar.gz]
+[2023-06-29 19:18:22] INFO root fetch - processPackages [pyProcessingPipeline]: Start processing: live-parquet
+[2023-06-29 19:18:22] INFO root fetch - main [MainThread]: End processing [pyProcessingPipeline]: success
+[2023-06-29 19:18:22] INFO root fetch - processPackages [live-parquet]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-29 19:18:22] INFO root fetch - processPackages [live-parquet]: executing diffoscope
+[2023-06-29 19:18:22] INFO root fetch - processPackages [live-parquet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/live_parquet-0.2.0.tar.gz tmp/live_parquet-0.3.0.tar.gz --markdown 20230629/l/live-parquet/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-29 19:18:22] INFO root fetch - processPackages [ntropy-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ntropy_sdk-4.9.0rc8.tar.gz]
+[2023-06-29 19:18:22] INFO root fetch - processPackages [ntropy-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ntropy_sdk-4.9.1rc1.tar.gz]
+[2023-06-29 19:18:22] INFO root fetch - processPackages [ntropy-sdk]: Start processing: pylsat
+[2023-06-29 19:18:22] INFO root fetch - main [MainThread]: End processing [ntropy-sdk]: success
+[2023-06-29 19:18:22] INFO root fetch - processPackages [pylsat]: New version: [0.2.5] Old Version: [0.2.3]
+[2023-06-29 19:18:22] INFO root fetch - processPackages [pylsat]: Downloading https://files.pythonhosted.org/packages/c5/1d/a4e519a99f48de59173b056c849d69916504e687857cde8489016599fee9/pylsat-0.2.3.tar.gz
+[2023-06-29 19:18:23] INFO root fetch - processPackages [pylsat]: Downloading https://files.pythonhosted.org/packages/26/ae/8ad80bcd49cac49e43fae1d13f2512b13dfbbd5f3a534caea7d22b9ef41d/pylsat-0.2.5.tar.gz
+[2023-06-29 19:18:23] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.5.tar.gz]
+[2023-06-29 19:18:23] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.6.tar.gz]
+[2023-06-29 19:18:23] INFO root fetch - processPackages [macrometa-target-mssql]: Start processing: fastapi-orm-manager
+[2023-06-29 19:18:23] INFO root fetch - main [MainThread]: End processing [macrometa-target-mssql]: success
+[2023-06-29 19:18:23] INFO root fetch - processPackages [fastapi-orm-manager]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 19:18:23] INFO root fetch - processPackages [pylsat]: executing diffoscope
+[2023-06-29 19:18:23] INFO root fetch - processPackages [pylsat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylsat-0.2.3.tar.gz tmp/pylsat-0.2.5.tar.gz --markdown 20230629/p/pylsat/0.2.3-0.2.5/diff.md --exclude *.pyd
+[2023-06-29 19:18:23] INFO root fetch - processPackages [fastapi-orm-manager]: Downloading https://files.pythonhosted.org/packages/dd/2c/0d7f05beacca4842cc4f5b14352f3c3d18b993d2ac2b8ace7988cfadc311/fastapi_orm_manager-0.0.8.tar.gz
+[2023-06-29 19:18:23] INFO root fetch - processPackages [fastapi-orm-manager]: Downloading https://files.pythonhosted.org/packages/e1/0a/09527011b2951442ea3af5f11398d1b29c77865c74c5b44e24d3b76d46b9/fastapi_orm_manager-0.0.9.tar.gz
+[2023-06-29 19:18:23] INFO root fetch - processPackages [live-parquet]: Remove: archive file [/home/abi/fetcher/tmp/live_parquet-0.2.0.tar.gz]
+[2023-06-29 19:18:23] INFO root fetch - processPackages [live-parquet]: Remove: archive file [/home/abi/fetcher/tmp/live_parquet-0.3.0.tar.gz]
+[2023-06-29 19:18:23] INFO root fetch - processPackages [live-parquet]: Start processing: ably
+[2023-06-29 19:18:23] INFO root fetch - main [MainThread]: End processing [live-parquet]: success
+[2023-06-29 19:18:23] INFO root fetch - processPackages [ably]: New version: [2.0.0b6] Old Version: [2.0.0b5]
+[2023-06-29 19:18:23] INFO root fetch - processPackages [gascompressibility]: Remove: archive file [/home/abi/fetcher/tmp/gascompressibility-0.1.4.tar.gz]
+[2023-06-29 19:18:23] INFO root fetch - processPackages [gascompressibility]: Remove: archive file [/home/abi/fetcher/tmp/gascompressibility-0.1.5.tar.gz]
+[2023-06-29 19:18:23] INFO root fetch - processPackages [gascompressibility]: Start processing: receptor-utils
+[2023-06-29 19:18:23] INFO root fetch - main [MainThread]: End processing [gascompressibility]: success
+[2023-06-29 19:18:23] INFO root fetch - processPackages [fastapi-orm-manager]: executing diffoscope
+[2023-06-29 19:18:23] INFO root fetch - processPackages [fastapi-orm-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_orm_manager-0.0.8.tar.gz tmp/fastapi_orm_manager-0.0.9.tar.gz --markdown 20230629/f/fastapi-orm-manager/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 19:18:23] INFO root fetch - processPackages [receptor-utils]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-29 19:18:23] INFO root fetch - processPackages [sob]: Remove: archive file [/home/abi/fetcher/tmp/sob-1.8.0.tar.gz]
+[2023-06-29 19:18:23] INFO root fetch - processPackages [sob]: Remove: archive file [/home/abi/fetcher/tmp/sob-1.9.0.tar.gz]
+[2023-06-29 19:18:23] INFO root fetch - processPackages [sob]: Start processing: backwork-backup-files
+[2023-06-29 19:18:23] INFO root fetch - main [MainThread]: End processing [sob]: success
+[2023-06-29 19:18:23] INFO root fetch - processPackages [backwork-backup-files]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-29 19:18:23] INFO root fetch - processPackages [ably]: Downloading https://files.pythonhosted.org/packages/99/ba/eda387dadd8e5ab7555bf21781aa92ae7610beba6da9b1b60a65ad78e5e3/ably-2.0.0b5.tar.gz
+[2023-06-29 19:18:23] ERROR root fetch - processPackages [live-parquet]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/live_parquet-0.2.0.tar.gz does not exist
+
+[2023-06-29 19:18:23] INFO root fetch - processPackages [live-parquet]: Start processing: chorde
+[2023-06-29 19:18:23] INFO root fetch - main [MainThread]: End processing [live-parquet] error
+[2023-06-29 19:18:23] INFO root fetch - processPackages [chorde]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-29 19:18:23] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Remove: archive file [/home/abi/fetcher/tmp/dapla_toolbelt_pseudo-0.2.9.tar.gz]
+[2023-06-29 19:18:23] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Remove: archive file [/home/abi/fetcher/tmp/dapla_toolbelt_pseudo-0.3.0.tar.gz]
+[2023-06-29 19:18:23] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Start processing: screwduplicates
+[2023-06-29 19:18:23] INFO root fetch - main [MainThread]: End processing [dapla-toolbelt-pseudo]: success
+[2023-06-29 19:18:23] INFO root fetch - processPackages [backwork-backup-files]: Downloading https://files.pythonhosted.org/packages/f7/b0/72e01a9f921753ad812c9fdd8b1ea073258470dcb357c9d5baecd2d06e43/backwork-backup-files-0.3.0.tar.gz
+[2023-06-29 19:18:23] WARNING root fetch - processPackages [screwduplicates]: Skipping, unable to determine old version
+[2023-06-29 19:18:23] INFO root fetch - processPackages [screwduplicates]: Start processing: extrabol
+[2023-06-29 19:18:23] INFO root fetch - main [MainThread]: End processing [screwduplicates] error
+[2023-06-29 19:18:23] INFO root fetch - processPackages [receptor-utils]: Downloading https://files.pythonhosted.org/packages/89/ba/ab6785d1397a0c44ce1f5f416dd1856c4680f7009de5763995bf2d283fb1/receptor_utils-0.0.4.tar.gz
+[2023-06-29 19:18:24] INFO root fetch - processPackages [chorde]: Downloading https://files.pythonhosted.org/packages/eb/fb/91a0f41ad86aaa8fb8509d9999b319562778f50d3f9916f0531c4505f18c/chorde-1.0.6.tar.gz
+[2023-06-29 19:18:24] INFO root fetch - processPackages [extrabol]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-29 19:18:24] INFO root fetch - processPackages [ably]: Downloading https://files.pythonhosted.org/packages/5e/1a/d443c257350496b0818696de41ac6e8557b691066df66832b5a396308fd7/ably-2.0.0b6.tar.gz
+[2023-06-29 19:18:24] INFO root fetch - processPackages [backwork-backup-files]: Downloading https://files.pythonhosted.org/packages/68/e1/616d4c4de12c411b57c2455335f840ba76fd12bc94ce77b7ffc3b891bbc4/backwork-backup-files-0.3.1.tar.gz
+[2023-06-29 19:18:24] INFO root fetch - processPackages [ably]: executing diffoscope
+[2023-06-29 19:18:24] INFO root fetch - processPackages [ably]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ably-2.0.0b5.tar.gz tmp/ably-2.0.0b6.tar.gz --markdown 20230629/a/ably/2.0.0b5-2.0.0b6/diff.md --exclude *.pyd
+[2023-06-29 19:18:24] INFO root fetch - processPackages [pylsat]: Remove: archive file [/home/abi/fetcher/tmp/pylsat-0.2.3.tar.gz]
+[2023-06-29 19:18:24] INFO root fetch - processPackages [pylsat]: Remove: archive file [/home/abi/fetcher/tmp/pylsat-0.2.5.tar.gz]
+[2023-06-29 19:18:24] INFO root fetch - main [MainThread]: End processing [pylsat]: success
+[2023-06-29 19:18:24] INFO root fetch - processPackages [extrabol]: Downloading https://files.pythonhosted.org/packages/f9/31/066791620f57774e96be4dc5f458afad2b3a9dda901db717dbf57ceb7276/extrabol-1.0.0.tar.gz
+[2023-06-29 19:18:24] INFO root fetch - processPackages [chorde]: Downloading https://files.pythonhosted.org/packages/57/af/ff3d2bfa361860f407967dbc0f6763b8f1a1ea285746a09dde8d19bd35db/chorde-1.0.7.tar.gz
+[2023-06-29 19:18:24] INFO root fetch - processPackages [backwork-backup-files]: executing diffoscope
+[2023-06-29 19:18:24] INFO root fetch - processPackages [backwork-backup-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backwork-backup-files-0.3.0.tar.gz tmp/backwork-backup-files-0.3.1.tar.gz --markdown 20230629/b/backwork-backup-files/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-29 19:18:24] INFO root fetch - processPackages [receptor-utils]: Downloading https://files.pythonhosted.org/packages/e1/56/f5dc8a01d2e5977e8a330f24df2083d3fb89d800cf9445903a92f1c46263/receptor_utils-0.0.5.tar.gz
+[2023-06-29 19:18:24] INFO root fetch - processPackages [chorde]: executing diffoscope
+[2023-06-29 19:18:24] INFO root fetch - processPackages [chorde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chorde-1.0.6.tar.gz tmp/chorde-1.0.7.tar.gz --markdown 20230629/c/chorde/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-29 19:18:24] INFO root fetch - processPackages [receptor-utils]: executing diffoscope
+[2023-06-29 19:18:24] INFO root fetch - processPackages [receptor-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/receptor_utils-0.0.4.tar.gz tmp/receptor_utils-0.0.5.tar.gz --markdown 20230629/r/receptor-utils/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-29 19:18:24] INFO root fetch - processPackages [extrabol]: Downloading https://files.pythonhosted.org/packages/74/51/70b6dc84fabed3e93b12532c37bfde564a2eebe041fc262ff7fe4ee97fc6/extrabol-1.0.1.tar.gz
+[2023-06-29 19:18:24] INFO root fetch - processPackages [fastapi-orm-manager]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_orm_manager-0.0.8.tar.gz]
+[2023-06-29 19:18:24] INFO root fetch - processPackages [fastapi-orm-manager]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_orm_manager-0.0.9.tar.gz]
+[2023-06-29 19:18:24] INFO root fetch - main [MainThread]: End processing [fastapi-orm-manager]: success
+[2023-06-29 19:18:24] INFO root fetch - processPackages [extrabol]: executing diffoscope
+[2023-06-29 19:18:24] INFO root fetch - processPackages [extrabol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extrabol-1.0.0.tar.gz tmp/extrabol-1.0.1.tar.gz --markdown 20230629/e/extrabol/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-29 19:18:24] INFO root fetch - processPackages [appian-locust]: Remove: archive file [/home/abi/fetcher/tmp/appian-locust-2.0.0a9.tar.gz]
+[2023-06-29 19:18:24] INFO root fetch - processPackages [appian-locust]: Remove: archive file [/home/abi/fetcher/tmp/appian-locust-2.0.0b0.tar.gz]
+[2023-06-29 19:18:24] INFO root fetch - main [MainThread]: End processing [appian-locust]: success
+[2023-06-29 19:18:25] INFO root fetch - processPackages [python-lsp-server]: Remove: archive file [/home/abi/fetcher/tmp/python-lsp-server-1.7.3.tar.gz]
+[2023-06-29 19:18:25] INFO root fetch - processPackages [python-lsp-server]: Remove: archive file [/home/abi/fetcher/tmp/python-lsp-server-1.7.4.tar.gz]
+[2023-06-29 19:18:25] INFO root fetch - main [MainThread]: End processing [python-lsp-server]: success
+[2023-06-29 19:18:25] INFO root fetch - processPackages [backwork-backup-files]: Remove: archive file [/home/abi/fetcher/tmp/backwork-backup-files-0.3.0.tar.gz]
+[2023-06-29 19:18:25] INFO root fetch - processPackages [backwork-backup-files]: Remove: archive file [/home/abi/fetcher/tmp/backwork-backup-files-0.3.1.tar.gz]
+[2023-06-29 19:18:25] INFO root fetch - main [MainThread]: End processing [backwork-backup-files]: success
+[2023-06-29 19:18:25] INFO root fetch - processPackages [ably]: Remove: archive file [/home/abi/fetcher/tmp/ably-2.0.0b5.tar.gz]
+[2023-06-29 19:18:25] INFO root fetch - processPackages [ably]: Remove: archive file [/home/abi/fetcher/tmp/ably-2.0.0b6.tar.gz]
+[2023-06-29 19:18:25] INFO root fetch - main [MainThread]: End processing [ably]: success
+[2023-06-29 19:18:25] INFO root fetch - processPackages [receptor-utils]: Remove: archive file [/home/abi/fetcher/tmp/receptor_utils-0.0.4.tar.gz]
+[2023-06-29 19:18:25] INFO root fetch - processPackages [receptor-utils]: Remove: archive file [/home/abi/fetcher/tmp/receptor_utils-0.0.5.tar.gz]
+[2023-06-29 19:18:25] INFO root fetch - main [MainThread]: End processing [receptor-utils]: success
+[2023-06-29 19:18:26] INFO root fetch - processPackages [extrabol]: Remove: archive file [/home/abi/fetcher/tmp/extrabol-1.0.0.tar.gz]
+[2023-06-29 19:18:26] INFO root fetch - processPackages [extrabol]: Remove: archive file [/home/abi/fetcher/tmp/extrabol-1.0.1.tar.gz]
+[2023-06-29 19:18:26] INFO root fetch - main [MainThread]: End processing [extrabol]: success
+[2023-06-29 19:18:27] INFO root fetch - processPackages [chorde]: Remove: archive file [/home/abi/fetcher/tmp/chorde-1.0.6.tar.gz]
+[2023-06-29 19:18:27] INFO root fetch - processPackages [chorde]: Remove: archive file [/home/abi/fetcher/tmp/chorde-1.0.7.tar.gz]
+[2023-06-29 19:18:27] INFO root fetch - main [MainThread]: End processing [chorde]: success
+[2023-06-29 19:19:15] INFO root fetch - processPackages [admobilizeapis]: Remove: archive file [/home/abi/fetcher/tmp/admobilizeapis-2023.6.22.post1.tar.gz]
+[2023-06-29 19:19:15] INFO root fetch - processPackages [admobilizeapis]: Remove: archive file [/home/abi/fetcher/tmp/admobilizeapis-2023.6.29.post1.tar.gz]
+[2023-06-29 19:19:15] INFO root fetch - main [MainThread]: End processing [admobilizeapis]: success
+[2023-06-29 19:19:15] INFO root fetch - main [MainThread]: Store serial: [18698507]
