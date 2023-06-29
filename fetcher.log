@@ -18036,3 +18036,112 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 19:07:51] INFO root fetch - main [MainThread]: End processing [neon-utils]: success
 [2023-06-29 19:07:53] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
 [2023-06-29 19:07:53] INFO root fetch - main [MainThread]: Store serial: [18698397]
+[2023-06-29 19:12:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18698397]
+[2023-06-29 19:13:02] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-29 19:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: isea-plots
+[2023-06-29 19:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airunner
+[2023-06-29 19:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atc-easy-desktop
+[2023-06-29 19:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: delphix-dct-api
+[2023-06-29 19:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: typedspark
+[2023-06-29 19:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wds-client
+[2023-06-29 19:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mindsight-people-control-api
+[2023-06-29 19:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dp4plus-app
+[2023-06-29 19:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sutools
+[2023-06-29 19:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-stubs
+[2023-06-29 19:13:02] WARNING root fetch - processPackages [isea-plots]: Skipping, unable to determine old version
+[2023-06-29 19:13:02] INFO root fetch - processPackages [isea-plots]: Start processing: home-assistant-frontend
+[2023-06-29 19:13:02] INFO root fetch - main [MainThread]: End processing [isea-plots] error
+[2023-06-29 19:13:02] INFO root fetch - processPackages [delphix-dct-api]: New version: [8.0.1rc1] Old Version: [8.0.1]
+[2023-06-29 19:13:02] INFO root fetch - processPackages [wds-client]: New version: [0.2.92] Old Version: [0.2.91]
+[2023-06-29 19:13:02] INFO root fetch - processPackages [typedspark]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-29 19:13:02] INFO root fetch - processPackages [airunner]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-06-29 19:13:02] INFO root fetch - processPackages [dp4plus-app]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 19:13:02] INFO root fetch - processPackages [sutools]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-29 19:13:02] INFO root fetch - processPackages [django-stubs]: New version: [4.2.3] Old Version: [4.2.2]
+[2023-06-29 19:13:02] INFO root fetch - processPackages [mindsight-people-control-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 19:13:02] INFO root fetch - processPackages [home-assistant-frontend]: New version: [20230629.0] Old Version: [20230628.0]
+[2023-06-29 19:13:02] WARNING root fetch - processPackages [atc-easy-desktop]: Skipping, unable to determine old version
+[2023-06-29 19:13:02] INFO root fetch - processPackages [atc-easy-desktop]: Start processing: ovos-PHAL-plugin-homeassistant
+[2023-06-29 19:13:02] INFO root fetch - main [MainThread]: End processing [atc-easy-desktop] error
+[2023-06-29 19:13:02] INFO root fetch - processPackages [dp4plus-app]: executing diffoscope
+[2023-06-29 19:13:02] INFO root fetch - processPackages [dp4plus-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dp4plus_app-0.1.8.tar.gz tmp/dp4plus_app-0.1.9.tar.gz --markdown 20230629/d/dp4plus-app/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 19:13:03] INFO root fetch - processPackages [delphix-dct-api]: Downloading https://files.pythonhosted.org/packages/c8/49/71284d1c8423d2d15f1d6cca1fd76d27c0b7c7200705909593b02e1f9559/delphix-dct-api-8.0.1.tar.gz
+[2023-06-29 19:13:03] INFO root fetch - processPackages [django-stubs]: Downloading https://files.pythonhosted.org/packages/f1/fd/1d6752bc5b2e777424e0f51aae1175dad5663e3694386ce1ac47c5540ce3/django-stubs-4.2.2.tar.gz
+[2023-06-29 19:13:03] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/c7/17/4fd03a6620fcd3ca406edb019a8ca501d8d47055f9a29354d4035447e7d1/airunner-1.9.4.tar.gz
+[2023-06-29 19:13:03] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: New version: [0.0.3a4] Old Version: [0.0.3a2]
+[2023-06-29 19:13:03] INFO root fetch - processPackages [typedspark]: Downloading https://files.pythonhosted.org/packages/c8/7a/5b7af5fea6a6c69d54446f8601e38d6e127d5160464f50fc2fb9f6783a82/typedspark-1.0.8.tar.gz
+[2023-06-29 19:13:03] INFO root fetch - processPackages [wds-client]: Downloading https://files.pythonhosted.org/packages/51/c4/e62d9c23f02784c3c3d0cc41efcbc6dd9ab07569e5aae7eb303951fb7ca9/wds-client-0.2.92.tar.gz
+[2023-06-29 19:13:03] INFO root fetch - processPackages [mindsight-people-control-api]: Downloading https://files.pythonhosted.org/packages/af/a9/fd3573949a4dcc0a76c71efa9c9b37450abba61d48162f0bf62701208119/mindsight_people_control_api-0.1.9.tar.gz
+[2023-06-29 19:13:03] INFO root fetch - processPackages [sutools]: Downloading https://files.pythonhosted.org/packages/df/a3/1312be4b5f9741ef532aa9134a7036815f5ce5dffd2446e3ed3ce8668bad/sutools-0.2.3.tar.gz
+[2023-06-29 19:13:03] INFO root fetch - processPackages [home-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/03/06/144aaed614d777e81ba3c32b33096e10698a2d949324d8df81ef2da31d20/home_assistant_frontend-20230628.0-py3-none-any.whl
+[2023-06-29 19:13:03] WARNING root fetch - processPackages [home-assistant-frontend]: Skipping package: exceeds size limit 45939706>=10485760
+[2023-06-29 19:13:03] INFO root fetch - processPackages [home-assistant-frontend]: Start processing: pulumi-terraform
+[2023-06-29 19:13:03] INFO root fetch - main [MainThread]: End processing [home-assistant-frontend] error
+[2023-06-29 19:13:03] INFO root fetch - processPackages [wds-client]: executing diffoscope
+[2023-06-29 19:13:03] INFO root fetch - processPackages [wds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wds-client-0.2.91.tar.gz tmp/wds-client-0.2.92.tar.gz --markdown 20230629/w/wds-client/0.2.91-0.2.92/diff.md --exclude *.pyd
+[2023-06-29 19:13:03] INFO root fetch - processPackages [mindsight-people-control-api]: executing diffoscope
+[2023-06-29 19:13:03] INFO root fetch - processPackages [mindsight-people-control-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindsight_people_control_api-0.1.8.tar.gz tmp/mindsight_people_control_api-0.1.9.tar.gz --markdown 20230629/m/mindsight-people-control-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 19:13:03] INFO root fetch - processPackages [pulumi-terraform]: New version: [5.9.0] Old Version: [5.8.0a1675048832]
+[2023-06-29 19:13:03] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: Downloading https://files.pythonhosted.org/packages/d2/0a/7a8e3f9f31450a007ea07ea1aa0d1efe4a755ad3de1f12f9f82b16272f6d/ovos-PHAL-plugin-homeassistant-0.0.3a2.tar.gz
+[2023-06-29 19:13:03] INFO root fetch - processPackages [django-stubs]: Downloading https://files.pythonhosted.org/packages/93/f1/1a226ad0889f17786cb7b67d64a222d8862350cfde7bd9544a3f28cbaa9c/django-stubs-4.2.3.tar.gz
+[2023-06-29 19:13:03] INFO root fetch - processPackages [sutools]: Downloading https://files.pythonhosted.org/packages/c3/e3/a95a1f5943d1d3974fa482de0309ae26600aa09afedec404d58c3d9730be/sutools-0.2.4.tar.gz
+[2023-06-29 19:13:03] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/60/cd/d466790071a923540ac289e13a314b39c47ceaefc303cbe0046ca6e65710/airunner-1.9.5.tar.gz
+[2023-06-29 19:13:03] INFO root fetch - processPackages [delphix-dct-api]: Downloading https://files.pythonhosted.org/packages/a5/3e/5ce8f71fe77d96c90c218f8036ea84a2615d6f3b0eec9718fca876433762/delphix-dct-api-8.0.1rc1.tar.gz
+[2023-06-29 19:13:03] INFO root fetch - processPackages [sutools]: executing diffoscope
+[2023-06-29 19:13:03] INFO root fetch - processPackages [sutools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sutools-0.2.3.tar.gz tmp/sutools-0.2.4.tar.gz --markdown 20230629/s/sutools/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-29 19:13:03] INFO root fetch - processPackages [typedspark]: Downloading https://files.pythonhosted.org/packages/f9/d8/51db73310caf1dd33e354a0bd438352fd44612a51dac6e8440593bc7ab02/typedspark-1.0.9.tar.gz
+[2023-06-29 19:13:03] INFO root fetch - processPackages [pulumi-terraform]: Downloading https://files.pythonhosted.org/packages/cc/d0/8a68b0c849ff5e8a56b66dbf2eec33b7b7a0331d44c93e68ebbb6ee4ebc5/pulumi_terraform-5.8.0a1675048832.tar.gz
+[2023-06-29 19:13:03] INFO root fetch - processPackages [airunner]: executing diffoscope
+[2023-06-29 19:13:03] INFO root fetch - processPackages [airunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airunner-1.9.4.tar.gz tmp/airunner-1.9.5.tar.gz --markdown 20230629/a/airunner/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-06-29 19:13:03] INFO root fetch - processPackages [django-stubs]: executing diffoscope
+[2023-06-29 19:13:03] INFO root fetch - processPackages [django-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-stubs-4.2.2.tar.gz tmp/django-stubs-4.2.3.tar.gz --markdown 20230629/d/django-stubs/4.2.2-4.2.3/diff.md --exclude *.pyd
+[2023-06-29 19:13:03] INFO root fetch - processPackages [delphix-dct-api]: executing diffoscope
+[2023-06-29 19:13:03] INFO root fetch - processPackages [delphix-dct-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphix-dct-api-8.0.1.tar.gz tmp/delphix-dct-api-8.0.1rc1.tar.gz --markdown 20230629/d/delphix-dct-api/8.0.1-8.0.1rc1/diff.md --exclude *.pyd
+[2023-06-29 19:13:03] INFO root fetch - processPackages [typedspark]: executing diffoscope
+[2023-06-29 19:13:03] INFO root fetch - processPackages [typedspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedspark-1.0.8.tar.gz tmp/typedspark-1.0.9.tar.gz --markdown 20230629/t/typedspark/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-29 19:13:03] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: Downloading https://files.pythonhosted.org/packages/24/b0/a9e21e2a27a2510b1a27e2cbf3856da08fd6307b84918825f6075406af09/ovos-PHAL-plugin-homeassistant-0.0.3a4.tar.gz
+[2023-06-29 19:13:03] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: executing diffoscope
+[2023-06-29 19:13:03] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-PHAL-plugin-homeassistant-0.0.3a2.tar.gz tmp/ovos-PHAL-plugin-homeassistant-0.0.3a4.tar.gz --markdown 20230629/o/ovos-PHAL-plugin-homeassistant/0.0.3a2-0.0.3a4/diff.md --exclude *.pyd
+[2023-06-29 19:13:03] INFO root fetch - processPackages [pulumi-terraform]: Downloading https://files.pythonhosted.org/packages/f7/2a/ba233e0a470929317e460f8f1955899c56295ad9a19bac2eea8df8579d7c/pulumi_terraform-5.9.0.tar.gz
+[2023-06-29 19:13:04] INFO root fetch - processPackages [pulumi-terraform]: executing diffoscope
+[2023-06-29 19:13:04] INFO root fetch - processPackages [pulumi-terraform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_terraform-5.8.0a1675048832.tar.gz tmp/pulumi_terraform-5.9.0.tar.gz --markdown 20230629/p/pulumi-terraform/5.8.0a1675048832-5.9.0/diff.md --exclude *.pyd
+[2023-06-29 19:13:04] INFO root fetch - processPackages [dp4plus-app]: Remove: archive file [/home/abi/fetcher/tmp/dp4plus_app-0.1.8.tar.gz]
+[2023-06-29 19:13:04] INFO root fetch - processPackages [dp4plus-app]: Remove: archive file [/home/abi/fetcher/tmp/dp4plus_app-0.1.9.tar.gz]
+[2023-06-29 19:13:04] INFO root fetch - processPackages [dp4plus-app]: Start processing: python-lsp-server
+[2023-06-29 19:13:04] INFO root fetch - main [MainThread]: End processing [dp4plus-app]: success
+[2023-06-29 19:13:04] INFO root fetch - processPackages [python-lsp-server]: New version: [1.7.4] Old Version: [1.7.3]
+[2023-06-29 19:13:04] INFO root fetch - processPackages [wds-client]: Remove: archive file [/home/abi/fetcher/tmp/wds-client-0.2.91.tar.gz]
+[2023-06-29 19:13:04] INFO root fetch - processPackages [wds-client]: Remove: archive file [/home/abi/fetcher/tmp/wds-client-0.2.92.tar.gz]
+[2023-06-29 19:13:04] INFO root fetch - main [MainThread]: End processing [wds-client]: success
+[2023-06-29 19:13:04] INFO root fetch - processPackages [mindsight-people-control-api]: Remove: archive file [/home/abi/fetcher/tmp/mindsight_people_control_api-0.1.8.tar.gz]
+[2023-06-29 19:13:04] INFO root fetch - processPackages [mindsight-people-control-api]: Remove: archive file [/home/abi/fetcher/tmp/mindsight_people_control_api-0.1.9.tar.gz]
+[2023-06-29 19:13:04] INFO root fetch - main [MainThread]: End processing [mindsight-people-control-api]: success
+[2023-06-29 19:13:04] INFO root fetch - processPackages [python-lsp-server]: Downloading https://files.pythonhosted.org/packages/73/82/34eea2e9f8b93f2cb97425140e06cae21a1e43a93ee3da70c975856c9281/python-lsp-server-1.7.3.tar.gz
+[2023-06-29 19:13:04] INFO root fetch - processPackages [sutools]: Remove: archive file [/home/abi/fetcher/tmp/sutools-0.2.3.tar.gz]
+[2023-06-29 19:13:04] INFO root fetch - processPackages [sutools]: Remove: archive file [/home/abi/fetcher/tmp/sutools-0.2.4.tar.gz]
+[2023-06-29 19:13:04] INFO root fetch - main [MainThread]: End processing [sutools]: success
+[2023-06-29 19:13:04] INFO root fetch - processPackages [python-lsp-server]: Downloading https://files.pythonhosted.org/packages/7e/56/b7c8569ab17ed75a858487d26fa5e8f489e72e8d5842107329490c6a6323/python-lsp-server-1.7.4.tar.gz
+[2023-06-29 19:13:05] INFO root fetch - processPackages [pulumi-terraform]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_terraform-5.8.0a1675048832.tar.gz]
+[2023-06-29 19:13:05] INFO root fetch - processPackages [pulumi-terraform]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_terraform-5.9.0.tar.gz]
+[2023-06-29 19:13:05] INFO root fetch - main [MainThread]: End processing [pulumi-terraform]: success
+[2023-06-29 19:13:05] INFO root fetch - processPackages [typedspark]: Remove: archive file [/home/abi/fetcher/tmp/typedspark-1.0.8.tar.gz]
+[2023-06-29 19:13:05] INFO root fetch - processPackages [typedspark]: Remove: archive file [/home/abi/fetcher/tmp/typedspark-1.0.9.tar.gz]
+[2023-06-29 19:13:05] INFO root fetch - main [MainThread]: End processing [typedspark]: success
+[2023-06-29 19:13:05] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-1.9.4.tar.gz]
+[2023-06-29 19:13:05] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-1.9.5.tar.gz]
+[2023-06-29 19:13:05] INFO root fetch - main [MainThread]: End processing [airunner]: success
+[2023-06-29 19:13:05] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-homeassistant-0.0.3a2.tar.gz]
+[2023-06-29 19:13:05] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-homeassistant-0.0.3a4.tar.gz]
+[2023-06-29 19:13:05] INFO root fetch - main [MainThread]: End processing [ovos-PHAL-plugin-homeassistant]: success
+[2023-06-29 19:13:05] INFO root fetch - processPackages [python-lsp-server]: executing diffoscope
+[2023-06-29 19:13:05] INFO root fetch - processPackages [python-lsp-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-lsp-server-1.7.3.tar.gz tmp/python-lsp-server-1.7.4.tar.gz --markdown 20230629/p/python-lsp-server/1.7.3-1.7.4/diff.md --exclude *.pyd
+[2023-06-29 19:13:07] INFO root fetch - processPackages [python-lsp-server]: Remove: archive file [/home/abi/fetcher/tmp/python-lsp-server-1.7.3.tar.gz]
+[2023-06-29 19:13:07] INFO root fetch - processPackages [python-lsp-server]: Remove: archive file [/home/abi/fetcher/tmp/python-lsp-server-1.7.4.tar.gz]
+[2023-06-29 19:13:07] INFO root fetch - main [MainThread]: End processing [python-lsp-server]: success
+[2023-06-29 19:13:10] INFO root fetch - processPackages [delphix-dct-api]: Remove: archive file [/home/abi/fetcher/tmp/delphix-dct-api-8.0.1.tar.gz]
+[2023-06-29 19:13:10] INFO root fetch - processPackages [delphix-dct-api]: Remove: archive file [/home/abi/fetcher/tmp/delphix-dct-api-8.0.1rc1.tar.gz]
+[2023-06-29 19:13:10] INFO root fetch - main [MainThread]: End processing [delphix-dct-api]: success
+[2023-06-29 19:13:11] INFO root fetch - processPackages [django-stubs]: Remove: archive file [/home/abi/fetcher/tmp/django-stubs-4.2.2.tar.gz]
+[2023-06-29 19:13:11] INFO root fetch - processPackages [django-stubs]: Remove: archive file [/home/abi/fetcher/tmp/django-stubs-4.2.3.tar.gz]
+[2023-06-29 19:13:11] INFO root fetch - main [MainThread]: End processing [django-stubs]: success
+[2023-06-29 19:13:11] INFO root fetch - main [MainThread]: Store serial: [18698438]
