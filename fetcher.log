@@ -12844,3 +12844,134 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 16:15:22] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.9.tar.gz]
 [2023-06-29 16:15:22] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-06-29 16:15:22] INFO root fetch - main [MainThread]: Store serial: [18696224]
+[2023-06-29 16:20:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18696224]
+[2023-06-29 16:20:30] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-29 16:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: humlab-inidun
+[2023-06-29 16:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: carrot-cdm
+[2023-06-29 16:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: carrot-cdm-beta
+[2023-06-29 16:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hebpipe
+[2023-06-29 16:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-game-collection
+[2023-06-29 16:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ai-code-fixer
+[2023-06-29 16:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyranges
+[2023-06-29 16:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: distrax
+[2023-06-29 16:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ansys-api-pyensight
+[2023-06-29 16:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: omada-api
+[2023-06-29 16:20:30] INFO root fetch - processPackages [humlab-inidun]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-29 16:20:30] INFO root fetch - processPackages [distrax]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-29 16:20:30] INFO root fetch - processPackages [hebpipe]: New version: [3.0.0.4] Old Version: [3.0.0.3]
+[2023-06-29 16:20:30] WARNING root fetch - processPackages [ai-code-fixer]: Skipping, unable to determine old version
+[2023-06-29 16:20:30] INFO root fetch - processPackages [carrot-cdm-beta]: New version: [0.6.87] Old Version: [0.6.86]
+[2023-06-29 16:20:30] INFO root fetch - processPackages [ai-code-fixer]: Start processing: ethoscopy
+[2023-06-29 16:20:30] INFO root fetch - main [MainThread]: End processing [ai-code-fixer] error
+[2023-06-29 16:20:30] INFO root fetch - processPackages [omada-api]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-29 16:20:30] INFO root fetch - processPackages [ansys-api-pyensight]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-29 16:20:30] INFO root fetch - processPackages [carrot-cdm]: New version: [0.6.86] Old Version: [0.6.85]
+[2023-06-29 16:20:30] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-29 16:20:30] INFO root fetch - processPackages [pyranges]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-29 16:20:30] INFO root fetch - processPackages [ethoscopy]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-29 16:20:31] INFO root fetch - processPackages [humlab-inidun]: executing diffoscope
+[2023-06-29 16:20:31] INFO root fetch - processPackages [humlab-inidun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humlab-inidun-0.3.8.tar.gz tmp/humlab-inidun-0.3.9.tar.gz --markdown 20230629/h/humlab-inidun/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-29 16:20:31] INFO root fetch - processPackages [carrot-cdm-beta]: Downloading https://files.pythonhosted.org/packages/f5/1a/8cabb0825c8be2c508f657183bdbb6dee7823044610cdb65f805838fba09/carrot-cdm-beta-0.6.86.tar.gz
+[2023-06-29 16:20:31] INFO root fetch - processPackages [ansys-api-pyensight]: Downloading https://files.pythonhosted.org/packages/64/69/10cf2a6af284858bb8bbbebf6c4bb2e48d7a2ee8a604752e27431d026af0/ansys-api-pyensight-0.1.1.tar.gz
+[2023-06-29 16:20:31] INFO root fetch - processPackages [hebpipe]: Downloading https://files.pythonhosted.org/packages/cd/5d/ce2644be98d7ad862dee6e81ad4adc014d9c0e3fc1450d27ceb640c4d2d0/hebpipe-3.0.0.3.tar.gz
+[2023-06-29 16:20:31] INFO root fetch - processPackages [carrot-cdm]: Downloading https://files.pythonhosted.org/packages/80/a7/57e01738ca22c4ba87185bdb96d00580f75dc7e0cac225cdead26286d3bc/carrot-cdm-0.6.85.tar.gz
+[2023-06-29 16:20:31] INFO root fetch - processPackages [pyranges]: Downloading https://files.pythonhosted.org/packages/cc/7d/48a8a699ffa2c49b6484bd47cf8433b3c68d05ef4b57fc8806a3ebf31bae/pyranges-0.0.98.tar.gz
+[2023-06-29 16:20:31] INFO root fetch - processPackages [omada-api]: Downloading https://files.pythonhosted.org/packages/ad/80/36ee9bf72e2fa594f1bef556616afe34e42cfc38c23f437c2df59e18d957/omada_api-0.1.2.tar.gz
+[2023-06-29 16:20:31] INFO root fetch - processPackages [distrax]: Downloading https://files.pythonhosted.org/packages/88/0b/be885c55fda9ee42715c600187c7cb8fc3854ab6ac9720dd9d45de867300/distrax-0.1.3.tar.gz
+[2023-06-29 16:20:31] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/07/d0/ebcd6d9c3397c5a245c8e65834997b6b1974ee7084fa149409dca5eb7b1d/nonebot_plugin_game_collection-2.2.8.tar.gz
+[2023-06-29 16:20:31] INFO root fetch - processPackages [ethoscopy]: Downloading https://files.pythonhosted.org/packages/8d/ec/d288e809a8195ca8ebeae40e90cb22dfb979d62ac9fd0e5867fa8520ecfa/ethoscopy-1.2.8.tar.gz
+[2023-06-29 16:20:31] INFO root fetch - processPackages [ansys-api-pyensight]: Downloading https://files.pythonhosted.org/packages/1e/2d/ff94d46db017e67314dc890ef1c5a8801775849b61d16e3730965a689563/ansys-api-pyensight-0.2.0.tar.gz
+[2023-06-29 16:20:31] WARNING root fetch - processPackages [ethoscopy]: Skipping package: exceeds size limit 13474154>=10485760
+[2023-06-29 16:20:31] INFO root fetch - processPackages [ethoscopy]: Start processing: navigator-api
+[2023-06-29 16:20:31] INFO root fetch - main [MainThread]: End processing [ethoscopy] error
+[2023-06-29 16:20:31] INFO root fetch - processPackages [carrot-cdm-beta]: Downloading https://files.pythonhosted.org/packages/8e/07/f215a736a664037e793a196e6902a7d374b135ec316fb22470aaf252e4c9/carrot_cdm_beta-0.6.87-py3.9.egg
+[2023-06-29 16:20:31] INFO root fetch - processPackages [navigator-api]: New version: [2.6.9] Old Version: [2.6.8]
+[2023-06-29 16:20:31] INFO root fetch - processPackages [carrot-cdm]: Downloading https://files.pythonhosted.org/packages/3e/f6/3227ddee3bdc384c24c7f0aacb5b972f86579b4b5cf68cccdf60b703ca80/carrot_cdm-0.6.86-py3.9.egg
+[2023-06-29 16:20:31] INFO root fetch - processPackages [omada-api]: Downloading https://files.pythonhosted.org/packages/47/61/2453ef6716bec40ded394b4d3a43e0dda20cdee6ec2f3117edab8163b2bd/omada_api-0.1.3.tar.gz
+[2023-06-29 16:20:31] INFO root fetch - processPackages [ansys-api-pyensight]: executing diffoscope
+[2023-06-29 16:20:31] INFO root fetch - processPackages [ansys-api-pyensight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-api-pyensight-0.1.1.tar.gz tmp/ansys-api-pyensight-0.2.0.tar.gz --markdown 20230629/a/ansys-api-pyensight/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-29 16:20:31] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/26/57/8b244714216be7a805c6e5fc6ef4d0f4df429ea0c8cec347d68c2f87434c/nonebot_plugin_game_collection-2.2.9.tar.gz
+[2023-06-29 16:20:31] INFO root fetch - processPackages [distrax]: Downloading https://files.pythonhosted.org/packages/c0/4e/28ac0618e1e3adcd93d28a3f9a55fb4503748a48bfbd3b031b4de1bb077b/distrax-0.1.4.tar.gz
+[2023-06-29 16:20:31] INFO root fetch - processPackages [carrot-cdm-beta]: executing diffoscope
+[2023-06-29 16:20:31] INFO root fetch - processPackages [carrot-cdm-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carrot-cdm-beta-0.6.86.tar.gz tmp/carrot_cdm_beta-0.6.87-py3.9.egg --markdown 20230629/c/carrot-cdm-beta/0.6.86-0.6.87/diff.md --exclude *.pyd
+[2023-06-29 16:20:31] INFO root fetch - processPackages [carrot-cdm]: executing diffoscope
+[2023-06-29 16:20:31] INFO root fetch - processPackages [carrot-cdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carrot-cdm-0.6.85.tar.gz tmp/carrot_cdm-0.6.86-py3.9.egg --markdown 20230629/c/carrot-cdm/0.6.85-0.6.86/diff.md --exclude *.pyd
+[2023-06-29 16:20:31] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-06-29 16:20:31] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.2.8.tar.gz tmp/nonebot_plugin_game_collection-2.2.9.tar.gz --markdown 20230629/n/nonebot-plugin-game-collection/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-29 16:20:31] INFO root fetch - processPackages [navigator-api]: Downloading https://files.pythonhosted.org/packages/43/b3/6dda4f55e1d3faa57d98d8c8339b3a8c2e280e12edcb071cf369a6eab3b8/navigator_api-2.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-29 16:20:31] INFO root fetch - processPackages [distrax]: executing diffoscope
+[2023-06-29 16:20:31] INFO root fetch - processPackages [distrax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distrax-0.1.3.tar.gz tmp/distrax-0.1.4.tar.gz --markdown 20230629/d/distrax/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-29 16:20:31] INFO root fetch - processPackages [pyranges]: Downloading https://files.pythonhosted.org/packages/4b/72/075fd9696e4c448209d751656d7184b1b3a7738ab256428ba4bef0fbbc25/pyranges-0.0.99.tar.gz
+[2023-06-29 16:20:31] INFO root fetch - processPackages [omada-api]: executing diffoscope
+[2023-06-29 16:20:31] INFO root fetch - processPackages [omada-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omada_api-0.1.2.tar.gz tmp/omada_api-0.1.3.tar.gz --markdown 20230629/o/omada-api/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-29 16:20:31] INFO root fetch - processPackages [pyranges]: executing diffoscope
+[2023-06-29 16:20:31] INFO root fetch - processPackages [pyranges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyranges-0.0.98.tar.gz tmp/pyranges-0.0.99.tar.gz --markdown 20230629/p/pyranges/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-29 16:20:32] INFO root fetch - processPackages [navigator-api]: Downloading https://files.pythonhosted.org/packages/e1/98/0334482971a969cfa2dfd38298d37844a48ae8a8052b69f9cfb99fc44292/navigator_api-2.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-29 16:20:32] INFO root fetch - processPackages [humlab-inidun]: Remove: archive file [/home/abi/fetcher/tmp/humlab-inidun-0.3.8.tar.gz]
+[2023-06-29 16:20:32] INFO root fetch - processPackages [humlab-inidun]: Remove: archive file [/home/abi/fetcher/tmp/humlab-inidun-0.3.9.tar.gz]
+[2023-06-29 16:20:32] INFO root fetch - processPackages [humlab-inidun]: Start processing: medidata
+[2023-06-29 16:20:32] INFO root fetch - main [MainThread]: End processing [humlab-inidun]: success
+[2023-06-29 16:20:32] INFO root fetch - processPackages [medidata]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-29 16:20:32] INFO root fetch - processPackages [navigator-api]: executing diffoscope
+[2023-06-29 16:20:32] INFO root fetch - processPackages [navigator-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navigator_api-2.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/navigator_api-2.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230629/n/navigator-api/2.6.8-2.6.9/diff.md --exclude *.pyd
+[2023-06-29 16:20:32] INFO root fetch - processPackages [medidata]: Downloading https://files.pythonhosted.org/packages/aa/c0/e85c865c0c25429aca8639ed21b997e0a22b2e7e4a121608f322bda69c33/medidata-0.3.0.tar.gz
+[2023-06-29 16:20:32] WARNING root fetch - processPackages [medidata]: Skipping package: exceeds size limit 64412183>=10485760
+[2023-06-29 16:20:32] INFO root fetch - processPackages [medidata]: Start processing: maddaq
+[2023-06-29 16:20:32] INFO root fetch - main [MainThread]: End processing [medidata] error
+[2023-06-29 16:20:32] INFO root fetch - processPackages [maddaq]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-29 16:20:32] INFO root fetch - processPackages [hebpipe]: Downloading https://files.pythonhosted.org/packages/6e/18/a03ac9b7ca0eaccb26ef69ecdfe05f2fe8f486ceea9ea8d792876fca8e6e/hebpipe-3.0.0.4.tar.gz
+[2023-06-29 16:20:32] INFO root fetch - processPackages [maddaq]: Downloading https://files.pythonhosted.org/packages/1c/06/6402e16e3be879a14d5bff7318466a138f74afe84e27cb4ab7e00d3ad118/maddaq-0.7.8.tar.gz
+[2023-06-29 16:20:32] INFO root fetch - processPackages [hebpipe]: executing diffoscope
+[2023-06-29 16:20:32] INFO root fetch - processPackages [hebpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hebpipe-3.0.0.3.tar.gz tmp/hebpipe-3.0.0.4.tar.gz --markdown 20230629/h/hebpipe/3.0.0.3-3.0.0.4/diff.md --exclude *.pyd
+[2023-06-29 16:20:32] INFO root fetch - processPackages [maddaq]: Downloading https://files.pythonhosted.org/packages/0a/9d/22d6b8d45171de2ddd2c27a18380472d922a9086ef11e34b879964139593/maddaq-0.7.9.tar.gz
+[2023-06-29 16:20:32] INFO root fetch - processPackages [omada-api]: Remove: archive file [/home/abi/fetcher/tmp/omada_api-0.1.2.tar.gz]
+[2023-06-29 16:20:32] INFO root fetch - processPackages [omada-api]: Remove: archive file [/home/abi/fetcher/tmp/omada_api-0.1.3.tar.gz]
+[2023-06-29 16:20:32] INFO root fetch - processPackages [omada-api]: Start processing: wodoo
+[2023-06-29 16:20:32] INFO root fetch - main [MainThread]: End processing [omada-api]: success
+[2023-06-29 16:20:32] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.8.tar.gz]
+[2023-06-29 16:20:32] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.9.tar.gz]
+[2023-06-29 16:20:32] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Start processing: pyphetools
+[2023-06-29 16:20:32] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-06-29 16:20:32] INFO root fetch - processPackages [pyphetools]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-29 16:20:32] INFO root fetch - processPackages [wodoo]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-06-29 16:20:33] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/52/ca/3a6b3845a74fc2cc9185a471c0ee0a305969b8e5820063ab5e4627509088/wodoo-0.4.6.tar.gz
+[2023-06-29 16:20:33] INFO root fetch - processPackages [maddaq]: executing diffoscope
+[2023-06-29 16:20:33] INFO root fetch - processPackages [maddaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maddaq-0.7.8.tar.gz tmp/maddaq-0.7.9.tar.gz --markdown 20230629/m/maddaq/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-29 16:20:33] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/0a/64/eee712fd04356d10881b778c04fcc5d08a4df6188c40685605478733a920/pyphetools-0.4.0.tar.gz
+[2023-06-29 16:20:33] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/bb/e6/10fe2dcdeaac0d2e26cc85b697f686b2eef9276de8b953b758cc4e2c7cff/wodoo-0.4.7.tar.gz
+[2023-06-29 16:20:33] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/90/16/73d7631ff0ffe55dc4110594d685bf51b4b53d798c0a9f3950f4e9343182/pyphetools-0.4.1.tar.gz
+[2023-06-29 16:20:33] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-06-29 16:20:33] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.4.6.tar.gz tmp/wodoo-0.4.7.tar.gz --markdown 20230629/w/wodoo/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-06-29 16:20:33] INFO root fetch - processPackages [pyphetools]: executing diffoscope
+[2023-06-29 16:20:33] INFO root fetch - processPackages [pyphetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyphetools-0.4.0.tar.gz tmp/pyphetools-0.4.1.tar.gz --markdown 20230629/p/pyphetools/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-29 16:20:33] INFO root fetch - processPackages [navigator-api]: Remove: archive file [/home/abi/fetcher/tmp/navigator_api-2.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-29 16:20:33] INFO root fetch - processPackages [navigator-api]: Remove: archive file [/home/abi/fetcher/tmp/navigator_api-2.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-29 16:20:33] INFO root fetch - main [MainThread]: End processing [navigator-api]: success
+[2023-06-29 16:20:34] INFO root fetch - processPackages [carrot-cdm]: Remove: archive file [/home/abi/fetcher/tmp/carrot-cdm-0.6.85.tar.gz]
+[2023-06-29 16:20:34] INFO root fetch - processPackages [carrot-cdm]: Remove: archive file [/home/abi/fetcher/tmp/carrot_cdm-0.6.86-py3.9.egg]
+[2023-06-29 16:20:34] INFO root fetch - main [MainThread]: End processing [carrot-cdm]: success
+[2023-06-29 16:20:34] INFO root fetch - processPackages [maddaq]: Remove: archive file [/home/abi/fetcher/tmp/maddaq-0.7.8.tar.gz]
+[2023-06-29 16:20:34] INFO root fetch - processPackages [maddaq]: Remove: archive file [/home/abi/fetcher/tmp/maddaq-0.7.9.tar.gz]
+[2023-06-29 16:20:34] INFO root fetch - main [MainThread]: End processing [maddaq]: success
+[2023-06-29 16:20:34] INFO root fetch - processPackages [pyranges]: Remove: archive file [/home/abi/fetcher/tmp/pyranges-0.0.98.tar.gz]
+[2023-06-29 16:20:34] INFO root fetch - processPackages [pyranges]: Remove: archive file [/home/abi/fetcher/tmp/pyranges-0.0.99.tar.gz]
+[2023-06-29 16:20:34] INFO root fetch - main [MainThread]: End processing [pyranges]: success
+[2023-06-29 16:20:34] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.6.tar.gz]
+[2023-06-29 16:20:34] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.7.tar.gz]
+[2023-06-29 16:20:34] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-06-29 16:20:34] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.4.0.tar.gz]
+[2023-06-29 16:20:34] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.4.1.tar.gz]
+[2023-06-29 16:20:34] INFO root fetch - main [MainThread]: End processing [pyphetools]: success
+[2023-06-29 16:20:35] INFO root fetch - processPackages [carrot-cdm-beta]: Remove: archive file [/home/abi/fetcher/tmp/carrot-cdm-beta-0.6.86.tar.gz]
+[2023-06-29 16:20:35] INFO root fetch - processPackages [carrot-cdm-beta]: Remove: archive file [/home/abi/fetcher/tmp/carrot_cdm_beta-0.6.87-py3.9.egg]
+[2023-06-29 16:20:35] INFO root fetch - main [MainThread]: End processing [carrot-cdm-beta]: success
+[2023-06-29 16:20:36] INFO root fetch - processPackages [ansys-api-pyensight]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-pyensight-0.1.1.tar.gz]
+[2023-06-29 16:20:36] INFO root fetch - processPackages [ansys-api-pyensight]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-pyensight-0.2.0.tar.gz]
+[2023-06-29 16:20:36] INFO root fetch - main [MainThread]: End processing [ansys-api-pyensight]: success
+[2023-06-29 16:20:36] INFO root fetch - processPackages [distrax]: Remove: archive file [/home/abi/fetcher/tmp/distrax-0.1.3.tar.gz]
+[2023-06-29 16:20:36] INFO root fetch - processPackages [distrax]: Remove: archive file [/home/abi/fetcher/tmp/distrax-0.1.4.tar.gz]
+[2023-06-29 16:20:36] INFO root fetch - main [MainThread]: End processing [distrax]: success
+[2023-06-29 16:20:37] INFO root fetch - processPackages [hebpipe]: Remove: archive file [/home/abi/fetcher/tmp/hebpipe-3.0.0.3.tar.gz]
+[2023-06-29 16:20:37] INFO root fetch - processPackages [hebpipe]: Remove: archive file [/home/abi/fetcher/tmp/hebpipe-3.0.0.4.tar.gz]
+[2023-06-29 16:20:37] INFO root fetch - main [MainThread]: End processing [hebpipe]: success
+[2023-06-29 16:20:37] INFO root fetch - main [MainThread]: Store serial: [18696274]
