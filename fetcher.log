@@ -8161,3 +8161,138 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 13:20:21] INFO root fetch - processPackages [envd]: Remove: archive file [/home/abi/fetcher/tmp/envd-0.3.9.tar.gz]
 [2023-06-29 13:20:21] INFO root fetch - main [MainThread]: End processing [envd]: success
 [2023-06-29 13:20:21] INFO root fetch - main [MainThread]: Store serial: [18694133]
+[2023-06-29 13:25:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18694133]
+[2023-06-29 13:25:44] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-29 13:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-avro-schema
+[2023-06-29 13:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiodanbooru
+[2023-06-29 13:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: resize-icon
+[2023-06-29 13:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dank-mids
+[2023-06-29 13:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tb-nightly
+[2023-06-29 13:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rfernet
+[2023-06-29 13:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: asposepdfcloud
+[2023-06-29 13:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fortext
+[2023-06-29 13:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: func-ai
+[2023-06-29 13:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: raha
+[2023-06-29 13:25:45] INFO root fetch - processPackages [aiodanbooru]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-29 13:25:45] WARNING root fetch - processPackages [func-ai]: Skipping, unable to determine old version
+[2023-06-29 13:25:45] INFO root fetch - processPackages [func-ai]: Start processing: torchtnt-nightly
+[2023-06-29 13:25:45] INFO root fetch - main [MainThread]: End processing [func-ai] error
+[2023-06-29 13:25:45] INFO root fetch - processPackages [py-avro-schema]: New version: [2.2.0] Old Version: [2.1.3]
+[2023-06-29 13:25:45] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-29 13:25:45] INFO root fetch - processPackages [raha]: New version: [1.26] Old Version: [1.25]
+[2023-06-29 13:25:45] INFO root fetch - processPackages [resize-icon]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-29 13:25:45] INFO root fetch - processPackages [fortext]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-29 13:25:45] INFO root fetch - processPackages [rfernet]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-29 13:25:45] INFO root fetch - processPackages [asposepdfcloud]: New version: [23.6.0] Old Version: [23.5.0]
+[2023-06-29 13:25:45] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-06-29 13:25:45] INFO root fetch - processPackages [resize-icon]: Downloading https://files.pythonhosted.org/packages/01/37/bee70cde83c4f0464fee28971c3fe38e3b5e28ac20ffddc61d12bf54fc4f/resize_icon-0.1.1.tar.gz
+[2023-06-29 13:25:45] INFO root fetch - processPackages [aiodanbooru]: Downloading https://files.pythonhosted.org/packages/b4/b1/cc3b3c433e5dc20d90eba071fa66ff15c7f0176b6f130ed751ebf8e6fbbd/aiodanbooru-1.0.0.tar.gz
+[2023-06-29 13:25:45] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.6.5] Old Version: [2023.6.4]
+[2023-06-29 13:25:45] INFO root fetch - processPackages [py-avro-schema]: Downloading https://files.pythonhosted.org/packages/19/33/ae01fe34597d453a6ae6e20a54951f86d5a5f7eeaa37c8486bcdd925f09c/py-avro-schema-2.1.3.tar.gz
+[2023-06-29 13:25:45] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-29 13:25:45] INFO root fetch - processPackages [rfernet]: Downloading https://files.pythonhosted.org/packages/a2/a1/ff06f946e2789ae777f302e30c167f7326979c0b68c2fad2aa34e71a728e/rfernet-0.2.0.tar.gz
+[2023-06-29 13:25:45] INFO root fetch - processPackages [raha]: Downloading https://files.pythonhosted.org/packages/76/42/4a27079f4acb0ff0ac933702cc731f5f6dbdc0cdb5fec251013f5e3208b4/raha-1.25.tar.gz
+[2023-06-29 13:25:45] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/34/4f/4a90173b01a8086490f647ccb58a5421c9d44a1c56813090cb773ecd7370/torchtnt-nightly-2023.6.4.tar.gz
+[2023-06-29 13:25:45] INFO root fetch - processPackages [fortext]: Downloading https://files.pythonhosted.org/packages/9c/02/c72624e2349f53acb3a7439220e79c89b81ea34c6c4581f47d0fdd9b0e77/fortext-0.0.3.tar.gz
+[2023-06-29 13:25:45] INFO root fetch - processPackages [asposepdfcloud]: Downloading https://files.pythonhosted.org/packages/0c/b4/44423f84d61386fba45f1352142b7338c491ee920f4d8fe70d07d255f2fb/asposepdfcloud-23.5.0.tar.gz
+[2023-06-29 13:25:45] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-06-29 13:25:45] INFO root fetch - processPackages [aiodanbooru]: Downloading https://files.pythonhosted.org/packages/ec/ef/8d005bf29fb132c6d7066c9eaa1f29c9f5141051d3b07e473eccb65872a3/aiodanbooru-1.0.1.tar.gz
+[2023-06-29 13:25:45] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/40/59/8e219732c8232b640b0cb88f485f6d98bd76be3c47f0cf80b9d1afd6a0de/torchtnt-nightly-2023.6.5.tar.gz
+[2023-06-29 13:25:45] INFO root fetch - processPackages [resize-icon]: Downloading https://files.pythonhosted.org/packages/40/5d/b3243b8e69adb5c2e747c91cc20753282fb1147e18e59e4dcf6b8585e5a6/resize_icon-0.1.2.tar.gz
+[2023-06-29 13:25:45] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-29 13:25:45] INFO root fetch - processPackages [py-avro-schema]: Downloading https://files.pythonhosted.org/packages/d8/d0/d36199c1ca93792376eb847e5ae632a7856cca4714b0d4b3351178e79337/py-avro-schema-2.2.0.tar.gz
+[2023-06-29 13:25:45] INFO root fetch - processPackages [rfernet]: Downloading https://files.pythonhosted.org/packages/ec/8b/d3a3fa44404c08cc72a1a3c29b228727cb71effb999b0254e6fec96adb4f/rfernet-0.3.0.tar.gz
+[2023-06-29 13:25:45] INFO root fetch - processPackages [aiodanbooru]: executing diffoscope
+[2023-06-29 13:25:45] INFO root fetch - processPackages [aiodanbooru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiodanbooru-1.0.0.tar.gz tmp/aiodanbooru-1.0.1.tar.gz --markdown 20230629/a/aiodanbooru/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-29 13:25:45] INFO root fetch - processPackages [asposepdfcloud]: Downloading https://files.pythonhosted.org/packages/0c/38/c76d86eb9d2b80c3532353c8fbccf6922fa52e94eba5948c449df7ac65a2/asposepdfcloud-23.6.0.tar.gz
+[2023-06-29 13:25:45] INFO root fetch - processPackages [fortext]: Downloading https://files.pythonhosted.org/packages/d2/5d/b030d2f0dea79288c9819c962375aaaea382e0221cfce3fd1b870c7c8329/fortext-0.0.4.tar.gz
+[2023-06-29 13:25:45] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-29 13:25:45] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230629/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-29 13:25:45] INFO root fetch - processPackages [rfernet]: executing diffoscope
+[2023-06-29 13:25:45] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-06-29 13:25:45] INFO root fetch - processPackages [rfernet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfernet-0.2.0.tar.gz tmp/rfernet-0.3.0.tar.gz --markdown 20230629/r/rfernet/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-29 13:25:45] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.6.4.tar.gz tmp/torchtnt-nightly-2023.6.5.tar.gz --markdown 20230629/t/torchtnt-nightly/2023.6.4-2023.6.5/diff.md --exclude *.pyd
+[2023-06-29 13:25:45] INFO root fetch - processPackages [raha]: Downloading https://files.pythonhosted.org/packages/14/8b/77d88acb6d2c6e9dc0646d22f84c217cf27157ef5e44d255be38c541e00a/raha-1.26.tar.gz
+[2023-06-29 13:25:45] INFO root fetch - processPackages [py-avro-schema]: executing diffoscope
+[2023-06-29 13:25:45] INFO root fetch - processPackages [py-avro-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-avro-schema-2.1.3.tar.gz tmp/py-avro-schema-2.2.0.tar.gz --markdown 20230629/p/py-avro-schema/2.1.3-2.2.0/diff.md --exclude *.pyd
+[2023-06-29 13:25:45] INFO root fetch - processPackages [fortext]: executing diffoscope
+[2023-06-29 13:25:45] INFO root fetch - processPackages [fortext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortext-0.0.3.tar.gz tmp/fortext-0.0.4.tar.gz --markdown 20230629/f/fortext/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-29 13:25:45] INFO root fetch - processPackages [asposepdfcloud]: executing diffoscope
+[2023-06-29 13:25:45] INFO root fetch - processPackages [asposepdfcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asposepdfcloud-23.5.0.tar.gz tmp/asposepdfcloud-23.6.0.tar.gz --markdown 20230629/a/asposepdfcloud/23.5.0-23.6.0/diff.md --exclude *.pyd
+[2023-06-29 13:25:45] INFO root fetch - processPackages [resize-icon]: executing diffoscope
+[2023-06-29 13:25:45] INFO root fetch - processPackages [resize-icon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resize_icon-0.1.1.tar.gz tmp/resize_icon-0.1.2.tar.gz --markdown 20230629/r/resize-icon/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-29 13:25:45] INFO root fetch - processPackages [raha]: executing diffoscope
+[2023-06-29 13:25:45] INFO root fetch - processPackages [raha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raha-1.25.tar.gz tmp/raha-1.26.tar.gz --markdown 20230629/r/raha/1.25-1.26/diff.md --exclude *.pyd
+[2023-06-29 13:25:46] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-06-29 13:25:46] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-06-29 13:25:46] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230629/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-06-29 13:25:47] INFO root fetch - processPackages [aiodanbooru]: Remove: archive file [/home/abi/fetcher/tmp/aiodanbooru-1.0.0.tar.gz]
+[2023-06-29 13:25:47] INFO root fetch - processPackages [aiodanbooru]: Remove: archive file [/home/abi/fetcher/tmp/aiodanbooru-1.0.1.tar.gz]
+[2023-06-29 13:25:47] INFO root fetch - processPackages [aiodanbooru]: Start processing: pycareer
+[2023-06-29 13:25:47] INFO root fetch - main [MainThread]: End processing [aiodanbooru]: success
+[2023-06-29 13:25:47] INFO root fetch - processPackages [rfernet]: Remove: archive file [/home/abi/fetcher/tmp/rfernet-0.2.0.tar.gz]
+[2023-06-29 13:25:47] INFO root fetch - processPackages [rfernet]: Remove: archive file [/home/abi/fetcher/tmp/rfernet-0.3.0.tar.gz]
+[2023-06-29 13:25:47] INFO root fetch - processPackages [rfernet]: Start processing: yyxx-game-pkg
+[2023-06-29 13:25:47] INFO root fetch - main [MainThread]: End processing [rfernet]: success
+[2023-06-29 13:25:47] INFO root fetch - processPackages [pycareer]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-29 13:25:47] INFO root fetch - processPackages [yyxx-game-pkg]: New version: [2023.6.9.1] Old Version: [2023.6.6.2]
+[2023-06-29 13:25:47] INFO root fetch - processPackages [resize-icon]: Remove: archive file [/home/abi/fetcher/tmp/resize_icon-0.1.1.tar.gz]
+[2023-06-29 13:25:47] INFO root fetch - processPackages [resize-icon]: Remove: archive file [/home/abi/fetcher/tmp/resize_icon-0.1.2.tar.gz]
+[2023-06-29 13:25:47] INFO root fetch - processPackages [resize-icon]: Start processing: leadguru-jobs
+[2023-06-29 13:25:47] INFO root fetch - main [MainThread]: End processing [resize-icon]: success
+[2023-06-29 13:25:47] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-29 13:25:47] INFO root fetch - processPackages [pycareer]: Downloading https://files.pythonhosted.org/packages/90/1d/feacfbba3908ca899a4b0296dbc4b950d7158a7298ef3ab95fed9313205d/pycareer-0.1.0.tar.gz
+[2023-06-29 13:25:47] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-06-29 13:25:47] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/73/f8/4b4d35bd7bb4c8f3fae1755149d17255c1a22dac93555dc3f25d2bd62df9/yyxx_game_pkg-2023.6.6.2.tar.gz
+[2023-06-29 13:25:47] INFO root fetch - processPackages [py-avro-schema]: Remove: archive file [/home/abi/fetcher/tmp/py-avro-schema-2.1.3.tar.gz]
+[2023-06-29 13:25:47] INFO root fetch - processPackages [py-avro-schema]: Remove: archive file [/home/abi/fetcher/tmp/py-avro-schema-2.2.0.tar.gz]
+[2023-06-29 13:25:47] INFO root fetch - processPackages [py-avro-schema]: Start processing: pyrdfsubset
+[2023-06-29 13:25:47] INFO root fetch - main [MainThread]: End processing [py-avro-schema]: success
+[2023-06-29 13:25:47] INFO root fetch - processPackages [fortext]: Remove: archive file [/home/abi/fetcher/tmp/fortext-0.0.3.tar.gz]
+[2023-06-29 13:25:47] INFO root fetch - processPackages [fortext]: Remove: archive file [/home/abi/fetcher/tmp/fortext-0.0.4.tar.gz]
+[2023-06-29 13:25:47] INFO root fetch - processPackages [fortext]: Start processing: pysmart365
+[2023-06-29 13:25:47] INFO root fetch - main [MainThread]: End processing [fortext]: success
+[2023-06-29 13:25:47] WARNING root fetch - processPackages [pyrdfsubset]: Skipping, unable to determine old version
+[2023-06-29 13:25:47] INFO root fetch - main [MainThread]: End processing [pyrdfsubset] error
+[2023-06-29 13:25:47] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-06-29 13:25:47] INFO root fetch - processPackages [pysmart365]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-29 13:25:47] INFO root fetch - processPackages [pycareer]: Downloading https://files.pythonhosted.org/packages/d0/05/14a01c37c20886741f28abe1604b0fea67a04d6c4ec2122e7f99c3288291/pycareer-0.1.1.tar.gz
+[2023-06-29 13:25:47] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-06-29 13:25:47] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230629/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-29 13:25:47] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-29 13:25:47] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-29 13:25:47] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-29 13:25:48] INFO root fetch - processPackages [pysmart365]: Downloading https://files.pythonhosted.org/packages/f1/17/bb4d9366f0c7df93b6f70f11c90cc989749c2b0ff98128d29bf8f9734975/pysmart365-0.0.9.tar.gz
+[2023-06-29 13:25:48] INFO root fetch - processPackages [pycareer]: executing diffoscope
+[2023-06-29 13:25:48] INFO root fetch - processPackages [pycareer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycareer-0.1.0.tar.gz tmp/pycareer-0.1.1.tar.gz --markdown 20230629/p/pycareer/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-29 13:25:48] INFO root fetch - processPackages [pysmart365]: Downloading https://files.pythonhosted.org/packages/e3/7a/5eaf90ceb3f9014a75eb39d94393d0947e1b8b589b8cd3b6126edda50b76/pysmart365-0.1.0.tar.gz
+[2023-06-29 13:25:48] INFO root fetch - processPackages [pysmart365]: executing diffoscope
+[2023-06-29 13:25:48] INFO root fetch - processPackages [pysmart365]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysmart365-0.0.9.tar.gz tmp/pysmart365-0.1.0.tar.gz --markdown 20230629/p/pysmart365/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-29 13:25:48] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/e5/82/79da6672e322e316d7b077a31d056141061d0271696087e26fd350612628/yyxx_game_pkg-2023.6.9.1.tar.gz
+[2023-06-29 13:25:48] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.6.4.tar.gz]
+[2023-06-29 13:25:48] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.6.5.tar.gz]
+[2023-06-29 13:25:48] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-06-29 13:25:49] INFO root fetch - processPackages [pycareer]: Remove: archive file [/home/abi/fetcher/tmp/pycareer-0.1.0.tar.gz]
+[2023-06-29 13:25:49] INFO root fetch - processPackages [pycareer]: Remove: archive file [/home/abi/fetcher/tmp/pycareer-0.1.1.tar.gz]
+[2023-06-29 13:25:49] INFO root fetch - main [MainThread]: End processing [pycareer]: success
+[2023-06-29 13:25:49] INFO root fetch - processPackages [pysmart365]: Remove: archive file [/home/abi/fetcher/tmp/pysmart365-0.0.9.tar.gz]
+[2023-06-29 13:25:49] INFO root fetch - processPackages [pysmart365]: Remove: archive file [/home/abi/fetcher/tmp/pysmart365-0.1.0.tar.gz]
+[2023-06-29 13:25:49] INFO root fetch - main [MainThread]: End processing [pysmart365]: success
+[2023-06-29 13:25:49] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-06-29 13:25:49] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-06-29 13:25:49] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-06-29 13:25:49] INFO root fetch - processPackages [yyxx-game-pkg]: executing diffoscope
+[2023-06-29 13:25:49] INFO root fetch - processPackages [yyxx-game-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg-2023.6.6.2.tar.gz tmp/yyxx_game_pkg-2023.6.9.1.tar.gz --markdown 20230629/y/yyxx-game-pkg/2023.6.6.2-2023.6.9.1/diff.md --exclude *.pyd
+[2023-06-29 13:25:50] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-06-29 13:25:50] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-06-29 13:25:50] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-06-29 13:25:52] INFO root fetch - processPackages [raha]: Remove: archive file [/home/abi/fetcher/tmp/raha-1.25.tar.gz]
+[2023-06-29 13:25:52] INFO root fetch - processPackages [raha]: Remove: archive file [/home/abi/fetcher/tmp/raha-1.26.tar.gz]
+[2023-06-29 13:25:52] INFO root fetch - main [MainThread]: End processing [raha]: success
+[2023-06-29 13:25:52] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2023.6.6.2.tar.gz]
+[2023-06-29 13:25:52] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2023.6.9.1.tar.gz]
+[2023-06-29 13:25:52] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
+[2023-06-29 13:25:55] INFO root fetch - processPackages [asposepdfcloud]: Remove: archive file [/home/abi/fetcher/tmp/asposepdfcloud-23.5.0.tar.gz]
+[2023-06-29 13:25:55] INFO root fetch - processPackages [asposepdfcloud]: Remove: archive file [/home/abi/fetcher/tmp/asposepdfcloud-23.6.0.tar.gz]
+[2023-06-29 13:25:55] INFO root fetch - main [MainThread]: End processing [asposepdfcloud]: success
+[2023-06-29 13:25:55] INFO root fetch - main [MainThread]: Store serial: [18694194]
