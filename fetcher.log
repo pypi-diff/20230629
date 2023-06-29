@@ -17638,3 +17638,140 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 18:51:58] INFO root fetch - processPackages [zshot]: Remove: archive file [/home/abi/fetcher/tmp/zshot-0.0.8.tar.gz]
 [2023-06-29 18:51:58] INFO root fetch - main [MainThread]: End processing [zshot]: success
 [2023-06-29 18:51:58] INFO root fetch - main [MainThread]: Store serial: [18698242]
+[2023-06-29 18:57:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18698242]
+[2023-06-29 18:57:08] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-29 18:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amlopsvueelements
+[2023-06-29 18:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: policyengine-canada
+[2023-06-29 18:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: databricks-session
+[2023-06-29 18:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atc-easy-desktop
+[2023-06-29 18:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jwst-gtvt
+[2023-06-29 18:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tinybird-cli
+[2023-06-29 18:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: caikit
+[2023-06-29 18:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyurlx
+[2023-06-29 18:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-game-collection
+[2023-06-29 18:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: FuncsForSPO
+[2023-06-29 18:57:08] INFO root fetch - processPackages [databricks-session]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-29 18:57:08] WARNING root fetch - processPackages [pyurlx]: Skipping, unable to determine old version
+[2023-06-29 18:57:08] INFO root fetch - processPackages [pyurlx]: Start processing: prefai
+[2023-06-29 18:57:08] INFO root fetch - main [MainThread]: End processing [pyurlx] error
+[2023-06-29 18:57:08] INFO root fetch - processPackages [caikit]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-29 18:57:08] INFO root fetch - processPackages [FuncsForSPO]: New version: [6.2.3] Old Version: [6.2.1]
+[2023-06-29 18:57:08] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-29 18:57:08] INFO root fetch - processPackages [databricks-session]: Downloading https://files.pythonhosted.org/packages/69/63/90047e126b508f77084f16f679b7033f3643f03b281e908a95090747811b/databricks_session-0.2.1.tar.gz
+[2023-06-29 18:57:08] INFO root fetch - processPackages [policyengine-canada]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-29 18:57:08] INFO root fetch - processPackages [amlopsvueelements]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-29 18:57:08] WARNING root fetch - processPackages [atc-easy-desktop]: Skipping, unable to determine old version
+[2023-06-29 18:57:08] INFO root fetch - processPackages [atc-easy-desktop]: Start processing: arelle-release
+[2023-06-29 18:57:08] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/07/d0/ebcd6d9c3397c5a245c8e65834997b6b1974ee7084fa149409dca5eb7b1d/nonebot_plugin_game_collection-2.2.8.tar.gz
+[2023-06-29 18:57:08] INFO root fetch - main [MainThread]: End processing [atc-easy-desktop] error
+[2023-06-29 18:57:08] INFO root fetch - processPackages [caikit]: executing diffoscope
+[2023-06-29 18:57:08] INFO root fetch - processPackages [caikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caikit-0.9.0.tar.gz tmp/caikit-0.9.1.tar.gz --markdown 20230629/c/caikit/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-29 18:57:08] INFO root fetch - processPackages [prefai]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-29 18:57:08] INFO root fetch - processPackages [jwst-gtvt]: New version: [1.0.0] Old Version: [0.3.1]
+[2023-06-29 18:57:08] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-06-29 18:57:08] INFO root fetch - processPackages [FuncsForSPO]: executing diffoscope
+[2023-06-29 18:57:08] INFO root fetch - processPackages [FuncsForSPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FuncsForSPO-6.2.1.tar.gz tmp/FuncsForSPO-6.2.3.tar.gz --markdown 20230629/F/FuncsForSPO/6.2.1-6.2.3/diff.md --exclude *.pyd
+[2023-06-29 18:57:08] INFO root fetch - processPackages [arelle-release]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-06-29 18:57:08] INFO root fetch - processPackages [databricks-session]: Downloading https://files.pythonhosted.org/packages/68/59/7a3e51a143b121786f35b0c48db4186f6c6523fbd2c3209ae54563ee7c39/databricks_session-0.2.2.tar.gz
+[2023-06-29 18:57:08] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/26/57/8b244714216be7a805c6e5fc6ef4d0f4df429ea0c8cec347d68c2f87434c/nonebot_plugin_game_collection-2.2.9.tar.gz
+[2023-06-29 18:57:08] INFO root fetch - processPackages [amlopsvueelements]: Downloading https://files.pythonhosted.org/packages/66/c5/7cc4562a9948fa70330c8597948fda7c968a965313e177f21cd9f6e69c15/amlopsvueelements-1.2.8.tar.gz
+[2023-06-29 18:57:08] INFO root fetch - processPackages [policyengine-canada]: Downloading https://files.pythonhosted.org/packages/28/4b/01a629b9dfc11172c45bc99a7aa9efe756417158eab74625e8861959eca2/policyengine-canada-0.8.0.tar.gz
+[2023-06-29 18:57:08] INFO root fetch - processPackages [databricks-session]: executing diffoscope
+[2023-06-29 18:57:08] INFO root fetch - processPackages [databricks-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_session-0.2.1.tar.gz tmp/databricks_session-0.2.2.tar.gz --markdown 20230629/d/databricks-session/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-29 18:57:08] INFO root fetch - processPackages [prefai]: Downloading https://files.pythonhosted.org/packages/dc/6b/eceedeada555cf6ff628916e938f37e3cd1def12ee39fa8e1b8dc855055c/prefai-0.0.4.tar.gz
+[2023-06-29 18:57:08] INFO root fetch - processPackages [jwst-gtvt]: Downloading https://files.pythonhosted.org/packages/40/2a/3b4e18db00be7e41683482eb6880d993d6702802225db00aa5a207fed408/jwst-gtvt-0.3.1.tar.gz
+[2023-06-29 18:57:08] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-06-29 18:57:08] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.2.8.tar.gz tmp/nonebot_plugin_game_collection-2.2.9.tar.gz --markdown 20230629/n/nonebot-plugin-game-collection/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-29 18:57:08] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/cf/bc/f6fe2aa48ad97fc6f03b105a263497f0cc5d7173fa89703bbc609c18f13a/tinybird-cli-1.0.0b98.tar.gz
+[2023-06-29 18:57:08] INFO root fetch - processPackages [prefai]: Downloading https://files.pythonhosted.org/packages/9a/50/862d0eb9df198fbcb404f43560c42eeaef911d7525b3b4d4ed73c94780c9/prefai-0.0.5.tar.gz
+[2023-06-29 18:57:08] INFO root fetch - processPackages [jwst-gtvt]: Downloading https://files.pythonhosted.org/packages/dc/95/e699de2143e1d58a3f82187b780199ea75d7dbcae9a17ca579caf07904c9/jwst_gtvt-1.0.0.tar.gz
+[2023-06-29 18:57:08] INFO root fetch - processPackages [arelle-release]: Downloading https://files.pythonhosted.org/packages/f5/6d/a98b34f1f15fac981dc1ecdc13ab6432070cbbc263b8c5dfd01ec17bdbcf/arelle-release-2.8.1.tar.gz
+[2023-06-29 18:57:08] INFO root fetch - processPackages [amlopsvueelements]: Downloading https://files.pythonhosted.org/packages/66/13/78a0a71cbe22ea1ba27617b67cbd09d3dd5db33dcfc03407cadf975cb283/amlopsvueelements-1.2.9.tar.gz
+[2023-06-29 18:57:08] INFO root fetch - processPackages [prefai]: executing diffoscope
+[2023-06-29 18:57:08] INFO root fetch - processPackages [prefai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefai-0.0.4.tar.gz tmp/prefai-0.0.5.tar.gz --markdown 20230629/p/prefai/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-29 18:57:08] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/6a/27/a5d411f1a02b44b9f386c7d18397784dcaa5fe1129d9a77e87a5e048edc5/tinybird-cli-1.0.0b99.tar.gz
+[2023-06-29 18:57:08] INFO root fetch - processPackages [policyengine-canada]: Downloading https://files.pythonhosted.org/packages/40/22/555a719f4eeb35f27888de983fc27df67a98895889b7ce3bcef8998f9116/policyengine-canada-0.9.0.tar.gz
+[2023-06-29 18:57:09] INFO root fetch - processPackages [jwst-gtvt]: executing diffoscope
+[2023-06-29 18:57:09] INFO root fetch - processPackages [jwst-gtvt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwst-gtvt-0.3.1.tar.gz tmp/jwst_gtvt-1.0.0.tar.gz --markdown 20230629/j/jwst-gtvt/0.3.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-29 18:57:09] INFO root fetch - processPackages [policyengine-canada]: executing diffoscope
+[2023-06-29 18:57:09] INFO root fetch - processPackages [policyengine-canada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-canada-0.8.0.tar.gz tmp/policyengine-canada-0.9.0.tar.gz --markdown 20230629/p/policyengine-canada/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-29 18:57:09] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-06-29 18:57:09] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230629/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-06-29 18:57:09] INFO root fetch - processPackages [amlopsvueelements]: executing diffoscope
+[2023-06-29 18:57:09] INFO root fetch - processPackages [amlopsvueelements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amlopsvueelements-1.2.8.tar.gz tmp/amlopsvueelements-1.2.9.tar.gz --markdown 20230629/a/amlopsvueelements/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-29 18:57:09] INFO root fetch - processPackages [caikit]: Remove: archive file [/home/abi/fetcher/tmp/caikit-0.9.0.tar.gz]
+[2023-06-29 18:57:09] INFO root fetch - processPackages [caikit]: Remove: archive file [/home/abi/fetcher/tmp/caikit-0.9.1.tar.gz]
+[2023-06-29 18:57:09] INFO root fetch - processPackages [caikit]: Start processing: altas-finance-noad
+[2023-06-29 18:57:09] INFO root fetch - main [MainThread]: End processing [caikit]: success
+[2023-06-29 18:57:09] INFO root fetch - processPackages [FuncsForSPO]: Remove: archive file [/home/abi/fetcher/tmp/FuncsForSPO-6.2.1.tar.gz]
+[2023-06-29 18:57:09] INFO root fetch - processPackages [FuncsForSPO]: Remove: archive file [/home/abi/fetcher/tmp/FuncsForSPO-6.2.3.tar.gz]
+[2023-06-29 18:57:09] INFO root fetch - processPackages [FuncsForSPO]: Start processing: cdk-ecr-deployment
+[2023-06-29 18:57:09] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
+[2023-06-29 18:57:09] WARNING root fetch - processPackages [altas-finance-noad]: Skipping, unable to determine old version
+[2023-06-29 18:57:09] INFO root fetch - processPackages [altas-finance-noad]: Start processing: unified-planning
+[2023-06-29 18:57:09] INFO root fetch - main [MainThread]: End processing [altas-finance-noad] error
+[2023-06-29 18:57:09] INFO root fetch - processPackages [arelle-release]: Downloading https://files.pythonhosted.org/packages/38/66/d0e3ab5f57928cda22358cf91ff523e895bdb2ce695a0e0839131fcf5aa9/arelle-release-2.9.0.tar.gz
+[2023-06-29 18:57:09] INFO root fetch - processPackages [cdk-ecr-deployment]: New version: [2.5.6] Old Version: [2.5.5]
+[2023-06-29 18:57:09] INFO root fetch - processPackages [unified-planning]: New version: [0.6.0.94.dev1] Old Version: [0.6.0.9.dev1]
+[2023-06-29 18:57:09] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/7b/cd/ac15f362b634f8dfca374107a12b11d18cda8da3341e1e1de92d45e36fc9/unified_planning-0.6.0.9.dev1.tar.gz
+[2023-06-29 18:57:09] INFO root fetch - processPackages [arelle-release]: executing diffoscope
+[2023-06-29 18:57:09] INFO root fetch - processPackages [arelle-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arelle-release-2.8.1.tar.gz tmp/arelle-release-2.9.0.tar.gz --markdown 20230629/a/arelle-release/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-06-29 18:57:09] INFO root fetch - processPackages [cdk-ecr-deployment]: Downloading https://files.pythonhosted.org/packages/64/bf/1264153be589ef27e35f9c6dce5fa20c62679465383b177c27cb15215559/cdk-ecr-deployment-2.5.5.tar.gz
+[2023-06-29 18:57:09] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/47/44/b13fcddb5405f914c9898095cd7fd61a47cc4647a4065d3a61f28919f91a/unified_planning-0.6.0.94.dev1.tar.gz
+[2023-06-29 18:57:09] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.8.tar.gz]
+[2023-06-29 18:57:09] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.9.tar.gz]
+[2023-06-29 18:57:09] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Start processing: geolibs
+[2023-06-29 18:57:09] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-06-29 18:57:10] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-06-29 18:57:10] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-0.6.0.9.dev1.tar.gz tmp/unified_planning-0.6.0.94.dev1.tar.gz --markdown 20230629/u/unified-planning/0.6.0.9.dev1-0.6.0.94.dev1/diff.md --exclude *.pyd
+[2023-06-29 18:57:10] INFO root fetch - processPackages [geolibs]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-29 18:57:10] INFO root fetch - processPackages [geolibs]: Downloading https://files.pythonhosted.org/packages/c6/6c/24a43fc52a0a1932185f92c1abd67aa331ee1a719a6df450bd493bb0342d/geolibs-0.0.7.tar.gz
+[2023-06-29 18:57:10] INFO root fetch - processPackages [cdk-ecr-deployment]: Downloading https://files.pythonhosted.org/packages/00/31/421538c00ab58bb86c2af0ece51b9158717b04501999bd689351ea5ae8f2/cdk-ecr-deployment-2.5.6.tar.gz
+[2023-06-29 18:57:10] INFO root fetch - processPackages [prefai]: Remove: archive file [/home/abi/fetcher/tmp/prefai-0.0.4.tar.gz]
+[2023-06-29 18:57:10] INFO root fetch - processPackages [prefai]: Remove: archive file [/home/abi/fetcher/tmp/prefai-0.0.5.tar.gz]
+[2023-06-29 18:57:10] INFO root fetch - processPackages [prefai]: Start processing: pycades
+[2023-06-29 18:57:10] INFO root fetch - main [MainThread]: End processing [prefai]: success
+[2023-06-29 18:57:10] INFO root fetch - processPackages [policyengine-canada]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-canada-0.8.0.tar.gz]
+[2023-06-29 18:57:10] INFO root fetch - processPackages [policyengine-canada]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-canada-0.9.0.tar.gz]
+[2023-06-29 18:57:10] INFO root fetch - processPackages [policyengine-canada]: Start processing: dymoprint
+[2023-06-29 18:57:10] INFO root fetch - main [MainThread]: End processing [policyengine-canada]: success
+[2023-06-29 18:57:10] INFO root fetch - processPackages [cdk-ecr-deployment]: executing diffoscope
+[2023-06-29 18:57:10] INFO root fetch - processPackages [cdk-ecr-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecr-deployment-2.5.5.tar.gz tmp/cdk-ecr-deployment-2.5.6.tar.gz --markdown 20230629/c/cdk-ecr-deployment/2.5.5-2.5.6/diff.md --exclude *.pyd
+[2023-06-29 18:57:10] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b98.tar.gz]
+[2023-06-29 18:57:10] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b99.tar.gz]
+[2023-06-29 18:57:10] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-06-29 18:57:10] WARNING root fetch - processPackages [pycades]: Skipping, unable to determine old version
+[2023-06-29 18:57:10] INFO root fetch - main [MainThread]: End processing [pycades] error
+[2023-06-29 18:57:10] INFO root fetch - processPackages [dymoprint]: New version: [2.0.0b0] Old Version: [2.0.0]
+[2023-06-29 18:57:10] INFO root fetch - processPackages [geolibs]: Downloading https://files.pythonhosted.org/packages/a0/85/4c693147e4e3db31fd0e219334cdc985b0c0b65f4d40b5e1f5fda7fc9944/geolibs-0.0.8.tar.gz
+[2023-06-29 18:57:10] INFO root fetch - processPackages [dymoprint]: Downloading https://files.pythonhosted.org/packages/45/3f/d9ce830ad960ab275de014e6a6b13aad41d04cb238759ad607cdf6a3b23f/dymoprint-2.0.0.tar.gz
+[2023-06-29 18:57:10] INFO root fetch - processPackages [geolibs]: executing diffoscope
+[2023-06-29 18:57:10] INFO root fetch - processPackages [geolibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geolibs-0.0.7.tar.gz tmp/geolibs-0.0.8.tar.gz --markdown 20230629/g/geolibs/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-29 18:57:10] INFO root fetch - processPackages [databricks-session]: Remove: archive file [/home/abi/fetcher/tmp/databricks_session-0.2.1.tar.gz]
+[2023-06-29 18:57:10] INFO root fetch - processPackages [databricks-session]: Remove: archive file [/home/abi/fetcher/tmp/databricks_session-0.2.2.tar.gz]
+[2023-06-29 18:57:10] INFO root fetch - main [MainThread]: End processing [databricks-session]: success
+[2023-06-29 18:57:11] INFO root fetch - processPackages [cdk-ecr-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecr-deployment-2.5.5.tar.gz]
+[2023-06-29 18:57:11] INFO root fetch - processPackages [cdk-ecr-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecr-deployment-2.5.6.tar.gz]
+[2023-06-29 18:57:11] INFO root fetch - main [MainThread]: End processing [cdk-ecr-deployment]: success
+[2023-06-29 18:57:11] INFO root fetch - processPackages [geolibs]: Remove: archive file [/home/abi/fetcher/tmp/geolibs-0.0.7.tar.gz]
+[2023-06-29 18:57:11] INFO root fetch - processPackages [geolibs]: Remove: archive file [/home/abi/fetcher/tmp/geolibs-0.0.8.tar.gz]
+[2023-06-29 18:57:11] INFO root fetch - main [MainThread]: End processing [geolibs]: success
+[2023-06-29 18:57:11] INFO root fetch - processPackages [jwst-gtvt]: Remove: archive file [/home/abi/fetcher/tmp/jwst-gtvt-0.3.1.tar.gz]
+[2023-06-29 18:57:11] INFO root fetch - processPackages [jwst-gtvt]: Remove: archive file [/home/abi/fetcher/tmp/jwst_gtvt-1.0.0.tar.gz]
+[2023-06-29 18:57:11] INFO root fetch - main [MainThread]: End processing [jwst-gtvt]: success
+[2023-06-29 18:57:12] INFO root fetch - processPackages [dymoprint]: Downloading https://files.pythonhosted.org/packages/83/c2/9faa76fbcd7bcdcee9b10594424679901b28502a4846da5ed166c205276e/dymoprint-2.0.0b0.tar.gz
+[2023-06-29 18:57:13] INFO root fetch - processPackages [dymoprint]: executing diffoscope
+[2023-06-29 18:57:13] INFO root fetch - processPackages [dymoprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dymoprint-2.0.0.tar.gz tmp/dymoprint-2.0.0b0.tar.gz --markdown 20230629/d/dymoprint/2.0.0-2.0.0b0/diff.md --exclude *.pyd
+[2023-06-29 18:57:14] INFO root fetch - processPackages [dymoprint]: Remove: archive file [/home/abi/fetcher/tmp/dymoprint-2.0.0.tar.gz]
+[2023-06-29 18:57:14] INFO root fetch - processPackages [dymoprint]: Remove: archive file [/home/abi/fetcher/tmp/dymoprint-2.0.0b0.tar.gz]
+[2023-06-29 18:57:14] INFO root fetch - main [MainThread]: End processing [dymoprint]: success
+[2023-06-29 18:57:15] INFO root fetch - processPackages [amlopsvueelements]: Remove: archive file [/home/abi/fetcher/tmp/amlopsvueelements-1.2.8.tar.gz]
+[2023-06-29 18:57:15] INFO root fetch - processPackages [amlopsvueelements]: Remove: archive file [/home/abi/fetcher/tmp/amlopsvueelements-1.2.9.tar.gz]
+[2023-06-29 18:57:15] INFO root fetch - main [MainThread]: End processing [amlopsvueelements]: success
+[2023-06-29 18:57:15] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-0.6.0.9.dev1.tar.gz]
+[2023-06-29 18:57:15] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-0.6.0.94.dev1.tar.gz]
+[2023-06-29 18:57:15] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-06-29 18:57:21] INFO root fetch - processPackages [arelle-release]: Remove: archive file [/home/abi/fetcher/tmp/arelle-release-2.8.1.tar.gz]
+[2023-06-29 18:57:21] INFO root fetch - processPackages [arelle-release]: Remove: archive file [/home/abi/fetcher/tmp/arelle-release-2.9.0.tar.gz]
+[2023-06-29 18:57:21] INFO root fetch - main [MainThread]: End processing [arelle-release]: success
+[2023-06-29 18:57:21] INFO root fetch - main [MainThread]: Store serial: [18698295]
