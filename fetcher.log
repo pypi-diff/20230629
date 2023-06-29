@@ -10689,3 +10689,108 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 15:01:09] INFO root fetch - processPackages [aa-structures]: Remove: archive file [/home/abi/fetcher/tmp/aa_structures-2.4.1.tar.gz]
 [2023-06-29 15:01:09] INFO root fetch - main [MainThread]: End processing [aa-structures]: success
 [2023-06-29 15:01:09] INFO root fetch - main [MainThread]: Store serial: [18695209]
+[2023-06-29 15:06:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18695209]
+[2023-06-29 15:06:18] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-29 15:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aspose-barcode-for-python-via-java
+[2023-06-29 15:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: via
+[2023-06-29 15:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycareer
+[2023-06-29 15:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-eitherchoice
+[2023-06-29 15:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kaiju-tasks
+[2023-06-29 15:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: usseg
+[2023-06-29 15:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pynegex
+[2023-06-29 15:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: recon-lw
+[2023-06-29 15:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: intel-sgx-ra
+[2023-06-29 15:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: supervision
+[2023-06-29 15:06:18] INFO root fetch - processPackages [nonebot-plugin-eitherchoice]: New version: [0.1.0.post1] Old Version: [0.1.0]
+[2023-06-29 15:06:18] INFO root fetch - processPackages [supervision]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-29 15:06:18] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev5411511182] Old Version: [2.0.0.dev5410797159]
+[2023-06-29 15:06:18] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/0d/94/694d587a3f60cffaead833425b19173f2a1309ca92b3fd69cec0fcf0911c/recon_lw-2.0.0.dev5410797159.tar.gz
+[2023-06-29 15:06:18] INFO root fetch - processPackages [via]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-29 15:06:18] INFO root fetch - processPackages [pycareer]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-29 15:06:18] INFO root fetch - processPackages [kaiju-tasks]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-29 15:06:18] INFO root fetch - processPackages [intel-sgx-ra]: New version: [2.0a9] Old Version: [2.0a8]
+[2023-06-29 15:06:18] INFO root fetch - processPackages [pynegex]: New version: [0.0.3.dev0] Old Version: [0.0.2.dev0]
+[2023-06-29 15:06:18] INFO root fetch - processPackages [aspose-barcode-for-python-via-java]: New version: [23.6.0] Old Version: [23.5.0]
+[2023-06-29 15:06:18] INFO root fetch - processPackages [usseg]: New version: [0.4.0] Old Version: [0.2.0a2]
+[2023-06-29 15:06:18] INFO root fetch - processPackages [supervision]: executing diffoscope
+[2023-06-29 15:06:18] INFO root fetch - processPackages [supervision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervision-0.8.0.tar.gz tmp/supervision-0.9.0.tar.gz --markdown 20230629/s/supervision/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-29 15:06:18] INFO root fetch - processPackages [pycareer]: Downloading https://files.pythonhosted.org/packages/ae/9c/7b3b26d629953e9bc07c6b2a5de962e3252533b0cea672e318db7fa30706/pycareer-0.1.5.tar.gz
+[2023-06-29 15:06:18] INFO root fetch - processPackages [nonebot-plugin-eitherchoice]: Downloading https://files.pythonhosted.org/packages/3c/02/f39cce0e3d57ebe192a8a95da4cdc318cb11b572e2ef238a9aaa4c619eaa/nonebot_plugin_eitherchoice-0.1.0.tar.gz
+[2023-06-29 15:06:18] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/b7/68/3754a95312d143e4ad71fe05f95a5dc78f98567063e3298bf076769d86d2/recon_lw-2.0.0.dev5411511182.tar.gz
+[2023-06-29 15:06:19] INFO root fetch - processPackages [via]: Downloading https://files.pythonhosted.org/packages/7a/53/c5be227c987483ba95bf3ac87a05e99d10132d0cd9aa44ee1f25d67f52b2/via-0.1.1.tar.gz
+[2023-06-29 15:06:19] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-06-29 15:06:19] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev5410797159.tar.gz tmp/recon_lw-2.0.0.dev5411511182.tar.gz --markdown 20230629/r/recon-lw/2.0.0.dev5410797159-2.0.0.dev5411511182/diff.md --exclude *.pyd
+[2023-06-29 15:06:19] INFO root fetch - processPackages [intel-sgx-ra]: Downloading https://files.pythonhosted.org/packages/4d/db/f48e245110f06046ff9666ff3c88904c7182a80136b0ea42fdcc13127785/intel_sgx_ra-2.0a8-cp38-cp38-manylinux_2_34_x86_64.whl
+[2023-06-29 15:06:19] INFO root fetch - processPackages [pynegex]: Downloading https://files.pythonhosted.org/packages/71/76/021e372507b876fdc6662140fa0043c12e519f14eebd5f0212235b314f5f/pynegex-0.0.2.dev0.tar.gz
+[2023-06-29 15:06:19] INFO root fetch - processPackages [kaiju-tasks]: Downloading https://files.pythonhosted.org/packages/09/ab/11d04f46787269068043c355be9bc1e4e8aab8ff809983f06c064f52a73e/kaiju_tasks-2.1.0-py3-none-any.whl
+[2023-06-29 15:06:19] INFO root fetch - processPackages [usseg]: Downloading https://files.pythonhosted.org/packages/64/96/0516bcf16680821d980ab8c81a31ba9f0044b33e95e675af99333f9b72e5/usseg-0.2.0a2.tar.gz
+[2023-06-29 15:06:19] INFO root fetch - processPackages [aspose-barcode-for-python-via-java]: Downloading https://files.pythonhosted.org/packages/97/8c/0b24bec0356c16680662036e1a6dde104679a7627b0f28cf4fdd4c5c33f4/aspose-barcode-for-python-via-java-23.5.0.tar.gz
+[2023-06-29 15:06:19] INFO root fetch - processPackages [pycareer]: Downloading https://files.pythonhosted.org/packages/cd/08/e1ebcb9f29281c6a5a339558cf6017caedb367df274298737d71363a26db/pycareer-0.1.6.tar.gz
+[2023-06-29 15:06:19] WARNING root fetch - processPackages [aspose-barcode-for-python-via-java]: Skipping package: exceeds size limit 14171109>=10485760
+[2023-06-29 15:06:19] INFO root fetch - processPackages [aspose-barcode-for-python-via-java]: Start processing: vunnel
+[2023-06-29 15:06:19] INFO root fetch - main [MainThread]: End processing [aspose-barcode-for-python-via-java] error
+[2023-06-29 15:06:19] INFO root fetch - processPackages [nonebot-plugin-eitherchoice]: Downloading https://files.pythonhosted.org/packages/47/87/666ba81944f8d113eda66ca30ca4265b874bba41aeb6a368cb5b2f1e2d1c/nonebot_plugin_eitherchoice-0.1.0.post1.tar.gz
+[2023-06-29 15:06:19] INFO root fetch - processPackages [nonebot-plugin-eitherchoice]: executing diffoscope
+[2023-06-29 15:06:19] INFO root fetch - processPackages [nonebot-plugin-eitherchoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_eitherchoice-0.1.0.tar.gz tmp/nonebot_plugin_eitherchoice-0.1.0.post1.tar.gz --markdown 20230629/n/nonebot-plugin-eitherchoice/0.1.0-0.1.0.post1/diff.md --exclude *.pyd
+[2023-06-29 15:06:19] INFO root fetch - processPackages [kaiju-tasks]: Downloading https://files.pythonhosted.org/packages/bc/6a/124fc50f3b9e461987076fb67e636df8f3bd2ac34ac3c562054f375427b0/kaiju_tasks-2.1.1-py3-none-any.whl
+[2023-06-29 15:06:19] INFO root fetch - processPackages [vunnel]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-29 15:06:19] INFO root fetch - processPackages [pynegex]: Downloading https://files.pythonhosted.org/packages/4e/e3/1a8ce96be57a2c3a3a53194937bd0dad4de699424e0df62d9b2c266978f5/pynegex-0.0.3.dev0.tar.gz
+[2023-06-29 15:06:19] INFO root fetch - processPackages [pycareer]: executing diffoscope
+[2023-06-29 15:06:19] INFO root fetch - processPackages [pycareer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycareer-0.1.5.tar.gz tmp/pycareer-0.1.6.tar.gz --markdown 20230629/p/pycareer/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-29 15:06:19] INFO root fetch - processPackages [via]: Downloading https://files.pythonhosted.org/packages/31/b6/38a47af19cc5b39d3e08a2579d9d4a9cda36cb554e99b598ab04b58e7d8e/via-0.1.2.tar.gz
+[2023-06-29 15:06:19] INFO root fetch - processPackages [kaiju-tasks]: executing diffoscope
+[2023-06-29 15:06:19] INFO root fetch - processPackages [kaiju-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaiju_tasks-2.1.0-py3-none-any.whl.zip tmp/kaiju_tasks-2.1.1-py3-none-any.whl.zip --markdown 20230629/k/kaiju-tasks/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-29 15:06:19] INFO root fetch - processPackages [intel-sgx-ra]: Downloading https://files.pythonhosted.org/packages/c1/81/773e0f4d7f401bd1f161865ac39db49a4a0eb4e7db5556ac591810b60303/intel_sgx_ra-2.0a9-cp38-cp38-manylinux_2_34_x86_64.whl
+[2023-06-29 15:06:19] INFO root fetch - processPackages [pynegex]: executing diffoscope
+[2023-06-29 15:06:19] INFO root fetch - processPackages [pynegex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynegex-0.0.2.dev0.tar.gz tmp/pynegex-0.0.3.dev0.tar.gz --markdown 20230629/p/pynegex/0.0.2.dev0-0.0.3.dev0/diff.md --exclude *.pyd
+[2023-06-29 15:06:19] INFO root fetch - processPackages [usseg]: Downloading https://files.pythonhosted.org/packages/f9/20/7a1cfa3621b19811519a6bb6a46c4ffae4d164b802232e5eaf28f133bf6c/usseg-0.4.0.tar.gz
+[2023-06-29 15:06:19] INFO root fetch - processPackages [via]: executing diffoscope
+[2023-06-29 15:06:19] INFO root fetch - processPackages [via]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/via-0.1.1.tar.gz tmp/via-0.1.2.tar.gz --markdown 20230629/v/via/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-29 15:06:19] INFO root fetch - processPackages [vunnel]: Downloading https://files.pythonhosted.org/packages/f6/6a/85f266b939729e0527c20e7f0d1d4bdb18f43de4df5e4de358517863b381/vunnel-0.8.1.tar.gz
+[2023-06-29 15:06:19] INFO root fetch - processPackages [intel-sgx-ra]: executing diffoscope
+[2023-06-29 15:06:19] INFO root fetch - processPackages [intel-sgx-ra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intel_sgx_ra-2.0a8-cp38-cp38-manylinux_2_34_x86_64.whl.zip tmp/intel_sgx_ra-2.0a9-cp38-cp38-manylinux_2_34_x86_64.whl.zip --markdown 20230629/i/intel-sgx-ra/2.0a8-2.0a9/diff.md --exclude *.pyd
+[2023-06-29 15:06:19] INFO root fetch - processPackages [usseg]: executing diffoscope
+[2023-06-29 15:06:19] INFO root fetch - processPackages [usseg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usseg-0.2.0a2.tar.gz tmp/usseg-0.4.0.tar.gz --markdown 20230629/u/usseg/0.2.0a2-0.4.0/diff.md --exclude *.pyd
+[2023-06-29 15:06:19] INFO root fetch - processPackages [vunnel]: Downloading https://files.pythonhosted.org/packages/28/00/513fd11c9a1cce9d061a9d193f4a8185a9d477a88073e4bb693a5516e783/vunnel-0.9.0.tar.gz
+[2023-06-29 15:06:19] INFO root fetch - processPackages [vunnel]: executing diffoscope
+[2023-06-29 15:06:19] INFO root fetch - processPackages [vunnel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vunnel-0.8.1.tar.gz tmp/vunnel-0.9.0.tar.gz --markdown 20230629/v/vunnel/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-29 15:06:20] INFO root fetch - processPackages [supervision]: Remove: archive file [/home/abi/fetcher/tmp/supervision-0.8.0.tar.gz]
+[2023-06-29 15:06:20] INFO root fetch - processPackages [supervision]: Remove: archive file [/home/abi/fetcher/tmp/supervision-0.9.0.tar.gz]
+[2023-06-29 15:06:20] INFO root fetch - processPackages [supervision]: Start processing: loky
+[2023-06-29 15:06:20] INFO root fetch - main [MainThread]: End processing [supervision]: success
+[2023-06-29 15:06:20] INFO root fetch - processPackages [loky]: New version: [3.4.1] Old Version: [3.4.0]
+[2023-06-29 15:06:20] INFO root fetch - processPackages [loky]: Downloading https://files.pythonhosted.org/packages/f9/86/72b96da0f8c4768ff37c3305b9929a9c6c65d672b115cf7ef6740a649ae2/loky-3.4.0.tar.gz
+[2023-06-29 15:06:20] INFO root fetch - processPackages [pycareer]: Remove: archive file [/home/abi/fetcher/tmp/pycareer-0.1.5.tar.gz]
+[2023-06-29 15:06:20] INFO root fetch - processPackages [pycareer]: Remove: archive file [/home/abi/fetcher/tmp/pycareer-0.1.6.tar.gz]
+[2023-06-29 15:06:20] INFO root fetch - main [MainThread]: End processing [pycareer]: success
+[2023-06-29 15:06:20] INFO root fetch - processPackages [loky]: Downloading https://files.pythonhosted.org/packages/7e/7d/a66ba4e28ee37b87771f7cdf36e91e0d94a429cd2297a406443f34f6b9f0/loky-3.4.1.tar.gz
+[2023-06-29 15:06:20] INFO root fetch - processPackages [nonebot-plugin-eitherchoice]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_eitherchoice-0.1.0.tar.gz]
+[2023-06-29 15:06:20] INFO root fetch - processPackages [nonebot-plugin-eitherchoice]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_eitherchoice-0.1.0.post1.tar.gz]
+[2023-06-29 15:06:20] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-eitherchoice]: success
+[2023-06-29 15:06:20] INFO root fetch - processPackages [pynegex]: Remove: archive file [/home/abi/fetcher/tmp/pynegex-0.0.2.dev0.tar.gz]
+[2023-06-29 15:06:20] INFO root fetch - processPackages [pynegex]: Remove: archive file [/home/abi/fetcher/tmp/pynegex-0.0.3.dev0.tar.gz]
+[2023-06-29 15:06:20] INFO root fetch - main [MainThread]: End processing [pynegex]: success
+[2023-06-29 15:06:20] INFO root fetch - processPackages [kaiju-tasks]: Remove: archive file [/home/abi/fetcher/tmp/kaiju_tasks-2.1.0-py3-none-any.whl.zip]
+[2023-06-29 15:06:20] INFO root fetch - processPackages [kaiju-tasks]: Remove: archive file [/home/abi/fetcher/tmp/kaiju_tasks-2.1.1-py3-none-any.whl.zip]
+[2023-06-29 15:06:20] INFO root fetch - main [MainThread]: End processing [kaiju-tasks]: success
+[2023-06-29 15:06:20] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5410797159.tar.gz]
+[2023-06-29 15:06:20] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5411511182.tar.gz]
+[2023-06-29 15:06:20] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-06-29 15:06:20] INFO root fetch - processPackages [loky]: executing diffoscope
+[2023-06-29 15:06:20] INFO root fetch - processPackages [loky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loky-3.4.0.tar.gz tmp/loky-3.4.1.tar.gz --markdown 20230629/l/loky/3.4.0-3.4.1/diff.md --exclude *.pyd
+[2023-06-29 15:06:20] INFO root fetch - processPackages [via]: Remove: archive file [/home/abi/fetcher/tmp/via-0.1.1.tar.gz]
+[2023-06-29 15:06:20] INFO root fetch - processPackages [via]: Remove: archive file [/home/abi/fetcher/tmp/via-0.1.2.tar.gz]
+[2023-06-29 15:06:20] INFO root fetch - main [MainThread]: End processing [via]: success
+[2023-06-29 15:06:21] INFO root fetch - processPackages [usseg]: Remove: archive file [/home/abi/fetcher/tmp/usseg-0.2.0a2.tar.gz]
+[2023-06-29 15:06:21] INFO root fetch - processPackages [usseg]: Remove: archive file [/home/abi/fetcher/tmp/usseg-0.4.0.tar.gz]
+[2023-06-29 15:06:21] INFO root fetch - main [MainThread]: End processing [usseg]: success
+[2023-06-29 15:06:21] INFO root fetch - processPackages [vunnel]: Remove: archive file [/home/abi/fetcher/tmp/vunnel-0.8.1.tar.gz]
+[2023-06-29 15:06:21] INFO root fetch - processPackages [vunnel]: Remove: archive file [/home/abi/fetcher/tmp/vunnel-0.9.0.tar.gz]
+[2023-06-29 15:06:21] INFO root fetch - main [MainThread]: End processing [vunnel]: success
+[2023-06-29 15:06:22] INFO root fetch - processPackages [loky]: Remove: archive file [/home/abi/fetcher/tmp/loky-3.4.0.tar.gz]
+[2023-06-29 15:06:22] INFO root fetch - processPackages [loky]: Remove: archive file [/home/abi/fetcher/tmp/loky-3.4.1.tar.gz]
+[2023-06-29 15:06:22] INFO root fetch - main [MainThread]: End processing [loky]: success
+[2023-06-29 15:06:38] INFO root fetch - processPackages [intel-sgx-ra]: Remove: archive file [/home/abi/fetcher/tmp/intel_sgx_ra-2.0a8-cp38-cp38-manylinux_2_34_x86_64.whl.zip]
+[2023-06-29 15:06:38] INFO root fetch - processPackages [intel-sgx-ra]: Remove: archive file [/home/abi/fetcher/tmp/intel_sgx_ra-2.0a9-cp38-cp38-manylinux_2_34_x86_64.whl.zip]
+[2023-06-29 15:06:38] INFO root fetch - main [MainThread]: End processing [intel-sgx-ra]: success
+[2023-06-29 15:06:38] INFO root fetch - main [MainThread]: Store serial: [18695245]
