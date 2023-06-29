@@ -3715,3 +3715,116 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 11:07:00] INFO root fetch - processPackages [autogluon.eda]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.eda-0.8.1b20230628.tar.gz]
 [2023-06-29 11:07:00] INFO root fetch - main [MainThread]: End processing [autogluon.eda]: success
 [2023-06-29 11:07:00] INFO root fetch - main [MainThread]: Store serial: [18692426]
+[2023-06-29 11:12:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18692426]
+[2023-06-29 11:12:10] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-29 11:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: damask-parse
+[2023-06-29 11:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydefect
+[2023-06-29 11:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cns
+[2023-06-29 11:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rutpy
+[2023-06-29 11:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: panoptic
+[2023-06-29 11:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rtfparse
+[2023-06-29 11:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py-redis-utils
+[2023-06-29 11:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hotsos
+[2023-06-29 11:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: area-fig
+[2023-06-29 11:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qontract-reconcile
+[2023-06-29 11:12:10] INFO root fetch - processPackages [pydefect]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-29 11:12:10] INFO root fetch - processPackages [rutpy]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-29 11:12:10] INFO root fetch - processPackages [damask-parse]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-29 11:12:10] WARNING root fetch - processPackages [cns]: Skipping, unable to determine old version
+[2023-06-29 11:12:10] INFO root fetch - processPackages [cns]: Start processing: specklia
+[2023-06-29 11:12:10] INFO root fetch - processPackages [rtfparse]: New version: [0.8.0] Old Version: [0.7.8]
+[2023-06-29 11:12:10] INFO root fetch - main [MainThread]: End processing [cns] error
+[2023-06-29 11:12:10] INFO root fetch - processPackages [hotsos]: New version: [1.15.post3] Old Version: [1.15.post2]
+[2023-06-29 11:12:10] INFO root fetch - processPackages [area-fig]: New version: [0.0.13] Old Version: [0.0.12]
+[2023-06-29 11:12:10] INFO root fetch - processPackages [py-redis-utils]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-29 11:12:10] INFO root fetch - processPackages [panoptic]: New version: [0.1.1.dev1] Old Version: [0.1.1.dev0]
+[2023-06-29 11:12:10] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-29 11:12:10] INFO root fetch - processPackages [specklia]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-29 11:12:10] INFO root fetch - processPackages [area-fig]: Downloading https://files.pythonhosted.org/packages/22/8f/7b1cb6a5143672cec0b395a76251adf586b7c4ca8c86671e0da380b8ffd6/area_fig-0.0.12.tar.gz
+[2023-06-29 11:12:10] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/5c/6d/2aa661e18679d6d85988d4d3d35b18e361565899f2114a154eddecbcc2c3/hotsos-1.15.post2.tar.gz
+[2023-06-29 11:12:10] INFO root fetch - processPackages [py-redis-utils]: Downloading https://files.pythonhosted.org/packages/af/9c/5a69c0ed53898d9017d6f06cb9785f958fc56b46609cd6b4d05dabea3ea0/py-redis-utils-2.0.0.tar.gz
+[2023-06-29 11:12:10] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-29 11:12:10] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/f9/23/2d30a6b71ce87fbbfa779e0821b951aae4c7040ff54d7df71b0ca13cfab2/specklia-1.1.1.tar.gz
+[2023-06-29 11:12:10] INFO root fetch - processPackages [pydefect]: Downloading https://files.pythonhosted.org/packages/0f/b5/571a5cb1e6cecd5381681763614fb91a305c600aa707ec00d47ed4c582fd/pydefect-0.7.1.tar.gz
+[2023-06-29 11:12:11] INFO root fetch - processPackages [damask-parse]: Downloading https://files.pythonhosted.org/packages/97/96/069bda6e959f7bfda169c4fc5a14dbefc137d9bd390f1add7c86e12e8b66/damask-parse-0.2.8.tar.gz
+[2023-06-29 11:12:11] INFO root fetch - processPackages [rutpy]: Downloading https://files.pythonhosted.org/packages/0b/81/3e2c6d6365e4ebc0dfe22184f90044a1169cc604aa18f5b6b202d0a9e5cb/rutpy-1.0.1.tar.gz
+[2023-06-29 11:12:11] INFO root fetch - processPackages [panoptic]: Downloading https://files.pythonhosted.org/packages/43/c5/1a36fc22268af37acaf4b41b1914c7c3728d6a9af044503f6883fe570b86/panoptic-0.1.1.dev1.tar.gz
+[2023-06-29 11:12:11] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/97/23/b05dd846539877c5f2b8965dd07e4296804eac10e503ec6fba1d8f0cf4fd/specklia-1.1.2.tar.gz
+[2023-06-29 11:12:11] INFO root fetch - processPackages [rtfparse]: Downloading https://files.pythonhosted.org/packages/c4/33/10799b7a03acbf3cd0e6795a27ff051999f5c7cf7c5e7956fc69fb6b0712/rtfparse-0.7.8.tar.gz
+[2023-06-29 11:12:11] INFO root fetch - processPackages [area-fig]: Downloading https://files.pythonhosted.org/packages/ce/2a/864b16b481b33d75d8f8dd7307be57e92aaa02c936f6e8efaf4dc6732b31/area_fig-0.0.13.tar.gz
+[2023-06-29 11:12:11] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-29 11:12:11] INFO root fetch - processPackages [panoptic]: executing diffoscope
+[2023-06-29 11:12:11] INFO root fetch - processPackages [panoptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panoptic-0.1.1.dev0.tar.gz tmp/panoptic-0.1.1.dev1.tar.gz --markdown 20230629/p/panoptic/0.1.1.dev0-0.1.1.dev1/diff.md --exclude *.pyd
+[2023-06-29 11:12:11] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2023-06-29 11:12:11] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.1.1.tar.gz tmp/specklia-1.1.2.tar.gz --markdown 20230629/s/specklia/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-29 11:12:11] INFO root fetch - processPackages [py-redis-utils]: Downloading https://files.pythonhosted.org/packages/a8/6b/cb2701591703bc66ed540120203e5fd13eb5a4f0825724108550dba9d8bb/py-redis-utils-2.0.1.tar.gz
+[2023-06-29 11:12:11] INFO root fetch - processPackages [area-fig]: executing diffoscope
+[2023-06-29 11:12:11] INFO root fetch - processPackages [area-fig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/area_fig-0.0.12.tar.gz tmp/area_fig-0.0.13.tar.gz --markdown 20230629/a/area-fig/0.0.12-0.0.13/diff.md --exclude *.pyd
+[2023-06-29 11:12:11] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/5a/d1/de5f08584234119e0d78d32e561269900fca4a1cfc28d0aad5946b169aec/hotsos-1.15.post3.tar.gz
+[2023-06-29 11:12:11] INFO root fetch - processPackages [pydefect]: Downloading https://files.pythonhosted.org/packages/2e/43/233da458c61596127138504ee80c4ae65e3f70cd87e41990de65b238e2e9/pydefect-0.7.2.tar.gz
+[2023-06-29 11:12:11] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-29 11:12:11] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230629/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-29 11:12:11] INFO root fetch - processPackages [py-redis-utils]: executing diffoscope
+[2023-06-29 11:12:11] INFO root fetch - processPackages [py-redis-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-redis-utils-2.0.0.tar.gz tmp/py-redis-utils-2.0.1.tar.gz --markdown 20230629/p/py-redis-utils/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-29 11:12:11] INFO root fetch - processPackages [rutpy]: Downloading https://files.pythonhosted.org/packages/5b/74/d5fad460a60ce3c7404af7fc3204e0b6f633aecbefac41fd0c96f5fb92f8/rutpy-1.0.2.tar.gz
+[2023-06-29 11:12:11] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-06-29 11:12:11] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.15.post2.tar.gz tmp/hotsos-1.15.post3.tar.gz --markdown 20230629/h/hotsos/1.15.post2-1.15.post3/diff.md --exclude *.pyd
+[2023-06-29 11:12:11] INFO root fetch - processPackages [rtfparse]: Downloading https://files.pythonhosted.org/packages/86/2e/a49f303fb095fced49552845d38478b0ed03d89186d87eadc2809e535e1f/rtfparse-0.8.0.tar.gz
+[2023-06-29 11:12:11] INFO root fetch - processPackages [pydefect]: executing diffoscope
+[2023-06-29 11:12:11] INFO root fetch - processPackages [pydefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydefect-0.7.1.tar.gz tmp/pydefect-0.7.2.tar.gz --markdown 20230629/p/pydefect/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-29 11:12:11] INFO root fetch - processPackages [rutpy]: executing diffoscope
+[2023-06-29 11:12:11] INFO root fetch - processPackages [rutpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rutpy-1.0.1.tar.gz tmp/rutpy-1.0.2.tar.gz --markdown 20230629/r/rutpy/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-29 11:12:11] INFO root fetch - processPackages [rtfparse]: executing diffoscope
+[2023-06-29 11:12:11] INFO root fetch - processPackages [rtfparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtfparse-0.7.8.tar.gz tmp/rtfparse-0.8.0.tar.gz --markdown 20230629/r/rtfparse/0.7.8-0.8.0/diff.md --exclude *.pyd
+[2023-06-29 11:12:11] INFO root fetch - processPackages [damask-parse]: Downloading https://files.pythonhosted.org/packages/4c/eb/906dd073c1ba8c4d7c57b70e3ff1b1aa3cc647c68a720b1f710a2ca17acd/damask-parse-0.2.9.tar.gz
+[2023-06-29 11:12:11] INFO root fetch - processPackages [damask-parse]: executing diffoscope
+[2023-06-29 11:12:11] INFO root fetch - processPackages [damask-parse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/damask-parse-0.2.8.tar.gz tmp/damask-parse-0.2.9.tar.gz --markdown 20230629/d/damask-parse/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-29 11:12:12] INFO root fetch - processPackages [area-fig]: Remove: archive file [/home/abi/fetcher/tmp/area_fig-0.0.12.tar.gz]
+[2023-06-29 11:12:12] INFO root fetch - processPackages [area-fig]: Remove: archive file [/home/abi/fetcher/tmp/area_fig-0.0.13.tar.gz]
+[2023-06-29 11:12:12] INFO root fetch - processPackages [area-fig]: Start processing: farm-haystack
+[2023-06-29 11:12:12] INFO root fetch - main [MainThread]: End processing [area-fig]: success
+[2023-06-29 11:12:12] INFO root fetch - processPackages [panoptic]: Remove: archive file [/home/abi/fetcher/tmp/panoptic-0.1.1.dev0.tar.gz]
+[2023-06-29 11:12:12] INFO root fetch - processPackages [panoptic]: Remove: archive file [/home/abi/fetcher/tmp/panoptic-0.1.1.dev1.tar.gz]
+[2023-06-29 11:12:12] INFO root fetch - processPackages [panoptic]: Start processing: tuxrun
+[2023-06-29 11:12:12] INFO root fetch - main [MainThread]: End processing [panoptic]: success
+[2023-06-29 11:12:12] INFO root fetch - processPackages [py-redis-utils]: Remove: archive file [/home/abi/fetcher/tmp/py-redis-utils-2.0.0.tar.gz]
+[2023-06-29 11:12:12] INFO root fetch - processPackages [farm-haystack]: New version: [1.9.1rc1] Old Version: [1.9.1]
+[2023-06-29 11:12:12] INFO root fetch - processPackages [py-redis-utils]: Remove: archive file [/home/abi/fetcher/tmp/py-redis-utils-2.0.1.tar.gz]
+[2023-06-29 11:12:12] INFO root fetch - main [MainThread]: End processing [py-redis-utils]: success
+[2023-06-29 11:12:12] INFO root fetch - processPackages [tuxrun]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-29 11:12:12] INFO root fetch - processPackages [rutpy]: Remove: archive file [/home/abi/fetcher/tmp/rutpy-1.0.1.tar.gz]
+[2023-06-29 11:12:12] INFO root fetch - processPackages [rutpy]: Remove: archive file [/home/abi/fetcher/tmp/rutpy-1.0.2.tar.gz]
+[2023-06-29 11:12:12] INFO root fetch - main [MainThread]: End processing [rutpy]: success
+[2023-06-29 11:12:12] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.1.1.tar.gz]
+[2023-06-29 11:12:12] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.1.2.tar.gz]
+[2023-06-29 11:12:12] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2023-06-29 11:12:13] INFO root fetch - processPackages [tuxrun]: Downloading https://files.pythonhosted.org/packages/05/75/c3a2f3d058040a29b90033ef83341a25499a52eb95f05ae733070a447399/tuxrun-0.9.5.tar.gz
+[2023-06-29 11:12:13] INFO root fetch - processPackages [farm-haystack]: Downloading https://files.pythonhosted.org/packages/94/11/cf9836569f3576a61cd8186a2e448a3c7cd443ac2711bcebab600878af41/farm_haystack-1.9.1.tar.gz
+[2023-06-29 11:12:13] INFO root fetch - processPackages [rtfparse]: Remove: archive file [/home/abi/fetcher/tmp/rtfparse-0.7.8.tar.gz]
+[2023-06-29 11:12:13] INFO root fetch - processPackages [rtfparse]: Remove: archive file [/home/abi/fetcher/tmp/rtfparse-0.8.0.tar.gz]
+[2023-06-29 11:12:13] INFO root fetch - main [MainThread]: End processing [rtfparse]: success
+[2023-06-29 11:12:13] INFO root fetch - processPackages [damask-parse]: Remove: archive file [/home/abi/fetcher/tmp/damask-parse-0.2.8.tar.gz]
+[2023-06-29 11:12:13] INFO root fetch - processPackages [damask-parse]: Remove: archive file [/home/abi/fetcher/tmp/damask-parse-0.2.9.tar.gz]
+[2023-06-29 11:12:13] INFO root fetch - main [MainThread]: End processing [damask-parse]: success
+[2023-06-29 11:12:13] INFO root fetch - processPackages [tuxrun]: Downloading https://files.pythonhosted.org/packages/ae/5a/4fe00d549cd779f2a99801a6e2061f2501e373810e56871af8b037beb43f/tuxrun-0.9.6.tar.gz
+[2023-06-29 11:12:13] INFO root fetch - processPackages [tuxrun]: executing diffoscope
+[2023-06-29 11:12:13] INFO root fetch - processPackages [tuxrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxrun-0.9.5.tar.gz tmp/tuxrun-0.9.6.tar.gz --markdown 20230629/t/tuxrun/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-29 11:12:13] INFO root fetch - processPackages [farm-haystack]: Downloading https://files.pythonhosted.org/packages/25/8b/e5381a7ecd8fa8e72c2cfdfe68539c09350180493bee16fb3b800a487c96/farm_haystack-1.9.1rc1.tar.gz
+[2023-06-29 11:12:13] INFO root fetch - processPackages [farm-haystack]: executing diffoscope
+[2023-06-29 11:12:13] INFO root fetch - processPackages [farm-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/farm_haystack-1.9.1.tar.gz tmp/farm_haystack-1.9.1rc1.tar.gz --markdown 20230629/f/farm-haystack/1.9.1-1.9.1rc1/diff.md --exclude *.pyd
+[2023-06-29 11:12:14] INFO root fetch - processPackages [pydefect]: Remove: archive file [/home/abi/fetcher/tmp/pydefect-0.7.1.tar.gz]
+[2023-06-29 11:12:14] INFO root fetch - processPackages [pydefect]: Remove: archive file [/home/abi/fetcher/tmp/pydefect-0.7.2.tar.gz]
+[2023-06-29 11:12:14] INFO root fetch - main [MainThread]: End processing [pydefect]: success
+[2023-06-29 11:12:14] INFO root fetch - processPackages [tuxrun]: Remove: archive file [/home/abi/fetcher/tmp/tuxrun-0.9.5.tar.gz]
+[2023-06-29 11:12:14] INFO root fetch - processPackages [tuxrun]: Remove: archive file [/home/abi/fetcher/tmp/tuxrun-0.9.6.tar.gz]
+[2023-06-29 11:12:14] INFO root fetch - main [MainThread]: End processing [tuxrun]: success
+[2023-06-29 11:12:15] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.15.post2.tar.gz]
+[2023-06-29 11:12:15] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.15.post3.tar.gz]
+[2023-06-29 11:12:15] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-06-29 11:12:15] INFO root fetch - processPackages [farm-haystack]: Remove: archive file [/home/abi/fetcher/tmp/farm_haystack-1.9.1.tar.gz]
+[2023-06-29 11:12:15] INFO root fetch - processPackages [farm-haystack]: Remove: archive file [/home/abi/fetcher/tmp/farm_haystack-1.9.1rc1.tar.gz]
+[2023-06-29 11:12:15] INFO root fetch - main [MainThread]: End processing [farm-haystack]: success
+[2023-06-29 11:12:17] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-29 11:12:17] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-29 11:12:17] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-29 11:12:17] INFO root fetch - main [MainThread]: Store serial: [18692476]
