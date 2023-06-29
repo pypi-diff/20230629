@@ -3044,3 +3044,162 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 10:39:44] INFO root fetch - processPackages [st-ant-menu]: Remove: archive file [/home/abi/fetcher/tmp/st_ant_menu-0.0.9-py3-none-any.whl.zip]
 [2023-06-29 10:39:44] INFO root fetch - main [MainThread]: End processing [st-ant-menu]: success
 [2023-06-29 10:39:44] INFO root fetch - main [MainThread]: Store serial: [18692169]
+[2023-06-29 10:44:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18692169]
+[2023-06-29 10:44:54] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-29 10:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: specklia
+[2023-06-29 10:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gc-google-services-api
+[2023-06-29 10:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CMZ-Frameworks
+[2023-06-29 10:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pystatic-language
+[2023-06-29 10:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jcmutils
+[2023-06-29 10:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mmcv-lite
+[2023-06-29 10:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ffmpeg-normalize
+[2023-06-29 10:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: confection
+[2023-06-29 10:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tff-nightly
+[2023-06-29 10:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: DataGuru
+[2023-06-29 10:44:54] INFO root fetch - processPackages [gc-google-services-api]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-06-29 10:44:54] WARNING root fetch - processPackages [specklia]: Skipping, unable to determine old version
+[2023-06-29 10:44:54] INFO root fetch - processPackages [specklia]: Start processing: rotter
+[2023-06-29 10:44:54] INFO root fetch - main [MainThread]: End processing [specklia] error
+[2023-06-29 10:44:54] INFO root fetch - processPackages [pystatic-language]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-06-29 10:44:54] INFO root fetch - processPackages [CMZ-Frameworks]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-29 10:44:54] INFO root fetch - processPackages [mmcv-lite]: New version: [2.0.1] Old Version: [2.0.0rc4]
+[2023-06-29 10:44:54] INFO root fetch - processPackages [ffmpeg-normalize]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-06-29 10:44:54] INFO root fetch - processPackages [DataGuru]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-29 10:44:54] INFO root fetch - processPackages [jcmutils]: New version: [1.6.6] Old Version: [1.6.5]
+[2023-06-29 10:44:54] INFO root fetch - processPackages [confection]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-06-29 10:44:54] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230628] Old Version: [0.0.1.dev20230627]
+[2023-06-29 10:44:54] WARNING root fetch - processPackages [rotter]: Skipping, unable to determine old version
+[2023-06-29 10:44:54] INFO root fetch - processPackages [rotter]: Start processing: CMZ-Frameworks
+[2023-06-29 10:44:54] INFO root fetch - main [MainThread]: End processing [rotter] error
+[2023-06-29 10:44:54] INFO root fetch - processPackages [CMZ-Frameworks]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-29 10:44:54] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/d3/c8/4e920679ea14fce4a2c1877d532827a59a0ccaece9620ec235121150ced3/tff_nightly-0.0.1.dev20230627-py2.py3-none-any.whl
+[2023-06-29 10:44:54] INFO root fetch - processPackages [gc-google-services-api]: Downloading https://files.pythonhosted.org/packages/6b/fa/f36f891a9167fba3cd24b398825813f97b811757d61d4a4fc75de09c30cb/gc_google_services_api-1.2.7.tar.gz
+[2023-06-29 10:44:54] INFO root fetch - processPackages [CMZ-Frameworks]: Downloading https://files.pythonhosted.org/packages/33/c7/f685f5f2d4f714422ee9f0dde866a4b6c179dea69aeea712f88406ad3d90/CMZ_Frameworks-1.2.0.tar.gz
+[2023-06-29 10:44:54] INFO root fetch - processPackages [CMZ-Frameworks]: Downloading https://files.pythonhosted.org/packages/33/c7/f685f5f2d4f714422ee9f0dde866a4b6c179dea69aeea712f88406ad3d90/CMZ_Frameworks-1.2.0.tar.gz
+[2023-06-29 10:44:54] INFO root fetch - processPackages [jcmutils]: Downloading https://files.pythonhosted.org/packages/c9/25/7903e0429b2b0b57823dc19a3b957e1f09e8483a9e78d100bc9ef024c357/jcmutils-1.6.5.tar.gz
+[2023-06-29 10:44:54] INFO root fetch - processPackages [confection]: Downloading https://files.pythonhosted.org/packages/35/03/540079384d9665d752631724f578505ddf721b11a7d8318b964397a7a3b8/confection-0.0.4.tar.gz
+[2023-06-29 10:44:54] INFO root fetch - processPackages [pystatic-language]: Downloading https://files.pythonhosted.org/packages/f4/13/00defb2c2bc0ffed13085f0389fd2ac8494ee5678ad8118a698a1b502c37/pystatic-language-1.0.3.tar.gz
+[2023-06-29 10:44:54] INFO root fetch - processPackages [DataGuru]: Downloading https://files.pythonhosted.org/packages/f9/83/024856ceac7cce31615ce9bfc5b8d89a970e95fc20e522e2baccc4779208/DataGuru-0.0.1.tar.gz
+[2023-06-29 10:44:54] INFO root fetch - processPackages [mmcv-lite]: Downloading https://files.pythonhosted.org/packages/42/7b/99535cdadf239f1184dbc4c7d4253a71b91d051fb03c039e6d2b001edd33/mmcv-lite-2.0.0rc4.tar.gz
+[2023-06-29 10:44:54] INFO root fetch - processPackages [ffmpeg-normalize]: Downloading https://files.pythonhosted.org/packages/bb/71/48b153037de3b8679bcbd621aff3af9f5f612b99fb9a8481515bbc2eba59/ffmpeg-normalize-1.3.7.tar.gz
+[2023-06-29 10:44:54] INFO root fetch - processPackages [CMZ-Frameworks]: Downloading https://files.pythonhosted.org/packages/94/cf/74d5037e3766a2e25ba33705ddeb82614e0b5449c36db0cadbac16fabced/CMZ_Frameworks-1.2.1.tar.gz
+[2023-06-29 10:44:54] INFO root fetch - processPackages [CMZ-Frameworks]: Downloading https://files.pythonhosted.org/packages/94/cf/74d5037e3766a2e25ba33705ddeb82614e0b5449c36db0cadbac16fabced/CMZ_Frameworks-1.2.1.tar.gz
+[2023-06-29 10:44:54] INFO root fetch - processPackages [jcmutils]: Downloading https://files.pythonhosted.org/packages/be/ea/03082bdf03a09ba39ea1c3c9597025e9899ba9053f75e24b8c8afea41f26/jcmutils-1.6.6.tar.gz
+[2023-06-29 10:44:54] INFO root fetch - processPackages [pystatic-language]: Downloading https://files.pythonhosted.org/packages/0a/db/506d117b4d158a795a647221c182687e936f6de7517d15ac6f5ca97c3316/pystatic-language-1.1.0.tar.gz
+[2023-06-29 10:44:54] INFO root fetch - processPackages [confection]: Downloading https://files.pythonhosted.org/packages/11/84/339d4abb58f432f357c464b8d9c4adcfe581a1c3cdd7d368260ea1422786/confection-0.1.0.tar.gz
+[2023-06-29 10:44:54] INFO root fetch - processPackages [gc-google-services-api]: Downloading https://files.pythonhosted.org/packages/d5/61/5d2b1d22c3516588dfee99a27feecd593fcece317a88f5f93bdd4b81f6c8/gc_google_services_api-1.2.8.tar.gz
+[2023-06-29 10:44:54] INFO root fetch - processPackages [CMZ-Frameworks]: executing diffoscope
+[2023-06-29 10:44:54] INFO root fetch - processPackages [CMZ-Frameworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CMZ_Frameworks-1.2.0.tar.gz tmp/CMZ_Frameworks-1.2.1.tar.gz --markdown 20230629/C/CMZ-Frameworks/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-29 10:44:54] INFO root fetch - processPackages [CMZ-Frameworks]: executing diffoscope
+[2023-06-29 10:44:54] INFO root fetch - processPackages [CMZ-Frameworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CMZ_Frameworks-1.2.0.tar.gz tmp/CMZ_Frameworks-1.2.1.tar.gz --markdown 20230629/C/CMZ-Frameworks/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-29 10:44:54] INFO root fetch - processPackages [DataGuru]: Downloading https://files.pythonhosted.org/packages/1a/d1/ff8169e9801715f844da69b916440501ff8ad4314144d3e1cf042dba9c19/DataGuru-0.0.2.tar.gz
+[2023-06-29 10:44:54] INFO root fetch - processPackages [confection]: executing diffoscope
+[2023-06-29 10:44:54] INFO root fetch - processPackages [confection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confection-0.0.4.tar.gz tmp/confection-0.1.0.tar.gz --markdown 20230629/c/confection/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-06-29 10:44:54] INFO root fetch - processPackages [pystatic-language]: executing diffoscope
+[2023-06-29 10:44:54] INFO root fetch - processPackages [gc-google-services-api]: executing diffoscope
+[2023-06-29 10:44:54] INFO root fetch - processPackages [gc-google-services-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gc_google_services_api-1.2.7.tar.gz tmp/gc_google_services_api-1.2.8.tar.gz --markdown 20230629/g/gc-google-services-api/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-06-29 10:44:54] INFO root fetch - processPackages [pystatic-language]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystatic-language-1.0.3.tar.gz tmp/pystatic-language-1.1.0.tar.gz --markdown 20230629/p/pystatic-language/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-06-29 10:44:54] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/96/5d/127be7c3924c86137d0ce46e3745881203240315bbf21c2cf461e2f5240e/tff_nightly-0.0.1.dev20230628-py2.py3-none-any.whl
+[2023-06-29 10:44:55] INFO root fetch - processPackages [jcmutils]: executing diffoscope
+[2023-06-29 10:44:55] INFO root fetch - processPackages [jcmutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcmutils-1.6.5.tar.gz tmp/jcmutils-1.6.6.tar.gz --markdown 20230629/j/jcmutils/1.6.5-1.6.6/diff.md --exclude *.pyd
+[2023-06-29 10:44:55] INFO root fetch - processPackages [mmcv-lite]: Downloading https://files.pythonhosted.org/packages/4c/42/650e426cd22e7a7f353f9620980d478e093da3ebfac06594055f600ba3fc/mmcv-lite-2.0.1.tar.gz
+[2023-06-29 10:44:55] INFO root fetch - processPackages [DataGuru]: executing diffoscope
+[2023-06-29 10:44:55] INFO root fetch - processPackages [DataGuru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DataGuru-0.0.1.tar.gz tmp/DataGuru-0.0.2.tar.gz --markdown 20230629/D/DataGuru/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-29 10:44:55] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-06-29 10:44:55] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230627-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230628-py2.py3-none-any.whl.zip --markdown 20230629/t/tff-nightly/0.0.1.dev20230627-0.0.1.dev20230628/diff.md --exclude *.pyd
+[2023-06-29 10:44:55] INFO root fetch - processPackages [mmcv-lite]: executing diffoscope
+[2023-06-29 10:44:55] INFO root fetch - processPackages [mmcv-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmcv-lite-2.0.0rc4.tar.gz tmp/mmcv-lite-2.0.1.tar.gz --markdown 20230629/m/mmcv-lite/2.0.0rc4-2.0.1/diff.md --exclude *.pyd
+[2023-06-29 10:44:55] INFO root fetch - processPackages [ffmpeg-normalize]: Downloading https://files.pythonhosted.org/packages/0f/5d/62e02c888cbe0b4671665346020f8acc68313e0c0c87002593547fcee1d7/ffmpeg-normalize-1.3.8.tar.gz
+[2023-06-29 10:44:56] INFO root fetch - processPackages [ffmpeg-normalize]: executing diffoscope
+[2023-06-29 10:44:56] INFO root fetch - processPackages [ffmpeg-normalize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmpeg-normalize-1.3.7.tar.gz tmp/ffmpeg-normalize-1.3.8.tar.gz --markdown 20230629/f/ffmpeg-normalize/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-06-29 10:44:56] INFO root fetch - processPackages [CMZ-Frameworks]: Remove: archive file [/home/abi/fetcher/tmp/CMZ_Frameworks-1.2.0.tar.gz]
+[2023-06-29 10:44:56] INFO root fetch - processPackages [CMZ-Frameworks]: Remove: archive file [/home/abi/fetcher/tmp/CMZ_Frameworks-1.2.1.tar.gz]
+[2023-06-29 10:44:56] INFO root fetch - processPackages [CMZ-Frameworks]: Start processing: nextpcg
+[2023-06-29 10:44:56] INFO root fetch - main [MainThread]: End processing [CMZ-Frameworks]: success
+[2023-06-29 10:44:56] INFO root fetch - processPackages [nextpcg]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-29 10:44:56] INFO root fetch - processPackages [CMZ-Frameworks]: Start processing: fibertrace
+[2023-06-29 10:44:56] INFO root fetch - main [MainThread]: End processing [CMZ-Frameworks]: success
+[2023-06-29 10:44:56] INFO root fetch - processPackages [fibertrace]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-29 10:44:56] INFO root fetch - processPackages [fibertrace]: Downloading https://files.pythonhosted.org/packages/75/76/ae511e431f5943bbec61651c7580dc5ef6009ccefe402dbd666c0b5082b0/fibertrace-0.1.1.tar.gz
+[2023-06-29 10:44:56] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/69/e3/e1c2a0eab3d123ccc32d0ba8c0901f187bbac209fe4ab3096e360ce73e5b/nextpcg-0.5.2.tar.gz
+[2023-06-29 10:44:56] INFO root fetch - processPackages [jcmutils]: Remove: archive file [/home/abi/fetcher/tmp/jcmutils-1.6.5.tar.gz]
+[2023-06-29 10:44:56] INFO root fetch - processPackages [jcmutils]: Remove: archive file [/home/abi/fetcher/tmp/jcmutils-1.6.6.tar.gz]
+[2023-06-29 10:44:56] INFO root fetch - processPackages [jcmutils]: Start processing: segmindapi
+[2023-06-29 10:44:56] INFO root fetch - main [MainThread]: End processing [jcmutils]: success
+[2023-06-29 10:44:56] INFO root fetch - processPackages [segmindapi]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-29 10:44:57] INFO root fetch - processPackages [DataGuru]: Remove: archive file [/home/abi/fetcher/tmp/DataGuru-0.0.1.tar.gz]
+[2023-06-29 10:44:57] INFO root fetch - processPackages [DataGuru]: Remove: archive file [/home/abi/fetcher/tmp/DataGuru-0.0.2.tar.gz]
+[2023-06-29 10:44:57] INFO root fetch - processPackages [DataGuru]: Start processing: digimat.bac0
+[2023-06-29 10:44:57] INFO root fetch - main [MainThread]: End processing [DataGuru]: success
+[2023-06-29 10:44:57] INFO root fetch - processPackages [digimat.bac0]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-29 10:44:57] INFO root fetch - processPackages [fibertrace]: Downloading https://files.pythonhosted.org/packages/45/99/9b817b04c5af70dac1edafe215ce01876d5dc289217a305b61fef51bfc9c/fibertrace-0.1.2.tar.gz
+[2023-06-29 10:44:57] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/2e/49/7192c658aa6ce0f0c913f8514f687fcab7a98d544411d344dd0f1681df1e/nextpcg-0.5.3.tar.gz
+[2023-06-29 10:44:57] INFO root fetch - processPackages [segmindapi]: Downloading https://files.pythonhosted.org/packages/12/92/d18fe74697d1281de0ed6cbacc1750a8ca08b33d4e5a7e5cac35908bb958/segmindapi-0.2.2.tar.gz
+[2023-06-29 10:44:57] INFO root fetch - processPackages [pystatic-language]: Remove: archive file [/home/abi/fetcher/tmp/pystatic-language-1.0.3.tar.gz]
+[2023-06-29 10:44:57] INFO root fetch - processPackages [pystatic-language]: Remove: archive file [/home/abi/fetcher/tmp/pystatic-language-1.1.0.tar.gz]
+[2023-06-29 10:44:57] INFO root fetch - processPackages [pystatic-language]: Start processing: isabelle-client
+[2023-06-29 10:44:57] INFO root fetch - main [MainThread]: End processing [pystatic-language]: success
+[2023-06-29 10:44:57] INFO root fetch - processPackages [fibertrace]: executing diffoscope
+[2023-06-29 10:44:57] INFO root fetch - processPackages [fibertrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fibertrace-0.1.1.tar.gz tmp/fibertrace-0.1.2.tar.gz --markdown 20230629/f/fibertrace/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-29 10:44:57] INFO root fetch - processPackages [isabelle-client]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-06-29 10:44:57] INFO root fetch - processPackages [segmindapi]: executing diffoscope
+[2023-06-29 10:44:57] INFO root fetch - processPackages [segmindapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segmindapi-0.2.1.tar.gz tmp/segmindapi-0.2.2.tar.gz --markdown 20230629/s/segmindapi/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-29 10:44:57] INFO root fetch - processPackages [nextpcg]: executing diffoscope
+[2023-06-29 10:44:57] INFO root fetch - processPackages [nextpcg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextpcg-0.5.2.tar.gz tmp/nextpcg-0.5.3.tar.gz --markdown 20230629/n/nextpcg/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-29 10:44:57] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/93/69/86e0838e726c0937c564256e80ef37aa475670fd71b17c0760827302f8e2/digimat.bac0-0.0.7.tar.gz
+[2023-06-29 10:44:57] INFO root fetch - processPackages [confection]: Remove: archive file [/home/abi/fetcher/tmp/confection-0.0.4.tar.gz]
+[2023-06-29 10:44:57] INFO root fetch - processPackages [confection]: Remove: archive file [/home/abi/fetcher/tmp/confection-0.1.0.tar.gz]
+[2023-06-29 10:44:57] INFO root fetch - processPackages [confection]: Start processing: cognite-power-ops
+[2023-06-29 10:44:57] INFO root fetch - main [MainThread]: End processing [confection]: success
+[2023-06-29 10:44:57] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-29 10:44:57] INFO root fetch - processPackages [isabelle-client]: Downloading https://files.pythonhosted.org/packages/a9/60/2ef798369857ed7529b3f15c82498c3671ae358a4c3447038994a475a4ec/isabelle-client-0.3.9.tar.gz
+[2023-06-29 10:44:57] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/2b/ea/c056f5562fa0bed4321b21572bba15a2f43f6f9795d20397ee822d00d6af/cognite_power_ops-0.9.1.tar.gz
+[2023-06-29 10:44:57] INFO root fetch - processPackages [gc-google-services-api]: Remove: archive file [/home/abi/fetcher/tmp/gc_google_services_api-1.2.7.tar.gz]
+[2023-06-29 10:44:57] INFO root fetch - processPackages [gc-google-services-api]: Remove: archive file [/home/abi/fetcher/tmp/gc_google_services_api-1.2.8.tar.gz]
+[2023-06-29 10:44:57] INFO root fetch - processPackages [gc-google-services-api]: Start processing: zebrazoom
+[2023-06-29 10:44:57] INFO root fetch - main [MainThread]: End processing [gc-google-services-api]: success
+[2023-06-29 10:44:57] INFO root fetch - processPackages [zebrazoom]: New version: [1.9] Old Version: [1.8]
+[2023-06-29 10:44:57] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/78/69/c221dd8f83b0cf18b4d8071cc4f3e464fd1a4a46aedfcc6da331732122ce/digimat.bac0-0.0.8.tar.gz
+[2023-06-29 10:44:57] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/5a/e7/e66818fdcb4e952516e36c68513139d425136901b019cc2b7ae48bfa3c12/cognite_power_ops-0.9.2.tar.gz
+[2023-06-29 10:44:57] INFO root fetch - processPackages [digimat.bac0]: executing diffoscope
+[2023-06-29 10:44:57] INFO root fetch - processPackages [digimat.bac0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.bac0-0.0.7.tar.gz tmp/digimat.bac0-0.0.8.tar.gz --markdown 20230629/d/digimat.bac0/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-29 10:44:57] INFO root fetch - processPackages [isabelle-client]: Downloading https://files.pythonhosted.org/packages/52/7d/cff45fa7c011711571811d6289061c4a4aaa36746201d18352f53a84e2a7/isabelle_client-0.4.0.tar.gz
+[2023-06-29 10:44:57] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-06-29 10:44:57] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.9.1.tar.gz tmp/cognite_power_ops-0.9.2.tar.gz --markdown 20230629/c/cognite-power-ops/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-29 10:44:57] INFO root fetch - processPackages [zebrazoom]: Downloading https://files.pythonhosted.org/packages/f8/26/fb333d50056298ab69d02c7c0e0fdaeae2e51fca825888178df88926b372/zebrazoom-1.8.tar.gz
+[2023-06-29 10:44:57] INFO root fetch - processPackages [isabelle-client]: executing diffoscope
+[2023-06-29 10:44:57] INFO root fetch - processPackages [isabelle-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isabelle-client-0.3.9.tar.gz tmp/isabelle_client-0.4.0.tar.gz --markdown 20230629/i/isabelle-client/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-06-29 10:44:58] INFO root fetch - processPackages [zebrazoom]: Downloading https://files.pythonhosted.org/packages/29/37/9f2aaa64707bbcd24502e836857b6c572452e441dc5bb3229137d00bfa9b/zebrazoom-1.9.tar.gz
+[2023-06-29 10:44:58] INFO root fetch - processPackages [zebrazoom]: executing diffoscope
+[2023-06-29 10:44:58] INFO root fetch - processPackages [zebrazoom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zebrazoom-1.8.tar.gz tmp/zebrazoom-1.9.tar.gz --markdown 20230629/z/zebrazoom/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-29 10:44:58] INFO root fetch - processPackages [segmindapi]: Remove: archive file [/home/abi/fetcher/tmp/segmindapi-0.2.1.tar.gz]
+[2023-06-29 10:44:58] INFO root fetch - processPackages [segmindapi]: Remove: archive file [/home/abi/fetcher/tmp/segmindapi-0.2.2.tar.gz]
+[2023-06-29 10:44:58] INFO root fetch - main [MainThread]: End processing [segmindapi]: success
+[2023-06-29 10:44:58] INFO root fetch - processPackages [fibertrace]: Remove: archive file [/home/abi/fetcher/tmp/fibertrace-0.1.1.tar.gz]
+[2023-06-29 10:44:58] INFO root fetch - processPackages [fibertrace]: Remove: archive file [/home/abi/fetcher/tmp/fibertrace-0.1.2.tar.gz]
+[2023-06-29 10:44:58] INFO root fetch - main [MainThread]: End processing [fibertrace]: success
+[2023-06-29 10:44:59] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.7.tar.gz]
+[2023-06-29 10:44:59] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.8.tar.gz]
+[2023-06-29 10:44:59] INFO root fetch - main [MainThread]: End processing [digimat.bac0]: success
+[2023-06-29 10:44:59] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.5.2.tar.gz]
+[2023-06-29 10:44:59] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.5.3.tar.gz]
+[2023-06-29 10:44:59] INFO root fetch - main [MainThread]: End processing [nextpcg]: success
+[2023-06-29 10:44:59] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230627-py2.py3-none-any.whl.zip]
+[2023-06-29 10:44:59] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230628-py2.py3-none-any.whl.zip]
+[2023-06-29 10:44:59] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-06-29 10:44:59] INFO root fetch - processPackages [isabelle-client]: Remove: archive file [/home/abi/fetcher/tmp/isabelle-client-0.3.9.tar.gz]
+[2023-06-29 10:44:59] INFO root fetch - processPackages [isabelle-client]: Remove: archive file [/home/abi/fetcher/tmp/isabelle_client-0.4.0.tar.gz]
+[2023-06-29 10:44:59] INFO root fetch - main [MainThread]: End processing [isabelle-client]: success
+[2023-06-29 10:45:00] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.1.tar.gz]
+[2023-06-29 10:45:00] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.2.tar.gz]
+[2023-06-29 10:45:00] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-06-29 10:45:01] INFO root fetch - processPackages [zebrazoom]: Remove: archive file [/home/abi/fetcher/tmp/zebrazoom-1.8.tar.gz]
+[2023-06-29 10:45:01] INFO root fetch - processPackages [zebrazoom]: Remove: archive file [/home/abi/fetcher/tmp/zebrazoom-1.9.tar.gz]
+[2023-06-29 10:45:01] INFO root fetch - main [MainThread]: End processing [zebrazoom]: success
+[2023-06-29 10:45:02] INFO root fetch - processPackages [ffmpeg-normalize]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg-normalize-1.3.7.tar.gz]
+[2023-06-29 10:45:02] INFO root fetch - processPackages [ffmpeg-normalize]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg-normalize-1.3.8.tar.gz]
+[2023-06-29 10:45:02] INFO root fetch - main [MainThread]: End processing [ffmpeg-normalize]: success
+[2023-06-29 10:45:05] INFO root fetch - processPackages [mmcv-lite]: Remove: archive file [/home/abi/fetcher/tmp/mmcv-lite-2.0.0rc4.tar.gz]
+[2023-06-29 10:45:05] INFO root fetch - processPackages [mmcv-lite]: Remove: archive file [/home/abi/fetcher/tmp/mmcv-lite-2.0.1.tar.gz]
+[2023-06-29 10:45:05] INFO root fetch - main [MainThread]: End processing [mmcv-lite]: success
+[2023-06-29 10:45:05] INFO root fetch - main [MainThread]: Store serial: [18692226]
