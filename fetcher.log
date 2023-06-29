@@ -3828,3 +3828,208 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 11:12:17] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-06-29 11:12:17] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-06-29 11:12:17] INFO root fetch - main [MainThread]: Store serial: [18692476]
+[2023-06-29 11:17:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18692476]
+[2023-06-29 11:17:26] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-06-29 11:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: leadguru-data
+[2023-06-29 11:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airball
+[2023-06-29 11:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metas-unclib
+[2023-06-29 11:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: leadguru-common
+[2023-06-29 11:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: configzen
+[2023-06-29 11:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spaceone-core
+[2023-06-29 11:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openoligo
+[2023-06-29 11:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: returnn
+[2023-06-29 11:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-mkdocs
+[2023-06-29 11:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: folio-migration-tools
+[2023-06-29 11:17:26] INFO root fetch - processPackages [airball]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-29 11:17:26] INFO root fetch - processPackages [metas-unclib]: New version: [2.8.0] Old Version: [2.7.1]
+[2023-06-29 11:17:26] INFO root fetch - processPackages [configzen]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-29 11:17:26] INFO root fetch - processPackages [nbdev-mkdocs]: New version: [1.0.0] Old Version: [0.6.0rc0]
+[2023-06-29 11:17:26] INFO root fetch - processPackages [openoligo]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-29 11:17:26] INFO root fetch - processPackages [leadguru-data]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-29 11:17:26] INFO root fetch - processPackages [leadguru-common]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-29 11:17:26] INFO root fetch - processPackages [folio-migration-tools]: New version: [1.8.1] Old Version: [1.8.0rc8]
+[2023-06-29 11:17:26] INFO root fetch - processPackages [spaceone-core]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-06-29 11:17:26] INFO root fetch - processPackages [returnn]: New version: [1.20230629.110204] Old Version: [1.20230628.20357]
+[2023-06-29 11:17:26] INFO root fetch - processPackages [openoligo]: Downloading https://files.pythonhosted.org/packages/69/45/f422f2d94df3b81ba643e5c142dc6a34d7ef572c8473491bc814aebdde4f/openoligo-0.1.3.tar.gz
+[2023-06-29 11:17:26] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/29/ff/825a7b7349a770c9ca4088f3a2d5fc5f9dd94347cc400cbcf35d018aa04e/configzen-0.4.4.tar.gz
+[2023-06-29 11:17:27] INFO root fetch - processPackages [nbdev-mkdocs]: Downloading https://files.pythonhosted.org/packages/ec/b8/00e406e7c4ce764f1378fe7e3e45a05de13a151b632ed33ad84f2e8871cf/nbdev-mkdocs-0.6.0rc0.tar.gz
+[2023-06-29 11:17:27] INFO root fetch - processPackages [airball]: Downloading https://files.pythonhosted.org/packages/e5/47/9a67be3e4b2ca64b9449312d1d12b45d273619a0854c50262b01a4d1d451/airball-0.3.0.tar.gz
+[2023-06-29 11:17:27] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/fc/35/ca8dc82028975cbcb02faead26153071461e5c78a03fb67e0f27256aee8d/leadguru_common-0.98.0.tar.gz
+[2023-06-29 11:17:27] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/39/c2/f1a416984893ebdde9da5f0447fe992f1e6d0cde08d36425a727676666b4/returnn-1.20230629.110204.tar.gz
+[2023-06-29 11:17:27] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/81/bf/f4c758210f3132ad36cea5286e4857350dc02f38ded759934614da96bd78/leadguru_data-0.98.0.tar.gz
+[2023-06-29 11:17:27] INFO root fetch - processPackages [metas-unclib]: Downloading https://files.pythonhosted.org/packages/1e/0a/2e301e7f1988cc76ed1f5b9adac283eafce5e7c16f883f5e96191b78a4ab/metas_unclib-2.7.1-py2.py3-none-win_amd64.whl
+[2023-06-29 11:17:27] INFO root fetch - processPackages [folio-migration-tools]: Downloading https://files.pythonhosted.org/packages/01/b3/94bdf4cd20d7a6e353b47d5c135e2105de5c97247aea3bcf4dd6f8ba5167/folio_migration_tools-1.8.0rc8.tar.gz
+[2023-06-29 11:17:27] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/1f/6d/5cbc0264b2c1dd5f3ae609e7b61b5c5c8d54710e85e098c13db4552af976/spaceone_core-1.9.7.1-py3-none-any.whl
+[2023-06-29 11:17:27] INFO root fetch - processPackages [openoligo]: Downloading https://files.pythonhosted.org/packages/ae/d3/88e7878844abd663a09a3d035f69e7c3ce916a5c47e0b3033b59fe56dcbb/openoligo-0.1.4.tar.gz
+[2023-06-29 11:17:27] WARNING root fetch - processPackages [metas-unclib]: Skipping package: exceeds size limit 28751967>=10485760
+[2023-06-29 11:17:27] INFO root fetch - processPackages [metas-unclib]: Start processing: tbp-nightly
+[2023-06-29 11:17:27] INFO root fetch - main [MainThread]: End processing [metas-unclib] error
+[2023-06-29 11:17:27] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/1c/18/b88b24ccb365103487466781de6686a5476de832acf95f514d37f2baa560/configzen-0.4.5.tar.gz
+[2023-06-29 11:17:27] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-06-29 11:17:27] INFO root fetch - processPackages [openoligo]: executing diffoscope
+[2023-06-29 11:17:27] INFO root fetch - processPackages [openoligo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openoligo-0.1.3.tar.gz tmp/openoligo-0.1.4.tar.gz --markdown 20230629/o/openoligo/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-29 11:17:27] INFO root fetch - processPackages [nbdev-mkdocs]: Downloading https://files.pythonhosted.org/packages/b9/cb/f3c6487fec68b82e23c1d2293dc6c0b356e190bbc0effce27648916c2ef5/nbdev-mkdocs-1.0.0.tar.gz
+[2023-06-29 11:17:27] INFO root fetch - processPackages [airball]: Downloading https://files.pythonhosted.org/packages/5b/0c/11460ab68c8ad1f7eb03fdad0d0839cbad1b06f5d661281aa8b6567c41e4/airball-0.4.0.tar.gz
+[2023-06-29 11:17:27] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-06-29 11:17:27] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/4e/4f/236c71729e1b70c3c5c202003cf9aa48c1c9b9d202620f8c5e94a7aacdc9/leadguru_common-0.99.0.tar.gz
+[2023-06-29 11:17:27] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-06-29 11:17:27] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230628.20357.tar.gz tmp/returnn-1.20230629.110204.tar.gz --markdown 20230629/r/returnn/1.20230628.20357-1.20230629.110204/diff.md --exclude *.pyd
+[2023-06-29 11:17:27] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/16/1c/017bcd8f49a9ceed0d36796e84f43cefd77b1a273b4b9807a222b85cb578/leadguru_data-0.99.0.tar.gz
+[2023-06-29 11:17:27] INFO root fetch - processPackages [folio-migration-tools]: Downloading https://files.pythonhosted.org/packages/3d/b2/bdec82ca37e88c319ef06888ce0cbadc1f7b769614dc5840d2d2c41ac5f2/folio_migration_tools-1.8.1.tar.gz
+[2023-06-29 11:17:27] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/2f/7f/98bd3e0e1e14ec1a59e8d305c033978db48833658a8f1754c0458e77a3c4/spaceone_core-1.9.7rc1-py3-none-any.whl
+[2023-06-29 11:17:27] INFO root fetch - processPackages [configzen]: executing diffoscope
+[2023-06-29 11:17:27] INFO root fetch - processPackages [configzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configzen-0.4.4.tar.gz tmp/configzen-0.4.5.tar.gz --markdown 20230629/c/configzen/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-29 11:17:27] INFO root fetch - processPackages [leadguru-common]: executing diffoscope
+[2023-06-29 11:17:27] INFO root fetch - processPackages [leadguru-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_common-0.98.0.tar.gz tmp/leadguru_common-0.99.0.tar.gz --markdown 20230629/l/leadguru-common/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-29 11:17:27] INFO root fetch - processPackages [airball]: executing diffoscope
+[2023-06-29 11:17:27] INFO root fetch - processPackages [airball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airball-0.3.0.tar.gz tmp/airball-0.4.0.tar.gz --markdown 20230629/a/airball/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-29 11:17:27] INFO root fetch - processPackages [nbdev-mkdocs]: executing diffoscope
+[2023-06-29 11:17:27] INFO root fetch - processPackages [nbdev-mkdocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-mkdocs-0.6.0rc0.tar.gz tmp/nbdev-mkdocs-1.0.0.tar.gz --markdown 20230629/n/nbdev-mkdocs/0.6.0rc0-1.0.0/diff.md --exclude *.pyd
+[2023-06-29 11:17:27] INFO root fetch - processPackages [folio-migration-tools]: executing diffoscope
+[2023-06-29 11:17:27] INFO root fetch - processPackages [folio-migration-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/folio_migration_tools-1.8.0rc8.tar.gz tmp/folio_migration_tools-1.8.1.tar.gz --markdown 20230629/f/folio-migration-tools/1.8.0rc8-1.8.1/diff.md --exclude *.pyd
+[2023-06-29 11:17:27] INFO root fetch - processPackages [spaceone-core]: executing diffoscope
+[2023-06-29 11:17:27] INFO root fetch - processPackages [spaceone-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip --markdown 20230629/s/spaceone-core/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-29 11:17:27] INFO root fetch - processPackages [leadguru-data]: executing diffoscope
+[2023-06-29 11:17:27] INFO root fetch - processPackages [leadguru-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_data-0.98.0.tar.gz tmp/leadguru_data-0.99.0.tar.gz --markdown 20230629/l/leadguru-data/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-29 11:17:27] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-06-29 11:17:27] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-06-29 11:17:27] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230629/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-06-29 11:17:28] INFO root fetch - processPackages [airball]: Remove: archive file [/home/abi/fetcher/tmp/airball-0.3.0.tar.gz]
+[2023-06-29 11:17:28] INFO root fetch - processPackages [airball]: Remove: archive file [/home/abi/fetcher/tmp/airball-0.4.0.tar.gz]
+[2023-06-29 11:17:28] INFO root fetch - processPackages [airball]: Start processing: sensenova
+[2023-06-29 11:17:28] INFO root fetch - main [MainThread]: End processing [airball]: success
+[2023-06-29 11:17:29] WARNING root fetch - processPackages [sensenova]: Skipping, unable to determine old version
+[2023-06-29 11:17:29] INFO root fetch - processPackages [sensenova]: Start processing: mentord
+[2023-06-29 11:17:29] INFO root fetch - main [MainThread]: End processing [sensenova] error
+[2023-06-29 11:17:29] INFO root fetch - processPackages [mentord]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-29 11:17:29] INFO root fetch - processPackages [leadguru-data]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_data-0.98.0.tar.gz]
+[2023-06-29 11:17:29] INFO root fetch - processPackages [leadguru-data]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_data-0.99.0.tar.gz]
+[2023-06-29 11:17:29] INFO root fetch - processPackages [leadguru-data]: Start processing: lightning-template
+[2023-06-29 11:17:29] INFO root fetch - main [MainThread]: End processing [leadguru-data]: success
+[2023-06-29 11:17:29] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.4.4.tar.gz]
+[2023-06-29 11:17:29] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.4.5.tar.gz]
+[2023-06-29 11:17:29] INFO root fetch - processPackages [configzen]: Start processing: capture-it
+[2023-06-29 11:17:29] INFO root fetch - main [MainThread]: End processing [configzen]: success
+[2023-06-29 11:17:29] INFO root fetch - processPackages [lightning-template]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-29 11:17:29] INFO root fetch - processPackages [capture-it]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 11:17:29] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/bb/23/283f51826390193fc77c120c748d3599480b234089dc9eea07057d06ac6a/lightning-template-1.0.8.tar.gz
+[2023-06-29 11:17:29] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.98.0.tar.gz]
+[2023-06-29 11:17:29] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.99.0.tar.gz]
+[2023-06-29 11:17:29] INFO root fetch - processPackages [leadguru-common]: Start processing: pyDecLog
+[2023-06-29 11:17:29] INFO root fetch - main [MainThread]: End processing [leadguru-common]: success
+[2023-06-29 11:17:29] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/f7/64/f2878d3a1c8ce62c2fc560d217f9c0b56d940d603d2dcabd1d990286993a/mentord-1.1.3.tar.gz
+[2023-06-29 11:17:29] INFO root fetch - processPackages [openoligo]: Remove: archive file [/home/abi/fetcher/tmp/openoligo-0.1.3.tar.gz]
+[2023-06-29 11:17:29] INFO root fetch - processPackages [openoligo]: Remove: archive file [/home/abi/fetcher/tmp/openoligo-0.1.4.tar.gz]
+[2023-06-29 11:17:29] INFO root fetch - processPackages [openoligo]: Start processing: timeseriesflattener
+[2023-06-29 11:17:29] INFO root fetch - main [MainThread]: End processing [openoligo]: success
+[2023-06-29 11:17:29] INFO root fetch - processPackages [pyDecLog]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-29 11:17:29] INFO root fetch - processPackages [timeseriesflattener]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-06-29 11:17:29] INFO root fetch - processPackages [capture-it]: Downloading https://files.pythonhosted.org/packages/8f/1d/4c93e6325c1973a246fe168a9892ed1fe69f865bd5f6ca878e20d4f582eb/capture_it-0.0.8.tar.gz
+[2023-06-29 11:17:29] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/3c/15/188896748e785a66931b38a2f6e0ae23e7a6c736948e3b34b74d3220587a/lightning-template-1.0.9.tar.gz
+[2023-06-29 11:17:29] INFO root fetch - processPackages [lightning-template]: executing diffoscope
+[2023-06-29 11:17:29] INFO root fetch - processPackages [lightning-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-template-1.0.8.tar.gz tmp/lightning-template-1.0.9.tar.gz --markdown 20230629/l/lightning-template/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-29 11:17:29] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230628.20357.tar.gz]
+[2023-06-29 11:17:29] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230629.110204.tar.gz]
+[2023-06-29 11:17:29] INFO root fetch - processPackages [returnn]: Start processing: facts-finder
+[2023-06-29 11:17:29] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-06-29 11:17:29] INFO root fetch - processPackages [mentord]: Downloading https://files.pythonhosted.org/packages/cc/de/48a001fd71b9e7408c6a9c6477824e9467e63b862f46adb2264dbf2fcd28/mentord-1.1.4.tar.gz
+[2023-06-29 11:17:29] INFO root fetch - processPackages [pyDecLog]: Downloading https://files.pythonhosted.org/packages/63/62/0933678098928dc38e4f3149f8529adf8762e5b9d361b9ffdab757114cad/pyDecLog-0.1.6.tar.gz
+[2023-06-29 11:17:29] INFO root fetch - processPackages [timeseriesflattener]: Downloading https://files.pythonhosted.org/packages/8e/e9/897c8aa1b81c07afa4cf822db3095a9bac8acc3f039f1e2c263c7fa6131c/timeseriesflattener-1.2.1.tar.gz
+[2023-06-29 11:17:29] INFO root fetch - processPackages [facts-finder]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 11:17:29] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip]
+[2023-06-29 11:17:29] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-29 11:17:29] INFO root fetch - processPackages [spaceone-core]: Start processing: configzen
+[2023-06-29 11:17:29] INFO root fetch - main [MainThread]: End processing [spaceone-core]: success
+[2023-06-29 11:17:29] INFO root fetch - processPackages [mentord]: executing diffoscope
+[2023-06-29 11:17:29] INFO root fetch - processPackages [mentord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentord-1.1.3.tar.gz tmp/mentord-1.1.4.tar.gz --markdown 20230629/m/mentord/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-29 11:17:29] INFO root fetch - processPackages [configzen]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-29 11:17:29] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/29/ff/825a7b7349a770c9ca4088f3a2d5fc5f9dd94347cc400cbcf35d018aa04e/configzen-0.4.4.tar.gz
+[2023-06-29 11:17:29] INFO root fetch - processPackages [facts-finder]: Downloading https://files.pythonhosted.org/packages/61/60/06276c53487096e6f3693d782da4faadc4633eebd9bdfde5c17188d3d01d/facts_finder-0.0.8.tar.gz
+[2023-06-29 11:17:29] INFO root fetch - processPackages [capture-it]: Downloading https://files.pythonhosted.org/packages/e0/93/c634728be1b7b2eecbf83658a30bcc5c69bcd872a8d5182716f17d1e3743/capture_it-0.0.9.tar.gz
+[2023-06-29 11:17:29] INFO root fetch - processPackages [pyDecLog]: Downloading https://files.pythonhosted.org/packages/1a/2d/84513c3a506a59f16fe6d232de777fdaa83a7b6820b904ffbd700012c73e/pyDecLog-0.1.7.tar.gz
+[2023-06-29 11:17:29] INFO root fetch - processPackages [pyDecLog]: executing diffoscope
+[2023-06-29 11:17:29] INFO root fetch - processPackages [pyDecLog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDecLog-0.1.6.tar.gz tmp/pyDecLog-0.1.7.tar.gz --markdown 20230629/p/pyDecLog/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-29 11:17:29] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/1c/18/b88b24ccb365103487466781de6686a5476de832acf95f514d37f2baa560/configzen-0.4.5.tar.gz
+[2023-06-29 11:17:29] INFO root fetch - processPackages [timeseriesflattener]: Downloading https://files.pythonhosted.org/packages/42/0c/4af684f7e690600ace3d75b427ba8c2c96809329599b3327ef63df0b01b8/timeseriesflattener-1.3.0.tar.gz
+[2023-06-29 11:17:29] INFO root fetch - processPackages [capture-it]: executing diffoscope
+[2023-06-29 11:17:29] INFO root fetch - processPackages [capture-it]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capture_it-0.0.8.tar.gz tmp/capture_it-0.0.9.tar.gz --markdown 20230629/c/capture-it/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 11:17:29] INFO root fetch - processPackages [configzen]: executing diffoscope
+[2023-06-29 11:17:29] INFO root fetch - processPackages [configzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configzen-0.4.4.tar.gz tmp/configzen-0.4.5.tar.gz --markdown 20230629/c/configzen/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-29 11:17:30] INFO root fetch - processPackages [facts-finder]: Downloading https://files.pythonhosted.org/packages/c5/77/320a865dc589974cca75c21f0fe26e96676dca0f4b368bd7833107461795/facts_finder-0.0.9.tar.gz
+[2023-06-29 11:17:30] INFO root fetch - processPackages [folio-migration-tools]: Remove: archive file [/home/abi/fetcher/tmp/folio_migration_tools-1.8.0rc8.tar.gz]
+[2023-06-29 11:17:30] INFO root fetch - processPackages [folio-migration-tools]: Remove: archive file [/home/abi/fetcher/tmp/folio_migration_tools-1.8.1.tar.gz]
+[2023-06-29 11:17:30] INFO root fetch - processPackages [folio-migration-tools]: Start processing: CartiMorph-vxm
+[2023-06-29 11:17:30] INFO root fetch - main [MainThread]: End processing [folio-migration-tools]: success
+[2023-06-29 11:17:30] INFO root fetch - processPackages [timeseriesflattener]: executing diffoscope
+[2023-06-29 11:17:30] INFO root fetch - processPackages [timeseriesflattener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeseriesflattener-1.2.1.tar.gz tmp/timeseriesflattener-1.3.0.tar.gz --markdown 20230629/t/timeseriesflattener/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-06-29 11:17:30] WARNING root fetch - processPackages [CartiMorph-vxm]: Skipping, unable to determine old version
+[2023-06-29 11:17:30] INFO root fetch - processPackages [CartiMorph-vxm]: Start processing: haven-py
+[2023-06-29 11:17:30] INFO root fetch - main [MainThread]: End processing [CartiMorph-vxm] error
+[2023-06-29 11:17:30] WARNING root fetch - processPackages [haven-py]: Skipping, unable to determine old version
+[2023-06-29 11:17:30] INFO root fetch - processPackages [haven-py]: Start processing: gpt4-api
+[2023-06-29 11:17:30] INFO root fetch - main [MainThread]: End processing [haven-py] error
+[2023-06-29 11:17:30] INFO root fetch - processPackages [nbdev-mkdocs]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-mkdocs-0.6.0rc0.tar.gz]
+[2023-06-29 11:17:30] INFO root fetch - processPackages [nbdev-mkdocs]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-mkdocs-1.0.0.tar.gz]
+[2023-06-29 11:17:30] INFO root fetch - processPackages [nbdev-mkdocs]: Start processing: huscy.project-consents
+[2023-06-29 11:17:30] INFO root fetch - main [MainThread]: End processing [nbdev-mkdocs]: success
+[2023-06-29 11:17:30] INFO root fetch - processPackages [facts-finder]: executing diffoscope
+[2023-06-29 11:17:30] INFO root fetch - processPackages [facts-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facts_finder-0.0.8.tar.gz tmp/facts_finder-0.0.9.tar.gz --markdown 20230629/f/facts-finder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 11:17:30] INFO root fetch - processPackages [gpt4-api]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-29 11:17:30] INFO root fetch - processPackages [huscy.project-consents]: New version: [0.7.2a10] Old Version: [0.7.1a9]
+[2023-06-29 11:17:30] INFO root fetch - processPackages [huscy.project-consents]: Downloading https://files.pythonhosted.org/packages/ff/d7/07b33f3524d9a8efbfb92d0ce502bf63ce02b7f4b20c699e0d0d7992ff49/huscy.project_consents-0.7.1a9.tar.gz
+[2023-06-29 11:17:30] INFO root fetch - processPackages [gpt4-api]: Downloading https://files.pythonhosted.org/packages/b7/1f/c6e1230e32813c4c54d25d84cb57659667b9b79965d8135d10714589d106/gpt4-api-0.1.9.tar.gz
+[2023-06-29 11:17:30] INFO root fetch - processPackages [huscy.project-consents]: Downloading https://files.pythonhosted.org/packages/69/13/5ae977a1b7e03423a0a2e2708fc03e79c173cddd70196d169281e5332cd3/huscy.project_consents-0.7.2a10.tar.gz
+[2023-06-29 11:17:30] INFO root fetch - processPackages [gpt4-api]: Downloading https://files.pythonhosted.org/packages/a6/65/c0a9703d887ab6eebc186741491901c1dab4507938279950efddef047226/gpt4-api-0.2.0.tar.gz
+[2023-06-29 11:17:30] INFO root fetch - processPackages [huscy.project-consents]: executing diffoscope
+[2023-06-29 11:17:30] INFO root fetch - processPackages [huscy.project-consents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huscy.project_consents-0.7.1a9.tar.gz tmp/huscy.project_consents-0.7.2a10.tar.gz --markdown 20230629/h/huscy.project-consents/0.7.1a9-0.7.2a10/diff.md --exclude *.pyd
+[2023-06-29 11:17:30] INFO root fetch - processPackages [gpt4-api]: executing diffoscope
+[2023-06-29 11:17:30] INFO root fetch - processPackages [gpt4-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4-api-0.1.9.tar.gz tmp/gpt4-api-0.2.0.tar.gz --markdown 20230629/g/gpt4-api/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-29 11:17:30] INFO root fetch - processPackages [mentord]: Remove: archive file [/home/abi/fetcher/tmp/mentord-1.1.3.tar.gz]
+[2023-06-29 11:17:30] INFO root fetch - processPackages [mentord]: Remove: archive file [/home/abi/fetcher/tmp/mentord-1.1.4.tar.gz]
+[2023-06-29 11:17:30] INFO root fetch - processPackages [mentord]: Start processing: xia-puller
+[2023-06-29 11:17:30] INFO root fetch - main [MainThread]: End processing [mentord]: success
+[2023-06-29 11:17:30] INFO root fetch - processPackages [xia-puller]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-06-29 11:17:31] INFO root fetch - processPackages [capture-it]: Remove: archive file [/home/abi/fetcher/tmp/capture_it-0.0.8.tar.gz]
+[2023-06-29 11:17:31] INFO root fetch - processPackages [capture-it]: Remove: archive file [/home/abi/fetcher/tmp/capture_it-0.0.9.tar.gz]
+[2023-06-29 11:17:31] INFO root fetch - processPackages [capture-it]: Start processing: simvue
+[2023-06-29 11:17:31] INFO root fetch - main [MainThread]: End processing [capture-it]: success
+[2023-06-29 11:17:31] INFO root fetch - processPackages [xia-puller]: Downloading https://files.pythonhosted.org/packages/a1/5c/83aa3f806da14542f638c395a463f4e6d9c0c26a794c5ef881cebebd1ead/xia_puller-0.0.11-cp39-none-win_amd64.whl
+[2023-06-29 11:17:31] INFO root fetch - processPackages [simvue]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-29 11:17:31] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.0.8.tar.gz]
+[2023-06-29 11:17:31] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.0.9.tar.gz]
+[2023-06-29 11:17:31] INFO root fetch - main [MainThread]: End processing [lightning-template]: success
+[2023-06-29 11:17:31] INFO root fetch - processPackages [simvue]: Downloading https://files.pythonhosted.org/packages/bd/f9/9d8a0aedddb60203724c6dbd01272deb0c7f84cefb43c67fdfe68854f711/simvue-0.9.0.tar.gz
+[2023-06-29 11:17:31] INFO root fetch - processPackages [xia-puller]: Downloading https://files.pythonhosted.org/packages/bb/f9/80ea203082a81a98099e9e5d1d8744a3770e0aaecdd1ebaaf50867536c9a/xia_puller-0.0.12-cp39-none-win_amd64.whl
+[2023-06-29 11:17:31] INFO root fetch - processPackages [xia-puller]: executing diffoscope
+[2023-06-29 11:17:31] INFO root fetch - processPackages [xia-puller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_puller-0.0.11-cp39-none-win_amd64.whl.zip tmp/xia_puller-0.0.12-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-puller/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-06-29 11:17:31] INFO root fetch - processPackages [facts-finder]: Remove: archive file [/home/abi/fetcher/tmp/facts_finder-0.0.8.tar.gz]
+[2023-06-29 11:17:31] INFO root fetch - processPackages [facts-finder]: Remove: archive file [/home/abi/fetcher/tmp/facts_finder-0.0.9.tar.gz]
+[2023-06-29 11:17:31] INFO root fetch - main [MainThread]: End processing [facts-finder]: success
+[2023-06-29 11:17:31] INFO root fetch - processPackages [simvue]: Downloading https://files.pythonhosted.org/packages/af/63/e273ebbd0e6fbb817c6ba72cbf33237eb27eebb533efbd58e29614a878cc/simvue-0.9.1.tar.gz
+[2023-06-29 11:17:31] INFO root fetch - processPackages [pyDecLog]: Remove: archive file [/home/abi/fetcher/tmp/pyDecLog-0.1.6.tar.gz]
+[2023-06-29 11:17:31] INFO root fetch - processPackages [pyDecLog]: Remove: archive file [/home/abi/fetcher/tmp/pyDecLog-0.1.7.tar.gz]
+[2023-06-29 11:17:31] INFO root fetch - main [MainThread]: End processing [pyDecLog]: success
+[2023-06-29 11:17:31] INFO root fetch - processPackages [simvue]: executing diffoscope
+[2023-06-29 11:17:31] INFO root fetch - processPackages [simvue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simvue-0.9.0.tar.gz tmp/simvue-0.9.1.tar.gz --markdown 20230629/s/simvue/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-29 11:17:31] INFO root fetch - processPackages [gpt4-api]: Remove: archive file [/home/abi/fetcher/tmp/gpt4-api-0.1.9.tar.gz]
+[2023-06-29 11:17:31] INFO root fetch - processPackages [gpt4-api]: Remove: archive file [/home/abi/fetcher/tmp/gpt4-api-0.2.0.tar.gz]
+[2023-06-29 11:17:31] INFO root fetch - main [MainThread]: End processing [gpt4-api]: success
+[2023-06-29 11:17:32] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.4.4.tar.gz]
+[2023-06-29 11:17:32] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.4.5.tar.gz]
+[2023-06-29 11:17:32] INFO root fetch - main [MainThread]: End processing [configzen]: success
+[2023-06-29 11:17:32] INFO root fetch - processPackages [huscy.project-consents]: Remove: archive file [/home/abi/fetcher/tmp/huscy.project_consents-0.7.1a9.tar.gz]
+[2023-06-29 11:17:32] INFO root fetch - processPackages [huscy.project-consents]: Remove: archive file [/home/abi/fetcher/tmp/huscy.project_consents-0.7.2a10.tar.gz]
+[2023-06-29 11:17:32] INFO root fetch - main [MainThread]: End processing [huscy.project-consents]: success
+[2023-06-29 11:17:32] INFO root fetch - processPackages [timeseriesflattener]: Remove: archive file [/home/abi/fetcher/tmp/timeseriesflattener-1.2.1.tar.gz]
+[2023-06-29 11:17:32] INFO root fetch - processPackages [timeseriesflattener]: Remove: archive file [/home/abi/fetcher/tmp/timeseriesflattener-1.3.0.tar.gz]
+[2023-06-29 11:17:32] INFO root fetch - main [MainThread]: End processing [timeseriesflattener]: success
+[2023-06-29 11:17:32] INFO root fetch - processPackages [xia-puller]: Remove: archive file [/home/abi/fetcher/tmp/xia_puller-0.0.11-cp39-none-win_amd64.whl.zip]
+[2023-06-29 11:17:32] INFO root fetch - processPackages [xia-puller]: Remove: archive file [/home/abi/fetcher/tmp/xia_puller-0.0.12-cp39-none-win_amd64.whl.zip]
+[2023-06-29 11:17:32] INFO root fetch - main [MainThread]: End processing [xia-puller]: success
+[2023-06-29 11:17:32] INFO root fetch - processPackages [simvue]: Remove: archive file [/home/abi/fetcher/tmp/simvue-0.9.0.tar.gz]
+[2023-06-29 11:17:32] INFO root fetch - processPackages [simvue]: Remove: archive file [/home/abi/fetcher/tmp/simvue-0.9.1.tar.gz]
+[2023-06-29 11:17:32] INFO root fetch - main [MainThread]: End processing [simvue]: success
+[2023-06-29 11:17:33] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-06-29 11:17:33] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-06-29 11:17:33] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-06-29 11:17:33] INFO root fetch - main [MainThread]: Store serial: [18692567]
