@@ -14551,3 +14551,164 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 17:18:12] INFO root fetch - processPackages [cdktf-cdktf-provider-opentelekomcloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-opentelekomcloud-8.0.0.tar.gz]
 [2023-06-29 17:18:12] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-opentelekomcloud]: success
 [2023-06-29 17:18:12] INFO root fetch - main [MainThread]: Store serial: [18696987]
+[2023-06-29 17:23:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18696987]
+[2023-06-29 17:23:21] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-29 17:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rocm-docs-core
+[2023-06-29 17:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: projen
+[2023-06-29 17:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: joblib
+[2023-06-29 17:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: macrometa-target-mssql
+[2023-06-29 17:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acc-provision
+[2023-06-29 17:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MCPoly
+[2023-06-29 17:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mke-star-tracker-client
+[2023-06-29 17:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aicodebot
+[2023-06-29 17:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quil
+[2023-06-29 17:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: drive
+[2023-06-29 17:23:21] INFO root fetch - processPackages [drive]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-29 17:23:21] INFO root fetch - processPackages [acc-provision]: New version: [5.2.7.1rc3] Old Version: [5.2.7.1rc2]
+[2023-06-29 17:23:21] INFO root fetch - processPackages [rocm-docs-core]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-29 17:23:21] INFO root fetch - processPackages [mke-star-tracker-client]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-29 17:23:21] INFO root fetch - processPackages [aicodebot]: New version: [0.6.1.1] Old Version: [0.6.0]
+[2023-06-29 17:23:21] INFO root fetch - processPackages [macrometa-target-mssql]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-29 17:23:21] INFO root fetch - processPackages [MCPoly]: New version: [0.5.1.3] Old Version: [0.5.1.2]
+[2023-06-29 17:23:21] INFO root fetch - processPackages [joblib]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-29 17:23:22] INFO root fetch - processPackages [quil]: New version: [0.2.0rc9] Old Version: [0.2.0rc8]
+[2023-06-29 17:23:22] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-06-29 17:23:22] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/bb/39/0d84112537e749456eab6d678516cbf249141df216e4aea4c9944b211641/macrometa-target-mssql-0.0.3.tar.gz
+[2023-06-29 17:23:22] INFO root fetch - processPackages [joblib]: Downloading https://files.pythonhosted.org/packages/46/03/2e46a5894e7ac7462cb6b6299f94d46e761b3b483c6ab54bdf96eee09b00/joblib-1.3.0.tar.gz
+[2023-06-29 17:23:22] INFO root fetch - processPackages [quil]: Downloading https://files.pythonhosted.org/packages/94/78/03d63317e11b6758655ca8302d3f8d97fb6e2ab5e7c04edd1e87d64f7875/quil-0.2.0rc8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-29 17:23:22] INFO root fetch - processPackages [mke-star-tracker-client]: Downloading https://files.pythonhosted.org/packages/0e/24/410f5cabfed77e3b66aa3b5180f243d77276ee58445ccc60b24c878fe154/mke_star_tracker_client-1.0.1.tar.gz
+[2023-06-29 17:23:22] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-06-29 17:23:22] INFO root fetch - processPackages [drive]: Downloading https://files.pythonhosted.org/packages/00/4f/d75141db1cf526184b7684d76e2c8c86a64e6ecdcc4305532dbe666c3f95/drive-0.4.2.tar.gz
+[2023-06-29 17:23:22] INFO root fetch - processPackages [acc-provision]: Downloading https://files.pythonhosted.org/packages/11/c4/e6923c1a5a37b90a772934042e541e66763af7c5f0d16451c642401d025d/acc_provision-5.2.7.1rc2.tar.gz
+[2023-06-29 17:23:22] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/02/ca/bf87c45aebbe5fa81bb7af827fd90e0648f5b6b2f33369542090f5a0ecef/aicodebot-0.6.0.tar.gz
+[2023-06-29 17:23:22] INFO root fetch - processPackages [rocm-docs-core]: Downloading https://files.pythonhosted.org/packages/f9/19/0159088f20edfe3151203150b7200a110b31f38e54a6970440c78832b50b/rocm-docs-core-0.9.1.tar.gz
+[2023-06-29 17:23:22] INFO root fetch - processPackages [MCPoly]: Downloading https://files.pythonhosted.org/packages/58/99/3b3d90b85bb04691a65faf331c278e8ad21b462e28f011b8d6e9e73a486d/MCPoly-0.5.1.2.tar.gz
+[2023-06-29 17:23:22] WARNING root fetch - processPackages [acc-provision]: Skipping package: exceeds size limit 10609239>=10485760
+[2023-06-29 17:23:22] INFO root fetch - processPackages [acc-provision]: Start processing: plottah
+[2023-06-29 17:23:22] INFO root fetch - main [MainThread]: End processing [acc-provision] error
+[2023-06-29 17:23:22] INFO root fetch - processPackages [plottah]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 17:23:22] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/24/ff/6a4e866a42f96215688ad89e6e7919e6a0fd7110303deeb13e4df350339d/macrometa-target-mssql-0.0.4.tar.gz
+[2023-06-29 17:23:22] INFO root fetch - processPackages [mke-star-tracker-client]: Downloading https://files.pythonhosted.org/packages/e3/33/bea3e11ca5976be5ffd4458fa564aeb062397c09385d8b03fda868f06b0f/mke_star_tracker_client-1.1.0.tar.gz
+[2023-06-29 17:23:22] INFO root fetch - processPackages [quil]: Downloading https://files.pythonhosted.org/packages/b1/3c/00401430a1be1644e4a3cb6e13e5f3d10cb99725d133fdb62d7d15ccef22/quil-0.2.0rc9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-29 17:23:22] INFO root fetch - processPackages [plottah]: Downloading https://files.pythonhosted.org/packages/1f/bd/8004e10cd96d279cff357b27c7c2919bfd278da1ebc414d2d82c898deaa5/plottah-0.1.8.tar.gz
+[2023-06-29 17:23:22] INFO root fetch - processPackages [macrometa-target-mssql]: executing diffoscope
+[2023-06-29 17:23:22] INFO root fetch - processPackages [macrometa-target-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mssql-0.0.3.tar.gz tmp/macrometa-target-mssql-0.0.4.tar.gz --markdown 20230629/m/macrometa-target-mssql/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-29 17:23:22] INFO root fetch - processPackages [drive]: Downloading https://files.pythonhosted.org/packages/57/ef/70e98a9978fd8c58a70356fe9c2307bafff1a995204719c49ccaabab8cb6/drive-0.4.3.tar.gz
+[2023-06-29 17:23:22] INFO root fetch - processPackages [joblib]: Downloading https://files.pythonhosted.org/packages/71/f6/fbe4661d202d11c9399d6bec6b2ad381f11e9643ae25236c3904cf46a331/joblib-1.3.1.tar.gz
+[2023-06-29 17:23:22] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/02/8a/ad330002a7b641ae5995dceca89bb0f7545dc2b6f18c2ff94f7d066f2083/aicodebot-0.6.1.1.tar.gz
+[2023-06-29 17:23:22] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-06-29 17:23:22] INFO root fetch - processPackages [mke-star-tracker-client]: executing diffoscope
+[2023-06-29 17:23:22] INFO root fetch - processPackages [MCPoly]: Downloading https://files.pythonhosted.org/packages/14/a1/6b465bee8551aa37cd47d4c48343b0f7b49c42c69225284a63c3f2528b51/MCPoly-0.5.1.3.tar.gz
+[2023-06-29 17:23:22] INFO root fetch - processPackages [mke-star-tracker-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mke_star_tracker_client-1.0.1.tar.gz tmp/mke_star_tracker_client-1.1.0.tar.gz --markdown 20230629/m/mke-star-tracker-client/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-29 17:23:22] INFO root fetch - processPackages [drive]: executing diffoscope
+[2023-06-29 17:23:22] INFO root fetch - processPackages [drive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drive-0.4.2.tar.gz tmp/drive-0.4.3.tar.gz --markdown 20230629/d/drive/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-29 17:23:22] INFO root fetch - processPackages [quil]: executing diffoscope
+[2023-06-29 17:23:22] INFO root fetch - processPackages [quil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quil-0.2.0rc8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/quil-0.2.0rc9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230629/q/quil/0.2.0rc8-0.2.0rc9/diff.md --exclude *.pyd
+[2023-06-29 17:23:22] INFO root fetch - processPackages [plottah]: Downloading https://files.pythonhosted.org/packages/f0/0c/2b96606283fa54d0dde8653cbc8688dcd7136b8891488fa91b0b62a6ea23/plottah-0.1.9.tar.gz
+[2023-06-29 17:23:22] INFO root fetch - processPackages [aicodebot]: executing diffoscope
+[2023-06-29 17:23:22] INFO root fetch - processPackages [aicodebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicodebot-0.6.0.tar.gz tmp/aicodebot-0.6.1.1.tar.gz --markdown 20230629/a/aicodebot/0.6.0-0.6.1.1/diff.md --exclude *.pyd
+[2023-06-29 17:23:22] INFO root fetch - processPackages [rocm-docs-core]: Downloading https://files.pythonhosted.org/packages/10/67/d954e3cefa6dc2afd82d2fc11f424737a09b28d389ba8c96edaaad0b6172/rocm-docs-core-0.9.2.tar.gz
+[2023-06-29 17:23:22] INFO root fetch - processPackages [joblib]: executing diffoscope
+[2023-06-29 17:23:22] INFO root fetch - processPackages [joblib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joblib-1.3.0.tar.gz tmp/joblib-1.3.1.tar.gz --markdown 20230629/j/joblib/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-29 17:23:22] INFO root fetch - processPackages [MCPoly]: executing diffoscope
+[2023-06-29 17:23:22] INFO root fetch - processPackages [MCPoly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MCPoly-0.5.1.2.tar.gz tmp/MCPoly-0.5.1.3.tar.gz --markdown 20230629/M/MCPoly/0.5.1.2-0.5.1.3/diff.md --exclude *.pyd
+[2023-06-29 17:23:22] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-06-29 17:23:22] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230629/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-06-29 17:23:22] INFO root fetch - processPackages [plottah]: executing diffoscope
+[2023-06-29 17:23:22] INFO root fetch - processPackages [plottah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plottah-0.1.8.tar.gz tmp/plottah-0.1.9.tar.gz --markdown 20230629/p/plottah/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 17:23:22] INFO root fetch - processPackages [rocm-docs-core]: executing diffoscope
+[2023-06-29 17:23:22] INFO root fetch - processPackages [rocm-docs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocm-docs-core-0.9.1.tar.gz tmp/rocm-docs-core-0.9.2.tar.gz --markdown 20230629/r/rocm-docs-core/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-29 17:23:23] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.3.tar.gz]
+[2023-06-29 17:23:23] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.4.tar.gz]
+[2023-06-29 17:23:23] INFO root fetch - processPackages [macrometa-target-mssql]: Start processing: mvt
+[2023-06-29 17:23:23] INFO root fetch - main [MainThread]: End processing [macrometa-target-mssql]: success
+[2023-06-29 17:23:23] INFO root fetch - processPackages [mvt]: New version: [2.3.0] Old Version: [2.2.6]
+[2023-06-29 17:23:23] INFO root fetch - processPackages [mke-star-tracker-client]: Remove: archive file [/home/abi/fetcher/tmp/mke_star_tracker_client-1.0.1.tar.gz]
+[2023-06-29 17:23:23] INFO root fetch - processPackages [mke-star-tracker-client]: Remove: archive file [/home/abi/fetcher/tmp/mke_star_tracker_client-1.1.0.tar.gz]
+[2023-06-29 17:23:23] INFO root fetch - processPackages [mke-star-tracker-client]: Start processing: sosse
+[2023-06-29 17:23:23] INFO root fetch - main [MainThread]: End processing [mke-star-tracker-client]: success
+[2023-06-29 17:23:24] INFO root fetch - processPackages [sosse]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-29 17:23:24] INFO root fetch - processPackages [sosse]: Downloading https://files.pythonhosted.org/packages/95/5c/fe142e470856f894b20760f1f30152376c0a76308f601b6fdc86cc9ea112/sosse-1.1.0.tar.gz
+[2023-06-29 17:23:24] INFO root fetch - processPackages [drive]: Remove: archive file [/home/abi/fetcher/tmp/drive-0.4.2.tar.gz]
+[2023-06-29 17:23:24] INFO root fetch - processPackages [drive]: Remove: archive file [/home/abi/fetcher/tmp/drive-0.4.3.tar.gz]
+[2023-06-29 17:23:24] INFO root fetch - processPackages [drive]: Start processing: anthropic
+[2023-06-29 17:23:24] INFO root fetch - main [MainThread]: End processing [drive]: success
+[2023-06-29 17:23:24] INFO root fetch - processPackages [anthropic]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-29 17:23:24] INFO root fetch - processPackages [mvt]: Downloading https://files.pythonhosted.org/packages/58/93/a6dd11e68d5ff2a590cd6c7141c49dfd5d0aca527f5aa36e7aa6b74fe890/mvt-2.2.6.tar.gz
+[2023-06-29 17:23:24] INFO root fetch - processPackages [anthropic]: Downloading https://files.pythonhosted.org/packages/2e/e7/66d1738d71198304ef7db05153b78e51baeb6f30e91cdcc3d40557d78b34/anthropic-0.3.0.tar.gz
+[2023-06-29 17:23:24] INFO root fetch - processPackages [sosse]: Downloading https://files.pythonhosted.org/packages/3a/35/74995fa058356b9228241a896947474cc1061033a60dd159110c7c2a6e7b/sosse-1.1.1.tar.gz
+[2023-06-29 17:23:24] INFO root fetch - processPackages [mvt]: Downloading https://files.pythonhosted.org/packages/4e/d0/df44528d859e8ad7153e9fe358b8394ec13c421a0a70425ebfc591700728/mvt-2.3.0.tar.gz
+[2023-06-29 17:23:24] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.6.0.tar.gz]
+[2023-06-29 17:23:24] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.6.1.1.tar.gz]
+[2023-06-29 17:23:24] INFO root fetch - processPackages [aicodebot]: Start processing: unified-planning
+[2023-06-29 17:23:24] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
+[2023-06-29 17:23:24] INFO root fetch - processPackages [unified-planning]: New version: [0.6.0.94.dev1] Old Version: [0.6.0.9.dev1]
+[2023-06-29 17:23:24] INFO root fetch - processPackages [mvt]: executing diffoscope
+[2023-06-29 17:23:24] INFO root fetch - processPackages [mvt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mvt-2.2.6.tar.gz tmp/mvt-2.3.0.tar.gz --markdown 20230629/m/mvt/2.2.6-2.3.0/diff.md --exclude *.pyd
+[2023-06-29 17:23:24] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/7b/cd/ac15f362b634f8dfca374107a12b11d18cda8da3341e1e1de92d45e36fc9/unified_planning-0.6.0.9.dev1.tar.gz
+[2023-06-29 17:23:24] INFO root fetch - processPackages [sosse]: executing diffoscope
+[2023-06-29 17:23:24] INFO root fetch - processPackages [sosse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sosse-1.1.0.tar.gz tmp/sosse-1.1.1.tar.gz --markdown 20230629/s/sosse/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-29 17:23:24] INFO root fetch - processPackages [MCPoly]: Remove: archive file [/home/abi/fetcher/tmp/MCPoly-0.5.1.2.tar.gz]
+[2023-06-29 17:23:24] INFO root fetch - processPackages [MCPoly]: Remove: archive file [/home/abi/fetcher/tmp/MCPoly-0.5.1.3.tar.gz]
+[2023-06-29 17:23:24] INFO root fetch - processPackages [MCPoly]: Start processing: spaces
+[2023-06-29 17:23:24] INFO root fetch - main [MainThread]: End processing [MCPoly]: success
+[2023-06-29 17:23:24] INFO root fetch - processPackages [spaces]: New version: [0.4.0b0] Old Version: [0.3.0]
+[2023-06-29 17:23:24] INFO root fetch - processPackages [anthropic]: Downloading https://files.pythonhosted.org/packages/0f/47/d593110a5ed9d8bffa4b562bf9b5b448516d942279c9006d5bbc25ed47bb/anthropic-0.3.1.tar.gz
+[2023-06-29 17:23:24] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/47/44/b13fcddb5405f914c9898095cd7fd61a47cc4647a4065d3a61f28919f91a/unified_planning-0.6.0.94.dev1.tar.gz
+[2023-06-29 17:23:24] INFO root fetch - processPackages [plottah]: Remove: archive file [/home/abi/fetcher/tmp/plottah-0.1.8.tar.gz]
+[2023-06-29 17:23:24] INFO root fetch - processPackages [plottah]: Remove: archive file [/home/abi/fetcher/tmp/plottah-0.1.9.tar.gz]
+[2023-06-29 17:23:24] INFO root fetch - processPackages [plottah]: Start processing: prismacloud-cli
+[2023-06-29 17:23:24] INFO root fetch - main [MainThread]: End processing [plottah]: success
+[2023-06-29 17:23:24] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-06-29 17:23:24] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-0.6.0.9.dev1.tar.gz tmp/unified_planning-0.6.0.94.dev1.tar.gz --markdown 20230629/u/unified-planning/0.6.0.9.dev1-0.6.0.94.dev1/diff.md --exclude *.pyd
+[2023-06-29 17:23:24] INFO root fetch - processPackages [spaces]: Downloading https://files.pythonhosted.org/packages/e9/4b/9bbac9314637406aa289c1e02592b8602cc93287c0facbdbfcfaf610debd/spaces-0.3.0.tar.gz
+[2023-06-29 17:23:24] INFO root fetch - processPackages [anthropic]: executing diffoscope
+[2023-06-29 17:23:24] INFO root fetch - processPackages [anthropic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anthropic-0.3.0.tar.gz tmp/anthropic-0.3.1.tar.gz --markdown 20230629/a/anthropic/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-29 17:23:24] INFO root fetch - processPackages [prismacloud-cli]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-29 17:23:25] INFO root fetch - processPackages [spaces]: Downloading https://files.pythonhosted.org/packages/d2/1b/652a6f70dfdd18da84e43501ea7e905b18fd970f4e9024960a9733ac7b83/spaces-0.4.0b0.tar.gz
+[2023-06-29 17:23:25] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-06-29 17:23:25] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-06-29 17:23:25] INFO root fetch - processPackages [projen]: Start processing: lightning-bolts
+[2023-06-29 17:23:25] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-06-29 17:23:25] INFO root fetch - processPackages [spaces]: executing diffoscope
+[2023-06-29 17:23:25] INFO root fetch - processPackages [spaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaces-0.3.0.tar.gz tmp/spaces-0.4.0b0.tar.gz --markdown 20230629/s/spaces/0.3.0-0.4.0b0/diff.md --exclude *.pyd
+[2023-06-29 17:23:25] INFO root fetch - processPackages [prismacloud-cli]: Downloading https://files.pythonhosted.org/packages/10/60/36cfec1b8b42bbd572ecb6e0dbd0ccec34e4de32923b122f1a19d5fe68d6/prismacloud-cli-0.6.8.tar.gz
+[2023-06-29 17:23:25] INFO root fetch - processPackages [lightning-bolts]: New version: [0.7.0rc0] Old Version: [0.6.0.post1]
+[2023-06-29 17:23:25] INFO root fetch - processPackages [lightning-bolts]: Downloading https://files.pythonhosted.org/packages/f0/23/0e5e5b5cfc2202f56b48353dc52dc91d3c4b85b09cb6439d996481491d45/lightning-bolts-0.6.0.post1.tar.gz
+[2023-06-29 17:23:25] INFO root fetch - processPackages [prismacloud-cli]: Downloading https://files.pythonhosted.org/packages/af/0e/fa72b8483f8c01e8575ef6f961e2b6c4d1cdcab84f520c6f82d9d0ece079/prismacloud-cli-0.6.9.tar.gz
+[2023-06-29 17:23:25] INFO root fetch - processPackages [prismacloud-cli]: executing diffoscope
+[2023-06-29 17:23:25] INFO root fetch - processPackages [prismacloud-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prismacloud-cli-0.6.8.tar.gz tmp/prismacloud-cli-0.6.9.tar.gz --markdown 20230629/p/prismacloud-cli/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-29 17:23:25] INFO root fetch - processPackages [lightning-bolts]: Downloading https://files.pythonhosted.org/packages/b6/db/43eb16fd0ea5227e9169630bfb089dfb84b17f4f19bbd2776512cd353c64/lightning-bolts-0.7.0rc0.tar.gz
+[2023-06-29 17:23:26] INFO root fetch - processPackages [lightning-bolts]: executing diffoscope
+[2023-06-29 17:23:26] INFO root fetch - processPackages [lightning-bolts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-bolts-0.6.0.post1.tar.gz tmp/lightning-bolts-0.7.0rc0.tar.gz --markdown 20230629/l/lightning-bolts/0.6.0.post1-0.7.0rc0/diff.md --exclude *.pyd
+[2023-06-29 17:23:26] INFO root fetch - processPackages [spaces]: Remove: archive file [/home/abi/fetcher/tmp/spaces-0.3.0.tar.gz]
+[2023-06-29 17:23:26] INFO root fetch - processPackages [spaces]: Remove: archive file [/home/abi/fetcher/tmp/spaces-0.4.0b0.tar.gz]
+[2023-06-29 17:23:26] INFO root fetch - main [MainThread]: End processing [spaces]: success
+[2023-06-29 17:23:26] INFO root fetch - processPackages [sosse]: Remove: archive file [/home/abi/fetcher/tmp/sosse-1.1.0.tar.gz]
+[2023-06-29 17:23:26] INFO root fetch - processPackages [sosse]: Remove: archive file [/home/abi/fetcher/tmp/sosse-1.1.1.tar.gz]
+[2023-06-29 17:23:26] INFO root fetch - main [MainThread]: End processing [sosse]: success
+[2023-06-29 17:23:26] INFO root fetch - processPackages [prismacloud-cli]: Remove: archive file [/home/abi/fetcher/tmp/prismacloud-cli-0.6.8.tar.gz]
+[2023-06-29 17:23:26] INFO root fetch - processPackages [prismacloud-cli]: Remove: archive file [/home/abi/fetcher/tmp/prismacloud-cli-0.6.9.tar.gz]
+[2023-06-29 17:23:26] INFO root fetch - main [MainThread]: End processing [prismacloud-cli]: success
+[2023-06-29 17:23:27] INFO root fetch - processPackages [mvt]: Remove: archive file [/home/abi/fetcher/tmp/mvt-2.2.6.tar.gz]
+[2023-06-29 17:23:27] INFO root fetch - processPackages [mvt]: Remove: archive file [/home/abi/fetcher/tmp/mvt-2.3.0.tar.gz]
+[2023-06-29 17:23:27] INFO root fetch - main [MainThread]: End processing [mvt]: success
+[2023-06-29 17:23:28] INFO root fetch - processPackages [rocm-docs-core]: Remove: archive file [/home/abi/fetcher/tmp/rocm-docs-core-0.9.1.tar.gz]
+[2023-06-29 17:23:28] INFO root fetch - processPackages [rocm-docs-core]: Remove: archive file [/home/abi/fetcher/tmp/rocm-docs-core-0.9.2.tar.gz]
+[2023-06-29 17:23:28] INFO root fetch - main [MainThread]: End processing [rocm-docs-core]: success
+[2023-06-29 17:23:28] INFO root fetch - processPackages [lightning-bolts]: Remove: archive file [/home/abi/fetcher/tmp/lightning-bolts-0.6.0.post1.tar.gz]
+[2023-06-29 17:23:28] INFO root fetch - processPackages [lightning-bolts]: Remove: archive file [/home/abi/fetcher/tmp/lightning-bolts-0.7.0rc0.tar.gz]
+[2023-06-29 17:23:28] INFO root fetch - main [MainThread]: End processing [lightning-bolts]: success
+[2023-06-29 17:23:29] INFO root fetch - processPackages [anthropic]: Remove: archive file [/home/abi/fetcher/tmp/anthropic-0.3.0.tar.gz]
+[2023-06-29 17:23:29] INFO root fetch - processPackages [anthropic]: Remove: archive file [/home/abi/fetcher/tmp/anthropic-0.3.1.tar.gz]
+[2023-06-29 17:23:29] INFO root fetch - main [MainThread]: End processing [anthropic]: success
+[2023-06-29 17:23:30] INFO root fetch - processPackages [joblib]: Remove: archive file [/home/abi/fetcher/tmp/joblib-1.3.0.tar.gz]
+[2023-06-29 17:23:30] INFO root fetch - processPackages [joblib]: Remove: archive file [/home/abi/fetcher/tmp/joblib-1.3.1.tar.gz]
+[2023-06-29 17:23:30] INFO root fetch - main [MainThread]: End processing [joblib]: success
+[2023-06-29 17:23:31] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-0.6.0.9.dev1.tar.gz]
+[2023-06-29 17:23:31] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-0.6.0.94.dev1.tar.gz]
+[2023-06-29 17:23:31] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-06-29 17:23:45] INFO root fetch - processPackages [quil]: Remove: archive file [/home/abi/fetcher/tmp/quil-0.2.0rc8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-29 17:23:45] INFO root fetch - processPackages [quil]: Remove: archive file [/home/abi/fetcher/tmp/quil-0.2.0rc9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-29 17:23:45] INFO root fetch - main [MainThread]: End processing [quil]: success
+[2023-06-29 17:23:45] INFO root fetch - main [MainThread]: Store serial: [18697050]
