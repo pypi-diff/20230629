@@ -7941,3 +7941,223 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 13:13:39] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306291109-py3-none-any.whl.zip]
 [2023-06-29 13:13:39] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-29 13:13:39] INFO root fetch - main [MainThread]: Store serial: [18694037]
+[2023-06-29 13:18:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18694037]
+[2023-06-29 13:18:49] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-29 13:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycareer
+[2023-06-29 13:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: activeconfigparser
+[2023-06-29 13:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: envd
+[2023-06-29 13:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: e2e-cli
+[2023-06-29 13:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nessai-models
+[2023-06-29 13:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: notebook-prototyping
+[2023-06-29 13:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: budy
+[2023-06-29 13:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assisted-service-client
+[2023-06-29 13:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyqula
+[2023-06-29 13:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: activeconfigparser
+[2023-06-29 13:18:49] INFO root fetch - processPackages [activeconfigparser]: New version: [0.9.0.0a0] Old Version: [0.9.0.0]
+[2023-06-29 13:18:49] WARNING root fetch - processPackages [pycareer]: Skipping, unable to determine old version
+[2023-06-29 13:18:49] INFO root fetch - processPackages [pycareer]: Start processing: gitlabx
+[2023-06-29 13:18:49] INFO root fetch - main [MainThread]: End processing [pycareer] error
+[2023-06-29 13:18:49] INFO root fetch - processPackages [notebook-prototyping]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-06-29 13:18:49] INFO root fetch - processPackages [nessai-models]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-29 13:18:49] INFO root fetch - processPackages [activeconfigparser]: New version: [0.9.0.0a0] Old Version: [0.9.0.0]
+[2023-06-29 13:18:49] INFO root fetch - processPackages [e2e-cli]: New version: [0.9.9.9] Old Version: [0.9.9.8]
+[2023-06-29 13:18:49] INFO root fetch - processPackages [budy]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-06-29 13:18:49] INFO root fetch - processPackages [pyqula]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 13:18:49] INFO root fetch - processPackages [gitlabx]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-29 13:18:49] INFO root fetch - processPackages [envd]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-29 13:18:49] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-06-29 13:18:49] INFO root fetch - processPackages [gitlabx]: Downloading https://files.pythonhosted.org/packages/a0/8c/2f8d670393478b726efb7ec86536e35ec4b4f6fa205fac5a0ff67afeac63/gitlabx-0.1.2-py3-none-any.whl
+[2023-06-29 13:18:49] INFO root fetch - processPackages [activeconfigparser]: Downloading https://files.pythonhosted.org/packages/de/1e/2a389adeb8eadc85fdac816a0f4293a4e00c3a4ef6e4f5c643893d7de652/activeconfigparser-0.9.0.0.tar.gz
+[2023-06-29 13:18:49] INFO root fetch - processPackages [e2e-cli]: Downloading https://files.pythonhosted.org/packages/ec/1b/ad4f51ec93196297c0b54e02688fb85b060154257686a6d769a190c1695d/e2e_cli-0.9.9.8.tar.gz
+[2023-06-29 13:18:49] INFO root fetch - processPackages [notebook-prototyping]: Downloading https://files.pythonhosted.org/packages/45/79/0f0f64cf819cbc94fac6e9c120c946d2caf80f11fc72f69a231f15e1e4c4/notebook_prototyping-0.1.0.tar.gz
+[2023-06-29 13:18:49] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-06-29 13:18:49] INFO root fetch - processPackages [activeconfigparser]: Downloading https://files.pythonhosted.org/packages/de/1e/2a389adeb8eadc85fdac816a0f4293a4e00c3a4ef6e4f5c643893d7de652/activeconfigparser-0.9.0.0.tar.gz
+[2023-06-29 13:18:49] INFO root fetch - processPackages [nessai-models]: Downloading https://files.pythonhosted.org/packages/a7/b5/cd72debcc631d67a1645d67a706aee2d7fbc332ac08372b267dc78b2051d/nessai_models-0.3.0.tar.gz
+[2023-06-29 13:18:49] INFO root fetch - processPackages [pyqula]: Downloading https://files.pythonhosted.org/packages/ec/3a/50f42378031d1a19e14f44b4aca0502393b5caf45043ea62c01197cc1824/pyqula-0.0.8.tar.gz
+[2023-06-29 13:18:49] INFO root fetch - processPackages [envd]: Downloading https://files.pythonhosted.org/packages/40/8f/ca38bcdc6fb6476b2f39f7447c21359ec87ef0ed65e589349a047ed332cd/envd-0.3.8.tar.gz
+[2023-06-29 13:18:49] INFO root fetch - processPackages [budy]: Downloading https://files.pythonhosted.org/packages/08/4b/1f130b5c6c7ac6eaee36b493c4ca9d175bc7a9fe8c3a958287ac44fe424b/budy-0.8.4.tar.gz
+[2023-06-29 13:18:49] INFO root fetch - processPackages [e2e-cli]: Downloading https://files.pythonhosted.org/packages/cc/fe/f6dc0978925707ba4bed62a3b1e1ac6d18857331343c1ca7f8a18e071351/e2e_cli-0.9.9.9.tar.gz
+[2023-06-29 13:18:49] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-06-29 13:18:49] INFO root fetch - processPackages [activeconfigparser]: Downloading https://files.pythonhosted.org/packages/f7/de/2707a971007f870925235d1119ab68dc79d2ec4270a3d940e48b83c1ac63/activeconfigparser-0.9.0.0a0.tar.gz
+[2023-06-29 13:18:49] INFO root fetch - processPackages [e2e-cli]: executing diffoscope
+[2023-06-29 13:18:49] INFO root fetch - processPackages [gitlabx]: Downloading https://files.pythonhosted.org/packages/fc/55/e42e60be8f886af007926ed563b574ef0af8f96625e5c59afeaaf7b45eed/gitlabx-0.1.3-py3-none-any.whl
+[2023-06-29 13:18:49] INFO root fetch - processPackages [e2e-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2e_cli-0.9.9.8.tar.gz tmp/e2e_cli-0.9.9.9.tar.gz --markdown 20230629/e/e2e-cli/0.9.9.8-0.9.9.9/diff.md --exclude *.pyd
+[2023-06-29 13:18:49] INFO root fetch - processPackages [activeconfigparser]: Downloading https://files.pythonhosted.org/packages/f7/de/2707a971007f870925235d1119ab68dc79d2ec4270a3d940e48b83c1ac63/activeconfigparser-0.9.0.0a0.tar.gz
+[2023-06-29 13:18:49] INFO root fetch - processPackages [notebook-prototyping]: Downloading https://files.pythonhosted.org/packages/1e/95/b4dec4531b32d09e174650236173b55e36d3346fc7b80d889b44385c043a/notebook_prototyping-0.1.2.tar.gz
+[2023-06-29 13:18:49] INFO root fetch - processPackages [gitlabx]: executing diffoscope
+[2023-06-29 13:18:49] INFO root fetch - processPackages [gitlabx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlabx-0.1.2-py3-none-any.whl.zip tmp/gitlabx-0.1.3-py3-none-any.whl.zip --markdown 20230629/g/gitlabx/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-29 13:18:49] INFO root fetch - processPackages [activeconfigparser]: executing diffoscope
+[2023-06-29 13:18:49] INFO root fetch - processPackages [activeconfigparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/activeconfigparser-0.9.0.0.tar.gz tmp/activeconfigparser-0.9.0.0a0.tar.gz --markdown 20230629/a/activeconfigparser/0.9.0.0-0.9.0.0a0/diff.md --exclude *.pyd
+[2023-06-29 13:18:49] INFO root fetch - processPackages [notebook-prototyping]: executing diffoscope
+[2023-06-29 13:18:49] INFO root fetch - processPackages [notebook-prototyping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebook_prototyping-0.1.0.tar.gz tmp/notebook_prototyping-0.1.2.tar.gz --markdown 20230629/n/notebook-prototyping/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-06-29 13:18:49] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-06-29 13:18:49] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230629/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-06-29 13:18:49] INFO root fetch - processPackages [activeconfigparser]: executing diffoscope
+[2023-06-29 13:18:49] INFO root fetch - processPackages [activeconfigparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/activeconfigparser-0.9.0.0.tar.gz tmp/activeconfigparser-0.9.0.0a0.tar.gz --markdown 20230629/a/activeconfigparser/0.9.0.0-0.9.0.0a0/diff.md --exclude *.pyd
+[2023-06-29 13:18:49] INFO root fetch - processPackages [budy]: Downloading https://files.pythonhosted.org/packages/df/cc/82c6d77140664ff74ed702d9195f192b8d77f0d684be542bac118222b532/budy-0.8.5.tar.gz
+[2023-06-29 13:18:49] INFO root fetch - processPackages [nessai-models]: Downloading https://files.pythonhosted.org/packages/b5/b9/ac28fa24f66a75648fbd14a8778b3302b94ebfa2c6d89057610a8a709c3f/nessai_models-0.4.0.tar.gz
+[2023-06-29 13:18:49] INFO root fetch - processPackages [budy]: executing diffoscope
+[2023-06-29 13:18:49] INFO root fetch - processPackages [budy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/budy-0.8.4.tar.gz tmp/budy-0.8.5.tar.gz --markdown 20230629/b/budy/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-06-29 13:18:49] INFO root fetch - processPackages [pyqula]: Downloading https://files.pythonhosted.org/packages/fc/92/6afa7255c64127050fea586b187bc0cbcd4f668b41c8f2973e4d9382a272/pyqula-0.0.9.tar.gz
+[2023-06-29 13:18:50] INFO root fetch - processPackages [nessai-models]: executing diffoscope
+[2023-06-29 13:18:50] INFO root fetch - processPackages [nessai-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nessai_models-0.3.0.tar.gz tmp/nessai_models-0.4.0.tar.gz --markdown 20230629/n/nessai-models/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-29 13:18:50] INFO root fetch - processPackages [pyqula]: executing diffoscope
+[2023-06-29 13:18:50] INFO root fetch - processPackages [pyqula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqula-0.0.8.tar.gz tmp/pyqula-0.0.9.tar.gz --markdown 20230629/p/pyqula/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 13:18:51] INFO root fetch - processPackages [notebook-prototyping]: Remove: archive file [/home/abi/fetcher/tmp/notebook_prototyping-0.1.0.tar.gz]
+[2023-06-29 13:18:51] INFO root fetch - processPackages [notebook-prototyping]: Remove: archive file [/home/abi/fetcher/tmp/notebook_prototyping-0.1.2.tar.gz]
+[2023-06-29 13:18:51] INFO root fetch - processPackages [notebook-prototyping]: Start processing: aicoder
+[2023-06-29 13:18:51] INFO root fetch - main [MainThread]: End processing [notebook-prototyping]: success
+[2023-06-29 13:18:51] INFO root fetch - processPackages [aicoder]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-06-29 13:18:51] INFO root fetch - processPackages [activeconfigparser]: Remove: archive file [/home/abi/fetcher/tmp/activeconfigparser-0.9.0.0.tar.gz]
+[2023-06-29 13:18:51] INFO root fetch - processPackages [activeconfigparser]: Remove: archive file [/home/abi/fetcher/tmp/activeconfigparser-0.9.0.0a0.tar.gz]
+[2023-06-29 13:18:51] INFO root fetch - processPackages [activeconfigparser]: Start processing: fca-algorithms-cpp
+[2023-06-29 13:18:51] INFO root fetch - main [MainThread]: End processing [activeconfigparser]: success
+[2023-06-29 13:18:51] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/b7/12/7df47964cb4e7e3e0b3b7b197b6d1b2c389f8602d8812bf9c461ddb7263e/aicoder-0.1.2.tar.gz
+[2023-06-29 13:18:51] INFO root fetch - processPackages [fca-algorithms-cpp]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-29 13:18:51] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/d7/81/db52c719a7e3c1b71229b00ab66c8d7e9581e25ab731431c3be623be665c/aicoder-0.1.4.tar.gz
+[2023-06-29 13:18:51] INFO root fetch - processPackages [fca-algorithms-cpp]: Downloading https://files.pythonhosted.org/packages/9d/6a/e305c6151f62d7a6c041e145ecc5487e2d8fdd5130f21889f8a7a254c795/fca_algorithms_cpp-0.1.0-pp39-pypy39_pp73-win_amd64.whl
+[2023-06-29 13:18:51] ERROR root fetch - processPackages [activeconfigparser]: Diffoscope failed: gzip: tmp/activeconfigparser-0.9.0.0a0.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/activeconfigparser-0.9.0.0a0.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-29 13:18:51] INFO root fetch - processPackages [activeconfigparser]: Start processing: ISENpy
+[2023-06-29 13:18:51] INFO root fetch - main [MainThread]: End processing [activeconfigparser] error
+[2023-06-29 13:18:51] INFO root fetch - processPackages [aicoder]: executing diffoscope
+[2023-06-29 13:18:51] INFO root fetch - processPackages [aicoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicoder-0.1.2.tar.gz tmp/aicoder-0.1.4.tar.gz --markdown 20230629/a/aicoder/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-06-29 13:18:51] INFO root fetch - processPackages [ISENpy]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-29 13:18:51] INFO root fetch - processPackages [ISENpy]: Downloading https://files.pythonhosted.org/packages/a0/5c/9ae616c435e51a6803a3afabd9cca86dc0021826443be0201e4b7c7fd02a/ISENpy-0.4.1.tar.gz
+[2023-06-29 13:18:52] INFO root fetch - processPackages [fca-algorithms-cpp]: Downloading https://files.pythonhosted.org/packages/d4/8e/ed2801a5d9ffc7cd3b88b7f5f225c58d0cf70ed604e67a044a77b81be1fd/fca_algorithms_cpp-0.1.1-pp39-pypy39_pp73-win_amd64.whl
+[2023-06-29 13:18:52] INFO root fetch - processPackages [ISENpy]: Downloading https://files.pythonhosted.org/packages/8c/95/2939c398d2b7878ffa2ea7c1b4a524ac39bd729057f304cd423683d6acad/ISENpy-0.4.2.tar.gz
+[2023-06-29 13:18:52] INFO root fetch - processPackages [nessai-models]: Remove: archive file [/home/abi/fetcher/tmp/nessai_models-0.3.0.tar.gz]
+[2023-06-29 13:18:52] INFO root fetch - processPackages [nessai-models]: Remove: archive file [/home/abi/fetcher/tmp/nessai_models-0.4.0.tar.gz]
+[2023-06-29 13:18:52] INFO root fetch - processPackages [nessai-models]: Start processing: dank-mids
+[2023-06-29 13:18:52] INFO root fetch - main [MainThread]: End processing [nessai-models]: success
+[2023-06-29 13:18:52] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-29 13:18:52] INFO root fetch - processPackages [fca-algorithms-cpp]: executing diffoscope
+[2023-06-29 13:18:52] INFO root fetch - processPackages [fca-algorithms-cpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fca_algorithms_cpp-0.1.0-pp39-pypy39_pp73-win_amd64.whl.zip tmp/fca_algorithms_cpp-0.1.1-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230629/f/fca-algorithms-cpp/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-29 13:18:52] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-29 13:18:52] INFO root fetch - processPackages [ISENpy]: executing diffoscope
+[2023-06-29 13:18:52] INFO root fetch - processPackages [ISENpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ISENpy-0.4.1.tar.gz tmp/ISENpy-0.4.2.tar.gz --markdown 20230629/I/ISENpy/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-29 13:18:52] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-29 13:18:52] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-29 13:18:52] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230629/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-29 13:18:52] INFO root fetch - processPackages [envd]: Downloading https://files.pythonhosted.org/packages/6f/e2/02e4db7e4affa6e54962dd795208ba1de5a9bbca208205fca85382498bfa/envd-0.3.9.tar.gz
+[2023-06-29 13:18:53] INFO root fetch - processPackages [budy]: Remove: archive file [/home/abi/fetcher/tmp/budy-0.8.4.tar.gz]
+[2023-06-29 13:18:53] INFO root fetch - processPackages [budy]: Remove: archive file [/home/abi/fetcher/tmp/budy-0.8.5.tar.gz]
+[2023-06-29 13:18:53] INFO root fetch - processPackages [budy]: Start processing: pynegex
+[2023-06-29 13:18:53] INFO root fetch - main [MainThread]: End processing [budy]: success
+[2023-06-29 13:18:53] WARNING root fetch - processPackages [pynegex]: Skipping, unable to determine old version
+[2023-06-29 13:18:53] INFO root fetch - main [MainThread]: End processing [pynegex] error
+[2023-06-29 13:18:53] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.1.2.tar.gz]
+[2023-06-29 13:18:53] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.1.4.tar.gz]
+[2023-06-29 13:18:53] INFO root fetch - main [MainThread]: End processing [aicoder]: success
+[2023-06-29 13:18:53] INFO root fetch - processPackages [fca-algorithms-cpp]: Remove: archive file [/home/abi/fetcher/tmp/fca_algorithms_cpp-0.1.0-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-06-29 13:18:53] INFO root fetch - processPackages [fca-algorithms-cpp]: Remove: archive file [/home/abi/fetcher/tmp/fca_algorithms_cpp-0.1.1-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-06-29 13:18:53] INFO root fetch - main [MainThread]: End processing [fca-algorithms-cpp]: success
+[2023-06-29 13:18:53] INFO root fetch - processPackages [e2e-cli]: Remove: archive file [/home/abi/fetcher/tmp/e2e_cli-0.9.9.8.tar.gz]
+[2023-06-29 13:18:53] INFO root fetch - processPackages [e2e-cli]: Remove: archive file [/home/abi/fetcher/tmp/e2e_cli-0.9.9.9.tar.gz]
+[2023-06-29 13:18:53] INFO root fetch - main [MainThread]: End processing [e2e-cli]: success
+[2023-06-29 13:18:53] INFO root fetch - processPackages [ISENpy]: Remove: archive file [/home/abi/fetcher/tmp/ISENpy-0.4.1.tar.gz]
+[2023-06-29 13:18:53] INFO root fetch - processPackages [ISENpy]: Remove: archive file [/home/abi/fetcher/tmp/ISENpy-0.4.2.tar.gz]
+[2023-06-29 13:18:53] INFO root fetch - main [MainThread]: End processing [ISENpy]: success
+[2023-06-29 13:18:53] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-29 13:18:53] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-29 13:18:53] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-29 13:18:54] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-06-29 13:18:54] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-06-29 13:18:54] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-06-29 13:18:55] INFO root fetch - processPackages [envd]: executing diffoscope
+[2023-06-29 13:18:55] INFO root fetch - processPackages [envd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envd-0.3.8.tar.gz tmp/envd-0.3.9.tar.gz --markdown 20230629/e/envd/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-29 13:18:55] INFO root fetch - processPackages [pyqula]: Remove: archive file [/home/abi/fetcher/tmp/pyqula-0.0.8.tar.gz]
+[2023-06-29 13:18:55] INFO root fetch - processPackages [pyqula]: Remove: archive file [/home/abi/fetcher/tmp/pyqula-0.0.9.tar.gz]
+[2023-06-29 13:18:55] INFO root fetch - main [MainThread]: End processing [pyqula]: success
+[2023-06-29 13:19:34] INFO root fetch - processPackages [gitlabx]: Remove: archive file [/home/abi/fetcher/tmp/gitlabx-0.1.2-py3-none-any.whl.zip]
+[2023-06-29 13:19:34] INFO root fetch - processPackages [gitlabx]: Remove: archive file [/home/abi/fetcher/tmp/gitlabx-0.1.3-py3-none-any.whl.zip]
+[2023-06-29 13:19:34] INFO root fetch - main [MainThread]: End processing [gitlabx]: success
+[2023-06-29 13:20:21] INFO root fetch - processPackages [envd]: Remove: archive file [/home/abi/fetcher/tmp/envd-0.3.8.tar.gz]
+[2023-06-29 13:20:21] INFO root fetch - processPackages [envd]: Remove: archive file [/home/abi/fetcher/tmp/envd-0.3.9.tar.gz]
+[2023-06-29 13:20:21] INFO root fetch - main [MainThread]: End processing [envd]: success
+[2023-06-29 13:20:21] INFO root fetch - main [MainThread]: Store serial: [18694133]
