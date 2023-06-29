@@ -6821,3 +6821,247 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 12:21:07] INFO root fetch - processPackages [peek-field-app]: Remove: archive file [/home/abi/fetcher/tmp/peek-field-app-3.4.6.tar.gz]
 [2023-06-29 12:21:07] INFO root fetch - main [MainThread]: End processing [peek-field-app]: success
 [2023-06-29 12:21:07] INFO root fetch - main [MainThread]: Store serial: [18693547]
+[2023-06-29 12:26:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18693547]
+[2023-06-29 12:26:17] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-06-29 12:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: peek-office-app
+[2023-06-29 12:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: peek-office-service
+[2023-06-29 12:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: peek-plugin-base
+[2023-06-29 12:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: peek-platform
+[2023-06-29 12:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: peek-storage-service
+[2023-06-29 12:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: peek-worker-service
+[2023-06-29 12:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cval-lib
+[2023-06-29 12:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: synerty-peek
+[2023-06-29 12:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: peek-plugin-branch
+[2023-06-29 12:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: peek-plugin-chat
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-storage-service]: New version: [3.4.6] Old Version: [3.4.5]
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-worker-service]: New version: [3.4.6] Old Version: [3.4.5]
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-plugin-chat]: New version: [3.4.6] Old Version: [3.4.5]
+[2023-06-29 12:26:17] WARNING root fetch - processPackages [cval-lib]: Skipping, unable to determine old version
+[2023-06-29 12:26:17] INFO root fetch - processPackages [cval-lib]: Start processing: peek-plugin-diagram
+[2023-06-29 12:26:17] INFO root fetch - main [MainThread]: End processing [cval-lib] error
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-office-service]: New version: [3.4.6] Old Version: [3.4.5]
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-office-app]: New version: [3.4.6] Old Version: [3.4.5]
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-platform]: New version: [3.4.6] Old Version: [3.4.5]
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-plugin-branch]: New version: [3.4.6] Old Version: [3.4.5]
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-plugin-base]: New version: [3.4.6] Old Version: [3.4.5]
+[2023-06-29 12:26:17] INFO root fetch - processPackages [synerty-peek]: New version: [3.4.6] Old Version: [3.4.5]
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-plugin-diagram]: New version: [3.4.6] Old Version: [3.4.5]
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-worker-service]: Downloading https://files.pythonhosted.org/packages/cf/ca/e7791f7429c799aaa3a25aa93b141689051e8d6ba248e017e942a05e9e93/peek-worker-service-3.4.5.tar.gz
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-storage-service]: Downloading https://files.pythonhosted.org/packages/d5/f8/64e03b57e8da682e33f458c635cf44c186f29573c2bf6ca4c904e1e6600d/peek-storage-service-3.4.5.tar.gz
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-plugin-branch]: Downloading https://files.pythonhosted.org/packages/2d/fc/06aed8b355bbcc4a2c35baf5bd04be27520775ec7b93a910971a0346bfb7/peek-plugin-branch-3.4.5.tar.gz
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-plugin-chat]: Downloading https://files.pythonhosted.org/packages/55/35/9870f2de566f65c6cd9ba6923097f94c431e15d31c57146214f1e1078309/peek-plugin-chat-3.4.5.tar.gz
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-office-service]: Downloading https://files.pythonhosted.org/packages/ae/58/02fb7c5df7dcb2305e5e77f3c185e2248afff334babb46cec6ffe7765504/peek-office-service-3.4.5.tar.gz
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-office-app]: Downloading https://files.pythonhosted.org/packages/67/0a/bc9869f82242d6688a424424ac36a24390623ca3b08508494de50d07e34f/peek-office-app-3.4.5.tar.gz
+[2023-06-29 12:26:17] INFO root fetch - processPackages [synerty-peek]: Downloading https://files.pythonhosted.org/packages/f4/bc/4c822f632042c6bc1b7cc6361f0251382c07846a4fa7c6a6a80b93dfe9ef/synerty-peek-3.4.5.tar.gz
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-plugin-base]: Downloading https://files.pythonhosted.org/packages/f9/3b/0ae25ebb6fb7c24a24c18ab69d86c40edb1b675f63f72962c8def4868ab2/peek-plugin-base-3.4.5.tar.gz
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-platform]: Downloading https://files.pythonhosted.org/packages/7b/c4/9b0239ee5bb916da2aef4e4cc78caf7d675e5d109e4e2c8220951c491a06/peek-platform-3.4.5.tar.gz
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-plugin-diagram]: Downloading https://files.pythonhosted.org/packages/9e/12/eab98ea947f4b7d7b512dde4407a4eacc2ca59654f91a761ea22aa6fbee9/peek-plugin-diagram-3.4.5.tar.gz
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-worker-service]: Downloading https://files.pythonhosted.org/packages/df/26/e8d8032dccce992be598b4246e9ba43c84ef77e3f8ebfa6d6421429b068b/peek-worker-service-3.4.6.tar.gz
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-plugin-branch]: Downloading https://files.pythonhosted.org/packages/b4/b1/121c84607198ad8a19bee386795de22ee55e741e058c7a549bc7f9b6c3f4/peek-plugin-branch-3.4.6.tar.gz
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-storage-service]: Downloading https://files.pythonhosted.org/packages/d3/b0/21c2380885e5f39a8b8ca6ba3851a6c193bbb87f07d16444366ea0c3220f/peek-storage-service-3.4.6.tar.gz
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-plugin-chat]: Downloading https://files.pythonhosted.org/packages/8b/15/60e357d6a8f0531950491667d71d678564f21e26fa7053e9a436c14e513c/peek-plugin-chat-3.4.6.tar.gz
+[2023-06-29 12:26:17] INFO root fetch - processPackages [synerty-peek]: Downloading https://files.pythonhosted.org/packages/5c/33/42f83cb56403a8d4b2b6ec343330c14577d67f2582a5f7b5e5f8feb1f938/synerty-peek-3.4.6.tar.gz
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-office-service]: Downloading https://files.pythonhosted.org/packages/b4/55/a6175294ff00fe1a6d01853aafb593dce0a34329f8d760569afc2e41bfa1/peek-office-service-3.4.6.tar.gz
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-plugin-base]: Downloading https://files.pythonhosted.org/packages/83/0d/2d468f702c82a55dc8ce85161e6ee8a921bc01682f04e1205bc4a0448107/peek-plugin-base-3.4.6.tar.gz
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-platform]: Downloading https://files.pythonhosted.org/packages/e7/26/1b0a1c6a99c1efa8edf40c291e38e8c48cb1de7d904ea878169a642ac272/peek-platform-3.4.6.tar.gz
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-office-app]: Downloading https://files.pythonhosted.org/packages/f0/11/48f90a57ce62821ac6409f9c5ffe7a892c69107b0e53a25d4798bf3f213e/peek-office-app-3.4.6.tar.gz
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-worker-service]: executing diffoscope
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-worker-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peek-worker-service-3.4.5.tar.gz tmp/peek-worker-service-3.4.6.tar.gz --markdown 20230629/p/peek-worker-service/3.4.5-3.4.6/diff.md --exclude *.pyd
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-storage-service]: executing diffoscope
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-storage-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peek-storage-service-3.4.5.tar.gz tmp/peek-storage-service-3.4.6.tar.gz --markdown 20230629/p/peek-storage-service/3.4.5-3.4.6/diff.md --exclude *.pyd
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-plugin-chat]: executing diffoscope
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-plugin-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peek-plugin-chat-3.4.5.tar.gz tmp/peek-plugin-chat-3.4.6.tar.gz --markdown 20230629/p/peek-plugin-chat/3.4.5-3.4.6/diff.md --exclude *.pyd
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-office-service]: executing diffoscope
+[2023-06-29 12:26:17] INFO root fetch - processPackages [synerty-peek]: executing diffoscope
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-office-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peek-office-service-3.4.5.tar.gz tmp/peek-office-service-3.4.6.tar.gz --markdown 20230629/p/peek-office-service/3.4.5-3.4.6/diff.md --exclude *.pyd
+[2023-06-29 12:26:17] INFO root fetch - processPackages [synerty-peek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synerty-peek-3.4.5.tar.gz tmp/synerty-peek-3.4.6.tar.gz --markdown 20230629/s/synerty-peek/3.4.5-3.4.6/diff.md --exclude *.pyd
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-plugin-branch]: executing diffoscope
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-plugin-branch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peek-plugin-branch-3.4.5.tar.gz tmp/peek-plugin-branch-3.4.6.tar.gz --markdown 20230629/p/peek-plugin-branch/3.4.5-3.4.6/diff.md --exclude *.pyd
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-plugin-diagram]: Downloading https://files.pythonhosted.org/packages/d9/dc/c5b199ec346f51303b75174637da84c2325dcad3ece4db0950b704962e5d/peek-plugin-diagram-3.4.6.tar.gz
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-plugin-base]: executing diffoscope
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-plugin-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peek-plugin-base-3.4.5.tar.gz tmp/peek-plugin-base-3.4.6.tar.gz --markdown 20230629/p/peek-plugin-base/3.4.5-3.4.6/diff.md --exclude *.pyd
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-platform]: executing diffoscope
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peek-platform-3.4.5.tar.gz tmp/peek-platform-3.4.6.tar.gz --markdown 20230629/p/peek-platform/3.4.5-3.4.6/diff.md --exclude *.pyd
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-office-app]: executing diffoscope
+[2023-06-29 12:26:17] INFO root fetch - processPackages [peek-office-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peek-office-app-3.4.5.tar.gz tmp/peek-office-app-3.4.6.tar.gz --markdown 20230629/p/peek-office-app/3.4.5-3.4.6/diff.md --exclude *.pyd
+[2023-06-29 12:26:18] INFO root fetch - processPackages [peek-plugin-diagram]: executing diffoscope
+[2023-06-29 12:26:18] INFO root fetch - processPackages [peek-plugin-diagram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peek-plugin-diagram-3.4.5.tar.gz tmp/peek-plugin-diagram-3.4.6.tar.gz --markdown 20230629/p/peek-plugin-diagram/3.4.5-3.4.6/diff.md --exclude *.pyd
+[2023-06-29 12:26:19] INFO root fetch - processPackages [synerty-peek]: Remove: archive file [/home/abi/fetcher/tmp/synerty-peek-3.4.5.tar.gz]
+[2023-06-29 12:26:19] INFO root fetch - processPackages [synerty-peek]: Remove: archive file [/home/abi/fetcher/tmp/synerty-peek-3.4.6.tar.gz]
+[2023-06-29 12:26:19] INFO root fetch - processPackages [synerty-peek]: Start processing: peek-plugin-diagram-trace
+[2023-06-29 12:26:19] INFO root fetch - main [MainThread]: End processing [synerty-peek]: success
+[2023-06-29 12:26:19] INFO root fetch - processPackages [peek-plugin-diagram-trace]: New version: [3.4.6] Old Version: [3.4.5]
+[2023-06-29 12:26:19] INFO root fetch - processPackages [peek-worker-service]: Remove: archive file [/home/abi/fetcher/tmp/peek-worker-service-3.4.5.tar.gz]
+[2023-06-29 12:26:19] INFO root fetch - processPackages [peek-worker-service]: Remove: archive file [/home/abi/fetcher/tmp/peek-worker-service-3.4.6.tar.gz]
+[2023-06-29 12:26:19] INFO root fetch - processPackages [peek-worker-service]: Start processing: peek-plugin-docdb-generic-menu
+[2023-06-29 12:26:19] INFO root fetch - main [MainThread]: End processing [peek-worker-service]: success
+[2023-06-29 12:26:19] INFO root fetch - processPackages [peek-plugin-docdb-generic-menu]: New version: [3.4.6] Old Version: [3.4.5]
+[2023-06-29 12:26:19] INFO root fetch - processPackages [peek-plugin-chat]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-chat-3.4.5.tar.gz]
+[2023-06-29 12:26:19] INFO root fetch - processPackages [peek-plugin-chat]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-chat-3.4.6.tar.gz]
+[2023-06-29 12:26:19] INFO root fetch - processPackages [peek-plugin-chat]: Start processing: peek-plugin-eventdb
+[2023-06-29 12:26:19] INFO root fetch - main [MainThread]: End processing [peek-plugin-chat]: success
+[2023-06-29 12:26:19] INFO root fetch - processPackages [peek-plugin-diagram-trace]: Downloading https://files.pythonhosted.org/packages/99/cd/a80c9bf929a4c0bff935654f7c96b3d59e61508dc5be8e17642889525aa3/peek-plugin-diagram-trace-3.4.5.tar.gz
+[2023-06-29 12:26:19] INFO root fetch - processPackages [peek-plugin-base]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-base-3.4.5.tar.gz]
+[2023-06-29 12:26:19] INFO root fetch - processPackages [peek-plugin-base]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-base-3.4.6.tar.gz]
+[2023-06-29 12:26:19] INFO root fetch - processPackages [peek-plugin-base]: Start processing: grai-client
+[2023-06-29 12:26:19] INFO root fetch - main [MainThread]: End processing [peek-plugin-base]: success
+[2023-06-29 12:26:19] INFO root fetch - processPackages [peek-plugin-eventdb]: New version: [3.4.6] Old Version: [3.4.5]
+[2023-06-29 12:26:19] INFO root fetch - processPackages [peek-plugin-branch]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-branch-3.4.5.tar.gz]
+[2023-06-29 12:26:19] INFO root fetch - processPackages [peek-plugin-branch]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-branch-3.4.6.tar.gz]
+[2023-06-29 12:26:19] INFO root fetch - processPackages [peek-plugin-branch]: Start processing: peek-plugin-gis-diagram
+[2023-06-29 12:26:19] INFO root fetch - main [MainThread]: End processing [peek-plugin-branch]: success
+[2023-06-29 12:26:19] INFO root fetch - processPackages [grai-client]: New version: [0.3.0a3] Old Version: [0.3.0a2]
+[2023-06-29 12:26:19] INFO root fetch - processPackages [peek-plugin-gis-diagram]: New version: [3.4.6] Old Version: [3.4.5]
+[2023-06-29 12:26:19] INFO root fetch - processPackages [grai-client]: Downloading https://files.pythonhosted.org/packages/08/4d/953c5249b2b7879884d118309ea5ff3c2a6ac4eed497b77fc7dfac72da57/grai_client-0.3.0a2.tar.gz
+[2023-06-29 12:26:19] INFO root fetch - processPackages [peek-plugin-docdb-generic-menu]: Downloading https://files.pythonhosted.org/packages/7d/e7/c6c72d5dcea3627e3770ccf04027145028d96f4de16569021505f4dcfd26/peek-plugin-docdb-generic-menu-3.4.5.tar.gz
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-office-service]: Remove: archive file [/home/abi/fetcher/tmp/peek-office-service-3.4.5.tar.gz]
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-office-service]: Remove: archive file [/home/abi/fetcher/tmp/peek-office-service-3.4.6.tar.gz]
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-office-service]: Start processing: polygon-etl
+[2023-06-29 12:26:20] INFO root fetch - main [MainThread]: End processing [peek-office-service]: success
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-plugin-eventdb]: Downloading https://files.pythonhosted.org/packages/9e/cd/b5fb87bcd86e511e131ac11396f8e984e041278db23f1c136ba3f438aaa6/peek-plugin-eventdb-3.4.5.tar.gz
+[2023-06-29 12:26:20] INFO root fetch - processPackages [polygon-etl]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-storage-service]: Remove: archive file [/home/abi/fetcher/tmp/peek-storage-service-3.4.5.tar.gz]
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-storage-service]: Remove: archive file [/home/abi/fetcher/tmp/peek-storage-service-3.4.6.tar.gz]
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-storage-service]: Start processing: peek-plugin-graphdb
+[2023-06-29 12:26:20] INFO root fetch - main [MainThread]: End processing [peek-storage-service]: success
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-plugin-diagram-trace]: Downloading https://files.pythonhosted.org/packages/32/44/cfa90d4a581a87890eff1f064474dc1a633710828984c65eda1d4b6f6d21/peek-plugin-diagram-trace-3.4.6.tar.gz
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-plugin-graphdb]: New version: [3.4.6] Old Version: [3.4.5]
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-plugin-gis-diagram]: Downloading https://files.pythonhosted.org/packages/81/e6/ace2564006ba63c3813e83af12237156f0843d0f3a57f0c6e760cfb01bc6/peek-plugin-gis-diagram-3.4.5.tar.gz
+[2023-06-29 12:26:20] INFO root fetch - processPackages [grai-client]: Downloading https://files.pythonhosted.org/packages/66/35/79b21b52e93722ec5115ee9b598e9cf645ee62ae4a385e1ff0a894249ec4/grai_client-0.3.0a3.tar.gz
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-plugin-diagram-trace]: executing diffoscope
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-plugin-diagram-trace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peek-plugin-diagram-trace-3.4.5.tar.gz tmp/peek-plugin-diagram-trace-3.4.6.tar.gz --markdown 20230629/p/peek-plugin-diagram-trace/3.4.5-3.4.6/diff.md --exclude *.pyd
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-plugin-docdb-generic-menu]: Downloading https://files.pythonhosted.org/packages/d0/cd/ccc12d54bdb62be89b4ec2fbab119a8888616a19348aea363a458a09c291/peek-plugin-docdb-generic-menu-3.4.6.tar.gz
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-office-app]: Remove: archive file [/home/abi/fetcher/tmp/peek-office-app-3.4.5.tar.gz]
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-office-app]: Remove: archive file [/home/abi/fetcher/tmp/peek-office-app-3.4.6.tar.gz]
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-office-app]: Start processing: peek-plugin-inbox
+[2023-06-29 12:26:20] INFO root fetch - main [MainThread]: End processing [peek-office-app]: success
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-plugin-inbox]: New version: [3.4.6] Old Version: [3.4.5]
+[2023-06-29 12:26:20] INFO root fetch - processPackages [polygon-etl]: Downloading https://files.pythonhosted.org/packages/32/8c/30cd892df8e937f6d1135d7065258a012f142deb9939252d8925f1f61c55/polygon-etl-0.3.6.tar.gz
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-plugin-docdb-generic-menu]: executing diffoscope
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-plugin-docdb-generic-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peek-plugin-docdb-generic-menu-3.4.5.tar.gz tmp/peek-plugin-docdb-generic-menu-3.4.6.tar.gz --markdown 20230629/p/peek-plugin-docdb-generic-menu/3.4.5-3.4.6/diff.md --exclude *.pyd
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-plugin-eventdb]: Downloading https://files.pythonhosted.org/packages/2c/12/d474cd30ac2e8d7753bd7005c4ba5a5c27b14a3db6d96399bad91499e11a/peek-plugin-eventdb-3.4.6.tar.gz
+[2023-06-29 12:26:20] INFO root fetch - processPackages [grai-client]: executing diffoscope
+[2023-06-29 12:26:20] INFO root fetch - processPackages [grai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_client-0.3.0a2.tar.gz tmp/grai_client-0.3.0a3.tar.gz --markdown 20230629/g/grai-client/0.3.0a2-0.3.0a3/diff.md --exclude *.pyd
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-plugin-gis-diagram]: Downloading https://files.pythonhosted.org/packages/09/9a/25a984854b4e7e06f7f4f93a0799e95ef3c2d7d81bd571a2b68bd2451cbb/peek-plugin-gis-diagram-3.4.6.tar.gz
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-platform]: Remove: archive file [/home/abi/fetcher/tmp/peek-platform-3.4.5.tar.gz]
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-platform]: Remove: archive file [/home/abi/fetcher/tmp/peek-platform-3.4.6.tar.gz]
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-platform]: Start processing: hvps
+[2023-06-29 12:26:20] INFO root fetch - main [MainThread]: End processing [peek-platform]: success
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-plugin-inbox]: Downloading https://files.pythonhosted.org/packages/a3/e0/649cd81e7846a2f796ba43ee40bc626eb7f930ed7c5434716091cffede49/peek-plugin-inbox-3.4.5.tar.gz
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-plugin-eventdb]: executing diffoscope
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-plugin-eventdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peek-plugin-eventdb-3.4.5.tar.gz tmp/peek-plugin-eventdb-3.4.6.tar.gz --markdown 20230629/p/peek-plugin-eventdb/3.4.5-3.4.6/diff.md --exclude *.pyd
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-plugin-graphdb]: Downloading https://files.pythonhosted.org/packages/9a/c5/8f5ccdf2729fe69e7e12ef15999d5efd606c6d874f5c843a948d18c71b8d/peek-plugin-graphdb-3.4.5.tar.gz
+[2023-06-29 12:26:20] INFO root fetch - processPackages [hvps]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-plugin-gis-diagram]: executing diffoscope
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-plugin-gis-diagram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peek-plugin-gis-diagram-3.4.5.tar.gz tmp/peek-plugin-gis-diagram-3.4.6.tar.gz --markdown 20230629/p/peek-plugin-gis-diagram/3.4.5-3.4.6/diff.md --exclude *.pyd
+[2023-06-29 12:26:20] INFO root fetch - processPackages [hvps]: Downloading https://files.pythonhosted.org/packages/26/38/c5aacd5aac2cb746637f7620b0e30b429ca572d27a302e0b9e01ef7a882a/hvps-0.0.5.tar.gz
+[2023-06-29 12:26:20] INFO root fetch - processPackages [polygon-etl]: Downloading https://files.pythonhosted.org/packages/1a/2f/7d8dac45606d4c2d61172aada8cf0082958dfba682984590450fbd236a7f/polygon-etl-0.3.7.tar.gz
+[2023-06-29 12:26:20] INFO root fetch - processPackages [polygon-etl]: executing diffoscope
+[2023-06-29 12:26:20] INFO root fetch - processPackages [polygon-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polygon-etl-0.3.6.tar.gz tmp/polygon-etl-0.3.7.tar.gz --markdown 20230629/p/polygon-etl/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-plugin-inbox]: Downloading https://files.pythonhosted.org/packages/f8/2a/8c3b23fb1c3f190dc11b793bdf281db6d5eabef88d5a9fa4ddd9fa72b059/peek-plugin-inbox-3.4.6.tar.gz
+[2023-06-29 12:26:20] INFO root fetch - processPackages [hvps]: Downloading https://files.pythonhosted.org/packages/91/cc/a2618621be00c57703c4474b62fd7ae7e983e47955a09b9b32854e8ac357/hvps-0.0.6.tar.gz
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-plugin-graphdb]: Downloading https://files.pythonhosted.org/packages/60/8b/70a1411e0f40dcfecd8d04020e0e8c1ece87efc588941378d2d467e952da/peek-plugin-graphdb-3.4.6.tar.gz
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-plugin-inbox]: executing diffoscope
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-plugin-inbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peek-plugin-inbox-3.4.5.tar.gz tmp/peek-plugin-inbox-3.4.6.tar.gz --markdown 20230629/p/peek-plugin-inbox/3.4.5-3.4.6/diff.md --exclude *.pyd
+[2023-06-29 12:26:20] INFO root fetch - processPackages [hvps]: executing diffoscope
+[2023-06-29 12:26:20] INFO root fetch - processPackages [hvps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hvps-0.0.5.tar.gz tmp/hvps-0.0.6.tar.gz --markdown 20230629/h/hvps/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-plugin-graphdb]: executing diffoscope
+[2023-06-29 12:26:20] INFO root fetch - processPackages [peek-plugin-graphdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peek-plugin-graphdb-3.4.5.tar.gz tmp/peek-plugin-graphdb-3.4.6.tar.gz --markdown 20230629/p/peek-plugin-graphdb/3.4.5-3.4.6/diff.md --exclude *.pyd
+[2023-06-29 12:26:22] INFO root fetch - processPackages [grai-client]: Remove: archive file [/home/abi/fetcher/tmp/grai_client-0.3.0a2.tar.gz]
+[2023-06-29 12:26:22] INFO root fetch - processPackages [grai-client]: Remove: archive file [/home/abi/fetcher/tmp/grai_client-0.3.0a3.tar.gz]
+[2023-06-29 12:26:22] INFO root fetch - processPackages [grai-client]: Start processing: peek-plugin-livedb
+[2023-06-29 12:26:22] INFO root fetch - main [MainThread]: End processing [grai-client]: success
+[2023-06-29 12:26:22] INFO root fetch - processPackages [peek-plugin-livedb]: New version: [3.4.6] Old Version: [3.4.5]
+[2023-06-29 12:26:22] INFO root fetch - processPackages [peek-plugin-diagram-trace]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-diagram-trace-3.4.5.tar.gz]
+[2023-06-29 12:26:22] INFO root fetch - processPackages [peek-plugin-diagram-trace]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-diagram-trace-3.4.6.tar.gz]
+[2023-06-29 12:26:22] INFO root fetch - processPackages [peek-plugin-diagram-trace]: Start processing: lemon-ai
+[2023-06-29 12:26:22] INFO root fetch - main [MainThread]: End processing [peek-plugin-diagram-trace]: success
+[2023-06-29 12:26:22] INFO root fetch - processPackages [lemon-ai]: New version: [0.1.6] Old Version: [0.1.4]
+[2023-06-29 12:26:22] INFO root fetch - processPackages [peek-plugin-livedb]: Downloading https://files.pythonhosted.org/packages/86/84/6d471cbf2c3a7a171db5bc3352445696bf93857bcf094d48eef5fabedaba/peek-plugin-livedb-3.4.5.tar.gz
+[2023-06-29 12:26:22] INFO root fetch - processPackages [hvps]: Remove: archive file [/home/abi/fetcher/tmp/hvps-0.0.5.tar.gz]
+[2023-06-29 12:26:22] INFO root fetch - processPackages [hvps]: Remove: archive file [/home/abi/fetcher/tmp/hvps-0.0.6.tar.gz]
+[2023-06-29 12:26:22] INFO root fetch - processPackages [hvps]: Start processing: chatgpt-functions
+[2023-06-29 12:26:22] INFO root fetch - main [MainThread]: End processing [hvps]: success
+[2023-06-29 12:26:22] INFO root fetch - processPackages [chatgpt-functions]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 12:26:22] INFO root fetch - processPackages [lemon-ai]: Downloading https://files.pythonhosted.org/packages/bf/e4/e7c9cf27c3b7d84c6e8c26e349d208e549cc526f7ef0cb8da0c8ee40a9b1/lemon-ai-0.1.4.tar.gz
+[2023-06-29 12:26:22] INFO root fetch - processPackages [chatgpt-functions]: Downloading https://files.pythonhosted.org/packages/9f/69/65533ed0c1f233bb28139bd9ba549cdd3b4c28c48def9a6a690ea6337641/chatgpt_functions-0.1.8.tar.gz
+[2023-06-29 12:26:22] INFO root fetch - processPackages [peek-plugin-docdb-generic-menu]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-docdb-generic-menu-3.4.5.tar.gz]
+[2023-06-29 12:26:22] INFO root fetch - processPackages [peek-plugin-docdb-generic-menu]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-docdb-generic-menu-3.4.6.tar.gz]
+[2023-06-29 12:26:22] INFO root fetch - processPackages [peek-plugin-docdb-generic-menu]: Start processing: cipher-kit
+[2023-06-29 12:26:22] INFO root fetch - main [MainThread]: End processing [peek-plugin-docdb-generic-menu]: success
+[2023-06-29 12:26:22] INFO root fetch - processPackages [cipher-kit]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-29 12:26:22] INFO root fetch - processPackages [peek-plugin-inbox]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-inbox-3.4.5.tar.gz]
+[2023-06-29 12:26:22] INFO root fetch - processPackages [peek-plugin-inbox]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-inbox-3.4.6.tar.gz]
+[2023-06-29 12:26:22] INFO root fetch - processPackages [peek-plugin-inbox]: Start processing: superagi-client
+[2023-06-29 12:26:22] INFO root fetch - main [MainThread]: End processing [peek-plugin-inbox]: success
+[2023-06-29 12:26:22] INFO root fetch - processPackages [peek-plugin-livedb]: Downloading https://files.pythonhosted.org/packages/c2/97/445907e42b9b8f91abf1490fdabb3f1674265693f86cebd7003f79bf8aed/peek-plugin-livedb-3.4.6.tar.gz
+[2023-06-29 12:26:22] WARNING root fetch - processPackages [superagi-client]: Skipping, unable to determine old version
+[2023-06-29 12:26:22] INFO root fetch - processPackages [superagi-client]: Start processing: jaaql-middleware-python
+[2023-06-29 12:26:22] INFO root fetch - main [MainThread]: End processing [superagi-client] error
+[2023-06-29 12:26:22] INFO root fetch - processPackages [peek-plugin-gis-diagram]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-gis-diagram-3.4.5.tar.gz]
+[2023-06-29 12:26:22] INFO root fetch - processPackages [peek-plugin-gis-diagram]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-gis-diagram-3.4.6.tar.gz]
+[2023-06-29 12:26:22] INFO root fetch - processPackages [peek-plugin-gis-diagram]: Start processing: fortext
+[2023-06-29 12:26:22] INFO root fetch - main [MainThread]: End processing [peek-plugin-gis-diagram]: success
+[2023-06-29 12:26:22] INFO root fetch - processPackages [fortext]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-29 12:26:22] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-06-29 12:26:22] INFO root fetch - processPackages [lemon-ai]: Downloading https://files.pythonhosted.org/packages/48/06/42d2e7ffbb46d83d458c50f6124e143f41cb9f5ae46dd42acb2bf00de5b0/lemon-ai-0.1.6.tar.gz
+[2023-06-29 12:26:22] INFO root fetch - processPackages [peek-plugin-livedb]: executing diffoscope
+[2023-06-29 12:26:22] INFO root fetch - processPackages [peek-plugin-livedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peek-plugin-livedb-3.4.5.tar.gz tmp/peek-plugin-livedb-3.4.6.tar.gz --markdown 20230629/p/peek-plugin-livedb/3.4.5-3.4.6/diff.md --exclude *.pyd
+[2023-06-29 12:26:22] INFO root fetch - processPackages [cipher-kit]: Downloading https://files.pythonhosted.org/packages/cb/cd/22c8f27c340c06786b73abfd6f23a4405c849a3669f261b29594fd6b6670/cipher_kit-0.0.3.tar.gz
+[2023-06-29 12:26:22] INFO root fetch - processPackages [chatgpt-functions]: Downloading https://files.pythonhosted.org/packages/e8/12/8ceaa0848fd3766f266783dc45d09f7f558f3823928eeaae66d11041c354/chatgpt_functions-0.1.9.tar.gz
+[2023-06-29 12:26:22] INFO root fetch - processPackages [lemon-ai]: executing diffoscope
+[2023-06-29 12:26:22] INFO root fetch - processPackages [lemon-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lemon-ai-0.1.4.tar.gz tmp/lemon-ai-0.1.6.tar.gz --markdown 20230629/l/lemon-ai/0.1.4-0.1.6/diff.md --exclude *.pyd
+[2023-06-29 12:26:22] INFO root fetch - processPackages [chatgpt-functions]: executing diffoscope
+[2023-06-29 12:26:22] INFO root fetch - processPackages [chatgpt-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt_functions-0.1.8.tar.gz tmp/chatgpt_functions-0.1.9.tar.gz --markdown 20230629/c/chatgpt-functions/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 12:26:22] INFO root fetch - processPackages [fortext]: Downloading https://files.pythonhosted.org/packages/9c/02/c72624e2349f53acb3a7439220e79c89b81ea34c6c4581f47d0fdd9b0e77/fortext-0.0.3.tar.gz
+[2023-06-29 12:26:23] INFO root fetch - processPackages [polygon-etl]: Remove: archive file [/home/abi/fetcher/tmp/polygon-etl-0.3.6.tar.gz]
+[2023-06-29 12:26:23] INFO root fetch - processPackages [polygon-etl]: Remove: archive file [/home/abi/fetcher/tmp/polygon-etl-0.3.7.tar.gz]
+[2023-06-29 12:26:23] INFO root fetch - processPackages [polygon-etl]: Start processing: featurelayers
+[2023-06-29 12:26:23] INFO root fetch - main [MainThread]: End processing [polygon-etl]: success
+[2023-06-29 12:26:23] INFO root fetch - processPackages [featurelayers]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-06-29 12:26:23] INFO root fetch - processPackages [cipher-kit]: Downloading https://files.pythonhosted.org/packages/7e/98/095c30a2fe2d4a4fa318ecf4f5be32a1319cb9c35fcce99adca8f34add2e/cipher_kit-0.0.4.tar.gz
+[2023-06-29 12:26:23] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/2b/17/60971396496757ecabdb604aead831729e83b19f7706fee376e4b84cec55/featurelayers-1.5.0.tar.gz
+[2023-06-29 12:26:23] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-06-29 12:26:23] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.9.0.tar.gz tmp/jaaql-middleware-python-4.9.1.tar.gz --markdown 20230629/j/jaaql-middleware-python/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-06-29 12:26:23] INFO root fetch - processPackages [peek-plugin-graphdb]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-graphdb-3.4.5.tar.gz]
+[2023-06-29 12:26:23] INFO root fetch - processPackages [peek-plugin-graphdb]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-graphdb-3.4.6.tar.gz]
+[2023-06-29 12:26:23] INFO root fetch - processPackages [peek-plugin-graphdb]: Start processing: marginados-warc-scraper
+[2023-06-29 12:26:23] INFO root fetch - main [MainThread]: End processing [peek-plugin-graphdb]: success
+[2023-06-29 12:26:23] INFO root fetch - processPackages [fortext]: Downloading https://files.pythonhosted.org/packages/d2/5d/b030d2f0dea79288c9819c962375aaaea382e0221cfce3fd1b870c7c8329/fortext-0.0.4.tar.gz
+[2023-06-29 12:26:23] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/16/4f/0906f496067d94815052aa74994080b0cc0f47c2120087eca7408da67049/featurelayers-1.5.1.tar.gz
+[2023-06-29 12:26:23] INFO root fetch - processPackages [cipher-kit]: executing diffoscope
+[2023-06-29 12:26:23] INFO root fetch - processPackages [cipher-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cipher_kit-0.0.3.tar.gz tmp/cipher_kit-0.0.4.tar.gz --markdown 20230629/c/cipher-kit/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-29 12:26:23] WARNING root fetch - processPackages [marginados-warc-scraper]: Skipping, unable to determine old version
+[2023-06-29 12:26:23] INFO root fetch - main [MainThread]: End processing [marginados-warc-scraper] error
+[2023-06-29 12:26:23] INFO root fetch - processPackages [fortext]: executing diffoscope
+[2023-06-29 12:26:23] INFO root fetch - processPackages [fortext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortext-0.0.3.tar.gz tmp/fortext-0.0.4.tar.gz --markdown 20230629/f/fortext/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-29 12:26:23] INFO root fetch - processPackages [featurelayers]: executing diffoscope
+[2023-06-29 12:26:23] INFO root fetch - processPackages [featurelayers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurelayers-1.5.0.tar.gz tmp/featurelayers-1.5.1.tar.gz --markdown 20230629/f/featurelayers/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-06-29 12:26:24] INFO root fetch - processPackages [peek-plugin-diagram]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-diagram-3.4.5.tar.gz]
+[2023-06-29 12:26:24] INFO root fetch - processPackages [peek-plugin-diagram]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-diagram-3.4.6.tar.gz]
+[2023-06-29 12:26:24] INFO root fetch - main [MainThread]: End processing [peek-plugin-diagram]: success
+[2023-06-29 12:26:24] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.0.tar.gz]
+[2023-06-29 12:26:24] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.1.tar.gz]
+[2023-06-29 12:26:24] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-06-29 12:26:24] INFO root fetch - processPackages [chatgpt-functions]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_functions-0.1.8.tar.gz]
+[2023-06-29 12:26:24] INFO root fetch - processPackages [chatgpt-functions]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_functions-0.1.9.tar.gz]
+[2023-06-29 12:26:24] INFO root fetch - main [MainThread]: End processing [chatgpt-functions]: success
+[2023-06-29 12:26:24] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.5.0.tar.gz]
+[2023-06-29 12:26:24] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.5.1.tar.gz]
+[2023-06-29 12:26:24] INFO root fetch - main [MainThread]: End processing [featurelayers]: success
+[2023-06-29 12:26:24] INFO root fetch - processPackages [fortext]: Remove: archive file [/home/abi/fetcher/tmp/fortext-0.0.3.tar.gz]
+[2023-06-29 12:26:24] INFO root fetch - processPackages [fortext]: Remove: archive file [/home/abi/fetcher/tmp/fortext-0.0.4.tar.gz]
+[2023-06-29 12:26:24] INFO root fetch - main [MainThread]: End processing [fortext]: success
+[2023-06-29 12:26:24] INFO root fetch - processPackages [lemon-ai]: Remove: archive file [/home/abi/fetcher/tmp/lemon-ai-0.1.4.tar.gz]
+[2023-06-29 12:26:24] INFO root fetch - processPackages [lemon-ai]: Remove: archive file [/home/abi/fetcher/tmp/lemon-ai-0.1.6.tar.gz]
+[2023-06-29 12:26:24] INFO root fetch - main [MainThread]: End processing [lemon-ai]: success
+[2023-06-29 12:26:24] INFO root fetch - processPackages [peek-plugin-eventdb]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-eventdb-3.4.5.tar.gz]
+[2023-06-29 12:26:24] INFO root fetch - processPackages [peek-plugin-eventdb]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-eventdb-3.4.6.tar.gz]
+[2023-06-29 12:26:24] INFO root fetch - main [MainThread]: End processing [peek-plugin-eventdb]: success
+[2023-06-29 12:26:24] INFO root fetch - processPackages [cipher-kit]: Remove: archive file [/home/abi/fetcher/tmp/cipher_kit-0.0.3.tar.gz]
+[2023-06-29 12:26:24] INFO root fetch - processPackages [cipher-kit]: Remove: archive file [/home/abi/fetcher/tmp/cipher_kit-0.0.4.tar.gz]
+[2023-06-29 12:26:24] INFO root fetch - main [MainThread]: End processing [cipher-kit]: success
+[2023-06-29 12:26:24] INFO root fetch - processPackages [peek-plugin-livedb]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-livedb-3.4.5.tar.gz]
+[2023-06-29 12:26:24] INFO root fetch - processPackages [peek-plugin-livedb]: Remove: archive file [/home/abi/fetcher/tmp/peek-plugin-livedb-3.4.6.tar.gz]
+[2023-06-29 12:26:24] INFO root fetch - main [MainThread]: End processing [peek-plugin-livedb]: success
+[2023-06-29 12:26:24] INFO root fetch - main [MainThread]: Store serial: [18693622]
