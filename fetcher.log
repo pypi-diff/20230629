@@ -21225,3 +21225,114 @@ EOFError: EOF read where object expected
 [2023-06-29 21:45:15] INFO root fetch - processPackages [joulescope-ui]: Remove: archive file [/home/abi/fetcher/tmp/joulescope_ui-1.0.9.tar.gz]
 [2023-06-29 21:45:15] INFO root fetch - main [MainThread]: End processing [joulescope-ui]: success
 [2023-06-29 21:45:15] INFO root fetch - main [MainThread]: Store serial: [18699676]
+[2023-06-29 21:50:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18699676]
+[2023-06-29 21:50:24] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-29 21:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-confluentcloud
+[2023-06-29 21:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: diagonal-b6
+[2023-06-29 21:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-maintenance-equipment-image
+[2023-06-29 21:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: squarelet-auth
+[2023-06-29 21:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dauth
+[2023-06-29 21:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lsst-efd-client
+[2023-06-29 21:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: truss
+[2023-06-29 21:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bipl
+[2023-06-29 21:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lcapy
+[2023-06-29 21:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: IntraSOM
+[2023-06-29 21:50:25] INFO root fetch - processPackages [diagonal-b6]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-29 21:50:25] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2023-06-29 21:50:25] INFO root fetch - processPackages [squarelet-auth]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-29 21:50:25] INFO root fetch - processPackages [lsst-efd-client]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-29 21:50:25] INFO root fetch - processPackages [dauth]: New version: [0.5] Old Version: [0.4]
+[2023-06-29 21:50:25] WARNING root fetch - processPackages [IntraSOM]: Skipping, unable to determine old version
+[2023-06-29 21:50:25] INFO root fetch - processPackages [IntraSOM]: Start processing: envoxy
+[2023-06-29 21:50:25] INFO root fetch - main [MainThread]: End processing [IntraSOM] error
+[2023-06-29 21:50:25] INFO root fetch - processPackages [bipl]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-29 21:50:25] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-image]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.4]
+[2023-06-29 21:50:25] INFO root fetch - processPackages [truss]: New version: [0.4.9rc9] Old Version: [0.4.9rc5]
+[2023-06-29 21:50:25] INFO root fetch - processPackages [lcapy]: New version: [1.9.1] Old Version: [1.9]
+[2023-06-29 21:50:25] INFO root fetch - processPackages [envoxy]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-29 21:50:25] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2023-06-29 21:50:25] INFO root fetch - processPackages [dauth]: Downloading https://files.pythonhosted.org/packages/f2/20/11ba76a744d867ab37a72c7ef645b79b668d57ad4325e2c3a5472ae8a577/dauth-0.4.tar.gz
+[2023-06-29 21:50:25] INFO root fetch - processPackages [lsst-efd-client]: Downloading https://files.pythonhosted.org/packages/d5/db/9cffc7e87fbd7238c26a4e9a9b1afabea9dc1910fcfe4d1bd7b21408af69/lsst-efd-client-0.9.0.tar.gz
+[2023-06-29 21:50:25] INFO root fetch - processPackages [diagonal-b6]: Downloading https://files.pythonhosted.org/packages/e0/64/668dabc0a8f0c7299a5e35aa7c6319eddbffee4593114fd0802f7f8f3226/diagonal_b6-0.0.2.tar.gz
+[2023-06-29 21:50:25] INFO root fetch - processPackages [squarelet-auth]: Downloading https://files.pythonhosted.org/packages/69/04/3699237cc9a3494a4c375d9a9390b9e47144310b82e860d46cc8653c9b6d/squarelet_auth-0.1.0.tar.gz
+[2023-06-29 21:50:25] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/a5/ac/6da658c05b328c158997857f4315d9203f0c68cfcb1a90b247c8966bad5b/truss-0.4.9rc5.tar.gz
+[2023-06-29 21:50:25] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2023-06-29 21:50:25] INFO root fetch - processPackages [lcapy]: Downloading https://files.pythonhosted.org/packages/2c/f0/54cd6070f09dfebf91290600c1a22606d2e1528ed532f69bf71067b838f0/lcapy-1.9.tar.gz
+[2023-06-29 21:50:25] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-image]: Downloading https://files.pythonhosted.org/packages/b3/41/0090a27db6e0b1dc9b48a35e6d21fe8d3f5d645d8f4a3dad0fc9bc390aaf/odoo_addon_maintenance_equipment_image-15.0.1.0.0.4-py3-none-any.whl
+[2023-06-29 21:50:25] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2023-06-29 21:50:25] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20230629/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/diff.md --exclude *.pyd
+[2023-06-29 21:50:25] INFO root fetch - processPackages [bipl]: Downloading https://files.pythonhosted.org/packages/3e/65/7a872e0292bd1d1e80541b65c7b638a8faebad28bb560423ad6c5d86bcdc/bipl-0.3.1.tar.gz
+[2023-06-29 21:50:25] INFO root fetch - processPackages [dauth]: Downloading https://files.pythonhosted.org/packages/5d/0b/3c2ea67128bdb061a962b8328834a00e0657239b9e27419b3557b8c5b4c3/dauth-0.5.tar.gz
+[2023-06-29 21:50:25] INFO root fetch - processPackages [envoxy]: Downloading https://files.pythonhosted.org/packages/3f/11/1a1d10772dc5b3e815e6ab87c8e3faded5673852b2e598517086732c80d9/envoxy-0.2.6.tar.gz
+[2023-06-29 21:50:25] INFO root fetch - processPackages [squarelet-auth]: Downloading https://files.pythonhosted.org/packages/bc/fa/d089a6d3389be05715ff71274f376f8d5d28ee3c9852e94c26e20e05e7de/squarelet_auth-0.1.1.tar.gz
+[2023-06-29 21:50:25] INFO root fetch - processPackages [dauth]: executing diffoscope
+[2023-06-29 21:50:25] INFO root fetch - processPackages [dauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dauth-0.4.tar.gz tmp/dauth-0.5.tar.gz --markdown 20230629/d/dauth/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-29 21:50:25] INFO root fetch - processPackages [bipl]: executing diffoscope
+[2023-06-29 21:50:25] INFO root fetch - processPackages [bipl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bipl-0.3.0.tar.gz tmp/bipl-0.3.1.tar.gz --markdown 20230629/b/bipl/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-29 21:50:25] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/92/97/5f78d50e5618eaf7c5f3f918d7ea2a494d65cb8ebc0daf5e329af774240d/truss-0.4.9rc9.tar.gz
+[2023-06-29 21:50:25] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-image]: Downloading https://files.pythonhosted.org/packages/5a/08/40293bba2f1c249ee54bee7705cb22f5759a0ce0e34c3fcaa53908cd5b4c/odoo_addon_maintenance_equipment_image-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-29 21:50:25] INFO root fetch - processPackages [squarelet-auth]: executing diffoscope
+[2023-06-29 21:50:25] INFO root fetch - processPackages [squarelet-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squarelet_auth-0.1.0.tar.gz tmp/squarelet_auth-0.1.1.tar.gz --markdown 20230629/s/squarelet-auth/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-29 21:50:25] INFO root fetch - processPackages [envoxy]: executing diffoscope
+[2023-06-29 21:50:25] INFO root fetch - processPackages [envoxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envoxy-0.2.5.tar.gz tmp/envoxy-0.2.6.tar.gz --markdown 20230629/e/envoxy/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-29 21:50:25] INFO root fetch - processPackages [lcapy]: Downloading https://files.pythonhosted.org/packages/a5/d9/dab72456450c501743169a0e3f18050943fb6d589dc163d95440a5ded2e2/lcapy-1.9.1.tar.gz
+[2023-06-29 21:50:25] INFO root fetch - processPackages [diagonal-b6]: Downloading https://files.pythonhosted.org/packages/7d/6a/e0609bd45858ef322e7f996d1303aca2429f90bd4808ce87c6f386377ee7/diagonal_b6-0.0.3.tar.gz
+[2023-06-29 21:50:25] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-image]: executing diffoscope
+[2023-06-29 21:50:25] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_maintenance_equipment_image-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_maintenance_equipment_image-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230629/o/odoo-addon-maintenance-equipment-image/15.0.1.0.0.4-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-29 21:50:25] INFO root fetch - processPackages [truss]: executing diffoscope
+[2023-06-29 21:50:25] INFO root fetch - processPackages [truss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truss-0.4.9rc5.tar.gz tmp/truss-0.4.9rc9.tar.gz --markdown 20230629/t/truss/0.4.9rc5-0.4.9rc9/diff.md --exclude *.pyd
+[2023-06-29 21:50:25] INFO root fetch - processPackages [diagonal-b6]: executing diffoscope
+[2023-06-29 21:50:25] INFO root fetch - processPackages [diagonal-b6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diagonal_b6-0.0.2.tar.gz tmp/diagonal_b6-0.0.3.tar.gz --markdown 20230629/d/diagonal-b6/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-29 21:50:25] INFO root fetch - processPackages [lsst-efd-client]: Downloading https://files.pythonhosted.org/packages/5a/91/ec0b2c32131d627bc20c622c46b7bdf787840350680435d4ada2f9c9d8ad/lsst-efd-client-0.9.1.tar.gz
+[2023-06-29 21:50:26] INFO root fetch - processPackages [lcapy]: executing diffoscope
+[2023-06-29 21:50:26] INFO root fetch - processPackages [lcapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lcapy-1.9.tar.gz tmp/lcapy-1.9.1.tar.gz --markdown 20230629/l/lcapy/1.9-1.9.1/diff.md --exclude *.pyd
+[2023-06-29 21:50:26] INFO root fetch - processPackages [lsst-efd-client]: executing diffoscope
+[2023-06-29 21:50:26] INFO root fetch - processPackages [lsst-efd-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-efd-client-0.9.0.tar.gz tmp/lsst-efd-client-0.9.1.tar.gz --markdown 20230629/l/lsst-efd-client/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-29 21:50:26] INFO root fetch - processPackages [dauth]: Remove: archive file [/home/abi/fetcher/tmp/dauth-0.4.tar.gz]
+[2023-06-29 21:50:26] INFO root fetch - processPackages [dauth]: Remove: archive file [/home/abi/fetcher/tmp/dauth-0.5.tar.gz]
+[2023-06-29 21:50:26] INFO root fetch - processPackages [dauth]: Start processing: envoxyd
+[2023-06-29 21:50:26] INFO root fetch - main [MainThread]: End processing [dauth]: success
+[2023-06-29 21:50:27] INFO root fetch - processPackages [envoxyd]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-29 21:50:27] INFO root fetch - processPackages [bipl]: Remove: archive file [/home/abi/fetcher/tmp/bipl-0.3.0.tar.gz]
+[2023-06-29 21:50:27] INFO root fetch - processPackages [bipl]: Remove: archive file [/home/abi/fetcher/tmp/bipl-0.3.1.tar.gz]
+[2023-06-29 21:50:27] INFO root fetch - processPackages [bipl]: Start processing: dragonfly-uwg
+[2023-06-29 21:50:27] INFO root fetch - main [MainThread]: End processing [bipl]: success
+[2023-06-29 21:50:27] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-06-29 21:50:27] INFO root fetch - processPackages [envoxy]: Remove: archive file [/home/abi/fetcher/tmp/envoxy-0.2.5.tar.gz]
+[2023-06-29 21:50:27] INFO root fetch - processPackages [envoxy]: Remove: archive file [/home/abi/fetcher/tmp/envoxy-0.2.6.tar.gz]
+[2023-06-29 21:50:27] INFO root fetch - main [MainThread]: End processing [envoxy]: success
+[2023-06-29 21:50:27] INFO root fetch - processPackages [squarelet-auth]: Remove: archive file [/home/abi/fetcher/tmp/squarelet_auth-0.1.0.tar.gz]
+[2023-06-29 21:50:27] INFO root fetch - processPackages [squarelet-auth]: Remove: archive file [/home/abi/fetcher/tmp/squarelet_auth-0.1.1.tar.gz]
+[2023-06-29 21:50:27] INFO root fetch - main [MainThread]: End processing [squarelet-auth]: success
+[2023-06-29 21:50:27] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-image]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_equipment_image-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-29 21:50:27] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-image]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_equipment_image-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-29 21:50:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-equipment-image]: success
+[2023-06-29 21:50:27] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2023-06-29 21:50:27] INFO root fetch - processPackages [envoxyd]: Downloading https://files.pythonhosted.org/packages/fe/86/6f1666030025875ae51820454803ec4803d7e1a590161d15422dd59d543a/envoxyd-0.1.6.tar.gz
+[2023-06-29 21:50:27] INFO root fetch - processPackages [diagonal-b6]: Remove: archive file [/home/abi/fetcher/tmp/diagonal_b6-0.0.2.tar.gz]
+[2023-06-29 21:50:27] INFO root fetch - processPackages [diagonal-b6]: Remove: archive file [/home/abi/fetcher/tmp/diagonal_b6-0.0.3.tar.gz]
+[2023-06-29 21:50:27] INFO root fetch - main [MainThread]: End processing [diagonal-b6]: success
+[2023-06-29 21:50:27] INFO root fetch - processPackages [envoxyd]: executing diffoscope
+[2023-06-29 21:50:27] INFO root fetch - processPackages [envoxyd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envoxyd-0.1.5.tar.gz tmp/envoxyd-0.1.6.tar.gz --markdown 20230629/e/envoxyd/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-29 21:50:27] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2023-06-29 21:50:27] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2023-06-29 21:50:27] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20230629/d/dragonfly-uwg/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-06-29 21:50:28] INFO root fetch - processPackages [envoxyd]: Remove: archive file [/home/abi/fetcher/tmp/envoxyd-0.1.5.tar.gz]
+[2023-06-29 21:50:28] INFO root fetch - processPackages [envoxyd]: Remove: archive file [/home/abi/fetcher/tmp/envoxyd-0.1.6.tar.gz]
+[2023-06-29 21:50:28] INFO root fetch - main [MainThread]: End processing [envoxyd]: success
+[2023-06-29 21:50:29] INFO root fetch - processPackages [lsst-efd-client]: Remove: archive file [/home/abi/fetcher/tmp/lsst-efd-client-0.9.0.tar.gz]
+[2023-06-29 21:50:29] INFO root fetch - processPackages [lsst-efd-client]: Remove: archive file [/home/abi/fetcher/tmp/lsst-efd-client-0.9.1.tar.gz]
+[2023-06-29 21:50:29] INFO root fetch - main [MainThread]: End processing [lsst-efd-client]: success
+[2023-06-29 21:50:29] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2023-06-29 21:50:29] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2023-06-29 21:50:29] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2023-06-29 21:50:29] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.98.tar.gz]
+[2023-06-29 21:50:29] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
+[2023-06-29 21:50:29] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2023-06-29 21:50:30] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.4.9rc5.tar.gz]
+[2023-06-29 21:50:30] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.4.9rc9.tar.gz]
+[2023-06-29 21:50:30] INFO root fetch - main [MainThread]: End processing [truss]: success
+[2023-06-29 21:50:32] INFO root fetch - processPackages [lcapy]: Remove: archive file [/home/abi/fetcher/tmp/lcapy-1.9.tar.gz]
+[2023-06-29 21:50:32] INFO root fetch - processPackages [lcapy]: Remove: archive file [/home/abi/fetcher/tmp/lcapy-1.9.1.tar.gz]
+[2023-06-29 21:50:32] INFO root fetch - main [MainThread]: End processing [lcapy]: success
+[2023-06-29 21:50:32] INFO root fetch - main [MainThread]: Store serial: [18699722]
