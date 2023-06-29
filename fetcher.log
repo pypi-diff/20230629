@@ -1411,3 +1411,119 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 09:23:38] INFO root fetch - processPackages [jupyterlab-h5web]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_h5web-8.0.0.tar.gz]
 [2023-06-29 09:23:38] INFO root fetch - main [MainThread]: End processing [jupyterlab-h5web]: success
 [2023-06-29 09:23:38] INFO root fetch - main [MainThread]: Store serial: [18691374]
+[2023-06-29 09:28:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18691374]
+[2023-06-29 09:28:47] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-29 09:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-website
+[2023-06-29 09:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo13-addon-photovoltaic-api
+[2023-06-29 09:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-website
+[2023-06-29 09:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: frinx-conductor-workers
+[2023-06-29 09:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dexcolor
+[2023-06-29 09:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: talk-codebase
+[2023-06-29 09:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FlightRadarAPI
+[2023-06-29 09:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dm-meltingpot
+[2023-06-29 09:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: decentriq-platform
+[2023-06-29 09:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fiddler-client
+[2023-06-29 09:28:47] INFO root fetch - processPackages [odoo-addons-oca-website]: New version: [16.0.20230628.0] Old Version: [16.0.20230614.0]
+[2023-06-29 09:28:47] INFO root fetch - processPackages [FlightRadarAPI]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-29 09:28:47] INFO root fetch - processPackages [odoo-addons-oca-website]: New version: [16.0.20230628.0] Old Version: [16.0.20230614.0]
+[2023-06-29 09:28:47] INFO root fetch - processPackages [dexcolor]: New version: [1.0] Old Version: [0.1]
+[2023-06-29 09:28:47] INFO root fetch - processPackages [frinx-conductor-workers]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-29 09:28:47] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: New version: [13.0.1.1.4] Old Version: [13.0.1.1.3]
+[2023-06-29 09:28:47] INFO root fetch - processPackages [talk-codebase]: New version: [0.1.34] Old Version: [0.1.33]
+[2023-06-29 09:28:47] INFO root fetch - processPackages [fiddler-client]: New version: [2.0.0.dev6] Old Version: [2.0.0.dev5]
+[2023-06-29 09:28:47] INFO root fetch - processPackages [dm-meltingpot]: New version: [2.1.1.dev5] Old Version: [2.1.1.dev4]
+[2023-06-29 09:28:47] INFO root fetch - processPackages [decentriq-platform]: New version: [0.9.1] Old Version: [0.9.0rc2]
+[2023-06-29 09:28:47] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/8b/c1/695a0f73f216e20fbf9a98a63235989a07b60ced292eb67c210593fda34a/decentriq-platform-0.9.0rc2.tar.gz
+[2023-06-29 09:28:47] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/a6/89/a05235ced8375ca35530ed2660fe44e6699c6d36879bc64f39eb9c4e9a1a/fiddler-client-2.0.0.dev5.tar.gz
+[2023-06-29 09:28:48] INFO root fetch - processPackages [dexcolor]: Downloading https://files.pythonhosted.org/packages/00/21/17cf9ac13d4b9459bf13d6a17dd2cfdeadb6752366e33d674c30e233fcc4/dexcolor-0.1.tar.gz
+[2023-06-29 09:28:48] INFO root fetch - processPackages [FlightRadarAPI]: Downloading https://files.pythonhosted.org/packages/70/8d/a763de3a71c0d325f06146e2f509e4041feb67190357a89edbb80a6c62ae/flightradarapi-1.3.8.tar.gz
+[2023-06-29 09:28:48] INFO root fetch - processPackages [frinx-conductor-workers]: Downloading https://files.pythonhosted.org/packages/f6/23/961ed269aec9d7f55aa26aeb36be9b34127b0f27cf0222b02821f778b925/frinx_conductor_workers-1.1.8.tar.gz
+[2023-06-29 09:28:48] INFO root fetch - processPackages [talk-codebase]: Downloading https://files.pythonhosted.org/packages/45/f8/04a985fe877086cd7d20343145ddc28597f72b0d27b8a1703c0ce7a8512a/talk_codebase-0.1.33.tar.gz
+[2023-06-29 09:28:48] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: Downloading https://files.pythonhosted.org/packages/c7/6f/aab7df0c0515c90b1ac48e732fb3b4262b93d473d7f0b84bd696e3537783/odoo13-addon-photovoltaic_api-13.0.1.1.3.tar.gz
+[2023-06-29 09:28:48] INFO root fetch - processPackages [odoo-addons-oca-website]: Downloading https://files.pythonhosted.org/packages/95/dd/c59f64378d042805fcfea584a9d4c20c0114e31d409f127b75a4c20836ba/odoo_addons_oca_website-16.0.20230614.0-py3-none-any.whl
+[2023-06-29 09:28:48] INFO root fetch - processPackages [odoo-addons-oca-website]: Downloading https://files.pythonhosted.org/packages/95/dd/c59f64378d042805fcfea584a9d4c20c0114e31d409f127b75a4c20836ba/odoo_addons_oca_website-16.0.20230614.0-py3-none-any.whl
+[2023-06-29 09:28:48] INFO root fetch - processPackages [dm-meltingpot]: Downloading https://files.pythonhosted.org/packages/0b/4d/1f3a0f3d7362625423938eae6c9c2703d2a2d006a28032548a5e10b57193/dm-meltingpot-2.1.1.dev4.tar.gz
+[2023-06-29 09:28:48] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/69/7c/b6c9a006e306cc15917be3102e43763687fbce0bf34b98d63390c4fadf94/decentriq-platform-0.9.1.tar.gz
+[2023-06-29 09:28:48] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/b0/e4/ecf99f1e991407e1a8eaaefe0ff7fb583e361bad1c0dbc070e4df60d3c0b/fiddler-client-2.0.0.dev6.tar.gz
+[2023-06-29 09:28:48] INFO root fetch - processPackages [dexcolor]: Downloading https://files.pythonhosted.org/packages/e5/f0/33872b7bd746cd0f9b7894e2a7fafe0b59070d7fffccee78724637212494/dexcolor-1.0.tar.gz
+[2023-06-29 09:28:48] INFO root fetch - processPackages [FlightRadarAPI]: Downloading https://files.pythonhosted.org/packages/36/1b/685fba470a0a794c817ba84aa6636ab8e1eca7f29526820057f6bda76d3a/flightradarapi-1.3.9.tar.gz
+[2023-06-29 09:28:48] INFO root fetch - processPackages [odoo-addons-oca-website]: Downloading https://files.pythonhosted.org/packages/03/d7/f1d47bbdc440a905525f5bc946e83568263bd9c15d01ed5c04eb5ec45d23/odoo_addons_oca_website-16.0.20230628.0-py3-none-any.whl
+[2023-06-29 09:28:48] INFO root fetch - processPackages [odoo-addons-oca-website]: Downloading https://files.pythonhosted.org/packages/03/d7/f1d47bbdc440a905525f5bc946e83568263bd9c15d01ed5c04eb5ec45d23/odoo_addons_oca_website-16.0.20230628.0-py3-none-any.whl
+[2023-06-29 09:28:48] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2023-06-29 09:28:48] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-2.0.0.dev5.tar.gz tmp/fiddler-client-2.0.0.dev6.tar.gz --markdown 20230629/f/fiddler-client/2.0.0.dev5-2.0.0.dev6/diff.md --exclude *.pyd
+[2023-06-29 09:28:48] INFO root fetch - processPackages [dexcolor]: executing diffoscope
+[2023-06-29 09:28:48] INFO root fetch - processPackages [dexcolor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexcolor-0.1.tar.gz tmp/dexcolor-1.0.tar.gz --markdown 20230629/d/dexcolor/0.1-1.0/diff.md --exclude *.pyd
+[2023-06-29 09:28:48] INFO root fetch - processPackages [talk-codebase]: Downloading https://files.pythonhosted.org/packages/37/32/d4765e9bcdbdae884627d87a48433bed16002beb38378e2a461b793224d0/talk_codebase-0.1.34.tar.gz
+[2023-06-29 09:28:48] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: Downloading https://files.pythonhosted.org/packages/68/34/509bbbd7b2ddaa19623bdee5fa552fd9baa84887c7459d5090308047adb6/odoo13-addon-photovoltaic_api-13.0.1.1.4.tar.gz
+[2023-06-29 09:28:48] INFO root fetch - processPackages [frinx-conductor-workers]: Downloading https://files.pythonhosted.org/packages/f5/0f/f4429e8ab1c0fd36ea1a54feef0bf2641cd68be9061a9893f3c72d4be432/frinx_conductor_workers-1.1.9.tar.gz
+[2023-06-29 09:28:48] INFO root fetch - processPackages [dm-meltingpot]: Downloading https://files.pythonhosted.org/packages/da/31/89502b6f8d59964ad0ca190f07a38b63306e68cfa388f54f1c2391b672c3/dm-meltingpot-2.1.1.dev5.tar.gz
+[2023-06-29 09:28:48] INFO root fetch - processPackages [decentriq-platform]: executing diffoscope
+[2023-06-29 09:28:48] INFO root fetch - processPackages [FlightRadarAPI]: executing diffoscope
+[2023-06-29 09:28:48] INFO root fetch - processPackages [decentriq-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentriq-platform-0.9.0rc2.tar.gz tmp/decentriq-platform-0.9.1.tar.gz --markdown 20230629/d/decentriq-platform/0.9.0rc2-0.9.1/diff.md --exclude *.pyd
+[2023-06-29 09:28:48] INFO root fetch - processPackages [FlightRadarAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flightradarapi-1.3.8.tar.gz tmp/flightradarapi-1.3.9.tar.gz --markdown 20230629/F/FlightRadarAPI/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-29 09:28:48] INFO root fetch - processPackages [odoo-addons-oca-website]: executing diffoscope
+[2023-06-29 09:28:48] INFO root fetch - processPackages [odoo-addons-oca-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_website-16.0.20230614.0-py3-none-any.whl.zip tmp/odoo_addons_oca_website-16.0.20230628.0-py3-none-any.whl.zip --markdown 20230629/o/odoo-addons-oca-website/16.0.20230614.0-16.0.20230628.0/diff.md --exclude *.pyd
+[2023-06-29 09:28:48] INFO root fetch - processPackages [odoo-addons-oca-website]: executing diffoscope
+[2023-06-29 09:28:48] INFO root fetch - processPackages [odoo-addons-oca-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_website-16.0.20230614.0-py3-none-any.whl.zip tmp/odoo_addons_oca_website-16.0.20230628.0-py3-none-any.whl.zip --markdown 20230629/o/odoo-addons-oca-website/16.0.20230614.0-16.0.20230628.0/diff.md --exclude *.pyd
+[2023-06-29 09:28:48] INFO root fetch - processPackages [talk-codebase]: executing diffoscope
+[2023-06-29 09:28:48] INFO root fetch - processPackages [talk-codebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talk_codebase-0.1.33.tar.gz tmp/talk_codebase-0.1.34.tar.gz --markdown 20230629/t/talk-codebase/0.1.33-0.1.34/diff.md --exclude *.pyd
+[2023-06-29 09:28:48] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: executing diffoscope
+[2023-06-29 09:28:48] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13-addon-photovoltaic_api-13.0.1.1.3.tar.gz tmp/odoo13-addon-photovoltaic_api-13.0.1.1.4.tar.gz --markdown 20230629/o/odoo13-addon-photovoltaic-api/13.0.1.1.3-13.0.1.1.4/diff.md --exclude *.pyd
+[2023-06-29 09:28:48] INFO root fetch - processPackages [frinx-conductor-workers]: executing diffoscope
+[2023-06-29 09:28:48] INFO root fetch - processPackages [frinx-conductor-workers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frinx_conductor_workers-1.1.8.tar.gz tmp/frinx_conductor_workers-1.1.9.tar.gz --markdown 20230629/f/frinx-conductor-workers/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-29 09:28:48] INFO root fetch - processPackages [dm-meltingpot]: executing diffoscope
+[2023-06-29 09:28:48] INFO root fetch - processPackages [dm-meltingpot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm-meltingpot-2.1.1.dev4.tar.gz tmp/dm-meltingpot-2.1.1.dev5.tar.gz --markdown 20230629/d/dm-meltingpot/2.1.1.dev4-2.1.1.dev5/diff.md --exclude *.pyd
+[2023-06-29 09:28:50] INFO root fetch - processPackages [dexcolor]: Remove: archive file [/home/abi/fetcher/tmp/dexcolor-0.1.tar.gz]
+[2023-06-29 09:28:50] INFO root fetch - processPackages [dexcolor]: Remove: archive file [/home/abi/fetcher/tmp/dexcolor-1.0.tar.gz]
+[2023-06-29 09:28:50] INFO root fetch - processPackages [dexcolor]: Start processing: oloren
+[2023-06-29 09:28:50] INFO root fetch - main [MainThread]: End processing [dexcolor]: success
+[2023-06-29 09:28:50] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 09:28:50] INFO root fetch - processPackages [odoo-addons-oca-website]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_website-16.0.20230614.0-py3-none-any.whl.zip]
+[2023-06-29 09:28:50] INFO root fetch - processPackages [odoo-addons-oca-website]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_website-16.0.20230628.0-py3-none-any.whl.zip]
+[2023-06-29 09:28:50] INFO root fetch - processPackages [odoo-addons-oca-website]: Start processing: torchmetrics
+[2023-06-29 09:28:50] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-website]: success
+[2023-06-29 09:28:50] INFO root fetch - processPackages [torchmetrics]: New version: [1.0.0rc1] Old Version: [1.0.0rc0]
+[2023-06-29 09:28:50] INFO root fetch - processPackages [odoo-addons-oca-website]: Start processing: sentry-ldap
+[2023-06-29 09:28:50] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-website]: success
+[2023-06-29 09:28:50] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-06-29 09:28:50] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230629/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 09:28:50] INFO root fetch - processPackages [sentry-ldap]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-06-29 09:28:50] INFO root fetch - processPackages [sentry-ldap]: Downloading https://files.pythonhosted.org/packages/e2/06/7ed9438f7a9b7c04f54451531461a75ec06d4a0574ae99093f062a05d5d7/sentry-ldap-1.2.7.tar.gz
+[2023-06-29 09:28:50] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo13-addon-photovoltaic_api-13.0.1.1.3.tar.gz]
+[2023-06-29 09:28:50] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo13-addon-photovoltaic_api-13.0.1.1.4.tar.gz]
+[2023-06-29 09:28:50] INFO root fetch - main [MainThread]: End processing [odoo13-addon-photovoltaic-api]: success
+[2023-06-29 09:28:50] INFO root fetch - processPackages [talk-codebase]: Remove: archive file [/home/abi/fetcher/tmp/talk_codebase-0.1.33.tar.gz]
+[2023-06-29 09:28:50] INFO root fetch - processPackages [talk-codebase]: Remove: archive file [/home/abi/fetcher/tmp/talk_codebase-0.1.34.tar.gz]
+[2023-06-29 09:28:50] INFO root fetch - main [MainThread]: End processing [talk-codebase]: success
+[2023-06-29 09:28:50] INFO root fetch - processPackages [FlightRadarAPI]: Remove: archive file [/home/abi/fetcher/tmp/flightradarapi-1.3.8.tar.gz]
+[2023-06-29 09:28:50] INFO root fetch - processPackages [FlightRadarAPI]: Remove: archive file [/home/abi/fetcher/tmp/flightradarapi-1.3.9.tar.gz]
+[2023-06-29 09:28:50] INFO root fetch - main [MainThread]: End processing [FlightRadarAPI]: success
+[2023-06-29 09:28:50] INFO root fetch - processPackages [torchmetrics]: Downloading https://files.pythonhosted.org/packages/11/47/cb7392fdf5112ead1b4f923143d0939c49dd55b0dc6c6f0718e35ba0d94f/torchmetrics-1.0.0rc0.tar.gz
+[2023-06-29 09:28:50] INFO root fetch - processPackages [sentry-ldap]: Downloading https://files.pythonhosted.org/packages/cb/1e/83cabdfdabeba1802261f3a524815733cc480cb976268328ebff97072c34/sentry-ldap-1.2.8.tar.gz
+[2023-06-29 09:28:50] INFO root fetch - processPackages [frinx-conductor-workers]: Remove: archive file [/home/abi/fetcher/tmp/frinx_conductor_workers-1.1.8.tar.gz]
+[2023-06-29 09:28:50] INFO root fetch - processPackages [frinx-conductor-workers]: Remove: archive file [/home/abi/fetcher/tmp/frinx_conductor_workers-1.1.9.tar.gz]
+[2023-06-29 09:28:50] INFO root fetch - main [MainThread]: End processing [frinx-conductor-workers]: success
+[2023-06-29 09:28:50] INFO root fetch - processPackages [sentry-ldap]: executing diffoscope
+[2023-06-29 09:28:50] INFO root fetch - processPackages [sentry-ldap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-ldap-1.2.7.tar.gz tmp/sentry-ldap-1.2.8.tar.gz --markdown 20230629/s/sentry-ldap/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-06-29 09:28:50] INFO root fetch - processPackages [torchmetrics]: Downloading https://files.pythonhosted.org/packages/29/64/8507eb5eaee27b281ad71b4f4e90b2db50a5088d01f04eae77739a06976d/torchmetrics-1.0.0rc1.tar.gz
+[2023-06-29 09:28:51] INFO root fetch - processPackages [torchmetrics]: executing diffoscope
+[2023-06-29 09:28:51] INFO root fetch - processPackages [torchmetrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchmetrics-1.0.0rc0.tar.gz tmp/torchmetrics-1.0.0rc1.tar.gz --markdown 20230629/t/torchmetrics/1.0.0rc0-1.0.0rc1/diff.md --exclude *.pyd
+[2023-06-29 09:28:51] INFO root fetch - processPackages [dm-meltingpot]: Remove: archive file [/home/abi/fetcher/tmp/dm-meltingpot-2.1.1.dev4.tar.gz]
+[2023-06-29 09:28:51] INFO root fetch - processPackages [dm-meltingpot]: Remove: archive file [/home/abi/fetcher/tmp/dm-meltingpot-2.1.1.dev5.tar.gz]
+[2023-06-29 09:28:51] INFO root fetch - main [MainThread]: End processing [dm-meltingpot]: success
+[2023-06-29 09:28:51] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.0rc2.tar.gz]
+[2023-06-29 09:28:51] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.1.tar.gz]
+[2023-06-29 09:28:51] INFO root fetch - main [MainThread]: End processing [decentriq-platform]: success
+[2023-06-29 09:28:51] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-2.0.0.dev5.tar.gz]
+[2023-06-29 09:28:51] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-2.0.0.dev6.tar.gz]
+[2023-06-29 09:28:51] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2023-06-29 09:28:51] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-06-29 09:28:51] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-06-29 09:28:51] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-06-29 09:28:52] INFO root fetch - processPackages [sentry-ldap]: Remove: archive file [/home/abi/fetcher/tmp/sentry-ldap-1.2.7.tar.gz]
+[2023-06-29 09:28:52] INFO root fetch - processPackages [sentry-ldap]: Remove: archive file [/home/abi/fetcher/tmp/sentry-ldap-1.2.8.tar.gz]
+[2023-06-29 09:28:52] INFO root fetch - main [MainThread]: End processing [sentry-ldap]: success
+[2023-06-29 09:28:55] INFO root fetch - processPackages [torchmetrics]: Remove: archive file [/home/abi/fetcher/tmp/torchmetrics-1.0.0rc0.tar.gz]
+[2023-06-29 09:28:55] INFO root fetch - processPackages [torchmetrics]: Remove: archive file [/home/abi/fetcher/tmp/torchmetrics-1.0.0rc1.tar.gz]
+[2023-06-29 09:28:55] INFO root fetch - main [MainThread]: End processing [torchmetrics]: success
+[2023-06-29 09:28:55] INFO root fetch - main [MainThread]: Store serial: [18691443]
