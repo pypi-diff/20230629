@@ -8296,3 +8296,150 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 13:25:55] INFO root fetch - processPackages [asposepdfcloud]: Remove: archive file [/home/abi/fetcher/tmp/asposepdfcloud-23.6.0.tar.gz]
 [2023-06-29 13:25:55] INFO root fetch - main [MainThread]: End processing [asposepdfcloud]: success
 [2023-06-29 13:25:55] INFO root fetch - main [MainThread]: Store serial: [18694194]
+[2023-06-29 13:30:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18694194]
+[2023-06-29 13:31:04] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-29 13:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zenroom
+[2023-06-29 13:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-genshin-cos
+[2023-06-29 13:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wormneuroatlas
+[2023-06-29 13:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycareer
+[2023-06-29 13:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlalchemy-model-builder
+[2023-06-29 13:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: anesthetic
+[2023-06-29 13:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autodistill
+[2023-06-29 13:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ComplexSystemSimulation
+[2023-06-29 13:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: microsoft-kiota-abstractions
+[2023-06-29 13:31:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ml-management
+[2023-06-29 13:31:04] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-29 13:31:04] INFO root fetch - processPackages [ml-management]: New version: [0.0.40] Old Version: [0.0.39]
+[2023-06-29 13:31:04] INFO root fetch - processPackages [pycareer]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-29 13:31:04] WARNING root fetch - processPackages [ComplexSystemSimulation]: Skipping, unable to determine old version
+[2023-06-29 13:31:04] INFO root fetch - processPackages [ComplexSystemSimulation]: Start processing: torchserve-nightly
+[2023-06-29 13:31:04] INFO root fetch - main [MainThread]: End processing [ComplexSystemSimulation] error
+[2023-06-29 13:31:04] INFO root fetch - processPackages [anesthetic]: New version: [2.0.0b9] Old Version: [2.0.0b7]
+[2023-06-29 13:31:04] INFO root fetch - processPackages [sqlalchemy-model-builder]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-29 13:31:04] INFO root fetch - processPackages [wormneuroatlas]: New version: [0.0.7.3] Old Version: [0.0.7.2]
+[2023-06-29 13:31:04] INFO root fetch - processPackages [microsoft-kiota-abstractions]: New version: [0.6.0] Old Version: [0.5.5]
+[2023-06-29 13:31:04] INFO root fetch - processPackages [autodistill]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-29 13:31:04] INFO root fetch - processPackages [zenroom]: New version: [3.7.2] Old Version: [3.7.1]
+[2023-06-29 13:31:04] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: Downloading https://files.pythonhosted.org/packages/b8/03/71cc3c53e2004992e626d2f6a04ebb9f35277fb629aca9ca2f9d2fb0cc80/nonebot_plugin_genshin_cos-0.2.1.tar.gz
+[2023-06-29 13:31:04] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-29 13:31:04] INFO root fetch - processPackages [pycareer]: Downloading https://files.pythonhosted.org/packages/d0/05/14a01c37c20886741f28abe1604b0fea67a04d6c4ec2122e7f99c3288291/pycareer-0.1.1.tar.gz
+[2023-06-29 13:31:04] INFO root fetch - processPackages [anesthetic]: Downloading https://files.pythonhosted.org/packages/bb/ee/510009a21351f1f3cc40d53f647047eef65a83196f66a74bdcab71213051/anesthetic-2.0.0b7.tar.gz
+[2023-06-29 13:31:04] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/56/b6/048d65207c6147185cedfdfe7821bba7a9b4dcbe0872a2ea7bf026469542/torchserve_nightly-2023.6.8-py3-none-any.whl
+[2023-06-29 13:31:04] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23719695>=10485760
+[2023-06-29 13:31:04] INFO root fetch - processPackages [torchserve-nightly]: Start processing: torch-model-archiver-nightly
+[2023-06-29 13:31:04] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-06-29 13:31:04] INFO root fetch - processPackages [wormneuroatlas]: Downloading https://files.pythonhosted.org/packages/a7/0c/4229af142509ff6e562ac47357fe992c348566ddd90eb85c835d122ca5e2/wormneuroatlas-0.0.7.2.tar.gz
+[2023-06-29 13:31:04] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-29 13:31:04] INFO root fetch - processPackages [ml-management]: Downloading https://files.pythonhosted.org/packages/94/ca/38202e4a07f75a92f13fa06f76514b26d1aa1204932b3064fb4c7c703bd3/ml-management-0.0.39.tar.gz
+[2023-06-29 13:31:04] INFO root fetch - processPackages [sqlalchemy-model-builder]: Downloading https://files.pythonhosted.org/packages/86/68/002abb41fae7ecf0ca3843721bd9e3af6f3bfab508af2eda3b25a3585485/sqlalchemy_model_builder-0.2.0.tar.gz
+[2023-06-29 13:31:04] INFO root fetch - processPackages [autodistill]: Downloading https://files.pythonhosted.org/packages/73/bf/099d33944655cba285341d431e5ab86d2bdd4df42aa423e875870c18223f/autodistill-0.1.3.tar.gz
+[2023-06-29 13:31:04] WARNING root fetch - processPackages [wormneuroatlas]: Skipping package: exceeds size limit 37446854>=10485760
+[2023-06-29 13:31:04] INFO root fetch - processPackages [wormneuroatlas]: Start processing: waivek
+[2023-06-29 13:31:04] INFO root fetch - main [MainThread]: End processing [wormneuroatlas] error
+[2023-06-29 13:31:04] INFO root fetch - processPackages [zenroom]: Downloading https://files.pythonhosted.org/packages/79/4e/14b9e99fd2e1cf6e0836c9058eba86b4cf88793456045b9206678ba8deaa/zenroom-3.7.1.tar.gz
+[2023-06-29 13:31:04] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/2d/32/4e894d3be8e8e9434a6a981f3753ef5962d2361cf8b1882e7b00802b9794/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl
+[2023-06-29 13:31:04] INFO root fetch - processPackages [waivek]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 13:31:04] INFO root fetch - processPackages [microsoft-kiota-abstractions]: Downloading https://files.pythonhosted.org/packages/a5/d5/69874cdbe5e175e8eb2b3ed3d965d58c73fdfeeb823a2f5c1fbc29d8ae41/microsoft_kiota_abstractions-0.5.5.tar.gz
+[2023-06-29 13:31:04] WARNING root fetch - processPackages [zenroom]: Skipping package: exceeds size limit 25653652>=10485760
+[2023-06-29 13:31:04] INFO root fetch - processPackages [zenroom]: Start processing: torch-workflow-archiver-nightly
+[2023-06-29 13:31:04] INFO root fetch - main [MainThread]: End processing [zenroom] error
+[2023-06-29 13:31:04] INFO root fetch - processPackages [pycareer]: Downloading https://files.pythonhosted.org/packages/cf/ed/2d554b860eb62777d8df49ca42179fdfee1e9a249bc0e451e3ecd56b9ce2/pycareer-0.1.2.tar.gz
+[2023-06-29 13:31:04] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: Downloading https://files.pythonhosted.org/packages/bb/a8/9df3e98119fc5cd895e6c8257ea76c417af0e89186bcc5329c5b7e168f5c/nonebot_plugin_genshin_cos-0.2.2.tar.gz
+[2023-06-29 13:31:04] INFO root fetch - processPackages [anesthetic]: Downloading https://files.pythonhosted.org/packages/69/67/acd5153fe2efa969ee04ccb4079ccc1c108090ffab6b45ac362cbe2bf3b2/anesthetic-2.0.0b9.tar.gz
+[2023-06-29 13:31:05] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-29 13:31:05] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/f1/30/b2bda61c7beb66124a778454c53b13e6e3368a1964be094e7a260aafb8a7/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl
+[2023-06-29 13:31:05] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: executing diffoscope
+[2023-06-29 13:31:05] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_genshin_cos-0.2.1.tar.gz tmp/nonebot_plugin_genshin_cos-0.2.2.tar.gz --markdown 20230629/n/nonebot-plugin-genshin-cos/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-29 13:31:05] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/f5/2a/88193e82d25d79119cc3ada46f444a1b21b3f7e2c788642590d33eac95e9/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl
+[2023-06-29 13:31:05] INFO root fetch - processPackages [ml-management]: Downloading https://files.pythonhosted.org/packages/c9/de/7ff8a80ba60f711d8fef607d6e5276236d4c2b7ae534b18668d04901ed27/ml-management-0.0.40.tar.gz
+[2023-06-29 13:31:05] INFO root fetch - processPackages [waivek]: Downloading https://files.pythonhosted.org/packages/8c/d1/949e523dd2d5b53ef756c740c7633425f3adeb94ad2c376cf81a62587e2e/waivek-0.1.8.tar.gz
+[2023-06-29 13:31:05] INFO root fetch - processPackages [anesthetic]: executing diffoscope
+[2023-06-29 13:31:05] INFO root fetch - processPackages [anesthetic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anesthetic-2.0.0b7.tar.gz tmp/anesthetic-2.0.0b9.tar.gz --markdown 20230629/a/anesthetic/2.0.0b7-2.0.0b9/diff.md --exclude *.pyd
+[2023-06-29 13:31:05] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-06-29 13:31:05] INFO root fetch - processPackages [pycareer]: executing diffoscope
+[2023-06-29 13:31:05] INFO root fetch - processPackages [sqlalchemy-model-builder]: Downloading https://files.pythonhosted.org/packages/31/34/cbd275403ce60394e835eac0490b252f6c0e8b33bd35480c78e19c3a9815/sqlalchemy_model_builder-0.3.0.tar.gz
+[2023-06-29 13:31:05] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl.zip --markdown 20230629/t/torch-model-archiver-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-29 13:31:05] INFO root fetch - processPackages [pycareer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycareer-0.1.1.tar.gz tmp/pycareer-0.1.2.tar.gz --markdown 20230629/p/pycareer/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-29 13:31:05] INFO root fetch - processPackages [autodistill]: Downloading https://files.pythonhosted.org/packages/a9/35/58f35a305741ea690789147a129d4d7add24f86c44ca58ec037ea43ac493/autodistill-0.1.4.tar.gz
+[2023-06-29 13:31:05] INFO root fetch - processPackages [microsoft-kiota-abstractions]: Downloading https://files.pythonhosted.org/packages/02/82/e7a0d60c3bd0ca015caa4d8142febf57b1d3f5a2d984b1907a556a6c0b0a/microsoft_kiota_abstractions-0.6.0.tar.gz
+[2023-06-29 13:31:05] INFO root fetch - processPackages [ml-management]: executing diffoscope
+[2023-06-29 13:31:05] INFO root fetch - processPackages [ml-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-management-0.0.39.tar.gz tmp/ml-management-0.0.40.tar.gz --markdown 20230629/m/ml-management/0.0.39-0.0.40/diff.md --exclude *.pyd
+[2023-06-29 13:31:05] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/5f/39/ae38721c2532ed03ae71497a6d5158695daf882cb31dff90ce342e46ef32/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl
+[2023-06-29 13:31:05] INFO root fetch - processPackages [sqlalchemy-model-builder]: executing diffoscope
+[2023-06-29 13:31:05] INFO root fetch - processPackages [sqlalchemy-model-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_model_builder-0.2.0.tar.gz tmp/sqlalchemy_model_builder-0.3.0.tar.gz --markdown 20230629/s/sqlalchemy-model-builder/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-29 13:31:05] INFO root fetch - processPackages [autodistill]: executing diffoscope
+[2023-06-29 13:31:05] INFO root fetch - processPackages [autodistill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodistill-0.1.3.tar.gz tmp/autodistill-0.1.4.tar.gz --markdown 20230629/a/autodistill/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-29 13:31:05] INFO root fetch - processPackages [microsoft-kiota-abstractions]: executing diffoscope
+[2023-06-29 13:31:05] INFO root fetch - processPackages [microsoft-kiota-abstractions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microsoft_kiota_abstractions-0.5.5.tar.gz tmp/microsoft_kiota_abstractions-0.6.0.tar.gz --markdown 20230629/m/microsoft-kiota-abstractions/0.5.5-0.6.0/diff.md --exclude *.pyd
+[2023-06-29 13:31:05] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-06-29 13:31:05] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl.zip --markdown 20230629/t/torch-workflow-archiver-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-29 13:31:05] INFO root fetch - processPackages [waivek]: Downloading https://files.pythonhosted.org/packages/a4/ea/4c15b5c565a13175de2213d36052b88233e76e92301d40a51c483f4f346c/waivek-0.1.9.tar.gz
+[2023-06-29 13:31:05] INFO root fetch - processPackages [waivek]: executing diffoscope
+[2023-06-29 13:31:05] INFO root fetch - processPackages [waivek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waivek-0.1.8.tar.gz tmp/waivek-0.1.9.tar.gz --markdown 20230629/w/waivek/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 13:31:06] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl.zip]
+[2023-06-29 13:31:06] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl.zip]
+[2023-06-29 13:31:06] INFO root fetch - processPackages [torch-model-archiver-nightly]: Start processing: MultiEL
+[2023-06-29 13:31:06] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-06-29 13:31:06] INFO root fetch - processPackages [MultiEL]: New version: [0.4] Old Version: [0.3]
+[2023-06-29 13:31:07] INFO root fetch - processPackages [MultiEL]: Downloading https://files.pythonhosted.org/packages/b5/e0/b14c53b36c3d4042b71c2a79faaa68b6e1609ce3c5d1594c75116a6d8986/MultiEL-0.3.tar.gz
+[2023-06-29 13:31:07] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl.zip]
+[2023-06-29 13:31:07] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl.zip]
+[2023-06-29 13:31:07] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Start processing: gitlabx
+[2023-06-29 13:31:07] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-06-29 13:31:07] INFO root fetch - processPackages [gitlabx]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-29 13:31:07] INFO root fetch - processPackages [ml-management]: Remove: archive file [/home/abi/fetcher/tmp/ml-management-0.0.39.tar.gz]
+[2023-06-29 13:31:07] INFO root fetch - processPackages [ml-management]: Remove: archive file [/home/abi/fetcher/tmp/ml-management-0.0.40.tar.gz]
+[2023-06-29 13:31:07] INFO root fetch - processPackages [ml-management]: Start processing: ost-photometry
+[2023-06-29 13:31:07] INFO root fetch - main [MainThread]: End processing [ml-management]: success
+[2023-06-29 13:31:07] INFO root fetch - processPackages [ost-photometry]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-29 13:31:07] INFO root fetch - processPackages [gitlabx]: Downloading https://files.pythonhosted.org/packages/fc/55/e42e60be8f886af007926ed563b574ef0af8f96625e5c59afeaaf7b45eed/gitlabx-0.1.3-py3-none-any.whl
+[2023-06-29 13:31:07] INFO root fetch - processPackages [sqlalchemy-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_model_builder-0.2.0.tar.gz]
+[2023-06-29 13:31:07] INFO root fetch - processPackages [sqlalchemy-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_model_builder-0.3.0.tar.gz]
+[2023-06-29 13:31:07] INFO root fetch - processPackages [sqlalchemy-model-builder]: Start processing: notebook-prototyping
+[2023-06-29 13:31:07] INFO root fetch - main [MainThread]: End processing [sqlalchemy-model-builder]: success
+[2023-06-29 13:31:07] INFO root fetch - processPackages [notebook-prototyping]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-06-29 13:31:07] INFO root fetch - processPackages [autodistill]: Remove: archive file [/home/abi/fetcher/tmp/autodistill-0.1.3.tar.gz]
+[2023-06-29 13:31:07] INFO root fetch - processPackages [autodistill]: Remove: archive file [/home/abi/fetcher/tmp/autodistill-0.1.4.tar.gz]
+[2023-06-29 13:31:07] INFO root fetch - main [MainThread]: End processing [autodistill]: success
+[2023-06-29 13:31:07] INFO root fetch - processPackages [notebook-prototyping]: Downloading https://files.pythonhosted.org/packages/45/79/0f0f64cf819cbc94fac6e9c120c946d2caf80f11fc72f69a231f15e1e4c4/notebook_prototyping-0.1.0.tar.gz
+[2023-06-29 13:31:07] INFO root fetch - processPackages [pycareer]: Remove: archive file [/home/abi/fetcher/tmp/pycareer-0.1.1.tar.gz]
+[2023-06-29 13:31:07] INFO root fetch - processPackages [pycareer]: Remove: archive file [/home/abi/fetcher/tmp/pycareer-0.1.2.tar.gz]
+[2023-06-29 13:31:07] INFO root fetch - main [MainThread]: End processing [pycareer]: success
+[2023-06-29 13:31:07] INFO root fetch - processPackages [MultiEL]: Downloading https://files.pythonhosted.org/packages/3e/e3/cc26f1f77b17c2c533991f877390e08fcaf9c6242ecf8335c9e508873bce/MultiEL-0.4.tar.gz
+[2023-06-29 13:31:07] INFO root fetch - processPackages [ost-photometry]: Downloading https://files.pythonhosted.org/packages/82/d6/04540572dafda74f701ab798903c5a13260f9754d8515f65eb9e120331f2/ost_photometry-0.0.6.tar.gz
+[2023-06-29 13:31:07] INFO root fetch - processPackages [gitlabx]: Downloading https://files.pythonhosted.org/packages/ef/b1/a8129b8e87579f72f9a1b3c5458a204cc56657fed071c4b675a47a139baf/gitlabx-0.1.4-py3-none-any.whl
+[2023-06-29 13:31:07] INFO root fetch - processPackages [MultiEL]: executing diffoscope
+[2023-06-29 13:31:07] INFO root fetch - processPackages [MultiEL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MultiEL-0.3.tar.gz tmp/MultiEL-0.4.tar.gz --markdown 20230629/M/MultiEL/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-29 13:31:07] INFO root fetch - processPackages [gitlabx]: executing diffoscope
+[2023-06-29 13:31:07] INFO root fetch - processPackages [gitlabx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlabx-0.1.3-py3-none-any.whl.zip tmp/gitlabx-0.1.4-py3-none-any.whl.zip --markdown 20230629/g/gitlabx/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-29 13:31:07] INFO root fetch - processPackages [notebook-prototyping]: Downloading https://files.pythonhosted.org/packages/1e/95/b4dec4531b32d09e174650236173b55e36d3346fc7b80d889b44385c043a/notebook_prototyping-0.1.2.tar.gz
+[2023-06-29 13:31:07] INFO root fetch - processPackages [ost-photometry]: Downloading https://files.pythonhosted.org/packages/38/0a/74711d9b76b6cdf3a462c8d22109002b4771f93ef71ca59154d0eaee79b2/ost_photometry-0.0.7.tar.gz
+[2023-06-29 13:31:07] INFO root fetch - processPackages [notebook-prototyping]: executing diffoscope
+[2023-06-29 13:31:07] INFO root fetch - processPackages [notebook-prototyping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebook_prototyping-0.1.0.tar.gz tmp/notebook_prototyping-0.1.2.tar.gz --markdown 20230629/n/notebook-prototyping/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-06-29 13:31:07] INFO root fetch - processPackages [microsoft-kiota-abstractions]: Remove: archive file [/home/abi/fetcher/tmp/microsoft_kiota_abstractions-0.5.5.tar.gz]
+[2023-06-29 13:31:07] INFO root fetch - processPackages [microsoft-kiota-abstractions]: Remove: archive file [/home/abi/fetcher/tmp/microsoft_kiota_abstractions-0.6.0.tar.gz]
+[2023-06-29 13:31:07] INFO root fetch - main [MainThread]: End processing [microsoft-kiota-abstractions]: success
+[2023-06-29 13:31:07] INFO root fetch - processPackages [ost-photometry]: executing diffoscope
+[2023-06-29 13:31:07] INFO root fetch - processPackages [ost-photometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ost_photometry-0.0.6.tar.gz tmp/ost_photometry-0.0.7.tar.gz --markdown 20230629/o/ost-photometry/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-29 13:31:07] INFO root fetch - processPackages [waivek]: Remove: archive file [/home/abi/fetcher/tmp/waivek-0.1.8.tar.gz]
+[2023-06-29 13:31:07] INFO root fetch - processPackages [waivek]: Remove: archive file [/home/abi/fetcher/tmp/waivek-0.1.9.tar.gz]
+[2023-06-29 13:31:07] INFO root fetch - main [MainThread]: End processing [waivek]: success
+[2023-06-29 13:31:08] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_genshin_cos-0.2.1.tar.gz]
+[2023-06-29 13:31:08] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_genshin_cos-0.2.2.tar.gz]
+[2023-06-29 13:31:08] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-genshin-cos]: success
+[2023-06-29 13:31:08] INFO root fetch - processPackages [gitlabx]: Remove: archive file [/home/abi/fetcher/tmp/gitlabx-0.1.3-py3-none-any.whl.zip]
+[2023-06-29 13:31:08] INFO root fetch - processPackages [gitlabx]: Remove: archive file [/home/abi/fetcher/tmp/gitlabx-0.1.4-py3-none-any.whl.zip]
+[2023-06-29 13:31:08] INFO root fetch - main [MainThread]: End processing [gitlabx]: success
+[2023-06-29 13:31:08] INFO root fetch - processPackages [notebook-prototyping]: Remove: archive file [/home/abi/fetcher/tmp/notebook_prototyping-0.1.0.tar.gz]
+[2023-06-29 13:31:08] INFO root fetch - processPackages [notebook-prototyping]: Remove: archive file [/home/abi/fetcher/tmp/notebook_prototyping-0.1.2.tar.gz]
+[2023-06-29 13:31:08] INFO root fetch - main [MainThread]: End processing [notebook-prototyping]: success
+[2023-06-29 13:31:10] INFO root fetch - processPackages [ost-photometry]: Remove: archive file [/home/abi/fetcher/tmp/ost_photometry-0.0.6.tar.gz]
+[2023-06-29 13:31:10] INFO root fetch - processPackages [ost-photometry]: Remove: archive file [/home/abi/fetcher/tmp/ost_photometry-0.0.7.tar.gz]
+[2023-06-29 13:31:10] INFO root fetch - main [MainThread]: End processing [ost-photometry]: success
+[2023-06-29 13:31:11] INFO root fetch - processPackages [anesthetic]: Remove: archive file [/home/abi/fetcher/tmp/anesthetic-2.0.0b7.tar.gz]
+[2023-06-29 13:31:11] INFO root fetch - processPackages [anesthetic]: Remove: archive file [/home/abi/fetcher/tmp/anesthetic-2.0.0b9.tar.gz]
+[2023-06-29 13:31:11] INFO root fetch - main [MainThread]: End processing [anesthetic]: success
+[2023-06-29 13:31:12] INFO root fetch - processPackages [MultiEL]: Remove: archive file [/home/abi/fetcher/tmp/MultiEL-0.3.tar.gz]
+[2023-06-29 13:31:12] INFO root fetch - processPackages [MultiEL]: Remove: archive file [/home/abi/fetcher/tmp/MultiEL-0.4.tar.gz]
+[2023-06-29 13:31:12] INFO root fetch - main [MainThread]: End processing [MultiEL]: success
+[2023-06-29 13:31:12] INFO root fetch - main [MainThread]: Store serial: [18694263]
