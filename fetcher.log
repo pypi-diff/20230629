@@ -8668,3 +8668,168 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 13:41:57] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230629-py3-none-win_amd64.whl.zip]
 [2023-06-29 13:41:57] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
 [2023-06-29 13:41:57] INFO root fetch - main [MainThread]: Store serial: [18694398]
+[2023-06-29 13:47:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18694398]
+[2023-06-29 13:47:07] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-29 13:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: exasol-script-languages-container-ci-setup
+[2023-06-29 13:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AltTester-Driver
+[2023-06-29 13:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finbourne-access-sdk
+[2023-06-29 13:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-redis-utils
+[2023-06-29 13:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mona-openai
+[2023-06-29 13:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dauth
+[2023-06-29 13:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fortext
+[2023-06-29 13:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AlphaPeel
+[2023-06-29 13:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: macrometa-target-mssql
+[2023-06-29 13:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: confz
+[2023-06-29 13:47:07] WARNING root fetch - processPackages [AlphaPeel]: Skipping, unable to determine old version
+[2023-06-29 13:47:07] INFO root fetch - processPackages [AlphaPeel]: Start processing: arq-django-admin
+[2023-06-29 13:47:07] INFO root fetch - main [MainThread]: End processing [AlphaPeel] error
+[2023-06-29 13:47:07] INFO root fetch - processPackages [macrometa-target-mssql]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-29 13:47:07] INFO root fetch - processPackages [py-redis-utils]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-29 13:47:07] INFO root fetch - processPackages [fortext]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-29 13:47:07] INFO root fetch - processPackages [exasol-script-languages-container-ci-setup]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-29 13:47:07] INFO root fetch - processPackages [AltTester-Driver]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-29 13:47:07] INFO root fetch - processPackages [dauth]: New version: [0.4] Old Version: [0.3]
+[2023-06-29 13:47:07] INFO root fetch - processPackages [confz]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-06-29 13:47:07] INFO root fetch - processPackages [mona-openai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-29 13:47:07] INFO root fetch - processPackages [arq-django-admin]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-06-29 13:47:07] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-06-29 13:47:07] INFO root fetch - processPackages [fortext]: Downloading https://files.pythonhosted.org/packages/9c/02/c72624e2349f53acb3a7439220e79c89b81ea34c6c4581f47d0fdd9b0e77/fortext-0.0.3.tar.gz
+[2023-06-29 13:47:07] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/c1/53/b503be5a0ac4139fec0289546b087c715628139820f4c3b2a033541e2a1d/macrometa-target-mssql-0.0.2.tar.gz
+[2023-06-29 13:47:07] INFO root fetch - processPackages [dauth]: Downloading https://files.pythonhosted.org/packages/08/39/7c94f936fa84fec3d37b3f5335dd4832998331f9e85fbdc8760e0dd0e906/dauth-0.3.tar.gz
+[2023-06-29 13:47:07] INFO root fetch - processPackages [py-redis-utils]: Downloading https://files.pythonhosted.org/packages/77/3a/0556a23c2ebec412cd7157c6f49a3f63d85bcd27d63b9dfed8222edd1840/py-redis-utils-2.0.3.tar.gz
+[2023-06-29 13:47:08] INFO root fetch - processPackages [confz]: Downloading https://files.pythonhosted.org/packages/d1/32/7c6debfb4a386a2e78660b3518cd741120b39e703a0bc7ccf344f44d4b8a/confz-1.8.1.tar.gz
+[2023-06-29 13:47:08] INFO root fetch - processPackages [exasol-script-languages-container-ci-setup]: Downloading https://files.pythonhosted.org/packages/2f/43/70d631f183f9d5ddf523e8ce618ca5e5b4b0126555548333a078a8ca05cd/exasol-script-languages-container-ci-setup-1.0.0.tar.gz
+[2023-06-29 13:47:08] INFO root fetch - processPackages [AltTester-Driver]: Downloading https://files.pythonhosted.org/packages/ed/1f/ca8d8e96ff79e70046c3e839bf1c4e1bf570279f9e282963764df75fb31e/AltTester-Driver-2.0.0.tar.gz
+[2023-06-29 13:47:08] INFO root fetch - processPackages [arq-django-admin]: Downloading https://files.pythonhosted.org/packages/6b/4e/418a6672efa0c1d72d458d1c2115712093100f9c8c3cf438d03651f5cb9d/arq-django-admin-0.2.4.tar.gz
+[2023-06-29 13:47:08] INFO root fetch - processPackages [mona-openai]: Downloading https://files.pythonhosted.org/packages/c7/b1/a97ce3fdfea087fc9b330555cc00142ad771a156b26bfaffb970a3f7d20d/mona-openai-0.0.7.tar.gz
+[2023-06-29 13:47:08] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-06-29 13:47:08] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/bb/39/0d84112537e749456eab6d678516cbf249141df216e4aea4c9944b211641/macrometa-target-mssql-0.0.3.tar.gz
+[2023-06-29 13:47:08] INFO root fetch - processPackages [fortext]: Downloading https://files.pythonhosted.org/packages/d2/5d/b030d2f0dea79288c9819c962375aaaea382e0221cfce3fd1b870c7c8329/fortext-0.0.4.tar.gz
+[2023-06-29 13:47:08] INFO root fetch - processPackages [py-redis-utils]: Downloading https://files.pythonhosted.org/packages/ca/18/5f68f968f5f99d46e262df7c1b73863a6304e2e14ad7c8bf5e9ed5e92d89/py-redis-utils-2.0.4.tar.gz
+[2023-06-29 13:47:08] INFO root fetch - processPackages [macrometa-target-mssql]: executing diffoscope
+[2023-06-29 13:47:08] INFO root fetch - processPackages [macrometa-target-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mssql-0.0.2.tar.gz tmp/macrometa-target-mssql-0.0.3.tar.gz --markdown 20230629/m/macrometa-target-mssql/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-29 13:47:08] INFO root fetch - processPackages [py-redis-utils]: executing diffoscope
+[2023-06-29 13:47:08] INFO root fetch - processPackages [py-redis-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-redis-utils-2.0.3.tar.gz tmp/py-redis-utils-2.0.4.tar.gz --markdown 20230629/p/py-redis-utils/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-29 13:47:08] INFO root fetch - processPackages [AltTester-Driver]: Downloading https://files.pythonhosted.org/packages/cc/85/e73149ae90ca2b8c46ef3c97778ef26ab7c26e0025859002f6c1b18d768f/AltTester-Driver-2.0.1.tar.gz
+[2023-06-29 13:47:08] INFO root fetch - processPackages [fortext]: executing diffoscope
+[2023-06-29 13:47:08] INFO root fetch - processPackages [fortext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortext-0.0.3.tar.gz tmp/fortext-0.0.4.tar.gz --markdown 20230629/f/fortext/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-29 13:47:08] INFO root fetch - processPackages [confz]: Downloading https://files.pythonhosted.org/packages/0a/14/ba3214a4f31f326c8ff40dac05e6369a909cc6b06b0c314e69ea99eed849/confz-1.8.2.tar.gz
+[2023-06-29 13:47:08] INFO root fetch - processPackages [AltTester-Driver]: executing diffoscope
+[2023-06-29 13:47:08] INFO root fetch - processPackages [AltTester-Driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AltTester-Driver-2.0.0.tar.gz tmp/AltTester-Driver-2.0.1.tar.gz --markdown 20230629/A/AltTester-Driver/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-29 13:47:08] INFO root fetch - processPackages [exasol-script-languages-container-ci-setup]: Downloading https://files.pythonhosted.org/packages/4e/f5/3466d90ec175725f4bebc70edec2dc7d81ba647d39e0dbacbcb76ec162d4/exasol_script_languages_container_ci_setup-1.1.0.tar.gz
+[2023-06-29 13:47:08] INFO root fetch - processPackages [arq-django-admin]: Downloading https://files.pythonhosted.org/packages/41/a1/0a1524acd763957128c08fdc037ddb01b191e6cb1008bc5c61397958c7d6/arq-django-admin-0.3.0.tar.gz
+[2023-06-29 13:47:08] INFO root fetch - processPackages [mona-openai]: Downloading https://files.pythonhosted.org/packages/9a/0c/b3bb8583f943b3f6cc4b0cadb609e0ac8e6f9bf44f52ffe6b0c0c443d658/mona-openai-0.0.8.tar.gz
+[2023-06-29 13:47:08] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-06-29 13:47:08] INFO root fetch - processPackages [confz]: executing diffoscope
+[2023-06-29 13:47:08] INFO root fetch - processPackages [confz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confz-1.8.1.tar.gz tmp/confz-1.8.2.tar.gz --markdown 20230629/c/confz/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-06-29 13:47:08] INFO root fetch - processPackages [mona-openai]: executing diffoscope
+[2023-06-29 13:47:08] INFO root fetch - processPackages [mona-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mona-openai-0.0.7.tar.gz tmp/mona-openai-0.0.8.tar.gz --markdown 20230629/m/mona-openai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-29 13:47:08] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-06-29 13:47:08] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230629/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-06-29 13:47:08] INFO root fetch - processPackages [dauth]: Downloading https://files.pythonhosted.org/packages/f2/20/11ba76a744d867ab37a72c7ef645b79b668d57ad4325e2c3a5472ae8a577/dauth-0.4.tar.gz
+[2023-06-29 13:47:08] INFO root fetch - processPackages [exasol-script-languages-container-ci-setup]: executing diffoscope
+[2023-06-29 13:47:08] INFO root fetch - processPackages [exasol-script-languages-container-ci-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exasol-script-languages-container-ci-setup-1.0.0.tar.gz tmp/exasol_script_languages_container_ci_setup-1.1.0.tar.gz --markdown 20230629/e/exasol-script-languages-container-ci-setup/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-29 13:47:08] INFO root fetch - processPackages [arq-django-admin]: executing diffoscope
+[2023-06-29 13:47:08] INFO root fetch - processPackages [arq-django-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arq-django-admin-0.2.4.tar.gz tmp/arq-django-admin-0.3.0.tar.gz --markdown 20230629/a/arq-django-admin/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-06-29 13:47:08] INFO root fetch - processPackages [dauth]: executing diffoscope
+[2023-06-29 13:47:08] INFO root fetch - processPackages [dauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dauth-0.3.tar.gz tmp/dauth-0.4.tar.gz --markdown 20230629/d/dauth/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-29 13:47:09] INFO root fetch - processPackages [fortext]: Remove: archive file [/home/abi/fetcher/tmp/fortext-0.0.3.tar.gz]
+[2023-06-29 13:47:09] INFO root fetch - processPackages [fortext]: Remove: archive file [/home/abi/fetcher/tmp/fortext-0.0.4.tar.gz]
+[2023-06-29 13:47:09] INFO root fetch - processPackages [fortext]: Start processing: django-utilitas
+[2023-06-29 13:47:09] INFO root fetch - main [MainThread]: End processing [fortext]: success
+[2023-06-29 13:47:09] INFO root fetch - processPackages [django-utilitas]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-29 13:47:09] INFO root fetch - processPackages [py-redis-utils]: Remove: archive file [/home/abi/fetcher/tmp/py-redis-utils-2.0.3.tar.gz]
+[2023-06-29 13:47:09] INFO root fetch - processPackages [py-redis-utils]: Remove: archive file [/home/abi/fetcher/tmp/py-redis-utils-2.0.4.tar.gz]
+[2023-06-29 13:47:09] INFO root fetch - processPackages [py-redis-utils]: Start processing: ada-py
+[2023-06-29 13:47:09] INFO root fetch - main [MainThread]: End processing [py-redis-utils]: success
+[2023-06-29 13:47:10] INFO root fetch - processPackages [ada-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 13:47:10] INFO root fetch - processPackages [ada-py]: Downloading https://files.pythonhosted.org/packages/8a/70/28c401b4087a2a0d07f0538b3f306bfe7a428a802bd063d3d1fc03715727/ada-py-0.0.8.tar.gz
+[2023-06-29 13:47:10] INFO root fetch - processPackages [django-utilitas]: Downloading https://files.pythonhosted.org/packages/4b/52/3eaaa877dc9e31c7ad0873bcba35994c7b07979471284a4b8211d37e727c/django-utilitas-1.3.8.tar.gz
+[2023-06-29 13:47:10] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.2.tar.gz]
+[2023-06-29 13:47:10] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.3.tar.gz]
+[2023-06-29 13:47:10] INFO root fetch - processPackages [macrometa-target-mssql]: Start processing: pyrdfsubset
+[2023-06-29 13:47:10] INFO root fetch - main [MainThread]: End processing [macrometa-target-mssql]: success
+[2023-06-29 13:47:10] INFO root fetch - processPackages [confz]: Remove: archive file [/home/abi/fetcher/tmp/confz-1.8.1.tar.gz]
+[2023-06-29 13:47:10] INFO root fetch - processPackages [confz]: Remove: archive file [/home/abi/fetcher/tmp/confz-1.8.2.tar.gz]
+[2023-06-29 13:47:10] INFO root fetch - processPackages [confz]: Start processing: django-utilitas
+[2023-06-29 13:47:10] INFO root fetch - main [MainThread]: End processing [confz]: success
+[2023-06-29 13:47:10] INFO root fetch - processPackages [pyrdfsubset]: New version: [0.0.3] Old Version: [0.0.2a0]
+[2023-06-29 13:47:10] INFO root fetch - processPackages [django-utilitas]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-29 13:47:10] INFO root fetch - processPackages [ada-py]: Downloading https://files.pythonhosted.org/packages/7a/1f/0045fd181d5ca07a1f786a6ae1e95f2d15b9eff9674fae3c6e4fef38fe0c/ada-py-0.0.9.tar.gz
+[2023-06-29 13:47:10] INFO root fetch - processPackages [mona-openai]: Remove: archive file [/home/abi/fetcher/tmp/mona-openai-0.0.7.tar.gz]
+[2023-06-29 13:47:10] INFO root fetch - processPackages [mona-openai]: Remove: archive file [/home/abi/fetcher/tmp/mona-openai-0.0.8.tar.gz]
+[2023-06-29 13:47:10] INFO root fetch - processPackages [pyrdfsubset]: Downloading https://files.pythonhosted.org/packages/c3/6e/f4b4f291e2a08230c524d94bd82ee31e582e4c2b6db2706220f0a23e1715/pyrdfsubset-0.0.2a0.tar.gz
+[2023-06-29 13:47:10] INFO root fetch - processPackages [mona-openai]: Start processing: zensols.mednlp
+[2023-06-29 13:47:10] INFO root fetch - main [MainThread]: End processing [mona-openai]: success
+[2023-06-29 13:47:10] INFO root fetch - processPackages [zensols.mednlp]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-29 13:47:10] INFO root fetch - processPackages [arq-django-admin]: Remove: archive file [/home/abi/fetcher/tmp/arq-django-admin-0.2.4.tar.gz]
+[2023-06-29 13:47:10] INFO root fetch - processPackages [arq-django-admin]: Remove: archive file [/home/abi/fetcher/tmp/arq-django-admin-0.3.0.tar.gz]
+[2023-06-29 13:47:10] INFO root fetch - processPackages [arq-django-admin]: Start processing: savant-rs-etcd-dynamic-state
+[2023-06-29 13:47:10] INFO root fetch - main [MainThread]: End processing [arq-django-admin]: success
+[2023-06-29 13:47:10] INFO root fetch - processPackages [ada-py]: executing diffoscope
+[2023-06-29 13:47:10] INFO root fetch - processPackages [ada-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ada-py-0.0.8.tar.gz tmp/ada-py-0.0.9.tar.gz --markdown 20230629/a/ada-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 13:47:10] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: New version: [0.1.33] Old Version: [0.1.32]
+[2023-06-29 13:47:10] INFO root fetch - processPackages [dauth]: Remove: archive file [/home/abi/fetcher/tmp/dauth-0.3.tar.gz]
+[2023-06-29 13:47:10] INFO root fetch - processPackages [dauth]: Remove: archive file [/home/abi/fetcher/tmp/dauth-0.4.tar.gz]
+[2023-06-29 13:47:10] INFO root fetch - processPackages [dauth]: Start processing: good-cache
+[2023-06-29 13:47:10] INFO root fetch - main [MainThread]: End processing [dauth]: success
+[2023-06-29 13:47:10] INFO root fetch - processPackages [django-utilitas]: Downloading https://files.pythonhosted.org/packages/fe/07/88b2daa55e779639a854b6ea5fcef084075e26609b1e95cb3410865c7a54/django-utilitas-1.3.9.tar.gz
+[2023-06-29 13:47:10] INFO root fetch - processPackages [django-utilitas]: Downloading https://files.pythonhosted.org/packages/fe/07/88b2daa55e779639a854b6ea5fcef084075e26609b1e95cb3410865c7a54/django-utilitas-1.3.9.tar.gz
+[2023-06-29 13:47:10] INFO root fetch - processPackages [good-cache]: New version: [0.1.32] Old Version: [0.1.31]
+[2023-06-29 13:47:10] INFO root fetch - processPackages [zensols.mednlp]: Downloading https://files.pythonhosted.org/packages/71/6f/619220595bdc3a9031ccb59addea927a5608721cc6696b8f79645537430d/zensols.mednlp-1.3.1-py3-none-any.whl
+[2023-06-29 13:47:10] INFO root fetch - processPackages [pyrdfsubset]: Downloading https://files.pythonhosted.org/packages/62/d6/3dc2fa7e109b52ce1efd10d742c8c436c21751a491b4138633778778e04d/pyrdfsubset-0.0.3.tar.gz
+[2023-06-29 13:47:10] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Downloading https://files.pythonhosted.org/packages/e2/52/96c7a79061af2cb66df8c7b4bdf26616d038560eb869d62c684e812a5bc6/savant_rs_etcd_dynamic_state-0.1.32-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-29 13:47:10] INFO root fetch - processPackages [pyrdfsubset]: executing diffoscope
+[2023-06-29 13:47:10] INFO root fetch - processPackages [pyrdfsubset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrdfsubset-0.0.2a0.tar.gz tmp/pyrdfsubset-0.0.3.tar.gz --markdown 20230629/p/pyrdfsubset/0.0.2a0-0.0.3/diff.md --exclude *.pyd
+[2023-06-29 13:47:10] INFO root fetch - processPackages [exasol-script-languages-container-ci-setup]: Remove: archive file [/home/abi/fetcher/tmp/exasol-script-languages-container-ci-setup-1.0.0.tar.gz]
+[2023-06-29 13:47:10] INFO root fetch - processPackages [exasol-script-languages-container-ci-setup]: Remove: archive file [/home/abi/fetcher/tmp/exasol_script_languages_container_ci_setup-1.1.0.tar.gz]
+[2023-06-29 13:47:10] INFO root fetch - processPackages [exasol-script-languages-container-ci-setup]: Start processing: pyassist
+[2023-06-29 13:47:10] INFO root fetch - main [MainThread]: End processing [exasol-script-languages-container-ci-setup]: success
+[2023-06-29 13:47:10] INFO root fetch - processPackages [pyassist]: New version: [0.2] Old Version: [0.1]
+[2023-06-29 13:47:10] INFO root fetch - processPackages [zensols.mednlp]: Downloading https://files.pythonhosted.org/packages/c0/ee/922fa5b9d49a0a545da3a6512621e2bf010dc8bda2d0f6f1db4529c1ec23/zensols.mednlp-1.3.2-py3-none-any.whl
+[2023-06-29 13:47:10] INFO root fetch - processPackages [good-cache]: Downloading https://files.pythonhosted.org/packages/2f/96/6947820095d3e784f154508563acddc6a9a3ceddf4d22d32002e714b592c/good_cache-0.1.31.tar.gz
+[2023-06-29 13:47:10] INFO root fetch - processPackages [django-utilitas]: executing diffoscope
+[2023-06-29 13:47:10] INFO root fetch - processPackages [django-utilitas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-utilitas-1.3.8.tar.gz tmp/django-utilitas-1.3.9.tar.gz --markdown 20230629/d/django-utilitas/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-29 13:47:10] INFO root fetch - processPackages [django-utilitas]: executing diffoscope
+[2023-06-29 13:47:10] INFO root fetch - processPackages [django-utilitas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-utilitas-1.3.8.tar.gz tmp/django-utilitas-1.3.9.tar.gz --markdown 20230629/d/django-utilitas/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-29 13:47:10] INFO root fetch - processPackages [zensols.mednlp]: executing diffoscope
+[2023-06-29 13:47:10] INFO root fetch - processPackages [zensols.mednlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensols.mednlp-1.3.1-py3-none-any.whl.zip tmp/zensols.mednlp-1.3.2-py3-none-any.whl.zip --markdown 20230629/z/zensols.mednlp/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-29 13:47:10] INFO root fetch - processPackages [pyassist]: Downloading https://files.pythonhosted.org/packages/50/e7/5fbacaf7eb91275e81c07fa0d10ae8423102f231b6e9530125bfdfb08f0e/pyassist-0.1.tar.gz
+[2023-06-29 13:47:11] INFO root fetch - processPackages [good-cache]: Downloading https://files.pythonhosted.org/packages/60/1c/fa1c3636c880be24c8140687e97a4d6eec63aa444759afd99c1e91152c2a/good_cache-0.1.32.tar.gz
+[2023-06-29 13:47:11] INFO root fetch - processPackages [pyassist]: Downloading https://files.pythonhosted.org/packages/3e/5d/6691dc93224cbf57399529e1e3c06abc0585a19523e03bb2ce18bee9d50a/pyassist-0.2.tar.gz
+[2023-06-29 13:47:11] INFO root fetch - processPackages [good-cache]: executing diffoscope
+[2023-06-29 13:47:11] INFO root fetch - processPackages [good-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/good_cache-0.1.31.tar.gz tmp/good_cache-0.1.32.tar.gz --markdown 20230629/g/good-cache/0.1.31-0.1.32/diff.md --exclude *.pyd
+[2023-06-29 13:47:11] INFO root fetch - processPackages [pyassist]: executing diffoscope
+[2023-06-29 13:47:11] INFO root fetch - processPackages [pyassist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyassist-0.1.tar.gz tmp/pyassist-0.2.tar.gz --markdown 20230629/p/pyassist/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-29 13:47:11] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.616.tar.gz]
+[2023-06-29 13:47:11] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.815.tar.gz]
+[2023-06-29 13:47:11] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-06-29 13:47:11] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Downloading https://files.pythonhosted.org/packages/2a/be/c27f4edcf7e0af50ddb098da32352d63fd9aad22d3d5a97b4e93961d9f67/savant_rs_etcd_dynamic_state-0.1.33-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-29 13:47:12] INFO root fetch - processPackages [pyrdfsubset]: Remove: archive file [/home/abi/fetcher/tmp/pyrdfsubset-0.0.2a0.tar.gz]
+[2023-06-29 13:47:12] INFO root fetch - processPackages [pyrdfsubset]: Remove: archive file [/home/abi/fetcher/tmp/pyrdfsubset-0.0.3.tar.gz]
+[2023-06-29 13:47:12] INFO root fetch - main [MainThread]: End processing [pyrdfsubset]: success
+[2023-06-29 13:47:12] INFO root fetch - processPackages [django-utilitas]: Remove: archive file [/home/abi/fetcher/tmp/django-utilitas-1.3.8.tar.gz]
+[2023-06-29 13:47:12] INFO root fetch - processPackages [django-utilitas]: Remove: archive file [/home/abi/fetcher/tmp/django-utilitas-1.3.9.tar.gz]
+[2023-06-29 13:47:12] INFO root fetch - main [MainThread]: End processing [django-utilitas]: success
+[2023-06-29 13:47:12] INFO root fetch - processPackages [AltTester-Driver]: Remove: archive file [/home/abi/fetcher/tmp/AltTester-Driver-2.0.0.tar.gz]
+[2023-06-29 13:47:12] INFO root fetch - processPackages [AltTester-Driver]: Remove: archive file [/home/abi/fetcher/tmp/AltTester-Driver-2.0.1.tar.gz]
+[2023-06-29 13:47:12] INFO root fetch - main [MainThread]: End processing [AltTester-Driver]: success
+[2023-06-29 13:47:12] INFO root fetch - processPackages [zensols.mednlp]: Remove: archive file [/home/abi/fetcher/tmp/zensols.mednlp-1.3.1-py3-none-any.whl.zip]
+[2023-06-29 13:47:12] INFO root fetch - processPackages [zensols.mednlp]: Remove: archive file [/home/abi/fetcher/tmp/zensols.mednlp-1.3.2-py3-none-any.whl.zip]
+[2023-06-29 13:47:12] INFO root fetch - main [MainThread]: End processing [zensols.mednlp]: success
+[2023-06-29 13:47:12] INFO root fetch - processPackages [pyassist]: Remove: archive file [/home/abi/fetcher/tmp/pyassist-0.1.tar.gz]
+[2023-06-29 13:47:12] INFO root fetch - processPackages [pyassist]: Remove: archive file [/home/abi/fetcher/tmp/pyassist-0.2.tar.gz]
+[2023-06-29 13:47:12] INFO root fetch - main [MainThread]: End processing [pyassist]: success
+[2023-06-29 13:47:12] INFO root fetch - processPackages [good-cache]: Remove: archive file [/home/abi/fetcher/tmp/good_cache-0.1.31.tar.gz]
+[2023-06-29 13:47:12] INFO root fetch - processPackages [good-cache]: Remove: archive file [/home/abi/fetcher/tmp/good_cache-0.1.32.tar.gz]
+[2023-06-29 13:47:12] INFO root fetch - main [MainThread]: End processing [good-cache]: success
+[2023-06-29 13:47:12] INFO root fetch - processPackages [ada-py]: Remove: archive file [/home/abi/fetcher/tmp/ada-py-0.0.8.tar.gz]
+[2023-06-29 13:47:12] INFO root fetch - processPackages [ada-py]: Remove: archive file [/home/abi/fetcher/tmp/ada-py-0.0.9.tar.gz]
+[2023-06-29 13:47:12] INFO root fetch - main [MainThread]: End processing [ada-py]: success
+[2023-06-29 13:47:12] INFO root fetch - main [MainThread]: End processing [django-utilitas]: success
+[2023-06-29 13:47:13] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: executing diffoscope
+[2023-06-29 13:47:13] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs_etcd_dynamic_state-0.1.32-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/savant_rs_etcd_dynamic_state-0.1.33-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230629/s/savant-rs-etcd-dynamic-state/0.1.32-0.1.33/diff.md --exclude *.pyd
+[2023-06-29 13:48:58] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.32-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-29 13:48:58] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.33-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-29 13:48:58] INFO root fetch - main [MainThread]: End processing [savant-rs-etcd-dynamic-state]: success
+[2023-06-29 13:48:58] INFO root fetch - main [MainThread]: Store serial: [18694469]
