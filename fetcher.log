@@ -12569,3 +12569,191 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 16:04:40] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.345.0.tar.gz]
 [2023-06-29 16:04:40] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-06-29 16:04:40] INFO root fetch - main [MainThread]: Store serial: [18696056]
+[2023-06-29 16:09:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18696056]
+[2023-06-29 16:09:49] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-29 16:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blockit
+[2023-06-29 16:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: napari-segment-blobs-and-things-with-membranes
+[2023-06-29 16:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastestimator-nightly
+[2023-06-29 16:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tidytweets
+[2023-06-29 16:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypomes-core
+[2023-06-29 16:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: repo-review
+[2023-06-29 16:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: StarRailGPS
+[2023-06-29 16:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: webcam
+[2023-06-29 16:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: featurelayers
+[2023-06-29 16:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scReGAT
+[2023-06-29 16:09:49] INFO root fetch - processPackages [StarRailGPS]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-29 16:09:49] INFO root fetch - processPackages [napari-segment-blobs-and-things-with-membranes]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-29 16:09:49] WARNING root fetch - processPackages [tidytweets]: Skipping, unable to determine old version
+[2023-06-29 16:09:49] INFO root fetch - processPackages [tidytweets]: Start processing: pwl_writer
+[2023-06-29 16:09:49] INFO root fetch - processPackages [scReGAT]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-29 16:09:49] INFO root fetch - main [MainThread]: End processing [tidytweets] error
+[2023-06-29 16:09:49] WARNING root fetch - processPackages [blockit]: Skipping, unable to determine old version
+[2023-06-29 16:09:49] INFO root fetch - processPackages [pypomes-core]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-29 16:09:49] INFO root fetch - processPackages [webcam]: New version: [1.9] Old Version: [1.8]
+[2023-06-29 16:09:49] INFO root fetch - processPackages [repo-review]: New version: [0.8.0] Old Version: [0.7.0b9]
+[2023-06-29 16:09:49] INFO root fetch - processPackages [blockit]: Start processing: pyxy3d
+[2023-06-29 16:09:49] INFO root fetch - main [MainThread]: End processing [blockit] error
+[2023-06-29 16:09:49] INFO root fetch - processPackages [featurelayers]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-06-29 16:09:49] INFO root fetch - processPackages [pwl_writer]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-29 16:09:50] INFO root fetch - processPackages [pyxy3d]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-29 16:09:50] INFO root fetch - processPackages [fastestimator-nightly]: New version: [1.6.0.dev202306291403] Old Version: [1.6.0.dev202306261401]
+[2023-06-29 16:09:50] INFO root fetch - processPackages [scReGAT]: Downloading https://files.pythonhosted.org/packages/13/da/a41a9f3b020c4a3d54620420d14bfd6f7002656eb5ad638bb63e1e1442df/scReGAT-0.0.1.tar.gz
+[2023-06-29 16:09:50] INFO root fetch - processPackages [webcam]: Downloading https://files.pythonhosted.org/packages/31/4f/5f62a6aab1c05a3296501d54d104278fb9f289b855a8dd7a9263dd64d053/webcam-1.8.tar.gz
+[2023-06-29 16:09:50] INFO root fetch - processPackages [napari-segment-blobs-and-things-with-membranes]: Downloading https://files.pythonhosted.org/packages/26/ce/0933c06764cec1e74985350d4057e8f32eb15ecb6e0c285e9686f3bc84b4/napari-segment-blobs-and-things-with-membranes-0.3.4.tar.gz
+[2023-06-29 16:09:50] INFO root fetch - processPackages [StarRailGPS]: Downloading https://files.pythonhosted.org/packages/84/81/7ce4b890f2e014603798db8adec433fcaef78ff6c044c430b55a924e66f6/StarRailGPS-1.0.1.tar.gz
+[2023-06-29 16:09:50] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/c5/75/03048ab045255800204c14986e76146dd9524348f66b3da38f33c4560e8f/featurelayers-1.5.5.tar.gz
+[2023-06-29 16:09:50] WARNING root fetch - processPackages [StarRailGPS]: Skipping package: exceeds size limit 14024088>=10485760
+[2023-06-29 16:09:50] INFO root fetch - processPackages [StarRailGPS]: Start processing: cdktf-cdk8s
+[2023-06-29 16:09:50] INFO root fetch - main [MainThread]: End processing [StarRailGPS] error
+[2023-06-29 16:09:50] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/47/16/b7bce316acde2464f3a6896a9f4f3147bf65a775f762aca7fee35f7afea9/pypomes_core-0.1.3.tar.gz
+[2023-06-29 16:09:50] INFO root fetch - processPackages [pwl_writer]: Downloading https://files.pythonhosted.org/packages/f8/0a/c51cdf5c2400f71e95e24d3bdd361aa949da55416caf3ddc427201c6247c/pwl_writer-1.1.1.tar.gz
+[2023-06-29 16:09:50] INFO root fetch - processPackages [repo-review]: Downloading https://files.pythonhosted.org/packages/26/35/9f2779e4972c47b558148fb6a8f784e8054fb1dd0ebd1e3f4512e8085260/repo_review-0.7.0b9.tar.gz
+[2023-06-29 16:09:50] INFO root fetch - processPackages [pyxy3d]: Downloading https://files.pythonhosted.org/packages/3c/aa/868bec2d0b6708c6d6058d12f93e1762546c52ba9968164826599ad39f46/pyxy3d-0.1.5.tar.gz
+[2023-06-29 16:09:50] INFO root fetch - processPackages [cdktf-cdk8s]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-29 16:09:50] INFO root fetch - processPackages [fastestimator-nightly]: Downloading https://files.pythonhosted.org/packages/c2/93/451d1b446bed3a106fb5fcd12a4444c3fc3050a3992e18572d5a54fc1758/fastestimator-nightly-1.6.0.dev202306261401.tar.gz
+[2023-06-29 16:09:50] INFO root fetch - processPackages [scReGAT]: Downloading https://files.pythonhosted.org/packages/48/8f/704eeb7f0e5d711be746f06bf8318c8341eb281ab9abb3caddd0a7e442eb/scReGAT-0.0.2.tar.gz
+[2023-06-29 16:09:50] INFO root fetch - processPackages [webcam]: Downloading https://files.pythonhosted.org/packages/76/2d/d3a50566f3d71537fdb9ab221cd05fa44a94a1c4f5220e804924e777ea1f/webcam-1.9.tar.gz
+[2023-06-29 16:09:50] INFO root fetch - processPackages [cdktf-cdk8s]: Downloading https://files.pythonhosted.org/packages/01/2c/28f0b5f8f77c2e17b5216b8b80c46d60b1d59933aba59ea93febac06723e/cdktf-cdk8s-0.5.8.tar.gz
+[2023-06-29 16:09:50] INFO root fetch - processPackages [napari-segment-blobs-and-things-with-membranes]: Downloading https://files.pythonhosted.org/packages/53/36/813ef55ca1dc57e49019086781922f1496eacb9112a48253e5342d148e60/napari-segment-blobs-and-things-with-membranes-0.3.5.tar.gz
+[2023-06-29 16:09:50] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/f1/64/c34bf89977118c6cb9c7361389f88e10340b003a8b78a4feb61dea5dc790/pypomes_core-0.1.4.tar.gz
+[2023-06-29 16:09:50] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/f1/ba/bf4e0f1cf2b84ac1d20a8445c85b0c544732e973aef29eace465bf2a4062/featurelayers-1.5.6.tar.gz
+[2023-06-29 16:09:50] INFO root fetch - processPackages [scReGAT]: executing diffoscope
+[2023-06-29 16:09:50] INFO root fetch - processPackages [scReGAT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scReGAT-0.0.1.tar.gz tmp/scReGAT-0.0.2.tar.gz --markdown 20230629/s/scReGAT/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-29 16:09:50] INFO root fetch - processPackages [pwl_writer]: Downloading https://files.pythonhosted.org/packages/fe/60/27efa6d81beba7a127ae6b6e9bd91b80e8c5947de4629f53b39a0c0992e6/pwl_writer-1.1.2.tar.gz
+[2023-06-29 16:09:50] INFO root fetch - processPackages [repo-review]: Downloading https://files.pythonhosted.org/packages/6a/55/cf84a2a2e333e71251f1da92893627ae5c62e8f831e2fc4e7232fd102b32/repo_review-0.8.0.tar.gz
+[2023-06-29 16:09:50] INFO root fetch - processPackages [featurelayers]: executing diffoscope
+[2023-06-29 16:09:50] INFO root fetch - processPackages [featurelayers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurelayers-1.5.5.tar.gz tmp/featurelayers-1.5.6.tar.gz --markdown 20230629/f/featurelayers/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-06-29 16:09:50] INFO root fetch - processPackages [pypomes-core]: executing diffoscope
+[2023-06-29 16:09:50] INFO root fetch - processPackages [pypomes-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_core-0.1.3.tar.gz tmp/pypomes_core-0.1.4.tar.gz --markdown 20230629/p/pypomes-core/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-29 16:09:50] INFO root fetch - processPackages [pwl_writer]: executing diffoscope
+[2023-06-29 16:09:50] INFO root fetch - processPackages [pwl_writer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwl_writer-1.1.1.tar.gz tmp/pwl_writer-1.1.2.tar.gz --markdown 20230629/p/pwl_writer/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-29 16:09:50] INFO root fetch - processPackages [webcam]: executing diffoscope
+[2023-06-29 16:09:50] INFO root fetch - processPackages [webcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webcam-1.8.tar.gz tmp/webcam-1.9.tar.gz --markdown 20230629/w/webcam/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-29 16:09:50] INFO root fetch - processPackages [napari-segment-blobs-and-things-with-membranes]: executing diffoscope
+[2023-06-29 16:09:50] INFO root fetch - processPackages [napari-segment-blobs-and-things-with-membranes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-segment-blobs-and-things-with-membranes-0.3.4.tar.gz tmp/napari-segment-blobs-and-things-with-membranes-0.3.5.tar.gz --markdown 20230629/n/napari-segment-blobs-and-things-with-membranes/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-29 16:09:50] INFO root fetch - processPackages [fastestimator-nightly]: Downloading https://files.pythonhosted.org/packages/1e/25/bec9275b40f3468ed0d7fb5a856a48b6df70cdb57d58ac34bda507b22a40/fastestimator-nightly-1.6.0.dev202306291403.tar.gz
+[2023-06-29 16:09:50] INFO root fetch - processPackages [repo-review]: executing diffoscope
+[2023-06-29 16:09:50] INFO root fetch - processPackages [repo-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo_review-0.7.0b9.tar.gz tmp/repo_review-0.8.0.tar.gz --markdown 20230629/r/repo-review/0.7.0b9-0.8.0/diff.md --exclude *.pyd
+[2023-06-29 16:09:51] INFO root fetch - processPackages [cdktf-cdk8s]: Downloading https://files.pythonhosted.org/packages/e8/3b/a177b041c22f741484d2597a6e9b7d66cb3c2f2fb06c3a029d4cc4b0317a/cdktf-cdk8s-0.5.9.tar.gz
+[2023-06-29 16:09:51] INFO root fetch - processPackages [fastestimator-nightly]: executing diffoscope
+[2023-06-29 16:09:51] INFO root fetch - processPackages [fastestimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastestimator-nightly-1.6.0.dev202306261401.tar.gz tmp/fastestimator-nightly-1.6.0.dev202306291403.tar.gz --markdown 20230629/f/fastestimator-nightly/1.6.0.dev202306261401-1.6.0.dev202306291403/diff.md --exclude *.pyd
+[2023-06-29 16:09:51] INFO root fetch - processPackages [pyxy3d]: Downloading https://files.pythonhosted.org/packages/07/f7/6afb9a02db088115fbf79a0a63d5b7b1c991fa43ec93ed97c2bc36f50129/pyxy3d-0.1.6.tar.gz
+[2023-06-29 16:09:51] INFO root fetch - processPackages [pyxy3d]: executing diffoscope
+[2023-06-29 16:09:51] INFO root fetch - processPackages [pyxy3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxy3d-0.1.5.tar.gz tmp/pyxy3d-0.1.6.tar.gz --markdown 20230629/p/pyxy3d/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-29 16:09:51] INFO root fetch - processPackages [cdktf-cdk8s]: executing diffoscope
+[2023-06-29 16:09:51] INFO root fetch - processPackages [cdktf-cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdk8s-0.5.8.tar.gz tmp/cdktf-cdk8s-0.5.9.tar.gz --markdown 20230629/c/cdktf-cdk8s/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-29 16:09:52] INFO root fetch - processPackages [scReGAT]: Remove: archive file [/home/abi/fetcher/tmp/scReGAT-0.0.1.tar.gz]
+[2023-06-29 16:09:52] INFO root fetch - processPackages [scReGAT]: Remove: archive file [/home/abi/fetcher/tmp/scReGAT-0.0.2.tar.gz]
+[2023-06-29 16:09:52] INFO root fetch - processPackages [scReGAT]: Start processing: redhat-qe-cloud-tools
+[2023-06-29 16:09:52] INFO root fetch - main [MainThread]: End processing [scReGAT]: success
+[2023-06-29 16:09:52] INFO root fetch - processPackages [redhat-qe-cloud-tools]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-29 16:09:52] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.5.5.tar.gz]
+[2023-06-29 16:09:52] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.5.6.tar.gz]
+[2023-06-29 16:09:52] INFO root fetch - processPackages [featurelayers]: Start processing: xia-engine-firestore
+[2023-06-29 16:09:52] INFO root fetch - main [MainThread]: End processing [featurelayers]: success
+[2023-06-29 16:09:52] INFO root fetch - processPackages [xia-engine-firestore]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-29 16:09:52] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Downloading https://files.pythonhosted.org/packages/83/f7/86d44f22f3095adf36579ac0561e0caf9a981d47075fb9bcec32656a6f8f/redhat_qe_cloud_tools-1.0.7.tar.gz
+[2023-06-29 16:09:52] INFO root fetch - processPackages [xia-engine-firestore]: Downloading https://files.pythonhosted.org/packages/f9/be/600f18f19ed3b28fb6e8ed3e5a5a5dfb746428ce84326aabb426b32fae65/xia_engine_firestore-0.3.3-cp39-none-win_amd64.whl
+[2023-06-29 16:09:52] INFO root fetch - processPackages [pwl_writer]: Remove: archive file [/home/abi/fetcher/tmp/pwl_writer-1.1.1.tar.gz]
+[2023-06-29 16:09:52] INFO root fetch - processPackages [pwl_writer]: Remove: archive file [/home/abi/fetcher/tmp/pwl_writer-1.1.2.tar.gz]
+[2023-06-29 16:09:52] INFO root fetch - processPackages [pwl_writer]: Start processing: greyhorse-es
+[2023-06-29 16:09:52] INFO root fetch - main [MainThread]: End processing [pwl_writer]: success
+[2023-06-29 16:09:52] WARNING root fetch - processPackages [greyhorse-es]: Skipping, unable to determine old version
+[2023-06-29 16:09:52] INFO root fetch - processPackages [greyhorse-es]: Start processing: django-pfx
+[2023-06-29 16:09:52] INFO root fetch - main [MainThread]: End processing [greyhorse-es] error
+[2023-06-29 16:09:52] INFO root fetch - processPackages [django-pfx]: New version: [1.2.dev8] Old Version: [1.2.dev76]
+[2023-06-29 16:09:52] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.1.3.tar.gz]
+[2023-06-29 16:09:52] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.1.4.tar.gz]
+[2023-06-29 16:09:52] INFO root fetch - processPackages [pypomes-core]: Start processing: blockit
+[2023-06-29 16:09:52] INFO root fetch - main [MainThread]: End processing [pypomes-core]: success
+[2023-06-29 16:09:52] INFO root fetch - processPackages [xia-engine-firestore]: Downloading https://files.pythonhosted.org/packages/fb/d7/fb6cba4c221583c6427ff7917c322cabc525829063c992831efad08d6c5b/xia_engine_firestore-0.3.4-cp39-none-win_amd64.whl
+[2023-06-29 16:09:52] INFO root fetch - processPackages [blockit]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-06-29 16:09:52] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Downloading https://files.pythonhosted.org/packages/bb/ba/b006d094180ea2c9d36260eb23821d2bdf0bc3e11192b77282a510ac39ee/redhat_qe_cloud_tools-1.0.8.tar.gz
+[2023-06-29 16:09:52] INFO root fetch - processPackages [xia-engine-firestore]: executing diffoscope
+[2023-06-29 16:09:52] INFO root fetch - processPackages [xia-engine-firestore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_firestore-0.3.3-cp39-none-win_amd64.whl.zip tmp/xia_engine_firestore-0.3.4-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-engine-firestore/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-29 16:09:52] INFO root fetch - processPackages [napari-segment-blobs-and-things-with-membranes]: Remove: archive file [/home/abi/fetcher/tmp/napari-segment-blobs-and-things-with-membranes-0.3.4.tar.gz]
+[2023-06-29 16:09:52] INFO root fetch - processPackages [napari-segment-blobs-and-things-with-membranes]: Remove: archive file [/home/abi/fetcher/tmp/napari-segment-blobs-and-things-with-membranes-0.3.5.tar.gz]
+[2023-06-29 16:09:52] INFO root fetch - processPackages [napari-segment-blobs-and-things-with-membranes]: Start processing: rosetta-ce
+[2023-06-29 16:09:52] INFO root fetch - main [MainThread]: End processing [napari-segment-blobs-and-things-with-membranes]: success
+[2023-06-29 16:09:52] INFO root fetch - processPackages [redhat-qe-cloud-tools]: executing diffoscope
+[2023-06-29 16:09:52] INFO root fetch - processPackages [redhat-qe-cloud-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redhat_qe_cloud_tools-1.0.7.tar.gz tmp/redhat_qe_cloud_tools-1.0.8.tar.gz --markdown 20230629/r/redhat-qe-cloud-tools/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-29 16:09:52] INFO root fetch - processPackages [rosetta-ce]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-06-29 16:09:52] INFO root fetch - processPackages [webcam]: Remove: archive file [/home/abi/fetcher/tmp/webcam-1.8.tar.gz]
+[2023-06-29 16:09:52] INFO root fetch - processPackages [webcam]: Remove: archive file [/home/abi/fetcher/tmp/webcam-1.9.tar.gz]
+[2023-06-29 16:09:52] INFO root fetch - processPackages [webcam]: Start processing: scReGAT
+[2023-06-29 16:09:52] INFO root fetch - main [MainThread]: End processing [webcam]: success
+[2023-06-29 16:09:52] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/83/ca/6d612231a3d7242b4e0783105fe7cf67b378996b8c7ee63e5f887e26074a/django-pfx-1.2.dev76.tar.gz
+[2023-06-29 16:09:52] INFO root fetch - processPackages [blockit]: Downloading https://files.pythonhosted.org/packages/24/a8/fb7c1ee66d27b62256ffe509f8ba8137aa56e554982de1eeb0346b1d1f66/blockit-0.0.0.tar.gz
+[2023-06-29 16:09:52] INFO root fetch - processPackages [scReGAT]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-29 16:09:52] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/12/07/da09f754a59419c1a410c6705c55f87a84c04ffda91e991bd431376fe98e/rosetta-ce-1.2.7.tar.gz
+[2023-06-29 16:09:52] INFO root fetch - processPackages [scReGAT]: Downloading https://files.pythonhosted.org/packages/48/8f/704eeb7f0e5d711be746f06bf8318c8341eb281ab9abb3caddd0a7e442eb/scReGAT-0.0.2.tar.gz
+[2023-06-29 16:09:52] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/98/97/b7ab550a476bbb84b02f7faad57630d36db44a5bf8aa5eacb3fb8f89cf16/rosetta-ce-1.2.8.tar.gz
+[2023-06-29 16:09:52] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/a8/a1/beee13dd42732e6b09a9fa98a5127296a4eb74cba08e3bdc0c5376e914db/django-pfx-1.2.dev8.tar.gz
+[2023-06-29 16:09:52] INFO root fetch - processPackages [blockit]: Downloading https://files.pythonhosted.org/packages/b7/01/a76c515b5aad6d1781088996b6079128236bfa8fe5836ab4beb4771fadd2/blockit-0.0.1.tar.gz
+[2023-06-29 16:09:52] INFO root fetch - processPackages [cdktf-cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdk8s-0.5.8.tar.gz]
+[2023-06-29 16:09:52] INFO root fetch - processPackages [rosetta-ce]: executing diffoscope
+[2023-06-29 16:09:52] INFO root fetch - processPackages [cdktf-cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdk8s-0.5.9.tar.gz]
+[2023-06-29 16:09:52] INFO root fetch - processPackages [rosetta-ce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosetta-ce-1.2.7.tar.gz tmp/rosetta-ce-1.2.8.tar.gz --markdown 20230629/r/rosetta-ce/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-06-29 16:09:52] INFO root fetch - processPackages [cdktf-cdk8s]: Start processing: eodc-faas-openeo
+[2023-06-29 16:09:52] INFO root fetch - main [MainThread]: End processing [cdktf-cdk8s]: success
+[2023-06-29 16:09:52] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-29 16:09:52] INFO root fetch - processPackages [scReGAT]: Downloading https://files.pythonhosted.org/packages/12/0b/302bdebeab774610951a502c1a1f09f5b725e8bce4ab7f2868369675b9cb/scReGAT-0.0.3.tar.gz
+[2023-06-29 16:09:52] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2023-06-29 16:09:52] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.2.dev76.tar.gz tmp/django-pfx-1.2.dev8.tar.gz --markdown 20230629/d/django-pfx/1.2.dev76-1.2.dev8/diff.md --exclude *.pyd
+[2023-06-29 16:09:53] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/bf/65/17c492bd7934456ef4a003078ffcb510f62f943407298b90a63969aa3f1f/eodc_faas_openeo-2023.6.8.tar.gz
+[2023-06-29 16:09:53] INFO root fetch - processPackages [blockit]: executing diffoscope
+[2023-06-29 16:09:53] INFO root fetch - processPackages [blockit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockit-0.0.0.tar.gz tmp/blockit-0.0.1.tar.gz --markdown 20230629/b/blockit/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-06-29 16:09:53] INFO root fetch - processPackages [scReGAT]: executing diffoscope
+[2023-06-29 16:09:53] INFO root fetch - processPackages [scReGAT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scReGAT-0.0.2.tar.gz tmp/scReGAT-0.0.3.tar.gz --markdown 20230629/s/scReGAT/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-29 16:09:53] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/77/6b/8eb1deae635c30a05c1c3a89c459d64974381087d1c84d89e3ad9410049a/eodc_faas_openeo-2023.6.9.tar.gz
+[2023-06-29 16:09:53] INFO root fetch - processPackages [repo-review]: Remove: archive file [/home/abi/fetcher/tmp/repo_review-0.7.0b9.tar.gz]
+[2023-06-29 16:09:53] INFO root fetch - processPackages [repo-review]: Remove: archive file [/home/abi/fetcher/tmp/repo_review-0.8.0.tar.gz]
+[2023-06-29 16:09:53] INFO root fetch - processPackages [repo-review]: Start processing: python-ics
+[2023-06-29 16:09:53] INFO root fetch - main [MainThread]: End processing [repo-review]: success
+[2023-06-29 16:09:53] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2023-06-29 16:09:53] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2023.6.8.tar.gz tmp/eodc_faas_openeo-2023.6.9.tar.gz --markdown 20230629/e/eodc-faas-openeo/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-29 16:09:53] INFO root fetch - processPackages [python-ics]: New version: [912.4] Old Version: [911.12]
+[2023-06-29 16:09:53] INFO root fetch - processPackages [python-ics]: Downloading https://files.pythonhosted.org/packages/36/1b/927cd78a5cc8c11090504932491a912cbfe86577b75fb15ef01e63b74db4/python_ics-911.12-cp39-cp39-win_amd64.whl
+[2023-06-29 16:09:53] INFO root fetch - processPackages [pyxy3d]: Remove: archive file [/home/abi/fetcher/tmp/pyxy3d-0.1.5.tar.gz]
+[2023-06-29 16:09:53] INFO root fetch - processPackages [pyxy3d]: Remove: archive file [/home/abi/fetcher/tmp/pyxy3d-0.1.6.tar.gz]
+[2023-06-29 16:09:53] INFO root fetch - processPackages [pyxy3d]: Start processing: fsrs4anki-optimizer
+[2023-06-29 16:09:53] INFO root fetch - main [MainThread]: End processing [pyxy3d]: success
+[2023-06-29 16:09:53] INFO root fetch - processPackages [fsrs4anki-optimizer]: New version: [3.25.7] Old Version: [3.25.6]
+[2023-06-29 16:09:53] INFO root fetch - processPackages [xia-engine-firestore]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_firestore-0.3.3-cp39-none-win_amd64.whl.zip]
+[2023-06-29 16:09:53] INFO root fetch - processPackages [xia-engine-firestore]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_firestore-0.3.4-cp39-none-win_amd64.whl.zip]
+[2023-06-29 16:09:53] INFO root fetch - main [MainThread]: End processing [xia-engine-firestore]: success
+[2023-06-29 16:09:53] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/7b/61/ddca034c4361fee11dcdda19fa1b1f00eda17305d4f061a50aa6389b41b9/fsrs4anki_optimizer-3.25.6.tar.gz
+[2023-06-29 16:09:53] INFO root fetch - processPackages [python-ics]: Downloading https://files.pythonhosted.org/packages/b4/be/e7339f88dcc3dfef5cef15fb8f54d7c6a1ece4ae1ee7fa0283afd5b2844b/python_ics-912.4-cp39-cp39-win_amd64.whl
+[2023-06-29 16:09:53] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Remove: archive file [/home/abi/fetcher/tmp/redhat_qe_cloud_tools-1.0.7.tar.gz]
+[2023-06-29 16:09:53] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Remove: archive file [/home/abi/fetcher/tmp/redhat_qe_cloud_tools-1.0.8.tar.gz]
+[2023-06-29 16:09:53] INFO root fetch - main [MainThread]: End processing [redhat-qe-cloud-tools]: success
+[2023-06-29 16:09:54] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/d3/7e/eb1c9c18e93b6eb51fe2f9222ff60fdcf666c10133cf2631b93b40c699f5/fsrs4anki_optimizer-3.25.7.tar.gz
+[2023-06-29 16:09:54] INFO root fetch - processPackages [python-ics]: executing diffoscope
+[2023-06-29 16:09:54] INFO root fetch - processPackages [python-ics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_ics-911.12-cp39-cp39-win_amd64.whl.zip tmp/python_ics-912.4-cp39-cp39-win_amd64.whl.zip --markdown 20230629/p/python-ics/911.12-912.4/diff.md --exclude *.pyd
+[2023-06-29 16:09:54] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.2.7.tar.gz]
+[2023-06-29 16:09:54] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.2.8.tar.gz]
+[2023-06-29 16:09:54] INFO root fetch - main [MainThread]: End processing [rosetta-ce]: success
+[2023-06-29 16:09:54] INFO root fetch - processPackages [fsrs4anki-optimizer]: executing diffoscope
+[2023-06-29 16:09:54] INFO root fetch - processPackages [fsrs4anki-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsrs4anki_optimizer-3.25.6.tar.gz tmp/fsrs4anki_optimizer-3.25.7.tar.gz --markdown 20230629/f/fsrs4anki-optimizer/3.25.6-3.25.7/diff.md --exclude *.pyd
+[2023-06-29 16:09:54] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2023.6.8.tar.gz]
+[2023-06-29 16:09:54] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2023.6.9.tar.gz]
+[2023-06-29 16:09:54] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2023-06-29 16:09:54] INFO root fetch - processPackages [scReGAT]: Remove: archive file [/home/abi/fetcher/tmp/scReGAT-0.0.2.tar.gz]
+[2023-06-29 16:09:54] INFO root fetch - processPackages [scReGAT]: Remove: archive file [/home/abi/fetcher/tmp/scReGAT-0.0.3.tar.gz]
+[2023-06-29 16:09:54] INFO root fetch - main [MainThread]: End processing [scReGAT]: success
+[2023-06-29 16:09:54] INFO root fetch - processPackages [blockit]: Remove: archive file [/home/abi/fetcher/tmp/blockit-0.0.0.tar.gz]
+[2023-06-29 16:09:54] INFO root fetch - processPackages [blockit]: Remove: archive file [/home/abi/fetcher/tmp/blockit-0.0.1.tar.gz]
+[2023-06-29 16:09:54] INFO root fetch - main [MainThread]: End processing [blockit]: success
+[2023-06-29 16:09:55] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-3.25.6.tar.gz]
+[2023-06-29 16:09:55] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-3.25.7.tar.gz]
+[2023-06-29 16:09:55] INFO root fetch - main [MainThread]: End processing [fsrs4anki-optimizer]: success
+[2023-06-29 16:09:55] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev76.tar.gz]
+[2023-06-29 16:09:55] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev8.tar.gz]
+[2023-06-29 16:09:55] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2023-06-29 16:09:56] INFO root fetch - processPackages [python-ics]: Remove: archive file [/home/abi/fetcher/tmp/python_ics-911.12-cp39-cp39-win_amd64.whl.zip]
+[2023-06-29 16:09:56] INFO root fetch - processPackages [python-ics]: Remove: archive file [/home/abi/fetcher/tmp/python_ics-912.4-cp39-cp39-win_amd64.whl.zip]
+[2023-06-29 16:09:56] INFO root fetch - main [MainThread]: End processing [python-ics]: success
+[2023-06-29 16:10:01] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202306261401.tar.gz]
+[2023-06-29 16:10:01] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202306291403.tar.gz]
+[2023-06-29 16:10:01] INFO root fetch - main [MainThread]: End processing [fastestimator-nightly]: success
+[2023-06-29 16:10:01] INFO root fetch - main [MainThread]: Store serial: [18696150]
