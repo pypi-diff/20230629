@@ -9121,3 +9121,133 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 14:00:40] INFO root fetch - processPackages [nomad-camels]: Remove: archive file [/home/abi/fetcher/tmp/nomad_camels-0.1.2.tar.gz]
 [2023-06-29 14:00:40] INFO root fetch - main [MainThread]: End processing [nomad-camels]: success
 [2023-06-29 14:00:40] INFO root fetch - main [MainThread]: Store serial: [18694578]
+[2023-06-29 14:05:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18694578]
+[2023-06-29 14:05:49] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-29 14:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-sizefield
+[2023-06-29 14:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: strawberry-django-pubsub
+[2023-06-29 14:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: duckdb
+[2023-06-29 14:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skip-developers-chamber
+[2023-06-29 14:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netdoc
+[2023-06-29 14:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edir
+[2023-06-29 14:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo13-addon-ddmrp
+[2023-06-29 14:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iolocker
+[2023-06-29 14:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pydaikin
+[2023-06-29 14:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nvidia-dali-tf-plugin-nightly-cuda110
+[2023-06-29 14:05:49] WARNING root fetch - processPackages [skip-developers-chamber]: Skipping, unable to determine old version
+[2023-06-29 14:05:49] INFO root fetch - processPackages [skip-developers-chamber]: Start processing: goc
+[2023-06-29 14:05:49] INFO root fetch - main [MainThread]: End processing [skip-developers-chamber] error
+[2023-06-29 14:05:49] INFO root fetch - processPackages [django-sizefield]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-29 14:05:49] INFO root fetch - processPackages [iolocker]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-29 14:05:49] INFO root fetch - processPackages [strawberry-django-pubsub]: New version: [0.0.7a0] Old Version: [0.0.6a0]
+[2023-06-29 14:05:49] INFO root fetch - processPackages [edir]: New version: [2.9.1] Old Version: [2.9]
+[2023-06-29 14:05:49] INFO root fetch - processPackages [netdoc]: New version: [0.9.71] Old Version: [0.9.70]
+[2023-06-29 14:05:49] INFO root fetch - processPackages [odoo13-addon-ddmrp]: New version: [13.0.1.9.1.dev1] Old Version: [13.0.1.9.0]
+[2023-06-29 14:05:49] INFO root fetch - processPackages [pydaikin]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-06-29 14:05:49] INFO root fetch - processPackages [duckdb]: New version: [0.8.2.dev157] Old Version: [0.8.2.dev150]
+[2023-06-29 14:05:49] WARNING root fetch - processPackages [goc]: Skipping, unable to determine old version
+[2023-06-29 14:05:49] INFO root fetch - processPackages [goc]: Start processing: mkdocs-toc-md
+[2023-06-29 14:05:49] INFO root fetch - main [MainThread]: End processing [goc] error
+[2023-06-29 14:05:49] INFO root fetch - processPackages [mkdocs-toc-md]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-29 14:05:49] INFO root fetch - processPackages [netdoc]: Downloading https://files.pythonhosted.org/packages/f2/ef/1d391989d1fcf09c8c91936ac38fc2ecb4b2432ab959707ae3761c31002a/netdoc-0.9.70.tar.gz
+[2023-06-29 14:05:49] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: New version: [1.28.0.dev20230628] Old Version: [1.28.0.dev20230623]
+[2023-06-29 14:05:49] INFO root fetch - processPackages [pydaikin]: Downloading https://files.pythonhosted.org/packages/e2/88/0631f9d803cd3199e583608206108a145ee541fc58b4920077e9353df088/pydaikin-2.9.0.tar.gz
+[2023-06-29 14:05:49] INFO root fetch - processPackages [django-sizefield]: Downloading https://files.pythonhosted.org/packages/55/aa/bb2f7d3517bf2ce52f42ae6309d534ff959296d752c602a61ec45d68cbcc/django-sizefield-2.0.0.tar.gz
+[2023-06-29 14:05:49] INFO root fetch - processPackages [iolocker]: Downloading https://files.pythonhosted.org/packages/96/73/536640b1098f089871e42a0df6b9c59d4ea4e54fbd2324bddd62ac369b93/iolocker-1.0.1.tar.gz
+[2023-06-29 14:05:49] INFO root fetch - processPackages [odoo13-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/dc/95/950a4a2a5a258222e5237488d199eb7d07de47b5f5c6474af8b60e6a7a69/odoo13_addon_ddmrp-13.0.1.9.0-py3-none-any.whl
+[2023-06-29 14:05:49] INFO root fetch - processPackages [edir]: Downloading https://files.pythonhosted.org/packages/c3/c7/4bc9c5b81b8615ac27cafe90feab04ab1ac9e8f0ed217e5be999daa0d51e/edir-2.9.tar.gz
+[2023-06-29 14:05:49] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/e1/98/4ec2c3c95b44b4107b53860a4df86fd741d1a958baced740d3d68ecd97ee/duckdb-0.8.2.dev150-cp39-cp39-win_amd64.whl
+[2023-06-29 14:05:49] INFO root fetch - processPackages [strawberry-django-pubsub]: Downloading https://files.pythonhosted.org/packages/00/90/5bec30bde15fa4141d708bed3a5acdb3fdcd27acdc6ed579281d23d42415/strawberry_django_pubsub-0.0.7a0.tar.gz
+[2023-06-29 14:05:49] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/7e/b0/b0678082c47e1d7b7ecbc8b27eb66e5f928fa00ab12ee13fa1a16a529af5/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230623.tar.gz
+[2023-06-29 14:05:49] INFO root fetch - processPackages [mkdocs-toc-md]: Downloading https://files.pythonhosted.org/packages/23/c6/ab1cf1517f8cff7482e05b9b591230a6400b75b882dc50eadfd0a4b9776f/mkdocs-toc-md-0.0.7.tar.gz
+[2023-06-29 14:05:49] INFO root fetch - processPackages [django-sizefield]: Downloading https://files.pythonhosted.org/packages/e6/f0/c36b08e1f872449075963b370e70d5c4d4ecaf22fbd06c8424965a562d6d/django-sizefield-2.1.0.tar.gz
+[2023-06-29 14:05:50] INFO root fetch - processPackages [strawberry-django-pubsub]: executing diffoscope
+[2023-06-29 14:05:50] INFO root fetch - processPackages [strawberry-django-pubsub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry_django_pubsub-0.0.6a0.tar.gz tmp/strawberry_django_pubsub-0.0.7a0.tar.gz --markdown 20230629/s/strawberry-django-pubsub/0.0.6a0-0.0.7a0/diff.md --exclude *.pyd
+[2023-06-29 14:05:50] INFO root fetch - processPackages [pydaikin]: Downloading https://files.pythonhosted.org/packages/d7/9a/48b5098f0b08ea5787259050de846b8dbff99f1e2255d548aaf42bf9e4bb/pydaikin-2.9.1.tar.gz
+[2023-06-29 14:05:50] INFO root fetch - processPackages [django-sizefield]: executing diffoscope
+[2023-06-29 14:05:50] INFO root fetch - processPackages [django-sizefield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sizefield-2.0.0.tar.gz tmp/django-sizefield-2.1.0.tar.gz --markdown 20230629/d/django-sizefield/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-29 14:05:50] INFO root fetch - processPackages [iolocker]: Downloading https://files.pythonhosted.org/packages/e4/05/278d9df466c9bbd7a565e77d74a4ca0bde85c094c5688fac5a6ad591ae84/iolocker-1.1.0.tar.gz
+[2023-06-29 14:05:50] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/0d/7f/950499175aba724580b7f436fe26004c7a74c2b8a94a78db429143c2487b/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230628.tar.gz
+[2023-06-29 14:05:50] INFO root fetch - processPackages [edir]: Downloading https://files.pythonhosted.org/packages/bf/fa/60c088f766d0e4e431a27ad0b4d302389c5774c309d1aaec3e1b74bf3b5d/edir-2.9.1.tar.gz
+[2023-06-29 14:05:50] INFO root fetch - processPackages [pydaikin]: executing diffoscope
+[2023-06-29 14:05:50] INFO root fetch - processPackages [pydaikin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydaikin-2.9.0.tar.gz tmp/pydaikin-2.9.1.tar.gz --markdown 20230629/p/pydaikin/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-06-29 14:05:50] INFO root fetch - processPackages [odoo13-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/5a/f1/e682a43d6521ca41456243a79d1e5d7102f586e0b44f357ad5a1b8a40965/odoo13_addon_ddmrp-13.0.1.9.1.dev1-py3-none-any.whl
+[2023-06-29 14:05:50] INFO root fetch - processPackages [iolocker]: executing diffoscope
+[2023-06-29 14:05:50] INFO root fetch - processPackages [iolocker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iolocker-1.0.1.tar.gz tmp/iolocker-1.1.0.tar.gz --markdown 20230629/i/iolocker/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-29 14:05:50] INFO root fetch - processPackages [mkdocs-toc-md]: Downloading https://files.pythonhosted.org/packages/7d/a0/106d00d007c59bb78466d8ace6c35a3dd65523773f6e64b53b740049e105/mkdocs-toc-md-0.0.8.tar.gz
+[2023-06-29 14:05:50] INFO root fetch - processPackages [netdoc]: Downloading https://files.pythonhosted.org/packages/c5/bc/813dccd0af76852b3fea6f6f9ba3ebc578c1efa3980ff3e4676ac88f2077/netdoc-0.9.71.tar.gz
+[2023-06-29 14:05:50] INFO root fetch - processPackages [edir]: executing diffoscope
+[2023-06-29 14:05:50] INFO root fetch - processPackages [edir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edir-2.9.tar.gz tmp/edir-2.9.1.tar.gz --markdown 20230629/e/edir/2.9-2.9.1/diff.md --exclude *.pyd
+[2023-06-29 14:05:50] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: executing diffoscope
+[2023-06-29 14:05:50] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230623.tar.gz tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230628.tar.gz --markdown 20230629/n/nvidia-dali-tf-plugin-nightly-cuda110/1.28.0.dev20230623-1.28.0.dev20230628/diff.md --exclude *.pyd
+[2023-06-29 14:05:50] INFO root fetch - processPackages [mkdocs-toc-md]: executing diffoscope
+[2023-06-29 14:05:50] INFO root fetch - processPackages [mkdocs-toc-md]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-toc-md-0.0.7.tar.gz tmp/mkdocs-toc-md-0.0.8.tar.gz --markdown 20230629/m/mkdocs-toc-md/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-29 14:05:50] INFO root fetch - processPackages [netdoc]: executing diffoscope
+[2023-06-29 14:05:50] INFO root fetch - processPackages [netdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netdoc-0.9.70.tar.gz tmp/netdoc-0.9.71.tar.gz --markdown 20230629/n/netdoc/0.9.70-0.9.71/diff.md --exclude *.pyd
+[2023-06-29 14:05:50] INFO root fetch - processPackages [odoo13-addon-ddmrp]: executing diffoscope
+[2023-06-29 14:05:50] INFO root fetch - processPackages [odoo13-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_ddmrp-13.0.1.9.0-py3-none-any.whl.zip tmp/odoo13_addon_ddmrp-13.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20230629/o/odoo13-addon-ddmrp/13.0.1.9.0-13.0.1.9.1.dev1/diff.md --exclude *.pyd
+[2023-06-29 14:05:50] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/24/61/cd17083a37703d6ce9aa03e295e46c4a010d5ec5292df9c710ea02e75032/duckdb-0.8.2.dev157.tar.gz
+[2023-06-29 14:05:50] INFO root fetch - processPackages [duckdb]: executing diffoscope
+[2023-06-29 14:05:50] INFO root fetch - processPackages [duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckdb-0.8.2.dev150-cp39-cp39-win_amd64.whl.zip tmp/duckdb-0.8.2.dev157.tar.gz --markdown 20230629/d/duckdb/0.8.2.dev150-0.8.2.dev157/diff.md --exclude *.pyd
+[2023-06-29 14:05:51] INFO root fetch - processPackages [strawberry-django-pubsub]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_pubsub-0.0.6a0.tar.gz]
+[2023-06-29 14:05:51] INFO root fetch - processPackages [strawberry-django-pubsub]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_pubsub-0.0.7a0.tar.gz]
+[2023-06-29 14:05:51] INFO root fetch - processPackages [strawberry-django-pubsub]: Start processing: nvidia-dali-nightly-cuda110
+[2023-06-29 14:05:51] INFO root fetch - main [MainThread]: End processing [strawberry-django-pubsub]: success
+[2023-06-29 14:05:51] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: New version: [1.28.0.dev20230628] Old Version: [1.28.0.dev20230623]
+[2023-06-29 14:05:51] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230623.tar.gz]
+[2023-06-29 14:05:51] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230628.tar.gz]
+[2023-06-29 14:05:51] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Start processing: qsi-tk
+[2023-06-29 14:05:51] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda110]: success
+[2023-06-29 14:05:51] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/73/c1/5ab3920592678d6211cd5dcd4b38e806a8f24d3ae671e8239fc2d2c38bc7/nvidia-dali-nightly-cuda110-1.28.0.dev20230623.tar.gz
+[2023-06-29 14:05:51] INFO root fetch - processPackages [django-sizefield]: Remove: archive file [/home/abi/fetcher/tmp/django-sizefield-2.0.0.tar.gz]
+[2023-06-29 14:05:51] INFO root fetch - processPackages [django-sizefield]: Remove: archive file [/home/abi/fetcher/tmp/django-sizefield-2.1.0.tar.gz]
+[2023-06-29 14:05:51] INFO root fetch - processPackages [django-sizefield]: Start processing: isystem.connect
+[2023-06-29 14:05:51] INFO root fetch - main [MainThread]: End processing [django-sizefield]: success
+[2023-06-29 14:05:51] INFO root fetch - processPackages [qsi-tk]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-29 14:05:51] INFO root fetch - processPackages [iolocker]: Remove: archive file [/home/abi/fetcher/tmp/iolocker-1.0.1.tar.gz]
+[2023-06-29 14:05:51] INFO root fetch - processPackages [iolocker]: Remove: archive file [/home/abi/fetcher/tmp/iolocker-1.1.0.tar.gz]
+[2023-06-29 14:05:51] INFO root fetch - processPackages [iolocker]: Start processing: urban.restapi
+[2023-06-29 14:05:51] INFO root fetch - main [MainThread]: End processing [iolocker]: success
+[2023-06-29 14:05:52] INFO root fetch - processPackages [urban.restapi]: New version: [1.0a1] Old Version: [1.0.0b1]
+[2023-06-29 14:05:52] INFO root fetch - processPackages [qsi-tk]: Downloading https://files.pythonhosted.org/packages/09/2f/b0c47342b91ded81cf8f341fa4d84be8f33afa4d76723468fd89261ee936/qsi-tk-0.5.2.tar.gz
+[2023-06-29 14:05:52] INFO root fetch - processPackages [mkdocs-toc-md]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-toc-md-0.0.7.tar.gz]
+[2023-06-29 14:05:52] INFO root fetch - processPackages [mkdocs-toc-md]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-toc-md-0.0.8.tar.gz]
+[2023-06-29 14:05:52] INFO root fetch - main [MainThread]: End processing [mkdocs-toc-md]: success
+[2023-06-29 14:05:52] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/19/d2/249370739457f35ea583b256f8aea1f8167b2cf36671ed96569c2e0c744a/nvidia-dali-nightly-cuda110-1.28.0.dev20230628.tar.gz
+[2023-06-29 14:05:52] INFO root fetch - processPackages [edir]: Remove: archive file [/home/abi/fetcher/tmp/edir-2.9.tar.gz]
+[2023-06-29 14:05:52] INFO root fetch - processPackages [edir]: Remove: archive file [/home/abi/fetcher/tmp/edir-2.9.1.tar.gz]
+[2023-06-29 14:05:52] INFO root fetch - main [MainThread]: End processing [edir]: success
+[2023-06-29 14:05:52] INFO root fetch - processPackages [urban.restapi]: Downloading https://files.pythonhosted.org/packages/dd/d1/77bd77f6bd87fcd4f27ad77eee80efa8bb8f5e7de5c78897d885ba6904e8/urban.restapi-1.0.0b1.tar.gz
+[2023-06-29 14:05:52] INFO root fetch - processPackages [pydaikin]: Remove: archive file [/home/abi/fetcher/tmp/pydaikin-2.9.0.tar.gz]
+[2023-06-29 14:05:52] INFO root fetch - processPackages [pydaikin]: Remove: archive file [/home/abi/fetcher/tmp/pydaikin-2.9.1.tar.gz]
+[2023-06-29 14:05:52] INFO root fetch - main [MainThread]: End processing [pydaikin]: success
+[2023-06-29 14:05:52] WARNING root fetch - processPackages [qsi-tk]: Skipping package: exceeds size limit 58249005>=10485760
+[2023-06-29 14:05:52] INFO root fetch - main [MainThread]: End processing [qsi-tk] error
+[2023-06-29 14:05:52] INFO root fetch - processPackages [isystem.connect]: New version: [9.21.99.0] Old Version: [9.21.98.0]
+[2023-06-29 14:05:52] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: executing diffoscope
+[2023-06-29 14:05:52] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-nightly-cuda110-1.28.0.dev20230623.tar.gz tmp/nvidia-dali-nightly-cuda110-1.28.0.dev20230628.tar.gz --markdown 20230629/n/nvidia-dali-nightly-cuda110/1.28.0.dev20230623-1.28.0.dev20230628/diff.md --exclude *.pyd
+[2023-06-29 14:05:52] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/5d/9f/30b1143a09e60e7a4ac2753bf53d1a1dd6b6de276c7b3b3141d9acc535c7/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl
+[2023-06-29 14:05:52] INFO root fetch - processPackages [urban.restapi]: Downloading https://files.pythonhosted.org/packages/69/08/abde8a3ca0a7009bbd5abc600709fec1c9e7e786bab25d4c38042b9d51e8/urban.restapi-1.0a1.tar.gz
+[2023-06-29 14:05:52] INFO root fetch - processPackages [odoo13-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_ddmrp-13.0.1.9.0-py3-none-any.whl.zip]
+[2023-06-29 14:05:52] INFO root fetch - processPackages [odoo13-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_ddmrp-13.0.1.9.1.dev1-py3-none-any.whl.zip]
+[2023-06-29 14:05:52] INFO root fetch - main [MainThread]: End processing [odoo13-addon-ddmrp]: success
+[2023-06-29 14:05:52] INFO root fetch - processPackages [urban.restapi]: executing diffoscope
+[2023-06-29 14:05:52] INFO root fetch - processPackages [urban.restapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urban.restapi-1.0.0b1.tar.gz tmp/urban.restapi-1.0a1.tar.gz --markdown 20230629/u/urban.restapi/1.0.0b1-1.0a1/diff.md --exclude *.pyd
+[2023-06-29 14:05:52] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/27/b1/d981879b837518117ae5b16714ad63be1c2b0214805deb0eac63c5cd22f9/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl
+[2023-06-29 14:05:53] INFO root fetch - processPackages [isystem.connect]: executing diffoscope
+[2023-06-29 14:05:53] INFO root fetch - processPackages [isystem.connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip --markdown 20230629/i/isystem.connect/9.21.98.0-9.21.99.0/diff.md --exclude *.pyd
+[2023-06-29 14:05:53] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda110-1.28.0.dev20230623.tar.gz]
+[2023-06-29 14:05:53] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda110-1.28.0.dev20230628.tar.gz]
+[2023-06-29 14:05:53] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda110]: success
+[2023-06-29 14:05:53] INFO root fetch - processPackages [netdoc]: Remove: archive file [/home/abi/fetcher/tmp/netdoc-0.9.70.tar.gz]
+[2023-06-29 14:05:53] INFO root fetch - processPackages [netdoc]: Remove: archive file [/home/abi/fetcher/tmp/netdoc-0.9.71.tar.gz]
+[2023-06-29 14:05:53] INFO root fetch - main [MainThread]: End processing [netdoc]: success
+[2023-06-29 14:05:53] INFO root fetch - processPackages [urban.restapi]: Remove: archive file [/home/abi/fetcher/tmp/urban.restapi-1.0.0b1.tar.gz]
+[2023-06-29 14:05:53] INFO root fetch - processPackages [urban.restapi]: Remove: archive file [/home/abi/fetcher/tmp/urban.restapi-1.0a1.tar.gz]
+[2023-06-29 14:05:53] INFO root fetch - main [MainThread]: End processing [urban.restapi]: success
+[2023-06-29 14:05:54] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip]
+[2023-06-29 14:05:54] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip]
+[2023-06-29 14:05:54] INFO root fetch - main [MainThread]: End processing [isystem.connect]: success
+[2023-06-29 14:06:05] INFO root fetch - processPackages [duckdb]: Remove: archive file [/home/abi/fetcher/tmp/duckdb-0.8.2.dev150-cp39-cp39-win_amd64.whl.zip]
+[2023-06-29 14:06:05] INFO root fetch - processPackages [duckdb]: Remove: archive file [/home/abi/fetcher/tmp/duckdb-0.8.2.dev157.tar.gz]
+[2023-06-29 14:06:05] INFO root fetch - main [MainThread]: End processing [duckdb]: success
+[2023-06-29 14:06:05] INFO root fetch - main [MainThread]: Store serial: [18694625]
