@@ -23296,3 +23296,219 @@ EOFError: EOF read where object expected
 [2023-06-29 22:52:55] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.345.9.tar.gz]
 [2023-06-29 22:52:55] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-06-29 22:52:55] INFO root fetch - main [MainThread]: Store serial: [18700652]
+[2023-06-29 22:58:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18700652]
+[2023-06-29 22:58:05] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-06-29 22:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dcicutils
+[2023-06-29 22:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xia-logger
+[2023-06-29 22:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abm-initialization-collection
+[2023-06-29 22:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nics
+[2023-06-29 22:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xia-logger-gcp
+[2023-06-29 22:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ollama
+[2023-06-29 22:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xia-logger-pubsub
+[2023-06-29 22:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xia-login-flask
+[2023-06-29 22:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-airplane
+[2023-06-29 22:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xia-mail-sender
+[2023-06-29 22:58:05] INFO root fetch - processPackages [xia-logger-gcp]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-29 22:58:05] INFO root fetch - processPackages [abm-initialization-collection]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-29 22:58:05] INFO root fetch - processPackages [ollama]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-29 22:58:05] INFO root fetch - processPackages [xia-login-flask]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-29 22:58:05] INFO root fetch - processPackages [xia-mail-sender]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-29 22:58:05] INFO root fetch - processPackages [nics]: New version: [1.0.0rc7] Old Version: [1.0.0rc6]
+[2023-06-29 22:58:05] INFO root fetch - processPackages [django-airplane]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-29 22:58:05] INFO root fetch - processPackages [xia-logger-pubsub]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-29 22:58:05] INFO root fetch - processPackages [xia-logger]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-29 22:58:05] INFO root fetch - processPackages [dcicutils]: New version: [7.6.0.1b4] Old Version: [7.6.0.1b1]
+[2023-06-29 22:58:05] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/08/79/e5fc4157d6cde7ae946f4c3c388c03b8602c87c693030fa325a011467a87/nics-1.0.0rc6.tar.gz
+[2023-06-29 22:58:05] INFO root fetch - processPackages [xia-logger-gcp]: Downloading https://files.pythonhosted.org/packages/9d/c2/2b558faa1d75f7041d4b0ff781f5e13e1f69b354239f91054c407d60ff7e/xia_logger_gcp-0.1.1-cp39-none-win_amd64.whl
+[2023-06-29 22:58:05] INFO root fetch - processPackages [ollama]: Downloading https://files.pythonhosted.org/packages/14/24/aae660a95637d567520f74006e93a603777b1668077ee1bddac9f7003cdf/ollama-0.0.3.tar.gz
+[2023-06-29 22:58:05] INFO root fetch - processPackages [django-airplane]: Downloading https://files.pythonhosted.org/packages/8e/ed/03a711d352f1efc29ceb15c09b4b4de805e704954ac7ab21b31fa127889d/django-airplane-1.1.0.tar.gz
+[2023-06-29 22:58:05] INFO root fetch - processPackages [abm-initialization-collection]: Downloading https://files.pythonhosted.org/packages/d8/25/c87b234bff639214f9bba5a099b93f650295dbd076c4a51ffa1d0fe8dbed/abm_initialization_collection-0.5.0.tar.gz
+[2023-06-29 22:58:05] INFO root fetch - processPackages [xia-login-flask]: Downloading https://files.pythonhosted.org/packages/0f/4f/6430511321d3760f99d3ed39c8925362ed36af8490f16bd17268db222382/xia_login_flask-0.2.7-cp39-none-win_amd64.whl
+[2023-06-29 22:58:05] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/3b/e3/b97bf810830836ff2cdbcf22ae08cdaaa9024ccad223b53d06f08d869990/dcicutils-7.6.0.1b1.tar.gz
+[2023-06-29 22:58:05] INFO root fetch - processPackages [xia-mail-sender]: Downloading https://files.pythonhosted.org/packages/9b/78/ea85af1d161fc717a14bbb70bcbce210ef4bec52964728ea50013c9725c6/xia_mail_sender-0.1.0-cp39-none-win_amd64.whl
+[2023-06-29 22:58:05] INFO root fetch - processPackages [xia-logger-pubsub]: Downloading https://files.pythonhosted.org/packages/f5/5e/1f3f44b12e21f69c2035b124d5b89de88b6bf64de4bacf81f26df26258f9/xia_logger_pubsub-0.1.1-cp39-none-win_amd64.whl
+[2023-06-29 22:58:05] INFO root fetch - processPackages [xia-logger]: Downloading https://files.pythonhosted.org/packages/f6/2f/281e978132d9a0de4dc2d6a606ad9cd6fcf3acd2d9af629c7034bf8734e4/xia_logger-0.1.2-cp39-none-win_amd64.whl
+[2023-06-29 22:58:05] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/36/6c/860201ed1a95358fe74444b31fbf7136036b749611bea2c4cba20d01fd28/nics-1.0.0rc7.tar.gz
+[2023-06-29 22:58:05] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-06-29 22:58:05] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-1.0.0rc6.tar.gz tmp/nics-1.0.0rc7.tar.gz --markdown 20230629/n/nics/1.0.0rc6-1.0.0rc7/diff.md --exclude *.pyd
+[2023-06-29 22:58:05] INFO root fetch - processPackages [xia-logger-gcp]: Downloading https://files.pythonhosted.org/packages/d5/ba/17630aaa686d19f5b826a29816befbea91d9373dc8d6dd75a7cdb7f2997b/xia_logger_gcp-0.1.2-cp39-none-win_amd64.whl
+[2023-06-29 22:58:05] INFO root fetch - processPackages [ollama]: Downloading https://files.pythonhosted.org/packages/02/3e/64f060b6709c8dcf463140263d42f19d2c591ae27a65eedccfd6bf9381fd/ollama-0.0.4.tar.gz
+[2023-06-29 22:58:05] INFO root fetch - processPackages [xia-mail-sender]: Downloading https://files.pythonhosted.org/packages/7a/fb/b98973e3d03f4d6246abce79fa633a0b488e33e88527c55b08ec3c68ac48/xia_mail_sender-0.1.1-cp39-none-win_amd64.whl
+[2023-06-29 22:58:05] INFO root fetch - processPackages [abm-initialization-collection]: Downloading https://files.pythonhosted.org/packages/eb/43/7dc5a196ce453989c3961ee115d892ee7aa5e228a6febe3fd98854c4cd9a/abm_initialization_collection-0.5.1.tar.gz
+[2023-06-29 22:58:05] INFO root fetch - processPackages [django-airplane]: Downloading https://files.pythonhosted.org/packages/3b/81/8de68b6729b8388acf30d2d24abb12ca91f09611c1c0a9d70ea742557070/django-airplane-1.1.1.tar.gz
+[2023-06-29 22:58:05] INFO root fetch - processPackages [xia-login-flask]: Downloading https://files.pythonhosted.org/packages/53/62/263e9f22448d3998efb735b029b2c9651f5a29057029fd974e6638b83d24/xia_login_flask-0.2.8-cp39-none-win_amd64.whl
+[2023-06-29 22:58:05] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/ed/f4/4d16c1be90d619726d54a45a1154f3573bb50e83343ab4bbebd81d778e81/dcicutils-7.6.0.1b4.tar.gz
+[2023-06-29 22:58:05] INFO root fetch - processPackages [xia-logger-pubsub]: Downloading https://files.pythonhosted.org/packages/10/07/97b7228df0b50eb3cb19a25177c9d118295d0c88e2d2776d85929e0b4667/xia_logger_pubsub-0.1.2-cp39-none-win_amd64.whl
+[2023-06-29 22:58:05] INFO root fetch - processPackages [ollama]: executing diffoscope
+[2023-06-29 22:58:05] INFO root fetch - processPackages [ollama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ollama-0.0.3.tar.gz tmp/ollama-0.0.4.tar.gz --markdown 20230629/o/ollama/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-29 22:58:05] INFO root fetch - processPackages [django-airplane]: executing diffoscope
+[2023-06-29 22:58:05] INFO root fetch - processPackages [django-airplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-airplane-1.1.0.tar.gz tmp/django-airplane-1.1.1.tar.gz --markdown 20230629/d/django-airplane/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-29 22:58:05] INFO root fetch - processPackages [abm-initialization-collection]: executing diffoscope
+[2023-06-29 22:58:05] INFO root fetch - processPackages [abm-initialization-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abm_initialization_collection-0.5.0.tar.gz tmp/abm_initialization_collection-0.5.1.tar.gz --markdown 20230629/a/abm-initialization-collection/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-29 22:58:05] INFO root fetch - processPackages [xia-logger-gcp]: executing diffoscope
+[2023-06-29 22:58:05] INFO root fetch - processPackages [xia-logger-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_logger_gcp-0.1.1-cp39-none-win_amd64.whl.zip tmp/xia_logger_gcp-0.1.2-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-logger-gcp/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-29 22:58:05] INFO root fetch - processPackages [xia-logger]: Downloading https://files.pythonhosted.org/packages/3d/43/32326366700540ab5232dda50c2674a2ca1f2117a80c235db4354a4eb88e/xia_logger-0.1.3-cp39-none-win_amd64.whl
+[2023-06-29 22:58:05] INFO root fetch - processPackages [xia-mail-sender]: executing diffoscope
+[2023-06-29 22:58:05] INFO root fetch - processPackages [xia-mail-sender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_mail_sender-0.1.0-cp39-none-win_amd64.whl.zip tmp/xia_mail_sender-0.1.1-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-mail-sender/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-29 22:58:05] INFO root fetch - processPackages [xia-login-flask]: executing diffoscope
+[2023-06-29 22:58:05] INFO root fetch - processPackages [xia-login-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_login_flask-0.2.7-cp39-none-win_amd64.whl.zip tmp/xia_login_flask-0.2.8-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-login-flask/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-29 22:58:05] INFO root fetch - processPackages [xia-logger]: executing diffoscope
+[2023-06-29 22:58:05] INFO root fetch - processPackages [xia-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_logger-0.1.2-cp39-none-win_amd64.whl.zip tmp/xia_logger-0.1.3-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-logger/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-29 22:58:05] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2023-06-29 22:58:05] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-7.6.0.1b1.tar.gz tmp/dcicutils-7.6.0.1b4.tar.gz --markdown 20230629/d/dcicutils/7.6.0.1b1-7.6.0.1b4/diff.md --exclude *.pyd
+[2023-06-29 22:58:05] INFO root fetch - processPackages [xia-logger-pubsub]: executing diffoscope
+[2023-06-29 22:58:05] INFO root fetch - processPackages [xia-logger-pubsub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_logger_pubsub-0.1.1-cp39-none-win_amd64.whl.zip tmp/xia_logger_pubsub-0.1.2-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-logger-pubsub/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-29 22:58:07] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-1.0.0rc6.tar.gz]
+[2023-06-29 22:58:07] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-1.0.0rc7.tar.gz]
+[2023-06-29 22:58:07] INFO root fetch - processPackages [nics]: Start processing: xia-mail
+[2023-06-29 22:58:07] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-06-29 22:58:07] INFO root fetch - processPackages [xia-mail]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-29 22:58:07] INFO root fetch - processPackages [ollama]: Remove: archive file [/home/abi/fetcher/tmp/ollama-0.0.3.tar.gz]
+[2023-06-29 22:58:07] INFO root fetch - processPackages [ollama]: Remove: archive file [/home/abi/fetcher/tmp/ollama-0.0.4.tar.gz]
+[2023-06-29 22:58:07] INFO root fetch - processPackages [ollama]: Start processing: odoo-addon-product-pricelist-supplierinfo
+[2023-06-29 22:58:07] INFO root fetch - main [MainThread]: End processing [ollama]: success
+[2023-06-29 22:58:07] INFO root fetch - processPackages [xia-mail]: Downloading https://files.pythonhosted.org/packages/e1/ef/44cd949eb26a59dda7ce0a4e82cb0b397f0b22c5990af8af124a8f6badec/xia_mail-0.1.0-cp39-none-win_amd64.whl
+[2023-06-29 22:58:07] INFO root fetch - processPackages [odoo-addon-product-pricelist-supplierinfo]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.2]
+[2023-06-29 22:58:07] INFO root fetch - processPackages [xia-mail-sender]: Remove: archive file [/home/abi/fetcher/tmp/xia_mail_sender-0.1.0-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:58:07] INFO root fetch - processPackages [xia-mail-sender]: Remove: archive file [/home/abi/fetcher/tmp/xia_mail_sender-0.1.1-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:58:07] INFO root fetch - processPackages [xia-mail-sender]: Start processing: tuidbtv
+[2023-06-29 22:58:07] INFO root fetch - main [MainThread]: End processing [xia-mail-sender]: success
+[2023-06-29 22:58:07] WARNING root fetch - processPackages [tuidbtv]: Skipping, unable to determine old version
+[2023-06-29 22:58:07] INFO root fetch - processPackages [tuidbtv]: Start processing: naluconfigs
+[2023-06-29 22:58:07] INFO root fetch - main [MainThread]: End processing [tuidbtv] error
+[2023-06-29 22:58:07] INFO root fetch - processPackages [naluconfigs]: New version: [11.2.1] Old Version: [11.1.1]
+[2023-06-29 22:58:07] INFO root fetch - processPackages [xia-login-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_login_flask-0.2.7-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:58:07] INFO root fetch - processPackages [xia-login-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_login_flask-0.2.8-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:58:07] INFO root fetch - processPackages [xia-login-flask]: Start processing: xia-puller-flask
+[2023-06-29 22:58:07] INFO root fetch - main [MainThread]: End processing [xia-login-flask]: success
+[2023-06-29 22:58:07] INFO root fetch - processPackages [xia-puller-flask]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-29 22:58:07] INFO root fetch - processPackages [xia-logger]: Remove: archive file [/home/abi/fetcher/tmp/xia_logger-0.1.2-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:58:07] INFO root fetch - processPackages [xia-logger]: Remove: archive file [/home/abi/fetcher/tmp/xia_logger-0.1.3-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:58:07] INFO root fetch - processPackages [xia-logger]: Start processing: xia-models
+[2023-06-29 22:58:07] INFO root fetch - main [MainThread]: End processing [xia-logger]: success
+[2023-06-29 22:58:07] INFO root fetch - processPackages [xia-models]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-29 22:58:07] INFO root fetch - processPackages [xia-logger-pubsub]: Remove: archive file [/home/abi/fetcher/tmp/xia_logger_pubsub-0.1.1-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:58:07] INFO root fetch - processPackages [xia-logger-pubsub]: Remove: archive file [/home/abi/fetcher/tmp/xia_logger_pubsub-0.1.2-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:58:07] INFO root fetch - processPackages [xia-logger-pubsub]: Start processing: cfr
+[2023-06-29 22:58:07] INFO root fetch - main [MainThread]: End processing [xia-logger-pubsub]: success
+[2023-06-29 22:58:07] INFO root fetch - processPackages [xia-puller-flask]: Downloading https://files.pythonhosted.org/packages/29/75/92ab0fffc37cfc8d9730fa3ce32d2d7a6cea177246f6c598b74497a55ff9/xia_puller_flask-0.0.5-cp39-none-win_amd64.whl
+[2023-06-29 22:58:07] INFO root fetch - processPackages [odoo-addon-product-pricelist-supplierinfo]: Downloading https://files.pythonhosted.org/packages/e9/93/a30fb52c4a2cb677a3a26c5a03b3908cc57c09550dc09c5c854c74d7a492/odoo_addon_product_pricelist_supplierinfo-15.0.1.0.2-py3-none-any.whl
+[2023-06-29 22:58:07] INFO root fetch - processPackages [cfr]: New version: [2023.6.29] Old Version: [2023.6.28]
+[2023-06-29 22:58:07] INFO root fetch - processPackages [django-airplane]: Remove: archive file [/home/abi/fetcher/tmp/django-airplane-1.1.0.tar.gz]
+[2023-06-29 22:58:07] INFO root fetch - processPackages [django-airplane]: Remove: archive file [/home/abi/fetcher/tmp/django-airplane-1.1.1.tar.gz]
+[2023-06-29 22:58:07] INFO root fetch - processPackages [django-airplane]: Start processing: duplicated-image-cleaner
+[2023-06-29 22:58:07] INFO root fetch - main [MainThread]: End processing [django-airplane]: success
+[2023-06-29 22:58:07] INFO root fetch - processPackages [naluconfigs]: Downloading https://files.pythonhosted.org/packages/f9/b8/20ceb42e44be961b2ae52616120a15bae6318eaa20800d58b29705ce6deb/naluconfigs-11.1.1.tar.gz
+[2023-06-29 22:58:07] WARNING root fetch - processPackages [duplicated-image-cleaner]: Skipping, unable to determine old version
+[2023-06-29 22:58:07] INFO root fetch - processPackages [duplicated-image-cleaner]: Start processing: export-ease
+[2023-06-29 22:58:07] INFO root fetch - main [MainThread]: End processing [duplicated-image-cleaner] error
+[2023-06-29 22:58:07] INFO root fetch - processPackages [abm-initialization-collection]: Remove: archive file [/home/abi/fetcher/tmp/abm_initialization_collection-0.5.0.tar.gz]
+[2023-06-29 22:58:07] INFO root fetch - processPackages [abm-initialization-collection]: Remove: archive file [/home/abi/fetcher/tmp/abm_initialization_collection-0.5.1.tar.gz]
+[2023-06-29 22:58:07] INFO root fetch - processPackages [abm-initialization-collection]: Start processing: xia-pusher
+[2023-06-29 22:58:07] INFO root fetch - main [MainThread]: End processing [abm-initialization-collection]: success
+[2023-06-29 22:58:07] INFO root fetch - processPackages [xia-mail]: Downloading https://files.pythonhosted.org/packages/db/87/0776287cb47d9ba6b0aafe533c2222b28089ff3e7bfbe74e3b46ba05a6f2/xia_mail-0.1.1-cp39-none-win_amd64.whl
+[2023-06-29 22:58:07] INFO root fetch - processPackages [xia-pusher]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-29 22:58:07] INFO root fetch - processPackages [export-ease]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-29 22:58:07] INFO root fetch - processPackages [xia-logger-gcp]: Remove: archive file [/home/abi/fetcher/tmp/xia_logger_gcp-0.1.1-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:58:07] INFO root fetch - processPackages [xia-logger-gcp]: Remove: archive file [/home/abi/fetcher/tmp/xia_logger_gcp-0.1.2-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:58:07] INFO root fetch - processPackages [xia-logger-gcp]: Start processing: rubika
+[2023-06-29 22:58:07] INFO root fetch - main [MainThread]: End processing [xia-logger-gcp]: success
+[2023-06-29 22:58:07] INFO root fetch - processPackages [rubika]: New version: [6.6.9] Old Version: [6.6.8]
+[2023-06-29 22:58:07] INFO root fetch - processPackages [xia-models]: Downloading https://files.pythonhosted.org/packages/37/4e/81b288acd4c3813ae1a6a274c87f158cd53334f8d46754f95575729b514a/xia_models-0.1.7-cp39-none-win_amd64.whl
+[2023-06-29 22:58:07] INFO root fetch - processPackages [rubika]: Downloading https://files.pythonhosted.org/packages/91/34/80ec778696f24341d0a2a94abf10554a6dcf3a933ed80359d7460586116b/rubika-6.6.8.tar.gz
+[2023-06-29 22:58:07] INFO root fetch - processPackages [xia-puller-flask]: Downloading https://files.pythonhosted.org/packages/a4/f1/551bd8febe215c06a3bc3a4ae57dcbfe7b9fec74c06a3ba34ae237acb4ca/xia_puller_flask-0.0.6-cp39-none-win_amd64.whl
+[2023-06-29 22:58:07] INFO root fetch - processPackages [odoo-addon-product-pricelist-supplierinfo]: Downloading https://files.pythonhosted.org/packages/3a/4a/89555b16862b5f06ef16d45827f606b44e48c94da4c77b3dacc738f7c7b7/odoo_addon_product_pricelist_supplierinfo-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-29 22:58:07] INFO root fetch - processPackages [xia-mail]: executing diffoscope
+[2023-06-29 22:58:07] INFO root fetch - processPackages [xia-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_mail-0.1.0-cp39-none-win_amd64.whl.zip tmp/xia_mail-0.1.1-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-mail/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-29 22:58:07] INFO root fetch - processPackages [xia-pusher]: Downloading https://files.pythonhosted.org/packages/51/94/796d18a67ca8b57427d19b56c109bc7aeacd32a6fab1988940c1f4fa00f7/xia_pusher-0.1.1-cp39-none-win_amd64.whl
+[2023-06-29 22:58:07] INFO root fetch - processPackages [naluconfigs]: Downloading https://files.pythonhosted.org/packages/0f/d4/9723c7bc227ca7feea71f71bfe896f20491613457c7e55396a23273812f8/naluconfigs-11.2.1.tar.gz
+[2023-06-29 22:58:08] INFO root fetch - processPackages [export-ease]: Downloading https://files.pythonhosted.org/packages/85/d6/e1cda7640b8c4ed685eead46af3f3a9c26e5401a2db24905e6b0a1380a63/export_ease-0.0.5.tar.gz
+[2023-06-29 22:58:08] INFO root fetch - processPackages [odoo-addon-product-pricelist-supplierinfo]: executing diffoscope
+[2023-06-29 22:58:08] INFO root fetch - processPackages [odoo-addon-product-pricelist-supplierinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_pricelist_supplierinfo-15.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_product_pricelist_supplierinfo-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230629/o/odoo-addon-product-pricelist-supplierinfo/15.0.1.0.2-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-29 22:58:08] INFO root fetch - processPackages [cfr]: Downloading https://files.pythonhosted.org/packages/da/f1/bc3aaf60584abf34d73668afcf4eb73ddab2f5dff95304e3c9bee1861cc3/cfr-2023.6.29.tar.gz
+[2023-06-29 22:58:08] INFO root fetch - processPackages [naluconfigs]: executing diffoscope
+[2023-06-29 22:58:08] INFO root fetch - processPackages [naluconfigs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naluconfigs-11.1.1.tar.gz tmp/naluconfigs-11.2.1.tar.gz --markdown 20230629/n/naluconfigs/11.1.1-11.2.1/diff.md --exclude *.pyd
+[2023-06-29 22:58:08] INFO root fetch - processPackages [rubika]: Downloading https://files.pythonhosted.org/packages/25/b1/33a71ec8d2a37efac506e6ba6bbf8a751c5db2f53b75ab5ad5275c16d57d/rubika-6.6.9.tar.gz
+[2023-06-29 22:58:08] INFO root fetch - processPackages [xia-models]: Downloading https://files.pythonhosted.org/packages/fc/6a/8f0db15376e63f734e5f6e43c726457c0466a5682e905c06bce186494f0b/xia_models-0.1.8-cp39-none-win_amd64.whl
+[2023-06-29 22:58:08] INFO root fetch - processPackages [cfr]: executing diffoscope
+[2023-06-29 22:58:08] INFO root fetch - processPackages [cfr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfr-2023.6.28.tar.gz tmp/cfr-2023.6.29.tar.gz --markdown 20230629/c/cfr/2023.6.28-2023.6.29/diff.md --exclude *.pyd
+[2023-06-29 22:58:08] INFO root fetch - processPackages [xia-puller-flask]: executing diffoscope
+[2023-06-29 22:58:08] INFO root fetch - processPackages [xia-puller-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_puller_flask-0.0.5-cp39-none-win_amd64.whl.zip tmp/xia_puller_flask-0.0.6-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-puller-flask/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-29 22:58:08] INFO root fetch - processPackages [xia-pusher]: Downloading https://files.pythonhosted.org/packages/c8/f3/dda5dfc32889a6c4f86a8d9d810aafb89341a005869cde0c307b7bb15e09/xia_pusher-0.1.2-cp39-none-macosx_11_0_x86_64.whl
+[2023-06-29 22:58:08] INFO root fetch - processPackages [export-ease]: Downloading https://files.pythonhosted.org/packages/1b/d1/cc0c7fad40f85d04d18d67cf46a44085f20660c7f18120c6b5215fff601b/export_ease-0.0.6.tar.gz
+[2023-06-29 22:58:08] INFO root fetch - processPackages [rubika]: executing diffoscope
+[2023-06-29 22:58:08] INFO root fetch - processPackages [rubika]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubika-6.6.8.tar.gz tmp/rubika-6.6.9.tar.gz --markdown 20230629/r/rubika/6.6.8-6.6.9/diff.md --exclude *.pyd
+[2023-06-29 22:58:08] INFO root fetch - processPackages [xia-models]: executing diffoscope
+[2023-06-29 22:58:08] INFO root fetch - processPackages [xia-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_models-0.1.7-cp39-none-win_amd64.whl.zip tmp/xia_models-0.1.8-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-models/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-29 22:58:08] INFO root fetch - processPackages [export-ease]: executing diffoscope
+[2023-06-29 22:58:08] INFO root fetch - processPackages [export-ease]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/export_ease-0.0.5.tar.gz tmp/export_ease-0.0.6.tar.gz --markdown 20230629/e/export-ease/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-29 22:58:08] INFO root fetch - processPackages [xia-pusher]: executing diffoscope
+[2023-06-29 22:58:08] INFO root fetch - processPackages [xia-pusher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_pusher-0.1.1-cp39-none-win_amd64.whl.zip tmp/xia_pusher-0.1.2-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230629/x/xia-pusher/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-29 22:58:09] INFO root fetch - processPackages [xia-mail]: Remove: archive file [/home/abi/fetcher/tmp/xia_mail-0.1.0-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:58:09] INFO root fetch - processPackages [xia-mail]: Remove: archive file [/home/abi/fetcher/tmp/xia_mail-0.1.1-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:58:09] INFO root fetch - processPackages [xia-mail]: Start processing: ISENpy
+[2023-06-29 22:58:09] INFO root fetch - main [MainThread]: End processing [xia-mail]: success
+[2023-06-29 22:58:09] INFO root fetch - processPackages [ISENpy]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-29 22:58:09] INFO root fetch - processPackages [ISENpy]: Downloading https://files.pythonhosted.org/packages/a1/2f/af3c2b94d0ac1aeb8b12183a9bc46797b6ac81fe59f2733d6b61756fee79/ISENpy-0.4.3.tar.gz
+[2023-06-29 22:58:09] INFO root fetch - processPackages [cfr]: Remove: archive file [/home/abi/fetcher/tmp/cfr-2023.6.28.tar.gz]
+[2023-06-29 22:58:09] INFO root fetch - processPackages [cfr]: Remove: archive file [/home/abi/fetcher/tmp/cfr-2023.6.29.tar.gz]
+[2023-06-29 22:58:09] INFO root fetch - processPackages [cfr]: Start processing: foursight-core
+[2023-06-29 22:58:09] INFO root fetch - main [MainThread]: End processing [cfr]: success
+[2023-06-29 22:58:09] INFO root fetch - processPackages [odoo-addon-product-pricelist-supplierinfo]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_pricelist_supplierinfo-15.0.1.0.2-py3-none-any.whl.zip]
+[2023-06-29 22:58:09] INFO root fetch - processPackages [odoo-addon-product-pricelist-supplierinfo]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_pricelist_supplierinfo-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-29 22:58:09] INFO root fetch - processPackages [odoo-addon-product-pricelist-supplierinfo]: Start processing: pigeonsai
+[2023-06-29 22:58:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-pricelist-supplierinfo]: success
+[2023-06-29 22:58:09] INFO root fetch - processPackages [ISENpy]: Downloading https://files.pythonhosted.org/packages/0c/9f/e2595bc5c95d2cb11bb457a3813e6cc1080d51e8f38b5e2d3c5ecf8f0dd5/ISENpy-0.4.4.tar.gz
+[2023-06-29 22:58:09] INFO root fetch - processPackages [xia-puller-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_puller_flask-0.0.5-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:58:09] INFO root fetch - processPackages [xia-puller-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_puller_flask-0.0.6-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:58:09] INFO root fetch - processPackages [xia-puller-flask]: Start processing: thoughtful
+[2023-06-29 22:58:09] INFO root fetch - main [MainThread]: End processing [xia-puller-flask]: success
+[2023-06-29 22:58:09] INFO root fetch - processPackages [foursight-core]: New version: [4.3.0.1b9] Old Version: [4.3.0.1b8]
+[2023-06-29 22:58:09] WARNING root fetch - processPackages [pigeonsai]: Skipping, unable to determine old version
+[2023-06-29 22:58:09] INFO root fetch - processPackages [pigeonsai]: Start processing: pyspark-ai
+[2023-06-29 22:58:09] INFO root fetch - main [MainThread]: End processing [pigeonsai] error
+[2023-06-29 22:58:09] INFO root fetch - processPackages [thoughtful]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-06-29 22:58:09] INFO root fetch - processPackages [pyspark-ai]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-29 22:58:09] INFO root fetch - processPackages [xia-models]: Remove: archive file [/home/abi/fetcher/tmp/xia_models-0.1.7-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:58:09] INFO root fetch - processPackages [xia-models]: Remove: archive file [/home/abi/fetcher/tmp/xia_models-0.1.8-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:58:09] INFO root fetch - main [MainThread]: End processing [xia-models]: success
+[2023-06-29 22:58:09] INFO root fetch - processPackages [ISENpy]: executing diffoscope
+[2023-06-29 22:58:09] INFO root fetch - processPackages [ISENpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ISENpy-0.4.3.tar.gz tmp/ISENpy-0.4.4.tar.gz --markdown 20230629/I/ISENpy/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-29 22:58:09] INFO root fetch - processPackages [thoughtful]: executing diffoscope
+[2023-06-29 22:58:09] INFO root fetch - processPackages [thoughtful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thoughtful-2.1.3.tar.gz tmp/thoughtful-2.1.4.tar.gz --markdown 20230629/t/thoughtful/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-06-29 22:58:09] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/7f/c9/20938fceaf2a89d382499eb837317924bad591606fe2a2b9530b7d1a080f/foursight_core-4.3.0.1b8.tar.gz
+[2023-06-29 22:58:09] INFO root fetch - processPackages [pyspark-ai]: Downloading https://files.pythonhosted.org/packages/30/43/c1b430b868725bce45aa4d7c0f03e075af09e01d241dab0c74bc5eeaca2a/pyspark_ai-0.1.4.tar.gz
+[2023-06-29 22:58:09] INFO root fetch - processPackages [xia-pusher]: Remove: archive file [/home/abi/fetcher/tmp/xia_pusher-0.1.1-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:58:09] INFO root fetch - processPackages [xia-pusher]: Remove: archive file [/home/abi/fetcher/tmp/xia_pusher-0.1.2-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-06-29 22:58:09] INFO root fetch - main [MainThread]: End processing [xia-pusher]: success
+[2023-06-29 22:58:09] INFO root fetch - processPackages [export-ease]: Remove: archive file [/home/abi/fetcher/tmp/export_ease-0.0.5.tar.gz]
+[2023-06-29 22:58:09] INFO root fetch - processPackages [export-ease]: Remove: archive file [/home/abi/fetcher/tmp/export_ease-0.0.6.tar.gz]
+[2023-06-29 22:58:09] INFO root fetch - main [MainThread]: End processing [export-ease]: success
+[2023-06-29 22:58:10] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/35/ec/238f36ca7035bc965d1716f96c1e2caafc6d31b3ab9a2475f36b2bffa6f3/foursight_core-4.3.0.1b9.tar.gz
+[2023-06-29 22:58:10] INFO root fetch - processPackages [pyspark-ai]: Downloading https://files.pythonhosted.org/packages/89/b6/9f3a897eeb8e706645af74777645ab0a5ee1db7e435fecceb284702db49e/pyspark_ai-0.1.5.tar.gz
+[2023-06-29 22:58:10] INFO root fetch - processPackages [rubika]: Remove: archive file [/home/abi/fetcher/tmp/rubika-6.6.8.tar.gz]
+[2023-06-29 22:58:10] INFO root fetch - processPackages [rubika]: Remove: archive file [/home/abi/fetcher/tmp/rubika-6.6.9.tar.gz]
+[2023-06-29 22:58:10] INFO root fetch - main [MainThread]: End processing [rubika]: success
+[2023-06-29 22:58:10] INFO root fetch - processPackages [pyspark-ai]: executing diffoscope
+[2023-06-29 22:58:10] INFO root fetch - processPackages [pyspark-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspark_ai-0.1.4.tar.gz tmp/pyspark_ai-0.1.5.tar.gz --markdown 20230629/p/pyspark-ai/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-29 22:58:10] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-06-29 22:58:10] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.3.0.1b8.tar.gz tmp/foursight_core-4.3.0.1b9.tar.gz --markdown 20230629/f/foursight-core/4.3.0.1b8-4.3.0.1b9/diff.md --exclude *.pyd
+[2023-06-29 22:58:10] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-7.6.0.1b1.tar.gz]
+[2023-06-29 22:58:10] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-7.6.0.1b4.tar.gz]
+[2023-06-29 22:58:10] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2023-06-29 22:58:10] INFO root fetch - processPackages [thoughtful]: Remove: archive file [/home/abi/fetcher/tmp/thoughtful-2.1.3.tar.gz]
+[2023-06-29 22:58:10] INFO root fetch - processPackages [thoughtful]: Remove: archive file [/home/abi/fetcher/tmp/thoughtful-2.1.4.tar.gz]
+[2023-06-29 22:58:10] INFO root fetch - main [MainThread]: End processing [thoughtful]: success
+[2023-06-29 22:58:11] INFO root fetch - processPackages [ISENpy]: Remove: archive file [/home/abi/fetcher/tmp/ISENpy-0.4.3.tar.gz]
+[2023-06-29 22:58:11] INFO root fetch - processPackages [ISENpy]: Remove: archive file [/home/abi/fetcher/tmp/ISENpy-0.4.4.tar.gz]
+[2023-06-29 22:58:11] INFO root fetch - main [MainThread]: End processing [ISENpy]: success
+[2023-06-29 22:58:11] INFO root fetch - processPackages [pyspark-ai]: Remove: archive file [/home/abi/fetcher/tmp/pyspark_ai-0.1.4.tar.gz]
+[2023-06-29 22:58:11] INFO root fetch - processPackages [pyspark-ai]: Remove: archive file [/home/abi/fetcher/tmp/pyspark_ai-0.1.5.tar.gz]
+[2023-06-29 22:58:11] INFO root fetch - main [MainThread]: End processing [pyspark-ai]: success
+[2023-06-29 22:58:11] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b8.tar.gz]
+[2023-06-29 22:58:11] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b9.tar.gz]
+[2023-06-29 22:58:11] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-06-29 22:58:12] INFO root fetch - processPackages [naluconfigs]: Remove: archive file [/home/abi/fetcher/tmp/naluconfigs-11.1.1.tar.gz]
+[2023-06-29 22:58:12] INFO root fetch - processPackages [naluconfigs]: Remove: archive file [/home/abi/fetcher/tmp/naluconfigs-11.2.1.tar.gz]
+[2023-06-29 22:58:12] INFO root fetch - main [MainThread]: End processing [naluconfigs]: success
+[2023-06-29 22:58:12] INFO root fetch - main [MainThread]: Store serial: [18700787]
