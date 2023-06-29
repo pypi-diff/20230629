@@ -13535,3 +13535,125 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 16:42:54] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-06-29 16:42:54] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-06-29 16:42:54] INFO root fetch - main [MainThread]: Store serial: [18696530]
+[2023-06-29 16:47:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18696530]
+[2023-06-29 16:48:04] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-29 16:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ai-code-fixer
+[2023-06-29 16:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-hcp
+[2023-06-29 16:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drf-rehive-extras
+[2023-06-29 16:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wodoo
+[2023-06-29 16:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: threedi-scenario-downloader
+[2023-06-29 16:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TerminalPyAPI
+[2023-06-29 16:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: documentdataextraction
+[2023-06-29 16:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pylsat
+[2023-06-29 16:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: climatePy
+[2023-06-29 16:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tremolo
+[2023-06-29 16:48:04] INFO root fetch - processPackages [drf-rehive-extras]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-29 16:48:04] INFO root fetch - processPackages [threedi-scenario-downloader]: New version: [1.2] Old Version: [1.1]
+[2023-06-29 16:48:04] WARNING root fetch - processPackages [ai-code-fixer]: Skipping, unable to determine old version
+[2023-06-29 16:48:04] INFO root fetch - processPackages [ai-code-fixer]: Start processing: django-activatable-model
+[2023-06-29 16:48:04] INFO root fetch - main [MainThread]: End processing [ai-code-fixer] error
+[2023-06-29 16:48:04] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: New version: [6.0.0] Old Version: [5.0.0]
+[2023-06-29 16:48:04] INFO root fetch - processPackages [pylsat]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-29 16:48:04] WARNING root fetch - processPackages [TerminalPyAPI]: Skipping, unable to determine old version
+[2023-06-29 16:48:04] INFO root fetch - processPackages [tremolo]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-29 16:48:04] INFO root fetch - processPackages [TerminalPyAPI]: Start processing: oakvar
+[2023-06-29 16:48:04] INFO root fetch - main [MainThread]: End processing [TerminalPyAPI] error
+[2023-06-29 16:48:04] INFO root fetch - processPackages [climatePy]: New version: [0.0.4.1] Old Version: [0.0.4.0]
+[2023-06-29 16:48:04] INFO root fetch - processPackages [documentdataextraction]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 16:48:04] INFO root fetch - processPackages [wodoo]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-29 16:48:04] INFO root fetch - processPackages [django-activatable-model]: New version: [3.1.0] Old Version: [3.0.1]
+[2023-06-29 16:48:04] INFO root fetch - processPackages [drf-rehive-extras]: Downloading https://files.pythonhosted.org/packages/fa/b4/d7ebc063a03ec45562942dd6b95561199c1ee7f18399e640f32f769d841a/drf-rehive-extras-1.0.6.tar.gz
+[2023-06-29 16:48:04] INFO root fetch - processPackages [oakvar]: New version: [2.9.9] Old Version: [2.9.7]
+[2023-06-29 16:48:04] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/f1/e5/4eaf4bac81e606caa8deb3d95f64c8de95dc532f6bd16aef12de595f56cc/wodoo-0.4.8.tar.gz
+[2023-06-29 16:48:04] INFO root fetch - processPackages [climatePy]: Downloading https://files.pythonhosted.org/packages/a8/6f/99c16c56ec15692f11a99ad4ca0744318fe655787f78c72ef6a531d83a18/climatePy-0.0.4.0.tar.gz
+[2023-06-29 16:48:04] INFO root fetch - processPackages [pylsat]: Downloading https://files.pythonhosted.org/packages/cc/b2/08e38af38f4597af032895239f691a51e99c9f48b6e88071550abb4f6a9c/pylsat-0.2.1.tar.gz
+[2023-06-29 16:48:04] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/1a/e4/1e85519ce247c6ed7c20e6c47ef38f5c09cf919ff231bf453cc23a1f0ba0/documentdataextraction-0.0.8-py3-none-any.whl
+[2023-06-29 16:48:04] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: Downloading https://files.pythonhosted.org/packages/98/39/a8a7c01e180abdeb0a8680d4710bedfa1a213e4bbe679bca08c2b697ef58/cdktf-cdktf-provider-hcp-5.0.0.tar.gz
+[2023-06-29 16:48:04] INFO root fetch - processPackages [threedi-scenario-downloader]: Downloading https://files.pythonhosted.org/packages/ee/ad/2a68887b0dc7d33d0558cdae470eaeb5914c84b23731f7ff2c673d542727/threedi-scenario-downloader-1.1.tar.gz
+[2023-06-29 16:48:04] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/b3/ec/eb9901e48d02bee04847cd1afe0c6b8ca7231d1a8b133261a63ae052f777/documentdataextraction-0.0.9-py3-none-any.whl
+[2023-06-29 16:48:04] INFO root fetch - processPackages [tremolo]: Downloading https://files.pythonhosted.org/packages/17/91/55df15a00968bc570dc929dde0d884467bd21d9f1dc571df2cf31ad3d9c0/tremolo-0.0.98.tar.gz
+[2023-06-29 16:48:04] INFO root fetch - processPackages [documentdataextraction]: executing diffoscope
+[2023-06-29 16:48:04] INFO root fetch - processPackages [documentdataextraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip --markdown 20230629/d/documentdataextraction/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 16:48:04] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/e4/c2/69b7c1ff79a3dd17db69dff3b9c943f9532080cb799bb30dc4db234c5df9/oakvar-2.9.7.tar.gz
+[2023-06-29 16:48:04] INFO root fetch - processPackages [django-activatable-model]: Downloading https://files.pythonhosted.org/packages/99/12/f32141b1ca4c47a4f39b2c5cc9eeb48c09de1b8aedaa6d8b5c5fa656bbbd/django-activatable-model-3.0.1.tar.gz
+[2023-06-29 16:48:05] INFO root fetch - processPackages [climatePy]: Downloading https://files.pythonhosted.org/packages/6d/a2/0ce00b85b4960fa18256ec0b17cf362890bc785211b616e1a332479f9628/climatePy-0.0.4.1.tar.gz
+[2023-06-29 16:48:05] INFO root fetch - processPackages [drf-rehive-extras]: Downloading https://files.pythonhosted.org/packages/ba/7e/fef1f30751b5ce8fe813b075893e546b8c5f637452384ce1dc69fb0ef942/drf-rehive-extras-1.0.7.tar.gz
+[2023-06-29 16:48:05] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/34/e8/81686b3a77a0edae554159a95e4782f911bd4ea59a2990954162a6b1e97e/wodoo-0.4.9.tar.gz
+[2023-06-29 16:48:05] INFO root fetch - processPackages [climatePy]: executing diffoscope
+[2023-06-29 16:48:05] INFO root fetch - processPackages [climatePy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climatePy-0.0.4.0.tar.gz tmp/climatePy-0.0.4.1.tar.gz --markdown 20230629/c/climatePy/0.0.4.0-0.0.4.1/diff.md --exclude *.pyd
+[2023-06-29 16:48:05] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-06-29 16:48:05] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.4.8.tar.gz tmp/wodoo-0.4.9.tar.gz --markdown 20230629/w/wodoo/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-29 16:48:05] INFO root fetch - processPackages [pylsat]: Downloading https://files.pythonhosted.org/packages/7e/20/b96fefbb51c94fcfff26660c226b17f6daa54fd4cb6a0de59a66cd85e4e0/pylsat-0.2.2.tar.gz
+[2023-06-29 16:48:05] INFO root fetch - processPackages [drf-rehive-extras]: executing diffoscope
+[2023-06-29 16:48:05] INFO root fetch - processPackages [drf-rehive-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-rehive-extras-1.0.6.tar.gz tmp/drf-rehive-extras-1.0.7.tar.gz --markdown 20230629/d/drf-rehive-extras/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-29 16:48:05] INFO root fetch - processPackages [tremolo]: Downloading https://files.pythonhosted.org/packages/9d/1f/2855765591f7f7e3122f1fde84cd87b5ded8131578ba6b246fe07394c77b/tremolo-0.0.99.tar.gz
+[2023-06-29 16:48:05] INFO root fetch - processPackages [threedi-scenario-downloader]: Downloading https://files.pythonhosted.org/packages/a8/92/ffebb5fc80ed558bf85cb372c6e64609a8b4a10d1f951a1ddd9c50b77f82/threedi-scenario-downloader-1.2.tar.gz
+[2023-06-29 16:48:05] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: Downloading https://files.pythonhosted.org/packages/49/c0/1282c371a3e0389f330d1e56578e09aa1e6f27bbb2912039ef7f88676eea/cdktf-cdktf-provider-hcp-6.0.0.tar.gz
+[2023-06-29 16:48:05] INFO root fetch - processPackages [pylsat]: executing diffoscope
+[2023-06-29 16:48:05] INFO root fetch - processPackages [pylsat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylsat-0.2.1.tar.gz tmp/pylsat-0.2.2.tar.gz --markdown 20230629/p/pylsat/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-29 16:48:05] INFO root fetch - processPackages [tremolo]: executing diffoscope
+[2023-06-29 16:48:05] INFO root fetch - processPackages [tremolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tremolo-0.0.98.tar.gz tmp/tremolo-0.0.99.tar.gz --markdown 20230629/t/tremolo/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-29 16:48:05] INFO root fetch - processPackages [threedi-scenario-downloader]: executing diffoscope
+[2023-06-29 16:48:05] INFO root fetch - processPackages [threedi-scenario-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threedi-scenario-downloader-1.1.tar.gz tmp/threedi-scenario-downloader-1.2.tar.gz --markdown 20230629/t/threedi-scenario-downloader/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-29 16:48:05] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: executing diffoscope
+[2023-06-29 16:48:05] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-hcp-5.0.0.tar.gz tmp/cdktf-cdktf-provider-hcp-6.0.0.tar.gz --markdown 20230629/c/cdktf-cdktf-provider-hcp/5.0.0-6.0.0/diff.md --exclude *.pyd
+[2023-06-29 16:48:05] INFO root fetch - processPackages [django-activatable-model]: Downloading https://files.pythonhosted.org/packages/dc/99/90194718892e1069ec149212898a5bfb91c7048744f6fbc3b223ac06622b/django-activatable-model-3.1.0.tar.gz
+[2023-06-29 16:48:05] INFO root fetch - processPackages [django-activatable-model]: executing diffoscope
+[2023-06-29 16:48:05] INFO root fetch - processPackages [django-activatable-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-activatable-model-3.0.1.tar.gz tmp/django-activatable-model-3.1.0.tar.gz --markdown 20230629/d/django-activatable-model/3.0.1-3.1.0/diff.md --exclude *.pyd
+[2023-06-29 16:48:06] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip]
+[2023-06-29 16:48:06] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip]
+[2023-06-29 16:48:06] INFO root fetch - processPackages [documentdataextraction]: Start processing: hebpipe
+[2023-06-29 16:48:06] INFO root fetch - main [MainThread]: End processing [documentdataextraction]: success
+[2023-06-29 16:48:06] INFO root fetch - processPackages [hebpipe]: New version: [3.0.0.5] Old Version: [3.0.0.4]
+[2023-06-29 16:48:06] INFO root fetch - processPackages [hebpipe]: Downloading https://files.pythonhosted.org/packages/6e/18/a03ac9b7ca0eaccb26ef69ecdfe05f2fe8f486ceea9ea8d792876fca8e6e/hebpipe-3.0.0.4.tar.gz
+[2023-06-29 16:48:06] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/aa/b5/98830752d15a39d3fe7ee973d8ff37f1a3498ab33f56838ffd4d470de442/oakvar-2.9.9.tar.gz
+[2023-06-29 16:48:06] INFO root fetch - processPackages [pylsat]: Remove: archive file [/home/abi/fetcher/tmp/pylsat-0.2.1.tar.gz]
+[2023-06-29 16:48:06] INFO root fetch - processPackages [pylsat]: Remove: archive file [/home/abi/fetcher/tmp/pylsat-0.2.2.tar.gz]
+[2023-06-29 16:48:06] INFO root fetch - processPackages [pylsat]: Start processing: module-qc-analysis-tools
+[2023-06-29 16:48:06] INFO root fetch - main [MainThread]: End processing [pylsat]: success
+[2023-06-29 16:48:06] INFO root fetch - processPackages [module-qc-analysis-tools]: New version: [2.0.1rc1] Old Version: [2.0.1]
+[2023-06-29 16:48:06] INFO root fetch - processPackages [module-qc-analysis-tools]: Downloading https://files.pythonhosted.org/packages/fa/f0/d85e9151a8c43472a7bf174361df2e9bfca687422c19b93229c8c3e18fad/module_qc_analysis_tools-2.0.1.tar.gz
+[2023-06-29 16:48:06] INFO root fetch - processPackages [django-activatable-model]: Remove: archive file [/home/abi/fetcher/tmp/django-activatable-model-3.0.1.tar.gz]
+[2023-06-29 16:48:06] INFO root fetch - processPackages [django-activatable-model]: Remove: archive file [/home/abi/fetcher/tmp/django-activatable-model-3.1.0.tar.gz]
+[2023-06-29 16:48:06] INFO root fetch - processPackages [django-activatable-model]: Start processing: pynapple
+[2023-06-29 16:48:06] INFO root fetch - main [MainThread]: End processing [django-activatable-model]: success
+[2023-06-29 16:48:06] INFO root fetch - processPackages [tremolo]: Remove: archive file [/home/abi/fetcher/tmp/tremolo-0.0.98.tar.gz]
+[2023-06-29 16:48:06] INFO root fetch - processPackages [tremolo]: Remove: archive file [/home/abi/fetcher/tmp/tremolo-0.0.99.tar.gz]
+[2023-06-29 16:48:06] INFO root fetch - main [MainThread]: End processing [tremolo]: success
+[2023-06-29 16:48:07] INFO root fetch - processPackages [pynapple]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-29 16:48:07] INFO root fetch - processPackages [module-qc-analysis-tools]: Downloading https://files.pythonhosted.org/packages/42/4b/263b32088d2ecca0e8d92c6bd485d6a45052a9c13aedd399ac2870d432a1/module_qc_analysis_tools-2.0.1rc1.tar.gz
+[2023-06-29 16:48:07] INFO root fetch - processPackages [threedi-scenario-downloader]: Remove: archive file [/home/abi/fetcher/tmp/threedi-scenario-downloader-1.1.tar.gz]
+[2023-06-29 16:48:07] INFO root fetch - processPackages [threedi-scenario-downloader]: Remove: archive file [/home/abi/fetcher/tmp/threedi-scenario-downloader-1.2.tar.gz]
+[2023-06-29 16:48:07] INFO root fetch - main [MainThread]: End processing [threedi-scenario-downloader]: success
+[2023-06-29 16:48:07] INFO root fetch - processPackages [pynapple]: Downloading https://files.pythonhosted.org/packages/95/87/5e4b008795a921629190ca3592326e00d0d1cb5da7edcbe5e225359e4dc6/pynapple-0.3.3.tar.gz
+[2023-06-29 16:48:07] INFO root fetch - processPackages [module-qc-analysis-tools]: executing diffoscope
+[2023-06-29 16:48:07] INFO root fetch - processPackages [module-qc-analysis-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/module_qc_analysis_tools-2.0.1.tar.gz tmp/module_qc_analysis_tools-2.0.1rc1.tar.gz --markdown 20230629/m/module-qc-analysis-tools/2.0.1-2.0.1rc1/diff.md --exclude *.pyd
+[2023-06-29 16:48:07] WARNING root fetch - processPackages [pynapple]: Skipping package: exceeds size limit 91291871>=10485760
+[2023-06-29 16:48:07] INFO root fetch - main [MainThread]: End processing [pynapple] error
+[2023-06-29 16:48:07] INFO root fetch - processPackages [oakvar]: executing diffoscope
+[2023-06-29 16:48:07] INFO root fetch - processPackages [oakvar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oakvar-2.9.7.tar.gz tmp/oakvar-2.9.9.tar.gz --markdown 20230629/o/oakvar/2.9.7-2.9.9/diff.md --exclude *.pyd
+[2023-06-29 16:48:07] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-hcp-5.0.0.tar.gz]
+[2023-06-29 16:48:07] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-hcp-6.0.0.tar.gz]
+[2023-06-29 16:48:07] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-hcp]: success
+[2023-06-29 16:48:07] INFO root fetch - processPackages [hebpipe]: Downloading https://files.pythonhosted.org/packages/5b/3a/a50b3cc5b0e332dac0ed22d086fcde2902d2665f1d351eb09900ce4916aa/hebpipe-3.0.0.5.tar.gz
+[2023-06-29 16:48:08] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.8.tar.gz]
+[2023-06-29 16:48:08] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.9.tar.gz]
+[2023-06-29 16:48:08] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-06-29 16:48:08] INFO root fetch - processPackages [module-qc-analysis-tools]: Remove: archive file [/home/abi/fetcher/tmp/module_qc_analysis_tools-2.0.1.tar.gz]
+[2023-06-29 16:48:08] INFO root fetch - processPackages [module-qc-analysis-tools]: Remove: archive file [/home/abi/fetcher/tmp/module_qc_analysis_tools-2.0.1rc1.tar.gz]
+[2023-06-29 16:48:08] INFO root fetch - main [MainThread]: End processing [module-qc-analysis-tools]: success
+[2023-06-29 16:48:09] INFO root fetch - processPackages [hebpipe]: executing diffoscope
+[2023-06-29 16:48:09] INFO root fetch - processPackages [hebpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hebpipe-3.0.0.4.tar.gz tmp/hebpipe-3.0.0.5.tar.gz --markdown 20230629/h/hebpipe/3.0.0.4-3.0.0.5/diff.md --exclude *.pyd
+[2023-06-29 16:48:12] INFO root fetch - processPackages [climatePy]: Remove: archive file [/home/abi/fetcher/tmp/climatePy-0.0.4.0.tar.gz]
+[2023-06-29 16:48:12] INFO root fetch - processPackages [climatePy]: Remove: archive file [/home/abi/fetcher/tmp/climatePy-0.0.4.1.tar.gz]
+[2023-06-29 16:48:12] INFO root fetch - main [MainThread]: End processing [climatePy]: success
+[2023-06-29 16:48:14] INFO root fetch - processPackages [hebpipe]: Remove: archive file [/home/abi/fetcher/tmp/hebpipe-3.0.0.4.tar.gz]
+[2023-06-29 16:48:14] INFO root fetch - processPackages [hebpipe]: Remove: archive file [/home/abi/fetcher/tmp/hebpipe-3.0.0.5.tar.gz]
+[2023-06-29 16:48:14] INFO root fetch - main [MainThread]: End processing [hebpipe]: success
+[2023-06-29 16:48:15] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.7.tar.gz]
+[2023-06-29 16:48:15] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.9.tar.gz]
+[2023-06-29 16:48:15] INFO root fetch - main [MainThread]: End processing [oakvar]: success
+[2023-06-29 16:48:55] INFO root fetch - processPackages [drf-rehive-extras]: Remove: archive file [/home/abi/fetcher/tmp/drf-rehive-extras-1.0.6.tar.gz]
+[2023-06-29 16:48:55] INFO root fetch - processPackages [drf-rehive-extras]: Remove: archive file [/home/abi/fetcher/tmp/drf-rehive-extras-1.0.7.tar.gz]
+[2023-06-29 16:48:55] INFO root fetch - main [MainThread]: End processing [drf-rehive-extras]: success
+[2023-06-29 16:48:55] INFO root fetch - main [MainThread]: Store serial: [18696584]
