@@ -22156,3 +22156,232 @@ EOFError: EOF read where object expected
 [2023-06-29 22:26:08] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.345.7.tar.gz]
 [2023-06-29 22:26:08] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-06-29 22:26:08] INFO root fetch - main [MainThread]: Store serial: [18700056]
+[2023-06-29 22:31:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18700056]
+[2023-06-29 22:31:18] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-06-29 22:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: macrometa-target-mssql
+[2023-06-29 22:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterhub-nomad-spawner
+[2023-06-29 22:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: telexy.sam
+[2023-06-29 22:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbt-metrics-converter
+[2023-06-29 22:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mypy-boto3-dynamodb
+[2023-06-29 22:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mypy-boto3-appstream
+[2023-06-29 22:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mypy-boto3-chime
+[2023-06-29 22:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mmpy-packagefiles
+[2023-06-29 22:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mypy-boto3-sagemaker
+[2023-06-29 22:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mypy-boto3-cleanrooms
+[2023-06-29 22:31:18] INFO root fetch - processPackages [jupyterhub-nomad-spawner]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-29 22:31:18] INFO root fetch - processPackages [mypy-boto3-dynamodb]: New version: [1.26.97.post1] Old Version: [1.26.97]
+[2023-06-29 22:31:18] WARNING root fetch - processPackages [telexy.sam]: Skipping, unable to determine old version
+[2023-06-29 22:31:18] INFO root fetch - processPackages [telexy.sam]: Start processing: mypy-boto3-gamelift
+[2023-06-29 22:31:18] INFO root fetch - main [MainThread]: End processing [telexy.sam] error
+[2023-06-29 22:31:18] INFO root fetch - processPackages [macrometa-target-mssql]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 22:31:18] INFO root fetch - processPackages [mypy-boto3-cleanrooms]: New version: [1.26.96] Old Version: [1.26.49]
+[2023-06-29 22:31:18] INFO root fetch - processPackages [dbt-metrics-converter]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-29 22:31:18] WARNING root fetch - processPackages [mmpy-packagefiles]: Skipping, unable to determine old version
+[2023-06-29 22:31:18] INFO root fetch - processPackages [mmpy-packagefiles]: Start processing: mypy-boto3-glue
+[2023-06-29 22:31:18] INFO root fetch - main [MainThread]: End processing [mmpy-packagefiles] error
+[2023-06-29 22:31:18] INFO root fetch - processPackages [mypy-boto3-sagemaker]: New version: [1.26.98] Old Version: [1.26.88]
+[2023-06-29 22:31:18] INFO root fetch - processPackages [mypy-boto3-appstream]: New version: [1.26.59] Old Version: [1.26.164]
+[2023-06-29 22:31:18] INFO root fetch - processPackages [mypy-boto3-chime]: New version: [1.26.164] Old Version: [1.26.117]
+[2023-06-29 22:31:18] INFO root fetch - processPackages [mypy-boto3-gamelift]: New version: [1.26.21] Old Version: [1.26.164]
+[2023-06-29 22:31:18] INFO root fetch - processPackages [mypy-boto3-glue]: New version: [1.26.8] Old Version: [1.26.74]
+[2023-06-29 22:31:18] INFO root fetch - processPackages [jupyterhub-nomad-spawner]: Downloading https://files.pythonhosted.org/packages/e8/b2/ac8f468ee917772e7ab4d1635e65f8240e7a79b67cb45c402f263703614f/jupyterhub-nomad-spawner-0.2.0.tar.gz
+[2023-06-29 22:31:18] INFO root fetch - processPackages [dbt-metrics-converter]: Downloading https://files.pythonhosted.org/packages/79/76/e3620ae8739c32f7c69774b866d2e982df36c71039509456f1aeaeb06951/dbt_metrics_converter-0.1.4.tar.gz
+[2023-06-29 22:31:18] INFO root fetch - processPackages [mypy-boto3-dynamodb]: Downloading https://files.pythonhosted.org/packages/0c/00/c47091cf35ff3c591e94c1ac2f6a38cb48763584e63e47238127ea79ed3b/mypy-boto3-dynamodb-1.26.97.tar.gz
+[2023-06-29 22:31:18] INFO root fetch - processPackages [mypy-boto3-cleanrooms]: Downloading https://files.pythonhosted.org/packages/1f/35/c2ef32e535ba38edfa553a6d38369fbaa9d0cbc1eb01be9a2fb9aaac228e/mypy-boto3-cleanrooms-1.26.49.tar.gz
+[2023-06-29 22:31:18] INFO root fetch - processPackages [mypy-boto3-appstream]: Downloading https://files.pythonhosted.org/packages/ac/13/3452eb4849f18b6f047cc9c5c5bc05825402065456056f22f4a6cc2dd438/mypy-boto3-appstream-1.26.164.tar.gz
+[2023-06-29 22:31:18] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/47/28/bece1abc54ffab5f0cddaff5d6f1e02fac1343bfb72976d5794f50dad748/macrometa-target-mssql-0.0.8.tar.gz
+[2023-06-29 22:31:19] INFO root fetch - processPackages [mypy-boto3-glue]: Downloading https://files.pythonhosted.org/packages/a3/fe/aeea927e2e60892b1c5af5181c8794c8e4f60291075f116147bb571e5233/mypy-boto3-glue-1.26.74.tar.gz
+[2023-06-29 22:31:19] INFO root fetch - processPackages [mypy-boto3-gamelift]: Downloading https://files.pythonhosted.org/packages/f0/e6/ccc5abd6d9085724d40e9713b4aad655fe41417b7ab39e1965f7ec78dc36/mypy-boto3-gamelift-1.26.164.tar.gz
+[2023-06-29 22:31:19] INFO root fetch - processPackages [mypy-boto3-chime]: Downloading https://files.pythonhosted.org/packages/38/65/1826e297fd8fb314473440db2a043a8e4029efe8756481a21d59aeab31f4/mypy-boto3-chime-1.26.117.tar.gz
+[2023-06-29 22:31:19] INFO root fetch - processPackages [dbt-metrics-converter]: Downloading https://files.pythonhosted.org/packages/e8/4d/71090ed99b7b250552ea3dfc0c900c255d1fc08d54adb353558d64dff87e/dbt_metrics_converter-0.1.5.tar.gz
+[2023-06-29 22:31:19] INFO root fetch - processPackages [jupyterhub-nomad-spawner]: Downloading https://files.pythonhosted.org/packages/ca/e9/ec9e9bfe5c01c906f1ec50f78f2a3e9871e1754849b0de7737e804e0b651/jupyterhub_nomad_spawner-0.2.1.tar.gz
+[2023-06-29 22:31:19] INFO root fetch - processPackages [mypy-boto3-dynamodb]: Downloading https://files.pythonhosted.org/packages/41/4e/556eb29a2ee2d8cf413c2ef0cf19061c89c29087f32ad002e08b1fa18e7d/mypy-boto3-dynamodb-1.26.97.post1.tar.gz
+[2023-06-29 22:31:19] INFO root fetch - processPackages [mypy-boto3-sagemaker]: executing diffoscope
+[2023-06-29 22:31:19] INFO root fetch - processPackages [mypy-boto3-sagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-sagemaker-1.26.88.tar.gz tmp/mypy-boto3-sagemaker-1.26.98.tar.gz --markdown 20230629/m/mypy-boto3-sagemaker/1.26.88-1.26.98/diff.md --exclude *.pyd
+[2023-06-29 22:31:19] INFO root fetch - processPackages [dbt-metrics-converter]: executing diffoscope
+[2023-06-29 22:31:19] INFO root fetch - processPackages [dbt-metrics-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_metrics_converter-0.1.4.tar.gz tmp/dbt_metrics_converter-0.1.5.tar.gz --markdown 20230629/d/dbt-metrics-converter/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-29 22:31:19] INFO root fetch - processPackages [mypy-boto3-cleanrooms]: Downloading https://files.pythonhosted.org/packages/e7/98/94bae56968a6f28f13c81031e071926a757b2ad76bb9c84dcf3afda5d198/mypy-boto3-cleanrooms-1.26.96.tar.gz
+[2023-06-29 22:31:19] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/3d/97/96f149d7c5c167814edbae8e9693e5915bdec86dfd31a669e08d21162ee9/macrometa-target-mssql-0.0.9.tar.gz
+[2023-06-29 22:31:19] INFO root fetch - processPackages [jupyterhub-nomad-spawner]: executing diffoscope
+[2023-06-29 22:31:19] INFO root fetch - processPackages [jupyterhub-nomad-spawner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterhub-nomad-spawner-0.2.0.tar.gz tmp/jupyterhub_nomad_spawner-0.2.1.tar.gz --markdown 20230629/j/jupyterhub-nomad-spawner/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-29 22:31:19] INFO root fetch - processPackages [mypy-boto3-glue]: Downloading https://files.pythonhosted.org/packages/97/4a/54c0c20d613023210f11ad6e4f145beb1a141b57905d7857131ba52b2431/mypy-boto3-glue-1.26.8.tar.gz
+[2023-06-29 22:31:19] INFO root fetch - processPackages [mypy-boto3-appstream]: Downloading https://files.pythonhosted.org/packages/65/5e/a9b94d23390caac36d878599328943128dc947c703d436dd80776dc67f14/mypy-boto3-appstream-1.26.59.tar.gz
+[2023-06-29 22:31:19] INFO root fetch - processPackages [mypy-boto3-gamelift]: Downloading https://files.pythonhosted.org/packages/45/27/0dfbda9e01189a96e848fbbeb6888f147328577974a91b1503bbec7125fc/mypy-boto3-gamelift-1.26.21.tar.gz
+[2023-06-29 22:31:19] INFO root fetch - processPackages [mypy-boto3-dynamodb]: executing diffoscope
+[2023-06-29 22:31:19] INFO root fetch - processPackages [mypy-boto3-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-dynamodb-1.26.97.tar.gz tmp/mypy-boto3-dynamodb-1.26.97.post1.tar.gz --markdown 20230629/m/mypy-boto3-dynamodb/1.26.97-1.26.97.post1/diff.md --exclude *.pyd
+[2023-06-29 22:31:19] INFO root fetch - processPackages [mypy-boto3-chime]: Downloading https://files.pythonhosted.org/packages/84/68/bd07f86a0173066e334b723a88e38bac64f3908508d1e5f573cfdc798cd6/mypy-boto3-chime-1.26.164.tar.gz
+[2023-06-29 22:31:19] INFO root fetch - processPackages [mypy-boto3-cleanrooms]: executing diffoscope
+[2023-06-29 22:31:19] INFO root fetch - processPackages [mypy-boto3-cleanrooms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-cleanrooms-1.26.49.tar.gz tmp/mypy-boto3-cleanrooms-1.26.96.tar.gz --markdown 20230629/m/mypy-boto3-cleanrooms/1.26.49-1.26.96/diff.md --exclude *.pyd
+[2023-06-29 22:31:19] INFO root fetch - processPackages [macrometa-target-mssql]: executing diffoscope
+[2023-06-29 22:31:19] INFO root fetch - processPackages [macrometa-target-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mssql-0.0.8.tar.gz tmp/macrometa-target-mssql-0.0.9.tar.gz --markdown 20230629/m/macrometa-target-mssql/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 22:31:19] INFO root fetch - processPackages [mypy-boto3-glue]: executing diffoscope
+[2023-06-29 22:31:19] INFO root fetch - processPackages [mypy-boto3-glue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-glue-1.26.74.tar.gz tmp/mypy-boto3-glue-1.26.8.tar.gz --markdown 20230629/m/mypy-boto3-glue/1.26.74-1.26.8/diff.md --exclude *.pyd
+[2023-06-29 22:31:19] INFO root fetch - processPackages [mypy-boto3-appstream]: executing diffoscope
+[2023-06-29 22:31:19] INFO root fetch - processPackages [mypy-boto3-appstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-appstream-1.26.164.tar.gz tmp/mypy-boto3-appstream-1.26.59.tar.gz --markdown 20230629/m/mypy-boto3-appstream/1.26.164-1.26.59/diff.md --exclude *.pyd
+[2023-06-29 22:31:19] INFO root fetch - processPackages [mypy-boto3-gamelift]: executing diffoscope
+[2023-06-29 22:31:19] INFO root fetch - processPackages [mypy-boto3-gamelift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-gamelift-1.26.164.tar.gz tmp/mypy-boto3-gamelift-1.26.21.tar.gz --markdown 20230629/m/mypy-boto3-gamelift/1.26.164-1.26.21/diff.md --exclude *.pyd
+[2023-06-29 22:31:19] INFO root fetch - processPackages [mypy-boto3-chime]: executing diffoscope
+[2023-06-29 22:31:19] INFO root fetch - processPackages [mypy-boto3-chime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-chime-1.26.117.tar.gz tmp/mypy-boto3-chime-1.26.164.tar.gz --markdown 20230629/m/mypy-boto3-chime/1.26.117-1.26.164/diff.md --exclude *.pyd
+[2023-06-29 22:31:20] INFO root fetch - processPackages [mypy-boto3-sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-sagemaker-1.26.88.tar.gz]
+[2023-06-29 22:31:20] INFO root fetch - processPackages [mypy-boto3-sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-sagemaker-1.26.98.tar.gz]
+[2023-06-29 22:31:20] INFO root fetch - processPackages [mypy-boto3-sagemaker]: Start processing: mypy-boto3
+[2023-06-29 22:31:20] INFO root fetch - main [MainThread]: End processing [mypy-boto3-sagemaker]: success
+[2023-06-29 22:31:20] INFO root fetch - processPackages [mypy-boto3]: New version: [1.26.99] Old Version: [1.26.98]
+[2023-06-29 22:31:20] INFO root fetch - processPackages [dbt-metrics-converter]: Remove: archive file [/home/abi/fetcher/tmp/dbt_metrics_converter-0.1.4.tar.gz]
+[2023-06-29 22:31:20] INFO root fetch - processPackages [dbt-metrics-converter]: Remove: archive file [/home/abi/fetcher/tmp/dbt_metrics_converter-0.1.5.tar.gz]
+[2023-06-29 22:31:20] INFO root fetch - processPackages [dbt-metrics-converter]: Start processing: boto3-stubs
+[2023-06-29 22:31:20] INFO root fetch - main [MainThread]: End processing [dbt-metrics-converter]: success
+[2023-06-29 22:31:20] INFO root fetch - processPackages [boto3-stubs]: New version: [1.26.99] Old Version: [1.26.98]
+[2023-06-29 22:31:20] INFO root fetch - processPackages [jupyterhub-nomad-spawner]: Remove: archive file [/home/abi/fetcher/tmp/jupyterhub-nomad-spawner-0.2.0.tar.gz]
+[2023-06-29 22:31:20] INFO root fetch - processPackages [jupyterhub-nomad-spawner]: Remove: archive file [/home/abi/fetcher/tmp/jupyterhub_nomad_spawner-0.2.1.tar.gz]
+[2023-06-29 22:31:20] INFO root fetch - processPackages [jupyterhub-nomad-spawner]: Start processing: boto3-stubs-lite
+[2023-06-29 22:31:20] INFO root fetch - main [MainThread]: End processing [jupyterhub-nomad-spawner]: success
+[2023-06-29 22:31:21] INFO root fetch - processPackages [boto3-stubs-lite]: New version: [1.26.99] Old Version: [1.26.98]
+[2023-06-29 22:31:21] INFO root fetch - processPackages [mypy-boto3]: executing diffoscope
+[2023-06-29 22:31:21] INFO root fetch - processPackages [mypy-boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-1.26.98.tar.gz tmp/mypy-boto3-1.26.99.tar.gz --markdown 20230629/m/mypy-boto3/1.26.98-1.26.99/diff.md --exclude *.pyd
+[2023-06-29 22:31:21] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.8.tar.gz]
+[2023-06-29 22:31:21] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.9.tar.gz]
+[2023-06-29 22:31:21] INFO root fetch - processPackages [macrometa-target-mssql]: Start processing: arelle-release
+[2023-06-29 22:31:21] INFO root fetch - main [MainThread]: End processing [macrometa-target-mssql]: success
+[2023-06-29 22:31:21] INFO root fetch - processPackages [arelle-release]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-06-29 22:31:21] INFO root fetch - processPackages [arelle-release]: Downloading https://files.pythonhosted.org/packages/f5/6d/a98b34f1f15fac981dc1ecdc13ab6432070cbbc263b8c5dfd01ec17bdbcf/arelle-release-2.8.1.tar.gz
+[2023-06-29 22:31:21] INFO root fetch - processPackages [mypy-boto3-cleanrooms]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-cleanrooms-1.26.49.tar.gz]
+[2023-06-29 22:31:21] INFO root fetch - processPackages [mypy-boto3-cleanrooms]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-cleanrooms-1.26.96.tar.gz]
+[2023-06-29 22:31:21] INFO root fetch - processPackages [mypy-boto3-cleanrooms]: Start processing: dbt-metrics-converter
+[2023-06-29 22:31:21] INFO root fetch - main [MainThread]: End processing [mypy-boto3-cleanrooms]: success
+[2023-06-29 22:31:21] INFO root fetch - processPackages [dbt-metrics-converter]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-29 22:31:21] INFO root fetch - processPackages [dbt-metrics-converter]: Downloading https://files.pythonhosted.org/packages/79/76/e3620ae8739c32f7c69774b866d2e982df36c71039509456f1aeaeb06951/dbt_metrics_converter-0.1.4.tar.gz
+[2023-06-29 22:31:21] INFO root fetch - processPackages [boto3-stubs-lite]: executing diffoscope
+[2023-06-29 22:31:21] INFO root fetch - processPackages [boto3-stubs-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-stubs-lite-1.26.98.tar.gz tmp/boto3-stubs-lite-1.26.99.tar.gz --markdown 20230629/b/boto3-stubs-lite/1.26.98-1.26.99/diff.md --exclude *.pyd
+[2023-06-29 22:31:21] INFO root fetch - processPackages [mypy-boto3-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-dynamodb-1.26.97.tar.gz]
+[2023-06-29 22:31:21] INFO root fetch - processPackages [mypy-boto3-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-dynamodb-1.26.97.post1.tar.gz]
+[2023-06-29 22:31:21] INFO root fetch - processPackages [mypy-boto3-dynamodb]: Start processing: jupyterlab-optumi
+[2023-06-29 22:31:21] INFO root fetch - main [MainThread]: End processing [mypy-boto3-dynamodb]: success
+[2023-06-29 22:31:21] INFO root fetch - processPackages [arelle-release]: Downloading https://files.pythonhosted.org/packages/38/66/d0e3ab5f57928cda22358cf91ff523e895bdb2ce695a0e0839131fcf5aa9/arelle-release-2.9.0.tar.gz
+[2023-06-29 22:31:21] INFO root fetch - processPackages [jupyterlab-optumi]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-06-29 22:31:21] INFO root fetch - processPackages [boto3-stubs]: executing diffoscope
+[2023-06-29 22:31:21] INFO root fetch - processPackages [boto3-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-stubs-1.26.98.tar.gz tmp/boto3-stubs-1.26.99.tar.gz --markdown 20230629/b/boto3-stubs/1.26.98-1.26.99/diff.md --exclude *.pyd
+[2023-06-29 22:31:21] INFO root fetch - processPackages [mypy-boto3-gamelift]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-gamelift-1.26.164.tar.gz]
+[2023-06-29 22:31:21] INFO root fetch - processPackages [mypy-boto3-gamelift]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-gamelift-1.26.21.tar.gz]
+[2023-06-29 22:31:21] INFO root fetch - processPackages [mypy-boto3-gamelift]: Start processing: optumi-api
+[2023-06-29 22:31:21] INFO root fetch - main [MainThread]: End processing [mypy-boto3-gamelift]: success
+[2023-06-29 22:31:21] INFO root fetch - processPackages [optumi-api]: New version: [3.16.0] Old Version: [3.15.8]
+[2023-06-29 22:31:21] INFO root fetch - processPackages [dbt-metrics-converter]: Downloading https://files.pythonhosted.org/packages/e8/4d/71090ed99b7b250552ea3dfc0c900c255d1fc08d54adb353558d64dff87e/dbt_metrics_converter-0.1.5.tar.gz
+[2023-06-29 22:31:21] INFO root fetch - processPackages [arelle-release]: executing diffoscope
+[2023-06-29 22:31:21] INFO root fetch - processPackages [arelle-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arelle-release-2.8.1.tar.gz tmp/arelle-release-2.9.0.tar.gz --markdown 20230629/a/arelle-release/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-06-29 22:31:21] INFO root fetch - processPackages [dbt-metrics-converter]: executing diffoscope
+[2023-06-29 22:31:21] INFO root fetch - processPackages [dbt-metrics-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_metrics_converter-0.1.4.tar.gz tmp/dbt_metrics_converter-0.1.5.tar.gz --markdown 20230629/d/dbt-metrics-converter/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-29 22:31:21] INFO root fetch - processPackages [jupyterlab-optumi]: Downloading https://files.pythonhosted.org/packages/a7/8e/6085051d3edca1b7c81c1f3d4d29c79a216a8ea2dd87ead0913ef5c0cc68/jupyterlab-optumi-3.9.8.tar.gz
+[2023-06-29 22:31:21] INFO root fetch - processPackages [optumi-api]: Downloading https://files.pythonhosted.org/packages/f4/ca/443e21d03c3ab31eb428943831dc188021436fb884556413515f7ef38530/optumi-api-3.15.8.tar.gz
+[2023-06-29 22:31:22] INFO root fetch - processPackages [mypy-boto3]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-1.26.98.tar.gz]
+[2023-06-29 22:31:22] INFO root fetch - processPackages [mypy-boto3]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-1.26.99.tar.gz]
+[2023-06-29 22:31:22] INFO root fetch - processPackages [mypy-boto3]: Start processing: optumi-core
+[2023-06-29 22:31:22] INFO root fetch - main [MainThread]: End processing [mypy-boto3]: success
+[2023-06-29 22:31:22] INFO root fetch - processPackages [optumi-core]: New version: [3.16.0] Old Version: [3.15.5]
+[2023-06-29 22:31:22] INFO root fetch - processPackages [optumi-api]: Downloading https://files.pythonhosted.org/packages/04/df/3a478c093ede3abe6363433f7873518bd7859500c21614beff584a8d6722/optumi_api-3.16.0-py3-none-any.whl
+[2023-06-29 22:31:22] INFO root fetch - processPackages [optumi-core]: Downloading https://files.pythonhosted.org/packages/4a/ec/e295e87e05667f20cf62562b940c675e874ab835c5c6d193a1f847300949/optumi-core-3.15.5.tar.gz
+[2023-06-29 22:31:22] INFO root fetch - processPackages [optumi-api]: executing diffoscope
+[2023-06-29 22:31:22] INFO root fetch - processPackages [optumi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optumi-api-3.15.8.tar.gz tmp/optumi_api-3.16.0-py3-none-any.whl.zip --markdown 20230629/o/optumi-api/3.15.8-3.16.0/diff.md --exclude *.pyd
+[2023-06-29 22:31:22] INFO root fetch - processPackages [boto3-stubs-lite]: Remove: archive file [/home/abi/fetcher/tmp/boto3-stubs-lite-1.26.98.tar.gz]
+[2023-06-29 22:31:22] INFO root fetch - processPackages [boto3-stubs-lite]: Remove: archive file [/home/abi/fetcher/tmp/boto3-stubs-lite-1.26.99.tar.gz]
+[2023-06-29 22:31:22] INFO root fetch - processPackages [boto3-stubs-lite]: Start processing: policyengine-us
+[2023-06-29 22:31:22] INFO root fetch - main [MainThread]: End processing [boto3-stubs-lite]: success
+[2023-06-29 22:31:22] INFO root fetch - processPackages [policyengine-us]: New version: [0.345.9] Old Version: [0.345.8]
+[2023-06-29 22:31:22] INFO root fetch - processPackages [optumi-core]: Downloading https://files.pythonhosted.org/packages/ef/99/1896c2363d3e8f62e575a2ace3767c581bdb842ceb9c03580700613d69b3/optumi_core-3.16.0-py3-none-any.whl
+[2023-06-29 22:31:22] INFO root fetch - processPackages [boto3-stubs]: Remove: archive file [/home/abi/fetcher/tmp/boto3-stubs-1.26.98.tar.gz]
+[2023-06-29 22:31:22] INFO root fetch - processPackages [boto3-stubs]: Remove: archive file [/home/abi/fetcher/tmp/boto3-stubs-1.26.99.tar.gz]
+[2023-06-29 22:31:22] INFO root fetch - processPackages [boto3-stubs]: Start processing: openapi3
+[2023-06-29 22:31:22] INFO root fetch - main [MainThread]: End processing [boto3-stubs]: success
+[2023-06-29 22:31:22] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/bf/19/1d276230e19465ac7feef9633938d90f25d7e5f23fbd1ba2c9e1e87b18b9/policyengine-us-0.345.8.tar.gz
+[2023-06-29 22:31:22] INFO root fetch - processPackages [optumi-core]: executing diffoscope
+[2023-06-29 22:31:22] INFO root fetch - processPackages [optumi-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optumi-core-3.15.5.tar.gz tmp/optumi_core-3.16.0-py3-none-any.whl.zip --markdown 20230629/o/optumi-core/3.15.5-3.16.0/diff.md --exclude *.pyd
+[2023-06-29 22:31:22] INFO root fetch - processPackages [openapi3]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-06-29 22:31:22] INFO root fetch - processPackages [openapi3]: Downloading https://files.pythonhosted.org/packages/69/11/7957b8790970e0ffb80ef76b0af904f378f411fb37bfa2d0e8ed7b7ff7ca/openapi3-1.8.0.tar.gz
+[2023-06-29 22:31:22] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/3b/8d/d173a89b4fd01437264d48e49289d3bed7dd14f70c08f120638e3a97cc64/policyengine-us-0.345.9.tar.gz
+[2023-06-29 22:31:22] INFO root fetch - processPackages [dbt-metrics-converter]: Remove: archive file [/home/abi/fetcher/tmp/dbt_metrics_converter-0.1.4.tar.gz]
+[2023-06-29 22:31:22] INFO root fetch - processPackages [dbt-metrics-converter]: Remove: archive file [/home/abi/fetcher/tmp/dbt_metrics_converter-0.1.5.tar.gz]
+[2023-06-29 22:31:22] INFO root fetch - processPackages [dbt-metrics-converter]: Start processing: lazydocs2
+[2023-06-29 22:31:22] INFO root fetch - main [MainThread]: End processing [dbt-metrics-converter]: success
+[2023-06-29 22:31:22] WARNING root fetch - processPackages [lazydocs2]: Skipping, unable to determine old version
+[2023-06-29 22:31:22] INFO root fetch - processPackages [lazydocs2]: Start processing: istruthy
+[2023-06-29 22:31:22] INFO root fetch - main [MainThread]: End processing [lazydocs2] error
+[2023-06-29 22:31:22] INFO root fetch - processPackages [istruthy]: New version: [0.12] Old Version: [0.11]
+[2023-06-29 22:31:22] INFO root fetch - processPackages [openapi3]: Downloading https://files.pythonhosted.org/packages/7b/09/58889a60b8b4c1796b980b09b1fac752e5f29ff55bce93eeb900aff64389/openapi3-1.8.1.tar.gz
+[2023-06-29 22:31:22] INFO root fetch - processPackages [istruthy]: Downloading https://files.pythonhosted.org/packages/c9/bd/92dfcf567813916da1770cf470d917ac99fff5fac8d5188121f9f0e3ae0a/istruthy-0.11.tar.gz
+[2023-06-29 22:31:22] INFO root fetch - processPackages [mypy-boto3-chime]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-chime-1.26.117.tar.gz]
+[2023-06-29 22:31:22] INFO root fetch - processPackages [mypy-boto3-chime]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-chime-1.26.164.tar.gz]
+[2023-06-29 22:31:22] INFO root fetch - processPackages [mypy-boto3-chime]: Start processing: ottergon
+[2023-06-29 22:31:22] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-06-29 22:31:22] INFO root fetch - main [MainThread]: End processing [mypy-boto3-chime]: success
+[2023-06-29 22:31:22] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.345.8.tar.gz tmp/policyengine-us-0.345.9.tar.gz --markdown 20230629/p/policyengine-us/0.345.8-0.345.9/diff.md --exclude *.pyd
+[2023-06-29 22:31:22] INFO root fetch - processPackages [ottergon]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-29 22:31:23] INFO root fetch - processPackages [openapi3]: executing diffoscope
+[2023-06-29 22:31:23] INFO root fetch - processPackages [openapi3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi3-1.8.0.tar.gz tmp/openapi3-1.8.1.tar.gz --markdown 20230629/o/openapi3/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-06-29 22:31:23] INFO root fetch - processPackages [istruthy]: Downloading https://files.pythonhosted.org/packages/19/16/c9419f52bda4c4fec8956bf231b1310128b24bf82f0b1c6742222b3d85ed/istruthy-0.12.tar.gz
+[2023-06-29 22:31:23] INFO root fetch - processPackages [ottergon]: Downloading https://files.pythonhosted.org/packages/a1/d6/b74cb1c4dc3f11842d0194bf2090b8df4392db3909597880127585e865a7/ottergon-0.4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-29 22:31:23] INFO root fetch - processPackages [istruthy]: executing diffoscope
+[2023-06-29 22:31:23] INFO root fetch - processPackages [istruthy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/istruthy-0.11.tar.gz tmp/istruthy-0.12.tar.gz --markdown 20230629/i/istruthy/0.11-0.12/diff.md --exclude *.pyd
+[2023-06-29 22:31:23] INFO root fetch - processPackages [mypy-boto3-appstream]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-appstream-1.26.164.tar.gz]
+[2023-06-29 22:31:23] INFO root fetch - processPackages [mypy-boto3-appstream]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-appstream-1.26.59.tar.gz]
+[2023-06-29 22:31:23] INFO root fetch - processPackages [mypy-boto3-appstream]: Start processing: great-expectations
+[2023-06-29 22:31:23] INFO root fetch - main [MainThread]: End processing [mypy-boto3-appstream]: success
+[2023-06-29 22:31:23] INFO root fetch - processPackages [great-expectations]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-29 22:31:23] INFO root fetch - processPackages [mypy-boto3-glue]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-glue-1.26.74.tar.gz]
+[2023-06-29 22:31:23] INFO root fetch - processPackages [mypy-boto3-glue]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-glue-1.26.8.tar.gz]
+[2023-06-29 22:31:23] INFO root fetch - processPackages [mypy-boto3-glue]: Start processing: simvue
+[2023-06-29 22:31:23] INFO root fetch - main [MainThread]: End processing [mypy-boto3-glue]: success
+[2023-06-29 22:31:23] INFO root fetch - processPackages [simvue]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-29 22:31:23] INFO root fetch - processPackages [simvue]: Downloading https://files.pythonhosted.org/packages/bd/f9/9d8a0aedddb60203724c6dbd01272deb0c7f84cefb43c67fdfe68854f711/simvue-0.9.0.tar.gz
+[2023-06-29 22:31:23] INFO root fetch - processPackages [great-expectations]: Downloading https://files.pythonhosted.org/packages/47/f9/dcddfa5c9fd3ddae9ea13c325f2f1f83ac4f7865b731786cfd7cb00dba22/great_expectations-0.9.8.tar.gz
+[2023-06-29 22:31:23] INFO root fetch - processPackages [ottergon]: Downloading https://files.pythonhosted.org/packages/70/f0/52e4ceb7817922dd04d7d41fa3c7e42f801d8777ea7a7d097fd5d07b5b4b/ottergon-0.5.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-29 22:31:23] INFO root fetch - processPackages [simvue]: Downloading https://files.pythonhosted.org/packages/af/63/e273ebbd0e6fbb817c6ba72cbf33237eb27eebb533efbd58e29614a878cc/simvue-0.9.1.tar.gz
+[2023-06-29 22:31:23] INFO root fetch - processPackages [jupyterlab-optumi]: Downloading https://files.pythonhosted.org/packages/97/75/ce93a28e75bfb407dedc53ae5f247a368eb93179c14c16bca8a11218f211/jupyterlab-optumi-3.9.9.tar.gz
+[2023-06-29 22:31:23] INFO root fetch - processPackages [ottergon]: executing diffoscope
+[2023-06-29 22:31:23] INFO root fetch - processPackages [ottergon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ottergon-0.4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ottergon-0.5.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230629/o/ottergon/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-29 22:31:23] INFO root fetch - processPackages [optumi-core]: Remove: archive file [/home/abi/fetcher/tmp/optumi-core-3.15.5.tar.gz]
+[2023-06-29 22:31:23] INFO root fetch - processPackages [optumi-core]: Remove: archive file [/home/abi/fetcher/tmp/optumi_core-3.16.0-py3-none-any.whl.zip]
+[2023-06-29 22:31:23] INFO root fetch - processPackages [optumi-core]: Start processing: xia-puller
+[2023-06-29 22:31:23] INFO root fetch - main [MainThread]: End processing [optumi-core]: success
+[2023-06-29 22:31:23] INFO root fetch - processPackages [simvue]: executing diffoscope
+[2023-06-29 22:31:23] INFO root fetch - processPackages [simvue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simvue-0.9.0.tar.gz tmp/simvue-0.9.1.tar.gz --markdown 20230629/s/simvue/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-29 22:31:23] INFO root fetch - processPackages [xia-puller]: New version: [0.0.16] Old Version: [0.0.15]
+[2023-06-29 22:31:23] INFO root fetch - processPackages [optumi-api]: Remove: archive file [/home/abi/fetcher/tmp/optumi-api-3.15.8.tar.gz]
+[2023-06-29 22:31:23] INFO root fetch - processPackages [optumi-api]: Remove: archive file [/home/abi/fetcher/tmp/optumi_api-3.16.0-py3-none-any.whl.zip]
+[2023-06-29 22:31:23] INFO root fetch - main [MainThread]: End processing [optumi-api]: success
+[2023-06-29 22:31:23] INFO root fetch - processPackages [xia-puller]: Downloading https://files.pythonhosted.org/packages/3b/88/6e36abf76a37967842cb02013ad987b2beadc4bb25df2ea729c9286af11e/xia_puller-0.0.15-cp39-none-win_amd64.whl
+[2023-06-29 22:31:24] INFO root fetch - processPackages [xia-puller]: Downloading https://files.pythonhosted.org/packages/0d/ea/f98f95c495a17816f44edbacda4f6be6339717a64ee883c5fce668df5755/xia_puller-0.0.16-cp39-none-win_amd64.whl
+[2023-06-29 22:31:24] INFO root fetch - processPackages [xia-puller]: executing diffoscope
+[2023-06-29 22:31:24] INFO root fetch - processPackages [xia-puller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_puller-0.0.15-cp39-none-win_amd64.whl.zip tmp/xia_puller-0.0.16-cp39-none-win_amd64.whl.zip --markdown 20230629/x/xia-puller/0.0.15-0.0.16/diff.md --exclude *.pyd
+[2023-06-29 22:31:24] INFO root fetch - processPackages [istruthy]: Remove: archive file [/home/abi/fetcher/tmp/istruthy-0.11.tar.gz]
+[2023-06-29 22:31:24] INFO root fetch - processPackages [istruthy]: Remove: archive file [/home/abi/fetcher/tmp/istruthy-0.12.tar.gz]
+[2023-06-29 22:31:24] INFO root fetch - main [MainThread]: End processing [istruthy]: success
+[2023-06-29 22:31:24] INFO root fetch - processPackages [openapi3]: Remove: archive file [/home/abi/fetcher/tmp/openapi3-1.8.0.tar.gz]
+[2023-06-29 22:31:24] INFO root fetch - processPackages [openapi3]: Remove: archive file [/home/abi/fetcher/tmp/openapi3-1.8.1.tar.gz]
+[2023-06-29 22:31:24] INFO root fetch - main [MainThread]: End processing [openapi3]: success
+[2023-06-29 22:31:24] INFO root fetch - processPackages [simvue]: Remove: archive file [/home/abi/fetcher/tmp/simvue-0.9.0.tar.gz]
+[2023-06-29 22:31:24] INFO root fetch - processPackages [simvue]: Remove: archive file [/home/abi/fetcher/tmp/simvue-0.9.1.tar.gz]
+[2023-06-29 22:31:24] INFO root fetch - main [MainThread]: End processing [simvue]: success
+[2023-06-29 22:31:25] INFO root fetch - processPackages [xia-puller]: Remove: archive file [/home/abi/fetcher/tmp/xia_puller-0.0.15-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:31:25] INFO root fetch - processPackages [xia-puller]: Remove: archive file [/home/abi/fetcher/tmp/xia_puller-0.0.16-cp39-none-win_amd64.whl.zip]
+[2023-06-29 22:31:25] INFO root fetch - main [MainThread]: End processing [xia-puller]: success
+[2023-06-29 22:31:25] INFO root fetch - processPackages [great-expectations]: Downloading https://files.pythonhosted.org/packages/8b/d0/2c9c16bde554a9df7f053fa3684f89779f6d9543e24eccfc88fbebdaa8a1/great_expectations-0.9.9.tar.gz
+[2023-06-29 22:31:25] INFO root fetch - processPackages [jupyterlab-optumi]: executing diffoscope
+[2023-06-29 22:31:25] INFO root fetch - processPackages [jupyterlab-optumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab-optumi-3.9.8.tar.gz tmp/jupyterlab-optumi-3.9.9.tar.gz --markdown 20230629/j/jupyterlab-optumi/3.9.8-3.9.9/diff.md --exclude *.pyd
+[2023-06-29 22:31:26] INFO root fetch - processPackages [great-expectations]: executing diffoscope
+[2023-06-29 22:31:26] INFO root fetch - processPackages [great-expectations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/great_expectations-0.9.8.tar.gz tmp/great_expectations-0.9.9.tar.gz --markdown 20230629/g/great-expectations/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-29 22:31:31] INFO root fetch - processPackages [great-expectations]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations-0.9.8.tar.gz]
+[2023-06-29 22:31:31] INFO root fetch - processPackages [great-expectations]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations-0.9.9.tar.gz]
+[2023-06-29 22:31:31] INFO root fetch - main [MainThread]: End processing [great-expectations]: success
+[2023-06-29 22:31:36] INFO root fetch - processPackages [jupyterlab-optumi]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab-optumi-3.9.8.tar.gz]
+[2023-06-29 22:31:36] INFO root fetch - processPackages [jupyterlab-optumi]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab-optumi-3.9.9.tar.gz]
+[2023-06-29 22:31:36] INFO root fetch - main [MainThread]: End processing [jupyterlab-optumi]: success
+[2023-06-29 22:31:36] INFO root fetch - processPackages [arelle-release]: Remove: archive file [/home/abi/fetcher/tmp/arelle-release-2.8.1.tar.gz]
+[2023-06-29 22:31:36] INFO root fetch - processPackages [arelle-release]: Remove: archive file [/home/abi/fetcher/tmp/arelle-release-2.9.0.tar.gz]
+[2023-06-29 22:31:36] INFO root fetch - main [MainThread]: End processing [arelle-release]: success
+[2023-06-29 22:32:31] INFO root fetch - processPackages [ottergon]: Remove: archive file [/home/abi/fetcher/tmp/ottergon-0.4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-29 22:32:31] INFO root fetch - processPackages [ottergon]: Remove: archive file [/home/abi/fetcher/tmp/ottergon-0.5.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-29 22:32:31] INFO root fetch - main [MainThread]: End processing [ottergon]: success
+[2023-06-29 22:32:49] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.345.8.tar.gz]
+[2023-06-29 22:32:49] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.345.9.tar.gz]
+[2023-06-29 22:32:49] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-06-29 22:32:49] INFO root fetch - main [MainThread]: Store serial: [18700148]
