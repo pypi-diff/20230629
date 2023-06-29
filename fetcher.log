@@ -19222,3 +19222,72 @@ AssertionError: tmp/live_parquet-0.2.0.tar.gz does not exist
 [2023-06-29 20:07:22] INFO root fetch - processPackages [pedal]: Remove: archive file [/home/abi/fetcher/tmp/pedal-2.5.3.tar.gz]
 [2023-06-29 20:07:22] INFO root fetch - main [MainThread]: End processing [pedal]: success
 [2023-06-29 20:07:22] INFO root fetch - main [MainThread]: Store serial: [18698883]
+[2023-06-29 20:12:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18698883]
+[2023-06-29 20:12:31] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-29 20:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datrics-dash-pivottable
+[2023-06-29 20:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: func-ai
+[2023-06-29 20:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TINTOlib
+[2023-06-29 20:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tomato-engine
+[2023-06-29 20:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openstack-image-manager
+[2023-06-29 20:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: x-clip
+[2023-06-29 20:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ezelf
+[2023-06-29 20:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: enstat
+[2023-06-29 20:12:31] INFO root fetch - processPackages [func-ai]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-29 20:12:31] INFO root fetch - processPackages [tomato-engine]: New version: [2.0.0] Old Version: [1.8.5]
+[2023-06-29 20:12:31] INFO root fetch - processPackages [openstack-image-manager]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-29 20:12:31] INFO root fetch - processPackages [TINTOlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 20:12:31] INFO root fetch - processPackages [ezelf]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-29 20:12:31] WARNING root fetch - processPackages [datrics-dash-pivottable]: Skipping, unable to determine old version
+[2023-06-29 20:12:31] INFO root fetch - processPackages [enstat]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-29 20:12:31] INFO root fetch - processPackages [x-clip]: New version: [0.9.0] Old Version: [0.8.4]
+[2023-06-29 20:12:31] INFO root fetch - main [MainThread]: End processing [datrics-dash-pivottable] error
+[2023-06-29 20:12:31] INFO root fetch - processPackages [ezelf]: Downloading https://files.pythonhosted.org/packages/88/13/9aaf6eace5257669a1b3e3605aed90797965604df363f86dcb6297bc53a1/ezelf-0.1.0.tar.gz
+[2023-06-29 20:12:31] INFO root fetch - processPackages [enstat]: Downloading https://files.pythonhosted.org/packages/22/61/df686bf87eb1e4fe1b569e5c3979abee150414a2310a6ebe98950937ca9a/enstat-0.9.3.tar.gz
+[2023-06-29 20:12:31] INFO root fetch - processPackages [func-ai]: Downloading https://files.pythonhosted.org/packages/50/93/877d85ee495782fca3c647fbad33d15ff6e4a2d048ae554c89d2c8e8bc2d/func_ai-0.0.2.tar.gz
+[2023-06-29 20:12:31] INFO root fetch - processPackages [tomato-engine]: Downloading https://files.pythonhosted.org/packages/ce/51/154d3579de09c21d0f80aa3e761b075e57987a300655d3f6af010d860241/tomato-engine-1.8.5.tar.gz
+[2023-06-29 20:12:31] INFO root fetch - processPackages [openstack-image-manager]: Downloading https://files.pythonhosted.org/packages/00/03/b24533841e01813228815aeb4ce132383d8ca11ea51908b5825ef8fedbd3/openstack-image-manager-0.3.1.tar.gz
+[2023-06-29 20:12:31] INFO root fetch - processPackages [x-clip]: Downloading https://files.pythonhosted.org/packages/c2/fa/de33d678f316f116c7d3356759dd1b8ede83bdb36a3647dddb617fe25be3/x-clip-0.8.4.tar.gz
+[2023-06-29 20:12:31] INFO root fetch - processPackages [TINTOlib]: Downloading https://files.pythonhosted.org/packages/88/66/5ff78a7354d96c5cb6040119eab2be915cdf9e9570f5bf18b1c2dba81c64/tintolib-0.0.8.tar.gz
+[2023-06-29 20:12:31] INFO root fetch - processPackages [ezelf]: Downloading https://files.pythonhosted.org/packages/5b/54/d8da714a62bc454d2b45d86b11ee1be8e286f549bc425f554febeeff5dc9/ezelf-0.1.1.tar.gz
+[2023-06-29 20:12:31] INFO root fetch - processPackages [enstat]: Downloading https://files.pythonhosted.org/packages/85/85/011d11535e101d472178a86e97c43e3bc85f77ca7cb083a3430a56d8935c/enstat-0.9.4.tar.gz
+[2023-06-29 20:12:31] INFO root fetch - processPackages [tomato-engine]: Downloading https://files.pythonhosted.org/packages/cd/bb/7f0743fbc641cb3feedac6f8569562a308f1d8b5f4f4c3f8230d53ee1bfd/tomato-engine-2.0.0.tar.gz
+[2023-06-29 20:12:31] INFO root fetch - processPackages [func-ai]: Downloading https://files.pythonhosted.org/packages/0d/ce/84a9717f1103ff07715ba979a4a621995cce5295e27ddd463eec7a000c90/func_ai-0.0.3.tar.gz
+[2023-06-29 20:12:31] INFO root fetch - processPackages [tomato-engine]: executing diffoscope
+[2023-06-29 20:12:31] INFO root fetch - processPackages [tomato-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomato-engine-1.8.5.tar.gz tmp/tomato-engine-2.0.0.tar.gz --markdown 20230629/t/tomato-engine/1.8.5-2.0.0/diff.md --exclude *.pyd
+[2023-06-29 20:12:31] INFO root fetch - processPackages [ezelf]: executing diffoscope
+[2023-06-29 20:12:31] INFO root fetch - processPackages [ezelf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezelf-0.1.0.tar.gz tmp/ezelf-0.1.1.tar.gz --markdown 20230629/e/ezelf/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-29 20:12:31] INFO root fetch - processPackages [enstat]: executing diffoscope
+[2023-06-29 20:12:31] INFO root fetch - processPackages [enstat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enstat-0.9.3.tar.gz tmp/enstat-0.9.4.tar.gz --markdown 20230629/e/enstat/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-29 20:12:31] INFO root fetch - processPackages [openstack-image-manager]: Downloading https://files.pythonhosted.org/packages/f5/5d/42242ca119286c2448da9dd6eae72c285d4380321c7a003768fbf7b07dcf/openstack-image-manager-0.3.2.tar.gz
+[2023-06-29 20:12:31] INFO root fetch - processPackages [func-ai]: executing diffoscope
+[2023-06-29 20:12:31] INFO root fetch - processPackages [func-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/func_ai-0.0.2.tar.gz tmp/func_ai-0.0.3.tar.gz --markdown 20230629/f/func-ai/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-29 20:12:31] INFO root fetch - processPackages [openstack-image-manager]: executing diffoscope
+[2023-06-29 20:12:31] INFO root fetch - processPackages [openstack-image-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstack-image-manager-0.3.1.tar.gz tmp/openstack-image-manager-0.3.2.tar.gz --markdown 20230629/o/openstack-image-manager/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-29 20:12:32] INFO root fetch - processPackages [x-clip]: Downloading https://files.pythonhosted.org/packages/1a/51/18c7cb5b818fc9c8cc6ec463a0c7669f2c0ff27779c39a2aa2d833e1e9d0/x-clip-0.9.0.tar.gz
+[2023-06-29 20:12:32] INFO root fetch - processPackages [ezelf]: Remove: archive file [/home/abi/fetcher/tmp/ezelf-0.1.0.tar.gz]
+[2023-06-29 20:12:32] INFO root fetch - processPackages [ezelf]: Remove: archive file [/home/abi/fetcher/tmp/ezelf-0.1.1.tar.gz]
+[2023-06-29 20:12:32] INFO root fetch - main [MainThread]: End processing [ezelf]: success
+[2023-06-29 20:12:32] INFO root fetch - processPackages [TINTOlib]: Downloading https://files.pythonhosted.org/packages/c4/27/a91d5cfaf102a55a2a1c9d05c61fa9b4e7a94ef94ddb79a837edafdb6324/tintolib-0.0.9.tar.gz
+[2023-06-29 20:12:32] INFO root fetch - processPackages [x-clip]: executing diffoscope
+[2023-06-29 20:12:32] INFO root fetch - processPackages [x-clip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x-clip-0.8.4.tar.gz tmp/x-clip-0.9.0.tar.gz --markdown 20230629/x/x-clip/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2023-06-29 20:12:32] INFO root fetch - processPackages [enstat]: Remove: archive file [/home/abi/fetcher/tmp/enstat-0.9.3.tar.gz]
+[2023-06-29 20:12:32] INFO root fetch - processPackages [enstat]: Remove: archive file [/home/abi/fetcher/tmp/enstat-0.9.4.tar.gz]
+[2023-06-29 20:12:32] INFO root fetch - main [MainThread]: End processing [enstat]: success
+[2023-06-29 20:12:32] INFO root fetch - processPackages [func-ai]: Remove: archive file [/home/abi/fetcher/tmp/func_ai-0.0.2.tar.gz]
+[2023-06-29 20:12:32] INFO root fetch - processPackages [func-ai]: Remove: archive file [/home/abi/fetcher/tmp/func_ai-0.0.3.tar.gz]
+[2023-06-29 20:12:32] INFO root fetch - main [MainThread]: End processing [func-ai]: success
+[2023-06-29 20:12:33] INFO root fetch - processPackages [tomato-engine]: Remove: archive file [/home/abi/fetcher/tmp/tomato-engine-1.8.5.tar.gz]
+[2023-06-29 20:12:33] INFO root fetch - processPackages [tomato-engine]: Remove: archive file [/home/abi/fetcher/tmp/tomato-engine-2.0.0.tar.gz]
+[2023-06-29 20:12:33] INFO root fetch - main [MainThread]: End processing [tomato-engine]: success
+[2023-06-29 20:12:33] INFO root fetch - processPackages [openstack-image-manager]: Remove: archive file [/home/abi/fetcher/tmp/openstack-image-manager-0.3.1.tar.gz]
+[2023-06-29 20:12:33] INFO root fetch - processPackages [openstack-image-manager]: Remove: archive file [/home/abi/fetcher/tmp/openstack-image-manager-0.3.2.tar.gz]
+[2023-06-29 20:12:33] INFO root fetch - main [MainThread]: End processing [openstack-image-manager]: success
+[2023-06-29 20:12:33] INFO root fetch - processPackages [TINTOlib]: executing diffoscope
+[2023-06-29 20:12:33] INFO root fetch - processPackages [TINTOlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tintolib-0.0.8.tar.gz tmp/tintolib-0.0.9.tar.gz --markdown 20230629/T/TINTOlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 20:12:34] INFO root fetch - processPackages [x-clip]: Remove: archive file [/home/abi/fetcher/tmp/x-clip-0.8.4.tar.gz]
+[2023-06-29 20:12:34] INFO root fetch - processPackages [x-clip]: Remove: archive file [/home/abi/fetcher/tmp/x-clip-0.9.0.tar.gz]
+[2023-06-29 20:12:34] INFO root fetch - main [MainThread]: End processing [x-clip]: success
+[2023-06-29 20:13:13] INFO root fetch - processPackages [TINTOlib]: Remove: archive file [/home/abi/fetcher/tmp/tintolib-0.0.8.tar.gz]
+[2023-06-29 20:13:13] INFO root fetch - processPackages [TINTOlib]: Remove: archive file [/home/abi/fetcher/tmp/tintolib-0.0.9.tar.gz]
+[2023-06-29 20:13:13] INFO root fetch - main [MainThread]: End processing [TINTOlib]: success
+[2023-06-29 20:13:13] INFO root fetch - main [MainThread]: Store serial: [18698909]
