@@ -249,3 +249,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 08:18:22] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.8.tar.gz]
 [2023-06-29 08:18:22] INFO root fetch - main [MainThread]: End processing [mltlk]: success
 [2023-06-29 08:18:22] INFO root fetch - main [MainThread]: Store serial: [18690905]
+[2023-06-29 08:23:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18690905]
+[2023-06-29 08:23:30] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-29 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reliably-cli
+[2023-06-29 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sentry-ldap
+[2023-06-29 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zope.deferredimport
+[2023-06-29 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pretext
+[2023-06-29 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: detect-hate-speech
+[2023-06-29 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zope.principalannotation
+[2023-06-29 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gimera
+[2023-06-29 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wad2023-program
+[2023-06-29 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yz-core2
+[2023-06-29 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kimariDraw
+[2023-06-29 08:23:30] INFO root fetch - processPackages [zope.principalannotation]: New version: [5.0] Old Version: [4.4]
+[2023-06-29 08:23:30] INFO root fetch - processPackages [wad2023-program]: New version: [1.1.1.dev0] Old Version: [1.1.0]
+[2023-06-29 08:23:30] INFO root fetch - processPackages [zope.deferredimport]: New version: [5.0] Old Version: [4.4]
+[2023-06-29 08:23:30] INFO root fetch - processPackages [yz-core2]: New version: [1.0.56b2] Old Version: [1.0.56b1]
+[2023-06-29 08:23:30] INFO root fetch - processPackages [sentry-ldap]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-06-29 08:23:30] INFO root fetch - processPackages [reliably-cli]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-06-29 08:23:30] INFO root fetch - processPackages [gimera]: New version: [0.7.1] Old Version: [0.6.91]
+[2023-06-29 08:23:30] INFO root fetch - processPackages [detect-hate-speech]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-29 08:23:30] INFO root fetch - processPackages [pretext]: New version: [1.6.1.dev20230629] Old Version: [1.6.1.dev20230628]
+[2023-06-29 08:23:30] INFO root fetch - processPackages [wad2023-program]: Downloading https://files.pythonhosted.org/packages/c4/67/5c3f0a08d664c1444fd3037dd380ce884a14f613534353d5ec4dd5fc8c36/wad2023-program-1.1.0.tar.gz
+[2023-06-29 08:23:30] WARNING root fetch - processPackages [kimariDraw]: Skipping, unable to determine old version
+[2023-06-29 08:23:30] INFO root fetch - main [MainThread]: End processing [kimariDraw] error
+[2023-06-29 08:23:30] INFO root fetch - processPackages [sentry-ldap]: Downloading https://files.pythonhosted.org/packages/e2/06/7ed9438f7a9b7c04f54451531461a75ec06d4a0574ae99093f062a05d5d7/sentry-ldap-1.2.7.tar.gz
+[2023-06-29 08:23:30] INFO root fetch - processPackages [reliably-cli]: Downloading https://files.pythonhosted.org/packages/5c/f2/a3aed8f4d5985029fc2cfa208fbc5900bf1a46fa2bd7f0e0536b5fb11882/reliably_cli-0.8.0.tar.gz
+[2023-06-29 08:23:30] INFO root fetch - processPackages [zope.principalannotation]: Downloading https://files.pythonhosted.org/packages/1c/7a/c7605be6e6c3cbc8185181d02f6436e878508e988d19df15ff4fd85af139/zope.principalannotation-4.4.tar.gz
+[2023-06-29 08:23:30] INFO root fetch - processPackages [zope.deferredimport]: Downloading https://files.pythonhosted.org/packages/50/0b/751237130777dc4497bd7c404b29c483efa7c39672a8796d7bfe4ef059cd/zope.deferredimport-4.4.tar.gz
+[2023-06-29 08:23:30] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/03/dd/6184dd734081f81d572bf8379b28eec0210488bdaadd351653bf9b0d92ce/gimera-0.6.91.tar.gz
+[2023-06-29 08:23:30] INFO root fetch - processPackages [detect-hate-speech]: Downloading https://files.pythonhosted.org/packages/a2/86/9c4e516d891f7a270c19d81e09a2b04dd2b2281b0ba45c6bbbb285c41f1d/detect_hate_speech-0.1.6.tar.gz
+[2023-06-29 08:23:30] INFO root fetch - processPackages [yz-core2]: Downloading https://files.pythonhosted.org/packages/b7/b3/7d7b30dc016df25d960ea435b78e6005a979fdaba14ff7629484457700e5/yz-core2-1.0.56b1.tar.gz
+[2023-06-29 08:23:30] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/19/51/0ef30bd59f376602ad89f43c92bad3c412e7bd9f913da1506551773158ff/pretext-1.6.1.dev20230628.tar.gz
+[2023-06-29 08:23:30] INFO root fetch - processPackages [wad2023-program]: Downloading https://files.pythonhosted.org/packages/39/56/69105f3c2c52fad9bd35f13e603b8e6e742d36cc3e8e7ed7449b55e09053/wad2023-program-1.1.1.dev0.tar.gz
+[2023-06-29 08:23:30] INFO root fetch - processPackages [reliably-cli]: Downloading https://files.pythonhosted.org/packages/08/a8/d33c9b0664313e5dc73be7965bff0553af6e3aaabd251e6bcf4ad91cf542/reliably_cli-0.8.1.tar.gz
+[2023-06-29 08:23:31] INFO root fetch - processPackages [sentry-ldap]: Downloading https://files.pythonhosted.org/packages/cb/1e/83cabdfdabeba1802261f3a524815733cc480cb976268328ebff97072c34/sentry-ldap-1.2.8.tar.gz
+[2023-06-29 08:23:31] INFO root fetch - processPackages [detect-hate-speech]: Downloading https://files.pythonhosted.org/packages/e2/9a/84a4c41d763127ea55cada87693dddae9a6a28d5fdd770b02c5b85f3daa8/detect_hate_speech-0.1.7.tar.gz
+[2023-06-29 08:23:31] INFO root fetch - processPackages [zope.deferredimport]: Downloading https://files.pythonhosted.org/packages/a1/b7/9b0c93edb4c6745ac8784c265d244f5b3bc4082d92f7aefe952aaa5be5f3/zope.deferredimport-5.0.tar.gz
+[2023-06-29 08:23:31] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/7f/fd/126ceb9a4691a78df50d6107d2024d7646bff1dac1f48b08af1abab0aff6/gimera-0.7.1.tar.gz
+[2023-06-29 08:23:31] INFO root fetch - processPackages [wad2023-program]: executing diffoscope
+[2023-06-29 08:23:31] INFO root fetch - processPackages [wad2023-program]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wad2023-program-1.1.0.tar.gz tmp/wad2023-program-1.1.1.dev0.tar.gz --markdown 20230629/w/wad2023-program/1.1.0-1.1.1.dev0/diff.md --exclude *.pyd
+[2023-06-29 08:23:31] INFO root fetch - processPackages [reliably-cli]: executing diffoscope
+[2023-06-29 08:23:31] INFO root fetch - processPackages [reliably-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliably_cli-0.8.0.tar.gz tmp/reliably_cli-0.8.1.tar.gz --markdown 20230629/r/reliably-cli/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-06-29 08:23:31] INFO root fetch - processPackages [yz-core2]: Downloading https://files.pythonhosted.org/packages/9c/f7/e2bfdd8794266fb260dfcb5eb71da41465a2adab5d758d44e30c79217c3e/yz-core2-1.0.56b2.tar.gz
+[2023-06-29 08:23:31] INFO root fetch - processPackages [zope.principalannotation]: Downloading https://files.pythonhosted.org/packages/64/3f/6bc3c1b577ae9ae52054baed1f810b67fbcea52d97ca232b05a9950242d2/zope.principalannotation-5.0.tar.gz
+[2023-06-29 08:23:31] INFO root fetch - processPackages [sentry-ldap]: executing diffoscope
+[2023-06-29 08:23:31] INFO root fetch - processPackages [sentry-ldap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-ldap-1.2.7.tar.gz tmp/sentry-ldap-1.2.8.tar.gz --markdown 20230629/s/sentry-ldap/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-06-29 08:23:31] INFO root fetch - processPackages [detect-hate-speech]: executing diffoscope
+[2023-06-29 08:23:31] INFO root fetch - processPackages [detect-hate-speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/detect_hate_speech-0.1.6.tar.gz tmp/detect_hate_speech-0.1.7.tar.gz --markdown 20230629/d/detect-hate-speech/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-29 08:23:31] INFO root fetch - processPackages [zope.deferredimport]: executing diffoscope
+[2023-06-29 08:23:31] INFO root fetch - processPackages [zope.deferredimport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zope.deferredimport-4.4.tar.gz tmp/zope.deferredimport-5.0.tar.gz --markdown 20230629/z/zope.deferredimport/4.4-5.0/diff.md --exclude *.pyd
+[2023-06-29 08:23:31] INFO root fetch - processPackages [gimera]: executing diffoscope
+[2023-06-29 08:23:31] INFO root fetch - processPackages [gimera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gimera-0.6.91.tar.gz tmp/gimera-0.7.1.tar.gz --markdown 20230629/g/gimera/0.6.91-0.7.1/diff.md --exclude *.pyd
+[2023-06-29 08:23:31] INFO root fetch - processPackages [zope.principalannotation]: executing diffoscope
+[2023-06-29 08:23:31] INFO root fetch - processPackages [zope.principalannotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zope.principalannotation-4.4.tar.gz tmp/zope.principalannotation-5.0.tar.gz --markdown 20230629/z/zope.principalannotation/4.4-5.0/diff.md --exclude *.pyd
+[2023-06-29 08:23:31] INFO root fetch - processPackages [yz-core2]: executing diffoscope
+[2023-06-29 08:23:31] INFO root fetch - processPackages [yz-core2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yz-core2-1.0.56b1.tar.gz tmp/yz-core2-1.0.56b2.tar.gz --markdown 20230629/y/yz-core2/1.0.56b1-1.0.56b2/diff.md --exclude *.pyd
+[2023-06-29 08:23:31] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/fb/12/0cb80c3698c5ec4cdc3a9a83868edeadaae56fca805f0e8e66052c784edf/pretext-1.6.1.dev20230629.tar.gz
+[2023-06-29 08:23:31] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-06-29 08:23:31] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.6.1.dev20230628.tar.gz tmp/pretext-1.6.1.dev20230629.tar.gz --markdown 20230629/p/pretext/1.6.1.dev20230628-1.6.1.dev20230629/diff.md --exclude *.pyd
+[2023-06-29 08:23:33] INFO root fetch - processPackages [detect-hate-speech]: Remove: archive file [/home/abi/fetcher/tmp/detect_hate_speech-0.1.6.tar.gz]
+[2023-06-29 08:23:33] INFO root fetch - processPackages [detect-hate-speech]: Remove: archive file [/home/abi/fetcher/tmp/detect_hate_speech-0.1.7.tar.gz]
+[2023-06-29 08:23:33] INFO root fetch - main [MainThread]: End processing [detect-hate-speech]: success
+[2023-06-29 08:23:33] INFO root fetch - processPackages [sentry-ldap]: Remove: archive file [/home/abi/fetcher/tmp/sentry-ldap-1.2.7.tar.gz]
+[2023-06-29 08:23:33] INFO root fetch - processPackages [sentry-ldap]: Remove: archive file [/home/abi/fetcher/tmp/sentry-ldap-1.2.8.tar.gz]
+[2023-06-29 08:23:33] INFO root fetch - main [MainThread]: End processing [sentry-ldap]: success
+[2023-06-29 08:23:33] INFO root fetch - processPackages [zope.principalannotation]: Remove: archive file [/home/abi/fetcher/tmp/zope.principalannotation-4.4.tar.gz]
+[2023-06-29 08:23:33] INFO root fetch - processPackages [zope.principalannotation]: Remove: archive file [/home/abi/fetcher/tmp/zope.principalannotation-5.0.tar.gz]
+[2023-06-29 08:23:33] INFO root fetch - main [MainThread]: End processing [zope.principalannotation]: success
+[2023-06-29 08:23:33] INFO root fetch - processPackages [wad2023-program]: Remove: archive file [/home/abi/fetcher/tmp/wad2023-program-1.1.0.tar.gz]
+[2023-06-29 08:23:33] INFO root fetch - processPackages [wad2023-program]: Remove: archive file [/home/abi/fetcher/tmp/wad2023-program-1.1.1.dev0.tar.gz]
+[2023-06-29 08:23:33] INFO root fetch - main [MainThread]: End processing [wad2023-program]: success
+[2023-06-29 08:23:33] INFO root fetch - processPackages [reliably-cli]: Remove: archive file [/home/abi/fetcher/tmp/reliably_cli-0.8.0.tar.gz]
+[2023-06-29 08:23:33] INFO root fetch - processPackages [reliably-cli]: Remove: archive file [/home/abi/fetcher/tmp/reliably_cli-0.8.1.tar.gz]
+[2023-06-29 08:23:33] INFO root fetch - main [MainThread]: End processing [reliably-cli]: success
+[2023-06-29 08:23:33] INFO root fetch - processPackages [gimera]: Remove: archive file [/home/abi/fetcher/tmp/gimera-0.6.91.tar.gz]
+[2023-06-29 08:23:33] INFO root fetch - processPackages [gimera]: Remove: archive file [/home/abi/fetcher/tmp/gimera-0.7.1.tar.gz]
+[2023-06-29 08:23:33] INFO root fetch - main [MainThread]: End processing [gimera]: success
+[2023-06-29 08:23:33] INFO root fetch - processPackages [yz-core2]: Remove: archive file [/home/abi/fetcher/tmp/yz-core2-1.0.56b1.tar.gz]
+[2023-06-29 08:23:33] INFO root fetch - processPackages [yz-core2]: Remove: archive file [/home/abi/fetcher/tmp/yz-core2-1.0.56b2.tar.gz]
+[2023-06-29 08:23:33] INFO root fetch - main [MainThread]: End processing [yz-core2]: success
+[2023-06-29 08:23:33] INFO root fetch - processPackages [zope.deferredimport]: Remove: archive file [/home/abi/fetcher/tmp/zope.deferredimport-4.4.tar.gz]
+[2023-06-29 08:23:33] INFO root fetch - processPackages [zope.deferredimport]: Remove: archive file [/home/abi/fetcher/tmp/zope.deferredimport-5.0.tar.gz]
+[2023-06-29 08:23:33] INFO root fetch - main [MainThread]: End processing [zope.deferredimport]: success
+[2023-06-29 08:23:37] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230628.tar.gz]
+[2023-06-29 08:23:37] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230629.tar.gz]
+[2023-06-29 08:23:37] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-06-29 08:23:37] INFO root fetch - main [MainThread]: Store serial: [18690936]
