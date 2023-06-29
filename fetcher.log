@@ -489,3 +489,136 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 08:34:13] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.99.0.tar.gz]
 [2023-06-29 08:34:13] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
 [2023-06-29 08:34:13] INFO root fetch - main [MainThread]: Store serial: [18690998]
+[2023-06-29 08:39:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18690998]
+[2023-06-29 08:39:22] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-29 08:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-base-tier-validation
+[2023-06-29 08:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-base-cancel-confirm
+[2023-06-29 08:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-server-ux
+[2023-06-29 08:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: line-bot-sdk
+[2023-06-29 08:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aioredisorm
+[2023-06-29 08:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: atila-vue
+[2023-06-29 08:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: szh_toolbox
+[2023-06-29 08:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nanomonsv
+[2023-06-29 08:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyees
+[2023-06-29 08:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: trimnami
+[2023-06-29 08:39:22] INFO root fetch - processPackages [line-bot-sdk]: New version: [3.0.0] Old Version: [2.4.2]
+[2023-06-29 08:39:22] INFO root fetch - processPackages [odoo-addon-base-cancel-confirm]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-29 08:39:22] INFO root fetch - processPackages [aioredisorm]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-29 08:39:22] INFO root fetch - processPackages [atila-vue]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-29 08:39:22] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: New version: [16.0.1.0.4.76] Old Version: [16.0.1.0.4.6]
+[2023-06-29 08:39:22] INFO root fetch - processPackages [szh_toolbox]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-29 08:39:22] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: New version: [16.0.20230628.1] Old Version: [16.0.20230622.1]
+[2023-06-29 08:39:22] INFO root fetch - processPackages [nanomonsv]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-29 08:39:22] INFO root fetch - processPackages [pyees]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-06-29 08:39:22] WARNING root fetch - processPackages [trimnami]: Skipping, unable to determine old version
+[2023-06-29 08:39:22] INFO root fetch - processPackages [trimnami]: Start processing: aioredisorm
+[2023-06-29 08:39:22] INFO root fetch - main [MainThread]: End processing [trimnami] error
+[2023-06-29 08:39:22] INFO root fetch - processPackages [aioredisorm]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-29 08:39:22] INFO root fetch - processPackages [odoo-addon-base-cancel-confirm]: Downloading https://files.pythonhosted.org/packages/2a/4b/fe16498f98ee35bfc29aa1030f6ccd235b1773a2cc636412805f935460b8/odoo_addon_base_cancel_confirm-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-29 08:39:22] INFO root fetch - processPackages [aioredisorm]: Downloading https://files.pythonhosted.org/packages/b2/d8/1453cb2b26fd541ba33a64b4135321950f4e695496472e2ae8c2a9e78e52/aioredisorm-0.1.1.tar.gz
+[2023-06-29 08:39:22] INFO root fetch - processPackages [aioredisorm]: Downloading https://files.pythonhosted.org/packages/b2/d8/1453cb2b26fd541ba33a64b4135321950f4e695496472e2ae8c2a9e78e52/aioredisorm-0.1.1.tar.gz
+[2023-06-29 08:39:22] INFO root fetch - processPackages [atila-vue]: Downloading https://files.pythonhosted.org/packages/6c/93/0eff548409e0c9b74e264adaeb4f95bf1869ec7927b5782c588903621cff/atila_vue-0.3.1-py3-none-any.whl
+[2023-06-29 08:39:22] INFO root fetch - processPackages [pyees]: Downloading https://files.pythonhosted.org/packages/0d/de/609c4eb616801928a3cb02f265ce04388dde96cee041ce6f0aa21c0e7046/pyees-1.3.3.tar.gz
+[2023-06-29 08:39:22] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/23/79/0048585ef235747484f35c1669dda630304f15c523344281127b543d190f/odoo_addons_oca_server_ux-16.0.20230622.1-py3-none-any.whl
+[2023-06-29 08:39:22] INFO root fetch - processPackages [szh_toolbox]: Downloading https://files.pythonhosted.org/packages/89/55/ac8fa83c7be457de76e5248be9ef3ed01854da9c8bdb71e5b68f87ea681f/szh_toolbox-0.0.4.tar.gz
+[2023-06-29 08:39:22] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/d2/d8/fd3670e9a734765bcb7928609ea464cfc27a27d4962b46383ca773d0aed0/odoo_addon_base_tier_validation-16.0.1.0.4.6-py3-none-any.whl
+[2023-06-29 08:39:22] INFO root fetch - processPackages [line-bot-sdk]: Downloading https://files.pythonhosted.org/packages/ce/f2/cf1f7bd91f075f6a746f270f55c0301d72e2472d8bcf4be8b7a320f7e7a7/line-bot-sdk-2.4.2.tar.gz
+[2023-06-29 08:39:22] INFO root fetch - processPackages [nanomonsv]: Downloading https://files.pythonhosted.org/packages/96/8c/6525a958c684b50ffcfbe6a23a256a84af3bc2f0149c44350905adb96940/nanomonsv-0.6.0.tar.gz
+[2023-06-29 08:39:23] INFO root fetch - processPackages [odoo-addon-base-cancel-confirm]: Downloading https://files.pythonhosted.org/packages/76/a6/e51f819f588c0881801648dee000463e9e896450bace2bf33baa271223ef/odoo_addon_base_cancel_confirm-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-29 08:39:23] INFO root fetch - processPackages [aioredisorm]: Downloading https://files.pythonhosted.org/packages/66/36/360c9d81d9c69bc67f1b89fa30fff85a22457df26dba6cd1505eca2ca68f/aioredisorm-0.1.2.tar.gz
+[2023-06-29 08:39:23] INFO root fetch - processPackages [pyees]: Downloading https://files.pythonhosted.org/packages/ff/1e/813871f7bad27174a58fad0e181e2ff178b814c574dc75dcf377451a544d/pyees-1.3.4.tar.gz
+[2023-06-29 08:39:23] INFO root fetch - processPackages [aioredisorm]: Downloading https://files.pythonhosted.org/packages/66/36/360c9d81d9c69bc67f1b89fa30fff85a22457df26dba6cd1505eca2ca68f/aioredisorm-0.1.2.tar.gz
+[2023-06-29 08:39:23] INFO root fetch - processPackages [atila-vue]: Downloading https://files.pythonhosted.org/packages/9f/67/3d3df207d2b416444f61c747ecaead083a7f24a5fc232c470a35ff0459da/atila_vue-0.3.2-py3-none-any.whl
+[2023-06-29 08:39:23] INFO root fetch - processPackages [szh_toolbox]: Downloading https://files.pythonhosted.org/packages/2b/8f/bdaced3827329b45ad6b6448e916f944818fc48d00a18b56ede84222bc34/szh_toolbox-0.0.5.tar.gz
+[2023-06-29 08:39:23] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/e7/d9/ff02694d7fc99abf880ce7481016cde96f134be44f669b03cc1206738020/odoo_addons_oca_server_ux-16.0.20230628.1-py3-none-any.whl
+[2023-06-29 08:39:23] INFO root fetch - processPackages [nanomonsv]: Downloading https://files.pythonhosted.org/packages/da/ac/138e4e0d794c91e35f8c446052200544bce864f4a237a8f9b9cc2e67c937/nanomonsv-0.7.0.tar.gz
+[2023-06-29 08:39:23] INFO root fetch - processPackages [odoo-addon-base-cancel-confirm]: executing diffoscope
+[2023-06-29 08:39:23] INFO root fetch - processPackages [odoo-addon-base-cancel-confirm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_cancel_confirm-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_base_cancel_confirm-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230629/o/odoo-addon-base-cancel-confirm/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-29 08:39:23] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/c5/b6/42e58c1d449824d0b2e10a06e58c6bbde7da9e299559283b3532d46489b9/odoo_addon_base_tier_validation-16.0.1.0.4.76-py3-none-any.whl
+[2023-06-29 08:39:23] INFO root fetch - processPackages [szh_toolbox]: executing diffoscope
+[2023-06-29 08:39:23] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: executing diffoscope
+[2023-06-29 08:39:23] INFO root fetch - processPackages [szh_toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/szh_toolbox-0.0.4.tar.gz tmp/szh_toolbox-0.0.5.tar.gz --markdown 20230629/s/szh_toolbox/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-29 08:39:23] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_ux-16.0.20230622.1-py3-none-any.whl.zip tmp/odoo_addons_oca_server_ux-16.0.20230628.1-py3-none-any.whl.zip --markdown 20230629/o/odoo-addons-oca-server-ux/16.0.20230622.1-16.0.20230628.1/diff.md --exclude *.pyd
+[2023-06-29 08:39:23] INFO root fetch - processPackages [atila-vue]: executing diffoscope
+[2023-06-29 08:39:23] INFO root fetch - processPackages [atila-vue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atila_vue-0.3.1-py3-none-any.whl.zip tmp/atila_vue-0.3.2-py3-none-any.whl.zip --markdown 20230629/a/atila-vue/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-29 08:39:23] INFO root fetch - processPackages [line-bot-sdk]: Downloading https://files.pythonhosted.org/packages/71/0f/96f08416e58eec3294f418853e41123ec6862219b94a541f55da6933304b/line-bot-sdk-3.0.0.tar.gz
+[2023-06-29 08:39:23] INFO root fetch - processPackages [aioredisorm]: executing diffoscope
+[2023-06-29 08:39:23] INFO root fetch - processPackages [aioredisorm]: executing diffoscope
+[2023-06-29 08:39:23] INFO root fetch - processPackages [aioredisorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioredisorm-0.1.1.tar.gz tmp/aioredisorm-0.1.2.tar.gz --markdown 20230629/a/aioredisorm/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-29 08:39:23] INFO root fetch - processPackages [aioredisorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioredisorm-0.1.1.tar.gz tmp/aioredisorm-0.1.2.tar.gz --markdown 20230629/a/aioredisorm/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-29 08:39:23] INFO root fetch - processPackages [pyees]: executing diffoscope
+[2023-06-29 08:39:23] INFO root fetch - processPackages [pyees]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyees-1.3.3.tar.gz tmp/pyees-1.3.4.tar.gz --markdown 20230629/p/pyees/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-06-29 08:39:23] INFO root fetch - processPackages [nanomonsv]: executing diffoscope
+[2023-06-29 08:39:23] INFO root fetch - processPackages [nanomonsv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanomonsv-0.6.0.tar.gz tmp/nanomonsv-0.7.0.tar.gz --markdown 20230629/n/nanomonsv/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-29 08:39:23] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: executing diffoscope
+[2023-06-29 08:39:23] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_tier_validation-16.0.1.0.4.6-py3-none-any.whl.zip tmp/odoo_addon_base_tier_validation-16.0.1.0.4.76-py3-none-any.whl.zip --markdown 20230629/o/odoo-addon-base-tier-validation/16.0.1.0.4.6-16.0.1.0.4.76/diff.md --exclude *.pyd
+[2023-06-29 08:39:23] INFO root fetch - processPackages [line-bot-sdk]: executing diffoscope
+[2023-06-29 08:39:23] INFO root fetch - processPackages [line-bot-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/line-bot-sdk-2.4.2.tar.gz tmp/line-bot-sdk-3.0.0.tar.gz --markdown 20230629/l/line-bot-sdk/2.4.2-3.0.0/diff.md --exclude *.pyd
+[2023-06-29 08:39:24] INFO root fetch - processPackages [szh_toolbox]: Remove: archive file [/home/abi/fetcher/tmp/szh_toolbox-0.0.4.tar.gz]
+[2023-06-29 08:39:24] INFO root fetch - processPackages [szh_toolbox]: Remove: archive file [/home/abi/fetcher/tmp/szh_toolbox-0.0.5.tar.gz]
+[2023-06-29 08:39:24] INFO root fetch - processPackages [szh_toolbox]: Start processing: kimariDraw
+[2023-06-29 08:39:24] INFO root fetch - main [MainThread]: End processing [szh_toolbox]: success
+[2023-06-29 08:39:24] INFO root fetch - processPackages [kimariDraw]: New version: [1.1.1] Old Version: [1.1]
+[2023-06-29 08:39:24] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_ux-16.0.20230622.1-py3-none-any.whl.zip]
+[2023-06-29 08:39:24] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_ux-16.0.20230628.1-py3-none-any.whl.zip]
+[2023-06-29 08:39:24] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Start processing: draccus
+[2023-06-29 08:39:24] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-ux]: success
+[2023-06-29 08:39:25] INFO root fetch - processPackages [draccus]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-29 08:39:25] INFO root fetch - processPackages [aioredisorm]: Remove: archive file [/home/abi/fetcher/tmp/aioredisorm-0.1.1.tar.gz]
+[2023-06-29 08:39:25] INFO root fetch - processPackages [aioredisorm]: Remove: archive file [/home/abi/fetcher/tmp/aioredisorm-0.1.2.tar.gz]
+[2023-06-29 08:39:25] INFO root fetch - processPackages [aioredisorm]: Start processing: databricks-session
+[2023-06-29 08:39:25] INFO root fetch - main [MainThread]: End processing [aioredisorm]: success
+[2023-06-29 08:39:25] INFO root fetch - processPackages [odoo-addon-base-cancel-confirm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_cancel_confirm-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-29 08:39:25] INFO root fetch - processPackages [odoo-addon-base-cancel-confirm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_cancel_confirm-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-29 08:39:25] INFO root fetch - processPackages [odoo-addon-base-cancel-confirm]: Start processing: dalec-openproject
+[2023-06-29 08:39:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-cancel-confirm]: success
+[2023-06-29 08:39:25] INFO root fetch - processPackages [databricks-session]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-29 08:39:25] INFO root fetch - processPackages [aioredisorm]: Start processing: dank-mids
+[2023-06-29 08:39:25] INFO root fetch - main [MainThread]: End processing [aioredisorm]: success
+[2023-06-29 08:39:25] INFO root fetch - processPackages [kimariDraw]: Downloading https://files.pythonhosted.org/packages/99/d1/035cd3c6cc3addd16cd19f8e5da6188703863372cf41bd25a21d306f1c45/kimariDraw-1.1.tar.gz
+[2023-06-29 08:39:25] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-29 08:39:25] WARNING root fetch - processPackages [dalec-openproject]: Skipping, unable to determine old version
+[2023-06-29 08:39:25] INFO root fetch - main [MainThread]: End processing [dalec-openproject] error
+[2023-06-29 08:39:25] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-29 08:39:25] INFO root fetch - processPackages [pyees]: Remove: archive file [/home/abi/fetcher/tmp/pyees-1.3.3.tar.gz]
+[2023-06-29 08:39:25] INFO root fetch - processPackages [pyees]: Remove: archive file [/home/abi/fetcher/tmp/pyees-1.3.4.tar.gz]
+[2023-06-29 08:39:25] INFO root fetch - main [MainThread]: End processing [pyees]: success
+[2023-06-29 08:39:25] INFO root fetch - processPackages [draccus]: Downloading https://files.pythonhosted.org/packages/64/be/79ab46478804913df62d3ac61b4dbe1a9a80c79954cec5bb96ba0c2e9ae2/draccus-0.4.0.tar.gz
+[2023-06-29 08:39:25] INFO root fetch - processPackages [databricks-session]: Downloading https://files.pythonhosted.org/packages/69/63/90047e126b508f77084f16f679b7033f3643f03b281e908a95090747811b/databricks_session-0.2.1.tar.gz
+[2023-06-29 08:39:25] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-29 08:39:25] INFO root fetch - processPackages [kimariDraw]: Downloading https://files.pythonhosted.org/packages/b5/9d/880632f71c461530695c38af7ae0d34a4fd118de8004ee95b761f51b977a/kimariDraw-1.1.1.tar.gz
+[2023-06-29 08:39:25] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-29 08:39:25] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230629/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-29 08:39:25] INFO root fetch - processPackages [draccus]: Downloading https://files.pythonhosted.org/packages/b5/f0/fa017ec40a0e46333d3026e16426482362115bdc1368e3255022d7faba06/draccus-0.4.1.tar.gz
+[2023-06-29 08:39:25] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_tier_validation-16.0.1.0.4.6-py3-none-any.whl.zip]
+[2023-06-29 08:39:25] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_tier_validation-16.0.1.0.4.76-py3-none-any.whl.zip]
+[2023-06-29 08:39:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
+[2023-06-29 08:39:25] INFO root fetch - processPackages [kimariDraw]: executing diffoscope
+[2023-06-29 08:39:25] INFO root fetch - processPackages [kimariDraw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kimariDraw-1.1.tar.gz tmp/kimariDraw-1.1.1.tar.gz --markdown 20230629/k/kimariDraw/1.1-1.1.1/diff.md --exclude *.pyd
+[2023-06-29 08:39:25] INFO root fetch - processPackages [databricks-session]: Downloading https://files.pythonhosted.org/packages/68/59/7a3e51a143b121786f35b0c48db4186f6c6523fbd2c3209ae54563ee7c39/databricks_session-0.2.2.tar.gz
+[2023-06-29 08:39:25] INFO root fetch - processPackages [atila-vue]: Remove: archive file [/home/abi/fetcher/tmp/atila_vue-0.3.1-py3-none-any.whl.zip]
+[2023-06-29 08:39:25] INFO root fetch - processPackages [atila-vue]: Remove: archive file [/home/abi/fetcher/tmp/atila_vue-0.3.2-py3-none-any.whl.zip]
+[2023-06-29 08:39:25] INFO root fetch - main [MainThread]: End processing [atila-vue]: success
+[2023-06-29 08:39:25] INFO root fetch - processPackages [databricks-session]: executing diffoscope
+[2023-06-29 08:39:25] INFO root fetch - processPackages [databricks-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_session-0.2.1.tar.gz tmp/databricks_session-0.2.2.tar.gz --markdown 20230629/d/databricks-session/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-29 08:39:25] INFO root fetch - processPackages [draccus]: executing diffoscope
+[2023-06-29 08:39:25] INFO root fetch - processPackages [draccus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draccus-0.4.0.tar.gz tmp/draccus-0.4.1.tar.gz --markdown 20230629/d/draccus/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-29 08:39:26] INFO root fetch - processPackages [kimariDraw]: Remove: archive file [/home/abi/fetcher/tmp/kimariDraw-1.1.tar.gz]
+[2023-06-29 08:39:26] INFO root fetch - processPackages [kimariDraw]: Remove: archive file [/home/abi/fetcher/tmp/kimariDraw-1.1.1.tar.gz]
+[2023-06-29 08:39:26] INFO root fetch - main [MainThread]: End processing [kimariDraw]: success
+[2023-06-29 08:39:26] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-29 08:39:26] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-29 08:39:26] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-29 08:39:26] INFO root fetch - processPackages [databricks-session]: Remove: archive file [/home/abi/fetcher/tmp/databricks_session-0.2.1.tar.gz]
+[2023-06-29 08:39:26] INFO root fetch - processPackages [databricks-session]: Remove: archive file [/home/abi/fetcher/tmp/databricks_session-0.2.2.tar.gz]
+[2023-06-29 08:39:26] INFO root fetch - main [MainThread]: End processing [databricks-session]: success
+[2023-06-29 08:39:27] INFO root fetch - processPackages [nanomonsv]: Remove: archive file [/home/abi/fetcher/tmp/nanomonsv-0.6.0.tar.gz]
+[2023-06-29 08:39:27] INFO root fetch - processPackages [nanomonsv]: Remove: archive file [/home/abi/fetcher/tmp/nanomonsv-0.7.0.tar.gz]
+[2023-06-29 08:39:27] INFO root fetch - main [MainThread]: End processing [nanomonsv]: success
+[2023-06-29 08:39:27] INFO root fetch - processPackages [line-bot-sdk]: Remove: archive file [/home/abi/fetcher/tmp/line-bot-sdk-2.4.2.tar.gz]
+[2023-06-29 08:39:27] INFO root fetch - processPackages [line-bot-sdk]: Remove: archive file [/home/abi/fetcher/tmp/line-bot-sdk-3.0.0.tar.gz]
+[2023-06-29 08:39:27] INFO root fetch - main [MainThread]: End processing [line-bot-sdk]: success
+[2023-06-29 08:39:28] INFO root fetch - processPackages [draccus]: Remove: archive file [/home/abi/fetcher/tmp/draccus-0.4.0.tar.gz]
+[2023-06-29 08:39:28] INFO root fetch - processPackages [draccus]: Remove: archive file [/home/abi/fetcher/tmp/draccus-0.4.1.tar.gz]
+[2023-06-29 08:39:28] INFO root fetch - main [MainThread]: End processing [draccus]: success
+[2023-06-29 08:39:28] INFO root fetch - main [MainThread]: Store serial: [18691046]
