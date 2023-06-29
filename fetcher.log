@@ -1291,3 +1291,123 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 09:18:13] INFO root fetch - processPackages [ndtorch]: Remove: archive file [/home/abi/fetcher/tmp/ndtorch-0.1.5.tar.gz]
 [2023-06-29 09:18:13] INFO root fetch - main [MainThread]: End processing [ndtorch]: success
 [2023-06-29 09:18:13] INFO root fetch - main [MainThread]: Store serial: [18691292]
+[2023-06-29 09:23:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18691292]
+[2023-06-29 09:23:23] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-29 09:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: configzen
+[2023-06-29 09:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlab-h5web
+[2023-06-29 09:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dask-lxplus
+[2023-06-29 09:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: monalysa
+[2023-06-29 09:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Flask-BigApp
+[2023-06-29 09:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-redis-utils
+[2023-06-29 09:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dank-mids
+[2023-06-29 09:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: acc-provision
+[2023-06-29 09:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: thonny-quecpython
+[2023-06-29 09:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tfq-nightly
+[2023-06-29 09:23:23] INFO root fetch - processPackages [Flask-BigApp]: New version: [2023.1.9.4] Old Version: [2023.1.9.3]
+[2023-06-29 09:23:23] INFO root fetch - processPackages [dask-lxplus]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-29 09:23:23] WARNING root fetch - processPackages [thonny-quecpython]: Skipping, unable to determine old version
+[2023-06-29 09:23:23] INFO root fetch - processPackages [thonny-quecpython]: Start processing: gispandas
+[2023-06-29 09:23:23] INFO root fetch - main [MainThread]: End processing [thonny-quecpython] error
+[2023-06-29 09:23:23] INFO root fetch - processPackages [configzen]: New version: [0.4.1] Old Version: [0.4]
+[2023-06-29 09:23:23] INFO root fetch - processPackages [jupyterlab-h5web]: New version: [8.0.0] Old Version: [7.1.2]
+[2023-06-29 09:23:23] INFO root fetch - processPackages [monalysa]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 09:23:23] INFO root fetch - processPackages [py-redis-utils]: New version: [2.0.0] Old Version: [1.1.2]
+[2023-06-29 09:23:23] INFO root fetch - processPackages [acc-provision]: New version: [5.2.7.1rc2] Old Version: [5.2.7.1rc1]
+[2023-06-29 09:23:23] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-29 09:23:23] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230628] Old Version: [0.7.3.dev20230627]
+[2023-06-29 09:23:23] WARNING root fetch - processPackages [gispandas]: Skipping, unable to determine old version
+[2023-06-29 09:23:23] INFO root fetch - processPackages [gispandas]: Start processing: qiskit-han
+[2023-06-29 09:23:23] INFO root fetch - main [MainThread]: End processing [gispandas] error
+[2023-06-29 09:23:23] INFO root fetch - processPackages [qiskit-han]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-29 09:23:23] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/b0/d2/a26c96d801ef0d3345ab82bbe6bd8b07de6d7cb55dd8ab593715a83c0362/configzen-0.4.tar.gz
+[2023-06-29 09:23:23] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-29 09:23:24] INFO root fetch - processPackages [Flask-BigApp]: Downloading https://files.pythonhosted.org/packages/2a/d0/a96f8ca22edd2307551bcf8d2e43559a0ab0a8098321f10cca6a8a8ea270/Flask-BigApp-2023.1.9.3.tar.gz
+[2023-06-29 09:23:24] INFO root fetch - processPackages [dask-lxplus]: Downloading https://files.pythonhosted.org/packages/6b/25/46809737925510963544f97718eb54f130cd6928c9becc6e1432c32eacd3/dask_lxplus-0.3.0.tar.gz
+[2023-06-29 09:23:24] INFO root fetch - processPackages [py-redis-utils]: Downloading https://files.pythonhosted.org/packages/73/f6/0ee4c0f2e9352d4ca1713d69c8f2628f30f38a9109c19c2501287cdcddbc/py-redis-utils-1.1.2.tar.gz
+[2023-06-29 09:23:24] INFO root fetch - processPackages [jupyterlab-h5web]: Downloading https://files.pythonhosted.org/packages/ec/73/551f1729f1fbc7bf3874b26fed8b01b18f6d50471edc6b4ac58c6067b7b5/jupyterlab_h5web-7.1.2.tar.gz
+[2023-06-29 09:23:24] INFO root fetch - processPackages [acc-provision]: Downloading https://files.pythonhosted.org/packages/6c/d0/0495fcec7f7b3962f6f5c7eef07f7ba99cc75e36073d31b8998e9ba765aa/acc_provision-5.2.7.1rc1.tar.gz
+[2023-06-29 09:23:24] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/47/35/94060e7718076bcfeed36bdd5dc8df45a204a01bf98ba6605a0ae4263ae7/tfq_nightly-0.7.3.dev20230627-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-29 09:23:24] INFO root fetch - processPackages [qiskit-han]: Downloading https://files.pythonhosted.org/packages/ff/75/a35234a80bc4f466dd6c731002812d496c69d73ae7f3034ba05e05c0f3c0/qiskit_han-0.0.3.tar.gz
+[2023-06-29 09:23:24] WARNING root fetch - processPackages [acc-provision]: Skipping package: exceeds size limit 10609272>=10485760
+[2023-06-29 09:23:24] INFO root fetch - processPackages [acc-provision]: Start processing: monalysa
+[2023-06-29 09:23:24] INFO root fetch - main [MainThread]: End processing [acc-provision] error
+[2023-06-29 09:23:24] INFO root fetch - processPackages [monalysa]: Downloading https://files.pythonhosted.org/packages/d7/d1/e2eb5cd92f494b0b719769cb08194a6c063fd07bdea68fb227e0ee3bd9dd/monalysa-0.0.8.tar.gz
+[2023-06-29 09:23:24] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10822719>=10485760
+[2023-06-29 09:23:24] INFO root fetch - processPackages [tfq-nightly]: Start processing: Mensajes-Josape
+[2023-06-29 09:23:24] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-06-29 09:23:24] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-29 09:23:24] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/58/90/bafab4280e3bb8f5139ed33ce710a278ee734cf6cba3e13fd8845e38f5c9/configzen-0.4.1.tar.gz
+[2023-06-29 09:23:24] INFO root fetch - processPackages [monalysa]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 09:23:24] INFO root fetch - processPackages [Mensajes-Josape]: New version: [6.0] Old Version: [3.0]
+[2023-06-29 09:23:24] INFO root fetch - processPackages [Flask-BigApp]: Downloading https://files.pythonhosted.org/packages/92/b2/66da74849f8f2834decb034a68307db02ddb3f75b22e4df52e4e7b1df51a/Flask-BigApp-2023.1.9.4.tar.gz
+[2023-06-29 09:23:24] INFO root fetch - processPackages [dask-lxplus]: Downloading https://files.pythonhosted.org/packages/43/76/b66b2e62f7332435ddb768b72c133dce5bb432ae2fd5d982e2d9dad8ab98/dask_lxplus-0.3.1.tar.gz
+[2023-06-29 09:23:24] INFO root fetch - processPackages [configzen]: executing diffoscope
+[2023-06-29 09:23:24] INFO root fetch - processPackages [configzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configzen-0.4.tar.gz tmp/configzen-0.4.1.tar.gz --markdown 20230629/c/configzen/0.4-0.4.1/diff.md --exclude *.pyd
+[2023-06-29 09:23:24] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-29 09:23:24] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230629/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-29 09:23:24] INFO root fetch - processPackages [Flask-BigApp]: executing diffoscope
+[2023-06-29 09:23:24] INFO root fetch - processPackages [Flask-BigApp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-BigApp-2023.1.9.3.tar.gz tmp/Flask-BigApp-2023.1.9.4.tar.gz --markdown 20230629/F/Flask-BigApp/2023.1.9.3-2023.1.9.4/diff.md --exclude *.pyd
+[2023-06-29 09:23:24] INFO root fetch - processPackages [py-redis-utils]: Downloading https://files.pythonhosted.org/packages/af/9c/5a69c0ed53898d9017d6f06cb9785f958fc56b46609cd6b4d05dabea3ea0/py-redis-utils-2.0.0.tar.gz
+[2023-06-29 09:23:24] INFO root fetch - processPackages [Mensajes-Josape]: Downloading https://files.pythonhosted.org/packages/6b/83/6873574aac8af51d401dc8abceb151def7248604bdd4398ca3837df0667c/Mensajes-Josape-3.0.tar.gz
+[2023-06-29 09:23:24] INFO root fetch - processPackages [dask-lxplus]: executing diffoscope
+[2023-06-29 09:23:24] INFO root fetch - processPackages [dask-lxplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask_lxplus-0.3.0.tar.gz tmp/dask_lxplus-0.3.1.tar.gz --markdown 20230629/d/dask-lxplus/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-29 09:23:24] INFO root fetch - processPackages [jupyterlab-h5web]: Downloading https://files.pythonhosted.org/packages/e1/69/24c055fa85f5adc2b8a1dab21bb883f082a6e3692a7ac314af435698e5b2/jupyterlab_h5web-8.0.0.tar.gz
+[2023-06-29 09:23:24] INFO root fetch - processPackages [qiskit-han]: Downloading https://files.pythonhosted.org/packages/7b/bf/294ff13164519bc93c4ea8089f265d128331c17af7461e727db31ff4dfa8/qiskit_han-0.0.4.tar.gz
+[2023-06-29 09:23:24] INFO root fetch - processPackages [py-redis-utils]: executing diffoscope
+[2023-06-29 09:23:24] INFO root fetch - processPackages [py-redis-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-redis-utils-1.1.2.tar.gz tmp/py-redis-utils-2.0.0.tar.gz --markdown 20230629/p/py-redis-utils/1.1.2-2.0.0/diff.md --exclude *.pyd
+[2023-06-29 09:23:24] INFO root fetch - processPackages [monalysa]: Downloading https://files.pythonhosted.org/packages/d1/13/65abe2bca84d2821801bdc73c3bbd3b627ec03c54b9fac03ac4f95b372f9/monalysa-0.0.9.tar.gz
+[2023-06-29 09:23:24] INFO root fetch - processPackages [monalysa]: Downloading https://files.pythonhosted.org/packages/d1/13/65abe2bca84d2821801bdc73c3bbd3b627ec03c54b9fac03ac4f95b372f9/monalysa-0.0.9.tar.gz
+[2023-06-29 09:23:24] INFO root fetch - processPackages [qiskit-han]: executing diffoscope
+[2023-06-29 09:23:24] INFO root fetch - processPackages [qiskit-han]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_han-0.0.3.tar.gz tmp/qiskit_han-0.0.4.tar.gz --markdown 20230629/q/qiskit-han/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-29 09:23:24] INFO root fetch - processPackages [jupyterlab-h5web]: executing diffoscope
+[2023-06-29 09:23:24] INFO root fetch - processPackages [jupyterlab-h5web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_h5web-7.1.2.tar.gz tmp/jupyterlab_h5web-8.0.0.tar.gz --markdown 20230629/j/jupyterlab-h5web/7.1.2-8.0.0/diff.md --exclude *.pyd
+[2023-06-29 09:23:24] INFO root fetch - processPackages [monalysa]: executing diffoscope
+[2023-06-29 09:23:24] INFO root fetch - processPackages [monalysa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monalysa-0.0.8.tar.gz tmp/monalysa-0.0.9.tar.gz --markdown 20230629/m/monalysa/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 09:23:24] INFO root fetch - processPackages [monalysa]: executing diffoscope
+[2023-06-29 09:23:24] INFO root fetch - processPackages [monalysa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monalysa-0.0.8.tar.gz tmp/monalysa-0.0.9.tar.gz --markdown 20230629/m/monalysa/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 09:23:24] INFO root fetch - processPackages [Mensajes-Josape]: Downloading https://files.pythonhosted.org/packages/c9/29/ebb5bd355a23d14738aadd09b60365227b5366c126cff2a633e0882b1ce5/Mensajes-Josape-6.0.tar.gz
+[2023-06-29 09:23:24] INFO root fetch - processPackages [Mensajes-Josape]: executing diffoscope
+[2023-06-29 09:23:24] INFO root fetch - processPackages [Mensajes-Josape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Mensajes-Josape-3.0.tar.gz tmp/Mensajes-Josape-6.0.tar.gz --markdown 20230629/M/Mensajes-Josape/3.0-6.0/diff.md --exclude *.pyd
+[2023-06-29 09:23:26] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.4.tar.gz]
+[2023-06-29 09:23:26] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.4.1.tar.gz]
+[2023-06-29 09:23:26] INFO root fetch - processPackages [configzen]: Start processing: xw-utils
+[2023-06-29 09:23:26] INFO root fetch - main [MainThread]: End processing [configzen]: success
+[2023-06-29 09:23:26] INFO root fetch - processPackages [xw-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-29 09:23:26] INFO root fetch - processPackages [qiskit-han]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_han-0.0.3.tar.gz]
+[2023-06-29 09:23:26] INFO root fetch - processPackages [qiskit-han]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_han-0.0.4.tar.gz]
+[2023-06-29 09:23:26] INFO root fetch - processPackages [qiskit-han]: Start processing: dartpy
+[2023-06-29 09:23:26] INFO root fetch - main [MainThread]: End processing [qiskit-han]: success
+[2023-06-29 09:23:26] INFO root fetch - processPackages [dask-lxplus]: Remove: archive file [/home/abi/fetcher/tmp/dask_lxplus-0.3.0.tar.gz]
+[2023-06-29 09:23:26] INFO root fetch - processPackages [dask-lxplus]: Remove: archive file [/home/abi/fetcher/tmp/dask_lxplus-0.3.1.tar.gz]
+[2023-06-29 09:23:26] INFO root fetch - main [MainThread]: End processing [dask-lxplus]: success
+[2023-06-29 09:23:26] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-29 09:23:26] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-29 09:23:26] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-29 09:23:26] INFO root fetch - processPackages [py-redis-utils]: Remove: archive file [/home/abi/fetcher/tmp/py-redis-utils-1.1.2.tar.gz]
+[2023-06-29 09:23:26] INFO root fetch - processPackages [py-redis-utils]: Remove: archive file [/home/abi/fetcher/tmp/py-redis-utils-2.0.0.tar.gz]
+[2023-06-29 09:23:26] INFO root fetch - main [MainThread]: End processing [py-redis-utils]: success
+[2023-06-29 09:23:26] INFO root fetch - processPackages [dartpy]: New version: [0.1.0.post99] Old Version: [0.1.0.post98]
+[2023-06-29 09:23:26] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/dc/1a/2d247adaa50a2a75132b1cd25cb5a1ad15d734a7f0c3861ea12f42bd85d2/xw_utils-1.0.8-cp39-cp39-win_amd64.whl
+[2023-06-29 09:23:26] INFO root fetch - processPackages [monalysa]: Remove: archive file [/home/abi/fetcher/tmp/monalysa-0.0.8.tar.gz]
+[2023-06-29 09:23:26] INFO root fetch - processPackages [monalysa]: Remove: archive file [/home/abi/fetcher/tmp/monalysa-0.0.9.tar.gz]
+[2023-06-29 09:23:26] INFO root fetch - main [MainThread]: End processing [monalysa]: success
+[2023-06-29 09:23:26] INFO root fetch - processPackages [Mensajes-Josape]: Remove: archive file [/home/abi/fetcher/tmp/Mensajes-Josape-3.0.tar.gz]
+[2023-06-29 09:23:26] INFO root fetch - processPackages [Mensajes-Josape]: Remove: archive file [/home/abi/fetcher/tmp/Mensajes-Josape-6.0.tar.gz]
+[2023-06-29 09:23:26] INFO root fetch - main [MainThread]: End processing [Mensajes-Josape]: success
+[2023-06-29 09:23:26] INFO root fetch - main [MainThread]: End processing [monalysa]: success
+[2023-06-29 09:23:26] INFO root fetch - processPackages [dartpy]: Downloading https://files.pythonhosted.org/packages/c4/e2/e012a94f3e718a1fdf451f95db91ede9137f23c98201defefbeb39d4bd80/dartpy-0.1.0.post98-cp39-cp39-win_amd64.whl
+[2023-06-29 09:23:26] INFO root fetch - processPackages [Flask-BigApp]: Remove: archive file [/home/abi/fetcher/tmp/Flask-BigApp-2023.1.9.3.tar.gz]
+[2023-06-29 09:23:26] INFO root fetch - processPackages [Flask-BigApp]: Remove: archive file [/home/abi/fetcher/tmp/Flask-BigApp-2023.1.9.4.tar.gz]
+[2023-06-29 09:23:26] INFO root fetch - main [MainThread]: End processing [Flask-BigApp]: success
+[2023-06-29 09:23:26] WARNING root fetch - processPackages [dartpy]: Skipping package: exceeds size limit 20036126>=10485760
+[2023-06-29 09:23:26] INFO root fetch - main [MainThread]: End processing [dartpy] error
+[2023-06-29 09:23:26] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/83/1f/866660569301b9d9d645f2b7de1eb5dfbeb24c1e5a749d7e4b2cd36dcdc6/xw_utils-1.0.9-cp39-cp39-win_amd64.whl
+[2023-06-29 09:23:26] INFO root fetch - processPackages [xw-utils]: executing diffoscope
+[2023-06-29 09:23:26] INFO root fetch - processPackages [xw-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230629/x/xw-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-29 09:23:27] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-29 09:23:27] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-29 09:23:27] INFO root fetch - main [MainThread]: End processing [xw-utils]: success
+[2023-06-29 09:23:38] INFO root fetch - processPackages [jupyterlab-h5web]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_h5web-7.1.2.tar.gz]
+[2023-06-29 09:23:38] INFO root fetch - processPackages [jupyterlab-h5web]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_h5web-8.0.0.tar.gz]
+[2023-06-29 09:23:38] INFO root fetch - main [MainThread]: End processing [jupyterlab-h5web]: success
+[2023-06-29 09:23:38] INFO root fetch - main [MainThread]: Store serial: [18691374]
