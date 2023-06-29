@@ -336,3 +336,96 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 08:23:37] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230629.tar.gz]
 [2023-06-29 08:23:37] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-06-29 08:23:37] INFO root fetch - main [MainThread]: Store serial: [18690936]
+[2023-06-29 08:28:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18690936]
+[2023-06-29 08:28:46] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-29 08:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NodeGraphQt
+[2023-06-29 08:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dalec-discourse
+[2023-06-29 08:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sphecerix
+[2023-06-29 08:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wad2023-program
+[2023-06-29 08:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kodexa
+[2023-06-29 08:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pychron-cm
+[2023-06-29 08:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-server-tools
+[2023-06-29 08:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: video-process
+[2023-06-29 08:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shopee-fetcher
+[2023-06-29 08:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: site24x7-openai-observability
+[2023-06-29 08:28:46] INFO root fetch - processPackages [sphecerix]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-29 08:28:46] WARNING root fetch - processPackages [dalec-discourse]: Skipping, unable to determine old version
+[2023-06-29 08:28:46] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: New version: [16.0.20230628.0] Old Version: [16.0.20230608.0]
+[2023-06-29 08:28:46] INFO root fetch - processPackages [dalec-discourse]: Start processing: llm-lens
+[2023-06-29 08:28:46] INFO root fetch - main [MainThread]: End processing [dalec-discourse] error
+[2023-06-29 08:28:46] WARNING root fetch - processPackages [site24x7-openai-observability]: Skipping, unable to determine old version
+[2023-06-29 08:28:46] INFO root fetch - processPackages [site24x7-openai-observability]: Start processing: gdsfactory
+[2023-06-29 08:28:46] INFO root fetch - main [MainThread]: End processing [site24x7-openai-observability] error
+[2023-06-29 08:28:46] INFO root fetch - processPackages [NodeGraphQt]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-06-29 08:28:46] INFO root fetch - processPackages [pychron-cm]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-29 08:28:46] INFO root fetch - processPackages [wad2023-program]: New version: [1.1.1.dev0] Old Version: [1.1.1]
+[2023-06-29 08:28:46] INFO root fetch - processPackages [video-process]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-29 08:28:46] INFO root fetch - processPackages [llm-lens]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2023-06-29 08:28:46] INFO root fetch - processPackages [gdsfactory]: New version: [6.99.0] Old Version: [6.98.2]
+[2023-06-29 08:28:46] INFO root fetch - processPackages [kodexa]: New version: [6.2.3a5260876523] Old Version: [6.2.3a5260620995]
+[2023-06-29 08:28:46] WARNING root fetch - processPackages [shopee-fetcher]: Skipping, unable to determine old version
+[2023-06-29 08:28:46] INFO root fetch - main [MainThread]: End processing [shopee-fetcher] error
+[2023-06-29 08:28:46] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/c8/dd/88303eeb3c46484a4a64c2675611a92ea3816ae1ec8181c6eb5e78e85064/gdsfactory-6.98.2.tar.gz
+[2023-06-29 08:28:46] INFO root fetch - processPackages [wad2023-program]: Downloading https://files.pythonhosted.org/packages/6a/50/4540b9e9cc1b19775955af1bd0cccc13c502883c2bdc85a6b29cd02bb77a/wad2023-program-1.1.1.tar.gz
+[2023-06-29 08:28:46] INFO root fetch - processPackages [sphecerix]: Downloading https://files.pythonhosted.org/packages/21/cc/434ecd6eace1d8422e9648a293ff319ccf1fdd9bdfec8d52f67e78dcb419/sphecerix-0.4.0-py3-none-any.whl
+[2023-06-29 08:28:46] INFO root fetch - processPackages [video-process]: Downloading https://files.pythonhosted.org/packages/c7/17/cd5a0bbed7bf391596c4001a5180a378b7d5615494ef9a07f81e3eba0869/video_process-0.2.0.tar.gz
+[2023-06-29 08:28:46] INFO root fetch - processPackages [pychron-cm]: Downloading https://files.pythonhosted.org/packages/c0/50/e331c948e09fa656b01ccb84b4352f1c86b4a455e3f8366df3bec3d4070f/pychron-cm-0.3.8.tar.gz
+[2023-06-29 08:28:46] INFO root fetch - processPackages [NodeGraphQt]: Downloading https://files.pythonhosted.org/packages/bc/b2/f10a6c3ab66fb228eb82263cd1fb4e66eed7c3ab2c74a7440ab56b4eb012/NodeGraphQt-0.6.3.tar.gz
+[2023-06-29 08:28:46] INFO root fetch - processPackages [llm-lens]: Downloading https://files.pythonhosted.org/packages/7f/50/aba32b1922408cb98d1eb1ad67dcc44bd508088be86da6bd88d3539813f3/llm-lens-0.0.0.2.tar.gz
+[2023-06-29 08:28:46] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: Downloading https://files.pythonhosted.org/packages/a7/d9/e5003d9b2768348b201c4f0cb2ca429a28384274ef070ee4d04cfd5091bd/odoo_addons_oca_server_tools-16.0.20230608.0-py3-none-any.whl
+[2023-06-29 08:28:46] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/7e/ec/2cd39e2ce278d617eac6988e914b8df36d3496205cac9e991937c8cd1fe3/gdsfactory-6.99.0.tar.gz
+[2023-06-29 08:28:46] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/5d/4b/e7ced7ca14408b830a8328f39e2d8f45aaf6d9ecbf973158d33f0eb56629/kodexa-6.2.3a5260620995.tar.gz
+[2023-06-29 08:28:46] INFO root fetch - processPackages [wad2023-program]: Downloading https://files.pythonhosted.org/packages/39/56/69105f3c2c52fad9bd35f13e603b8e6e742d36cc3e8e7ed7449b55e09053/wad2023-program-1.1.1.dev0.tar.gz
+[2023-06-29 08:28:46] INFO root fetch - processPackages [video-process]: Downloading https://files.pythonhosted.org/packages/a3/8c/0d6329ee3da1ee2c3664aeb9dde9f1c37e462864e0f068fbcbdd839aa154/video_process-0.2.1.tar.gz
+[2023-06-29 08:28:46] INFO root fetch - processPackages [sphecerix]: Downloading https://files.pythonhosted.org/packages/6a/81/ea432341e037f6301fff4132b58537828c98e1f2f196f016dd6dce79bd4b/sphecerix-0.5.0-py3-none-any.whl
+[2023-06-29 08:28:46] INFO root fetch - processPackages [llm-lens]: Downloading https://files.pythonhosted.org/packages/5a/06/65e0b77cd9b635348f65f2aec4fde4b98c3852d9aa6cb5b23929b0466844/llm-lens-0.0.0.3.tar.gz
+[2023-06-29 08:28:46] INFO root fetch - processPackages [wad2023-program]: executing diffoscope
+[2023-06-29 08:28:46] INFO root fetch - processPackages [wad2023-program]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wad2023-program-1.1.1.tar.gz tmp/wad2023-program-1.1.1.dev0.tar.gz --markdown 20230629/w/wad2023-program/1.1.1-1.1.1.dev0/diff.md --exclude *.pyd
+[2023-06-29 08:28:46] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2023-06-29 08:28:46] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-6.98.2.tar.gz tmp/gdsfactory-6.99.0.tar.gz --markdown 20230629/g/gdsfactory/6.98.2-6.99.0/diff.md --exclude *.pyd
+[2023-06-29 08:28:46] INFO root fetch - processPackages [sphecerix]: executing diffoscope
+[2023-06-29 08:28:46] INFO root fetch - processPackages [sphecerix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphecerix-0.4.0-py3-none-any.whl.zip tmp/sphecerix-0.5.0-py3-none-any.whl.zip --markdown 20230629/s/sphecerix/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-29 08:28:46] INFO root fetch - processPackages [video-process]: executing diffoscope
+[2023-06-29 08:28:46] INFO root fetch - processPackages [video-process]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_process-0.2.0.tar.gz tmp/video_process-0.2.1.tar.gz --markdown 20230629/v/video-process/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-29 08:28:46] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: Downloading https://files.pythonhosted.org/packages/2c/07/7e40b92893e4738114d42d4bebe5ee0c1c784df9bbaf9cc0b7848e9b4b48/odoo_addons_oca_server_tools-16.0.20230628.0-py3-none-any.whl
+[2023-06-29 08:28:46] INFO root fetch - processPackages [llm-lens]: executing diffoscope
+[2023-06-29 08:28:46] INFO root fetch - processPackages [llm-lens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-lens-0.0.0.2.tar.gz tmp/llm-lens-0.0.0.3.tar.gz --markdown 20230629/l/llm-lens/0.0.0.2-0.0.0.3/diff.md --exclude *.pyd
+[2023-06-29 08:28:46] INFO root fetch - processPackages [NodeGraphQt]: Downloading https://files.pythonhosted.org/packages/4d/ab/dec7b73652dc4ba6f1126458c821c68327951c092642c642f7bb9f17f0bc/NodeGraphQt-0.6.4.tar.gz
+[2023-06-29 08:28:46] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: executing diffoscope
+[2023-06-29 08:28:46] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_tools-16.0.20230608.0-py3-none-any.whl.zip tmp/odoo_addons_oca_server_tools-16.0.20230628.0-py3-none-any.whl.zip --markdown 20230629/o/odoo-addons-oca-server-tools/16.0.20230608.0-16.0.20230628.0/diff.md --exclude *.pyd
+[2023-06-29 08:28:46] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/4a/66/617dd208a245435e376984f62632bbda4041e15ec88b301ccf1e07f3d6fd/kodexa-6.2.3a5260876523.tar.gz
+[2023-06-29 08:28:46] INFO root fetch - processPackages [NodeGraphQt]: executing diffoscope
+[2023-06-29 08:28:46] INFO root fetch - processPackages [pychron-cm]: Downloading https://files.pythonhosted.org/packages/78/70/da98db2b127cc6df73527dd304a7fb51ffae5b61cfb165d2700ebef0d113/pychron-cm-0.3.9.tar.gz
+[2023-06-29 08:28:46] INFO root fetch - processPackages [NodeGraphQt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NodeGraphQt-0.6.3.tar.gz tmp/NodeGraphQt-0.6.4.tar.gz --markdown 20230629/N/NodeGraphQt/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-06-29 08:28:47] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-06-29 08:28:47] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.2.3a5260620995.tar.gz tmp/kodexa-6.2.3a5260876523.tar.gz --markdown 20230629/k/kodexa/6.2.3a5260620995-6.2.3a5260876523/diff.md --exclude *.pyd
+[2023-06-29 08:28:47] INFO root fetch - processPackages [pychron-cm]: executing diffoscope
+[2023-06-29 08:28:47] INFO root fetch - processPackages [pychron-cm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pychron-cm-0.3.8.tar.gz tmp/pychron-cm-0.3.9.tar.gz --markdown 20230629/p/pychron-cm/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-29 08:28:48] INFO root fetch - processPackages [sphecerix]: Remove: archive file [/home/abi/fetcher/tmp/sphecerix-0.4.0-py3-none-any.whl.zip]
+[2023-06-29 08:28:48] INFO root fetch - processPackages [sphecerix]: Remove: archive file [/home/abi/fetcher/tmp/sphecerix-0.5.0-py3-none-any.whl.zip]
+[2023-06-29 08:28:48] INFO root fetch - main [MainThread]: End processing [sphecerix]: success
+[2023-06-29 08:28:48] INFO root fetch - processPackages [video-process]: Remove: archive file [/home/abi/fetcher/tmp/video_process-0.2.0.tar.gz]
+[2023-06-29 08:28:48] INFO root fetch - processPackages [video-process]: Remove: archive file [/home/abi/fetcher/tmp/video_process-0.2.1.tar.gz]
+[2023-06-29 08:28:48] INFO root fetch - main [MainThread]: End processing [video-process]: success
+[2023-06-29 08:28:48] INFO root fetch - processPackages [llm-lens]: Remove: archive file [/home/abi/fetcher/tmp/llm-lens-0.0.0.2.tar.gz]
+[2023-06-29 08:28:48] INFO root fetch - processPackages [llm-lens]: Remove: archive file [/home/abi/fetcher/tmp/llm-lens-0.0.0.3.tar.gz]
+[2023-06-29 08:28:48] INFO root fetch - main [MainThread]: End processing [llm-lens]: success
+[2023-06-29 08:28:48] INFO root fetch - processPackages [wad2023-program]: Remove: archive file [/home/abi/fetcher/tmp/wad2023-program-1.1.1.tar.gz]
+[2023-06-29 08:28:48] INFO root fetch - processPackages [wad2023-program]: Remove: archive file [/home/abi/fetcher/tmp/wad2023-program-1.1.1.dev0.tar.gz]
+[2023-06-29 08:28:48] INFO root fetch - main [MainThread]: End processing [wad2023-program]: success
+[2023-06-29 08:28:48] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_tools-16.0.20230608.0-py3-none-any.whl.zip]
+[2023-06-29 08:28:48] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_tools-16.0.20230628.0-py3-none-any.whl.zip]
+[2023-06-29 08:28:48] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-tools]: success
+[2023-06-29 08:28:48] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.2.3a5260620995.tar.gz]
+[2023-06-29 08:28:48] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.2.3a5260876523.tar.gz]
+[2023-06-29 08:28:48] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-06-29 08:28:49] INFO root fetch - processPackages [NodeGraphQt]: Remove: archive file [/home/abi/fetcher/tmp/NodeGraphQt-0.6.3.tar.gz]
+[2023-06-29 08:28:49] INFO root fetch - processPackages [NodeGraphQt]: Remove: archive file [/home/abi/fetcher/tmp/NodeGraphQt-0.6.4.tar.gz]
+[2023-06-29 08:28:49] INFO root fetch - main [MainThread]: End processing [NodeGraphQt]: success
+[2023-06-29 08:28:49] INFO root fetch - processPackages [pychron-cm]: Remove: archive file [/home/abi/fetcher/tmp/pychron-cm-0.3.8.tar.gz]
+[2023-06-29 08:28:49] INFO root fetch - processPackages [pychron-cm]: Remove: archive file [/home/abi/fetcher/tmp/pychron-cm-0.3.9.tar.gz]
+[2023-06-29 08:28:49] INFO root fetch - main [MainThread]: End processing [pychron-cm]: success
+[2023-06-29 08:28:56] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.98.2.tar.gz]
+[2023-06-29 08:28:56] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.99.0.tar.gz]
+[2023-06-29 08:28:56] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2023-06-29 08:28:56] INFO root fetch - main [MainThread]: Store serial: [18690976]
