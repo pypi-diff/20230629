@@ -15147,3 +15147,114 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 17:29:11] INFO root fetch - processPackages [aws-cdk.cli-lib-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.cli-lib-alpha-2.86.0a0.tar.gz]
 [2023-06-29 17:29:11] INFO root fetch - main [MainThread]: End processing [aws-cdk.cli-lib-alpha]: success
 [2023-06-29 17:29:11] INFO root fetch - main [MainThread]: Store serial: [18697205]
+[2023-06-29 17:34:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18697205]
+[2023-06-29 17:34:20] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-29 17:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-pfx
+[2023-06-29 17:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ag-llama-api
+[2023-06-29 17:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dataiku-api-client
+[2023-06-29 17:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-entity
+[2023-06-29 17:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prog-server
+[2023-06-29 17:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: syncqb
+[2023-06-29 17:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bullmq
+[2023-06-29 17:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-community-maps
+[2023-06-29 17:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-bilichat
+[2023-06-29 17:34:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xobjects
+[2023-06-29 17:34:21] INFO root fetch - processPackages [django-pfx]: New version: [1.2.dev82] Old Version: [1.2.dev80]
+[2023-06-29 17:34:21] INFO root fetch - processPackages [django-entity]: New version: [6.1.0] Old Version: [6.0.0]
+[2023-06-29 17:34:21] INFO root fetch - processPackages [dataiku-api-client]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-06-29 17:34:21] INFO root fetch - processPackages [syncqb]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-29 17:34:21] INFO root fetch - processPackages [prog-server]: New version: [1.5.0rc0] Old Version: [1.4.0]
+[2023-06-29 17:34:21] INFO root fetch - processPackages [ag-llama-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 17:34:21] INFO root fetch - processPackages [odoo14-addon-community-maps]: New version: [14.0.0.1.9] Old Version: [14.0.0.1.8]
+[2023-06-29 17:34:21] INFO root fetch - processPackages [bullmq]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-29 17:34:21] INFO root fetch - processPackages [nonebot-plugin-bilichat]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-06-29 17:34:21] INFO root fetch - processPackages [xobjects]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-29 17:34:21] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/e7/db/6c93bb8ec9653fafd298258240710b4768345a45843013bc715cf9e658f7/ag_llama_api-0.0.8.tar.gz
+[2023-06-29 17:34:21] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/e0/96/cb8f4f8b3277427fd9bd793f6eb02c3fa639b9ae1ec9f6972b99c59ad9fa/django-pfx-1.2.dev80.tar.gz
+[2023-06-29 17:34:21] INFO root fetch - processPackages [dataiku-api-client]: Downloading https://files.pythonhosted.org/packages/39/4b/1b9d5ec978c347d135d6de56958db264a0178c72c075523783324589342f/dataiku-api-client-9.0.0.tar.gz
+[2023-06-29 17:34:21] INFO root fetch - processPackages [odoo14-addon-community-maps]: Downloading https://files.pythonhosted.org/packages/84/7f/0b072c4728b657ac949445b507726d84db90e928dcef5ffb5b48efcabdbf/odoo14_addon_community_maps-14.0.0.1.8-py3-none-any.whl
+[2023-06-29 17:34:21] INFO root fetch - processPackages [django-entity]: Downloading https://files.pythonhosted.org/packages/43/af/61e9f300cdc6fff8f5df7bd4f002029014dabe02943aebf933f12c9cf0bb/django-entity-6.0.0.tar.gz
+[2023-06-29 17:34:21] INFO root fetch - processPackages [syncqb]: Downloading https://files.pythonhosted.org/packages/20/5e/198e27a07da60fe81d08990b81bd870bd6fca60c9794dbd09360746534a5/syncqb-1.0.8.tar.gz
+[2023-06-29 17:34:21] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/47/8e/394ab4c66a3c5fb9c446076756afcb14c47bbd6395f25d80e21efad816da/nonebot_plugin_bilichat-2.9.0.tar.gz
+[2023-06-29 17:34:21] INFO root fetch - processPackages [prog-server]: Downloading https://files.pythonhosted.org/packages/b5/ba/d55771e896e5388651a23c8e6304e62913eb3708fdc00da09942357f4e31/prog_server-1.4.0.tar.gz
+[2023-06-29 17:34:21] INFO root fetch - processPackages [xobjects]: Downloading https://files.pythonhosted.org/packages/51/7b/7f36e4938594625d0b643f95fe4ef9ec354fc2ea1e6a27403d3c2e31ed1d/xobjects-0.2.6.tar.gz
+[2023-06-29 17:34:21] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/0e/45/5ce146425eb4c54590e514bf53d436ec8eb7cbeee70953b613dcd4e56824/ag_llama_api-0.0.9.tar.gz
+[2023-06-29 17:34:21] INFO root fetch - processPackages [bullmq]: Downloading https://files.pythonhosted.org/packages/28/10/f16eb9577b22cef3c905489424426ff62c2119f2318e17f6ddbb711b8851/bullmq-1.2.0.tar.gz
+[2023-06-29 17:34:21] INFO root fetch - processPackages [ag-llama-api]: executing diffoscope
+[2023-06-29 17:34:21] INFO root fetch - processPackages [ag-llama-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_api-0.0.8.tar.gz tmp/ag_llama_api-0.0.9.tar.gz --markdown 20230629/a/ag-llama-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 17:34:21] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/ec/ab/c06b8befa60f8e02c0894eb6c528bf20b35e78340b3b7245ff75c8928ba0/django-pfx-1.2.dev82.tar.gz
+[2023-06-29 17:34:21] INFO root fetch - processPackages [dataiku-api-client]: Downloading https://files.pythonhosted.org/packages/d6/5d/204da2f11db80b666b5bab1056e8c38e6d93a70051887d2d321bba06b865/dataiku-api-client-9.0.1.tar.gz
+[2023-06-29 17:34:21] INFO root fetch - processPackages [odoo14-addon-community-maps]: Downloading https://files.pythonhosted.org/packages/22/06/f747d3a2743d38562b19010425158088c5810684c910def50e5d4a559eb7/odoo14_addon_community_maps-14.0.0.1.9-py3-none-any.whl
+[2023-06-29 17:34:21] INFO root fetch - processPackages [django-entity]: Downloading https://files.pythonhosted.org/packages/8a/86/62a9cf383ef62f40c17cb126f1c200d6cd1c2ffc53140efeb1967069026c/django-entity-6.1.0.tar.gz
+[2023-06-29 17:34:21] INFO root fetch - processPackages [xobjects]: Downloading https://files.pythonhosted.org/packages/24/62/befcea0b053ab617d7ac751b92676dd040522d104fa9e28ba2393e7a663a/xobjects-0.2.7.tar.gz
+[2023-06-29 17:34:21] INFO root fetch - processPackages [prog-server]: Downloading https://files.pythonhosted.org/packages/fa/7d/e24a3e1442d96a2d77ff5f261f92c1b5b684426ae898871dc8bdc3f0edce/prog_server-1.5.0rc0.tar.gz
+[2023-06-29 17:34:21] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/b4/3c/8f5b12dd594cc0001f59a7b4bce5d99d5d145553c4cd12eaef65109a5d78/nonebot_plugin_bilichat-2.9.1.tar.gz
+[2023-06-29 17:34:21] INFO root fetch - processPackages [syncqb]: Downloading https://files.pythonhosted.org/packages/3d/8d/48a3369bf76c9205307a016b757821b28f7ce1a3f155a215879c99cde412/syncqb-1.0.9.tar.gz
+[2023-06-29 17:34:21] INFO root fetch - processPackages [odoo14-addon-community-maps]: executing diffoscope
+[2023-06-29 17:34:21] INFO root fetch - processPackages [dataiku-api-client]: executing diffoscope
+[2023-06-29 17:34:21] INFO root fetch - processPackages [odoo14-addon-community-maps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_community_maps-14.0.0.1.8-py3-none-any.whl.zip tmp/odoo14_addon_community_maps-14.0.0.1.9-py3-none-any.whl.zip --markdown 20230629/o/odoo14-addon-community-maps/14.0.0.1.8-14.0.0.1.9/diff.md --exclude *.pyd
+[2023-06-29 17:34:21] INFO root fetch - processPackages [dataiku-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataiku-api-client-9.0.0.tar.gz tmp/dataiku-api-client-9.0.1.tar.gz --markdown 20230629/d/dataiku-api-client/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2023-06-29 17:34:21] INFO root fetch - processPackages [xobjects]: executing diffoscope
+[2023-06-29 17:34:21] INFO root fetch - processPackages [xobjects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xobjects-0.2.6.tar.gz tmp/xobjects-0.2.7.tar.gz --markdown 20230629/x/xobjects/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-29 17:34:21] INFO root fetch - processPackages [django-entity]: executing diffoscope
+[2023-06-29 17:34:21] INFO root fetch - processPackages [django-entity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-entity-6.0.0.tar.gz tmp/django-entity-6.1.0.tar.gz --markdown 20230629/d/django-entity/6.0.0-6.1.0/diff.md --exclude *.pyd
+[2023-06-29 17:34:21] INFO root fetch - processPackages [prog-server]: executing diffoscope
+[2023-06-29 17:34:21] INFO root fetch - processPackages [prog-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prog_server-1.4.0.tar.gz tmp/prog_server-1.5.0rc0.tar.gz --markdown 20230629/p/prog-server/1.4.0-1.5.0rc0/diff.md --exclude *.pyd
+[2023-06-29 17:34:21] INFO root fetch - processPackages [bullmq]: Downloading https://files.pythonhosted.org/packages/fe/7b/5f9a1a9bb8ae4d00575832938fc110dbafe5b43988264a84f7127e2ab4fc/bullmq-1.3.0.tar.gz
+[2023-06-29 17:34:21] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2023-06-29 17:34:21] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.2.dev80.tar.gz tmp/django-pfx-1.2.dev82.tar.gz --markdown 20230629/d/django-pfx/1.2.dev80-1.2.dev82/diff.md --exclude *.pyd
+[2023-06-29 17:34:21] INFO root fetch - processPackages [bullmq]: executing diffoscope
+[2023-06-29 17:34:21] INFO root fetch - processPackages [bullmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bullmq-1.2.0.tar.gz tmp/bullmq-1.3.0.tar.gz --markdown 20230629/b/bullmq/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-29 17:34:21] INFO root fetch - processPackages [nonebot-plugin-bilichat]: executing diffoscope
+[2023-06-29 17:34:21] INFO root fetch - processPackages [nonebot-plugin-bilichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bilichat-2.9.0.tar.gz tmp/nonebot_plugin_bilichat-2.9.1.tar.gz --markdown 20230629/n/nonebot-plugin-bilichat/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-06-29 17:34:22] INFO root fetch - processPackages [syncqb]: executing diffoscope
+[2023-06-29 17:34:22] INFO root fetch - processPackages [syncqb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncqb-1.0.8.tar.gz tmp/syncqb-1.0.9.tar.gz --markdown 20230629/s/syncqb/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-29 17:34:22] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.8.tar.gz]
+[2023-06-29 17:34:22] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.9.tar.gz]
+[2023-06-29 17:34:22] INFO root fetch - processPackages [ag-llama-api]: Start processing: cognite-pygen
+[2023-06-29 17:34:22] INFO root fetch - main [MainThread]: End processing [ag-llama-api]: success
+[2023-06-29 17:34:23] INFO root fetch - processPackages [cognite-pygen]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-29 17:34:23] INFO root fetch - processPackages [cognite-pygen]: Downloading https://files.pythonhosted.org/packages/00/1d/45e130588e398bb316a98f0e6793ef0d61220b74c7d14db5213e3f9f977e/cognite_pygen-0.9.0.tar.gz
+[2023-06-29 17:34:23] INFO root fetch - processPackages [xobjects]: Remove: archive file [/home/abi/fetcher/tmp/xobjects-0.2.6.tar.gz]
+[2023-06-29 17:34:23] INFO root fetch - processPackages [xobjects]: Remove: archive file [/home/abi/fetcher/tmp/xobjects-0.2.7.tar.gz]
+[2023-06-29 17:34:23] INFO root fetch - processPackages [xobjects]: Start processing: xpart
+[2023-06-29 17:34:23] INFO root fetch - main [MainThread]: End processing [xobjects]: success
+[2023-06-29 17:34:23] INFO root fetch - processPackages [xpart]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-29 17:34:23] INFO root fetch - processPackages [bullmq]: Remove: archive file [/home/abi/fetcher/tmp/bullmq-1.2.0.tar.gz]
+[2023-06-29 17:34:23] INFO root fetch - processPackages [bullmq]: Remove: archive file [/home/abi/fetcher/tmp/bullmq-1.3.0.tar.gz]
+[2023-06-29 17:34:23] INFO root fetch - main [MainThread]: End processing [bullmq]: success
+[2023-06-29 17:34:23] INFO root fetch - processPackages [xpart]: Downloading https://files.pythonhosted.org/packages/45/9a/44a870df04c746957f83128255e7ec5a7809a178bbe6842295dbfa76475d/xpart-0.9.2.tar.gz
+[2023-06-29 17:34:23] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-2.9.0.tar.gz]
+[2023-06-29 17:34:23] INFO root fetch - processPackages [cognite-pygen]: Downloading https://files.pythonhosted.org/packages/ce/02/7ecd0882d447246a79ac11eff331b1c4e7890eb9fd3e85568a959aef9aa9/cognite_pygen-0.9.1.tar.gz
+[2023-06-29 17:34:23] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-2.9.1.tar.gz]
+[2023-06-29 17:34:23] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
+[2023-06-29 17:34:23] INFO root fetch - processPackages [odoo14-addon-community-maps]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_community_maps-14.0.0.1.8-py3-none-any.whl.zip]
+[2023-06-29 17:34:23] INFO root fetch - processPackages [odoo14-addon-community-maps]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_community_maps-14.0.0.1.9-py3-none-any.whl.zip]
+[2023-06-29 17:34:23] INFO root fetch - main [MainThread]: End processing [odoo14-addon-community-maps]: success
+[2023-06-29 17:34:23] INFO root fetch - processPackages [cognite-pygen]: executing diffoscope
+[2023-06-29 17:34:23] INFO root fetch - processPackages [cognite-pygen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_pygen-0.9.0.tar.gz tmp/cognite_pygen-0.9.1.tar.gz --markdown 20230629/c/cognite-pygen/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-29 17:34:23] INFO root fetch - processPackages [syncqb]: Remove: archive file [/home/abi/fetcher/tmp/syncqb-1.0.8.tar.gz]
+[2023-06-29 17:34:23] INFO root fetch - processPackages [syncqb]: Remove: archive file [/home/abi/fetcher/tmp/syncqb-1.0.9.tar.gz]
+[2023-06-29 17:34:23] INFO root fetch - main [MainThread]: End processing [syncqb]: success
+[2023-06-29 17:34:23] INFO root fetch - processPackages [prog-server]: Remove: archive file [/home/abi/fetcher/tmp/prog_server-1.4.0.tar.gz]
+[2023-06-29 17:34:23] INFO root fetch - processPackages [prog-server]: Remove: archive file [/home/abi/fetcher/tmp/prog_server-1.5.0rc0.tar.gz]
+[2023-06-29 17:34:23] INFO root fetch - main [MainThread]: End processing [prog-server]: success
+[2023-06-29 17:34:23] INFO root fetch - processPackages [xpart]: Downloading https://files.pythonhosted.org/packages/f6/d0/566ee9ad0e3d6ac9b9558d25816734b3fce476c9907cc04cd501da1072a3/xpart-0.9.3.tar.gz
+[2023-06-29 17:34:24] INFO root fetch - processPackages [django-entity]: Remove: archive file [/home/abi/fetcher/tmp/django-entity-6.0.0.tar.gz]
+[2023-06-29 17:34:24] INFO root fetch - processPackages [django-entity]: Remove: archive file [/home/abi/fetcher/tmp/django-entity-6.1.0.tar.gz]
+[2023-06-29 17:34:24] INFO root fetch - main [MainThread]: End processing [django-entity]: success
+[2023-06-29 17:34:24] INFO root fetch - processPackages [xpart]: executing diffoscope
+[2023-06-29 17:34:24] INFO root fetch - processPackages [xpart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpart-0.9.2.tar.gz tmp/xpart-0.9.3.tar.gz --markdown 20230629/x/xpart/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-29 17:34:24] INFO root fetch - processPackages [cognite-pygen]: Remove: archive file [/home/abi/fetcher/tmp/cognite_pygen-0.9.0.tar.gz]
+[2023-06-29 17:34:24] INFO root fetch - processPackages [cognite-pygen]: Remove: archive file [/home/abi/fetcher/tmp/cognite_pygen-0.9.1.tar.gz]
+[2023-06-29 17:34:24] INFO root fetch - main [MainThread]: End processing [cognite-pygen]: success
+[2023-06-29 17:34:24] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev80.tar.gz]
+[2023-06-29 17:34:24] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev82.tar.gz]
+[2023-06-29 17:34:24] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2023-06-29 17:34:25] INFO root fetch - processPackages [dataiku-api-client]: Remove: archive file [/home/abi/fetcher/tmp/dataiku-api-client-9.0.0.tar.gz]
+[2023-06-29 17:34:25] INFO root fetch - processPackages [dataiku-api-client]: Remove: archive file [/home/abi/fetcher/tmp/dataiku-api-client-9.0.1.tar.gz]
+[2023-06-29 17:34:25] INFO root fetch - main [MainThread]: End processing [dataiku-api-client]: success
+[2023-06-29 17:34:25] INFO root fetch - processPackages [xpart]: Remove: archive file [/home/abi/fetcher/tmp/xpart-0.9.2.tar.gz]
+[2023-06-29 17:34:25] INFO root fetch - processPackages [xpart]: Remove: archive file [/home/abi/fetcher/tmp/xpart-0.9.3.tar.gz]
+[2023-06-29 17:34:25] INFO root fetch - main [MainThread]: End processing [xpart]: success
+[2023-06-29 17:34:25] INFO root fetch - main [MainThread]: Store serial: [18697237]
