@@ -7481,3 +7481,89 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 12:52:34] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-8.0.0.tar.gz]
 [2023-06-29 12:52:34] INFO root fetch - main [MainThread]: End processing [warpzone-sdk]: success
 [2023-06-29 12:52:34] INFO root fetch - main [MainThread]: Store serial: [18693828]
+[2023-06-29 12:57:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18693828]
+[2023-06-29 12:57:43] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-29 12:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pg-tuna
+[2023-06-29 12:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: krillscan
+[2023-06-29 12:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eodc-faas-openeo
+[2023-06-29 12:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cognite-power-ops
+[2023-06-29 12:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: notebook-prototyping
+[2023-06-29 12:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lnschema_bionty
+[2023-06-29 12:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-cloudwatch-metrics
+[2023-06-29 12:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-hawk-drf
+[2023-06-29 12:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: krillscan
+[2023-06-29 12:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ramodels
+[2023-06-29 12:57:43] INFO root fetch - processPackages [django-hawk-drf]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-29 12:57:43] WARNING root fetch - processPackages [notebook-prototyping]: Skipping, unable to determine old version
+[2023-06-29 12:57:43] INFO root fetch - processPackages [notebook-prototyping]: Start processing: akerbp.mlops
+[2023-06-29 12:57:43] INFO root fetch - main [MainThread]: End processing [notebook-prototyping] error
+[2023-06-29 12:57:43] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-29 12:57:43] INFO root fetch - processPackages [django-cloudwatch-metrics]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 12:57:43] INFO root fetch - processPackages [krillscan]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-29 12:57:43] WARNING root fetch - processPackages [pg-tuna]: Skipping, unable to determine old version
+[2023-06-29 12:57:43] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-29 12:57:43] INFO root fetch - main [MainThread]: End processing [pg-tuna] error
+[2023-06-29 12:57:43] INFO root fetch - processPackages [krillscan]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-29 12:57:43] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-06-29 12:57:43] INFO root fetch - processPackages [lnschema_bionty]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-29 12:57:43] INFO root fetch - processPackages [akerbp.mlops]: New version: [3.2.1a3] Old Version: [3.2.1a2]
+[2023-06-29 12:57:43] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/bf/65/17c492bd7934456ef4a003078ffcb510f62f943407298b90a63969aa3f1f/eodc_faas_openeo-2023.6.8.tar.gz
+[2023-06-29 12:57:43] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/2b/ea/c056f5562fa0bed4321b21572bba15a2f43f6f9795d20397ee822d00d6af/cognite_power_ops-0.9.1.tar.gz
+[2023-06-29 12:57:43] INFO root fetch - processPackages [krillscan]: Downloading https://files.pythonhosted.org/packages/07/72/938c229df50a90a1c9cd0d6bac0b84269d4bb34a164b5ccf61d2e9cb5c88/krillscan-0.2.8.tar.gz
+[2023-06-29 12:57:43] INFO root fetch - processPackages [krillscan]: Downloading https://files.pythonhosted.org/packages/07/72/938c229df50a90a1c9cd0d6bac0b84269d4bb34a164b5ccf61d2e9cb5c88/krillscan-0.2.8.tar.gz
+[2023-06-29 12:57:43] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-06-29 12:57:43] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230629/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-06-29 12:57:43] INFO root fetch - processPackages [django-hawk-drf]: Downloading https://files.pythonhosted.org/packages/25/24/b8bc3762f6856419f78cede0bc0d3b825646a340e3367b3c31a9902a1ba4/django_hawk_drf-1.1.0.tar.gz
+[2023-06-29 12:57:43] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/77/6b/8eb1deae635c30a05c1c3a89c459d64974381087d1c84d89e3ad9410049a/eodc_faas_openeo-2023.6.9.tar.gz
+[2023-06-29 12:57:43] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/5a/e7/e66818fdcb4e952516e36c68513139d425136901b019cc2b7ae48bfa3c12/cognite_power_ops-0.9.2.tar.gz
+[2023-06-29 12:57:43] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/12/bb/32a1cbaa73ee4f038a3540bbbf0b3d7e27f22edcdbd7d7c80667fef68afd/lnschema_bionty-0.8.1.tar.gz
+[2023-06-29 12:57:43] INFO root fetch - processPackages [django-cloudwatch-metrics]: Downloading https://files.pythonhosted.org/packages/fc/a6/e71661db192eece9f6cbc69b37384eaaeeeb5b2132e45e11afe8d5e56f59/django_cloudwatch_metrics-0.0.8.tar.gz
+[2023-06-29 12:57:43] INFO root fetch - processPackages [krillscan]: Downloading https://files.pythonhosted.org/packages/b5/55/35d651f1351d7c94b597bb11783e2e9faccafaf74fd7bf2aff59c4711d5f/krillscan-0.2.9.tar.gz
+[2023-06-29 12:57:44] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/f2/4e/c2c697d934be79e26c2406513a414f09de8a9d147eeb6639c1961de260c0/akerbp.mlops-3.2.1a2.tar.gz
+[2023-06-29 12:57:44] INFO root fetch - processPackages [krillscan]: Downloading https://files.pythonhosted.org/packages/b5/55/35d651f1351d7c94b597bb11783e2e9faccafaf74fd7bf2aff59c4711d5f/krillscan-0.2.9.tar.gz
+[2023-06-29 12:57:44] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2023-06-29 12:57:44] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2023.6.8.tar.gz tmp/eodc_faas_openeo-2023.6.9.tar.gz --markdown 20230629/e/eodc-faas-openeo/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-29 12:57:44] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-06-29 12:57:44] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.9.1.tar.gz tmp/cognite_power_ops-0.9.2.tar.gz --markdown 20230629/c/cognite-power-ops/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-29 12:57:44] INFO root fetch - processPackages [krillscan]: executing diffoscope
+[2023-06-29 12:57:44] INFO root fetch - processPackages [krillscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krillscan-0.2.8.tar.gz tmp/krillscan-0.2.9.tar.gz --markdown 20230629/k/krillscan/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-29 12:57:44] INFO root fetch - processPackages [django-hawk-drf]: Downloading https://files.pythonhosted.org/packages/6b/b4/6c807cc084e9f359ebf82ebacdc9626f7cb9256d0c1f43457ec1042afed4/django_hawk_drf-1.1.1.tar.gz
+[2023-06-29 12:57:44] INFO root fetch - processPackages [krillscan]: executing diffoscope
+[2023-06-29 12:57:44] INFO root fetch - processPackages [krillscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krillscan-0.2.8.tar.gz tmp/krillscan-0.2.9.tar.gz --markdown 20230629/k/krillscan/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-29 12:57:44] INFO root fetch - processPackages [django-hawk-drf]: executing diffoscope
+[2023-06-29 12:57:44] INFO root fetch - processPackages [django-hawk-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_hawk_drf-1.1.0.tar.gz tmp/django_hawk_drf-1.1.1.tar.gz --markdown 20230629/d/django-hawk-drf/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-29 12:57:44] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/ed/64/d2babdba858b56f5825e7ac3e2d375cf42dcf278f3c6ad9daf179e40b556/lnschema_bionty-0.9.0.tar.gz
+[2023-06-29 12:57:44] INFO root fetch - processPackages [django-cloudwatch-metrics]: Downloading https://files.pythonhosted.org/packages/74/4b/5f3264df30160988e74ad1d8f223469e139a6e4e42c6b3572e6795077998/django_cloudwatch_metrics-0.0.9.tar.gz
+[2023-06-29 12:57:44] INFO root fetch - processPackages [lnschema_bionty]: executing diffoscope
+[2023-06-29 12:57:44] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/7d/04/cf1f365bd87b62dac2a3c08449b5c9828c1680c4b82817c041688d04edb8/akerbp.mlops-3.2.1a3.tar.gz
+[2023-06-29 12:57:44] INFO root fetch - processPackages [lnschema_bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_bionty-0.8.1.tar.gz tmp/lnschema_bionty-0.9.0.tar.gz --markdown 20230629/l/lnschema_bionty/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-29 12:57:44] INFO root fetch - processPackages [akerbp.mlops]: executing diffoscope
+[2023-06-29 12:57:44] INFO root fetch - processPackages [django-cloudwatch-metrics]: executing diffoscope
+[2023-06-29 12:57:44] INFO root fetch - processPackages [akerbp.mlops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akerbp.mlops-3.2.1a2.tar.gz tmp/akerbp.mlops-3.2.1a3.tar.gz --markdown 20230629/a/akerbp.mlops/3.2.1a2-3.2.1a3/diff.md --exclude *.pyd
+[2023-06-29 12:57:44] INFO root fetch - processPackages [django-cloudwatch-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cloudwatch_metrics-0.0.8.tar.gz tmp/django_cloudwatch_metrics-0.0.9.tar.gz --markdown 20230629/d/django-cloudwatch-metrics/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 12:57:45] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-06-29 12:57:45] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-06-29 12:57:45] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-06-29 12:57:45] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2023.6.8.tar.gz]
+[2023-06-29 12:57:45] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2023.6.9.tar.gz]
+[2023-06-29 12:57:45] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2023-06-29 12:57:45] INFO root fetch - processPackages [django-hawk-drf]: Remove: archive file [/home/abi/fetcher/tmp/django_hawk_drf-1.1.0.tar.gz]
+[2023-06-29 12:57:45] INFO root fetch - processPackages [django-hawk-drf]: Remove: archive file [/home/abi/fetcher/tmp/django_hawk_drf-1.1.1.tar.gz]
+[2023-06-29 12:57:45] INFO root fetch - main [MainThread]: End processing [django-hawk-drf]: success
+[2023-06-29 12:57:45] INFO root fetch - processPackages [django-cloudwatch-metrics]: Remove: archive file [/home/abi/fetcher/tmp/django_cloudwatch_metrics-0.0.8.tar.gz]
+[2023-06-29 12:57:45] INFO root fetch - processPackages [django-cloudwatch-metrics]: Remove: archive file [/home/abi/fetcher/tmp/django_cloudwatch_metrics-0.0.9.tar.gz]
+[2023-06-29 12:57:45] INFO root fetch - main [MainThread]: End processing [django-cloudwatch-metrics]: success
+[2023-06-29 12:57:46] INFO root fetch - processPackages [akerbp.mlops]: Remove: archive file [/home/abi/fetcher/tmp/akerbp.mlops-3.2.1a2.tar.gz]
+[2023-06-29 12:57:46] INFO root fetch - processPackages [akerbp.mlops]: Remove: archive file [/home/abi/fetcher/tmp/akerbp.mlops-3.2.1a3.tar.gz]
+[2023-06-29 12:57:46] INFO root fetch - main [MainThread]: End processing [akerbp.mlops]: success
+[2023-06-29 12:57:46] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.8.1.tar.gz]
+[2023-06-29 12:57:46] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.9.0.tar.gz]
+[2023-06-29 12:57:46] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
+[2023-06-29 12:57:46] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.1.tar.gz]
+[2023-06-29 12:57:46] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.2.tar.gz]
+[2023-06-29 12:57:46] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-06-29 12:57:47] INFO root fetch - processPackages [krillscan]: Remove: archive file [/home/abi/fetcher/tmp/krillscan-0.2.8.tar.gz]
+[2023-06-29 12:57:47] INFO root fetch - processPackages [krillscan]: Remove: archive file [/home/abi/fetcher/tmp/krillscan-0.2.9.tar.gz]
+[2023-06-29 12:57:47] INFO root fetch - main [MainThread]: End processing [krillscan]: success
+[2023-06-29 12:57:48] INFO root fetch - main [MainThread]: End processing [krillscan]: success
+[2023-06-29 12:57:48] INFO root fetch - main [MainThread]: Store serial: [18693868]
