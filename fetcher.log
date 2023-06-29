@@ -6158,3 +6158,106 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 11:51:42] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.343.0.tar.gz]
 [2023-06-29 11:51:42] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-06-29 11:51:42] INFO root fetch - main [MainThread]: Store serial: [18693273]
+[2023-06-29 11:56:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18693273]
+[2023-06-29 11:56:51] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-29 11:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dt4dds
+[2023-06-29 11:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PicsToPdfs
+[2023-06-29 11:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cval-lib
+[2023-06-29 11:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grai-schemas
+[2023-06-29 11:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mxcubeweb
+[2023-06-29 11:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: promptsdk
+[2023-06-29 11:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: visu3d
+[2023-06-29 11:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: swh.web
+[2023-06-29 11:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hvps
+[2023-06-29 11:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: grai-client
+[2023-06-29 11:56:51] INFO root fetch - processPackages [PicsToPdfs]: New version: [0.3.7.1] Old Version: [0.3.7]
+[2023-06-29 11:56:51] WARNING root fetch - processPackages [dt4dds]: Skipping, unable to determine old version
+[2023-06-29 11:56:51] INFO root fetch - processPackages [dt4dds]: Start processing: py-np4vtt
+[2023-06-29 11:56:51] INFO root fetch - main [MainThread]: End processing [dt4dds] error
+[2023-06-29 11:56:51] INFO root fetch - processPackages [mxcubeweb]: New version: [1.51.0] Old Version: [1.50.0]
+[2023-06-29 11:56:51] INFO root fetch - processPackages [promptsdk]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-29 11:56:51] WARNING root fetch - processPackages [cval-lib]: Skipping, unable to determine old version
+[2023-06-29 11:56:51] INFO root fetch - processPackages [hvps]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-29 11:56:51] INFO root fetch - processPackages [cval-lib]: Start processing: Brian2
+[2023-06-29 11:56:51] INFO root fetch - processPackages [grai-schemas]: New version: [0.2.0a1] Old Version: [0.1.9]
+[2023-06-29 11:56:51] INFO root fetch - processPackages [visu3d]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-06-29 11:56:51] INFO root fetch - processPackages [grai-client]: New version: [0.3.0a2] Old Version: [0.3.0a1]
+[2023-06-29 11:56:51] INFO root fetch - main [MainThread]: End processing [cval-lib] error
+[2023-06-29 11:56:51] INFO root fetch - processPackages [py-np4vtt]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-29 11:56:51] INFO root fetch - processPackages [swh.web]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-29 11:56:51] INFO root fetch - processPackages [grai-client]: Downloading https://files.pythonhosted.org/packages/0e/d0/7e3d23ede903d73ec247707da91bf0d01923b3a3c1052ef1bcea64917b11/grai_client-0.3.0a1.tar.gz
+[2023-06-29 11:56:51] INFO root fetch - processPackages [Brian2]: New version: [2.5.3] Old Version: [2.5.2]
+[2023-06-29 11:56:51] INFO root fetch - processPackages [PicsToPdfs]: Downloading https://files.pythonhosted.org/packages/a1/29/af28a64b79e4d77f59202aa68bd2cf17d3254857354d012fae3110567618/PicsToPdfs-0.3.7.tar.gz
+[2023-06-29 11:56:51] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/f0/dc/0c5f808bd0990a50a5c6d93190b3e0e1112e6c2f64d4b94c8f88a7242599/mxcubeweb-1.50.0.tar.gz
+[2023-06-29 11:56:51] INFO root fetch - processPackages [promptsdk]: Downloading https://files.pythonhosted.org/packages/c0/7d/6d52828c8ffe245697df8e699ac6a6db5ff61998ae806666e4530b77300c/promptsdk-0.1.3.tar.gz
+[2023-06-29 11:56:51] INFO root fetch - processPackages [hvps]: Downloading https://files.pythonhosted.org/packages/08/8c/170353c591ebd61dfe6746690396ce3c9de7a618f119afc9b167d24cb2ac/hvps-0.0.2.tar.gz
+[2023-06-29 11:56:51] INFO root fetch - processPackages [grai-schemas]: Downloading https://files.pythonhosted.org/packages/5f/42/f1b94cc0a778ce637ae5193620cb690190a4bd3a1c8fe56ff177b30061bc/grai_schemas-0.1.9.tar.gz
+[2023-06-29 11:56:51] INFO root fetch - processPackages [py-np4vtt]: Downloading https://files.pythonhosted.org/packages/4c/3d/55a1a5a2d08fb7352cebe2baa2864ed863db9447741f704e72b62abc16ec/py-np4vtt-1.0.5.tar.gz
+[2023-06-29 11:56:52] INFO root fetch - processPackages [swh.web]: Downloading https://files.pythonhosted.org/packages/66/15/6bc04af12a23337bb393e57e21ffba928a503bf0e3a5106bea151682da0d/swh.web-0.2.8.tar.gz
+[2023-06-29 11:56:52] INFO root fetch - processPackages [visu3d]: Downloading https://files.pythonhosted.org/packages/a4/fd/dd9be8fe81591b2f433dbbd7a0a7be5c6399d9ad943a9b9a0aec374bbe85/visu3d-1.5.1.tar.gz
+[2023-06-29 11:56:52] INFO root fetch - processPackages [promptsdk]: executing diffoscope
+[2023-06-29 11:56:52] INFO root fetch - processPackages [promptsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptsdk-0.1.2.tar.gz tmp/promptsdk-0.1.3.tar.gz --markdown 20230629/p/promptsdk/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-29 11:56:52] WARNING root fetch - processPackages [swh.web]: Skipping package: exceeds size limit 13132382>=10485760
+[2023-06-29 11:56:52] INFO root fetch - processPackages [swh.web]: Start processing: p-template-crawler
+[2023-06-29 11:56:52] INFO root fetch - main [MainThread]: End processing [swh.web] error
+[2023-06-29 11:56:52] INFO root fetch - processPackages [grai-client]: Downloading https://files.pythonhosted.org/packages/08/4d/953c5249b2b7879884d118309ea5ff3c2a6ac4eed497b77fc7dfac72da57/grai_client-0.3.0a2.tar.gz
+[2023-06-29 11:56:52] INFO root fetch - processPackages [p-template-crawler]: New version: [0.0.9] Old Version: [0.0.81]
+[2023-06-29 11:56:52] INFO root fetch - processPackages [Brian2]: Downloading https://files.pythonhosted.org/packages/51/3f/5fa18088f351545829b75ab3667a4d9c5c3aaba86dd33838e4b1dbea0503/Brian2-2.5.2.tar.gz
+[2023-06-29 11:56:52] INFO root fetch - processPackages [PicsToPdfs]: Downloading https://files.pythonhosted.org/packages/9f/eb/54f856eb930a11cab5883798abab77b3fa022297447100705aab4e1fe76a/PicsToPdfs-0.3.7.1.tar.gz
+[2023-06-29 11:56:52] INFO root fetch - processPackages [hvps]: Downloading https://files.pythonhosted.org/packages/55/b5/4c11e768c5d97571f00f362a900f86bf96c203d1731c8c3bdbf1868769e8/hvps-0.0.3.tar.gz
+[2023-06-29 11:56:52] INFO root fetch - processPackages [p-template-crawler]: Downloading https://files.pythonhosted.org/packages/a3/fb/25c0456a889cfce25f9182edff09a54034c5e9605ca75b094f9b8b75f55d/p-template-crawler-0.0.81.tar.gz
+[2023-06-29 11:56:52] INFO root fetch - processPackages [grai-client]: executing diffoscope
+[2023-06-29 11:56:52] INFO root fetch - processPackages [grai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_client-0.3.0a1.tar.gz tmp/grai_client-0.3.0a2.tar.gz --markdown 20230629/g/grai-client/0.3.0a1-0.3.0a2/diff.md --exclude *.pyd
+[2023-06-29 11:56:52] INFO root fetch - processPackages [py-np4vtt]: Downloading https://files.pythonhosted.org/packages/00/59/6ee113c8a1483db17e2148f9cb20375fc391ae8a48c7c5d47d7f00b5212d/py-np4vtt-1.0.6.tar.gz
+[2023-06-29 11:56:52] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/e0/72/670bb47af9c45e07dc811f543ec5e2cd0c64d359452b45d59c01c6c9e94f/mxcubeweb-1.51.0.tar.gz
+[2023-06-29 11:56:52] INFO root fetch - processPackages [PicsToPdfs]: executing diffoscope
+[2023-06-29 11:56:52] INFO root fetch - processPackages [PicsToPdfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PicsToPdfs-0.3.7.tar.gz tmp/PicsToPdfs-0.3.7.1.tar.gz --markdown 20230629/P/PicsToPdfs/0.3.7-0.3.7.1/diff.md --exclude *.pyd
+[2023-06-29 11:56:52] INFO root fetch - processPackages [grai-schemas]: Downloading https://files.pythonhosted.org/packages/2b/27/c5f0f4ed2991ea108fc9365f19e42258bd90df61305eb30e8da8cde929e3/grai_schemas-0.2.0a1.tar.gz
+[2023-06-29 11:56:52] INFO root fetch - processPackages [hvps]: executing diffoscope
+[2023-06-29 11:56:52] INFO root fetch - processPackages [hvps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hvps-0.0.2.tar.gz tmp/hvps-0.0.3.tar.gz --markdown 20230629/h/hvps/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-29 11:56:52] INFO root fetch - processPackages [py-np4vtt]: executing diffoscope
+[2023-06-29 11:56:52] INFO root fetch - processPackages [py-np4vtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-np4vtt-1.0.5.tar.gz tmp/py-np4vtt-1.0.6.tar.gz --markdown 20230629/p/py-np4vtt/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-29 11:56:52] INFO root fetch - processPackages [mxcubeweb]: executing diffoscope
+[2023-06-29 11:56:52] INFO root fetch - processPackages [mxcubeweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxcubeweb-1.50.0.tar.gz tmp/mxcubeweb-1.51.0.tar.gz --markdown 20230629/m/mxcubeweb/1.50.0-1.51.0/diff.md --exclude *.pyd
+[2023-06-29 11:56:52] INFO root fetch - processPackages [visu3d]: Downloading https://files.pythonhosted.org/packages/f6/ad/b5fba2980e60fac2aebde065db5fcfe7bc4866be9b763cc642772b9dc48a/visu3d-1.5.2.tar.gz
+[2023-06-29 11:56:52] INFO root fetch - processPackages [Brian2]: Downloading https://files.pythonhosted.org/packages/47/c8/ad0e461d419e9cbc9650315fd9dc6f82309005a6bb1625f23d40bf512ad1/Brian2-2.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-29 11:56:52] INFO root fetch - processPackages [grai-schemas]: executing diffoscope
+[2023-06-29 11:56:52] INFO root fetch - processPackages [grai-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_schemas-0.1.9.tar.gz tmp/grai_schemas-0.2.0a1.tar.gz --markdown 20230629/g/grai-schemas/0.1.9-0.2.0a1/diff.md --exclude *.pyd
+[2023-06-29 11:56:52] INFO root fetch - processPackages [visu3d]: executing diffoscope
+[2023-06-29 11:56:52] INFO root fetch - processPackages [visu3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visu3d-1.5.1.tar.gz tmp/visu3d-1.5.2.tar.gz --markdown 20230629/v/visu3d/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-06-29 11:56:52] INFO root fetch - processPackages [p-template-crawler]: Downloading https://files.pythonhosted.org/packages/2e/93/1eb2e14124aacd5278934cdff24ad9d4860e50f82e5881d3d69c66eb4bee/p-template-crawler-0.0.9.tar.gz
+[2023-06-29 11:56:52] INFO root fetch - processPackages [p-template-crawler]: executing diffoscope
+[2023-06-29 11:56:52] INFO root fetch - processPackages [p-template-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-template-crawler-0.0.81.tar.gz tmp/p-template-crawler-0.0.9.tar.gz --markdown 20230629/p/p-template-crawler/0.0.81-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 11:56:53] INFO root fetch - processPackages [promptsdk]: Remove: archive file [/home/abi/fetcher/tmp/promptsdk-0.1.2.tar.gz]
+[2023-06-29 11:56:53] INFO root fetch - processPackages [promptsdk]: Remove: archive file [/home/abi/fetcher/tmp/promptsdk-0.1.3.tar.gz]
+[2023-06-29 11:56:53] INFO root fetch - main [MainThread]: End processing [promptsdk]: success
+[2023-06-29 11:56:53] INFO root fetch - processPackages [PicsToPdfs]: Remove: archive file [/home/abi/fetcher/tmp/PicsToPdfs-0.3.7.tar.gz]
+[2023-06-29 11:56:53] INFO root fetch - processPackages [PicsToPdfs]: Remove: archive file [/home/abi/fetcher/tmp/PicsToPdfs-0.3.7.1.tar.gz]
+[2023-06-29 11:56:53] INFO root fetch - main [MainThread]: End processing [PicsToPdfs]: success
+[2023-06-29 11:56:53] INFO root fetch - processPackages [grai-client]: Remove: archive file [/home/abi/fetcher/tmp/grai_client-0.3.0a1.tar.gz]
+[2023-06-29 11:56:53] INFO root fetch - processPackages [grai-client]: Remove: archive file [/home/abi/fetcher/tmp/grai_client-0.3.0a2.tar.gz]
+[2023-06-29 11:56:53] INFO root fetch - main [MainThread]: End processing [grai-client]: success
+[2023-06-29 11:56:53] INFO root fetch - processPackages [py-np4vtt]: Remove: archive file [/home/abi/fetcher/tmp/py-np4vtt-1.0.5.tar.gz]
+[2023-06-29 11:56:53] INFO root fetch - processPackages [py-np4vtt]: Remove: archive file [/home/abi/fetcher/tmp/py-np4vtt-1.0.6.tar.gz]
+[2023-06-29 11:56:53] INFO root fetch - main [MainThread]: End processing [py-np4vtt]: success
+[2023-06-29 11:56:53] INFO root fetch - processPackages [p-template-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-template-crawler-0.0.81.tar.gz]
+[2023-06-29 11:56:53] INFO root fetch - processPackages [p-template-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-template-crawler-0.0.9.tar.gz]
+[2023-06-29 11:56:53] INFO root fetch - main [MainThread]: End processing [p-template-crawler]: success
+[2023-06-29 11:56:54] INFO root fetch - processPackages [Brian2]: executing diffoscope
+[2023-06-29 11:56:54] INFO root fetch - processPackages [Brian2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Brian2-2.5.2.tar.gz tmp/Brian2-2.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230629/B/Brian2/2.5.2-2.5.3/diff.md --exclude *.pyd
+[2023-06-29 11:56:54] INFO root fetch - processPackages [grai-schemas]: Remove: archive file [/home/abi/fetcher/tmp/grai_schemas-0.1.9.tar.gz]
+[2023-06-29 11:56:54] INFO root fetch - processPackages [grai-schemas]: Remove: archive file [/home/abi/fetcher/tmp/grai_schemas-0.2.0a1.tar.gz]
+[2023-06-29 11:56:54] INFO root fetch - main [MainThread]: End processing [grai-schemas]: success
+[2023-06-29 11:56:54] INFO root fetch - processPackages [visu3d]: Remove: archive file [/home/abi/fetcher/tmp/visu3d-1.5.1.tar.gz]
+[2023-06-29 11:56:54] INFO root fetch - processPackages [visu3d]: Remove: archive file [/home/abi/fetcher/tmp/visu3d-1.5.2.tar.gz]
+[2023-06-29 11:56:54] INFO root fetch - main [MainThread]: End processing [visu3d]: success
+[2023-06-29 11:56:54] INFO root fetch - processPackages [hvps]: Remove: archive file [/home/abi/fetcher/tmp/hvps-0.0.2.tar.gz]
+[2023-06-29 11:56:54] INFO root fetch - processPackages [hvps]: Remove: archive file [/home/abi/fetcher/tmp/hvps-0.0.3.tar.gz]
+[2023-06-29 11:56:54] INFO root fetch - main [MainThread]: End processing [hvps]: success
+[2023-06-29 11:56:54] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.50.0.tar.gz]
+[2023-06-29 11:56:54] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.51.0.tar.gz]
+[2023-06-29 11:56:54] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
+[2023-06-29 11:56:55] INFO root fetch - processPackages [Brian2]: Remove: archive file [/home/abi/fetcher/tmp/Brian2-2.5.2.tar.gz]
+[2023-06-29 11:56:55] INFO root fetch - processPackages [Brian2]: Remove: archive file [/home/abi/fetcher/tmp/Brian2-2.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-29 11:56:55] INFO root fetch - main [MainThread]: End processing [Brian2]: success
+[2023-06-29 11:56:55] INFO root fetch - main [MainThread]: Store serial: [18693325]
