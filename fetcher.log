@@ -10573,3 +10573,119 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 14:55:55] INFO root fetch - processPackages [certbot-onion]: Remove: archive file [/home/abi/fetcher/tmp/certbot_onion-0.1.5-cp310-cp310-musllinux_1_1_x86_64.whl.zip]
 [2023-06-29 14:55:55] INFO root fetch - main [MainThread]: End processing [certbot-onion]: success
 [2023-06-29 14:55:55] INFO root fetch - main [MainThread]: Store serial: [18695147]
+[2023-06-29 15:00:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18695147]
+[2023-06-29 15:01:04] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-29 15:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certbot-onion
+[2023-06-29 15:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scipion-em-sphire
+[2023-06-29 15:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nhl-api-py
+[2023-06-29 15:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lfinancial
+[2023-06-29 15:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tonicnet
+[2023-06-29 15:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sam-ml-py
+[2023-06-29 15:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: honkaistarrail
+[2023-06-29 15:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyphetools
+[2023-06-29 15:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aa-structures
+[2023-06-29 15:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ocrd-detectron2
+[2023-06-29 15:01:04] INFO root fetch - processPackages [lfinancial]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-29 15:01:04] INFO root fetch - processPackages [pyphetools]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-29 15:01:04] INFO root fetch - processPackages [sam-ml-py]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-29 15:01:04] INFO root fetch - processPackages [aa-structures]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-06-29 15:01:04] INFO root fetch - processPackages [tonicnet]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-29 15:01:04] INFO root fetch - processPackages [scipion-em-sphire]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-29 15:01:04] INFO root fetch - processPackages [nhl-api-py]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-29 15:01:04] INFO root fetch - processPackages [certbot-onion]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-29 15:01:04] INFO root fetch - processPackages [sam-ml-py]: Downloading https://files.pythonhosted.org/packages/4b/77/e5085087dd5361a6a521ff42e3b544e1ecc41b8573dace08f364ea953510/sam_ml-py-0.7.1.tar.gz
+[2023-06-29 15:01:04] INFO root fetch - processPackages [honkaistarrail]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-29 15:01:04] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/af/18/4606132722743d76a58269f6081b7d1912f38e6eb45a8efaefccf330418f/lfinancial-0.1.2.tar.gz
+[2023-06-29 15:01:04] INFO root fetch - processPackages [ocrd-detectron2]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-29 15:01:04] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/9c/7f/e27c139d40770a2c7383a41cd63a417d997846df3a14d38d0694c59d9f47/pyphetools-0.3.5.tar.gz
+[2023-06-29 15:01:05] INFO root fetch - processPackages [sam-ml-py]: Downloading https://files.pythonhosted.org/packages/c2/c9/bd85da9b54da1ef20a1ac2add1ee8ebddf9aac96479b656c0e29e7fa9e64/sam_ml-py-0.7.2.tar.gz
+[2023-06-29 15:01:05] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/14/a0/6740a232ad85347cdbb018a9b1b8eea071f2d1c2a6be7630c35d6bed5bf0/lfinancial-0.1.3.tar.gz
+[2023-06-29 15:01:05] INFO root fetch - processPackages [aa-structures]: Downloading https://files.pythonhosted.org/packages/16/57/fb65ce0737fe36ea2c3d5edae490b31c512112288a05d292a291e58069f1/aa_structures-2.4.0.tar.gz
+[2023-06-29 15:01:05] INFO root fetch - processPackages [tonicnet]: Downloading https://files.pythonhosted.org/packages/28/d3/f66e49e1c7b39f808d39afad66ab93c8feb83ff40f1fc2b0d1a747c24e71/tonicnet-0.1.1.tar.gz
+[2023-06-29 15:01:05] INFO root fetch - processPackages [nhl-api-py]: Downloading https://files.pythonhosted.org/packages/76/92/5fc90c2ba573efa90809af95925bac45c73e7a0ce60606f4076ad972e06f/nhl_api_py-0.4.2.tar.gz
+[2023-06-29 15:01:05] INFO root fetch - processPackages [ocrd-detectron2]: Downloading https://files.pythonhosted.org/packages/c6/1b/ed79cbd8e796a0d6da80730b15d1d0dfcbf88505fe5522ab3240039ac658/ocrd_detectron2-0.1.7.tar.gz
+[2023-06-29 15:01:05] INFO root fetch - processPackages [certbot-onion]: Downloading https://files.pythonhosted.org/packages/41/07/c91f2a31578110323b6a848e41b63614c3ba12abbe6d1f7cffb4bcad8cfb/certbot-onion-0.1.4.tar.gz
+[2023-06-29 15:01:05] INFO root fetch - processPackages [honkaistarrail]: Downloading https://files.pythonhosted.org/packages/05/2b/1fd94e5fe606c85df35afc17087a53fd8d5c6d8fa8b85098d2e602766b2c/honkaistarrail-0.0.4.tar.gz
+[2023-06-29 15:01:05] INFO root fetch - processPackages [sam-ml-py]: executing diffoscope
+[2023-06-29 15:01:05] INFO root fetch - processPackages [sam-ml-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sam_ml-py-0.7.1.tar.gz tmp/sam_ml-py-0.7.2.tar.gz --markdown 20230629/s/sam-ml-py/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-29 15:01:05] INFO root fetch - processPackages [lfinancial]: executing diffoscope
+[2023-06-29 15:01:05] INFO root fetch - processPackages [lfinancial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfinancial-0.1.2.tar.gz tmp/lfinancial-0.1.3.tar.gz --markdown 20230629/l/lfinancial/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-29 15:01:05] INFO root fetch - processPackages [scipion-em-sphire]: Downloading https://files.pythonhosted.org/packages/59/26/0ed31dc519ae42640a02c6c622c227471a9226d80ca6ddd10b2a1e1a9f1e/scipion-em-sphire-3.1.8.tar.gz
+[2023-06-29 15:01:05] INFO root fetch - processPackages [nhl-api-py]: Downloading https://files.pythonhosted.org/packages/78/aa/57a5b53aafb43f3c3225f98b7a57c608f07f7d5776722a7b41bb81984159/nhl_api_py-0.4.3.tar.gz
+[2023-06-29 15:01:05] INFO root fetch - processPackages [tonicnet]: Downloading https://files.pythonhosted.org/packages/15/4a/444c0e90c8b3be186768d2c4f91eddf7dfa9389505c47ecb96d79c269114/tonicnet-0.1.2.tar.gz
+[2023-06-29 15:01:05] INFO root fetch - processPackages [aa-structures]: Downloading https://files.pythonhosted.org/packages/39/79/3584e5cf48e404dbfd6190d38801701d7aa471c6790099b68bc797e42c56/aa_structures-2.4.1.tar.gz
+[2023-06-29 15:01:05] INFO root fetch - processPackages [certbot-onion]: Downloading https://files.pythonhosted.org/packages/63/e5/c485de0658763b3363f6e1bd4e0ae2190b45d14402b4e204fa146877563e/certbot-onion-0.1.5.tar.gz
+[2023-06-29 15:01:05] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/ae/41/4a725dd5cfad36406f788b244aa47a3a86994d6eb2451bd72be3e4d6acc5/pyphetools-0.3.6.tar.gz
+[2023-06-29 15:01:05] INFO root fetch - processPackages [honkaistarrail]: Downloading https://files.pythonhosted.org/packages/af/49/2e457e19dda2de74e6ddc0b3693d4eba67fca417be4c848d864ce5b70e22/honkaistarrail-0.0.5.tar.gz
+[2023-06-29 15:01:05] INFO root fetch - processPackages [nhl-api-py]: executing diffoscope
+[2023-06-29 15:01:05] INFO root fetch - processPackages [nhl-api-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nhl_api_py-0.4.2.tar.gz tmp/nhl_api_py-0.4.3.tar.gz --markdown 20230629/n/nhl-api-py/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-29 15:01:05] INFO root fetch - processPackages [tonicnet]: executing diffoscope
+[2023-06-29 15:01:05] INFO root fetch - processPackages [tonicnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tonicnet-0.1.1.tar.gz tmp/tonicnet-0.1.2.tar.gz --markdown 20230629/t/tonicnet/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-29 15:01:05] INFO root fetch - processPackages [certbot-onion]: executing diffoscope
+[2023-06-29 15:01:05] INFO root fetch - processPackages [certbot-onion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-onion-0.1.4.tar.gz tmp/certbot-onion-0.1.5.tar.gz --markdown 20230629/c/certbot-onion/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-29 15:01:05] INFO root fetch - processPackages [ocrd-detectron2]: Downloading https://files.pythonhosted.org/packages/c5/2c/43edc4c8b772685e855ab8d19cff22a77e8ff6246bad38b5fe3c9e650a2f/ocrd_detectron2-0.1.8.tar.gz
+[2023-06-29 15:01:05] INFO root fetch - processPackages [pyphetools]: executing diffoscope
+[2023-06-29 15:01:05] INFO root fetch - processPackages [pyphetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyphetools-0.3.5.tar.gz tmp/pyphetools-0.3.6.tar.gz --markdown 20230629/p/pyphetools/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-29 15:01:05] INFO root fetch - processPackages [aa-structures]: executing diffoscope
+[2023-06-29 15:01:05] INFO root fetch - processPackages [aa-structures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_structures-2.4.0.tar.gz tmp/aa_structures-2.4.1.tar.gz --markdown 20230629/a/aa-structures/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-06-29 15:01:05] INFO root fetch - processPackages [scipion-em-sphire]: Downloading https://files.pythonhosted.org/packages/f3/8a/6a150452c3abad5ff7b4536a8930ddf0619455c7646546d37d855ad2c364/scipion-em-sphire-3.1.9.tar.gz
+[2023-06-29 15:01:05] INFO root fetch - processPackages [honkaistarrail]: executing diffoscope
+[2023-06-29 15:01:05] INFO root fetch - processPackages [honkaistarrail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honkaistarrail-0.0.4.tar.gz tmp/honkaistarrail-0.0.5.tar.gz --markdown 20230629/h/honkaistarrail/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-29 15:01:05] INFO root fetch - processPackages [ocrd-detectron2]: executing diffoscope
+[2023-06-29 15:01:05] INFO root fetch - processPackages [ocrd-detectron2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocrd_detectron2-0.1.7.tar.gz tmp/ocrd_detectron2-0.1.8.tar.gz --markdown 20230629/o/ocrd-detectron2/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-29 15:01:05] INFO root fetch - processPackages [scipion-em-sphire]: executing diffoscope
+[2023-06-29 15:01:05] INFO root fetch - processPackages [scipion-em-sphire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-sphire-3.1.8.tar.gz tmp/scipion-em-sphire-3.1.9.tar.gz --markdown 20230629/s/scipion-em-sphire/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-29 15:01:06] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.1.2.tar.gz]
+[2023-06-29 15:01:06] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.1.3.tar.gz]
+[2023-06-29 15:01:06] INFO root fetch - processPackages [lfinancial]: Start processing: wloc
+[2023-06-29 15:01:06] INFO root fetch - main [MainThread]: End processing [lfinancial]: success
+[2023-06-29 15:01:06] INFO root fetch - processPackages [tonicnet]: Remove: archive file [/home/abi/fetcher/tmp/tonicnet-0.1.1.tar.gz]
+[2023-06-29 15:01:06] INFO root fetch - processPackages [tonicnet]: Remove: archive file [/home/abi/fetcher/tmp/tonicnet-0.1.2.tar.gz]
+[2023-06-29 15:01:06] INFO root fetch - processPackages [tonicnet]: Start processing: skinnywms
+[2023-06-29 15:01:06] INFO root fetch - main [MainThread]: End processing [tonicnet]: success
+[2023-06-29 15:01:06] INFO root fetch - processPackages [wloc]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-29 15:01:06] INFO root fetch - processPackages [certbot-onion]: Remove: archive file [/home/abi/fetcher/tmp/certbot-onion-0.1.4.tar.gz]
+[2023-06-29 15:01:06] INFO root fetch - processPackages [certbot-onion]: Remove: archive file [/home/abi/fetcher/tmp/certbot-onion-0.1.5.tar.gz]
+[2023-06-29 15:01:06] INFO root fetch - processPackages [certbot-onion]: Start processing: automation-editor-dev
+[2023-06-29 15:01:06] INFO root fetch - main [MainThread]: End processing [certbot-onion]: success
+[2023-06-29 15:01:06] INFO root fetch - processPackages [skinnywms]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-29 15:01:06] INFO root fetch - processPackages [nhl-api-py]: Remove: archive file [/home/abi/fetcher/tmp/nhl_api_py-0.4.2.tar.gz]
+[2023-06-29 15:01:06] INFO root fetch - processPackages [nhl-api-py]: Remove: archive file [/home/abi/fetcher/tmp/nhl_api_py-0.4.3.tar.gz]
+[2023-06-29 15:01:06] INFO root fetch - main [MainThread]: End processing [nhl-api-py]: success
+[2023-06-29 15:01:06] INFO root fetch - processPackages [sam-ml-py]: Remove: archive file [/home/abi/fetcher/tmp/sam_ml-py-0.7.1.tar.gz]
+[2023-06-29 15:01:06] INFO root fetch - processPackages [sam-ml-py]: Remove: archive file [/home/abi/fetcher/tmp/sam_ml-py-0.7.2.tar.gz]
+[2023-06-29 15:01:06] INFO root fetch - main [MainThread]: End processing [sam-ml-py]: success
+[2023-06-29 15:01:07] INFO root fetch - processPackages [automation-editor-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 15:01:07] INFO root fetch - processPackages [wloc]: Downloading https://files.pythonhosted.org/packages/fa/6e/048619893222f840d32c90c1f0be7a535b550615d77a700251812e9fdf2a/wloc-1.0.1.tar.gz
+[2023-06-29 15:01:07] INFO root fetch - processPackages [ocrd-detectron2]: Remove: archive file [/home/abi/fetcher/tmp/ocrd_detectron2-0.1.7.tar.gz]
+[2023-06-29 15:01:07] INFO root fetch - processPackages [ocrd-detectron2]: Remove: archive file [/home/abi/fetcher/tmp/ocrd_detectron2-0.1.8.tar.gz]
+[2023-06-29 15:01:07] INFO root fetch - main [MainThread]: End processing [ocrd-detectron2]: success
+[2023-06-29 15:01:07] INFO root fetch - processPackages [skinnywms]: Downloading https://files.pythonhosted.org/packages/25/7e/11e472f813c39be523ff440c55fce16f3f2eb80a38f30e9025de13e1f5ef/skinnywms-0.8.0.tar.gz
+[2023-06-29 15:01:07] WARNING root fetch - processPackages [skinnywms]: Skipping package: exceeds size limit 12626474>=10485760
+[2023-06-29 15:01:07] INFO root fetch - main [MainThread]: End processing [skinnywms] error
+[2023-06-29 15:01:07] INFO root fetch - processPackages [honkaistarrail]: Remove: archive file [/home/abi/fetcher/tmp/honkaistarrail-0.0.4.tar.gz]
+[2023-06-29 15:01:07] INFO root fetch - processPackages [honkaistarrail]: Remove: archive file [/home/abi/fetcher/tmp/honkaistarrail-0.0.5.tar.gz]
+[2023-06-29 15:01:07] INFO root fetch - main [MainThread]: End processing [honkaistarrail]: success
+[2023-06-29 15:01:07] INFO root fetch - processPackages [automation-editor-dev]: Downloading https://files.pythonhosted.org/packages/00/7f/952117cc044c6a56f24b3e31b54d2ae7b3f3f94e1ea65aa39fad146ee263/automation_editor_dev-0.0.8.tar.gz
+[2023-06-29 15:01:07] INFO root fetch - processPackages [scipion-em-sphire]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-sphire-3.1.8.tar.gz]
+[2023-06-29 15:01:07] INFO root fetch - processPackages [scipion-em-sphire]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-sphire-3.1.9.tar.gz]
+[2023-06-29 15:01:07] INFO root fetch - main [MainThread]: End processing [scipion-em-sphire]: success
+[2023-06-29 15:01:07] INFO root fetch - processPackages [wloc]: Downloading https://files.pythonhosted.org/packages/ab/38/3c86a03b8eddeff132f53effa7ae8a473723dcf5bfab53d8d686720587d1/wloc-1.1.0.tar.gz
+[2023-06-29 15:01:07] INFO root fetch - processPackages [wloc]: executing diffoscope
+[2023-06-29 15:01:07] INFO root fetch - processPackages [wloc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wloc-1.0.1.tar.gz tmp/wloc-1.1.0.tar.gz --markdown 20230629/w/wloc/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-29 15:01:07] INFO root fetch - processPackages [automation-editor-dev]: Downloading https://files.pythonhosted.org/packages/91/ba/1f264deec49ee97cd331cb158d59988eae18cefcf4570f77eb3b20daa2d7/automation_editor_dev-0.0.9.tar.gz
+[2023-06-29 15:01:07] INFO root fetch - processPackages [automation-editor-dev]: executing diffoscope
+[2023-06-29 15:01:07] INFO root fetch - processPackages [automation-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_editor_dev-0.0.8.tar.gz tmp/automation_editor_dev-0.0.9.tar.gz --markdown 20230629/a/automation-editor-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 15:01:07] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.3.5.tar.gz]
+[2023-06-29 15:01:07] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.3.6.tar.gz]
+[2023-06-29 15:01:07] INFO root fetch - main [MainThread]: End processing [pyphetools]: success
+[2023-06-29 15:01:08] INFO root fetch - processPackages [wloc]: Remove: archive file [/home/abi/fetcher/tmp/wloc-1.0.1.tar.gz]
+[2023-06-29 15:01:08] INFO root fetch - processPackages [wloc]: Remove: archive file [/home/abi/fetcher/tmp/wloc-1.1.0.tar.gz]
+[2023-06-29 15:01:08] INFO root fetch - main [MainThread]: End processing [wloc]: success
+[2023-06-29 15:01:09] INFO root fetch - processPackages [automation-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_editor_dev-0.0.8.tar.gz]
+[2023-06-29 15:01:09] INFO root fetch - processPackages [automation-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_editor_dev-0.0.9.tar.gz]
+[2023-06-29 15:01:09] INFO root fetch - main [MainThread]: End processing [automation-editor-dev]: success
+[2023-06-29 15:01:09] INFO root fetch - processPackages [aa-structures]: Remove: archive file [/home/abi/fetcher/tmp/aa_structures-2.4.0.tar.gz]
+[2023-06-29 15:01:09] INFO root fetch - processPackages [aa-structures]: Remove: archive file [/home/abi/fetcher/tmp/aa_structures-2.4.1.tar.gz]
+[2023-06-29 15:01:09] INFO root fetch - main [MainThread]: End processing [aa-structures]: success
+[2023-06-29 15:01:09] INFO root fetch - main [MainThread]: Store serial: [18695209]
