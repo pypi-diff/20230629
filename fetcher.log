@@ -4033,3 +4033,118 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 11:17:33] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2023-06-29 11:17:33] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-06-29 11:17:33] INFO root fetch - main [MainThread]: Store serial: [18692567]
+[2023-06-29 11:22:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18692567]
+[2023-06-29 11:22:44] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-29 11:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: toollib
+[2023-06-29 11:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyEmailExtractor
+[2023-06-29 11:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymudclient
+[2023-06-29 11:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vavacars-data-utils
+[2023-06-29 11:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leadguru-jobs
+[2023-06-29 11:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: badger-opt
+[2023-06-29 11:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tdwnsv3
+[2023-06-29 11:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ayugespidertools
+[2023-06-29 11:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: thonny-quecpython
+[2023-06-29 11:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xw-utils
+[2023-06-29 11:22:44] INFO root fetch - processPackages [toollib]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-06-29 11:22:44] INFO root fetch - processPackages [badger-opt]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-29 11:22:44] INFO root fetch - processPackages [pymudclient]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-29 11:22:44] INFO root fetch - processPackages [PyEmailExtractor]: New version: [0.2.1] Old Version: [0.2]
+[2023-06-29 11:22:44] INFO root fetch - processPackages [thonny-quecpython]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-29 11:22:44] INFO root fetch - processPackages [vavacars-data-utils]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-06-29 11:22:44] INFO root fetch - processPackages [tdwnsv3]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-06-29 11:22:44] INFO root fetch - processPackages [ayugespidertools]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-06-29 11:22:44] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-29 11:22:44] INFO root fetch - processPackages [xw-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-29 11:22:44] INFO root fetch - processPackages [badger-opt]: Downloading https://files.pythonhosted.org/packages/21/d9/4a8373bae63f38b6d655f91bf7f7f87b139b8577acc6305939302022fab7/badger-opt-0.9.1.tar.gz
+[2023-06-29 11:22:44] INFO root fetch - processPackages [pymudclient]: Downloading https://files.pythonhosted.org/packages/6c/4b/5ba367e226ba6129d12080ce07db3ce3ffd487414b3824405927ba6fea7b/pymudclient-0.1.0.tar.gz
+[2023-06-29 11:22:44] INFO root fetch - processPackages [thonny-quecpython]: Downloading https://files.pythonhosted.org/packages/c4/3f/2a236fbd6af6de20aa8e9bce6392dc1a887227ce56eaaeb7adeb53703ef9/thonny-quecpython-0.0.2.tar.gz
+[2023-06-29 11:22:44] INFO root fetch - processPackages [tdwnsv3]: Downloading https://files.pythonhosted.org/packages/89/72/6cc5ce7774a8031fe1495c296fe187d72fcd25e4f52418b1b59196236ac5/tdwnsv3-1.9.2.tar.gz
+[2023-06-29 11:22:44] INFO root fetch - processPackages [ayugespidertools]: Downloading https://files.pythonhosted.org/packages/86/5f/3d9153f840f84a54db1d26cef685dd406552aa9d8c513807c99566eca061/ayugespidertools-3.3.0.tar.gz
+[2023-06-29 11:22:44] INFO root fetch - processPackages [PyEmailExtractor]: Downloading https://files.pythonhosted.org/packages/1b/37/61aaed952be58d3add23d725d19cd8b6c1d57d43949d5e06d15152b28317/PyEmailExtractor-0.2.tar.gz
+[2023-06-29 11:22:44] INFO root fetch - processPackages [vavacars-data-utils]: Downloading https://files.pythonhosted.org/packages/58/02/3a20e752fbb5d733cbd1aab56ed40f8c0fc6369b8e7721e6cf6da0ed2a6c/vavacars_data_utils-0.0.9.tar.gz
+[2023-06-29 11:22:44] WARNING root fetch - processPackages [thonny-quecpython]: Skipping package: exceeds size limit 23298556>=10485760
+[2023-06-29 11:22:44] INFO root fetch - processPackages [thonny-quecpython]: Start processing: JestingLang
+[2023-06-29 11:22:44] INFO root fetch - main [MainThread]: End processing [thonny-quecpython] error
+[2023-06-29 11:22:44] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/dc/1a/2d247adaa50a2a75132b1cd25cb5a1ad15d734a7f0c3861ea12f42bd85d2/xw_utils-1.0.8-cp39-cp39-win_amd64.whl
+[2023-06-29 11:22:44] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-06-29 11:22:44] INFO root fetch - processPackages [JestingLang]: New version: [0.0.0a8] Old Version: [0.0.0a7]
+[2023-06-29 11:22:44] INFO root fetch - processPackages [toollib]: Downloading https://files.pythonhosted.org/packages/8c/15/d3abf3022590292870d5bb161307abad53022717887c9f852bab6b5a2152/toollib-1.4.8-py3-none-any.whl
+[2023-06-29 11:22:44] INFO root fetch - processPackages [tdwnsv3]: Downloading https://files.pythonhosted.org/packages/ec/f1/6b9643f2234cb62494c980e5cd9f6f4c532be19bbfcd5c3dba48163f10e0/tdwnsv3-1.9.3.tar.gz
+[2023-06-29 11:22:44] INFO root fetch - processPackages [pymudclient]: Downloading https://files.pythonhosted.org/packages/3d/c1/8a5687da04709b13333f6f4fec589b7d31e9b919d0392d89616f8af60910/pymudclient-0.1.1.tar.gz
+[2023-06-29 11:22:44] INFO root fetch - processPackages [PyEmailExtractor]: Downloading https://files.pythonhosted.org/packages/b2/93/d8ef97080ebd0d5620e3ef925702674f1498e5cb790fc4d0aae80695913d/PyEmailExtractor-0.2.1.tar.gz
+[2023-06-29 11:22:44] INFO root fetch - processPackages [JestingLang]: Downloading https://files.pythonhosted.org/packages/3f/1d/59a49b72a07717bbb666720d41416d2810c444809cfe0d398d95a63b6bbe/JestingLang-0.0.0a7.tar.gz
+[2023-06-29 11:22:44] INFO root fetch - processPackages [ayugespidertools]: Downloading https://files.pythonhosted.org/packages/73/4f/ae763cff5e3b12f65dfe178ae3b5cdcb584a5fbfd4d4b5aa79b29098cf00/ayugespidertools-3.3.1.tar.gz
+[2023-06-29 11:22:44] INFO root fetch - processPackages [toollib]: executing diffoscope
+[2023-06-29 11:22:44] INFO root fetch - processPackages [toollib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toollib-1.4.7-py3-none-any.whl.zip tmp/toollib-1.4.8-py3-none-any.whl.zip --markdown 20230629/t/toollib/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-06-29 11:22:44] INFO root fetch - processPackages [tdwnsv3]: executing diffoscope
+[2023-06-29 11:22:44] INFO root fetch - processPackages [tdwnsv3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdwnsv3-1.9.2.tar.gz tmp/tdwnsv3-1.9.3.tar.gz --markdown 20230629/t/tdwnsv3/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-06-29 11:22:44] INFO root fetch - processPackages [badger-opt]: Downloading https://files.pythonhosted.org/packages/90/70/5977a649cf23840074d312b18caeeddd54b6e04ecb089bbfc68632e37dc8/badger-opt-0.9.2.tar.gz
+[2023-06-29 11:22:44] INFO root fetch - processPackages [vavacars-data-utils]: Downloading https://files.pythonhosted.org/packages/b6/2c/735c4fd0fc95d5ecc61e991689ebcb442361d0ad6c2bd2561ce4392ae2f2/vavacars_data_utils-1.0.0.tar.gz
+[2023-06-29 11:22:44] INFO root fetch - processPackages [PyEmailExtractor]: executing diffoscope
+[2023-06-29 11:22:44] INFO root fetch - processPackages [PyEmailExtractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyEmailExtractor-0.2.tar.gz tmp/PyEmailExtractor-0.2.1.tar.gz --markdown 20230629/P/PyEmailExtractor/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-06-29 11:22:44] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/83/1f/866660569301b9d9d645f2b7de1eb5dfbeb24c1e5a749d7e4b2cd36dcdc6/xw_utils-1.0.9-cp39-cp39-win_amd64.whl
+[2023-06-29 11:22:44] INFO root fetch - processPackages [ayugespidertools]: executing diffoscope
+[2023-06-29 11:22:44] INFO root fetch - processPackages [ayugespidertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayugespidertools-3.3.0.tar.gz tmp/ayugespidertools-3.3.1.tar.gz --markdown 20230629/a/ayugespidertools/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2023-06-29 11:22:44] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-06-29 11:22:44] INFO root fetch - processPackages [pymudclient]: executing diffoscope
+[2023-06-29 11:22:44] INFO root fetch - processPackages [pymudclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymudclient-0.1.0.tar.gz tmp/pymudclient-0.1.1.tar.gz --markdown 20230629/p/pymudclient/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-29 11:22:44] INFO root fetch - processPackages [vavacars-data-utils]: executing diffoscope
+[2023-06-29 11:22:44] INFO root fetch - processPackages [vavacars-data-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vavacars_data_utils-0.0.9.tar.gz tmp/vavacars_data_utils-1.0.0.tar.gz --markdown 20230629/v/vavacars-data-utils/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-06-29 11:22:44] INFO root fetch - processPackages [xw-utils]: executing diffoscope
+[2023-06-29 11:22:44] INFO root fetch - processPackages [xw-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230629/x/xw-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-29 11:22:44] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-06-29 11:22:44] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230629/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-29 11:22:45] INFO root fetch - processPackages [badger-opt]: executing diffoscope
+[2023-06-29 11:22:45] INFO root fetch - processPackages [badger-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/badger-opt-0.9.1.tar.gz tmp/badger-opt-0.9.2.tar.gz --markdown 20230629/b/badger-opt/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-29 11:22:45] INFO root fetch - processPackages [JestingLang]: Downloading https://files.pythonhosted.org/packages/34/a7/cebba2e80185787725cf903081c9453bb2f2d067eade68adc72ae9e6c3c4/JestingLang-0.0.0a8.tar.gz
+[2023-06-29 11:22:45] INFO root fetch - processPackages [JestingLang]: executing diffoscope
+[2023-06-29 11:22:45] INFO root fetch - processPackages [JestingLang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JestingLang-0.0.0a7.tar.gz tmp/JestingLang-0.0.0a8.tar.gz --markdown 20230629/J/JestingLang/0.0.0a7-0.0.0a8/diff.md --exclude *.pyd
+[2023-06-29 11:22:46] INFO root fetch - processPackages [PyEmailExtractor]: Remove: archive file [/home/abi/fetcher/tmp/PyEmailExtractor-0.2.tar.gz]
+[2023-06-29 11:22:46] INFO root fetch - processPackages [PyEmailExtractor]: Remove: archive file [/home/abi/fetcher/tmp/PyEmailExtractor-0.2.1.tar.gz]
+[2023-06-29 11:22:46] INFO root fetch - processPackages [PyEmailExtractor]: Start processing: gaitalytics
+[2023-06-29 11:22:46] INFO root fetch - main [MainThread]: End processing [PyEmailExtractor]: success
+[2023-06-29 11:22:46] INFO root fetch - processPackages [gaitalytics]: New version: [0.0.9b0] Old Version: [0.0.8b0]
+[2023-06-29 11:22:46] INFO root fetch - processPackages [gaitalytics]: Downloading https://files.pythonhosted.org/packages/a6/1c/469441e56fb4eea98a064a4a7ccf37758916ec3b9c02a013aeb2b46f90aa/gaitalytics-0.0.8b0.tar.gz
+[2023-06-29 11:22:46] INFO root fetch - processPackages [tdwnsv3]: Remove: archive file [/home/abi/fetcher/tmp/tdwnsv3-1.9.2.tar.gz]
+[2023-06-29 11:22:46] INFO root fetch - processPackages [tdwnsv3]: Remove: archive file [/home/abi/fetcher/tmp/tdwnsv3-1.9.3.tar.gz]
+[2023-06-29 11:22:46] INFO root fetch - processPackages [tdwnsv3]: Start processing: oslo.messaging
+[2023-06-29 11:22:46] INFO root fetch - main [MainThread]: End processing [tdwnsv3]: success
+[2023-06-29 11:22:46] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-29 11:22:46] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-29 11:22:46] INFO root fetch - main [MainThread]: End processing [xw-utils]: success
+[2023-06-29 11:22:46] INFO root fetch - processPackages [gaitalytics]: Downloading https://files.pythonhosted.org/packages/c3/b9/8465c363dd06d5b9c32a0c4b7424c5c9b114f1054eb6f747762d2bb9e33c/gaitalytics-0.0.9b0.tar.gz
+[2023-06-29 11:22:46] INFO root fetch - processPackages [pymudclient]: Remove: archive file [/home/abi/fetcher/tmp/pymudclient-0.1.0.tar.gz]
+[2023-06-29 11:22:46] INFO root fetch - processPackages [pymudclient]: Remove: archive file [/home/abi/fetcher/tmp/pymudclient-0.1.1.tar.gz]
+[2023-06-29 11:22:46] INFO root fetch - main [MainThread]: End processing [pymudclient]: success
+[2023-06-29 11:22:46] INFO root fetch - processPackages [gaitalytics]: executing diffoscope
+[2023-06-29 11:22:46] INFO root fetch - processPackages [gaitalytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaitalytics-0.0.8b0.tar.gz tmp/gaitalytics-0.0.9b0.tar.gz --markdown 20230629/g/gaitalytics/0.0.8b0-0.0.9b0/diff.md --exclude *.pyd
+[2023-06-29 11:22:46] INFO root fetch - processPackages [vavacars-data-utils]: Remove: archive file [/home/abi/fetcher/tmp/vavacars_data_utils-0.0.9.tar.gz]
+[2023-06-29 11:22:46] INFO root fetch - processPackages [vavacars-data-utils]: Remove: archive file [/home/abi/fetcher/tmp/vavacars_data_utils-1.0.0.tar.gz]
+[2023-06-29 11:22:46] INFO root fetch - main [MainThread]: End processing [vavacars-data-utils]: success
+[2023-06-29 11:22:46] INFO root fetch - processPackages [oslo.messaging]: New version: [9.8.0] Old Version: [9.7.2]
+[2023-06-29 11:22:46] INFO root fetch - processPackages [ayugespidertools]: Remove: archive file [/home/abi/fetcher/tmp/ayugespidertools-3.3.0.tar.gz]
+[2023-06-29 11:22:46] INFO root fetch - processPackages [ayugespidertools]: Remove: archive file [/home/abi/fetcher/tmp/ayugespidertools-3.3.1.tar.gz]
+[2023-06-29 11:22:46] INFO root fetch - main [MainThread]: End processing [ayugespidertools]: success
+[2023-06-29 11:22:46] INFO root fetch - processPackages [oslo.messaging]: Downloading https://files.pythonhosted.org/packages/28/a4/eab12125ef0e6bb481958f203218f35ce6e19f030080a6567646469b6ba3/oslo.messaging-9.7.2.tar.gz
+[2023-06-29 11:22:46] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-06-29 11:22:46] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-06-29 11:22:46] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-06-29 11:22:47] INFO root fetch - processPackages [toollib]: Remove: archive file [/home/abi/fetcher/tmp/toollib-1.4.7-py3-none-any.whl.zip]
+[2023-06-29 11:22:47] INFO root fetch - processPackages [toollib]: Remove: archive file [/home/abi/fetcher/tmp/toollib-1.4.8-py3-none-any.whl.zip]
+[2023-06-29 11:22:47] INFO root fetch - main [MainThread]: End processing [toollib]: success
+[2023-06-29 11:22:47] INFO root fetch - processPackages [badger-opt]: Remove: archive file [/home/abi/fetcher/tmp/badger-opt-0.9.1.tar.gz]
+[2023-06-29 11:22:47] INFO root fetch - processPackages [badger-opt]: Remove: archive file [/home/abi/fetcher/tmp/badger-opt-0.9.2.tar.gz]
+[2023-06-29 11:22:47] INFO root fetch - main [MainThread]: End processing [badger-opt]: success
+[2023-06-29 11:22:47] INFO root fetch - processPackages [oslo.messaging]: Downloading https://files.pythonhosted.org/packages/d9/c3/0126f2b275f9307f7a87f5edb3f46ef26d6693c9bae2b30add9009deeff8/oslo.messaging-9.8.0.tar.gz
+[2023-06-29 11:22:47] INFO root fetch - processPackages [oslo.messaging]: executing diffoscope
+[2023-06-29 11:22:47] INFO root fetch - processPackages [oslo.messaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslo.messaging-9.7.2.tar.gz tmp/oslo.messaging-9.8.0.tar.gz --markdown 20230629/o/oslo.messaging/9.7.2-9.8.0/diff.md --exclude *.pyd
+[2023-06-29 11:22:47] INFO root fetch - processPackages [JestingLang]: Remove: archive file [/home/abi/fetcher/tmp/JestingLang-0.0.0a7.tar.gz]
+[2023-06-29 11:22:47] INFO root fetch - processPackages [JestingLang]: Remove: archive file [/home/abi/fetcher/tmp/JestingLang-0.0.0a8.tar.gz]
+[2023-06-29 11:22:47] INFO root fetch - main [MainThread]: End processing [JestingLang]: success
+[2023-06-29 11:22:47] INFO root fetch - processPackages [gaitalytics]: Remove: archive file [/home/abi/fetcher/tmp/gaitalytics-0.0.8b0.tar.gz]
+[2023-06-29 11:22:47] INFO root fetch - processPackages [gaitalytics]: Remove: archive file [/home/abi/fetcher/tmp/gaitalytics-0.0.9b0.tar.gz]
+[2023-06-29 11:22:47] INFO root fetch - main [MainThread]: End processing [gaitalytics]: success
+[2023-06-29 11:22:50] INFO root fetch - processPackages [oslo.messaging]: Remove: archive file [/home/abi/fetcher/tmp/oslo.messaging-9.7.2.tar.gz]
+[2023-06-29 11:22:50] INFO root fetch - processPackages [oslo.messaging]: Remove: archive file [/home/abi/fetcher/tmp/oslo.messaging-9.8.0.tar.gz]
+[2023-06-29 11:22:50] INFO root fetch - main [MainThread]: End processing [oslo.messaging]: success
+[2023-06-29 11:22:50] INFO root fetch - main [MainThread]: Store serial: [18692622]
