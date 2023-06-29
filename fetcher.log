@@ -6471,3 +6471,110 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 12:10:26] ERROR root fetch - processPackages [cryptoapis]: Timeout during execution of pkgdiff
 [2023-06-29 12:10:26] INFO root fetch - main [MainThread]: End processing [cryptoapis] error
 [2023-06-29 12:10:26] INFO root fetch - main [MainThread]: Store serial: [18693425]
+[2023-06-29 12:15:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18693425]
+[2023-06-29 12:15:37] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-29 12:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: superagi-tools
+[2023-06-29 12:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: camouflage-decryptor
+[2023-06-29 12:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MultiEL
+[2023-06-29 12:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rkvst-archivist
+[2023-06-29 12:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ayon-python-api
+[2023-06-29 12:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hvps
+[2023-06-29 12:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-nightly-cpu-aws
+[2023-06-29 12:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: maven-artifact
+[2023-06-29 12:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py-redis-utils
+[2023-06-29 12:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kiara-plugin.service
+[2023-06-29 12:15:37] INFO root fetch - processPackages [rkvst-archivist]: New version: [0.24.0] Old Version: [0.23.0]
+[2023-06-29 12:15:37] WARNING root fetch - processPackages [superagi-tools]: Skipping, unable to determine old version
+[2023-06-29 12:15:37] INFO root fetch - processPackages [superagi-tools]: Start processing: power-grid-model
+[2023-06-29 12:15:37] INFO root fetch - main [MainThread]: End processing [superagi-tools] error
+[2023-06-29 12:15:37] INFO root fetch - processPackages [ayon-python-api]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-06-29 12:15:37] INFO root fetch - processPackages [camouflage-decryptor]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-29 12:15:37] INFO root fetch - processPackages [hvps]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-06-29 12:15:37] INFO root fetch - processPackages [py-redis-utils]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-29 12:15:37] INFO root fetch - processPackages [MultiEL]: New version: [0.3] Old Version: [0.2]
+[2023-06-29 12:15:37] INFO root fetch - processPackages [kiara-plugin.service]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-29 12:15:37] INFO root fetch - processPackages [tf-nightly-cpu-aws]: New version: [2.14.0.dev20230628] Old Version: [2.14.0.dev20230627]
+[2023-06-29 12:15:37] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9196208314246] Old Version: [1.5.0rc9195400270327]
+[2023-06-29 12:15:37] INFO root fetch - processPackages [py-redis-utils]: Downloading https://files.pythonhosted.org/packages/af/9c/5a69c0ed53898d9017d6f06cb9785f958fc56b46609cd6b4d05dabea3ea0/py-redis-utils-2.0.0.tar.gz
+[2023-06-29 12:15:37] INFO root fetch - processPackages [kiara-plugin.service]: Downloading https://files.pythonhosted.org/packages/12/d3/3e8739992cebe8321657159fd2d31c4196040101af22bac97b1cc03b043b/kiara_plugin.service-0.4.1.tar.gz
+[2023-06-29 12:15:37] INFO root fetch - processPackages [maven-artifact]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-29 12:15:37] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Downloading https://files.pythonhosted.org/packages/db/c3/82955bc697026a99561120a9cee05ef18bab40f13937c26fd5ced7a4dfac/tf_nightly_cpu_aws-2.14.0.dev20230627-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-06-29 12:15:37] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/f5/eb/6cde65083e68ebced5ccb6021fa2339b2aa2a25868b1b0b801828b94eb98/power-grid-model-1.5.0rc9195400270327.tar.gz
+[2023-06-29 12:15:37] WARNING root fetch - processPackages [tf-nightly-cpu-aws]: Skipping package: exceeds size limit 262595320>=10485760
+[2023-06-29 12:15:37] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Start processing: parsec-cloud
+[2023-06-29 12:15:37] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu-aws] error
+[2023-06-29 12:15:37] INFO root fetch - processPackages [ayon-python-api]: Downloading https://files.pythonhosted.org/packages/5c/fd/028ca34c6e35bf874f5f6aee42623300e473ffa5663cc7fca3bea9d38db6/ayon-python-api-0.2.2.tar.gz
+[2023-06-29 12:15:37] INFO root fetch - processPackages [rkvst-archivist]: Downloading https://files.pythonhosted.org/packages/a4/ca/2744bbeea1706db050508ac2eb013bdce76f1c30593725a16952525b1323/rkvst-archivist-0.23.0.tar.gz
+[2023-06-29 12:15:37] INFO root fetch - processPackages [camouflage-decryptor]: Downloading https://files.pythonhosted.org/packages/7c/8e/13a46a7dd63bb4d65e7d1aa8516e25e259bf01dbda76c06713fd223f46f2/camouflage_decryptor-0.2.1.tar.gz
+[2023-06-29 12:15:37] INFO root fetch - processPackages [hvps]: Downloading https://files.pythonhosted.org/packages/55/b5/4c11e768c5d97571f00f362a900f86bf96c203d1731c8c3bdbf1868769e8/hvps-0.0.3.tar.gz
+[2023-06-29 12:15:37] INFO root fetch - processPackages [MultiEL]: Downloading https://files.pythonhosted.org/packages/7b/54/f4678159c8f45d7ed81a57977e9b012891655c0cb1b489e1de26ae3ce3c6/MultiEL-0.2.tar.gz
+[2023-06-29 12:15:37] INFO root fetch - processPackages [kiara-plugin.service]: Downloading https://files.pythonhosted.org/packages/4c/bd/5bbaa51afb56e2d2271b283cfd76363e304ea2e069bcad32e878f58e46d6/kiara_plugin.service-0.4.2.tar.gz
+[2023-06-29 12:15:37] INFO root fetch - processPackages [py-redis-utils]: Downloading https://files.pythonhosted.org/packages/a8/6b/cb2701591703bc66ed540120203e5fd13eb5a4f0825724108550dba9d8bb/py-redis-utils-2.0.1.tar.gz
+[2023-06-29 12:15:37] INFO root fetch - processPackages [parsec-cloud]: New version: [2.9.2] Old Version: [2.9.0rc2]
+[2023-06-29 12:15:37] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/6e/cd/86d86f31a1d34885c90ed01019e17a597fa7dbf1813fdf312b9063dcf04e/power-grid-model-1.5.0rc9196208314246.tar.gz
+[2023-06-29 12:15:37] INFO root fetch - processPackages [kiara-plugin.service]: executing diffoscope
+[2023-06-29 12:15:37] INFO root fetch - processPackages [kiara-plugin.service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara_plugin.service-0.4.1.tar.gz tmp/kiara_plugin.service-0.4.2.tar.gz --markdown 20230629/k/kiara-plugin.service/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-29 12:15:37] INFO root fetch - processPackages [py-redis-utils]: executing diffoscope
+[2023-06-29 12:15:37] INFO root fetch - processPackages [py-redis-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-redis-utils-2.0.0.tar.gz tmp/py-redis-utils-2.0.1.tar.gz --markdown 20230629/p/py-redis-utils/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-29 12:15:37] INFO root fetch - processPackages [maven-artifact]: Downloading https://files.pythonhosted.org/packages/af/01/035ac1bdbd2368491b010047e336a59dd6a5f7979fb3132d0d1887fa65d8/maven_artifact-0.3.2.tar.gz
+[2023-06-29 12:15:37] INFO root fetch - processPackages [camouflage-decryptor]: Downloading https://files.pythonhosted.org/packages/41/af/0721cf1ebd49e27bfd6c198ba631d15fa42366a60fb2b6acdd179150a780/camouflage_decryptor-0.3.0.tar.gz
+[2023-06-29 12:15:37] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-06-29 12:15:37] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9195400270327.tar.gz tmp/power-grid-model-1.5.0rc9196208314246.tar.gz --markdown 20230629/p/power-grid-model/1.5.0rc9195400270327-1.5.0rc9196208314246/diff.md --exclude *.pyd
+[2023-06-29 12:15:37] INFO root fetch - processPackages [rkvst-archivist]: Downloading https://files.pythonhosted.org/packages/5f/ad/8650efe48c8fcc9520cfcf073ce045ac24053e2777a96e19d8e0c97db446/rkvst-archivist-0.24.0.tar.gz
+[2023-06-29 12:15:37] WARNING root fetch - processPackages [camouflage-decryptor]: Skipping package: exceeds size limit 20992298>=10485760
+[2023-06-29 12:15:37] INFO root fetch - processPackages [camouflage-decryptor]: Start processing: octoploy
+[2023-06-29 12:15:37] INFO root fetch - main [MainThread]: End processing [camouflage-decryptor] error
+[2023-06-29 12:15:37] INFO root fetch - processPackages [hvps]: Downloading https://files.pythonhosted.org/packages/26/38/c5aacd5aac2cb746637f7620b0e30b429ca572d27a302e0b9e01ef7a882a/hvps-0.0.5.tar.gz
+[2023-06-29 12:15:37] INFO root fetch - processPackages [ayon-python-api]: Downloading https://files.pythonhosted.org/packages/22/77/b1a6f59fd53ac5c619664ca35ebaeb1661b421be52d337bf15bfa33b6293/ayon-python-api-0.3.0.tar.gz
+[2023-06-29 12:15:37] INFO root fetch - processPackages [parsec-cloud]: Downloading https://files.pythonhosted.org/packages/cf/e4/3671050f3250178ae0281b09961a3e9e2ff3354ad6b5f7bdda5e1f3b5e59/parsec_cloud-2.9.0rc2-py3-none-any.whl
+[2023-06-29 12:15:37] INFO root fetch - processPackages [MultiEL]: Downloading https://files.pythonhosted.org/packages/b5/e0/b14c53b36c3d4042b71c2a79faaa68b6e1609ce3c5d1594c75116a6d8986/MultiEL-0.3.tar.gz
+[2023-06-29 12:15:37] INFO root fetch - processPackages [hvps]: executing diffoscope
+[2023-06-29 12:15:37] INFO root fetch - processPackages [hvps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hvps-0.0.3.tar.gz tmp/hvps-0.0.5.tar.gz --markdown 20230629/h/hvps/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-06-29 12:15:37] INFO root fetch - processPackages [rkvst-archivist]: executing diffoscope
+[2023-06-29 12:15:37] INFO root fetch - processPackages [rkvst-archivist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rkvst-archivist-0.23.0.tar.gz tmp/rkvst-archivist-0.24.0.tar.gz --markdown 20230629/r/rkvst-archivist/0.23.0-0.24.0/diff.md --exclude *.pyd
+[2023-06-29 12:15:37] INFO root fetch - processPackages [ayon-python-api]: executing diffoscope
+[2023-06-29 12:15:37] INFO root fetch - processPackages [ayon-python-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayon-python-api-0.2.2.tar.gz tmp/ayon-python-api-0.3.0.tar.gz --markdown 20230629/a/ayon-python-api/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-06-29 12:15:37] INFO root fetch - processPackages [octoploy]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-29 12:15:37] INFO root fetch - processPackages [maven-artifact]: Downloading https://files.pythonhosted.org/packages/d7/e4/f6eee6f3b10919f6f8cf09cdc84ab52887079f8032e8dfcee0bb534f4115/maven_artifact-0.3.3.tar.gz
+[2023-06-29 12:15:38] INFO root fetch - processPackages [MultiEL]: executing diffoscope
+[2023-06-29 12:15:38] INFO root fetch - processPackages [MultiEL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MultiEL-0.2.tar.gz tmp/MultiEL-0.3.tar.gz --markdown 20230629/M/MultiEL/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-29 12:15:38] INFO root fetch - processPackages [maven-artifact]: executing diffoscope
+[2023-06-29 12:15:38] INFO root fetch - processPackages [maven-artifact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maven_artifact-0.3.2.tar.gz tmp/maven_artifact-0.3.3.tar.gz --markdown 20230629/m/maven-artifact/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-29 12:15:38] INFO root fetch - processPackages [octoploy]: Downloading https://files.pythonhosted.org/packages/48/c9/0e4c09eeaf433762c045310f1480f36022c22fc240d269a348f1f2542c18/octoploy-1.2.2.tar.gz
+[2023-06-29 12:15:38] INFO root fetch - processPackages [parsec-cloud]: Downloading https://files.pythonhosted.org/packages/72/52/73f86e5611912f232d4a195f8ee4ed5d775a86d8ce4861422cceed603c4d/parsec_cloud-2.9.2-py3-none-any.whl
+[2023-06-29 12:15:38] INFO root fetch - processPackages [octoploy]: Downloading https://files.pythonhosted.org/packages/af/83/f301987f9eb9f6087453f1440ba9cc7632d01b55669c75215e486b2f342d/octoploy-1.2.3.tar.gz
+[2023-06-29 12:15:38] INFO root fetch - processPackages [octoploy]: executing diffoscope
+[2023-06-29 12:15:38] INFO root fetch - processPackages [octoploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octoploy-1.2.2.tar.gz tmp/octoploy-1.2.3.tar.gz --markdown 20230629/o/octoploy/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-29 12:15:38] INFO root fetch - processPackages [parsec-cloud]: executing diffoscope
+[2023-06-29 12:15:38] INFO root fetch - processPackages [parsec-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsec_cloud-2.9.0rc2-py3-none-any.whl.zip tmp/parsec_cloud-2.9.2-py3-none-any.whl.zip --markdown 20230629/p/parsec-cloud/2.9.0rc2-2.9.2/diff.md --exclude *.pyd
+[2023-06-29 12:15:39] INFO root fetch - processPackages [py-redis-utils]: Remove: archive file [/home/abi/fetcher/tmp/py-redis-utils-2.0.0.tar.gz]
+[2023-06-29 12:15:39] INFO root fetch - processPackages [py-redis-utils]: Remove: archive file [/home/abi/fetcher/tmp/py-redis-utils-2.0.1.tar.gz]
+[2023-06-29 12:15:39] INFO root fetch - main [MainThread]: End processing [py-redis-utils]: success
+[2023-06-29 12:15:39] INFO root fetch - processPackages [maven-artifact]: Remove: archive file [/home/abi/fetcher/tmp/maven_artifact-0.3.2.tar.gz]
+[2023-06-29 12:15:39] INFO root fetch - processPackages [maven-artifact]: Remove: archive file [/home/abi/fetcher/tmp/maven_artifact-0.3.3.tar.gz]
+[2023-06-29 12:15:39] INFO root fetch - main [MainThread]: End processing [maven-artifact]: success
+[2023-06-29 12:15:39] INFO root fetch - processPackages [ayon-python-api]: Remove: archive file [/home/abi/fetcher/tmp/ayon-python-api-0.2.2.tar.gz]
+[2023-06-29 12:15:39] INFO root fetch - processPackages [ayon-python-api]: Remove: archive file [/home/abi/fetcher/tmp/ayon-python-api-0.3.0.tar.gz]
+[2023-06-29 12:15:39] INFO root fetch - main [MainThread]: End processing [ayon-python-api]: success
+[2023-06-29 12:15:40] INFO root fetch - processPackages [hvps]: Remove: archive file [/home/abi/fetcher/tmp/hvps-0.0.3.tar.gz]
+[2023-06-29 12:15:40] INFO root fetch - processPackages [hvps]: Remove: archive file [/home/abi/fetcher/tmp/hvps-0.0.5.tar.gz]
+[2023-06-29 12:15:40] INFO root fetch - main [MainThread]: End processing [hvps]: success
+[2023-06-29 12:15:40] INFO root fetch - processPackages [octoploy]: Remove: archive file [/home/abi/fetcher/tmp/octoploy-1.2.2.tar.gz]
+[2023-06-29 12:15:40] INFO root fetch - processPackages [octoploy]: Remove: archive file [/home/abi/fetcher/tmp/octoploy-1.2.3.tar.gz]
+[2023-06-29 12:15:40] INFO root fetch - main [MainThread]: End processing [octoploy]: success
+[2023-06-29 12:15:40] INFO root fetch - processPackages [rkvst-archivist]: Remove: archive file [/home/abi/fetcher/tmp/rkvst-archivist-0.23.0.tar.gz]
+[2023-06-29 12:15:40] INFO root fetch - processPackages [rkvst-archivist]: Remove: archive file [/home/abi/fetcher/tmp/rkvst-archivist-0.24.0.tar.gz]
+[2023-06-29 12:15:40] INFO root fetch - main [MainThread]: End processing [rkvst-archivist]: success
+[2023-06-29 12:15:40] INFO root fetch - processPackages [MultiEL]: Remove: archive file [/home/abi/fetcher/tmp/MultiEL-0.2.tar.gz]
+[2023-06-29 12:15:40] INFO root fetch - processPackages [MultiEL]: Remove: archive file [/home/abi/fetcher/tmp/MultiEL-0.3.tar.gz]
+[2023-06-29 12:15:40] INFO root fetch - main [MainThread]: End processing [MultiEL]: success
+[2023-06-29 12:15:40] INFO root fetch - processPackages [kiara-plugin.service]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.service-0.4.1.tar.gz]
+[2023-06-29 12:15:40] INFO root fetch - processPackages [kiara-plugin.service]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.service-0.4.2.tar.gz]
+[2023-06-29 12:15:40] INFO root fetch - main [MainThread]: End processing [kiara-plugin.service]: success
+[2023-06-29 12:15:44] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9195400270327.tar.gz]
+[2023-06-29 12:15:44] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9196208314246.tar.gz]
+[2023-06-29 12:15:44] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-06-29 12:15:47] INFO root fetch - processPackages [parsec-cloud]: Remove: archive file [/home/abi/fetcher/tmp/parsec_cloud-2.9.0rc2-py3-none-any.whl.zip]
+[2023-06-29 12:15:47] INFO root fetch - processPackages [parsec-cloud]: Remove: archive file [/home/abi/fetcher/tmp/parsec_cloud-2.9.2-py3-none-any.whl.zip]
+[2023-06-29 12:15:47] INFO root fetch - main [MainThread]: End processing [parsec-cloud]: success
+[2023-06-29 12:15:47] INFO root fetch - main [MainThread]: Store serial: [18693471]
