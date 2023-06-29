@@ -1056,3 +1056,105 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 09:06:55] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.2.3.tar.gz]
 [2023-06-29 09:06:55] INFO root fetch - main [MainThread]: End processing [insights-core]: success
 [2023-06-29 09:06:55] INFO root fetch - main [MainThread]: Store serial: [18691210]
+[2023-06-29 09:12:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18691210]
+[2023-06-29 09:12:05] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-29 09:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: glue-helper-lib
+[2023-06-29 09:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: baselibs
+[2023-06-29 09:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-membership-delegated-partner
+[2023-06-29 09:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sgclimaapiclient
+[2023-06-29 09:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: star-rail-gps
+[2023-06-29 09:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SELDOMpy
+[2023-06-29 09:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qetrader
+[2023-06-29 09:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: configzen
+[2023-06-29 09:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-hub-nightly
+[2023-06-29 09:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pymilo
+[2023-06-29 09:12:05] INFO root fetch - processPackages [glue-helper-lib]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-29 09:12:05] INFO root fetch - processPackages [odoo13-addon-membership-delegated-partner]: New version: [13.0.1.0.1.dev7] Old Version: [13.0.1.0.1.dev6]
+[2023-06-29 09:12:05] INFO root fetch - processPackages [SELDOMpy]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-29 09:12:05] WARNING root fetch - processPackages [pymilo]: Skipping, unable to determine old version
+[2023-06-29 09:12:05] INFO root fetch - processPackages [pymilo]: Start processing: gitease
+[2023-06-29 09:12:05] INFO root fetch - main [MainThread]: End processing [pymilo] error
+[2023-06-29 09:12:05] INFO root fetch - processPackages [star-rail-gps]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-29 09:12:05] INFO root fetch - processPackages [sgclimaapiclient]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-29 09:12:05] INFO root fetch - processPackages [qetrader]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-29 09:12:05] INFO root fetch - processPackages [baselibs]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-29 09:12:05] INFO root fetch - processPackages [gitease]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-29 09:12:05] INFO root fetch - processPackages [configzen]: New version: [0.4] Old Version: [0.3.9]
+[2023-06-29 09:12:05] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-06-29 09:12:05] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/2a/ea/d2678e4eae92af7c9fc6db0728af540d64cb7f13874b30d44f7f20c85a49/SELDOMpy-0.2.4.tar.gz
+[2023-06-29 09:12:05] INFO root fetch - processPackages [sgclimaapiclient]: Downloading https://files.pythonhosted.org/packages/88/50/7a4d65f2a5ebb8c304716e6c9c6a904ab89aa6e106ba951a82fe959d10b6/sgclimaapiclient-1.1.8.tar.gz
+[2023-06-29 09:12:05] INFO root fetch - processPackages [gitease]: Downloading https://files.pythonhosted.org/packages/2f/c7/df75757277275e44c9ff004ec679f55aebc1e3b9fbbc9f38ef195058ef5b/gitease-0.0.6.tar.gz
+[2023-06-29 09:12:05] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-06-29 09:12:05] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/aa/b1/fdd658b2e1fb641f81a4b2a551b5679d5e1e88194016a3622dc0bdc08d5a/configzen-0.3.9.tar.gz
+[2023-06-29 09:12:05] INFO root fetch - processPackages [star-rail-gps]: Downloading https://files.pythonhosted.org/packages/2a/f2/e4dffdff451f653e0ea41006637126dca68eb2a4fc40878a46cd0311516a/star_rail_gps-0.0.1.tar.gz
+[2023-06-29 09:12:05] INFO root fetch - processPackages [odoo13-addon-membership-delegated-partner]: Downloading https://files.pythonhosted.org/packages/ca/76/ef00609bd3596bcc18556f9c0759ba3e998227c5775184916de9efbdefc4/odoo13_addon_membership_delegated_partner-13.0.1.0.1.dev6-py3-none-any.whl
+[2023-06-29 09:12:05] INFO root fetch - processPackages [baselibs]: Downloading https://files.pythonhosted.org/packages/f0/97/17b8d7f1d1c9ec8c8c672275555e2c01ef652cae6bf4fec19729efbfd9f7/baselibs-0.1.0.tar.gz
+[2023-06-29 09:12:05] INFO root fetch - processPackages [glue-helper-lib]: Downloading https://files.pythonhosted.org/packages/4f/66/7c2f70dfcf9819a6a3b90438cc627da72cb4bfd3156941f983c8970f5572/glue_helper_lib-0.5.2.tar.gz
+[2023-06-29 09:12:05] INFO root fetch - processPackages [qetrader]: Downloading https://files.pythonhosted.org/packages/8d/76/412285766440f29addd68f1ad79e9dc15243a5adbd376024a598747d4943/qetrader-1.0.8.tar.gz
+[2023-06-29 09:12:05] INFO root fetch - processPackages [gitease]: Downloading https://files.pythonhosted.org/packages/67/41/94bc9a3060a3750a03f0c4a6a08e652fabbeb62606b32d8f4b2f9fe0155d/gitease-0.0.7.tar.gz
+[2023-06-29 09:12:05] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-06-29 09:12:05] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/13/ed/122c0f49d25f44ffdd1c164320cbb047b71f620ebcfc1180a52ab7d44fe3/SELDOMpy-0.2.5.tar.gz
+[2023-06-29 09:12:05] INFO root fetch - processPackages [sgclimaapiclient]: Downloading https://files.pythonhosted.org/packages/6f/10/7c81648b2176694508c5aa7d054fc4f41d8e89f877d149f20290c26b1f16/sgclimaapiclient-1.1.9.tar.gz
+[2023-06-29 09:12:05] INFO root fetch - processPackages [star-rail-gps]: Downloading https://files.pythonhosted.org/packages/40/6c/34ad4e3764e53cc1e89117fa0188a737180915d8388f83f164d0c4b04cc6/star_rail_gps-0.0.2.tar.gz
+[2023-06-29 09:12:05] INFO root fetch - processPackages [odoo13-addon-membership-delegated-partner]: Downloading https://files.pythonhosted.org/packages/f9/6d/6c2219628ee4e9d18b7e10ac5a928da7422d06eb1d2cd6df406bae59b421/odoo13_addon_membership_delegated_partner-13.0.1.0.1.dev7-py3-none-any.whl
+[2023-06-29 09:12:05] INFO root fetch - processPackages [sgclimaapiclient]: executing diffoscope
+[2023-06-29 09:12:05] INFO root fetch - processPackages [sgclimaapiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sgclimaapiclient-1.1.8.tar.gz tmp/sgclimaapiclient-1.1.9.tar.gz --markdown 20230629/s/sgclimaapiclient/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-29 09:12:05] WARNING root fetch - processPackages [star-rail-gps]: Skipping package: exceeds size limit 14023269>=10485760
+[2023-06-29 09:12:05] INFO root fetch - processPackages [star-rail-gps]: Start processing: commonroad-openscenario-converter
+[2023-06-29 09:12:05] INFO root fetch - main [MainThread]: End processing [star-rail-gps] error
+[2023-06-29 09:12:05] INFO root fetch - processPackages [gitease]: executing diffoscope
+[2023-06-29 09:12:05] INFO root fetch - processPackages [gitease]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitease-0.0.6.tar.gz tmp/gitease-0.0.7.tar.gz --markdown 20230629/g/gitease/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-29 09:12:05] INFO root fetch - processPackages [glue-helper-lib]: Downloading https://files.pythonhosted.org/packages/22/3f/157fa1410237a917052edfc13a52f9f3a26f302e4a74d422549d0aa54bfb/glue_helper_lib-0.5.3.tar.gz
+[2023-06-29 09:12:05] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-06-29 09:12:05] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.2.4.tar.gz tmp/SELDOMpy-0.2.5.tar.gz --markdown 20230629/S/SELDOMpy/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-29 09:12:05] INFO root fetch - processPackages [configzen]: Downloading https://files.pythonhosted.org/packages/b0/d2/a26c96d801ef0d3345ab82bbe6bd8b07de6d7cb55dd8ab593715a83c0362/configzen-0.4.tar.gz
+[2023-06-29 09:12:05] INFO root fetch - processPackages [baselibs]: Downloading https://files.pythonhosted.org/packages/c5/bd/c371449878ffbc74e0200fc8b4d7495536edcf530a0854a3b1d2ea75a4bf/baselibs-0.1.1.tar.gz
+[2023-06-29 09:12:05] INFO root fetch - processPackages [odoo13-addon-membership-delegated-partner]: executing diffoscope
+[2023-06-29 09:12:05] INFO root fetch - processPackages [odoo13-addon-membership-delegated-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_membership_delegated_partner-13.0.1.0.1.dev6-py3-none-any.whl.zip tmp/odoo13_addon_membership_delegated_partner-13.0.1.0.1.dev7-py3-none-any.whl.zip --markdown 20230629/o/odoo13-addon-membership-delegated-partner/13.0.1.0.1.dev6-13.0.1.0.1.dev7/diff.md --exclude *.pyd
+[2023-06-29 09:12:05] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-06-29 09:12:05] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230629/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-06-29 09:12:05] INFO root fetch - processPackages [commonroad-openscenario-converter]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-29 09:12:05] INFO root fetch - processPackages [glue-helper-lib]: executing diffoscope
+[2023-06-29 09:12:05] INFO root fetch - processPackages [glue-helper-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glue_helper_lib-0.5.2.tar.gz tmp/glue_helper_lib-0.5.3.tar.gz --markdown 20230629/g/glue-helper-lib/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-29 09:12:05] INFO root fetch - processPackages [qetrader]: Downloading https://files.pythonhosted.org/packages/ef/df/91b4c73fed70f7bb496ae740924588ff56c86483b7ed58987a240c11af52/qetrader-1.0.9.tar.gz
+[2023-06-29 09:12:05] INFO root fetch - processPackages [baselibs]: executing diffoscope
+[2023-06-29 09:12:05] INFO root fetch - processPackages [baselibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baselibs-0.1.0.tar.gz tmp/baselibs-0.1.1.tar.gz --markdown 20230629/b/baselibs/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-29 09:12:05] INFO root fetch - processPackages [configzen]: executing diffoscope
+[2023-06-29 09:12:05] INFO root fetch - processPackages [configzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configzen-0.3.9.tar.gz tmp/configzen-0.4.tar.gz --markdown 20230629/c/configzen/0.3.9-0.4/diff.md --exclude *.pyd
+[2023-06-29 09:12:05] INFO root fetch - processPackages [qetrader]: executing diffoscope
+[2023-06-29 09:12:05] INFO root fetch - processPackages [qetrader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qetrader-1.0.8.tar.gz tmp/qetrader-1.0.9.tar.gz --markdown 20230629/q/qetrader/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-29 09:12:06] INFO root fetch - processPackages [commonroad-openscenario-converter]: Downloading https://files.pythonhosted.org/packages/db/31/cdedf8ea0beae67edb0fe1d72d0e2bc7b88236b98f4bdf974abc95d2e60b/commonroad-openscenario-converter-0.0.3.tar.gz
+[2023-06-29 09:12:06] INFO root fetch - processPackages [commonroad-openscenario-converter]: Downloading https://files.pythonhosted.org/packages/37/69/c1494979505344d35624d824a07a1413a609e87c78abaa67f725741e826c/commonroad-openscenario-converter-0.0.4.tar.gz
+[2023-06-29 09:12:06] INFO root fetch - processPackages [commonroad-openscenario-converter]: executing diffoscope
+[2023-06-29 09:12:06] INFO root fetch - processPackages [commonroad-openscenario-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commonroad-openscenario-converter-0.0.3.tar.gz tmp/commonroad-openscenario-converter-0.0.4.tar.gz --markdown 20230629/c/commonroad-openscenario-converter/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-29 09:12:07] INFO root fetch - processPackages [sgclimaapiclient]: Remove: archive file [/home/abi/fetcher/tmp/sgclimaapiclient-1.1.8.tar.gz]
+[2023-06-29 09:12:07] INFO root fetch - processPackages [sgclimaapiclient]: Remove: archive file [/home/abi/fetcher/tmp/sgclimaapiclient-1.1.9.tar.gz]
+[2023-06-29 09:12:07] INFO root fetch - main [MainThread]: End processing [sgclimaapiclient]: success
+[2023-06-29 09:12:07] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.2.4.tar.gz]
+[2023-06-29 09:12:07] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.2.5.tar.gz]
+[2023-06-29 09:12:07] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-06-29 09:12:07] INFO root fetch - processPackages [glue-helper-lib]: Remove: archive file [/home/abi/fetcher/tmp/glue_helper_lib-0.5.2.tar.gz]
+[2023-06-29 09:12:07] INFO root fetch - processPackages [glue-helper-lib]: Remove: archive file [/home/abi/fetcher/tmp/glue_helper_lib-0.5.3.tar.gz]
+[2023-06-29 09:12:07] INFO root fetch - main [MainThread]: End processing [glue-helper-lib]: success
+[2023-06-29 09:12:07] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.3.9.tar.gz]
+[2023-06-29 09:12:07] INFO root fetch - processPackages [configzen]: Remove: archive file [/home/abi/fetcher/tmp/configzen-0.4.tar.gz]
+[2023-06-29 09:12:07] INFO root fetch - main [MainThread]: End processing [configzen]: success
+[2023-06-29 09:12:07] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-06-29 09:12:07] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-06-29 09:12:07] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-06-29 09:12:07] INFO root fetch - processPackages [odoo13-addon-membership-delegated-partner]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_membership_delegated_partner-13.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2023-06-29 09:12:07] INFO root fetch - processPackages [odoo13-addon-membership-delegated-partner]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_membership_delegated_partner-13.0.1.0.1.dev7-py3-none-any.whl.zip]
+[2023-06-29 09:12:07] INFO root fetch - main [MainThread]: End processing [odoo13-addon-membership-delegated-partner]: success
+[2023-06-29 09:12:07] INFO root fetch - processPackages [baselibs]: Remove: archive file [/home/abi/fetcher/tmp/baselibs-0.1.0.tar.gz]
+[2023-06-29 09:12:07] INFO root fetch - processPackages [baselibs]: Remove: archive file [/home/abi/fetcher/tmp/baselibs-0.1.1.tar.gz]
+[2023-06-29 09:12:07] INFO root fetch - main [MainThread]: End processing [baselibs]: success
+[2023-06-29 09:12:07] INFO root fetch - processPackages [qetrader]: Remove: archive file [/home/abi/fetcher/tmp/qetrader-1.0.8.tar.gz]
+[2023-06-29 09:12:07] INFO root fetch - processPackages [qetrader]: Remove: archive file [/home/abi/fetcher/tmp/qetrader-1.0.9.tar.gz]
+[2023-06-29 09:12:07] INFO root fetch - main [MainThread]: End processing [qetrader]: success
+[2023-06-29 09:12:08] INFO root fetch - processPackages [commonroad-openscenario-converter]: Remove: archive file [/home/abi/fetcher/tmp/commonroad-openscenario-converter-0.0.3.tar.gz]
+[2023-06-29 09:12:08] INFO root fetch - processPackages [commonroad-openscenario-converter]: Remove: archive file [/home/abi/fetcher/tmp/commonroad-openscenario-converter-0.0.4.tar.gz]
+[2023-06-29 09:12:08] INFO root fetch - main [MainThread]: End processing [commonroad-openscenario-converter]: success
+[2023-06-29 09:12:08] INFO root fetch - processPackages [gitease]: Remove: archive file [/home/abi/fetcher/tmp/gitease-0.0.6.tar.gz]
+[2023-06-29 09:12:08] INFO root fetch - processPackages [gitease]: Remove: archive file [/home/abi/fetcher/tmp/gitease-0.0.7.tar.gz]
+[2023-06-29 09:12:08] INFO root fetch - main [MainThread]: End processing [gitease]: success
+[2023-06-29 09:12:08] INFO root fetch - main [MainThread]: Store serial: [18691247]
