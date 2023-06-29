@@ -2684,3 +2684,127 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 10:22:46] INFO root fetch - processPackages [yt-dlp-cp]: Remove: archive file [/home/abi/fetcher/tmp/yt-dlp-cp-1.9.9.tar.gz]
 [2023-06-29 10:22:46] INFO root fetch - main [MainThread]: End processing [yt-dlp-cp]: success
 [2023-06-29 10:22:46] INFO root fetch - main [MainThread]: Store serial: [18691989]
+[2023-06-29 10:27:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18691989]
+[2023-06-29 10:27:55] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-29 10:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gaboost
+[2023-06-29 10:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: featurelayers
+[2023-06-29 10:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyPRT
+[2023-06-29 10:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: piproc
+[2023-06-29 10:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: area-fig
+[2023-06-29 10:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-translatemessages
+[2023-06-29 10:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sentry-relay
+[2023-06-29 10:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyCompGeomAlgorithms
+[2023-06-29 10:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kubectl-ng
+[2023-06-29 10:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: featurelayers
+[2023-06-29 10:27:55] INFO root fetch - processPackages [django-translatemessages]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-29 10:27:55] INFO root fetch - processPackages [featurelayers]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-06-29 10:27:55] INFO root fetch - processPackages [gaboost]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-06-29 10:27:55] INFO root fetch - processPackages [piproc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 10:27:55] INFO root fetch - processPackages [area-fig]: New version: [0.0.13] Old Version: [0.0.12]
+[2023-06-29 10:27:55] INFO root fetch - processPackages [PyPRT]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-06-29 10:27:55] INFO root fetch - processPackages [kubectl-ng]: New version: [0.6.0] Old Version: [0.5.2]
+[2023-06-29 10:27:55] INFO root fetch - processPackages [sentry-relay]: New version: [1.1.4] Old Version: [0.8.9]
+[2023-06-29 10:27:55] INFO root fetch - processPackages [featurelayers]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-06-29 10:27:55] INFO root fetch - processPackages [PyCompGeomAlgorithms]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-29 10:27:55] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/43/a6/db5cad74c709a9b4f1c1ed68b21fa86ec7c928d916e3f38dfa2f6059e40c/featurelayers-1.4.7.tar.gz
+[2023-06-29 10:27:55] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/43/a6/db5cad74c709a9b4f1c1ed68b21fa86ec7c928d916e3f38dfa2f6059e40c/featurelayers-1.4.7.tar.gz
+[2023-06-29 10:27:55] INFO root fetch - processPackages [piproc]: Downloading https://files.pythonhosted.org/packages/2d/57/9caa23a3b155c066257770706a3020c6e4d192f52e1d6569263589662e32/piproc-0.1.8.tar.gz
+[2023-06-29 10:27:55] INFO root fetch - processPackages [sentry-relay]: Downloading https://files.pythonhosted.org/packages/f6/e5/aa1ba95a9654dbeaec6ebc0fd3b439b4c7c406d9ef0b9592002f1e90b6eb/sentry-relay-0.8.9.zip
+[2023-06-29 10:27:55] INFO root fetch - processPackages [area-fig]: Downloading https://files.pythonhosted.org/packages/22/8f/7b1cb6a5143672cec0b395a76251adf586b7c4ca8c86671e0da380b8ffd6/area_fig-0.0.12.tar.gz
+[2023-06-29 10:27:55] WARNING root fetch - processPackages [sentry-relay]: Skipping package: exceeds size limit 31231225>=10485760
+[2023-06-29 10:27:55] INFO root fetch - processPackages [sentry-relay]: Start processing: kr8s
+[2023-06-29 10:27:55] INFO root fetch - main [MainThread]: End processing [sentry-relay] error
+[2023-06-29 10:27:55] INFO root fetch - processPackages [PyPRT]: Downloading https://files.pythonhosted.org/packages/54/64/0116d2043ce836c422363b8ab95ab3d0dceeb646d269e2d209035e3a79b4/pyprt-1.6.0-5-cp39-cp39-win_amd64.whl
+[2023-06-29 10:27:55] INFO root fetch - processPackages [django-translatemessages]: Downloading https://files.pythonhosted.org/packages/38/1f/3db025a537c845ed91597dfdf9f002fe4df0517be26afde11cbae2549ed9/django-translatemessages-0.0.4.tar.gz
+[2023-06-29 10:27:55] INFO root fetch - processPackages [PyCompGeomAlgorithms]: Downloading https://files.pythonhosted.org/packages/14/c7/c454a69bb58240747f34e924b30422e7d705ef6cf5b3d7c626af79ad7231/PyCompGeomAlgorithms-1.0.5.tar.gz
+[2023-06-29 10:27:55] INFO root fetch - processPackages [kubectl-ng]: Downloading https://files.pythonhosted.org/packages/04/0e/3f5192a277952cc23450e01fc22b23820b4f072c5cce07831af004884d91/kubectl_ng-0.5.2.tar.gz
+[2023-06-29 10:27:55] INFO root fetch - processPackages [gaboost]: Downloading https://files.pythonhosted.org/packages/dc/df/7a61e4c2b2fa1ad05af3e12b119ea7e9b239f214753f479f69c253b3a4d5/gaboost-1.7.2.tar.gz
+[2023-06-29 10:27:55] INFO root fetch - processPackages [kr8s]: New version: [0.6.0] Old Version: [0.5.2]
+[2023-06-29 10:27:55] WARNING root fetch - processPackages [PyPRT]: Skipping package: exceeds size limit 39921523>=10485760
+[2023-06-29 10:27:55] INFO root fetch - processPackages [PyPRT]: Start processing: featurelayers
+[2023-06-29 10:27:55] INFO root fetch - main [MainThread]: End processing [PyPRT] error
+[2023-06-29 10:27:55] INFO root fetch - processPackages [featurelayers]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-29 10:27:55] INFO root fetch - processPackages [piproc]: Downloading https://files.pythonhosted.org/packages/be/c4/1e2e1fd3044c092fac23dcaf2a4c231f60c9bb8054f3d565b8beac29eb15/piproc-0.1.9.tar.gz
+[2023-06-29 10:27:55] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/7e/2c/85f50ce6d2cb7e8b9bb7412bd0c2a7bbd63daa93341727cac7ab58b46241/featurelayers-1.4.8.tar.gz
+[2023-06-29 10:27:55] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/7e/2c/85f50ce6d2cb7e8b9bb7412bd0c2a7bbd63daa93341727cac7ab58b46241/featurelayers-1.4.8.tar.gz
+[2023-06-29 10:27:56] INFO root fetch - processPackages [area-fig]: Downloading https://files.pythonhosted.org/packages/ce/2a/864b16b481b33d75d8f8dd7307be57e92aaa02c936f6e8efaf4dc6732b31/area_fig-0.0.13.tar.gz
+[2023-06-29 10:27:56] INFO root fetch - processPackages [kubectl-ng]: Downloading https://files.pythonhosted.org/packages/77/54/1ebf05da15b1e512b65b4d452a277687f54d1b90f5b231f97a8c58e046cc/kubectl_ng-0.6.0.tar.gz
+[2023-06-29 10:27:56] INFO root fetch - processPackages [kr8s]: Downloading https://files.pythonhosted.org/packages/f0/41/7dcd79b25a0cd2b7d6e291dcb7d46756df9856a4b83ed9cc4a48e5bc4248/kr8s-0.5.2.tar.gz
+[2023-06-29 10:27:56] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/7e/2c/85f50ce6d2cb7e8b9bb7412bd0c2a7bbd63daa93341727cac7ab58b46241/featurelayers-1.4.8.tar.gz
+[2023-06-29 10:27:56] INFO root fetch - processPackages [PyCompGeomAlgorithms]: Downloading https://files.pythonhosted.org/packages/ae/99/6f44c38bd7d7d08d3fa0a4f846678c1e82a68ebd17db4f860cbcc1910ca9/PyCompGeomAlgorithms-1.0.6.tar.gz
+[2023-06-29 10:27:56] INFO root fetch - processPackages [gaboost]: Downloading https://files.pythonhosted.org/packages/5f/7f/b4b5cc87f866e59eca2f87733406cbe59b34c24ae893b479b608f3564943/gaboost-1.7.3.tar.gz
+[2023-06-29 10:27:56] INFO root fetch - processPackages [piproc]: executing diffoscope
+[2023-06-29 10:27:56] INFO root fetch - processPackages [piproc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piproc-0.1.8.tar.gz tmp/piproc-0.1.9.tar.gz --markdown 20230629/p/piproc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 10:27:56] INFO root fetch - processPackages [django-translatemessages]: Downloading https://files.pythonhosted.org/packages/7e/cf/6e8628a530140076e62238418fa38584611cfc5b0d97a2532f830fcfe941/django-translatemessages-0.0.5.tar.gz
+[2023-06-29 10:27:56] INFO root fetch - processPackages [kubectl-ng]: executing diffoscope
+[2023-06-29 10:27:56] INFO root fetch - processPackages [kubectl-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubectl_ng-0.5.2.tar.gz tmp/kubectl_ng-0.6.0.tar.gz --markdown 20230629/k/kubectl-ng/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2023-06-29 10:27:56] INFO root fetch - processPackages [PyCompGeomAlgorithms]: executing diffoscope
+[2023-06-29 10:27:56] INFO root fetch - processPackages [PyCompGeomAlgorithms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyCompGeomAlgorithms-1.0.5.tar.gz tmp/PyCompGeomAlgorithms-1.0.6.tar.gz --markdown 20230629/P/PyCompGeomAlgorithms/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-29 10:27:56] INFO root fetch - processPackages [featurelayers]: executing diffoscope
+[2023-06-29 10:27:56] INFO root fetch - processPackages [featurelayers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurelayers-1.4.7.tar.gz tmp/featurelayers-1.4.8.tar.gz --markdown 20230629/f/featurelayers/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-06-29 10:27:56] INFO root fetch - processPackages [django-translatemessages]: executing diffoscope
+[2023-06-29 10:27:56] INFO root fetch - processPackages [featurelayers]: executing diffoscope
+[2023-06-29 10:27:56] INFO root fetch - processPackages [django-translatemessages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-translatemessages-0.0.4.tar.gz tmp/django-translatemessages-0.0.5.tar.gz --markdown 20230629/d/django-translatemessages/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-29 10:27:56] INFO root fetch - processPackages [featurelayers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurelayers-1.4.7.tar.gz tmp/featurelayers-1.4.8.tar.gz --markdown 20230629/f/featurelayers/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-06-29 10:27:56] INFO root fetch - processPackages [area-fig]: executing diffoscope
+[2023-06-29 10:27:56] INFO root fetch - processPackages [area-fig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/area_fig-0.0.12.tar.gz tmp/area_fig-0.0.13.tar.gz --markdown 20230629/a/area-fig/0.0.12-0.0.13/diff.md --exclude *.pyd
+[2023-06-29 10:27:56] INFO root fetch - processPackages [gaboost]: executing diffoscope
+[2023-06-29 10:27:56] INFO root fetch - processPackages [gaboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaboost-1.7.2.tar.gz tmp/gaboost-1.7.3.tar.gz --markdown 20230629/g/gaboost/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-06-29 10:27:56] INFO root fetch - processPackages [kr8s]: Downloading https://files.pythonhosted.org/packages/6f/6f/7d62f7b6e5cb36b20181a34afef7dbefae38ceac91ee777dd20ded08e1df/kr8s-0.6.0.tar.gz
+[2023-06-29 10:27:56] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/c6/22/584104dc29ba63a88d3b11501488c14dc938096fb764ea5c982e03b43931/featurelayers-1.4.9.tar.gz
+[2023-06-29 10:27:56] INFO root fetch - processPackages [kr8s]: executing diffoscope
+[2023-06-29 10:27:56] INFO root fetch - processPackages [kr8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kr8s-0.5.2.tar.gz tmp/kr8s-0.6.0.tar.gz --markdown 20230629/k/kr8s/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2023-06-29 10:27:56] INFO root fetch - processPackages [featurelayers]: executing diffoscope
+[2023-06-29 10:27:56] INFO root fetch - processPackages [featurelayers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurelayers-1.4.8.tar.gz tmp/featurelayers-1.4.9.tar.gz --markdown 20230629/f/featurelayers/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-29 10:27:57] INFO root fetch - processPackages [piproc]: Remove: archive file [/home/abi/fetcher/tmp/piproc-0.1.8.tar.gz]
+[2023-06-29 10:27:57] INFO root fetch - processPackages [piproc]: Remove: archive file [/home/abi/fetcher/tmp/piproc-0.1.9.tar.gz]
+[2023-06-29 10:27:57] INFO root fetch - processPackages [piproc]: Start processing: kiara
+[2023-06-29 10:27:57] INFO root fetch - main [MainThread]: End processing [piproc]: success
+[2023-06-29 10:27:57] INFO root fetch - processPackages [kiara]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-29 10:27:57] INFO root fetch - processPackages [PyCompGeomAlgorithms]: Remove: archive file [/home/abi/fetcher/tmp/PyCompGeomAlgorithms-1.0.5.tar.gz]
+[2023-06-29 10:27:57] INFO root fetch - processPackages [PyCompGeomAlgorithms]: Remove: archive file [/home/abi/fetcher/tmp/PyCompGeomAlgorithms-1.0.6.tar.gz]
+[2023-06-29 10:27:57] INFO root fetch - processPackages [PyCompGeomAlgorithms]: Start processing: gispandas
+[2023-06-29 10:27:57] INFO root fetch - main [MainThread]: End processing [PyCompGeomAlgorithms]: success
+[2023-06-29 10:27:57] WARNING root fetch - processPackages [gispandas]: Skipping, unable to determine old version
+[2023-06-29 10:27:57] INFO root fetch - processPackages [gispandas]: Start processing: deci-platform-client
+[2023-06-29 10:27:57] INFO root fetch - main [MainThread]: End processing [gispandas] error
+[2023-06-29 10:27:57] INFO root fetch - processPackages [deci-platform-client]: New version: [5.5.0] Old Version: [5.4.1]
+[2023-06-29 10:27:57] INFO root fetch - processPackages [kubectl-ng]: Remove: archive file [/home/abi/fetcher/tmp/kubectl_ng-0.5.2.tar.gz]
+[2023-06-29 10:27:57] INFO root fetch - processPackages [kubectl-ng]: Remove: archive file [/home/abi/fetcher/tmp/kubectl_ng-0.6.0.tar.gz]
+[2023-06-29 10:27:57] INFO root fetch - processPackages [kubectl-ng]: Start processing: compmec-shape
+[2023-06-29 10:27:57] INFO root fetch - main [MainThread]: End processing [kubectl-ng]: success
+[2023-06-29 10:27:57] INFO root fetch - processPackages [kiara]: Downloading https://files.pythonhosted.org/packages/3f/79/fa4e8a6826f113046ada93d9b667f72636d2aff88f86e3f02e892002926a/kiara-0.4.8.tar.gz
+[2023-06-29 10:27:57] INFO root fetch - processPackages [deci-platform-client]: Downloading https://files.pythonhosted.org/packages/9f/85/fcc2d628d160df99a0e7d22d827ef7f91f2f338de54df3db1a991ac22099/deci_platform_client-5.4.1-py3-none-any.whl
+[2023-06-29 10:27:57] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.4.7.tar.gz]
+[2023-06-29 10:27:57] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.4.8.tar.gz]
+[2023-06-29 10:27:57] INFO root fetch - main [MainThread]: End processing [featurelayers]: success
+[2023-06-29 10:27:58] INFO root fetch - processPackages [area-fig]: Remove: archive file [/home/abi/fetcher/tmp/area_fig-0.0.12.tar.gz]
+[2023-06-29 10:27:58] INFO root fetch - processPackages [area-fig]: Remove: archive file [/home/abi/fetcher/tmp/area_fig-0.0.13.tar.gz]
+[2023-06-29 10:27:58] INFO root fetch - main [MainThread]: End processing [area-fig]: success
+[2023-06-29 10:27:58] WARNING root fetch - processPackages [compmec-shape]: Skipping, unable to determine old version
+[2023-06-29 10:27:58] INFO root fetch - main [MainThread]: End processing [compmec-shape] error
+[2023-06-29 10:27:58] INFO root fetch - main [MainThread]: End processing [featurelayers]: success
+[2023-06-29 10:27:58] INFO root fetch - processPackages [deci-platform-client]: Downloading https://files.pythonhosted.org/packages/c6/0c/150f343d6de469ec66ed7434b30aba8c4ef1782fa5f0de4cfa8310edb699/deci_platform_client-5.5.0-py3-none-any.whl
+[2023-06-29 10:27:58] INFO root fetch - processPackages [django-translatemessages]: Remove: archive file [/home/abi/fetcher/tmp/django-translatemessages-0.0.4.tar.gz]
+[2023-06-29 10:27:58] INFO root fetch - processPackages [django-translatemessages]: Remove: archive file [/home/abi/fetcher/tmp/django-translatemessages-0.0.5.tar.gz]
+[2023-06-29 10:27:58] INFO root fetch - main [MainThread]: End processing [django-translatemessages]: success
+[2023-06-29 10:27:58] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.4.9.tar.gz]
+[2023-06-29 10:27:58] INFO root fetch - main [MainThread]: End processing [featurelayers]: success
+[2023-06-29 10:27:58] INFO root fetch - processPackages [deci-platform-client]: executing diffoscope
+[2023-06-29 10:27:58] INFO root fetch - processPackages [deci-platform-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deci_platform_client-5.4.1-py3-none-any.whl.zip tmp/deci_platform_client-5.5.0-py3-none-any.whl.zip --markdown 20230629/d/deci-platform-client/5.4.1-5.5.0/diff.md --exclude *.pyd
+[2023-06-29 10:27:58] INFO root fetch - processPackages [kr8s]: Remove: archive file [/home/abi/fetcher/tmp/kr8s-0.5.2.tar.gz]
+[2023-06-29 10:27:58] INFO root fetch - processPackages [kr8s]: Remove: archive file [/home/abi/fetcher/tmp/kr8s-0.6.0.tar.gz]
+[2023-06-29 10:27:58] INFO root fetch - main [MainThread]: End processing [kr8s]: success
+[2023-06-29 10:27:58] INFO root fetch - processPackages [kiara]: Downloading https://files.pythonhosted.org/packages/05/0e/69cf34a19959bde095398297ff33bcf2421ec3ddc0ae7bafe46183d25333/kiara-0.4.9.tar.gz
+[2023-06-29 10:27:58] INFO root fetch - processPackages [kiara]: executing diffoscope
+[2023-06-29 10:27:58] INFO root fetch - processPackages [kiara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara-0.4.8.tar.gz tmp/kiara-0.4.9.tar.gz --markdown 20230629/k/kiara/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-29 10:28:00] INFO root fetch - processPackages [gaboost]: Remove: archive file [/home/abi/fetcher/tmp/gaboost-1.7.2.tar.gz]
+[2023-06-29 10:28:00] INFO root fetch - processPackages [gaboost]: Remove: archive file [/home/abi/fetcher/tmp/gaboost-1.7.3.tar.gz]
+[2023-06-29 10:28:00] INFO root fetch - main [MainThread]: End processing [gaboost]: success
+[2023-06-29 10:28:01] INFO root fetch - processPackages [kiara]: Remove: archive file [/home/abi/fetcher/tmp/kiara-0.4.8.tar.gz]
+[2023-06-29 10:28:01] INFO root fetch - processPackages [kiara]: Remove: archive file [/home/abi/fetcher/tmp/kiara-0.4.9.tar.gz]
+[2023-06-29 10:28:01] INFO root fetch - main [MainThread]: End processing [kiara]: success
+[2023-06-29 10:28:07] INFO root fetch - processPackages [deci-platform-client]: Remove: archive file [/home/abi/fetcher/tmp/deci_platform_client-5.4.1-py3-none-any.whl.zip]
+[2023-06-29 10:28:07] INFO root fetch - processPackages [deci-platform-client]: Remove: archive file [/home/abi/fetcher/tmp/deci_platform_client-5.5.0-py3-none-any.whl.zip]
+[2023-06-29 10:28:07] INFO root fetch - main [MainThread]: End processing [deci-platform-client]: success
+[2023-06-29 10:28:07] INFO root fetch - main [MainThread]: Store serial: [18692062]
