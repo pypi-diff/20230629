@@ -18883,3 +18883,88 @@ AssertionError: tmp/live_parquet-0.2.0.tar.gz does not exist
 [2023-06-29 19:40:24] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev99.tar.gz]
 [2023-06-29 19:40:24] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
 [2023-06-29 19:40:24] INFO root fetch - main [MainThread]: Store serial: [18698749]
+[2023-06-29 19:45:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18698749]
+[2023-06-29 19:45:33] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-29 19:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: k-means-constrained
+[2023-06-29 19:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2023-06-29 19:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plutous-trade
+[2023-06-29 19:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: microprobe-all
+[2023-06-29 19:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: microprobe-core
+[2023-06-29 19:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: microprobe-doc
+[2023-06-29 19:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: microprobe-target-power
+[2023-06-29 19:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: microprobe-target-riscv
+[2023-06-29 19:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: func-ai
+[2023-06-29 19:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: seaplane
+[2023-06-29 19:45:34] INFO root fetch - processPackages [microprobe-doc]: New version: [0.5.20230629114852] Old Version: [0.5.20220906104555]
+[2023-06-29 19:45:34] INFO root fetch - processPackages [microprobe-target-power]: New version: [0.5.20230629114852] Old Version: [0.5.20220906104555]
+[2023-06-29 19:45:34] INFO root fetch - processPackages [seaplane]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-29 19:45:34] INFO root fetch - processPackages [microprobe-all]: New version: [0.5.20230629114852] Old Version: [0.5.20220906104555]
+[2023-06-29 19:45:34] INFO root fetch - processPackages [plutous-trade]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-06-29 19:45:34] INFO root fetch - processPackages [microprobe-core]: New version: [0.5.20230629114852] Old Version: [0.5.20220906104555]
+[2023-06-29 19:45:34] WARNING root fetch - processPackages [func-ai]: Skipping, unable to determine old version
+[2023-06-29 19:45:34] INFO root fetch - main [MainThread]: End processing [func-ai] error
+[2023-06-29 19:45:34] INFO root fetch - processPackages [k-means-constrained]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-06-29 19:45:34] INFO root fetch - processPackages [microprobe-target-riscv]: New version: [0.5.20230629114852] Old Version: [0.5.20220906104555]
+[2023-06-29 19:45:34] INFO root fetch - processPackages [kcli]: New version: [99.0.202306291742] Old Version: [99.0.202306291343]
+[2023-06-29 19:45:34] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/29/b0/87928a3c7a939f04d7c01f5cc4807f474b634915d0d967fcfba546136bcb/kcli-99.0.202306291343-py3-none-any.whl
+[2023-06-29 19:45:34] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-06-29 19:45:34] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.3.8.tar.gz tmp/seaplane-0.3.9.tar.gz --markdown 20230629/s/seaplane/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-29 19:45:34] INFO root fetch - processPackages [microprobe-doc]: Downloading https://files.pythonhosted.org/packages/04/f3/16ebe98f16f4647b55913d7402504c90aeb41c5b1e95e3474f55475c262e/microprobe_doc-0.5.20220906104555-py2.py3-none-any.whl
+[2023-06-29 19:45:34] INFO root fetch - processPackages [microprobe-target-power]: Downloading https://files.pythonhosted.org/packages/65/20/bc09a1e17fa1a03c2474a758533811e1b611badabcb901b3f339c8873b25/microprobe_target_power-0.5.20220906104555-py2.py3-none-any.whl
+[2023-06-29 19:45:34] INFO root fetch - processPackages [microprobe-all]: Downloading https://files.pythonhosted.org/packages/da/09/f9b276fee2037f528b40022ad78b797df11225093b7befa94487f1fe0d3a/microprobe_all-0.5.20220906104555-py2.py3-none-any.whl
+[2023-06-29 19:45:34] INFO root fetch - processPackages [k-means-constrained]: Downloading https://files.pythonhosted.org/packages/05/1a/452cd6c847340d09db1484aa81723c051b18fc2fbda5803514645fdc557b/k-means-constrained-0.7.2.tar.gz
+[2023-06-29 19:45:34] INFO root fetch - processPackages [microprobe-core]: Downloading https://files.pythonhosted.org/packages/1a/66/1203cddcc749f5cf34b374543416ca773801b89e5eadab61f408e7fedc82/microprobe_core-0.5.20220906104555-py2.py3-none-any.whl
+[2023-06-29 19:45:34] INFO root fetch - processPackages [microprobe-target-riscv]: Downloading https://files.pythonhosted.org/packages/d2/f7/f97341b1a697d7e266d98853dbb9cc3e4b8069101e89c677e7507826a104/microprobe_target_riscv-0.5.20220906104555-py2.py3-none-any.whl
+[2023-06-29 19:45:34] INFO root fetch - processPackages [plutous-trade]: Downloading https://files.pythonhosted.org/packages/ad/5b/6c90d50e589d9e379522ba81062c644cf9c858f4b2520bd94bf293bbd4d5/plutous_trade-0.0.7.tar.gz
+[2023-06-29 19:45:34] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/0e/98/ad7fcde92eb6cc492bb6b673d1822209d14c6d204ac0a15b7ea3604ad4b7/kcli-99.0.202306291742-py3-none-any.whl
+[2023-06-29 19:45:34] INFO root fetch - processPackages [microprobe-all]: Downloading https://files.pythonhosted.org/packages/dc/62/b90c1937ebdff92a0ee2459a14d6d8f73cf4a99f29e128f5e962b170fc5d/microprobe_all-0.5.20230629114852-py2.py3-none-any.whl
+[2023-06-29 19:45:34] INFO root fetch - processPackages [microprobe-target-power]: Downloading https://files.pythonhosted.org/packages/7a/28/cb228e1aed8ec287b82ea0732f91a2f338220242d0023d27c69045ab0824/microprobe_target_power-0.5.20230629114852-py2.py3-none-any.whl
+[2023-06-29 19:45:34] INFO root fetch - processPackages [k-means-constrained]: Downloading https://files.pythonhosted.org/packages/4f/00/99e7f29ed35d7c2eab0f485923835496de9e905e5afcda0545c7fee6d0a1/k-means-constrained-0.7.3.tar.gz
+[2023-06-29 19:45:34] INFO root fetch - processPackages [microprobe-target-riscv]: Downloading https://files.pythonhosted.org/packages/08/a2/7cd201742f1ffd18f3450da8ae0e99e12254c5485b1977b4491dcd6835b9/microprobe_target_riscv-0.5.20230629114852-py2.py3-none-any.whl
+[2023-06-29 19:45:34] INFO root fetch - processPackages [microprobe-core]: Downloading https://files.pythonhosted.org/packages/f3/63/487eda5c249f066cfb82c50fa77ad23c0978249647d7b217d6b4ba1f903d/microprobe_core-0.5.20230629114852-py2.py3-none-any.whl
+[2023-06-29 19:45:34] INFO root fetch - processPackages [plutous-trade]: Downloading https://files.pythonhosted.org/packages/4e/b3/3b26db98dfb6c14dcb86851ce58ae2da1c8b5fa2a2bc4f88c3a14845ec4c/plutous_trade-0.0.9.tar.gz
+[2023-06-29 19:45:34] INFO root fetch - processPackages [microprobe-target-riscv]: executing diffoscope
+[2023-06-29 19:45:34] INFO root fetch - processPackages [microprobe-target-riscv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microprobe_target_riscv-0.5.20220906104555-py2.py3-none-any.whl.zip tmp/microprobe_target_riscv-0.5.20230629114852-py2.py3-none-any.whl.zip --markdown 20230629/m/microprobe-target-riscv/0.5.20220906104555-0.5.20230629114852/diff.md --exclude *.pyd
+[2023-06-29 19:45:34] INFO root fetch - processPackages [microprobe-core]: executing diffoscope
+[2023-06-29 19:45:34] INFO root fetch - processPackages [microprobe-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microprobe_core-0.5.20220906104555-py2.py3-none-any.whl.zip tmp/microprobe_core-0.5.20230629114852-py2.py3-none-any.whl.zip --markdown 20230629/m/microprobe-core/0.5.20220906104555-0.5.20230629114852/diff.md --exclude *.pyd
+[2023-06-29 19:45:34] INFO root fetch - processPackages [plutous-trade]: executing diffoscope
+[2023-06-29 19:45:34] INFO root fetch - processPackages [plutous-trade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade-0.0.7.tar.gz tmp/plutous_trade-0.0.9.tar.gz --markdown 20230629/p/plutous-trade/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 19:45:34] INFO root fetch - processPackages [microprobe-all]: executing diffoscope
+[2023-06-29 19:45:34] INFO root fetch - processPackages [microprobe-all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microprobe_all-0.5.20220906104555-py2.py3-none-any.whl.zip tmp/microprobe_all-0.5.20230629114852-py2.py3-none-any.whl.zip --markdown 20230629/m/microprobe-all/0.5.20220906104555-0.5.20230629114852/diff.md --exclude *.pyd
+[2023-06-29 19:45:34] INFO root fetch - processPackages [microprobe-doc]: Downloading https://files.pythonhosted.org/packages/eb/78/9c4f421626941ba088b1a2018fbb9e12d346d4a2c19ced142b06ebf74add/microprobe_doc-0.5.20230629114852-py2.py3-none-any.whl
+[2023-06-29 19:45:34] INFO root fetch - processPackages [k-means-constrained]: executing diffoscope
+[2023-06-29 19:45:34] INFO root fetch - processPackages [k-means-constrained]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k-means-constrained-0.7.2.tar.gz tmp/k-means-constrained-0.7.3.tar.gz --markdown 20230629/k/k-means-constrained/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-06-29 19:45:34] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-29 19:45:34] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306291343-py3-none-any.whl.zip tmp/kcli-99.0.202306291742-py3-none-any.whl.zip --markdown 20230629/k/kcli/99.0.202306291343-99.0.202306291742/diff.md --exclude *.pyd
+[2023-06-29 19:45:34] INFO root fetch - processPackages [microprobe-target-power]: executing diffoscope
+[2023-06-29 19:45:34] INFO root fetch - processPackages [microprobe-target-power]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microprobe_target_power-0.5.20220906104555-py2.py3-none-any.whl.zip tmp/microprobe_target_power-0.5.20230629114852-py2.py3-none-any.whl.zip --markdown 20230629/m/microprobe-target-power/0.5.20220906104555-0.5.20230629114852/diff.md --exclude *.pyd
+[2023-06-29 19:45:35] INFO root fetch - processPackages [microprobe-doc]: executing diffoscope
+[2023-06-29 19:45:35] INFO root fetch - processPackages [microprobe-doc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microprobe_doc-0.5.20220906104555-py2.py3-none-any.whl.zip tmp/microprobe_doc-0.5.20230629114852-py2.py3-none-any.whl.zip --markdown 20230629/m/microprobe-doc/0.5.20220906104555-0.5.20230629114852/diff.md --exclude *.pyd
+[2023-06-29 19:45:35] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.8.tar.gz]
+[2023-06-29 19:45:35] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.9.tar.gz]
+[2023-06-29 19:45:35] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-06-29 19:45:36] INFO root fetch - processPackages [plutous-trade]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade-0.0.7.tar.gz]
+[2023-06-29 19:45:36] INFO root fetch - processPackages [plutous-trade]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade-0.0.9.tar.gz]
+[2023-06-29 19:45:36] INFO root fetch - main [MainThread]: End processing [plutous-trade]: success
+[2023-06-29 19:45:36] INFO root fetch - processPackages [microprobe-target-riscv]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_target_riscv-0.5.20220906104555-py2.py3-none-any.whl.zip]
+[2023-06-29 19:45:36] INFO root fetch - processPackages [microprobe-target-riscv]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_target_riscv-0.5.20230629114852-py2.py3-none-any.whl.zip]
+[2023-06-29 19:45:36] INFO root fetch - main [MainThread]: End processing [microprobe-target-riscv]: success
+[2023-06-29 19:45:36] INFO root fetch - processPackages [microprobe-all]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_all-0.5.20220906104555-py2.py3-none-any.whl.zip]
+[2023-06-29 19:45:36] INFO root fetch - processPackages [microprobe-all]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_all-0.5.20230629114852-py2.py3-none-any.whl.zip]
+[2023-06-29 19:45:36] INFO root fetch - main [MainThread]: End processing [microprobe-all]: success
+[2023-06-29 19:45:36] INFO root fetch - processPackages [microprobe-core]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_core-0.5.20220906104555-py2.py3-none-any.whl.zip]
+[2023-06-29 19:45:36] INFO root fetch - processPackages [microprobe-core]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_core-0.5.20230629114852-py2.py3-none-any.whl.zip]
+[2023-06-29 19:45:36] INFO root fetch - main [MainThread]: End processing [microprobe-core]: success
+[2023-06-29 19:45:38] INFO root fetch - processPackages [microprobe-target-power]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_target_power-0.5.20220906104555-py2.py3-none-any.whl.zip]
+[2023-06-29 19:45:38] INFO root fetch - processPackages [microprobe-target-power]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_target_power-0.5.20230629114852-py2.py3-none-any.whl.zip]
+[2023-06-29 19:45:38] INFO root fetch - main [MainThread]: End processing [microprobe-target-power]: success
+[2023-06-29 19:45:40] INFO root fetch - processPackages [k-means-constrained]: Remove: archive file [/home/abi/fetcher/tmp/k-means-constrained-0.7.2.tar.gz]
+[2023-06-29 19:45:40] INFO root fetch - processPackages [k-means-constrained]: Remove: archive file [/home/abi/fetcher/tmp/k-means-constrained-0.7.3.tar.gz]
+[2023-06-29 19:45:40] INFO root fetch - main [MainThread]: End processing [k-means-constrained]: success
+[2023-06-29 19:45:43] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306291343-py3-none-any.whl.zip]
+[2023-06-29 19:45:43] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306291742-py3-none-any.whl.zip]
+[2023-06-29 19:45:43] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-29 19:46:24] INFO root fetch - processPackages [microprobe-doc]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_doc-0.5.20220906104555-py2.py3-none-any.whl.zip]
+[2023-06-29 19:46:24] INFO root fetch - processPackages [microprobe-doc]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_doc-0.5.20230629114852-py2.py3-none-any.whl.zip]
+[2023-06-29 19:46:24] INFO root fetch - main [MainThread]: End processing [microprobe-doc]: success
+[2023-06-29 19:46:24] INFO root fetch - main [MainThread]: Store serial: [18698792]
