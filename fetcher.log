@@ -13430,3 +13430,108 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 16:37:38] INFO root fetch - processPackages [volcengine]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-1.0.96.tar.gz]
 [2023-06-29 16:37:38] INFO root fetch - main [MainThread]: End processing [volcengine]: success
 [2023-06-29 16:37:38] INFO root fetch - main [MainThread]: Store serial: [18696473]
+[2023-06-29 16:42:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18696473]
+[2023-06-29 16:42:47] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-29 16:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2023-06-29 16:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: f3dasm
+[2023-06-29 16:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: medidata
+[2023-06-29 16:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-cloud-storages
+[2023-06-29 16:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: climatePy
+[2023-06-29 16:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mycotools
+[2023-06-29 16:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: havenpy
+[2023-06-29 16:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: porobot
+[2023-06-29 16:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: metaseg
+[2023-06-29 16:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SAC-Tello
+[2023-06-29 16:42:47] INFO root fetch - processPackages [climatePy]: New version: [0.0.4.0] Old Version: [0.0.3.0]
+[2023-06-29 16:42:47] INFO root fetch - processPackages [havenpy]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-06-29 16:42:47] INFO root fetch - processPackages [medidata]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-29 16:42:47] INFO root fetch - processPackages [metaseg]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-06-29 16:42:47] INFO root fetch - processPackages [f3dasm]: New version: [1.1.0] Old Version: [0.9.3]
+[2023-06-29 16:42:47] INFO root fetch - processPackages [django-cloud-storages]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-29 16:42:47] INFO root fetch - processPackages [mycotools]: New version: [0.9b9] Old Version: [0.9b8]
+[2023-06-29 16:42:47] WARNING root fetch - processPackages [porobot]: Skipping, unable to determine old version
+[2023-06-29 16:42:47] INFO root fetch - processPackages [porobot]: Start processing: wodoo
+[2023-06-29 16:42:47] INFO root fetch - main [MainThread]: End processing [porobot] error
+[2023-06-29 16:42:47] INFO root fetch - processPackages [SAC-Tello]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-29 16:42:47] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-29 16:42:47] INFO root fetch - processPackages [wodoo]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-06-29 16:42:47] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/3e/15/9cb9132ba6187eee0ca2a7aae3ce7d715352642e5a707e15d00144f13fe4/mycotools-0.9b8.tar.gz
+[2023-06-29 16:42:47] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-29 16:42:47] INFO root fetch - processPackages [medidata]: Downloading https://files.pythonhosted.org/packages/83/1b/24dec607b6005b28a7fc0806e2eabe1b8943dc307526a0a8aca47e55c057/medidata-0.4.0.tar.gz
+[2023-06-29 16:42:47] INFO root fetch - processPackages [django-cloud-storages]: Downloading https://files.pythonhosted.org/packages/a0/9c/a5d5543c0c01fd0243f463756caddca859d55e1fcc049a212c74041ceaff/django_cloud_storages-0.1.5.tar.gz
+[2023-06-29 16:42:47] INFO root fetch - processPackages [metaseg]: Downloading https://files.pythonhosted.org/packages/ae/91/ef4c05d8731b455faa50be20e7acee7b33b5b2eb869ece39f7427f4d9700/metaseg-0.7.7.tar.gz
+[2023-06-29 16:42:47] WARNING root fetch - processPackages [medidata]: Skipping package: exceeds size limit 64412314>=10485760
+[2023-06-29 16:42:47] INFO root fetch - processPackages [medidata]: Start processing: evaluation-metrics
+[2023-06-29 16:42:47] INFO root fetch - main [MainThread]: End processing [medidata] error
+[2023-06-29 16:42:47] INFO root fetch - processPackages [havenpy]: Downloading https://files.pythonhosted.org/packages/cf/57/d04aa75820937f23e9fdf738bfae61f1df51aad42f04c7eaa9027f4a1515/havenpy-0.0.4.tar.gz
+[2023-06-29 16:42:47] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/bb/e6/10fe2dcdeaac0d2e26cc85b697f686b2eef9276de8b953b758cc4e2c7cff/wodoo-0.4.7.tar.gz
+[2023-06-29 16:42:47] INFO root fetch - processPackages [f3dasm]: Downloading https://files.pythonhosted.org/packages/76/13/57cc04a268cb97f5be8637e419931ad20b67f2d4bccfec26facfef709dde/f3dasm-0.9.3.tar.gz
+[2023-06-29 16:42:47] INFO root fetch - processPackages [SAC-Tello]: Downloading https://files.pythonhosted.org/packages/4b/6b/1bbe126e86cd699012e0827e236685d61d6717ee332d0c9e32a1b64faf4c/sac_tello-0.0.5.tar.gz
+[2023-06-29 16:42:47] WARNING root fetch - processPackages [evaluation-metrics]: Skipping, unable to determine old version
+[2023-06-29 16:42:47] INFO root fetch - processPackages [evaluation-metrics]: Start processing: ag-llama-api
+[2023-06-29 16:42:47] INFO root fetch - main [MainThread]: End processing [evaluation-metrics] error
+[2023-06-29 16:42:47] INFO root fetch - processPackages [climatePy]: Downloading https://files.pythonhosted.org/packages/a8/6f/99c16c56ec15692f11a99ad4ca0744318fe655787f78c72ef6a531d83a18/climatePy-0.0.4.0.tar.gz
+[2023-06-29 16:42:48] INFO root fetch - processPackages [ag-llama-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-29 16:42:48] INFO root fetch - processPackages [havenpy]: executing diffoscope
+[2023-06-29 16:42:48] INFO root fetch - processPackages [havenpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/havenpy-0.0.2.tar.gz tmp/havenpy-0.0.4.tar.gz --markdown 20230629/h/havenpy/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-06-29 16:42:48] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-29 16:42:48] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/ee/a4/9aa7fd55d3bd93c854023d0732b10eaf6a738e6aa0289ceb539fb946d02f/mycotools-0.9b9.tar.gz
+[2023-06-29 16:42:48] INFO root fetch - processPackages [django-cloud-storages]: Downloading https://files.pythonhosted.org/packages/e3/a6/9a5f9ecf853825d40e8fcac0f47c921a8a52c8e5c7dd80f2dbb5bc146c6f/django_cloud_storages-0.1.6.tar.gz
+[2023-06-29 16:42:48] INFO root fetch - processPackages [climatePy]: executing diffoscope
+[2023-06-29 16:42:48] INFO root fetch - processPackages [climatePy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climatePy-0.0.3.0.tar.gz tmp/climatePy-0.0.4.0.tar.gz --markdown 20230629/c/climatePy/0.0.3.0-0.0.4.0/diff.md --exclude *.pyd
+[2023-06-29 16:42:48] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/d0/f7/10f19c26f23f6e259afdf48216e0a6345c3b4cb2b4d8e6d2ae1ece4471ea/ag_llama_api-0.0.6.tar.gz
+[2023-06-29 16:42:48] INFO root fetch - processPackages [mycotools]: executing diffoscope
+[2023-06-29 16:42:48] INFO root fetch - processPackages [mycotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycotools-0.9b8.tar.gz tmp/mycotools-0.9b9.tar.gz --markdown 20230629/m/mycotools/0.9b8-0.9b9/diff.md --exclude *.pyd
+[2023-06-29 16:42:48] INFO root fetch - processPackages [SAC-Tello]: Downloading https://files.pythonhosted.org/packages/9b/9f/a62a4710130d02848df2fc4bdf5887d9afbb27ae2538ded982b0e4f68812/sac_tello-0.0.6.tar.gz
+[2023-06-29 16:42:48] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/f1/e5/4eaf4bac81e606caa8deb3d95f64c8de95dc532f6bd16aef12de595f56cc/wodoo-0.4.8.tar.gz
+[2023-06-29 16:42:48] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-29 16:42:48] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230629/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-29 16:42:48] INFO root fetch - processPackages [django-cloud-storages]: executing diffoscope
+[2023-06-29 16:42:48] INFO root fetch - processPackages [django-cloud-storages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cloud_storages-0.1.5.tar.gz tmp/django_cloud_storages-0.1.6.tar.gz --markdown 20230629/d/django-cloud-storages/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-29 16:42:48] INFO root fetch - processPackages [metaseg]: Downloading https://files.pythonhosted.org/packages/39/94/65bc228f518bcc4839e8432802c6d53431a44c4bd771b270bc090eabf663/metaseg-0.7.8.tar.gz
+[2023-06-29 16:42:48] INFO root fetch - processPackages [f3dasm]: Downloading https://files.pythonhosted.org/packages/cb/2b/fcf65d0975849d57e23d1ed29c936c43a0c381d68243681fdc9f0d126495/f3dasm-1.1.0.tar.gz
+[2023-06-29 16:42:48] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/53/9a/ecfd643d2fa6cfedadd5a03884a2f01da418f193680d913d2b613dc05167/ag_llama_api-0.0.7.tar.gz
+[2023-06-29 16:42:48] INFO root fetch - processPackages [metaseg]: executing diffoscope
+[2023-06-29 16:42:48] INFO root fetch - processPackages [metaseg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaseg-0.7.7.tar.gz tmp/metaseg-0.7.8.tar.gz --markdown 20230629/m/metaseg/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-06-29 16:42:48] INFO root fetch - processPackages [f3dasm]: executing diffoscope
+[2023-06-29 16:42:48] INFO root fetch - processPackages [f3dasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f3dasm-0.9.3.tar.gz tmp/f3dasm-1.1.0.tar.gz --markdown 20230629/f/f3dasm/0.9.3-1.1.0/diff.md --exclude *.pyd
+[2023-06-29 16:42:48] INFO root fetch - processPackages [ag-llama-api]: executing diffoscope
+[2023-06-29 16:42:48] INFO root fetch - processPackages [ag-llama-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_api-0.0.6.tar.gz tmp/ag_llama_api-0.0.7.tar.gz --markdown 20230629/a/ag-llama-api/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-29 16:42:48] INFO root fetch - processPackages [SAC-Tello]: executing diffoscope
+[2023-06-29 16:42:48] INFO root fetch - processPackages [SAC-Tello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sac_tello-0.0.5.tar.gz tmp/sac_tello-0.0.6.tar.gz --markdown 20230629/S/SAC-Tello/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-29 16:42:48] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-06-29 16:42:48] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.4.7.tar.gz tmp/wodoo-0.4.8.tar.gz --markdown 20230629/w/wodoo/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-06-29 16:42:49] INFO root fetch - processPackages [havenpy]: Remove: archive file [/home/abi/fetcher/tmp/havenpy-0.0.2.tar.gz]
+[2023-06-29 16:42:49] INFO root fetch - processPackages [havenpy]: Remove: archive file [/home/abi/fetcher/tmp/havenpy-0.0.4.tar.gz]
+[2023-06-29 16:42:49] INFO root fetch - processPackages [havenpy]: Start processing: davi-bot-api-consumer
+[2023-06-29 16:42:49] INFO root fetch - main [MainThread]: End processing [havenpy]: success
+[2023-06-29 16:42:49] WARNING root fetch - processPackages [davi-bot-api-consumer]: Skipping, unable to determine old version
+[2023-06-29 16:42:49] INFO root fetch - main [MainThread]: End processing [davi-bot-api-consumer] error
+[2023-06-29 16:42:49] INFO root fetch - processPackages [django-cloud-storages]: Remove: archive file [/home/abi/fetcher/tmp/django_cloud_storages-0.1.5.tar.gz]
+[2023-06-29 16:42:49] INFO root fetch - processPackages [django-cloud-storages]: Remove: archive file [/home/abi/fetcher/tmp/django_cloud_storages-0.1.6.tar.gz]
+[2023-06-29 16:42:49] INFO root fetch - main [MainThread]: End processing [django-cloud-storages]: success
+[2023-06-29 16:42:49] INFO root fetch - processPackages [climatePy]: Remove: archive file [/home/abi/fetcher/tmp/climatePy-0.0.3.0.tar.gz]
+[2023-06-29 16:42:49] INFO root fetch - processPackages [climatePy]: Remove: archive file [/home/abi/fetcher/tmp/climatePy-0.0.4.0.tar.gz]
+[2023-06-29 16:42:49] INFO root fetch - main [MainThread]: End processing [climatePy]: success
+[2023-06-29 16:42:49] INFO root fetch - processPackages [mycotools]: Remove: archive file [/home/abi/fetcher/tmp/mycotools-0.9b8.tar.gz]
+[2023-06-29 16:42:49] INFO root fetch - processPackages [mycotools]: Remove: archive file [/home/abi/fetcher/tmp/mycotools-0.9b9.tar.gz]
+[2023-06-29 16:42:49] INFO root fetch - main [MainThread]: End processing [mycotools]: success
+[2023-06-29 16:42:49] INFO root fetch - processPackages [metaseg]: Remove: archive file [/home/abi/fetcher/tmp/metaseg-0.7.7.tar.gz]
+[2023-06-29 16:42:49] INFO root fetch - processPackages [metaseg]: Remove: archive file [/home/abi/fetcher/tmp/metaseg-0.7.8.tar.gz]
+[2023-06-29 16:42:49] INFO root fetch - main [MainThread]: End processing [metaseg]: success
+[2023-06-29 16:42:50] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.6.tar.gz]
+[2023-06-29 16:42:50] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.7.tar.gz]
+[2023-06-29 16:42:50] INFO root fetch - main [MainThread]: End processing [ag-llama-api]: success
+[2023-06-29 16:42:50] INFO root fetch - processPackages [SAC-Tello]: Remove: archive file [/home/abi/fetcher/tmp/sac_tello-0.0.5.tar.gz]
+[2023-06-29 16:42:50] INFO root fetch - processPackages [SAC-Tello]: Remove: archive file [/home/abi/fetcher/tmp/sac_tello-0.0.6.tar.gz]
+[2023-06-29 16:42:50] INFO root fetch - main [MainThread]: End processing [SAC-Tello]: success
+[2023-06-29 16:42:51] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.7.tar.gz]
+[2023-06-29 16:42:51] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.8.tar.gz]
+[2023-06-29 16:42:51] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-06-29 16:42:52] INFO root fetch - processPackages [f3dasm]: Remove: archive file [/home/abi/fetcher/tmp/f3dasm-0.9.3.tar.gz]
+[2023-06-29 16:42:52] INFO root fetch - processPackages [f3dasm]: Remove: archive file [/home/abi/fetcher/tmp/f3dasm-1.1.0.tar.gz]
+[2023-06-29 16:42:52] INFO root fetch - main [MainThread]: End processing [f3dasm]: success
+[2023-06-29 16:42:54] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-29 16:42:54] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-29 16:42:54] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-29 16:42:54] INFO root fetch - main [MainThread]: Store serial: [18696530]
