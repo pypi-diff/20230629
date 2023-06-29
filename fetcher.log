@@ -12757,3 +12757,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 16:10:01] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202306291403.tar.gz]
 [2023-06-29 16:10:01] INFO root fetch - main [MainThread]: End processing [fastestimator-nightly]: success
 [2023-06-29 16:10:01] INFO root fetch - main [MainThread]: Store serial: [18696150]
+[2023-06-29 16:15:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18696150]
+[2023-06-29 16:15:10] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-29 16:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robusta-cli
+[2023-06-29 16:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pylsat
+[2023-06-29 16:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cg
+[2023-06-29 16:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: topasgraphsim
+[2023-06-29 16:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gdash
+[2023-06-29 16:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aqui-brain-dump
+[2023-06-29 16:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fca-algorithms-cpp
+[2023-06-29 16:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nomic
+[2023-06-29 16:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: drf-rehive-extras
+[2023-06-29 16:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chrislab
+[2023-06-29 16:15:10] INFO root fetch - processPackages [pylsat]: New version: [0.2] Old Version: [0.1]
+[2023-06-29 16:15:10] INFO root fetch - processPackages [gdash]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-29 16:15:10] INFO root fetch - processPackages [nomic]: New version: [2.0.0] Old Version: [1.1.9]
+[2023-06-29 16:15:10] WARNING root fetch - processPackages [aqui-brain-dump]: Skipping, unable to determine old version
+[2023-06-29 16:15:10] INFO root fetch - main [MainThread]: End processing [aqui-brain-dump] error
+[2023-06-29 16:15:10] INFO root fetch - processPackages [fca-algorithms-cpp]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-29 16:15:10] INFO root fetch - processPackages [topasgraphsim]: New version: [9.0] Old Version: [8.1]
+[2023-06-29 16:15:10] INFO root fetch - processPackages [cg]: New version: [37.0.9] Old Version: [37.0.8]
+[2023-06-29 16:15:10] INFO root fetch - processPackages [robusta-cli]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-06-29 16:15:10] INFO root fetch - processPackages [fca-algorithms-cpp]: Downloading https://files.pythonhosted.org/packages/d4/8e/ed2801a5d9ffc7cd3b88b7f5f225c58d0cf70ed604e67a044a77b81be1fd/fca_algorithms_cpp-0.1.1-pp39-pypy39_pp73-win_amd64.whl
+[2023-06-29 16:15:10] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/ec/1d/c584ab5bd145f7bc64a980cb9243f2ce4190d6259515da4ad36aa6cd5b8d/cg-37.0.8.tar.gz
+[2023-06-29 16:15:10] INFO root fetch - processPackages [drf-rehive-extras]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-29 16:15:10] INFO root fetch - processPackages [chrislab]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-29 16:15:11] INFO root fetch - processPackages [pylsat]: Downloading https://files.pythonhosted.org/packages/a5/0e/7a227098f082722a2dcccb441241dbae2b22f8d6830e03a007e19a6c6710/pylsat-0.1.tar.gz
+[2023-06-29 16:15:11] INFO root fetch - processPackages [topasgraphsim]: Downloading https://files.pythonhosted.org/packages/2d/22/d3a35474f808a5a2ef12ad486e01493e99b8af75cf13377d6fe696510a8a/topasgraphsim-8.1.tar.gz
+[2023-06-29 16:15:11] INFO root fetch - processPackages [gdash]: Downloading https://files.pythonhosted.org/packages/3a/6f/14e0ebb3008ad48fb9532b21c7f02bec0792179b625e5a4486cb172452c9/gdash-1.1.5.tar.gz
+[2023-06-29 16:15:11] INFO root fetch - processPackages [drf-rehive-extras]: Downloading https://files.pythonhosted.org/packages/44/90/8549fe8b75c3df1e854bdaf7e7a6b2f9583e6d4ee2c6c93df91b7372817f/drf-rehive-extras-1.0.5.tar.gz
+[2023-06-29 16:15:11] INFO root fetch - processPackages [robusta-cli]: Downloading https://files.pythonhosted.org/packages/39/60/df780a4cd33fb6c25e7e6b0c86022d93aaa4490b1a758140e3d98a02996e/robusta-cli-0.9.7.tar.gz
+[2023-06-29 16:15:11] INFO root fetch - processPackages [nomic]: Downloading https://files.pythonhosted.org/packages/ab/26/cf4c7bb2f78ae33bc6fc971444e48d6bd5ac0e350055a9160244954dbee8/nomic-1.1.9.tar.gz
+[2023-06-29 16:15:11] INFO root fetch - processPackages [fca-algorithms-cpp]: Downloading https://files.pythonhosted.org/packages/81/ac/bc238d88a571c75b23354d19af22d3b40b2ed7ee22a2ca89c349630fd911/fca_algorithms_cpp-0.1.2-pp39-pypy39_pp73-win_amd64.whl
+[2023-06-29 16:15:11] INFO root fetch - processPackages [chrislab]: Downloading https://files.pythonhosted.org/packages/c1/3f/820bd08467448ca24d316fc718d97e570ea381fac0bd4949d691de30e6a5/chrislab-0.5.3.tar.gz
+[2023-06-29 16:15:11] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/d6/7e/80bbf10d5634a932760fbb85138245f7f53ad73bcdd6d223800c8b51e56f/cg-37.0.9.tar.gz
+[2023-06-29 16:15:11] INFO root fetch - processPackages [pylsat]: Downloading https://files.pythonhosted.org/packages/cd/fb/602a23cfdebf3d4d3eec59ae9afb12ee153b379f7f89d0e104f0b09c2b89/pylsat-0.2.tar.gz
+[2023-06-29 16:15:11] INFO root fetch - processPackages [fca-algorithms-cpp]: executing diffoscope
+[2023-06-29 16:15:11] INFO root fetch - processPackages [fca-algorithms-cpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fca_algorithms_cpp-0.1.1-pp39-pypy39_pp73-win_amd64.whl.zip tmp/fca_algorithms_cpp-0.1.2-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230629/f/fca-algorithms-cpp/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-29 16:15:11] INFO root fetch - processPackages [pylsat]: executing diffoscope
+[2023-06-29 16:15:11] INFO root fetch - processPackages [pylsat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylsat-0.1.tar.gz tmp/pylsat-0.2.tar.gz --markdown 20230629/p/pylsat/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-29 16:15:11] INFO root fetch - processPackages [chrislab]: Downloading https://files.pythonhosted.org/packages/b9/92/8cc9f8a27145b87c31387881fc456936a2939f223f7577edebc39e9c75c5/chrislab-0.5.4.tar.gz
+[2023-06-29 16:15:11] INFO root fetch - processPackages [robusta-cli]: Downloading https://files.pythonhosted.org/packages/9f/ff/a70074935ded21551e9900241be83e06dcddd697498c8fa3eeab30d0105c/robusta-cli-0.9.9.tar.gz
+[2023-06-29 16:15:11] INFO root fetch - processPackages [gdash]: Downloading https://files.pythonhosted.org/packages/6e/29/be07ca0c51bba20625b84564e1a450d7f9ac424f627577539873f18db5b5/gdash-1.1.6.tar.gz
+[2023-06-29 16:15:11] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-29 16:15:11] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-37.0.8.tar.gz tmp/cg-37.0.9.tar.gz --markdown 20230629/c/cg/37.0.8-37.0.9/diff.md --exclude *.pyd
+[2023-06-29 16:15:11] INFO root fetch - processPackages [drf-rehive-extras]: Downloading https://files.pythonhosted.org/packages/fa/b4/d7ebc063a03ec45562942dd6b95561199c1ee7f18399e640f32f769d841a/drf-rehive-extras-1.0.6.tar.gz
+[2023-06-29 16:15:11] INFO root fetch - processPackages [nomic]: Downloading https://files.pythonhosted.org/packages/a4/cd/c2c73cbafaf41e21c2af0b7ec49edb793b1836c4baaa72e7acaddf9ab994/nomic-2.0.0.tar.gz
+[2023-06-29 16:15:11] INFO root fetch - processPackages [chrislab]: executing diffoscope
+[2023-06-29 16:15:11] INFO root fetch - processPackages [chrislab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chrislab-0.5.3.tar.gz tmp/chrislab-0.5.4.tar.gz --markdown 20230629/c/chrislab/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-29 16:15:11] INFO root fetch - processPackages [robusta-cli]: executing diffoscope
+[2023-06-29 16:15:11] INFO root fetch - processPackages [robusta-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robusta-cli-0.9.7.tar.gz tmp/robusta-cli-0.9.9.tar.gz --markdown 20230629/r/robusta-cli/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-06-29 16:15:11] INFO root fetch - processPackages [gdash]: executing diffoscope
+[2023-06-29 16:15:11] INFO root fetch - processPackages [gdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdash-1.1.5.tar.gz tmp/gdash-1.1.6.tar.gz --markdown 20230629/g/gdash/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-29 16:15:11] INFO root fetch - processPackages [drf-rehive-extras]: executing diffoscope
+[2023-06-29 16:15:11] INFO root fetch - processPackages [drf-rehive-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-rehive-extras-1.0.5.tar.gz tmp/drf-rehive-extras-1.0.6.tar.gz --markdown 20230629/d/drf-rehive-extras/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-29 16:15:11] INFO root fetch - processPackages [nomic]: executing diffoscope
+[2023-06-29 16:15:11] INFO root fetch - processPackages [nomic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomic-1.1.9.tar.gz tmp/nomic-2.0.0.tar.gz --markdown 20230629/n/nomic/1.1.9-2.0.0/diff.md --exclude *.pyd
+[2023-06-29 16:15:11] INFO root fetch - processPackages [topasgraphsim]: Downloading https://files.pythonhosted.org/packages/f9/a5/bc30b02ca4a681b2de22418db8fd5ecf30cd289280088a7520bf8a44d42a/topasgraphsim-9.0.tar.gz
+[2023-06-29 16:15:12] INFO root fetch - processPackages [topasgraphsim]: executing diffoscope
+[2023-06-29 16:15:12] INFO root fetch - processPackages [topasgraphsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/topasgraphsim-8.1.tar.gz tmp/topasgraphsim-9.0.tar.gz --markdown 20230629/t/topasgraphsim/8.1-9.0/diff.md --exclude *.pyd
+[2023-06-29 16:15:12] INFO root fetch - processPackages [fca-algorithms-cpp]: Remove: archive file [/home/abi/fetcher/tmp/fca_algorithms_cpp-0.1.1-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-06-29 16:15:12] INFO root fetch - processPackages [fca-algorithms-cpp]: Remove: archive file [/home/abi/fetcher/tmp/fca_algorithms_cpp-0.1.2-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-06-29 16:15:12] INFO root fetch - main [MainThread]: End processing [fca-algorithms-cpp]: success
+[2023-06-29 16:15:12] INFO root fetch - processPackages [pylsat]: Remove: archive file [/home/abi/fetcher/tmp/pylsat-0.1.tar.gz]
+[2023-06-29 16:15:12] INFO root fetch - processPackages [pylsat]: Remove: archive file [/home/abi/fetcher/tmp/pylsat-0.2.tar.gz]
+[2023-06-29 16:15:12] INFO root fetch - main [MainThread]: End processing [pylsat]: success
+[2023-06-29 16:15:13] INFO root fetch - processPackages [drf-rehive-extras]: Remove: archive file [/home/abi/fetcher/tmp/drf-rehive-extras-1.0.5.tar.gz]
+[2023-06-29 16:15:13] INFO root fetch - processPackages [drf-rehive-extras]: Remove: archive file [/home/abi/fetcher/tmp/drf-rehive-extras-1.0.6.tar.gz]
+[2023-06-29 16:15:13] INFO root fetch - main [MainThread]: End processing [drf-rehive-extras]: success
+[2023-06-29 16:15:13] INFO root fetch - processPackages [chrislab]: Remove: archive file [/home/abi/fetcher/tmp/chrislab-0.5.3.tar.gz]
+[2023-06-29 16:15:13] INFO root fetch - processPackages [chrislab]: Remove: archive file [/home/abi/fetcher/tmp/chrislab-0.5.4.tar.gz]
+[2023-06-29 16:15:13] INFO root fetch - main [MainThread]: End processing [chrislab]: success
+[2023-06-29 16:15:13] INFO root fetch - processPackages [nomic]: Remove: archive file [/home/abi/fetcher/tmp/nomic-1.1.9.tar.gz]
+[2023-06-29 16:15:13] INFO root fetch - processPackages [nomic]: Remove: archive file [/home/abi/fetcher/tmp/nomic-2.0.0.tar.gz]
+[2023-06-29 16:15:13] INFO root fetch - main [MainThread]: End processing [nomic]: success
+[2023-06-29 16:15:13] INFO root fetch - processPackages [robusta-cli]: Remove: archive file [/home/abi/fetcher/tmp/robusta-cli-0.9.7.tar.gz]
+[2023-06-29 16:15:13] INFO root fetch - processPackages [robusta-cli]: Remove: archive file [/home/abi/fetcher/tmp/robusta-cli-0.9.9.tar.gz]
+[2023-06-29 16:15:13] INFO root fetch - main [MainThread]: End processing [robusta-cli]: success
+[2023-06-29 16:15:13] INFO root fetch - processPackages [topasgraphsim]: Remove: archive file [/home/abi/fetcher/tmp/topasgraphsim-8.1.tar.gz]
+[2023-06-29 16:15:13] INFO root fetch - processPackages [topasgraphsim]: Remove: archive file [/home/abi/fetcher/tmp/topasgraphsim-9.0.tar.gz]
+[2023-06-29 16:15:13] INFO root fetch - main [MainThread]: End processing [topasgraphsim]: success
+[2023-06-29 16:15:14] INFO root fetch - processPackages [gdash]: Remove: archive file [/home/abi/fetcher/tmp/gdash-1.1.5.tar.gz]
+[2023-06-29 16:15:14] INFO root fetch - processPackages [gdash]: Remove: archive file [/home/abi/fetcher/tmp/gdash-1.1.6.tar.gz]
+[2023-06-29 16:15:14] INFO root fetch - main [MainThread]: End processing [gdash]: success
+[2023-06-29 16:15:22] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.8.tar.gz]
+[2023-06-29 16:15:22] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.9.tar.gz]
+[2023-06-29 16:15:22] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-29 16:15:22] INFO root fetch - main [MainThread]: Store serial: [18696224]
