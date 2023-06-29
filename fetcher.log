@@ -12388,3 +12388,184 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 15:58:04] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.344.0.tar.gz]
 [2023-06-29 15:58:04] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-06-29 15:58:04] INFO root fetch - main [MainThread]: Store serial: [18695954]
+[2023-06-29 16:03:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18695954]
+[2023-06-29 16:03:13] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-29 16:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hubrdvmairie
+[2023-06-29 16:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: policyengine-us
+[2023-06-29 16:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jac-misc
+[2023-06-29 16:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jac-speech
+[2023-06-29 16:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jac-nlp
+[2023-06-29 16:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jac-vision
+[2023-06-29 16:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jaseci
+[2023-06-29 16:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bring-order
+[2023-06-29 16:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ag-llama-api
+[2023-06-29 16:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: StarRailGPS
+[2023-06-29 16:03:14] INFO root fetch - processPackages [jac-misc]: New version: [1.4.1.2] Old Version: [1.4.1.1]
+[2023-06-29 16:03:14] INFO root fetch - processPackages [StarRailGPS]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-29 16:03:14] INFO root fetch - processPackages [jac-nlp]: New version: [1.4.1.2] Old Version: [1.4.1.1]
+[2023-06-29 16:03:14] INFO root fetch - processPackages [jaseci]: New version: [1.4.1.2] Old Version: [1.4.1.1]
+[2023-06-29 16:03:14] INFO root fetch - processPackages [hubrdvmairie]: New version: [2.8.1] Old Version: [2.8.0]
+[2023-06-29 16:03:14] INFO root fetch - processPackages [ag-llama-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-29 16:03:14] INFO root fetch - processPackages [jac-speech]: New version: [1.4.1.2] Old Version: [1.4.1.1]
+[2023-06-29 16:03:14] INFO root fetch - processPackages [bring-order]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-29 16:03:14] INFO root fetch - processPackages [jac-vision]: New version: [1.4.1.2] Old Version: [1.4.1.1]
+[2023-06-29 16:03:14] INFO root fetch - processPackages [policyengine-us]: New version: [0.345.0] Old Version: [0.344.0]
+[2023-06-29 16:03:14] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/d0/f7/10f19c26f23f6e259afdf48216e0a6345c3b4cb2b4d8e6d2ae1ece4471ea/ag_llama_api-0.0.6.tar.gz
+[2023-06-29 16:03:14] INFO root fetch - processPackages [jac-nlp]: Downloading https://files.pythonhosted.org/packages/6a/77/baf9de4b72783a333cc76f036468d82750ae9dfd6c3a352bd21df81efa98/jac_nlp-1.4.1.1.tar.gz
+[2023-06-29 16:03:14] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/56/5e/f9dd80a2f2851f0a48cf4590af857588587314ef5b4d05ffe2eb979dc72c/policyengine-us-0.344.0.tar.gz
+[2023-06-29 16:03:14] INFO root fetch - processPackages [jac-vision]: Downloading https://files.pythonhosted.org/packages/3d/15/46bceaf353224eb2f8d9c62649a21c7f1536964b7eec4ebfab41bab22013/jac_vision-1.4.1.1.tar.gz
+[2023-06-29 16:03:14] INFO root fetch - processPackages [bring-order]: Downloading https://files.pythonhosted.org/packages/c3/f9/6b14eb325e341e2c8ea2e7f773a1db3ff09b0c6b531543ea94052a7de7c1/bring_order-0.3.1.tar.gz
+[2023-06-29 16:03:14] INFO root fetch - processPackages [hubrdvmairie]: Downloading https://files.pythonhosted.org/packages/03/57/b2c1285fbc1b9e624ca7879aa3c8c00be5e5eaab369b48015104ce78dd7d/hubrdvmairie-2.8.0.tar.gz
+[2023-06-29 16:03:14] INFO root fetch - processPackages [jac-misc]: Downloading https://files.pythonhosted.org/packages/18/37/6ebeb2eff55d73958011e929ad86bba8fcd7caefa7b3ac5ccbd8add19ec1/jac_misc-1.4.1.1.tar.gz
+[2023-06-29 16:03:14] INFO root fetch - processPackages [jac-speech]: Downloading https://files.pythonhosted.org/packages/c0/21/3ff74bb07740d96807cb86fad8160b205b85c56a93d909fcc1406e5f4a5f/jac_speech-1.4.1.1.tar.gz
+[2023-06-29 16:03:14] INFO root fetch - processPackages [jaseci]: Downloading https://files.pythonhosted.org/packages/c3/36/bd0fcc54bf64880f8aaa3365a7887b1812bebdbe40e3493c6870727d0d8c/jaseci-1.4.1.1.tar.gz
+[2023-06-29 16:03:14] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/53/9a/ecfd643d2fa6cfedadd5a03884a2f01da418f193680d913d2b613dc05167/ag_llama_api-0.0.7.tar.gz
+[2023-06-29 16:03:14] INFO root fetch - processPackages [StarRailGPS]: Downloading https://files.pythonhosted.org/packages/44/1d/83a0eccd18fdda60441817a3a559b244c492f5c6ca1b9ab4d7d0d1a609ff/StarRailGPS-1.0.0.tar.gz
+[2023-06-29 16:03:14] INFO root fetch - processPackages [ag-llama-api]: executing diffoscope
+[2023-06-29 16:03:14] INFO root fetch - processPackages [ag-llama-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_api-0.0.6.tar.gz tmp/ag_llama_api-0.0.7.tar.gz --markdown 20230629/a/ag-llama-api/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-29 16:03:14] INFO root fetch - processPackages [bring-order]: Downloading https://files.pythonhosted.org/packages/6d/3d/dcf98004f21f13e37cd4c341c9e5ad69a1430bb40949b916aec103670ecd/bring_order-0.3.2.tar.gz
+[2023-06-29 16:03:14] INFO root fetch - processPackages [jac-vision]: Downloading https://files.pythonhosted.org/packages/36/2e/8863462211a0cd9b3320cf4f04d6c482973f71c4695f690fe5c6fd046166/jac_vision-1.4.1.2.tar.gz
+[2023-06-29 16:03:14] INFO root fetch - processPackages [jac-nlp]: Downloading https://files.pythonhosted.org/packages/2f/81/aadf53f9c48501ef8cd61379313f246381dad99b085a0cc16514d61bb387/jac_nlp-1.4.1.2.tar.gz
+[2023-06-29 16:03:14] INFO root fetch - processPackages [jac-speech]: Downloading https://files.pythonhosted.org/packages/e1/80/e488905347e519a744353e9674c6a33632c99c66d62e1a517bd373cfb302/jac_speech-1.4.1.2.tar.gz
+[2023-06-29 16:03:14] WARNING root fetch - processPackages [StarRailGPS]: Skipping package: exceeds size limit 14024067>=10485760
+[2023-06-29 16:03:14] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/5c/bb/b7b1351db3ccb8f97704c4211028cfeb65441c034cc9ec8a7340ca1bb55e/policyengine-us-0.345.0.tar.gz
+[2023-06-29 16:03:14] INFO root fetch - processPackages [StarRailGPS]: Start processing: cloci
+[2023-06-29 16:03:14] INFO root fetch - main [MainThread]: End processing [StarRailGPS] error
+[2023-06-29 16:03:14] INFO root fetch - processPackages [hubrdvmairie]: Downloading https://files.pythonhosted.org/packages/43/eb/2cc6c18bad489a469f034efea0c0f86994234ab048618b080650519efcc8/hubrdvmairie-2.8.1.tar.gz
+[2023-06-29 16:03:14] INFO root fetch - processPackages [jaseci]: Downloading https://files.pythonhosted.org/packages/5f/15/ea41ddac13938504a05ea6f8740f100b1e964a38b53e2bf2a2daf873678a/jaseci-1.4.1.2.tar.gz
+[2023-06-29 16:03:14] INFO root fetch - processPackages [cloci]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 16:03:14] INFO root fetch - processPackages [jac-misc]: Downloading https://files.pythonhosted.org/packages/ea/d0/eafa037f51a96fb381f975c4aaa0f28bee613b486daa25525bd62edb6da5/jac_misc-1.4.1.2.tar.gz
+[2023-06-29 16:03:14] INFO root fetch - processPackages [bring-order]: executing diffoscope
+[2023-06-29 16:03:14] INFO root fetch - processPackages [bring-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bring_order-0.3.1.tar.gz tmp/bring_order-0.3.2.tar.gz --markdown 20230629/b/bring-order/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-29 16:03:14] INFO root fetch - processPackages [jac-vision]: executing diffoscope
+[2023-06-29 16:03:14] INFO root fetch - processPackages [jac-vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jac_vision-1.4.1.1.tar.gz tmp/jac_vision-1.4.1.2.tar.gz --markdown 20230629/j/jac-vision/1.4.1.1-1.4.1.2/diff.md --exclude *.pyd
+[2023-06-29 16:03:14] INFO root fetch - processPackages [jac-nlp]: executing diffoscope
+[2023-06-29 16:03:14] INFO root fetch - processPackages [jac-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jac_nlp-1.4.1.1.tar.gz tmp/jac_nlp-1.4.1.2.tar.gz --markdown 20230629/j/jac-nlp/1.4.1.1-1.4.1.2/diff.md --exclude *.pyd
+[2023-06-29 16:03:14] INFO root fetch - processPackages [jac-speech]: executing diffoscope
+[2023-06-29 16:03:14] INFO root fetch - processPackages [jac-speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jac_speech-1.4.1.1.tar.gz tmp/jac_speech-1.4.1.2.tar.gz --markdown 20230629/j/jac-speech/1.4.1.1-1.4.1.2/diff.md --exclude *.pyd
+[2023-06-29 16:03:14] INFO root fetch - processPackages [jac-misc]: executing diffoscope
+[2023-06-29 16:03:14] INFO root fetch - processPackages [jac-misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jac_misc-1.4.1.1.tar.gz tmp/jac_misc-1.4.1.2.tar.gz --markdown 20230629/j/jac-misc/1.4.1.1-1.4.1.2/diff.md --exclude *.pyd
+[2023-06-29 16:03:14] INFO root fetch - processPackages [cloci]: Downloading https://files.pythonhosted.org/packages/d8/b5/9e088a183a7e0a762c35174699f2161dabb9e17ea822799f49415d0a6e7f/cloci-0.0.8.tar.gz
+[2023-06-29 16:03:14] INFO root fetch - processPackages [hubrdvmairie]: executing diffoscope
+[2023-06-29 16:03:14] INFO root fetch - processPackages [hubrdvmairie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubrdvmairie-2.8.0.tar.gz tmp/hubrdvmairie-2.8.1.tar.gz --markdown 20230629/h/hubrdvmairie/2.8.0-2.8.1/diff.md --exclude *.pyd
+[2023-06-29 16:03:14] INFO root fetch - processPackages [jaseci]: executing diffoscope
+[2023-06-29 16:03:14] INFO root fetch - processPackages [jaseci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaseci-1.4.1.1.tar.gz tmp/jaseci-1.4.1.2.tar.gz --markdown 20230629/j/jaseci/1.4.1.1-1.4.1.2/diff.md --exclude *.pyd
+[2023-06-29 16:03:15] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-06-29 16:03:15] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.344.0.tar.gz tmp/policyengine-us-0.345.0.tar.gz --markdown 20230629/p/policyengine-us/0.344.0-0.345.0/diff.md --exclude *.pyd
+[2023-06-29 16:03:15] INFO root fetch - processPackages [cloci]: Downloading https://files.pythonhosted.org/packages/b3/30/534091a16ad6fbdec08d920b15429451ad66c4c803b1cf9f58035160bc7b/cloci-0.0.9.tar.gz
+[2023-06-29 16:03:15] INFO root fetch - processPackages [cloci]: executing diffoscope
+[2023-06-29 16:03:15] INFO root fetch - processPackages [cloci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloci-0.0.8.tar.gz tmp/cloci-0.0.9.tar.gz --markdown 20230629/c/cloci/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 16:03:16] INFO root fetch - processPackages [jac-speech]: Remove: archive file [/home/abi/fetcher/tmp/jac_speech-1.4.1.1.tar.gz]
+[2023-06-29 16:03:16] INFO root fetch - processPackages [jac-speech]: Remove: archive file [/home/abi/fetcher/tmp/jac_speech-1.4.1.2.tar.gz]
+[2023-06-29 16:03:16] INFO root fetch - processPackages [jac-speech]: Start processing: bfgcardplay
+[2023-06-29 16:03:16] INFO root fetch - main [MainThread]: End processing [jac-speech]: success
+[2023-06-29 16:03:16] INFO root fetch - processPackages [bfgcardplay]: New version: [1.0.7] Old Version: [1.0.5]
+[2023-06-29 16:03:16] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.6.tar.gz]
+[2023-06-29 16:03:16] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.7.tar.gz]
+[2023-06-29 16:03:16] INFO root fetch - processPackages [ag-llama-api]: Start processing: resgen-python
+[2023-06-29 16:03:16] INFO root fetch - main [MainThread]: End processing [ag-llama-api]: success
+[2023-06-29 16:03:16] INFO root fetch - processPackages [jac-vision]: Remove: archive file [/home/abi/fetcher/tmp/jac_vision-1.4.1.1.tar.gz]
+[2023-06-29 16:03:16] INFO root fetch - processPackages [jac-vision]: Remove: archive file [/home/abi/fetcher/tmp/jac_vision-1.4.1.2.tar.gz]
+[2023-06-29 16:03:16] INFO root fetch - processPackages [jac-vision]: Start processing: jaseci-serv
+[2023-06-29 16:03:16] INFO root fetch - main [MainThread]: End processing [jac-vision]: success
+[2023-06-29 16:03:16] INFO root fetch - processPackages [bfgcardplay]: Downloading https://files.pythonhosted.org/packages/46/35/dd22707a5ec7596fc41bb05a15380a52ed5ee77cf61cd10b0cbf6366a8a9/bfgcardplay-1.0.5.tar.gz
+[2023-06-29 16:03:16] INFO root fetch - processPackages [resgen-python]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-06-29 16:03:16] INFO root fetch - processPackages [jaseci-serv]: New version: [1.4.1.2] Old Version: [1.4.1.1]
+[2023-06-29 16:03:16] INFO root fetch - processPackages [jac-misc]: Remove: archive file [/home/abi/fetcher/tmp/jac_misc-1.4.1.1.tar.gz]
+[2023-06-29 16:03:16] INFO root fetch - processPackages [jac-misc]: Remove: archive file [/home/abi/fetcher/tmp/jac_misc-1.4.1.2.tar.gz]
+[2023-06-29 16:03:16] INFO root fetch - processPackages [jac-misc]: Start processing: verifai
+[2023-06-29 16:03:16] INFO root fetch - main [MainThread]: End processing [jac-misc]: success
+[2023-06-29 16:03:16] INFO root fetch - processPackages [resgen-python]: Downloading https://files.pythonhosted.org/packages/64/24/ad6f3c9cb186fa001e257e6959dba46a4271bdaa1c2b8cf4dd85586b0591/resgen-python-0.5.4.tar.gz
+[2023-06-29 16:03:16] INFO root fetch - processPackages [bring-order]: Remove: archive file [/home/abi/fetcher/tmp/bring_order-0.3.1.tar.gz]
+[2023-06-29 16:03:16] INFO root fetch - processPackages [bring-order]: Remove: archive file [/home/abi/fetcher/tmp/bring_order-0.3.2.tar.gz]
+[2023-06-29 16:03:16] INFO root fetch - processPackages [bring-order]: Start processing: zenroom
+[2023-06-29 16:03:16] INFO root fetch - main [MainThread]: End processing [bring-order]: success
+[2023-06-29 16:03:16] INFO root fetch - processPackages [jaseci-serv]: Downloading https://files.pythonhosted.org/packages/44/69/532f06bfcbd0727c55652c44d89e8481e35fc2655be6dc8c3d564aea9c4a/jaseci_serv-1.4.1.1.tar.gz
+[2023-06-29 16:03:16] INFO root fetch - processPackages [zenroom]: New version: [3.7.2] Old Version: [3.7.1]
+[2023-06-29 16:03:16] INFO root fetch - processPackages [bfgcardplay]: Downloading https://files.pythonhosted.org/packages/be/de/12f84b5d97dd275d301cf4ad2e461bea0a43c5370212737b4b8eac27b7ab/bfgcardplay-1.0.7.tar.gz
+[2023-06-29 16:03:16] INFO root fetch - processPackages [verifai]: New version: [2.1.0b1] Old Version: [2.1.0]
+[2023-06-29 16:03:16] INFO root fetch - processPackages [zenroom]: Downloading https://files.pythonhosted.org/packages/79/4e/14b9e99fd2e1cf6e0836c9058eba86b4cf88793456045b9206678ba8deaa/zenroom-3.7.1.tar.gz
+[2023-06-29 16:03:16] INFO root fetch - processPackages [cloci]: Remove: archive file [/home/abi/fetcher/tmp/cloci-0.0.8.tar.gz]
+[2023-06-29 16:03:16] INFO root fetch - processPackages [cloci]: Remove: archive file [/home/abi/fetcher/tmp/cloci-0.0.9.tar.gz]
+[2023-06-29 16:03:16] INFO root fetch - processPackages [cloci]: Start processing: oester
+[2023-06-29 16:03:16] INFO root fetch - main [MainThread]: End processing [cloci]: success
+[2023-06-29 16:03:16] WARNING root fetch - processPackages [zenroom]: Skipping package: exceeds size limit 25653652>=10485760
+[2023-06-29 16:03:16] INFO root fetch - processPackages [zenroom]: Start processing: featurelayers
+[2023-06-29 16:03:16] INFO root fetch - main [MainThread]: End processing [zenroom] error
+[2023-06-29 16:03:16] INFO root fetch - processPackages [bfgcardplay]: executing diffoscope
+[2023-06-29 16:03:16] INFO root fetch - processPackages [bfgcardplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bfgcardplay-1.0.5.tar.gz tmp/bfgcardplay-1.0.7.tar.gz --markdown 20230629/b/bfgcardplay/1.0.5-1.0.7/diff.md --exclude *.pyd
+[2023-06-29 16:03:16] INFO root fetch - processPackages [resgen-python]: Downloading https://files.pythonhosted.org/packages/30/29/d5b6f4af0eca9b7461d8934145aec01933b9b6665acaada8254c5ad0bfa2/resgen-python-0.5.5.tar.gz
+[2023-06-29 16:03:16] INFO root fetch - processPackages [featurelayers]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-06-29 16:03:16] INFO root fetch - processPackages [verifai]: Downloading https://files.pythonhosted.org/packages/81/29/850353cb6c48f09f3f36e77b18a75a4b597c055b940b94f86faf77221519/verifai-2.1.0.tar.gz
+[2023-06-29 16:03:16] WARNING root fetch - processPackages [oester]: Skipping, unable to determine old version
+[2023-06-29 16:03:16] INFO root fetch - processPackages [oester]: Start processing: idun-mock
+[2023-06-29 16:03:16] INFO root fetch - main [MainThread]: End processing [oester] error
+[2023-06-29 16:03:16] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/d7/d3/0671bfc8a83552abc2e3b0b8c5d3df08a2e933e87c4c1b3c729d30bb758e/featurelayers-1.5.2.tar.gz
+[2023-06-29 16:03:16] INFO root fetch - processPackages [hubrdvmairie]: Remove: archive file [/home/abi/fetcher/tmp/hubrdvmairie-2.8.0.tar.gz]
+[2023-06-29 16:03:16] INFO root fetch - processPackages [hubrdvmairie]: Remove: archive file [/home/abi/fetcher/tmp/hubrdvmairie-2.8.1.tar.gz]
+[2023-06-29 16:03:16] INFO root fetch - processPackages [hubrdvmairie]: Start processing: magic-scissors
+[2023-06-29 16:03:16] INFO root fetch - main [MainThread]: End processing [hubrdvmairie]: success
+[2023-06-29 16:03:16] INFO root fetch - processPackages [resgen-python]: executing diffoscope
+[2023-06-29 16:03:16] INFO root fetch - processPackages [resgen-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resgen-python-0.5.4.tar.gz tmp/resgen-python-0.5.5.tar.gz --markdown 20230629/r/resgen-python/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-06-29 16:03:16] INFO root fetch - processPackages [jaseci-serv]: Downloading https://files.pythonhosted.org/packages/00/b4/e49c51e1dbc38cb7f461b569c0f6c0775fa8c977295a958fa3acc23ae0b1/jaseci_serv-1.4.1.2.tar.gz
+[2023-06-29 16:03:16] INFO root fetch - processPackages [jac-nlp]: Remove: archive file [/home/abi/fetcher/tmp/jac_nlp-1.4.1.1.tar.gz]
+[2023-06-29 16:03:16] INFO root fetch - processPackages [jac-nlp]: Remove: archive file [/home/abi/fetcher/tmp/jac_nlp-1.4.1.2.tar.gz]
+[2023-06-29 16:03:16] INFO root fetch - processPackages [jac-nlp]: Start processing: featurelayers
+[2023-06-29 16:03:16] INFO root fetch - main [MainThread]: End processing [jac-nlp]: success
+[2023-06-29 16:03:16] INFO root fetch - processPackages [idun-mock]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-29 16:03:16] INFO root fetch - processPackages [featurelayers]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-06-29 16:03:16] WARNING root fetch - processPackages [magic-scissors]: Skipping, unable to determine old version
+[2023-06-29 16:03:16] INFO root fetch - processPackages [magic-scissors]: Start processing: InterpretME
+[2023-06-29 16:03:16] INFO root fetch - main [MainThread]: End processing [magic-scissors] error
+[2023-06-29 16:03:16] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/cb/0f/b1fc1c1918a0a5056272aa23bf2653c02361ada08e8865489e96a9b5af1f/featurelayers-1.5.3.tar.gz
+[2023-06-29 16:03:17] INFO root fetch - processPackages [jaseci-serv]: executing diffoscope
+[2023-06-29 16:03:17] INFO root fetch - processPackages [jaseci-serv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaseci_serv-1.4.1.1.tar.gz tmp/jaseci_serv-1.4.1.2.tar.gz --markdown 20230629/j/jaseci-serv/1.4.1.1-1.4.1.2/diff.md --exclude *.pyd
+[2023-06-29 16:03:17] INFO root fetch - processPackages [featurelayers]: executing diffoscope
+[2023-06-29 16:03:17] INFO root fetch - processPackages [featurelayers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurelayers-1.5.2.tar.gz tmp/featurelayers-1.5.3.tar.gz --markdown 20230629/f/featurelayers/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-06-29 16:03:17] INFO root fetch - processPackages [verifai]: Downloading https://files.pythonhosted.org/packages/06/db/0da34e4aee230c5102fe4772f419bc5634e5a4c7424578b612ad7d986e7f/verifai-2.1.0b1.tar.gz
+[2023-06-29 16:03:17] INFO root fetch - processPackages [idun-mock]: Downloading https://files.pythonhosted.org/packages/64/39/b664bf9fa6f5053e393ac81e477bb102d0b55b50336d407d3cd52aecc336/idun_mock-0.1.2.tar.gz
+[2023-06-29 16:03:17] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/6b/99/74c3188df94b22517f7ba63060b4f9723cbcceb9726b83a4a0d107831877/featurelayers-1.5.4.tar.gz
+[2023-06-29 16:03:17] INFO root fetch - processPackages [InterpretME]: New version: [1.3.0] Old Version: [1.2.2]
+[2023-06-29 16:03:17] INFO root fetch - processPackages [verifai]: executing diffoscope
+[2023-06-29 16:03:17] INFO root fetch - processPackages [verifai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verifai-2.1.0.tar.gz tmp/verifai-2.1.0b1.tar.gz --markdown 20230629/v/verifai/2.1.0-2.1.0b1/diff.md --exclude *.pyd
+[2023-06-29 16:03:17] INFO root fetch - processPackages [InterpretME]: Downloading https://files.pythonhosted.org/packages/96/54/c70f0c7178efcd2f326efd5bc5ac30c1aeb11d0288fde7ccb6f0fe67c3f8/InterpretME-1.2.2.tar.gz
+[2023-06-29 16:03:17] INFO root fetch - processPackages [idun-mock]: Downloading https://files.pythonhosted.org/packages/ed/af/5e343f8e8958304109e4260ab4b868b5b26c852baf1d91acc7a058f449da/idun_mock-0.1.3.tar.gz
+[2023-06-29 16:03:17] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/c5/75/03048ab045255800204c14986e76146dd9524348f66b3da38f33c4560e8f/featurelayers-1.5.5.tar.gz
+[2023-06-29 16:03:17] INFO root fetch - processPackages [jaseci]: Remove: archive file [/home/abi/fetcher/tmp/jaseci-1.4.1.1.tar.gz]
+[2023-06-29 16:03:17] INFO root fetch - processPackages [jaseci]: Remove: archive file [/home/abi/fetcher/tmp/jaseci-1.4.1.2.tar.gz]
+[2023-06-29 16:03:17] INFO root fetch - main [MainThread]: End processing [jaseci]: success
+[2023-06-29 16:03:17] INFO root fetch - processPackages [idun-mock]: executing diffoscope
+[2023-06-29 16:03:17] INFO root fetch - processPackages [idun-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idun_mock-0.1.2.tar.gz tmp/idun_mock-0.1.3.tar.gz --markdown 20230629/i/idun-mock/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-29 16:03:17] INFO root fetch - processPackages [featurelayers]: executing diffoscope
+[2023-06-29 16:03:17] INFO root fetch - processPackages [featurelayers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurelayers-1.5.4.tar.gz tmp/featurelayers-1.5.5.tar.gz --markdown 20230629/f/featurelayers/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-06-29 16:03:17] INFO root fetch - processPackages [InterpretME]: Downloading https://files.pythonhosted.org/packages/d7/33/2278c8a266567e2fde134d5cf76c9d8438a2999caa9ab32d3ff56f6ff4df/InterpretME-1.3.0.tar.gz
+[2023-06-29 16:03:17] INFO root fetch - processPackages [InterpretME]: executing diffoscope
+[2023-06-29 16:03:17] INFO root fetch - processPackages [InterpretME]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InterpretME-1.2.2.tar.gz tmp/InterpretME-1.3.0.tar.gz --markdown 20230629/I/InterpretME/1.2.2-1.3.0/diff.md --exclude *.pyd
+[2023-06-29 16:03:18] INFO root fetch - processPackages [resgen-python]: Remove: archive file [/home/abi/fetcher/tmp/resgen-python-0.5.4.tar.gz]
+[2023-06-29 16:03:18] INFO root fetch - processPackages [resgen-python]: Remove: archive file [/home/abi/fetcher/tmp/resgen-python-0.5.5.tar.gz]
+[2023-06-29 16:03:18] INFO root fetch - main [MainThread]: End processing [resgen-python]: success
+[2023-06-29 16:03:18] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.5.2.tar.gz]
+[2023-06-29 16:03:18] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.5.3.tar.gz]
+[2023-06-29 16:03:18] INFO root fetch - main [MainThread]: End processing [featurelayers]: success
+[2023-06-29 16:03:18] INFO root fetch - processPackages [idun-mock]: Remove: archive file [/home/abi/fetcher/tmp/idun_mock-0.1.2.tar.gz]
+[2023-06-29 16:03:18] INFO root fetch - processPackages [idun-mock]: Remove: archive file [/home/abi/fetcher/tmp/idun_mock-0.1.3.tar.gz]
+[2023-06-29 16:03:18] INFO root fetch - main [MainThread]: End processing [idun-mock]: success
+[2023-06-29 16:03:18] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.5.4.tar.gz]
+[2023-06-29 16:03:18] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.5.5.tar.gz]
+[2023-06-29 16:03:18] INFO root fetch - main [MainThread]: End processing [featurelayers]: success
+[2023-06-29 16:03:18] INFO root fetch - processPackages [verifai]: Remove: archive file [/home/abi/fetcher/tmp/verifai-2.1.0.tar.gz]
+[2023-06-29 16:03:18] INFO root fetch - processPackages [verifai]: Remove: archive file [/home/abi/fetcher/tmp/verifai-2.1.0b1.tar.gz]
+[2023-06-29 16:03:18] INFO root fetch - main [MainThread]: End processing [verifai]: success
+[2023-06-29 16:03:19] INFO root fetch - processPackages [bfgcardplay]: Remove: archive file [/home/abi/fetcher/tmp/bfgcardplay-1.0.5.tar.gz]
+[2023-06-29 16:03:19] INFO root fetch - processPackages [bfgcardplay]: Remove: archive file [/home/abi/fetcher/tmp/bfgcardplay-1.0.7.tar.gz]
+[2023-06-29 16:03:19] INFO root fetch - main [MainThread]: End processing [bfgcardplay]: success
+[2023-06-29 16:03:19] INFO root fetch - processPackages [jaseci-serv]: Remove: archive file [/home/abi/fetcher/tmp/jaseci_serv-1.4.1.1.tar.gz]
+[2023-06-29 16:03:19] INFO root fetch - processPackages [jaseci-serv]: Remove: archive file [/home/abi/fetcher/tmp/jaseci_serv-1.4.1.2.tar.gz]
+[2023-06-29 16:03:19] INFO root fetch - main [MainThread]: End processing [jaseci-serv]: success
+[2023-06-29 16:03:20] INFO root fetch - processPackages [InterpretME]: Remove: archive file [/home/abi/fetcher/tmp/InterpretME-1.2.2.tar.gz]
+[2023-06-29 16:03:20] INFO root fetch - processPackages [InterpretME]: Remove: archive file [/home/abi/fetcher/tmp/InterpretME-1.3.0.tar.gz]
+[2023-06-29 16:03:20] INFO root fetch - main [MainThread]: End processing [InterpretME]: success
+[2023-06-29 16:04:40] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.344.0.tar.gz]
+[2023-06-29 16:04:40] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.345.0.tar.gz]
+[2023-06-29 16:04:40] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-06-29 16:04:40] INFO root fetch - main [MainThread]: Store serial: [18696056]
