@@ -18968,3 +18968,68 @@ AssertionError: tmp/live_parquet-0.2.0.tar.gz does not exist
 [2023-06-29 19:46:24] INFO root fetch - processPackages [microprobe-doc]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_doc-0.5.20230629114852-py2.py3-none-any.whl.zip]
 [2023-06-29 19:46:24] INFO root fetch - main [MainThread]: End processing [microprobe-doc]: success
 [2023-06-29 19:46:24] INFO root fetch - main [MainThread]: Store serial: [18698792]
+[2023-06-29 19:51:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18698792]
+[2023-06-29 19:51:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-29 19:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfish
+[2023-06-29 19:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seaplane
+[2023-06-29 19:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: isea-plots
+[2023-06-29 19:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plutous-trade-crypto
+[2023-06-29 19:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pimms
+[2023-06-29 19:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: okonomiyaki
+[2023-06-29 19:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ezelf
+[2023-06-29 19:51:35] INFO root fetch - processPackages [seaplane]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-29 19:51:35] INFO root fetch - processPackages [isea-plots]: New version: [0.2] Old Version: [0.1]
+[2023-06-29 19:51:35] INFO root fetch - processPackages [ezelf]: New version: [0.0.9] Old Version: [0.0.6]
+[2023-06-29 19:51:35] INFO root fetch - processPackages [pimms]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-29 19:51:35] INFO root fetch - processPackages [okonomiyaki]: New version: [1.4.0] Old Version: [1.3.2]
+[2023-06-29 19:51:35] INFO root fetch - processPackages [plutous-trade-crypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 19:51:35] INFO root fetch - processPackages [kfish]: New version: [99.0.202306291746] Old Version: [99.0.202306291346]
+[2023-06-29 19:51:35] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/e7/61/c864ce95e15abf9ad2a76809ae1db8bd46564cb3bfcf2cf7b76a1221faf8/seaplane-0.3.8.tar.gz
+[2023-06-29 19:51:35] INFO root fetch - processPackages [isea-plots]: Downloading https://files.pythonhosted.org/packages/a9/eb/ac352f968a4fa14ed99730268c103345d0c34f78b6bd5fc7a65c78f3e800/isea_plots-0.1.tar.gz
+[2023-06-29 19:51:35] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/e3/db/d32a1544d7f944ad8af411383551ea4aa42adfdd0f238ff44a5a3edaa00e/plutous_trade_crypto-0.0.8.tar.gz
+[2023-06-29 19:51:35] INFO root fetch - processPackages [okonomiyaki]: Downloading https://files.pythonhosted.org/packages/82/b7/9823f3b7d828624ded9085fbbe58509a3adafa491b171e692cf0feec725c/okonomiyaki-1.3.2.tar.gz
+[2023-06-29 19:51:35] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c7/00/b987c3ca466e52080b8b0f84eafb98173f0e6be7003ca67a4fac027f5a89/kfish-99.0.202306291346-py3-none-any.whl
+[2023-06-29 19:51:35] INFO root fetch - processPackages [pimms]: Downloading https://files.pythonhosted.org/packages/35/24/3513a6e98f185a78713f9142bc54c588c5eb8a1e3f1a4dbc9ce32634119c/pimms-0.3.8.tar.gz
+[2023-06-29 19:51:35] INFO root fetch - processPackages [ezelf]: Downloading https://files.pythonhosted.org/packages/f5/a6/1f71cfd5d956aec36c85b5235586cb8b316ba31a6a0ad812e8cded3e4fec/ezelf-0.0.9.tar.gz
+[2023-06-29 19:51:35] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/f7/af/2f29681bd0dce058b9d26f46481537dde0fcdbe0e5d6d80d9e4622dc52b8/seaplane-0.3.9.tar.gz
+[2023-06-29 19:51:35] INFO root fetch - processPackages [isea-plots]: Downloading https://files.pythonhosted.org/packages/ef/be/6de6ab370a6de00c6fa5422bd18c57dd8708d8f8a35fa597f6bc7c392204/isea_plots-0.2.tar.gz
+[2023-06-29 19:51:35] INFO root fetch - processPackages [okonomiyaki]: Downloading https://files.pythonhosted.org/packages/fe/b6/d935853ab77612a2056ecea6227ffc6f699fba86e5860e4c163382b3e367/okonomiyaki-1.4.0.tar.gz
+[2023-06-29 19:51:35] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/b4/a4/200ca398a36203e8bd51a034e50c51963506316cbf5e7a47866700accaee/plutous_trade_crypto-0.0.9.tar.gz
+[2023-06-29 19:51:35] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-06-29 19:51:35] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.3.8.tar.gz tmp/seaplane-0.3.9.tar.gz --markdown 20230629/s/seaplane/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-29 19:51:35] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c0/51/7195499c7c402c34e3cbcc33107315db124d10b3bd4c38770bbf4dced241/kfish-99.0.202306291746-py3-none-any.whl
+[2023-06-29 19:51:35] INFO root fetch - processPackages [ezelf]: executing diffoscope
+[2023-06-29 19:51:35] INFO root fetch - processPackages [ezelf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezelf-0.0.6.tar.gz tmp/ezelf-0.0.9.tar.gz --markdown 20230629/e/ezelf/0.0.6-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 19:51:35] INFO root fetch - processPackages [plutous-trade-crypto]: executing diffoscope
+[2023-06-29 19:51:35] INFO root fetch - processPackages [plutous-trade-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade_crypto-0.0.8.tar.gz tmp/plutous_trade_crypto-0.0.9.tar.gz --markdown 20230629/p/plutous-trade-crypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 19:51:35] INFO root fetch - processPackages [isea-plots]: executing diffoscope
+[2023-06-29 19:51:35] INFO root fetch - processPackages [isea-plots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isea_plots-0.1.tar.gz tmp/isea_plots-0.2.tar.gz --markdown 20230629/i/isea-plots/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-29 19:51:35] INFO root fetch - processPackages [pimms]: Downloading https://files.pythonhosted.org/packages/98/98/f63ebf80a8b47f8e9161110176334620f086593c1766c5cb698da54b3291/pimms-0.3.9.tar.gz
+[2023-06-29 19:51:36] INFO root fetch - processPackages [okonomiyaki]: executing diffoscope
+[2023-06-29 19:51:36] INFO root fetch - processPackages [okonomiyaki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/okonomiyaki-1.3.2.tar.gz tmp/okonomiyaki-1.4.0.tar.gz --markdown 20230629/o/okonomiyaki/1.3.2-1.4.0/diff.md --exclude *.pyd
+[2023-06-29 19:51:36] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-29 19:51:36] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306291346-py3-none-any.whl.zip tmp/kfish-99.0.202306291746-py3-none-any.whl.zip --markdown 20230629/k/kfish/99.0.202306291346-99.0.202306291746/diff.md --exclude *.pyd
+[2023-06-29 19:51:36] INFO root fetch - processPackages [pimms]: executing diffoscope
+[2023-06-29 19:51:36] INFO root fetch - processPackages [pimms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pimms-0.3.8.tar.gz tmp/pimms-0.3.9.tar.gz --markdown 20230629/p/pimms/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-29 19:51:37] INFO root fetch - processPackages [ezelf]: Remove: archive file [/home/abi/fetcher/tmp/ezelf-0.0.6.tar.gz]
+[2023-06-29 19:51:37] INFO root fetch - processPackages [ezelf]: Remove: archive file [/home/abi/fetcher/tmp/ezelf-0.0.9.tar.gz]
+[2023-06-29 19:51:37] INFO root fetch - main [MainThread]: End processing [ezelf]: success
+[2023-06-29 19:51:37] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306291346-py3-none-any.whl.zip]
+[2023-06-29 19:51:37] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306291746-py3-none-any.whl.zip]
+[2023-06-29 19:51:37] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-29 19:51:37] INFO root fetch - processPackages [isea-plots]: Remove: archive file [/home/abi/fetcher/tmp/isea_plots-0.1.tar.gz]
+[2023-06-29 19:51:37] INFO root fetch - processPackages [isea-plots]: Remove: archive file [/home/abi/fetcher/tmp/isea_plots-0.2.tar.gz]
+[2023-06-29 19:51:37] INFO root fetch - main [MainThread]: End processing [isea-plots]: success
+[2023-06-29 19:51:37] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.8.tar.gz]
+[2023-06-29 19:51:37] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.9.tar.gz]
+[2023-06-29 19:51:37] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-06-29 19:51:37] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.8.tar.gz]
+[2023-06-29 19:51:37] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.9.tar.gz]
+[2023-06-29 19:51:37] INFO root fetch - main [MainThread]: End processing [plutous-trade-crypto]: success
+[2023-06-29 19:51:37] INFO root fetch - processPackages [pimms]: Remove: archive file [/home/abi/fetcher/tmp/pimms-0.3.8.tar.gz]
+[2023-06-29 19:51:37] INFO root fetch - processPackages [pimms]: Remove: archive file [/home/abi/fetcher/tmp/pimms-0.3.9.tar.gz]
+[2023-06-29 19:51:37] INFO root fetch - main [MainThread]: End processing [pimms]: success
+[2023-06-29 19:51:39] INFO root fetch - processPackages [okonomiyaki]: Remove: archive file [/home/abi/fetcher/tmp/okonomiyaki-1.3.2.tar.gz]
+[2023-06-29 19:51:39] INFO root fetch - processPackages [okonomiyaki]: Remove: archive file [/home/abi/fetcher/tmp/okonomiyaki-1.4.0.tar.gz]
+[2023-06-29 19:51:39] INFO root fetch - main [MainThread]: End processing [okonomiyaki]: success
+[2023-06-29 19:51:39] INFO root fetch - main [MainThread]: Store serial: [18698811]
