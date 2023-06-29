@@ -7358,3 +7358,126 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 12:47:20] INFO root fetch - processPackages [krillscan]: Remove: archive file [/home/abi/fetcher/tmp/krillscan-0.2.9.tar.gz]
 [2023-06-29 12:47:20] INFO root fetch - main [MainThread]: End processing [krillscan]: success
 [2023-06-29 12:47:20] INFO root fetch - main [MainThread]: Store serial: [18693785]
+[2023-06-29 12:52:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18693785]
+[2023-06-29 12:52:29] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-29 12:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: packg
+[2023-06-29 12:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: animeworld
+[2023-06-29 12:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: featurelayers
+[2023-06-29 12:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aisdc
+[2023-06-29 12:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fold-core
+[2023-06-29 12:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: krillscan
+[2023-06-29 12:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nics
+[2023-06-29 12:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autonomy-dev
+[2023-06-29 12:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: resize-icon
+[2023-06-29 12:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: snapchat-dlp
+[2023-06-29 12:52:29] INFO root fetch - processPackages [packg]: New version: [0.2.15] Old Version: [0.2.14]
+[2023-06-29 12:52:29] INFO root fetch - processPackages [featurelayers]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-06-29 12:52:29] INFO root fetch - processPackages [krillscan]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-29 12:52:29] INFO root fetch - processPackages [aisdc]: New version: [1.0.5.post1] Old Version: [1.0.5]
+[2023-06-29 12:52:30] INFO root fetch - processPackages [snapchat-dlp]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-06-29 12:52:30] INFO root fetch - processPackages [fold-core]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-29 12:52:30] INFO root fetch - processPackages [resize-icon]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-29 12:52:30] INFO root fetch - processPackages [nics]: New version: [1.0.0rc3] Old Version: [1.0.0rc2]
+[2023-06-29 12:52:30] INFO root fetch - processPackages [animeworld]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-06-29 12:52:30] INFO root fetch - processPackages [autonomy-dev]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-29 12:52:30] INFO root fetch - processPackages [snapchat-dlp]: Downloading https://files.pythonhosted.org/packages/ee/d8/10ac85ef6e7a2b86eb716f0d5f7b02bfaceafc07fd3294d1287ce8f2f814/snapchat-dlp-1.5.8.tar.gz
+[2023-06-29 12:52:30] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/2f/b9/fbf5087ba812891c3c7886c484c75215bec8d7a8ebf178ec411009996ab9/nics-1.0.0rc2.tar.gz
+[2023-06-29 12:52:30] INFO root fetch - processPackages [krillscan]: Downloading https://files.pythonhosted.org/packages/07/72/938c229df50a90a1c9cd0d6bac0b84269d4bb34a164b5ccf61d2e9cb5c88/krillscan-0.2.8.tar.gz
+[2023-06-29 12:52:30] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/7c/36/a7f73b991b4a8cb618a8491296a8c747b24af708ccbbf1f11be8738cbe6d/packg-0.2.14.tar.gz
+[2023-06-29 12:52:30] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/d7/d3/0671bfc8a83552abc2e3b0b8c5d3df08a2e933e87c4c1b3c729d30bb758e/featurelayers-1.5.2.tar.gz
+[2023-06-29 12:52:30] INFO root fetch - processPackages [aisdc]: Downloading https://files.pythonhosted.org/packages/d6/61/8d85c1b2efc760824d99ff7a468006a4bc04ccb5057b15c8a8b68d449ebb/aisdc-1.0.5.tar.gz
+[2023-06-29 12:52:30] INFO root fetch - processPackages [fold-core]: Downloading https://files.pythonhosted.org/packages/44/18/bc73f3c1de83b997e0fc9d242c5361bbaff7d11093f05f5611c0807fb970/fold_core-0.1.8.tar.gz
+[2023-06-29 12:52:30] INFO root fetch - processPackages [resize-icon]: Downloading https://files.pythonhosted.org/packages/e8/8d/38f1f18438443a6e0adcb2c811bcf07e7552dcb243b8a4bb4bc05d822de2/resize_icon-0.1.0.tar.gz
+[2023-06-29 12:52:30] INFO root fetch - processPackages [snapchat-dlp]: Downloading https://files.pythonhosted.org/packages/db/10/ea5dbac94753fb56fdac4e3e9f4a7d86dbc7b0028b9fd874a9596cf51cde/snapchat-dlp-1.5.9.tar.gz
+[2023-06-29 12:52:30] INFO root fetch - processPackages [animeworld]: Downloading https://files.pythonhosted.org/packages/17/b0/053069a901850f5d9ab8d33ebfd0165735617ec201a5273c2c53edea6030/animeworld-1.6.0.tar.gz
+[2023-06-29 12:52:30] INFO root fetch - processPackages [autonomy-dev]: Downloading https://files.pythonhosted.org/packages/74/42/b935611a5bfa419a33465f9d5f68639f890dd705bd847a64c9911e1e6998/autonomy_dev-0.1.9.tar.gz
+[2023-06-29 12:52:30] INFO root fetch - processPackages [snapchat-dlp]: executing diffoscope
+[2023-06-29 12:52:30] INFO root fetch - processPackages [snapchat-dlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snapchat-dlp-1.5.8.tar.gz tmp/snapchat-dlp-1.5.9.tar.gz --markdown 20230629/s/snapchat-dlp/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-06-29 12:52:30] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/c7/b7/1216cb5d7c61ed35f81ef46bd22f788bdc54bccdb47da8c0c0d8f7718207/nics-1.0.0rc3.tar.gz
+[2023-06-29 12:52:30] INFO root fetch - processPackages [krillscan]: Downloading https://files.pythonhosted.org/packages/b5/55/35d651f1351d7c94b597bb11783e2e9faccafaf74fd7bf2aff59c4711d5f/krillscan-0.2.9.tar.gz
+[2023-06-29 12:52:30] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/f8/00/3dfe3603722db1877c4ab2b8eea36a268e725098797865fb7376c27014d3/packg-0.2.15.tar.gz
+[2023-06-29 12:52:30] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/cb/0f/b1fc1c1918a0a5056272aa23bf2653c02361ada08e8865489e96a9b5af1f/featurelayers-1.5.3.tar.gz
+[2023-06-29 12:52:30] INFO root fetch - processPackages [aisdc]: Downloading https://files.pythonhosted.org/packages/91/e0/c3dcf6ffc4b4f83de6920d7f23113f6bae6bd646e650ee15cfdfd61bb3c2/aisdc-1.0.5.post1.tar.gz
+[2023-06-29 12:52:30] INFO root fetch - processPackages [resize-icon]: Downloading https://files.pythonhosted.org/packages/01/37/bee70cde83c4f0464fee28971c3fe38e3b5e28ac20ffddc61d12bf54fc4f/resize_icon-0.1.1.tar.gz
+[2023-06-29 12:52:30] INFO root fetch - processPackages [featurelayers]: executing diffoscope
+[2023-06-29 12:52:30] INFO root fetch - processPackages [featurelayers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurelayers-1.5.2.tar.gz tmp/featurelayers-1.5.3.tar.gz --markdown 20230629/f/featurelayers/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-06-29 12:52:30] INFO root fetch - processPackages [packg]: executing diffoscope
+[2023-06-29 12:52:30] INFO root fetch - processPackages [packg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packg-0.2.14.tar.gz tmp/packg-0.2.15.tar.gz --markdown 20230629/p/packg/0.2.14-0.2.15/diff.md --exclude *.pyd
+[2023-06-29 12:52:30] INFO root fetch - processPackages [krillscan]: executing diffoscope
+[2023-06-29 12:52:30] INFO root fetch - processPackages [krillscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krillscan-0.2.8.tar.gz tmp/krillscan-0.2.9.tar.gz --markdown 20230629/k/krillscan/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-29 12:52:30] INFO root fetch - processPackages [autonomy-dev]: Downloading https://files.pythonhosted.org/packages/ba/18/c3947dffef956cecc70c81dccb07e715ecabe156b5d80ef901b68ee0f40e/autonomy_dev-0.2.0.tar.gz
+[2023-06-29 12:52:30] INFO root fetch - processPackages [animeworld]: Downloading https://files.pythonhosted.org/packages/7a/e5/b102310d2bc556a5c8ecbce5062fbe93c382887d3a0db40b978ab5a2a637/animeworld-1.6.1.tar.gz
+[2023-06-29 12:52:30] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-06-29 12:52:30] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-1.0.0rc2.tar.gz tmp/nics-1.0.0rc3.tar.gz --markdown 20230629/n/nics/1.0.0rc2-1.0.0rc3/diff.md --exclude *.pyd
+[2023-06-29 12:52:30] INFO root fetch - processPackages [aisdc]: executing diffoscope
+[2023-06-29 12:52:30] INFO root fetch - processPackages [aisdc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aisdc-1.0.5.tar.gz tmp/aisdc-1.0.5.post1.tar.gz --markdown 20230629/a/aisdc/1.0.5-1.0.5.post1/diff.md --exclude *.pyd
+[2023-06-29 12:52:30] INFO root fetch - processPackages [resize-icon]: executing diffoscope
+[2023-06-29 12:52:30] INFO root fetch - processPackages [resize-icon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resize_icon-0.1.0.tar.gz tmp/resize_icon-0.1.1.tar.gz --markdown 20230629/r/resize-icon/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-29 12:52:30] INFO root fetch - processPackages [animeworld]: executing diffoscope
+[2023-06-29 12:52:30] INFO root fetch - processPackages [animeworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/animeworld-1.6.0.tar.gz tmp/animeworld-1.6.1.tar.gz --markdown 20230629/a/animeworld/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-06-29 12:52:30] INFO root fetch - processPackages [autonomy-dev]: executing diffoscope
+[2023-06-29 12:52:30] INFO root fetch - processPackages [autonomy-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autonomy_dev-0.1.9.tar.gz tmp/autonomy_dev-0.2.0.tar.gz --markdown 20230629/a/autonomy-dev/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-29 12:52:30] INFO root fetch - processPackages [fold-core]: Downloading https://files.pythonhosted.org/packages/4c/61/bcc8188c56b484555b95092095cb807d6da4dfe82949419fb97327a0f83e/fold_core-0.1.9.tar.gz
+[2023-06-29 12:52:30] INFO root fetch - processPackages [fold-core]: executing diffoscope
+[2023-06-29 12:52:30] INFO root fetch - processPackages [fold-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fold_core-0.1.8.tar.gz tmp/fold_core-0.1.9.tar.gz --markdown 20230629/f/fold-core/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-29 12:52:32] INFO root fetch - processPackages [resize-icon]: Remove: archive file [/home/abi/fetcher/tmp/resize_icon-0.1.0.tar.gz]
+[2023-06-29 12:52:32] INFO root fetch - processPackages [resize-icon]: Remove: archive file [/home/abi/fetcher/tmp/resize_icon-0.1.1.tar.gz]
+[2023-06-29 12:52:32] INFO root fetch - processPackages [resize-icon]: Start processing: dank-mids
+[2023-06-29 12:52:32] INFO root fetch - main [MainThread]: End processing [resize-icon]: success
+[2023-06-29 12:52:32] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-29 12:52:32] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-29 12:52:32] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.5.2.tar.gz]
+[2023-06-29 12:52:32] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.5.3.tar.gz]
+[2023-06-29 12:52:32] INFO root fetch - processPackages [featurelayers]: Start processing: odoo14-addon-stock-picking-volume-packaging
+[2023-06-29 12:52:32] INFO root fetch - main [MainThread]: End processing [featurelayers]: success
+[2023-06-29 12:52:32] WARNING root fetch - processPackages [odoo14-addon-stock-picking-volume-packaging]: Skipping, unable to determine old version
+[2023-06-29 12:52:32] INFO root fetch - processPackages [odoo14-addon-stock-picking-volume-packaging]: Start processing: peak-mas
+[2023-06-29 12:52:32] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-picking-volume-packaging] error
+[2023-06-29 12:52:32] INFO root fetch - processPackages [autonomy-dev]: Remove: archive file [/home/abi/fetcher/tmp/autonomy_dev-0.1.9.tar.gz]
+[2023-06-29 12:52:32] INFO root fetch - processPackages [autonomy-dev]: Remove: archive file [/home/abi/fetcher/tmp/autonomy_dev-0.2.0.tar.gz]
+[2023-06-29 12:52:32] INFO root fetch - processPackages [autonomy-dev]: Start processing: warpzone-sdk
+[2023-06-29 12:52:32] INFO root fetch - main [MainThread]: End processing [autonomy-dev]: success
+[2023-06-29 12:52:32] INFO root fetch - processPackages [aisdc]: Remove: archive file [/home/abi/fetcher/tmp/aisdc-1.0.5.tar.gz]
+[2023-06-29 12:52:32] INFO root fetch - processPackages [aisdc]: Remove: archive file [/home/abi/fetcher/tmp/aisdc-1.0.5.post1.tar.gz]
+[2023-06-29 12:52:32] INFO root fetch - main [MainThread]: End processing [aisdc]: success
+[2023-06-29 12:52:32] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-29 12:52:32] INFO root fetch - processPackages [peak-mas]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-29 12:52:32] INFO root fetch - processPackages [warpzone-sdk]: New version: [8.0.0] Old Version: [7.0.1]
+[2023-06-29 12:52:32] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-1.0.0rc2.tar.gz]
+[2023-06-29 12:52:32] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-1.0.0rc3.tar.gz]
+[2023-06-29 12:52:32] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-06-29 12:52:32] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-29 12:52:32] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230629/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-29 12:52:32] INFO root fetch - processPackages [snapchat-dlp]: Remove: archive file [/home/abi/fetcher/tmp/snapchat-dlp-1.5.8.tar.gz]
+[2023-06-29 12:52:32] INFO root fetch - processPackages [snapchat-dlp]: Remove: archive file [/home/abi/fetcher/tmp/snapchat-dlp-1.5.9.tar.gz]
+[2023-06-29 12:52:32] INFO root fetch - main [MainThread]: End processing [snapchat-dlp]: success
+[2023-06-29 12:52:32] INFO root fetch - processPackages [animeworld]: Remove: archive file [/home/abi/fetcher/tmp/animeworld-1.6.0.tar.gz]
+[2023-06-29 12:52:32] INFO root fetch - processPackages [animeworld]: Remove: archive file [/home/abi/fetcher/tmp/animeworld-1.6.1.tar.gz]
+[2023-06-29 12:52:32] INFO root fetch - main [MainThread]: End processing [animeworld]: success
+[2023-06-29 12:52:32] INFO root fetch - processPackages [peak-mas]: Downloading https://files.pythonhosted.org/packages/70/ab/3a4e64e5f55f47b690b71dac36cdba9354e75e89d312ec9dc725f8e3a550/peak-mas-1.0.8.tar.gz
+[2023-06-29 12:52:32] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/af/70/613c4279f23fba75c4e047e63aa95927e95d683fd7d3ce006d56783d0e0e/warpzone_sdk-7.0.1.tar.gz
+[2023-06-29 12:52:32] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.2.14.tar.gz]
+[2023-06-29 12:52:32] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.2.15.tar.gz]
+[2023-06-29 12:52:32] INFO root fetch - main [MainThread]: End processing [packg]: success
+[2023-06-29 12:52:32] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/b5/ef/beb8b6b586e26436e2435c378cab84396f599476150d97eee1390cf85f8e/warpzone_sdk-8.0.0.tar.gz
+[2023-06-29 12:52:32] INFO root fetch - processPackages [peak-mas]: Downloading https://files.pythonhosted.org/packages/76/48/bb15b15f3377d5d857859ffcaada7efc11e56867abff8aa939406927daa9/peak-mas-1.0.9.tar.gz
+[2023-06-29 12:52:33] INFO root fetch - processPackages [peak-mas]: executing diffoscope
+[2023-06-29 12:52:33] INFO root fetch - processPackages [peak-mas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peak-mas-1.0.8.tar.gz tmp/peak-mas-1.0.9.tar.gz --markdown 20230629/p/peak-mas/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-29 12:52:33] INFO root fetch - processPackages [warpzone-sdk]: executing diffoscope
+[2023-06-29 12:52:33] INFO root fetch - processPackages [warpzone-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warpzone_sdk-7.0.1.tar.gz tmp/warpzone_sdk-8.0.0.tar.gz --markdown 20230629/w/warpzone-sdk/7.0.1-8.0.0/diff.md --exclude *.pyd
+[2023-06-29 12:52:33] INFO root fetch - processPackages [fold-core]: Remove: archive file [/home/abi/fetcher/tmp/fold_core-0.1.8.tar.gz]
+[2023-06-29 12:52:33] INFO root fetch - processPackages [fold-core]: Remove: archive file [/home/abi/fetcher/tmp/fold_core-0.1.9.tar.gz]
+[2023-06-29 12:52:33] INFO root fetch - main [MainThread]: End processing [fold-core]: success
+[2023-06-29 12:52:33] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-29 12:52:33] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-29 12:52:33] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-29 12:52:33] INFO root fetch - processPackages [krillscan]: Remove: archive file [/home/abi/fetcher/tmp/krillscan-0.2.8.tar.gz]
+[2023-06-29 12:52:33] INFO root fetch - processPackages [krillscan]: Remove: archive file [/home/abi/fetcher/tmp/krillscan-0.2.9.tar.gz]
+[2023-06-29 12:52:33] INFO root fetch - main [MainThread]: End processing [krillscan]: success
+[2023-06-29 12:52:34] INFO root fetch - processPackages [peak-mas]: Remove: archive file [/home/abi/fetcher/tmp/peak-mas-1.0.8.tar.gz]
+[2023-06-29 12:52:34] INFO root fetch - processPackages [peak-mas]: Remove: archive file [/home/abi/fetcher/tmp/peak-mas-1.0.9.tar.gz]
+[2023-06-29 12:52:34] INFO root fetch - main [MainThread]: End processing [peak-mas]: success
+[2023-06-29 12:52:34] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-7.0.1.tar.gz]
+[2023-06-29 12:52:34] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-8.0.0.tar.gz]
+[2023-06-29 12:52:34] INFO root fetch - main [MainThread]: End processing [warpzone-sdk]: success
+[2023-06-29 12:52:34] INFO root fetch - main [MainThread]: Store serial: [18693828]
