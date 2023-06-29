@@ -1887,3 +1887,199 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-29 09:45:29] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-parsl-26.0.0a20230500.tar.gz]
 [2023-06-29 09:45:29] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-parsl]: success
 [2023-06-29 09:45:29] INFO root fetch - main [MainThread]: Store serial: [18691595]
+[2023-06-29 09:50:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18691595]
+[2023-06-29 09:50:38] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-29 09:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cognite-power-ops
+[2023-06-29 09:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lsst-resources
+[2023-06-29 09:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-cas-sso
+[2023-06-29 09:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lsst-ctrl-bps
+[2023-06-29 09:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvidia-pytriton
+[2023-06-29 09:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: auto-eval
+[2023-06-29 09:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: daktari
+[2023-06-29 09:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lsst-daf-relation
+[2023-06-29 09:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: notion2md
+[2023-06-29 09:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tap-intacct
+[2023-06-29 09:50:38] INFO root fetch - processPackages [django-cas-sso]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-06-29 09:50:38] INFO root fetch - processPackages [lsst-ctrl-bps]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-29 09:50:38] INFO root fetch - processPackages [lsst-resources]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-29 09:50:38] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-29 09:50:38] INFO root fetch - processPackages [auto-eval]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-29 09:50:38] INFO root fetch - processPackages [nvidia-pytriton]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-29 09:50:38] INFO root fetch - processPackages [notion2md]: New version: [2.8.3] Old Version: [2.8.2]
+[2023-06-29 09:50:38] INFO root fetch - processPackages [daktari]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-29 09:50:38] INFO root fetch - processPackages [lsst-daf-relation]: New version: [1.0.0a20230500] Old Version: [1.0.0a20230400]
+[2023-06-29 09:50:38] INFO root fetch - processPackages [tap-intacct]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-29 09:50:38] INFO root fetch - processPackages [django-cas-sso]: Downloading https://files.pythonhosted.org/packages/46/4d/ee2fe0cd9f129a4eab2d4478b634fa9ff230444e5290f9e21d5157c495e8/django-cas-sso-1.2.7.tar.gz
+[2023-06-29 09:50:38] INFO root fetch - processPackages [tap-intacct]: Downloading https://files.pythonhosted.org/packages/60/02/de4a4038221e2045eb086d0a3b41fbb820dfb0fffe03b9124effb3ba7b71/tap-intacct-1.0.1.tar.gz
+[2023-06-29 09:50:38] INFO root fetch - processPackages [auto-eval]: Downloading https://files.pythonhosted.org/packages/95/90/1e5c544aae78dd1197a3c7fddf9512686e309d4ef6710adc8aeb38d0edf5/auto-eval-0.2.7.tar.gz
+[2023-06-29 09:50:38] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/2b/ea/c056f5562fa0bed4321b21572bba15a2f43f6f9795d20397ee822d00d6af/cognite_power_ops-0.9.1.tar.gz
+[2023-06-29 09:50:38] INFO root fetch - processPackages [nvidia-pytriton]: Downloading https://files.pythonhosted.org/packages/63/21/eaa90fd72be57bd984bcd7e9009bf24bfc28758176cd9feca4cd03c53ad6/nvidia_pytriton-0.2.0-py3-none-manylinux_2_31_x86_64.whl
+[2023-06-29 09:50:38] INFO root fetch - processPackages [lsst-daf-relation]: Downloading https://files.pythonhosted.org/packages/cf/ba/39bf44ae9e7557239b4e75ccc2395eff1e08c3015340be39cd798f07fb37/lsst-daf-relation-1.0.0a20230400.tar.gz
+[2023-06-29 09:50:38] INFO root fetch - processPackages [lsst-resources]: Downloading https://files.pythonhosted.org/packages/52/45/0dcc92ba8f25516fe59b89e0b4b6425fc82775a8f89d22382ac6ff4365d5/lsst-resources-26.0.0a20230400.tar.gz
+[2023-06-29 09:50:38] INFO root fetch - processPackages [notion2md]: Downloading https://files.pythonhosted.org/packages/7d/cd/a5f92542e4b9476df0836697fa0e4146a94ee01f6d45754e31cb7d8ed97a/notion2md-2.8.2.tar.gz
+[2023-06-29 09:50:38] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/3f/25/dd5788122d831e91f7a5b6df98e8e2d65df587d64b2a7e8e703b9f85d293/lsst-ctrl-bps-26.0.0a20230400.tar.gz
+[2023-06-29 09:50:38] WARNING root fetch - processPackages [nvidia-pytriton]: Skipping package: exceeds size limit 37425424>=10485760
+[2023-06-29 09:50:38] INFO root fetch - processPackages [nvidia-pytriton]: Start processing: zavod
+[2023-06-29 09:50:38] INFO root fetch - main [MainThread]: End processing [nvidia-pytriton] error
+[2023-06-29 09:50:38] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/80/e2/e763e02669b3c5003eab9a1d3f23a8c11ddea7b9843baca75d4a3f67dfd1/daktari-0.0.98.tar.gz
+[2023-06-29 09:50:38] INFO root fetch - processPackages [zavod]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-29 09:50:39] INFO root fetch - processPackages [django-cas-sso]: Downloading https://files.pythonhosted.org/packages/55/5f/6afd1d0933005e49fd0ce0484a1638652934000559aa2f0d48581ad3faf4/django-cas-sso-1.2.8.tar.gz
+[2023-06-29 09:50:39] INFO root fetch - processPackages [tap-intacct]: Downloading https://files.pythonhosted.org/packages/cb/d7/8b558fa5bc47f10117d7ee24a9d29e980a17ba535f0a1ae950b79f19efe1/tap-intacct-1.0.2.tar.gz
+[2023-06-29 09:50:39] INFO root fetch - processPackages [notion2md]: Downloading https://files.pythonhosted.org/packages/ec/3f/4da0ac036642bbb98e01c449b5072147dc1e707a29705990a1758044cf81/notion2md-2.8.3.tar.gz
+[2023-06-29 09:50:39] INFO root fetch - processPackages [zavod]: Downloading https://files.pythonhosted.org/packages/31/b6/a45dbc2a346d7832e285d3aeefe91059e5c769caa96b6c277f9e51e9b4a3/zavod-0.7.0.tar.gz
+[2023-06-29 09:50:39] INFO root fetch - processPackages [lsst-resources]: Downloading https://files.pythonhosted.org/packages/a1/31/225778e738d8196a59aa0442a433f627643f68797e49472ba8e7b8594e59/lsst-resources-26.0.0a20230500.tar.gz
+[2023-06-29 09:50:39] INFO root fetch - processPackages [lsst-daf-relation]: Downloading https://files.pythonhosted.org/packages/5e/5f/8e71741c69e90c32fd13e64e116dae04c056109846e98b96beed49ce1d01/lsst-daf-relation-1.0.0a20230500.tar.gz
+[2023-06-29 09:50:39] INFO root fetch - processPackages [django-cas-sso]: executing diffoscope
+[2023-06-29 09:50:39] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/35/1f/9e7becfab4e84e6879ca6968ba9f3963734de77bebf086053003ea27839c/daktari-0.0.99.tar.gz
+[2023-06-29 09:50:39] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/5a/e7/e66818fdcb4e952516e36c68513139d425136901b019cc2b7ae48bfa3c12/cognite_power_ops-0.9.2.tar.gz
+[2023-06-29 09:50:39] INFO root fetch - processPackages [django-cas-sso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cas-sso-1.2.7.tar.gz tmp/django-cas-sso-1.2.8.tar.gz --markdown 20230629/d/django-cas-sso/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-06-29 09:50:39] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/74/ca/f9dbc4fb6958267f1ee9ce347a76bcb3d1dcb671ceaf427711055ab6c67c/lsst-ctrl-bps-26.0.0a20230500.tar.gz
+[2023-06-29 09:50:39] INFO root fetch - processPackages [tap-intacct]: executing diffoscope
+[2023-06-29 09:50:39] INFO root fetch - processPackages [tap-intacct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-intacct-1.0.1.tar.gz tmp/tap-intacct-1.0.2.tar.gz --markdown 20230629/t/tap-intacct/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-29 09:50:39] INFO root fetch - processPackages [notion2md]: executing diffoscope
+[2023-06-29 09:50:39] INFO root fetch - processPackages [notion2md]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion2md-2.8.2.tar.gz tmp/notion2md-2.8.3.tar.gz --markdown 20230629/n/notion2md/2.8.2-2.8.3/diff.md --exclude *.pyd
+[2023-06-29 09:50:39] INFO root fetch - processPackages [lsst-resources]: executing diffoscope
+[2023-06-29 09:50:39] INFO root fetch - processPackages [lsst-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-resources-26.0.0a20230400.tar.gz tmp/lsst-resources-26.0.0a20230500.tar.gz --markdown 20230629/l/lsst-resources/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-29 09:50:39] INFO root fetch - processPackages [auto-eval]: Downloading https://files.pythonhosted.org/packages/20/2f/f31329bf7d4f1af2658a58064953aae0166d8f444a8d368a8d1fc6d50ddc/auto-eval-0.2.8.tar.gz
+[2023-06-29 09:50:39] INFO root fetch - processPackages [daktari]: executing diffoscope
+[2023-06-29 09:50:39] INFO root fetch - processPackages [daktari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daktari-0.0.98.tar.gz tmp/daktari-0.0.99.tar.gz --markdown 20230629/d/daktari/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-29 09:50:39] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-06-29 09:50:39] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.9.1.tar.gz tmp/cognite_power_ops-0.9.2.tar.gz --markdown 20230629/c/cognite-power-ops/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-29 09:50:39] INFO root fetch - processPackages [lsst-daf-relation]: executing diffoscope
+[2023-06-29 09:50:39] INFO root fetch - processPackages [lsst-daf-relation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-daf-relation-1.0.0a20230400.tar.gz tmp/lsst-daf-relation-1.0.0a20230500.tar.gz --markdown 20230629/l/lsst-daf-relation/1.0.0a20230400-1.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-29 09:50:39] INFO root fetch - processPackages [lsst-ctrl-bps]: executing diffoscope
+[2023-06-29 09:50:39] INFO root fetch - processPackages [lsst-ctrl-bps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-26.0.0a20230500.tar.gz --markdown 20230629/l/lsst-ctrl-bps/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-29 09:50:39] INFO root fetch - processPackages [auto-eval]: executing diffoscope
+[2023-06-29 09:50:39] INFO root fetch - processPackages [auto-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-eval-0.2.7.tar.gz tmp/auto-eval-0.2.8.tar.gz --markdown 20230629/a/auto-eval/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-29 09:50:39] INFO root fetch - processPackages [zavod]: Downloading https://files.pythonhosted.org/packages/a3/6a/fdfba0eb66ec9d25c32c799775e6c327d6f67d8d89e0f1ebe7c4adefaf32/zavod-0.7.1.tar.gz
+[2023-06-29 09:50:39] INFO root fetch - processPackages [zavod]: executing diffoscope
+[2023-06-29 09:50:39] INFO root fetch - processPackages [zavod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zavod-0.7.0.tar.gz tmp/zavod-0.7.1.tar.gz --markdown 20230629/z/zavod/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-29 09:50:40] INFO root fetch - processPackages [tap-intacct]: Remove: archive file [/home/abi/fetcher/tmp/tap-intacct-1.0.1.tar.gz]
+[2023-06-29 09:50:40] INFO root fetch - processPackages [tap-intacct]: Remove: archive file [/home/abi/fetcher/tmp/tap-intacct-1.0.2.tar.gz]
+[2023-06-29 09:50:40] INFO root fetch - processPackages [tap-intacct]: Start processing: lsst-pipe-base
+[2023-06-29 09:50:40] INFO root fetch - main [MainThread]: End processing [tap-intacct]: success
+[2023-06-29 09:50:40] INFO root fetch - processPackages [lsst-pipe-base]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-29 09:50:40] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/4a/2a/d7e53c7284052c1d3edb447a5c44734c2eb2276c39ac6857f02d9a0e77d3/lsst-pipe-base-26.0.0a20230400.tar.gz
+[2023-06-29 09:50:40] INFO root fetch - processPackages [notion2md]: Remove: archive file [/home/abi/fetcher/tmp/notion2md-2.8.2.tar.gz]
+[2023-06-29 09:50:40] INFO root fetch - processPackages [notion2md]: Remove: archive file [/home/abi/fetcher/tmp/notion2md-2.8.3.tar.gz]
+[2023-06-29 09:50:40] INFO root fetch - processPackages [notion2md]: Start processing: th2-grpc-act-ssh
+[2023-06-29 09:50:40] INFO root fetch - main [MainThread]: End processing [notion2md]: success
+[2023-06-29 09:50:40] INFO root fetch - processPackages [th2-grpc-act-ssh]: New version: [2.0.0.dev5409734028] Old Version: [1.1.0.dev4144944287]
+[2023-06-29 09:50:41] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/43/b8/e01f76a3da14b328fd43a97c36653216b676c2f3b0fd8c71e30d4ff1132e/lsst-pipe-base-26.0.0a20230500.tar.gz
+[2023-06-29 09:50:41] INFO root fetch - processPackages [th2-grpc-act-ssh]: Downloading https://files.pythonhosted.org/packages/4b/78/c447d5e211f2eecf3f04369852563e60fa5dda0a6f36a238a972c4deff07/th2_grpc_act_ssh-1.1.0.dev4144944287.tar.gz
+[2023-06-29 09:50:41] INFO root fetch - processPackages [zavod]: Remove: archive file [/home/abi/fetcher/tmp/zavod-0.7.0.tar.gz]
+[2023-06-29 09:50:41] INFO root fetch - processPackages [zavod]: Remove: archive file [/home/abi/fetcher/tmp/zavod-0.7.1.tar.gz]
+[2023-06-29 09:50:41] INFO root fetch - processPackages [zavod]: Start processing: aof
+[2023-06-29 09:50:41] INFO root fetch - main [MainThread]: End processing [zavod]: success
+[2023-06-29 09:50:41] INFO root fetch - processPackages [lsst-pipe-base]: executing diffoscope
+[2023-06-29 09:50:41] INFO root fetch - processPackages [lsst-pipe-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-pipe-base-26.0.0a20230400.tar.gz tmp/lsst-pipe-base-26.0.0a20230500.tar.gz --markdown 20230629/l/lsst-pipe-base/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-29 09:50:41] INFO root fetch - processPackages [aof]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-29 09:50:41] INFO root fetch - processPackages [django-cas-sso]: Remove: archive file [/home/abi/fetcher/tmp/django-cas-sso-1.2.7.tar.gz]
+[2023-06-29 09:50:41] INFO root fetch - processPackages [django-cas-sso]: Remove: archive file [/home/abi/fetcher/tmp/django-cas-sso-1.2.8.tar.gz]
+[2023-06-29 09:50:41] INFO root fetch - processPackages [django-cas-sso]: Start processing: keras-nightly
+[2023-06-29 09:50:41] INFO root fetch - main [MainThread]: End processing [django-cas-sso]: success
+[2023-06-29 09:50:41] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-06-29 09:50:41] INFO root fetch - processPackages [aof]: Downloading https://files.pythonhosted.org/packages/d3/d2/5102e8b58f64a8fd4a6fb1f24670608877b2a4835d8cffb45ed912e369f2/aof-0.0.8.tar.gz
+[2023-06-29 09:50:41] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-06-29 09:50:41] INFO root fetch - processPackages [th2-grpc-act-ssh]: Downloading https://files.pythonhosted.org/packages/e7/7e/762f6ae24fcee76429b921e9b69c708bb5dbdacf3e2494fd89fc857d2e5b/th2_grpc_act_ssh-2.0.0.dev5409734028.tar.gz
+[2023-06-29 09:50:41] INFO root fetch - processPackages [auto-eval]: Remove: archive file [/home/abi/fetcher/tmp/auto-eval-0.2.7.tar.gz]
+[2023-06-29 09:50:41] INFO root fetch - processPackages [auto-eval]: Remove: archive file [/home/abi/fetcher/tmp/auto-eval-0.2.8.tar.gz]
+[2023-06-29 09:50:41] INFO root fetch - processPackages [auto-eval]: Start processing: lsst-ctrl-mpexec
+[2023-06-29 09:50:41] INFO root fetch - main [MainThread]: End processing [auto-eval]: success
+[2023-06-29 09:50:41] INFO root fetch - processPackages [lsst-ctrl-mpexec]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-29 09:50:41] INFO root fetch - processPackages [th2-grpc-act-ssh]: executing diffoscope
+[2023-06-29 09:50:41] INFO root fetch - processPackages [th2-grpc-act-ssh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_act_ssh-1.1.0.dev4144944287.tar.gz tmp/th2_grpc_act_ssh-2.0.0.dev5409734028.tar.gz --markdown 20230629/t/th2-grpc-act-ssh/1.1.0.dev4144944287-2.0.0.dev5409734028/diff.md --exclude *.pyd
+[2023-06-29 09:50:41] INFO root fetch - processPackages [aof]: Downloading https://files.pythonhosted.org/packages/e3/2b/dbe2d55fa01a8a44ec7266ddc2e3ab508ccb052a7e10a8a667fcebfa5f89/aof-0.0.9.tar.gz
+[2023-06-29 09:50:41] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-06-29 09:50:41] INFO root fetch - processPackages [lsst-resources]: Remove: archive file [/home/abi/fetcher/tmp/lsst-resources-26.0.0a20230400.tar.gz]
+[2023-06-29 09:50:41] INFO root fetch - processPackages [aof]: executing diffoscope
+[2023-06-29 09:50:41] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Downloading https://files.pythonhosted.org/packages/7d/95/1fd49d0ac8149861738d465629d14648e00335b6f27b60edea825d22869f/lsst-ctrl-mpexec-26.0.0a20230400.tar.gz
+[2023-06-29 09:50:41] INFO root fetch - processPackages [aof]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aof-0.0.8.tar.gz tmp/aof-0.0.9.tar.gz --markdown 20230629/a/aof/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-29 09:50:41] INFO root fetch - processPackages [lsst-resources]: Remove: archive file [/home/abi/fetcher/tmp/lsst-resources-26.0.0a20230500.tar.gz]
+[2023-06-29 09:50:41] INFO root fetch - processPackages [lsst-resources]: Start processing: linear-cli-ai
+[2023-06-29 09:50:41] INFO root fetch - main [MainThread]: End processing [lsst-resources]: success
+[2023-06-29 09:50:41] INFO root fetch - processPackages [linear-cli-ai]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-29 09:50:41] INFO root fetch - processPackages [lsst-ctrl-bps]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-26.0.0a20230400.tar.gz]
+[2023-06-29 09:50:41] INFO root fetch - processPackages [lsst-ctrl-bps]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-26.0.0a20230500.tar.gz]
+[2023-06-29 09:50:41] INFO root fetch - processPackages [lsst-ctrl-bps]: Start processing: lightdash-ops
+[2023-06-29 09:50:41] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps]: success
+[2023-06-29 09:50:41] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-06-29 09:50:41] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230629/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-06-29 09:50:41] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.1.tar.gz]
+[2023-06-29 09:50:41] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.2.tar.gz]
+[2023-06-29 09:50:41] INFO root fetch - processPackages [lightdash-ops]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-29 09:50:41] INFO root fetch - processPackages [cognite-power-ops]: Start processing: recurtx
+[2023-06-29 09:50:41] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-06-29 09:50:41] INFO root fetch - processPackages [recurtx]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-29 09:50:41] INFO root fetch - processPackages [linear-cli-ai]: Downloading https://files.pythonhosted.org/packages/67/50/d9a0b50a3f9b5b840b6c63fc9ded9d4cf33c9ce7bfbe179e85a695011412/linear_cli_ai-0.1.5.tar.gz
+[2023-06-29 09:50:41] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Downloading https://files.pythonhosted.org/packages/61/b7/81e5f821fadf907a5b8aba51baef7441e1a4b2d1899448ea4c15512f8b33/lsst-ctrl-mpexec-26.0.0a20230500.tar.gz
+[2023-06-29 09:50:42] INFO root fetch - processPackages [recurtx]: Downloading https://files.pythonhosted.org/packages/6f/11/496d8a890ad2eb6bb0406e88cc3dde4780b4d5ae84fa56b99d9e08d28708/recurtx-0.0.4.tar.gz
+[2023-06-29 09:50:42] INFO root fetch - processPackages [lightdash-ops]: Downloading https://files.pythonhosted.org/packages/be/1c/9f5ff9591661023aeab2ce84b9723d631a8356755eb774469dd4d7b920dd/lightdash_ops-0.1.0.tar.gz
+[2023-06-29 09:50:42] INFO root fetch - processPackages [lsst-ctrl-mpexec]: executing diffoscope
+[2023-06-29 09:50:42] INFO root fetch - processPackages [lsst-ctrl-mpexec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-mpexec-26.0.0a20230400.tar.gz tmp/lsst-ctrl-mpexec-26.0.0a20230500.tar.gz --markdown 20230629/l/lsst-ctrl-mpexec/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-29 09:50:42] INFO root fetch - processPackages [lsst-daf-relation]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-relation-1.0.0a20230400.tar.gz]
+[2023-06-29 09:50:42] INFO root fetch - processPackages [lsst-daf-relation]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-relation-1.0.0a20230500.tar.gz]
+[2023-06-29 09:50:42] INFO root fetch - processPackages [lsst-daf-relation]: Start processing: yplib
+[2023-06-29 09:50:42] INFO root fetch - main [MainThread]: End processing [lsst-daf-relation]: success
+[2023-06-29 09:50:42] INFO root fetch - processPackages [linear-cli-ai]: executing diffoscope
+[2023-06-29 09:50:42] INFO root fetch - processPackages [linear-cli-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linear_cli_ai-0.1.4.tar.gz tmp/linear_cli_ai-0.1.5.tar.gz --markdown 20230629/l/linear-cli-ai/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-29 09:50:42] INFO root fetch - processPackages [yplib]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-29 09:50:42] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.98.tar.gz]
+[2023-06-29 09:50:42] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.99.tar.gz]
+[2023-06-29 09:50:42] INFO root fetch - processPackages [daktari]: Start processing: mongeasy
+[2023-06-29 09:50:42] INFO root fetch - main [MainThread]: End processing [daktari]: success
+[2023-06-29 09:50:42] INFO root fetch - processPackages [mongeasy]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-29 09:50:42] INFO root fetch - processPackages [lightdash-ops]: Downloading https://files.pythonhosted.org/packages/88/68/f4e0dcb1eabb0a149daf3689e9512b89d1dc1ad0a7814cadd33ae663803d/lightdash_ops-0.1.1.tar.gz
+[2023-06-29 09:50:42] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/e9/3f/909315edd0799f1b894ebc605e65d7583d9641e114b242474da7fe615118/yplib-1.9.8.tar.gz
+[2023-06-29 09:50:42] INFO root fetch - processPackages [mongeasy]: Downloading https://files.pythonhosted.org/packages/aa/b0/c877eee371840962807ddcc5f37cfc5b0678a33c43f37660817be7641f0c/mongeasy-0.2.1.tar.gz
+[2023-06-29 09:50:42] INFO root fetch - processPackages [lightdash-ops]: executing diffoscope
+[2023-06-29 09:50:42] INFO root fetch - processPackages [lightdash-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightdash_ops-0.1.0.tar.gz tmp/lightdash_ops-0.1.1.tar.gz --markdown 20230629/l/lightdash-ops/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-29 09:50:42] INFO root fetch - processPackages [recurtx]: Downloading https://files.pythonhosted.org/packages/25/51/7425732e8ea7831301da640e0a3d9319d71627cfb5c8b3129c057f81976c/recurtx-0.0.5.tar.gz
+[2023-06-29 09:50:42] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/57/bc/d8ccd4c7810014c5436a1e6934284f87a446e21aa71492a05eb14157c958/yplib-1.9.9.tar.gz
+[2023-06-29 09:50:42] INFO root fetch - processPackages [recurtx]: executing diffoscope
+[2023-06-29 09:50:42] INFO root fetch - processPackages [recurtx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recurtx-0.0.4.tar.gz tmp/recurtx-0.0.5.tar.gz --markdown 20230629/r/recurtx/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-29 09:50:42] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-29 09:50:42] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.9.8.tar.gz tmp/yplib-1.9.9.tar.gz --markdown 20230629/y/yplib/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-29 09:50:42] INFO root fetch - processPackages [mongeasy]: Downloading https://files.pythonhosted.org/packages/30/7c/715553967869795bca7a04a127f28ddddb464b0578afb1577fbe00b85b3f/mongeasy-0.2.2.tar.gz
+[2023-06-29 09:50:42] INFO root fetch - processPackages [aof]: Remove: archive file [/home/abi/fetcher/tmp/aof-0.0.8.tar.gz]
+[2023-06-29 09:50:42] INFO root fetch - processPackages [aof]: Remove: archive file [/home/abi/fetcher/tmp/aof-0.0.9.tar.gz]
+[2023-06-29 09:50:42] INFO root fetch - processPackages [aof]: Start processing: lupin-grognard
+[2023-06-29 09:50:42] INFO root fetch - main [MainThread]: End processing [aof]: success
+[2023-06-29 09:50:42] INFO root fetch - processPackages [mongeasy]: executing diffoscope
+[2023-06-29 09:50:42] INFO root fetch - processPackages [mongeasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongeasy-0.2.1.tar.gz tmp/mongeasy-0.2.2.tar.gz --markdown 20230629/m/mongeasy/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-29 09:50:42] INFO root fetch - processPackages [lupin-grognard]: New version: [1.9.0] Old Version: [1.7.0]
+[2023-06-29 09:50:42] INFO root fetch - processPackages [th2-grpc-act-ssh]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_act_ssh-1.1.0.dev4144944287.tar.gz]
+[2023-06-29 09:50:42] INFO root fetch - processPackages [th2-grpc-act-ssh]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_act_ssh-2.0.0.dev5409734028.tar.gz]
+[2023-06-29 09:50:42] INFO root fetch - main [MainThread]: End processing [th2-grpc-act-ssh]: success
+[2023-06-29 09:50:43] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/26/b3/9a961658affd6954a57ec000b5ea89912c12beb41382bb262947475dfbd6/lupin-grognard-1.7.0.tar.gz
+[2023-06-29 09:50:43] INFO root fetch - processPackages [linear-cli-ai]: Remove: archive file [/home/abi/fetcher/tmp/linear_cli_ai-0.1.4.tar.gz]
+[2023-06-29 09:50:43] INFO root fetch - processPackages [linear-cli-ai]: Remove: archive file [/home/abi/fetcher/tmp/linear_cli_ai-0.1.5.tar.gz]
+[2023-06-29 09:50:43] INFO root fetch - main [MainThread]: End processing [linear-cli-ai]: success
+[2023-06-29 09:50:43] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/63/f4/2df11a5aed46a791c22609c2233d309499d655d76697dd2980b8e739d68b/lupin-grognard-1.9.0.tar.gz
+[2023-06-29 09:50:43] INFO root fetch - processPackages [lupin-grognard]: executing diffoscope
+[2023-06-29 09:50:43] INFO root fetch - processPackages [lupin-grognard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-grognard-1.7.0.tar.gz tmp/lupin-grognard-1.9.0.tar.gz --markdown 20230629/l/lupin-grognard/1.7.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-29 09:50:43] INFO root fetch - processPackages [recurtx]: Remove: archive file [/home/abi/fetcher/tmp/recurtx-0.0.4.tar.gz]
+[2023-06-29 09:50:43] INFO root fetch - processPackages [recurtx]: Remove: archive file [/home/abi/fetcher/tmp/recurtx-0.0.5.tar.gz]
+[2023-06-29 09:50:43] INFO root fetch - main [MainThread]: End processing [recurtx]: success
+[2023-06-29 09:50:43] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.9.8.tar.gz]
+[2023-06-29 09:50:43] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.9.9.tar.gz]
+[2023-06-29 09:50:43] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-29 09:50:43] INFO root fetch - processPackages [mongeasy]: Remove: archive file [/home/abi/fetcher/tmp/mongeasy-0.2.1.tar.gz]
+[2023-06-29 09:50:43] INFO root fetch - processPackages [mongeasy]: Remove: archive file [/home/abi/fetcher/tmp/mongeasy-0.2.2.tar.gz]
+[2023-06-29 09:50:43] INFO root fetch - main [MainThread]: End processing [mongeasy]: success
+[2023-06-29 09:50:44] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-1.7.0.tar.gz]
+[2023-06-29 09:50:44] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-1.9.0.tar.gz]
+[2023-06-29 09:50:44] INFO root fetch - main [MainThread]: End processing [lupin-grognard]: success
+[2023-06-29 09:50:44] INFO root fetch - processPackages [lightdash-ops]: Remove: archive file [/home/abi/fetcher/tmp/lightdash_ops-0.1.0.tar.gz]
+[2023-06-29 09:50:44] INFO root fetch - processPackages [lightdash-ops]: Remove: archive file [/home/abi/fetcher/tmp/lightdash_ops-0.1.1.tar.gz]
+[2023-06-29 09:50:44] INFO root fetch - main [MainThread]: End processing [lightdash-ops]: success
+[2023-06-29 09:50:44] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-mpexec-26.0.0a20230400.tar.gz]
+[2023-06-29 09:50:44] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-mpexec-26.0.0a20230500.tar.gz]
+[2023-06-29 09:50:44] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-mpexec]: success
+[2023-06-29 09:50:44] INFO root fetch - processPackages [lsst-pipe-base]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pipe-base-26.0.0a20230400.tar.gz]
+[2023-06-29 09:50:44] INFO root fetch - processPackages [lsst-pipe-base]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pipe-base-26.0.0a20230500.tar.gz]
+[2023-06-29 09:50:44] INFO root fetch - main [MainThread]: End processing [lsst-pipe-base]: success
+[2023-06-29 09:50:51] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-06-29 09:50:51] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-06-29 09:50:51] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-06-29 09:50:51] INFO root fetch - main [MainThread]: Store serial: [18691656]
