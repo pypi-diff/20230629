@@ -19183,3 +19183,42 @@ AssertionError: tmp/live_parquet-0.2.0.tar.gz does not exist
 [2023-06-29 20:02:08] INFO root fetch - processPackages [datahtml]: Remove: archive file [/home/abi/fetcher/tmp/datahtml-0.4.0rc9.tar.gz]
 [2023-06-29 20:02:08] INFO root fetch - main [MainThread]: End processing [datahtml]: success
 [2023-06-29 20:02:08] INFO root fetch - main [MainThread]: Store serial: [18698867]
+[2023-06-29 20:07:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18698867]
+[2023-06-29 20:07:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-29 20:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: WIDscript
+[2023-06-29 20:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gorilla-cli
+[2023-06-29 20:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lightweight-charts
+[2023-06-29 20:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pedal
+[2023-06-29 20:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mehran-ttz
+[2023-06-29 20:07:19] INFO root fetch - processPackages [gorilla-cli]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-29 20:07:19] INFO root fetch - processPackages [lightweight-charts]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-29 20:07:19] INFO root fetch - processPackages [pedal]: New version: [2.5.3] Old Version: [2.5.2]
+[2023-06-29 20:07:19] INFO root fetch - processPackages [WIDscript]: New version: [1.3.0] Old Version: [1.2.5]
+[2023-06-29 20:07:19] INFO root fetch - processPackages [gorilla-cli]: Downloading https://files.pythonhosted.org/packages/70/1f/7b36abbbd5e1ccf6b3523fb114868727e4131932efc0ecc8905e4d68321b/gorilla-cli-0.0.7.tar.gz
+[2023-06-29 20:07:19] WARNING root fetch - processPackages [mehran-ttz]: Skipping, unable to determine old version
+[2023-06-29 20:07:19] INFO root fetch - main [MainThread]: End processing [mehran-ttz] error
+[2023-06-29 20:07:19] INFO root fetch - processPackages [lightweight-charts]: executing diffoscope
+[2023-06-29 20:07:19] INFO root fetch - processPackages [lightweight-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightweight_charts-1.0.8.tar.gz tmp/lightweight_charts-1.0.9.tar.gz --markdown 20230629/l/lightweight-charts/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-29 20:07:19] INFO root fetch - processPackages [pedal]: Downloading https://files.pythonhosted.org/packages/c2/2f/55b50cfc13ef7540d1f6bc31bdae19f6bf1edc74b51bc274b679ea741c82/pedal-2.5.2.tar.gz
+[2023-06-29 20:07:19] INFO root fetch - processPackages [WIDscript]: Downloading https://files.pythonhosted.org/packages/42/cb/e3ba7922352f0b8cbacd829f46461a8975e400b32458a76d9b2dad55d538/WIDscript-1.3.0.tar.gz
+[2023-06-29 20:07:19] INFO root fetch - processPackages [WIDscript]: executing diffoscope
+[2023-06-29 20:07:19] INFO root fetch - processPackages [WIDscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WIDscript-1.2.5.tar.gz tmp/WIDscript-1.3.0.tar.gz --markdown 20230629/W/WIDscript/1.2.5-1.3.0/diff.md --exclude *.pyd
+[2023-06-29 20:07:19] INFO root fetch - processPackages [gorilla-cli]: Downloading https://files.pythonhosted.org/packages/14/db/3f33c43b33a30e2aefa723b78ef5daa2d85faa870d86d8c7c68086fa9305/gorilla-cli-0.0.8.tar.gz
+[2023-06-29 20:07:19] INFO root fetch - processPackages [gorilla-cli]: executing diffoscope
+[2023-06-29 20:07:19] INFO root fetch - processPackages [gorilla-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gorilla-cli-0.0.7.tar.gz tmp/gorilla-cli-0.0.8.tar.gz --markdown 20230629/g/gorilla-cli/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-29 20:07:19] INFO root fetch - processPackages [pedal]: Downloading https://files.pythonhosted.org/packages/58/24/9a4e36487aa37e326577583e8367cb2d0fc5e4d84112742cd73318dd6dfc/pedal-2.5.3.tar.gz
+[2023-06-29 20:07:19] INFO root fetch - processPackages [pedal]: executing diffoscope
+[2023-06-29 20:07:19] INFO root fetch - processPackages [pedal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230629:/home/abi/fetcher/20230629:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pedal-2.5.2.tar.gz tmp/pedal-2.5.3.tar.gz --markdown 20230629/p/pedal/2.5.2-2.5.3/diff.md --exclude *.pyd
+[2023-06-29 20:07:20] INFO root fetch - processPackages [lightweight-charts]: Remove: archive file [/home/abi/fetcher/tmp/lightweight_charts-1.0.8.tar.gz]
+[2023-06-29 20:07:20] INFO root fetch - processPackages [lightweight-charts]: Remove: archive file [/home/abi/fetcher/tmp/lightweight_charts-1.0.9.tar.gz]
+[2023-06-29 20:07:20] INFO root fetch - main [MainThread]: End processing [lightweight-charts]: success
+[2023-06-29 20:07:20] INFO root fetch - processPackages [WIDscript]: Remove: archive file [/home/abi/fetcher/tmp/WIDscript-1.2.5.tar.gz]
+[2023-06-29 20:07:20] INFO root fetch - processPackages [WIDscript]: Remove: archive file [/home/abi/fetcher/tmp/WIDscript-1.3.0.tar.gz]
+[2023-06-29 20:07:20] INFO root fetch - main [MainThread]: End processing [WIDscript]: success
+[2023-06-29 20:07:20] INFO root fetch - processPackages [gorilla-cli]: Remove: archive file [/home/abi/fetcher/tmp/gorilla-cli-0.0.7.tar.gz]
+[2023-06-29 20:07:20] INFO root fetch - processPackages [gorilla-cli]: Remove: archive file [/home/abi/fetcher/tmp/gorilla-cli-0.0.8.tar.gz]
+[2023-06-29 20:07:20] INFO root fetch - main [MainThread]: End processing [gorilla-cli]: success
+[2023-06-29 20:07:22] INFO root fetch - processPackages [pedal]: Remove: archive file [/home/abi/fetcher/tmp/pedal-2.5.2.tar.gz]
+[2023-06-29 20:07:22] INFO root fetch - processPackages [pedal]: Remove: archive file [/home/abi/fetcher/tmp/pedal-2.5.3.tar.gz]
+[2023-06-29 20:07:22] INFO root fetch - main [MainThread]: End processing [pedal]: success
+[2023-06-29 20:07:22] INFO root fetch - main [MainThread]: Store serial: [18698883]
